@@ -1,10 +1,10 @@
 import os
 import json
-from google import genai
+import google.generativeai as genai
 from datetime import datetime, timezone
 
 # --- Initialize Gemini client ---
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # --- Load old questions (if available) ---
 exclusions = []
@@ -46,10 +46,7 @@ Format the output strictly as JSON in this structure:
 """
 
 # --- Call Gemini ---
-response = client.models.generate_content(
-    model="gemini-2.5-flash",
-    contents=prompt
-)
+response = genai.GenerativeModel("gemini-2.5-flash").generate_content(prompt)
 
 content = response.text.strip()
 
