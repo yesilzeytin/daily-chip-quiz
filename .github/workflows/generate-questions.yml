@@ -19,7 +19,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install --upgrade google-generativeai
+        run: |
+          pip install --upgrade pip
+          pip install --upgrade google-generativeai python-dotenv
 
       - name: Run fetch_questions.py
         env:
