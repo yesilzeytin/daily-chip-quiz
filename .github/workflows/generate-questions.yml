@@ -47,3 +47,5 @@ jobs:
           git add questions.json
           git commit -m "Update daily quiz questions [skip ci]" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
