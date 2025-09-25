@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "What does CMOS stand for in the context of digital integrated circuits?",
+      "options": [
+        "Complementary Metal-Oxide-Semiconductor",
+        "Central Memory Operation System",
+        "Current Mode Output Source",
+        "Charged Metal Oxide Semiconductor",
+        "Capacitor Mode Operating Signal"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary objective of the 'Synthesis' stage in a typical ASIC design flow?",
+      "options": [
+        "To convert a Register Transfer Level (RTL) description into a gate-level netlist",
+        "To place standard cells onto the silicon die and connect them with wires",
+        "To generate the manufacturing masks for the fabrication process",
+        "To verify the functional correctness of the design against its specifications",
+        "To determine the optimal power delivery network for the chip"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In digital IC design, what is the main purpose of Static Timing Analysis (STA)?",
+      "options": [
+        "To ensure that all signals propagate within the specified clock period, meeting setup and hold times",
+        "To verify the logical equivalence between the RTL description and the gate-level netlist",
+        "To detect physical design rule violations (DRC) in the layout",
+        "To optimize the power consumption of combinational logic gates",
+        "To generate test vectors for manufacturing fault detection"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following techniques best describes 'power gating' in low-power digital IC design?",
+      "options": [
+        "Shutting off power to inactive functional blocks by disconnecting their power supply rails",
+        "Dynamically scaling the operating voltage and frequency (DVFS) of active blocks based on workload",
+        "Using smaller transistor sizes in non-critical paths to reduce dynamic power dissipation",
+        "Implementing clock gating to prevent unnecessary clock toggling in registers",
+        "Utilizing multiple threshold voltage (MT-Vt) cells to reduce static leakage current"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the fundamental difference between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA) concerning their core nature?",
+      "options": [
+        "ASICs are custom-designed for a specific function and fabricated once for that purpose, while FPGAs are pre-manufactured, general-purpose programmable devices.",
+        "FPGAs use only combinational logic blocks, whereas ASICs predominantly rely on sequential logic circuits.",
+        "ASICs are typically programmed by the end-user in the field, while FPGAs are programmed during the semiconductor fabrication process.",
+        "FPGAs consistently offer superior performance and lower power consumption compared to ASICs for any complex digital task.",
+        "ASICs are exclusively used for analog signal processing, while FPGAs are strictly for digital applications."
+      ],
+      "correct": 0
+    }
+  ]
+}
