@@ -1,36 +1,47 @@
 name: Generate Daily Quiz Questions
 
 on:
-schedule:
-- cron: "0 0 * * *"    # every day at 00:00 UTC
-workflow_dispatch:        # allow manual run
+  schedule:
+    - cron: "0 0 * * *"   # every day at 00:00 UTC
+  workflow_dispatch:      # allow manual run
 
 jobs:
   generate-questions:
     runs-on: ubuntu-latest
-    
+
     steps:
+      # Always pull latest commit
       - name: Checkout repository
         uses: actions/checkout@v4
-    
+
+      # Fresh Python setup (no cache)
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-    
+          cache: 'none'   # <-- disables caching
+
+      # Install dependencies fresh every time
       - name: Install dependencies
         run: |
+          python -m venv venv
+          source venv/bin/activate
           pip install --upgrade pip
-          pip install --upgrade google-generativeai
-    
+          pip install --upgrade --force-reinstall google-generativeai
+
+      # Run your script
       - name: Run fetch_questions.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python fetch_questions.py
-    
+        run: |
+          source venv/bin/activate
+          python fetch_questions.py
+
+      # Commit and push updated questions.json
       - name: Commit and push questions.json
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add questions.json
-          git commit -m "
+          git commit -m "Update daily quiz questions [skip ci]" || echo "No changes to commit"
+          git push
