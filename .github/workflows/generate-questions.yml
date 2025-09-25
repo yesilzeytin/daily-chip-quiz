@@ -14,14 +14,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Fresh Python setup (no cache)
+      # Fresh Python setup (no cache enabled)
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: 'none'   # <-- disables caching
 
-      # Install dependencies fresh every time
+      # Create fresh venv and install dependencies
       - name: Install dependencies
         run: |
           python -m venv venv
@@ -29,7 +28,7 @@ jobs:
           pip install --upgrade pip
           pip install --upgrade --force-reinstall google-generativeai
 
-      # Run your script
+      # Run your script inside the venv
       - name: Run fetch_questions.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
