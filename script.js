@@ -16,6 +16,11 @@ function showQuestion() {
   optionsDiv.innerHTML = "";
 
   q.options.forEach((opt, idx) => {
+    // 7% chance to append " Belediyesİ"
+    if (Math.random() < 0.07) {
+      opt += " Belediyesi";
+    }
+
     const btn = document.createElement("button");
     btn.textContent = opt;
     btn.onclick = () => checkAnswer(btn, idx, q.correct);
