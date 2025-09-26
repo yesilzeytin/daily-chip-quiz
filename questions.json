@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does CMOS stand for in the context of digital integrated circuits?",
+      "question": "What is the primary goal of the 'Placement' stage in the physical design flow of a digital Integrated Circuit (IC)?",
       "options": [
-        "Complementary Metal-Oxide-Semiconductor",
-        "Central Memory Operation System",
-        "Current Mode Output Source",
-        "Charged Metal Oxide Semiconductor",
-        "Capacitor Mode Operating Signal"
+        "To assign all logical gates and macros from the netlist to specific physical locations on the chip area.",
+        "To generate the optimal clock distribution network across the chip to minimize skew.",
+        "To perform detailed routing of all signal interconnections between placed components.",
+        "To convert the Register Transfer Level (RTL) design into a gate-level netlist.",
+        "To verify the functional correctness of the design against specifications."
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary objective of the 'Synthesis' stage in a typical ASIC design flow?",
+      "question": "In synchronous digital circuit design, 'setup time' refers to the minimum time period required for:",
       "options": [
-        "To convert a Register Transfer Level (RTL) description into a gate-level netlist",
-        "To place standard cells onto the silicon die and connect them with wires",
-        "To generate the manufacturing masks for the fabrication process",
-        "To verify the functional correctness of the design against its specifications",
-        "To determine the optimal power delivery network for the chip"
+        "The data input to a flip-flop to be stable *before* the active (e.g., rising) edge of the clock signal arrives.",
+        "The data input to a flip-flop to remain stable *after* the active (e.g., rising) edge of the clock signal has passed.",
+        "The clock signal to propagate from its source to all sequential elements within the circuit.",
+        "The output of a combinational logic block to become stable after its inputs have changed.",
+        "The reset signal to be asserted and de-asserted before the circuit can begin normal operation."
       ],
       "correct": 0
     },
     {
-      "question": "In digital IC design, what is the main purpose of Static Timing Analysis (STA)?",
+      "question": "What is the primary benefit of incorporating 'scan chains' into a digital IC design?",
       "options": [
-        "To ensure that all signals propagate within the specified clock period, meeting setup and hold times",
-        "To verify the logical equivalence between the RTL description and the gate-level netlist",
-        "To detect physical design rule violations (DRC) in the layout",
-        "To optimize the power consumption of combinational logic gates",
-        "To generate test vectors for manufacturing fault detection"
+        "To reduce the dynamic power consumption of the chip during normal operation.",
+        "To enable high-speed functional verification of complex arithmetic units.",
+        "To facilitate automatic test pattern generation (ATPG) and improve the detection of manufacturing defects.",
+        "To improve signal integrity on critical paths by reducing crosstalk and noise.",
+        "To synchronize data transfer between different clock domains efficiently."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "Which of the following techniques best describes 'power gating' in low-power digital IC design?",
+      "question": "To safely transfer multi-bit data between two asynchronous clock domains, which of the following mechanisms is typically employed to prevent metastability and ensure data integrity?",
       "options": [
-        "Shutting off power to inactive functional blocks by disconnecting their power supply rails",
-        "Dynamically scaling the operating voltage and frequency (DVFS) of active blocks based on workload",
-        "Using smaller transistor sizes in non-critical paths to reduce dynamic power dissipation",
-        "Implementing clock gating to prevent unnecessary clock toggling in registers",
-        "Utilizing multiple threshold voltage (MT-Vt) cells to reduce static leakage current"
+        "A single flip-flop synchronizer followed by a combinatorial logic block.",
+        "A pulse synchronizer using a sequence of logic gates to stretch the data pulse.",
+        "A FIFO (First-In, First-Out) buffer with appropriate handshake signals (e.g., full/empty flags) and dual-port memory.",
+        "A simple inverter chain to delay the data signal and align it with the destination clock.",
+        "An XOR gate array to detect data corruption and retransmit."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "What is the fundamental difference between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA) concerning their core nature?",
+      "question": "In digital CMOS circuits, which of the following is the primary contributor to *dynamic* power dissipation?",
       "options": [
-        "ASICs are custom-designed for a specific function and fabricated once for that purpose, while FPGAs are pre-manufactured, general-purpose programmable devices.",
-        "FPGAs use only combinational logic blocks, whereas ASICs predominantly rely on sequential logic circuits.",
-        "ASICs are typically programmed by the end-user in the field, while FPGAs are programmed during the semiconductor fabrication process.",
-        "FPGAs consistently offer superior performance and lower power consumption compared to ASICs for any complex digital task.",
-        "ASICs are exclusively used for analog signal processing, while FPGAs are strictly for digital applications."
+        "Leakage current through OFF-state transistors (subthreshold leakage).",
+        "Short-circuit current that flows momentarily from power to ground during transistor switching transitions.",
+        "Power consumed by retaining data in static memory cells (e.g., SRAM).",
+        "Capacitive switching power, caused by charging and discharging load capacitances.",
+        "Static current drawn by pull-up resistors in open-drain configurations."
       ],
-      "correct": 0
+      "correct": 3
     }
   ]
 }
