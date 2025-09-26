@@ -18,11 +18,12 @@ if os.path.exists("questions.json"):
 
 # --- Build prompt ---
 prompt = f"""
-Generate 5 multiple-choice questions about chip design and digital IC design. 
+Generate 5 multiple-choice questions about chip design, digital IC design, and computer architecture. 
 - Each question should have exactly 5 answer choices.
 - Provide the correct answer clearly marked.
 - Make sure questions vary in difficulty (easy to advanced).
 - Most questions should be conceptual (not coding challenges).
+- Correct answer can be any option between the 5 options provided.
 - Do NOT repeat or closely paraphrase any of these previous questions:
 {json.dumps(exclusions, indent=2)}
 
