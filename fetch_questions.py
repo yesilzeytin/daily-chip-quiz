@@ -1,20 +1,20 @@
 import os
 import json
+import random
 import google.generativeai as genai
 from datetime import datetime, timezone
 
 # --- Initialize Gemini client ---
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
-# --- Load old questions (if available) ---
+# --- Load exclusion list (past_questions.json) ---
 exclusions = []
-if os.path.exists("questions.json"):
+if os.path.exists("past_questions.json"):
     try:
-        with open("questions.json", "r", encoding="utf-8") as f:
-            old_data = json.load(f)
-            exclusions = [q["question"] for q in old_data.get("questions", [])]
+        with open("past_questions.json", "r", encoding="utf-8") as f:
+            exclusions = json.load(f)
     except Exception as e:
-        print(f"⚠️ Could not load old questions: {e}")
+        print(f"⚠️ Could not load past questions: {e}")
 
 # --- Build prompt ---
 prompt = f"""
@@ -48,7 +48,6 @@ Format the output strictly as JSON in this structure:
 
 # --- Call Gemini ---
 response = genai.GenerativeModel("gemini-2.5-flash").generate_content(prompt)
-
 content = response.text.strip()
 
 # --- Clean Markdown fences if model wrapped in ```json ... ``` ---
@@ -70,8 +69,29 @@ except json.JSONDecodeError as e:
     print("--------------------\n")
     raise ValueError(f"Gemini returned invalid JSON. Error: {e}") from e
 
-# --- Save to file ---
+# --- Save new questions ---
 with open("questions.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
 print("✅ Saved new questions.json at", datetime.now(timezone.utc).isoformat())
+
+# --- Update exclusion list (rolling 50 max) ---
+new_questions = [q["question"] for q in data.get("questions", [])]
+
+if exclusions:
+    # if already at max, replace random ones
+    total_needed = len(exclusions) + len(new_questions)
+    if total_needed > 50:
+        to_remove = total_needed - 50
+        for _ in range(to_remove):
+            if exclusions:
+                exclusions.pop(random.randrange(len(exclusions)))
+
+# add fresh questions
+exclusions.extend(new_questions)
+
+# save back
+with open("past_questions.json", "w", encoding="utf-8") as f:
+    json.dump(exclusions, f, indent=2, ensure_ascii=False)
+
+print(f"📦 Updated past_questions.json (total stored: {len(exclusions)})")
