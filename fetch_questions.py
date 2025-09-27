@@ -1,6 +1,5 @@
 import os
 import json
-import random
 import google.generativeai as genai
 from datetime import datetime, timezone
 
@@ -9,12 +8,22 @@ genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # --- Load exclusion list (past_questions.json) ---
 exclusions = []
-if os.path.exists("past_questions.json"):
+past_file = "past_questions.json"
+
+if os.path.exists(past_file):
     try:
-        with open("past_questions.json", "r", encoding="utf-8") as f:
+        with open(past_file, "r", encoding="utf-8") as f:
             exclusions = json.load(f)
+            if not isinstance(exclusions, list):
+                print("⚠️ past_questions.json was invalid, resetting.")
+                exclusions = []
     except Exception as e:
-        print(f"⚠️ Could not load past questions: {e}")
+        print(f"⚠️ Could not load past_questions.json: {e}")
+        exclusions = []
+else:
+    # Create empty file for first run
+    with open(past_file, "w", encoding="utf-8") as f:
+        json.dump([], f)
 
 # --- Build prompt ---
 prompt = f"""
@@ -75,23 +84,15 @@ with open("questions.json", "w", encoding="utf-8") as f:
 
 print("✅ Saved new questions.json at", datetime.now(timezone.utc).isoformat())
 
-# --- Update exclusion list (rolling 50 max) ---
+# --- Update past_questions.json (FIFO, max 50) ---
 new_questions = [q["question"] for q in data.get("questions", [])]
-
-if exclusions:
-    # if already at max, replace random ones
-    total_needed = len(exclusions) + len(new_questions)
-    if total_needed > 50:
-        to_remove = total_needed - 50
-        for _ in range(to_remove):
-            if exclusions:
-                exclusions.pop(random.randrange(len(exclusions)))
-
-# add fresh questions
 exclusions.extend(new_questions)
 
-# save back
-with open("past_questions.json", "w", encoding="utf-8") as f:
+# Keep only last 50 (drop oldest first)
+if len(exclusions) > 50:
+    exclusions = exclusions[-50:]
+
+with open(past_file, "w", encoding="utf-8") as f:
     json.dump(exclusions, f, indent=2, ensure_ascii=False)
 
-print(f"📦 Updated past_questions.json (total stored: {len(exclusions)})")
+print(f"📦 past_questions.json updated (total stored: {len(exclusions)})")
