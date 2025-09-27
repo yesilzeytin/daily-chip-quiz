@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of a Hardware Description Language (HDL) like VHDL or Verilog in digital IC design?",
+      "question": "What is the primary role of a clock signal in synchronous digital circuits?",
       "options": [
-        "To compile software programs for microcontrollers.",
-        "To describe the behavior and structure of digital circuits.",
-        "To perform physical layout and routing automatically.",
-        "To simulate analog circuit performance.",
-        "To manage project timelines and resources."
+        "To synchronize operations and data transfers across different components.",
+        "To provide power to the circuit's active components.",
+        "To amplify logic signals for reliable transmission.",
+        "To filter out unwanted noise from input signals.",
+        "To generate random numbers for cryptographic applications."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following statements best describes the typical hierarchy and characteristics of L1, L2, and L3 cache memories in a modern CPU architecture?",
+      "options": [
+        "L1 is the smallest and fastest cache, while L3 is the largest and slowest, but still much faster than main memory.",
+        "L1 is the largest and slowest cache, acting as a buffer for L2 and L3, which are faster.",
+        "All cache levels (L1, L2, L3) typically have the same size, speed, and latency characteristics.",
+        "L1 cache is primarily used by the GPU, while L2 and L3 are dedicated to the CPU.",
+        "L3 cache is always off-chip, while L1 and L2 are integrated directly into the CPU core."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the standard ASIC (Application-Specific Integrated Circuit) design flow, what is the primary output of the logic synthesis phase?",
+      "options": [
+        "A gate-level netlist, which is a structural description of the circuit using standard cells from a technology library.",
+        "A high-level behavioral description written in Hardware Description Languages (HDL) like Verilog or VHDL.",
+        "The final GDSII file, which contains all the geometric information needed for chip manufacturing.",
+        "A detailed report on the power consumption and thermal profile of the proposed design.",
+        "A compiled executable software program that runs on the target hardware."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary benefit of speculative execution in modern out-of-order processors?",
+      "options": [
+        "To reduce the overall power consumption of the processor by shutting down idle units.",
+        "To prefetch data from main memory into the cache before it is explicitly requested.",
+        "To improve instruction-level parallelism by executing instructions before their actual need or outcome is definitively confirmed.",
+        "To prevent unauthorized access to sensitive data within the CPU's registers.",
+        "To ensure that all instructions are completed strictly in the original program order, regardless of data dependencies."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary purpose of Automatic Test Pattern Generation (ATPG) in the context of digital IC design and manufacturing?",
+      "options": [
+        "To automatically convert high-level C++ or Python code into a synthesizable RTL description.",
+        "To generate a set of test vectors (input patterns) that can detect potential manufacturing defects (faults) in the fabricated silicon chip.",
+        "To simulate the functional behavior of a circuit at various abstraction levels (e.g., behavioral, RTL, gate-level).",
+        "To optimize the physical placement and routing of standard cells on the chip floorplan.",
+        "To perform formal verification, proving the correctness of a design against a specification using mathematical methods."
       ],
       "correct": 1
-    },
-    {
-      "question": "In the context of digital IC design, what is the main objective of Static Timing Analysis (STA)?",
-      "options": [
-        "To simulate the power consumption of the entire chip under various workloads.",
-        "To verify the functional correctness of the design by applying test vectors.",
-        "To identify all potential signal integrity issues like crosstalk.",
-        "To ensure that all timing constraints (e.g., setup and hold times) are met without running dynamic simulations.",
-        "To determine the optimal placement of standard cells on the silicon."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is the primary benefit of implementing branch prediction in a pipelined processor?",
-      "options": [
-        "To reduce the overall power consumption of the CPU.",
-        "To minimize the number of functional units required in the execution stage.",
-        "To prevent data hazards by reordering instructions.",
-        "To avoid pipeline stalls caused by control hazards when encountering conditional branches.",
-        "To increase the overall memory bandwidth for data fetching."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In modern ASIC design, what is the main purpose of 'power gating' techniques?",
-      "options": [
-        "To precisely control the operating voltage of individual logic gates.",
-        "To detect and mitigate transient voltage spikes on the power delivery network.",
-        "To completely shut off power to inactive parts of the chip, reducing static and dynamic power consumption.",
-        "To distribute power and ground signals evenly across the chip area.",
-        "To optimize the clock tree network for minimal skew."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What defines an Instruction Set Architecture (ISA)?",
-      "options": [
-        "The physical layout and pinout of a microprocessor package.",
-        "The complete set of micro-operations executed by the CPU's control unit.",
-        "The abstract interface between the hardware and the lowest-level software, specifying instructions, registers, and memory model.",
-        "The specific technology used to fabricate the processor (e.g., CMOS, FinFET).",
-        "The speed at which instructions are fetched, decoded, and executed."
-      ],
-      "correct": 2
     }
   ]
 }
