@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary goal of the 'Placement' stage in the physical design flow of a digital Integrated Circuit (IC)?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic design?",
       "options": [
-        "To assign all logical gates and macros from the netlist to specific physical locations on the chip area.",
-        "To generate the optimal clock distribution network across the chip to minimize skew.",
-        "To perform detailed routing of all signal interconnections between placed components.",
-        "To convert the Register Transfer Level (RTL) design into a gate-level netlist.",
-        "To verify the functional correctness of the design against specifications."
+        "To select one of several input signals and route it to a single output.",
+        "To store a single bit of data.",
+        "To perform arithmetic operations like addition or subtraction.",
+        "To generate a clock signal.",
+        "To convert parallel data to serial data."
       ],
       "correct": 0
     },
     {
-      "question": "In synchronous digital circuit design, 'setup time' refers to the minimum time period required for:",
+      "question": "In a multi-processor system with private caches, which of the following protocols is commonly used to maintain consistency of data across multiple caches and main memory?",
       "options": [
-        "The data input to a flip-flop to be stable *before* the active (e.g., rising) edge of the clock signal arrives.",
-        "The data input to a flip-flop to remain stable *after* the active (e.g., rising) edge of the clock signal has passed.",
-        "The clock signal to propagate from its source to all sequential elements within the circuit.",
-        "The output of a combinational logic block to become stable after its inputs have changed.",
-        "The reset signal to be asserted and de-asserted before the circuit can begin normal operation."
+        "RAID (Redundant Array of Independent Disks)",
+        "MESI (Modified, Exclusive, Shared, Invalid)",
+        "TCP/IP (Transmission Control Protocol/Internet Protocol)",
+        "UART (Universal Asynchronous Receiver-Transmitter)",
+        "SPI (Serial Peripheral Interface)"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "What is the primary benefit of incorporating 'scan chains' into a digital IC design?",
+      "question": "During the digital IC design flow, what is the main output of the logic synthesis stage?",
       "options": [
-        "To reduce the dynamic power consumption of the chip during normal operation.",
-        "To enable high-speed functional verification of complex arithmetic units.",
-        "To facilitate automatic test pattern generation (ATPG) and improve the detection of manufacturing defects.",
-        "To improve signal integrity on critical paths by reducing crosstalk and noise.",
-        "To synchronize data transfer between different clock domains efficiently."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "To safely transfer multi-bit data between two asynchronous clock domains, which of the following mechanisms is typically employed to prevent metastability and ensure data integrity?",
-      "options": [
-        "A single flip-flop synchronizer followed by a combinatorial logic block.",
-        "A pulse synchronizer using a sequence of logic gates to stretch the data pulse.",
-        "A FIFO (First-In, First-Out) buffer with appropriate handshake signals (e.g., full/empty flags) and dual-port memory.",
-        "A simple inverter chain to delay the data signal and align it with the destination clock.",
-        "An XOR gate array to detect data corruption and retransmit."
+        "A technology-independent Register Transfer Level (RTL) description.",
+        "A GDSII layout file for manufacturing.",
+        "An optimized, technology-mapped gate-level netlist.",
+        "A set of test vectors for functional verification.",
+        "A power analysis report."
       ],
       "correct": 2
     },
     {
-      "question": "In digital CMOS circuits, which of the following is the primary contributor to *dynamic* power dissipation?",
+      "question": "In a pipelined processor, a 'data hazard' occurs when an instruction needs data that has not yet been produced by a prior instruction. Which technique is most commonly employed to reduce the performance impact of such hazards without stalling the pipeline completely?",
       "options": [
-        "Leakage current through OFF-state transistors (subthreshold leakage).",
-        "Short-circuit current that flows momentarily from power to ground during transistor switching transitions.",
-        "Power consumed by retaining data in static memory cells (e.g., SRAM).",
-        "Capacitive switching power, caused by charging and discharging load capacitances.",
-        "Static current drawn by pull-up resistors in open-drain configurations."
+        "Implementing a larger instruction cache.",
+        "Increasing the clock frequency.",
+        "Forwarding (or Bypassing)",
+        "Using a deeper pipeline.",
+        "Eliminating branch prediction."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the physical design stage of an ASIC, Clock Tree Synthesis (CTS) is a critical step. What is its primary objective?",
+      "options": [
+        "To reduce the total number of standard cells in the design.",
+        "To optimize the power consumption of the core logic.",
+        "To convert the gate-level netlist into a GDSII layout.",
+        "To minimize clock skew and achieve desired clock latency at all sequential elements.",
+        "To generate an optimal floorplan for the chip."
       ],
       "correct": 3
     }
