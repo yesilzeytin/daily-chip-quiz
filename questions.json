@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic design?",
+      "question": "What is the primary role of a Hardware Description Language (HDL) like VHDL or Verilog in digital IC design?",
       "options": [
-        "To select one of several input signals and route it to a single output.",
-        "To store a single bit of data.",
-        "To perform arithmetic operations like addition or subtraction.",
-        "To generate a clock signal.",
-        "To convert parallel data to serial data."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a multi-processor system with private caches, which of the following protocols is commonly used to maintain consistency of data across multiple caches and main memory?",
-      "options": [
-        "RAID (Redundant Array of Independent Disks)",
-        "MESI (Modified, Exclusive, Shared, Invalid)",
-        "TCP/IP (Transmission Control Protocol/Internet Protocol)",
-        "UART (Universal Asynchronous Receiver-Transmitter)",
-        "SPI (Serial Peripheral Interface)"
+        "To compile software programs for microcontrollers.",
+        "To describe the behavior and structure of digital circuits.",
+        "To perform physical layout and routing automatically.",
+        "To simulate analog circuit performance.",
+        "To manage project timelines and resources."
       ],
       "correct": 1
     },
     {
-      "question": "During the digital IC design flow, what is the main output of the logic synthesis stage?",
+      "question": "In the context of digital IC design, what is the main objective of Static Timing Analysis (STA)?",
       "options": [
-        "A technology-independent Register Transfer Level (RTL) description.",
-        "A GDSII layout file for manufacturing.",
-        "An optimized, technology-mapped gate-level netlist.",
-        "A set of test vectors for functional verification.",
-        "A power analysis report."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a pipelined processor, a 'data hazard' occurs when an instruction needs data that has not yet been produced by a prior instruction. Which technique is most commonly employed to reduce the performance impact of such hazards without stalling the pipeline completely?",
-      "options": [
-        "Implementing a larger instruction cache.",
-        "Increasing the clock frequency.",
-        "Forwarding (or Bypassing)",
-        "Using a deeper pipeline.",
-        "Eliminating branch prediction."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical design stage of an ASIC, Clock Tree Synthesis (CTS) is a critical step. What is its primary objective?",
-      "options": [
-        "To reduce the total number of standard cells in the design.",
-        "To optimize the power consumption of the core logic.",
-        "To convert the gate-level netlist into a GDSII layout.",
-        "To minimize clock skew and achieve desired clock latency at all sequential elements.",
-        "To generate an optimal floorplan for the chip."
+        "To simulate the power consumption of the entire chip under various workloads.",
+        "To verify the functional correctness of the design by applying test vectors.",
+        "To identify all potential signal integrity issues like crosstalk.",
+        "To ensure that all timing constraints (e.g., setup and hold times) are met without running dynamic simulations.",
+        "To determine the optimal placement of standard cells on the silicon."
       ],
       "correct": 3
+    },
+    {
+      "question": "What is the primary benefit of implementing branch prediction in a pipelined processor?",
+      "options": [
+        "To reduce the overall power consumption of the CPU.",
+        "To minimize the number of functional units required in the execution stage.",
+        "To prevent data hazards by reordering instructions.",
+        "To avoid pipeline stalls caused by control hazards when encountering conditional branches.",
+        "To increase the overall memory bandwidth for data fetching."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In modern ASIC design, what is the main purpose of 'power gating' techniques?",
+      "options": [
+        "To precisely control the operating voltage of individual logic gates.",
+        "To detect and mitigate transient voltage spikes on the power delivery network.",
+        "To completely shut off power to inactive parts of the chip, reducing static and dynamic power consumption.",
+        "To distribute power and ground signals evenly across the chip area.",
+        "To optimize the clock tree network for minimal skew."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What defines an Instruction Set Architecture (ISA)?",
+      "options": [
+        "The physical layout and pinout of a microprocessor package.",
+        "The complete set of micro-operations executed by the CPU's control unit.",
+        "The abstract interface between the hardware and the lowest-level software, specifying instructions, registers, and memory model.",
+        "The specific technology used to fabricate the processor (e.g., CMOS, FinFET).",
+        "The speed at which instructions are fetched, decoded, and executed."
+      ],
+      "correct": 2
     }
   ]
 }
