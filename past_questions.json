@@ -1,1 +1,7 @@
-
+[
+  "In the typical digital IC design flow, what is the primary role of a 'synthesizer' tool?",
+  "What is the primary purpose of a cache memory in a computer system?",
+  "What is the main advantage of using a formal verification approach over extensive simulation for digital circuit validation?",
+  "Which of the following techniques primarily leverages the principle of *temporal locality* and *spatial locality* to improve memory system performance?",
+  "In the context of chip layout and fabrication, what is the primary purpose of 'design rules' (e.g., minimum width, minimum spacing)?"
+]

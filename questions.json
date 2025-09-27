@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of a clock signal in synchronous digital circuits?",
+      "question": "In the typical digital IC design flow, what is the primary role of a 'synthesizer' tool?",
       "options": [
-        "To synchronize operations and data transfers across different components.",
-        "To provide power to the circuit's active components.",
-        "To amplify logic signals for reliable transmission.",
-        "To filter out unwanted noise from input signals.",
-        "To generate random numbers for cryptographic applications."
+        "Translating RTL code into a gate-level netlist.",
+        "Verifying the functionality of the circuit using test vectors.",
+        "Placing and routing physical cells on the silicon.",
+        "Generating the final GDSII file for fabrication.",
+        "Simulating the analog characteristics of the transistors."
       ],
       "correct": 0
     },
     {
-      "question": "Which of the following statements best describes the typical hierarchy and characteristics of L1, L2, and L3 cache memories in a modern CPU architecture?",
+      "question": "What is the primary purpose of a cache memory in a computer system?",
       "options": [
-        "L1 is the smallest and fastest cache, while L3 is the largest and slowest, but still much faster than main memory.",
-        "L1 is the largest and slowest cache, acting as a buffer for L2 and L3, which are faster.",
-        "All cache levels (L1, L2, L3) typically have the same size, speed, and latency characteristics.",
-        "L1 cache is primarily used by the GPU, while L2 and L3 are dedicated to the CPU.",
-        "L3 cache is always off-chip, while L1 and L2 are integrated directly into the CPU core."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the standard ASIC (Application-Specific Integrated Circuit) design flow, what is the primary output of the logic synthesis phase?",
-      "options": [
-        "A gate-level netlist, which is a structural description of the circuit using standard cells from a technology library.",
-        "A high-level behavioral description written in Hardware Description Languages (HDL) like Verilog or VHDL.",
-        "The final GDSII file, which contains all the geometric information needed for chip manufacturing.",
-        "A detailed report on the power consumption and thermal profile of the proposed design.",
-        "A compiled executable software program that runs on the target hardware."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What is the primary benefit of speculative execution in modern out-of-order processors?",
-      "options": [
-        "To reduce the overall power consumption of the processor by shutting down idle units.",
-        "To prefetch data from main memory into the cache before it is explicitly requested.",
-        "To improve instruction-level parallelism by executing instructions before their actual need or outcome is definitively confirmed.",
-        "To prevent unauthorized access to sensitive data within the CPU's registers.",
-        "To ensure that all instructions are completed strictly in the original program order, regardless of data dependencies."
+        "To provide non-volatile storage for permanent data.",
+        "To increase the total storage capacity of the system.",
+        "To reduce the average memory access time by storing frequently used data closer to the CPU.",
+        "To manage virtual memory translations and page tables.",
+        "To execute arithmetic and logical operations quickly."
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary purpose of Automatic Test Pattern Generation (ATPG) in the context of digital IC design and manufacturing?",
+      "question": "What is the main advantage of using a formal verification approach over extensive simulation for digital circuit validation?",
       "options": [
-        "To automatically convert high-level C++ or Python code into a synthesizable RTL description.",
-        "To generate a set of test vectors (input patterns) that can detect potential manufacturing defects (faults) in the fabricated silicon chip.",
-        "To simulate the functional behavior of a circuit at various abstraction levels (e.g., behavioral, RTL, gate-level).",
-        "To optimize the physical placement and routing of standard cells on the chip floorplan.",
-        "To perform formal verification, proving the correctness of a design against a specification using mathematical methods."
+        "Formal verification is significantly faster to set up and run for large designs.",
+        "It can prove the absence of design errors for all possible inputs and states, rather than just observed ones.",
+        "It provides more accurate timing analysis than static timing analysis (STA).",
+        "It is primarily used for validating analog and mixed-signal components.",
+        "Formal verification tools automatically generate optimal testbenches."
       ],
       "correct": 1
+    },
+    {
+      "question": "Which of the following techniques primarily leverages the principle of *temporal locality* and *spatial locality* to improve memory system performance?",
+      "options": [
+        "Register Renaming in out-of-order execution.",
+        "Branch Prediction using a Branch Target Buffer (BTB).",
+        "Data Caching between the CPU and main memory.",
+        "Virtual Memory using a Translation Lookaside Buffer (TLB).",
+        "Multithreading for parallel execution."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of chip layout and fabrication, what is the primary purpose of 'design rules' (e.g., minimum width, minimum spacing)?",
+      "options": [
+        "To ensure the chip operates at the desired clock frequency.",
+        "To define the logical behavior of the digital gates.",
+        "To ensure the manufacturability and electrical reliability of the integrated circuit.",
+        "To optimize the power consumption of the design.",
+        "To specify the programming language for hardware description."
+      ],
+      "correct": 2
     }
   ]
 }
