@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the typical digital IC design flow, what is the primary role of a 'synthesizer' tool?",
+      "question": "Which description language is commonly used to model the behavior and structure of digital circuits at an abstract level before physical implementation?",
       "options": [
-        "Translating RTL code into a gate-level netlist.",
-        "Verifying the functionality of the circuit using test vectors.",
-        "Placing and routing physical cells on the silicon.",
-        "Generating the final GDSII file for fabrication.",
-        "Simulating the analog characteristics of the transistors."
+        "C++",
+        "Python",
+        "Assembly Language",
+        "Hardware Description Language (HDL)",
+        "SQL"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the primary benefit of instruction pipelining in a CPU?",
+      "options": [
+        "Reducing the total number of instructions in a program",
+        "Decreasing the latency of a single instruction",
+        "Increasing the clock frequency of the CPU",
+        "Improving the overall instruction throughput",
+        "Simplifying the instruction set architecture"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In digital IC design, what is the main purpose of Static Timing Analysis (STA)?",
+      "options": [
+        "To verify the functional correctness of the circuit for all possible inputs",
+        "To estimate the total power consumption of the chip under various workloads",
+        "To ensure that all timing requirements (e.g., clock frequency, setup/hold times) are met",
+        "To optimize the physical placement of standard cells on the silicon die",
+        "To generate test vectors for post-fabrication testing"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which concept addresses the problem of maintaining consistent data across multiple private caches in a multi-processor system when shared data is modified?",
+      "options": [
+        "Virtual Memory Management",
+        "Instruction Set Architecture (ISA)",
+        "Memory Paging",
+        "Cache Coherence",
+        "Branch Prediction"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What does the acronym FPGA stand for in the context of digital electronics?",
+      "options": [
+        "Field Programmable Gate Array",
+        "Fast Processing Global Accelerator",
+        "Functional Peripheral General Application",
+        "Fabrication Process Gate Algorithm",
+        "Frequency Pre-scaler Giga-Array"
       ],
       "correct": 0
-    },
-    {
-      "question": "What is the primary purpose of a cache memory in a computer system?",
-      "options": [
-        "To provide non-volatile storage for permanent data.",
-        "To increase the total storage capacity of the system.",
-        "To reduce the average memory access time by storing frequently used data closer to the CPU.",
-        "To manage virtual memory translations and page tables.",
-        "To execute arithmetic and logical operations quickly."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the main advantage of using a formal verification approach over extensive simulation for digital circuit validation?",
-      "options": [
-        "Formal verification is significantly faster to set up and run for large designs.",
-        "It can prove the absence of design errors for all possible inputs and states, rather than just observed ones.",
-        "It provides more accurate timing analysis than static timing analysis (STA).",
-        "It is primarily used for validating analog and mixed-signal components.",
-        "Formal verification tools automatically generate optimal testbenches."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which of the following techniques primarily leverages the principle of *temporal locality* and *spatial locality* to improve memory system performance?",
-      "options": [
-        "Register Renaming in out-of-order execution.",
-        "Branch Prediction using a Branch Target Buffer (BTB).",
-        "Data Caching between the CPU and main memory.",
-        "Virtual Memory using a Translation Lookaside Buffer (TLB).",
-        "Multithreading for parallel execution."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of chip layout and fabrication, what is the primary purpose of 'design rules' (e.g., minimum width, minimum spacing)?",
-      "options": [
-        "To ensure the chip operates at the desired clock frequency.",
-        "To define the logical behavior of the digital gates.",
-        "To ensure the manufacturability and electrical reliability of the integrated circuit.",
-        "To optimize the power consumption of the design.",
-        "To specify the programming language for hardware description."
-      ],
-      "correct": 2
     }
   ]
 }

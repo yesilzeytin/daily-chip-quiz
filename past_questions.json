@@ -3,5 +3,10 @@
   "What is the primary purpose of a cache memory in a computer system?",
   "What is the main advantage of using a formal verification approach over extensive simulation for digital circuit validation?",
   "Which of the following techniques primarily leverages the principle of *temporal locality* and *spatial locality* to improve memory system performance?",
-  "In the context of chip layout and fabrication, what is the primary purpose of 'design rules' (e.g., minimum width, minimum spacing)?"
+  "In the context of chip layout and fabrication, what is the primary purpose of 'design rules' (e.g., minimum width, minimum spacing)?",
+  "Which description language is commonly used to model the behavior and structure of digital circuits at an abstract level before physical implementation?",
+  "What is the primary benefit of instruction pipelining in a CPU?",
+  "In digital IC design, what is the main purpose of Static Timing Analysis (STA)?",
+  "Which concept addresses the problem of maintaining consistent data across multiple private caches in a multi-processor system when shared data is modified?",
+  "What does the acronym FPGA stand for in the context of digital electronics?"
 ]
