@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which description language is commonly used to model the behavior and structure of digital circuits at an abstract level before physical implementation?",
+      "question": "What is the fundamental building block for storing a single bit of information in most sequential digital integrated circuits?",
       "options": [
-        "C++",
-        "Python",
-        "Assembly Language",
-        "Hardware Description Language (HDL)",
-        "SQL"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is the primary benefit of instruction pipelining in a CPU?",
-      "options": [
-        "Reducing the total number of instructions in a program",
-        "Decreasing the latency of a single instruction",
-        "Increasing the clock frequency of the CPU",
-        "Improving the overall instruction throughput",
-        "Simplifying the instruction set architecture"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In digital IC design, what is the main purpose of Static Timing Analysis (STA)?",
-      "options": [
-        "To verify the functional correctness of the circuit for all possible inputs",
-        "To estimate the total power consumption of the chip under various workloads",
-        "To ensure that all timing requirements (e.g., clock frequency, setup/hold times) are met",
-        "To optimize the physical placement of standard cells on the silicon die",
-        "To generate test vectors for post-fabrication testing"
+        "AND gate",
+        "Multiplexer",
+        "Flip-flop",
+        "Decoder",
+        "Comparator"
       ],
       "correct": 2
     },
     {
-      "question": "Which concept addresses the problem of maintaining consistent data across multiple private caches in a multi-processor system when shared data is modified?",
+      "question": "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
       "options": [
-        "Virtual Memory Management",
-        "Instruction Set Architecture (ISA)",
-        "Memory Paging",
-        "Cache Coherence",
-        "Branch Prediction"
+        "ASICs are designed for general-purpose computing, while FPGAs are for specific tasks.",
+        "ASICs can be reprogrammed after manufacturing, whereas FPGAs have fixed functionality.",
+        "FPGAs allow post-manufacturing customization and have reconfigurable logic, while ASICs are custom-designed for a specific function and are fixed once manufactured.",
+        "ASICs are typically slower and consume more power than FPGAs for the same function.",
+        "FPGAs are manufactured using older process technologies compared to ASICs."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which phenomenon becomes a significant challenge in sub-nanometer technology nodes, leading to increased static power consumption even when transistors are in their \"off\" state?",
+      "options": [
+        "Electromigration",
+        "Hot Carrier Injection (HCI)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Subthreshold leakage",
+        "Dynamic IR drop"
       ],
       "correct": 3
     },
     {
-      "question": "What does the acronym FPGA stand for in the context of digital electronics?",
+      "question": "What is the primary function of a Branch Prediction Unit in a modern pipelined CPU architecture?",
       "options": [
-        "Field Programmable Gate Array",
-        "Fast Processing Global Accelerator",
-        "Functional Peripheral General Application",
-        "Fabrication Process Gate Algorithm",
-        "Frequency Pre-scaler Giga-Array"
+        "To resolve data hazards by forwarding results between pipeline stages.",
+        "To determine which instruction should be fetched next in the instruction stream, especially for conditional branches.",
+        "To manage the CPU's interaction with the main memory and I/O devices.",
+        "To perform arithmetic and logical operations on data.",
+        "To allocate resources and schedule instructions for out-of-order execution."
       ],
-      "correct": 0
+      "correct": 1
+    },
+    {
+      "question": "In the physical design phase of a digital integrated circuit, what is the main objective of \"floorplanning\"?",
+      "options": [
+        "To verify the logical correctness of the circuit against its specification.",
+        "To translate the Register-Transfer Level (RTL) description into a gate-level netlist.",
+        "To arrange the major functional blocks (e.g., CPU core, memory blocks, I/O pads) on the silicon die, defining their approximate size and placement.",
+        "To optimize the power network by adding decoupling capacitors and power straps.",
+        "To convert the gate-level netlist into a geometric layout of transistors and interconnects."
+      ],
+      "correct": 2
     }
   ]
 }

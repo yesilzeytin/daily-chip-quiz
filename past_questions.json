@@ -8,5 +8,10 @@
   "What is the primary benefit of instruction pipelining in a CPU?",
   "In digital IC design, what is the main purpose of Static Timing Analysis (STA)?",
   "Which concept addresses the problem of maintaining consistent data across multiple private caches in a multi-processor system when shared data is modified?",
-  "What does the acronym FPGA stand for in the context of digital electronics?"
+  "What does the acronym FPGA stand for in the context of digital electronics?",
+  "What is the fundamental building block for storing a single bit of information in most sequential digital integrated circuits?",
+  "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
+  "Which phenomenon becomes a significant challenge in sub-nanometer technology nodes, leading to increased static power consumption even when transistors are in their \"off\" state?",
+  "What is the primary function of a Branch Prediction Unit in a modern pipelined CPU architecture?",
+  "In the physical design phase of a digital integrated circuit, what is the main objective of \"floorplanning\"?"
 ]
