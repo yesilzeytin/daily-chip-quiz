@@ -64,6 +64,8 @@ function showResult() {
     shareText += correct ? "🟩" : "⬛";
   });
   shareText += "\n";
+  shareText += "Play here: https://yesilzeytin.github.io/daily-chip-quiz/";
+  shareText += "\n";
 
   document.getElementById("quiz").innerHTML = `
     <h2>Your Score: ${score} / ${questions.length}</h2>
