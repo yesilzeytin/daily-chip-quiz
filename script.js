@@ -64,7 +64,7 @@ function showResult() {
     shareText += correct ? "🟩" : "⬛";
   });
   shareText += "\n\n";
-  shareText += "https://yesilzeytin.github.io/daily-chip-quiz//\n";
+  shareText += "https://yesilzeytin.github.io/daily-chip-quiz/\n";
 
   // store globally so the button can use it
   window.finalShareText = shareText;
@@ -76,12 +76,13 @@ function showResult() {
   `;
 }
 
-function shareResult(text) {
-  navigator.clipboard.writeText(text).then(() => {
-    alert("✅ Result copied to clipboard! Paste it anywhere to share.");
+function shareResult() {
+  navigator.clipboard.writeText(window.finalShareText).then(() => {
+    alert("✅ Result copied to clipboard! Just paste to share.");
   }).catch(err => {
-    alert("❌ Failed to copy result: " + err);
+    alert("❌ Results couldn't be copied: " + err);
   });
 }
+
 
 window.onload = loadQuestions;
