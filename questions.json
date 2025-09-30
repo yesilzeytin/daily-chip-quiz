@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block for storing a single bit of information in most sequential digital integrated circuits?",
+      "question": "Which of the following is considered a fundamental combinational logic gate?",
       "options": [
-        "AND gate",
-        "Multiplexer",
+        "NAND gate",
         "Flip-flop",
-        "Decoder",
-        "Comparator"
+        "Register",
+        "Counter",
+        "Latch"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which power optimization technique involves selectively disabling the clock signal to idle functional blocks or registers, thereby reducing dynamic power consumption?",
+      "options": [
+        "Voltage scaling",
+        "Frequency scaling",
+        "Clock gating",
+        "Body biasing",
+        "Power gating"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
+      "question": "In modern CPU architectures, what is the primary architectural technique that allows a single processor to execute multiple instructions *concurrently* by dispatching them to multiple execution units in a single clock cycle, even if they are from a single instruction stream?",
       "options": [
-        "ASICs are designed for general-purpose computing, while FPGAs are for specific tasks.",
-        "ASICs can be reprogrammed after manufacturing, whereas FPGAs have fixed functionality.",
-        "FPGAs allow post-manufacturing customization and have reconfigurable logic, while ASICs are custom-designed for a specific function and are fixed once manufactured.",
-        "ASICs are typically slower and consume more power than FPGAs for the same function.",
-        "FPGAs are manufactured using older process technologies compared to ASICs."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which phenomenon becomes a significant challenge in sub-nanometer technology nodes, leading to increased static power consumption even when transistors are in their \"off\" state?",
-      "options": [
-        "Electromigration",
-        "Hot Carrier Injection (HCI)",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Subthreshold leakage",
-        "Dynamic IR drop"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is the primary function of a Branch Prediction Unit in a modern pipelined CPU architecture?",
-      "options": [
-        "To resolve data hazards by forwarding results between pipeline stages.",
-        "To determine which instruction should be fetched next in the instruction stream, especially for conditional branches.",
-        "To manage the CPU's interaction with the main memory and I/O devices.",
-        "To perform arithmetic and logical operations on data.",
-        "To allocate resources and schedule instructions for out-of-order execution."
+        "Multithreading",
+        "Superscalar execution",
+        "Vector processing",
+        "SIMD (Single Instruction, Multiple Data)",
+        "Hyper-threading"
       ],
       "correct": 1
     },
     {
-      "question": "In the physical design phase of a digital integrated circuit, what is the main objective of \"floorplanning\"?",
+      "question": "To ensure a manufactured integrated circuit is free from manufacturing defects and operates correctly before shipment, which specialized design technique is primarily incorporated during the design phase to facilitate efficient post-silicon testing?",
       "options": [
-        "To verify the logical correctness of the circuit against its specification.",
-        "To translate the Register-Transfer Level (RTL) description into a gate-level netlist.",
-        "To arrange the major functional blocks (e.g., CPU core, memory blocks, I/O pads) on the silicon die, defining their approximate size and placement.",
-        "To optimize the power network by adding decoupling capacitors and power straps.",
-        "To convert the gate-level netlist into a geometric layout of transistors and interconnects."
+        "Static Timing Analysis (STA)",
+        "Design for Testability (DFT)",
+        "Electronic Design Automation (EDA)",
+        "Process Design Kit (PDK)",
+        "Register Transfer Level (RTL) design"
       ],
-      "correct": 2
+      "correct": 1
+    },
+    {
+      "question": "Which type of semiconductor memory is typically used for the main system memory (RAM) in personal computers and servers, characterized by its high density and requirement for periodic refresh cycles?",
+      "options": [
+        "SRAM (Static Random-Access Memory)",
+        "ROM (Read-Only Memory)",
+        "Flash Memory",
+        "DRAM (Dynamic Random-Access Memory)",
+        "EEPROM (Electrically Erasable Programmable Read-Only Memory)"
+      ],
+      "correct": 3
     }
   ]
 }

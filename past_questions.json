@@ -13,5 +13,10 @@
   "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
   "Which phenomenon becomes a significant challenge in sub-nanometer technology nodes, leading to increased static power consumption even when transistors are in their \"off\" state?",
   "What is the primary function of a Branch Prediction Unit in a modern pipelined CPU architecture?",
-  "In the physical design phase of a digital integrated circuit, what is the main objective of \"floorplanning\"?"
+  "In the physical design phase of a digital integrated circuit, what is the main objective of \"floorplanning\"?",
+  "Which of the following is considered a fundamental combinational logic gate?",
+  "Which power optimization technique involves selectively disabling the clock signal to idle functional blocks or registers, thereby reducing dynamic power consumption?",
+  "In modern CPU architectures, what is the primary architectural technique that allows a single processor to execute multiple instructions *concurrently* by dispatching them to multiple execution units in a single clock cycle, even if they are from a single instruction stream?",
+  "To ensure a manufactured integrated circuit is free from manufacturing defects and operates correctly before shipment, which specialized design technique is primarily incorporated during the design phase to facilitate efficient post-silicon testing?",
+  "Which type of semiconductor memory is typically used for the main system memory (RAM) in personal computers and servers, characterized by its high density and requirement for periodic refresh cycles?"
 ]
