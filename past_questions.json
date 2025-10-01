@@ -18,5 +18,10 @@
   "Which power optimization technique involves selectively disabling the clock signal to idle functional blocks or registers, thereby reducing dynamic power consumption?",
   "In modern CPU architectures, what is the primary architectural technique that allows a single processor to execute multiple instructions *concurrently* by dispatching them to multiple execution units in a single clock cycle, even if they are from a single instruction stream?",
   "To ensure a manufactured integrated circuit is free from manufacturing defects and operates correctly before shipment, which specialized design technique is primarily incorporated during the design phase to facilitate efficient post-silicon testing?",
-  "Which type of semiconductor memory is typically used for the main system memory (RAM) in personal computers and servers, characterized by its high density and requirement for periodic refresh cycles?"
+  "Which type of semiconductor memory is typically used for the main system memory (RAM) in personal computers and servers, characterized by its high density and requirement for periodic refresh cycles?",
+  "In digital ASIC design, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
+  "In a computer system employing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?",
+  "In advanced semiconductor manufacturing, what phenomenon describes the gradual displacement of metal atoms in an interconnect line due to momentum transfer from flowing electrons, potentially leading to open circuits or short circuits over time and reducing chip reliability?",
+  "What does the Instruction Set Architecture (ISA) primarily define for a processor?",
+  "In the context of hardware verification using languages like SystemVerilog, what is the primary role of an assertion?"
 ]

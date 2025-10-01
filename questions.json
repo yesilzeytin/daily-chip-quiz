@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which of the following is considered a fundamental combinational logic gate?",
+      "question": "In digital ASIC design, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
       "options": [
-        "NAND gate",
-        "Flip-flop",
-        "Register",
-        "Counter",
-        "Latch"
+        "Minimizing the total power consumption of the chip by shutting down idle blocks.",
+        "Balancing clock arrival times to all sequential elements to minimize clock skew and optimize clock latency.",
+        "Converting the high-level behavioral description (RTL) into a gate-level netlist.",
+        "Performing detailed placement of standard cells and macro blocks onto the silicon die.",
+        "Analyzing the functional correctness of the design through extensive simulations."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "Which power optimization technique involves selectively disabling the clock signal to idle functional blocks or registers, thereby reducing dynamic power consumption?",
+      "question": "In a computer system employing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "Voltage scaling",
-        "Frequency scaling",
-        "Clock gating",
-        "Body biasing",
-        "Power gating"
+        "To store frequently accessed data blocks from main memory, similar to an L1 data cache.",
+        "To manage the allocation and deallocation of physical memory pages in the operating system.",
+        "To act as a cache for page table entries, thereby accelerating the virtual-to-physical address translation process.",
+        "To hold speculative instruction addresses for improving branch prediction accuracy.",
+        "To buffer input/output data for peripheral devices, reducing CPU overhead."
       ],
       "correct": 2
     },
     {
-      "question": "In modern CPU architectures, what is the primary architectural technique that allows a single processor to execute multiple instructions *concurrently* by dispatching them to multiple execution units in a single clock cycle, even if they are from a single instruction stream?",
+      "question": "In advanced semiconductor manufacturing, what phenomenon describes the gradual displacement of metal atoms in an interconnect line due to momentum transfer from flowing electrons, potentially leading to open circuits or short circuits over time and reducing chip reliability?",
       "options": [
-        "Multithreading",
-        "Superscalar execution",
-        "Vector processing",
-        "SIMD (Single Instruction, Multiple Data)",
-        "Hyper-threading"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "To ensure a manufactured integrated circuit is free from manufacturing defects and operates correctly before shipment, which specialized design technique is primarily incorporated during the design phase to facilitate efficient post-silicon testing?",
-      "options": [
-        "Static Timing Analysis (STA)",
-        "Design for Testability (DFT)",
-        "Electronic Design Automation (EDA)",
-        "Process Design Kit (PDK)",
-        "Register Transfer Level (RTL) design"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which type of semiconductor memory is typically used for the main system memory (RAM) in personal computers and servers, characterized by its high density and requirement for periodic refresh cycles?",
-      "options": [
-        "SRAM (Static Random-Access Memory)",
-        "ROM (Read-Only Memory)",
-        "Flash Memory",
-        "DRAM (Dynamic Random-Access Memory)",
-        "EEPROM (Electrically Erasable Programmable Read-Only Memory)"
+        "Hot Carrier Injection (HCI)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Time-Dependent Dielectric Breakdown (TDDB)",
+        "Electromigration (EM)",
+        "Gate Oxide Breakdown (GOB)"
       ],
       "correct": 3
+    },
+    {
+      "question": "What does the Instruction Set Architecture (ISA) primarily define for a processor?",
+      "options": [
+        "The physical layout and dimensions of the processor chip.",
+        "The power consumption characteristics and thermal design power (TDP) of the CPU.",
+        "The set of instructions a processor can execute, its registers, data types, and memory addressing modes.",
+        "The number of processing cores and the size of the on-chip cache memory.",
+        "The manufacturing process technology node (e.g., 7nm, 5nm) used for fabrication."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of hardware verification using languages like SystemVerilog, what is the primary role of an assertion?",
+      "options": [
+        "To describe the physical constraints for chip layout and routing.",
+        "To convert Register Transfer Level (RTL) code into a gate-level netlist.",
+        "To specify expected behavior or properties of the design that should always hold true during simulation or formal verification.",
+        "To define the clock frequency and setup/hold time requirements for Static Timing Analysis.",
+        "To generate random stimulus and test vectors for the design under test."
+      ],
+      "correct": 2
     }
   ]
 }
