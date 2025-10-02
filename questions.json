@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital ASIC design, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
+      "question": "What is the primary material used as a semiconductor substrate in most modern integrated circuits?",
       "options": [
-        "Minimizing the total power consumption of the chip by shutting down idle blocks.",
-        "Balancing clock arrival times to all sequential elements to minimize clock skew and optimize clock latency.",
-        "Converting the high-level behavioral description (RTL) into a gate-level netlist.",
-        "Performing detailed placement of standard cells and macro blocks onto the silicon die.",
-        "Analyzing the functional correctness of the design through extensive simulations."
+        "Silicon",
+        "Germanium",
+        "Gallium Arsenide",
+        "Copper",
+        "Aluminum"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "After logical synthesis in a typical digital IC design flow, what is the primary goal of the 'placement' step?",
+      "options": [
+        "Assigning logical gates to specific physical locations on the chip layout.",
+        "Converting RTL code into a gate-level netlist.",
+        "Verifying functional correctness against high-level specifications.",
+        "Optimizing power consumption through dynamic voltage and frequency scaling.",
+        "Generating the final GDSII mask data for fabrication."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which type of memory retains its stored information even after power is removed, making it suitable for boot-up instructions and firmware in embedded systems?",
+      "options": [
+        "Dynamic Random Access Memory (DRAM)",
+        "Static Random Access Memory (SRAM)",
+        "Flash Memory",
+        "CPU Registers",
+        "Cache Memory"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In advanced pipelined CPUs utilizing out-of-order execution, what is the primary purpose of *register renaming*?",
+      "options": [
+        "To eliminate Write-After-Write (WAW) and Write-After-Read (WAR) data hazards, often referred to as 'false dependencies' or 'name dependencies'.",
+        "To reduce the total number of physical registers required by sharing them among different instruction streams.",
+        "To map logical register addresses to virtual memory addresses for improved data access.",
+        "To allow the compiler to optimize register usage by assigning new names to frequently accessed registers at compile time.",
+        "To dynamically adjust the size of registers based on the data type being processed by the ALU."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the context of modern digital IC design, what does 'On-Chip Variation (OCV)' primarily refer to, and how is it typically handled in timing analysis?",
+      "options": [
+        "OCV refers to variations in power supply voltage across the chip, handled by using multiple isolated voltage domains.",
+        "OCV refers to manufacturing process variations causing differences in gate delays and interconnect parasitics, which is typically handled by applying pessimistic derating factors in Static Timing Analysis (STA).",
+        "OCV refers to dynamic changes in workload on different functional blocks, managed by aggressive clock gating techniques.",
+        "OCV refers to electromagnetic interference from adjacent signals, mitigated by careful routing and shielding.",
+        "OCV refers to thermal hotspots on the chip, addressed by incorporating thermal sensors and dynamic frequency scaling."
       ],
       "correct": 1
-    },
-    {
-      "question": "In a computer system employing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?",
-      "options": [
-        "To store frequently accessed data blocks from main memory, similar to an L1 data cache.",
-        "To manage the allocation and deallocation of physical memory pages in the operating system.",
-        "To act as a cache for page table entries, thereby accelerating the virtual-to-physical address translation process.",
-        "To hold speculative instruction addresses for improving branch prediction accuracy.",
-        "To buffer input/output data for peripheral devices, reducing CPU overhead."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In advanced semiconductor manufacturing, what phenomenon describes the gradual displacement of metal atoms in an interconnect line due to momentum transfer from flowing electrons, potentially leading to open circuits or short circuits over time and reducing chip reliability?",
-      "options": [
-        "Hot Carrier Injection (HCI)",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Time-Dependent Dielectric Breakdown (TDDB)",
-        "Electromigration (EM)",
-        "Gate Oxide Breakdown (GOB)"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What does the Instruction Set Architecture (ISA) primarily define for a processor?",
-      "options": [
-        "The physical layout and dimensions of the processor chip.",
-        "The power consumption characteristics and thermal design power (TDP) of the CPU.",
-        "The set of instructions a processor can execute, its registers, data types, and memory addressing modes.",
-        "The number of processing cores and the size of the on-chip cache memory.",
-        "The manufacturing process technology node (e.g., 7nm, 5nm) used for fabrication."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of hardware verification using languages like SystemVerilog, what is the primary role of an assertion?",
-      "options": [
-        "To describe the physical constraints for chip layout and routing.",
-        "To convert Register Transfer Level (RTL) code into a gate-level netlist.",
-        "To specify expected behavior or properties of the design that should always hold true during simulation or formal verification.",
-        "To define the clock frequency and setup/hold time requirements for Static Timing Analysis.",
-        "To generate random stimulus and test vectors for the design under test."
-      ],
-      "correct": 2
     }
   ]
 }
