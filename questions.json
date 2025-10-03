@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary material used as a semiconductor substrate in most modern integrated circuits?",
+      "question": "What is the primary function of a Multiplexer (MUX) in digital logic circuits?",
       "options": [
-        "Silicon",
-        "Germanium",
-        "Gallium Arsenide",
-        "Copper",
-        "Aluminum"
+        "To select one of several input signals and route it to a single output.",
+        "To convert an analog signal to a digital signal.",
+        "To store a single bit of data for a clock cycle.",
+        "To amplify a digital signal for transmission.",
+        "To generate a clock signal from an oscillator."
       ],
       "correct": 0
     },
     {
-      "question": "After logical synthesis in a typical digital IC design flow, what is the primary goal of the 'placement' step?",
+      "question": "In the context of synchronous digital circuit timing, what does the 'setup time' of a flip-flop primarily refer to?",
       "options": [
-        "Assigning logical gates to specific physical locations on the chip layout.",
-        "Converting RTL code into a gate-level netlist.",
-        "Verifying functional correctness against high-level specifications.",
-        "Optimizing power consumption through dynamic voltage and frequency scaling.",
-        "Generating the final GDSII mask data for fabrication."
+        "The minimum amount of time the data input must be stable *before* the active clock edge.",
+        "The minimum amount of time the data input must be stable *after* the active clock edge.",
+        "The propagation delay from the clock input to the output.",
+        "The time required for the flip-flop to transition from one state to another.",
+        "The total time for the clock signal to propagate across the entire chip."
       ],
       "correct": 0
     },
     {
-      "question": "Which type of memory retains its stored information even after power is removed, making it suitable for boot-up instructions and firmware in embedded systems?",
+      "question": "Which architectural technique allows a processor to execute instructions out of their program order, speculatively executing operations before their control dependencies are resolved, and requires a rollback mechanism in case of mis-speculation?",
       "options": [
-        "Dynamic Random Access Memory (DRAM)",
-        "Static Random Access Memory (SRAM)",
-        "Flash Memory",
-        "CPU Registers",
-        "Cache Memory"
+        "Instruction Pipelining",
+        "Simultaneous Multi-threading (SMT)",
+        "Speculative Execution with Rollback",
+        "Vector Processing",
+        "Cache Coherence Protocol"
       ],
       "correct": 2
     },
     {
-      "question": "In advanced pipelined CPUs utilizing out-of-order execution, what is the primary purpose of *register renaming*?",
+      "question": "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
       "options": [
-        "To eliminate Write-After-Write (WAW) and Write-After-Read (WAR) data hazards, often referred to as 'false dependencies' or 'name dependencies'.",
-        "To reduce the total number of physical registers required by sharing them among different instruction streams.",
-        "To map logical register addresses to virtual memory addresses for improved data access.",
-        "To allow the compiler to optimize register usage by assigning new names to frequently accessed registers at compile time.",
-        "To dynamically adjust the size of registers based on the data type being processed by the ALU."
+        "To statically optimize the chip's power consumption at the design stage.",
+        "To ensure all functional blocks receive a perfectly synchronized clock signal.",
+        "To dynamically adjust the operating voltage and frequency of the chip to balance performance and power consumption.",
+        "To automatically detect and correct errors in memory during runtime.",
+        "To isolate critical functional blocks from noisy power rails."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In the context of modern digital IC design, what does 'On-Chip Variation (OCV)' primarily refer to, and how is it typically handled in timing analysis?",
+      "question": "In semiconductor manufacturing, what is the primary goal of \"Yield Enhancement\" techniques?",
       "options": [
-        "OCV refers to variations in power supply voltage across the chip, handled by using multiple isolated voltage domains.",
-        "OCV refers to manufacturing process variations causing differences in gate delays and interconnect parasitics, which is typically handled by applying pessimistic derating factors in Static Timing Analysis (STA).",
-        "OCV refers to dynamic changes in workload on different functional blocks, managed by aggressive clock gating techniques.",
-        "OCV refers to electromagnetic interference from adjacent signals, mitigated by careful routing and shielding.",
-        "OCV refers to thermal hotspots on the chip, addressed by incorporating thermal sensors and dynamic frequency scaling."
+        "To increase the clock frequency of the fabricated integrated circuits beyond their specified limits.",
+        "To reduce the physical size of individual transistors on the silicon die.",
+        "To maximize the number of functional, defect-free chips produced per wafer.",
+        "To improve the thermal dissipation characteristics of the chip packaging.",
+        "To facilitate the process of placing and routing components on the die."
       ],
-      "correct": 1
+      "correct": 2
     }
   ]
 }

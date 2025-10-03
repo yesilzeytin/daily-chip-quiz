@@ -28,5 +28,10 @@
   "After logical synthesis in a typical digital IC design flow, what is the primary goal of the 'placement' step?",
   "Which type of memory retains its stored information even after power is removed, making it suitable for boot-up instructions and firmware in embedded systems?",
   "In advanced pipelined CPUs utilizing out-of-order execution, what is the primary purpose of *register renaming*?",
-  "In the context of modern digital IC design, what does 'On-Chip Variation (OCV)' primarily refer to, and how is it typically handled in timing analysis?"
+  "In the context of modern digital IC design, what does 'On-Chip Variation (OCV)' primarily refer to, and how is it typically handled in timing analysis?",
+  "What is the primary function of a Multiplexer (MUX) in digital logic circuits?",
+  "In the context of synchronous digital circuit timing, what does the 'setup time' of a flip-flop primarily refer to?",
+  "Which architectural technique allows a processor to execute instructions out of their program order, speculatively executing operations before their control dependencies are resolved, and requires a rollback mechanism in case of mis-speculation?",
+  "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
+  "In semiconductor manufacturing, what is the primary goal of \"Yield Enhancement\" techniques?"
 ]
