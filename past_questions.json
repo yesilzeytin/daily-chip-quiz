@@ -33,5 +33,10 @@
   "In the context of synchronous digital circuit timing, what does the 'setup time' of a flip-flop primarily refer to?",
   "Which architectural technique allows a processor to execute instructions out of their program order, speculatively executing operations before their control dependencies are resolved, and requires a rollback mechanism in case of mis-speculation?",
   "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
-  "In semiconductor manufacturing, what is the primary goal of \"Yield Enhancement\" techniques?"
+  "In semiconductor manufacturing, what is the primary goal of \"Yield Enhancement\" techniques?",
+  "What does CMOS stand for in the context of digital integrated circuits?",
+  "As technology nodes shrink, which electrical phenomenon becomes increasingly prominent in on-chip interconnects, causing significant signal delay and power consumption, often modeled as an RC network?",
+  "In modern out-of-order processors, which architectural component is primarily responsible for reordering instructions to ensure they commit in program order, handle precise exceptions, and buffer results until commitment?",
+  "In the context of leakage power reduction at advanced technology nodes, which technique involves dynamically adjusting the threshold voltage (Vt) of transistors by varying the substrate bias (body bias) to reduce subthreshold leakage currents?",
+  "What is the primary purpose of 'Register-Transfer Level (RTL)' design in the digital IC design flow?"
 ]

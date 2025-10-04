@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a Multiplexer (MUX) in digital logic circuits?",
+      "question": "What does CMOS stand for in the context of digital integrated circuits?",
       "options": [
-        "To select one of several input signals and route it to a single output.",
-        "To convert an analog signal to a digital signal.",
-        "To store a single bit of data for a clock cycle.",
-        "To amplify a digital signal for transmission.",
-        "To generate a clock signal from an oscillator."
+        "Complementary Metal-Oxide-Semiconductor",
+        "Central Memory Operating System",
+        "Current Mode Output Signal",
+        "Charged Material On Silicon",
+        "Capacitive Modulated Output System"
       ],
       "correct": 0
     },
     {
-      "question": "In the context of synchronous digital circuit timing, what does the 'setup time' of a flip-flop primarily refer to?",
+      "question": "As technology nodes shrink, which electrical phenomenon becomes increasingly prominent in on-chip interconnects, causing significant signal delay and power consumption, often modeled as an RC network?",
       "options": [
-        "The minimum amount of time the data input must be stable *before* the active clock edge.",
-        "The minimum amount of time the data input must be stable *after* the active clock edge.",
-        "The propagation delay from the clock input to the output.",
-        "The time required for the flip-flop to transition from one state to another.",
-        "The total time for the clock signal to propagate across the entire chip."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Which architectural technique allows a processor to execute instructions out of their program order, speculatively executing operations before their control dependencies are resolved, and requires a rollback mechanism in case of mis-speculation?",
-      "options": [
-        "Instruction Pipelining",
-        "Simultaneous Multi-threading (SMT)",
-        "Speculative Execution with Rollback",
-        "Vector Processing",
-        "Cache Coherence Protocol"
+        "Electromigration",
+        "Quantum Tunneling",
+        "Interconnect Resistance-Capacitance (RC) delay",
+        "Hot Carrier Injection",
+        "Dielectric Breakdown"
       ],
       "correct": 2
     },
     {
-      "question": "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
+      "question": "In modern out-of-order processors, which architectural component is primarily responsible for reordering instructions to ensure they commit in program order, handle precise exceptions, and buffer results until commitment?",
       "options": [
-        "To statically optimize the chip's power consumption at the design stage.",
-        "To ensure all functional blocks receive a perfectly synchronized clock signal.",
-        "To dynamically adjust the operating voltage and frequency of the chip to balance performance and power consumption.",
-        "To automatically detect and correct errors in memory during runtime.",
-        "To isolate critical functional blocks from noisy power rails."
+        "Branch Prediction Unit",
+        "Instruction Cache",
+        "Reorder Buffer (ROB)",
+        "Translation Lookaside Buffer (TLB)",
+        "Arithmetic Logic Unit (ALU)"
       ],
       "correct": 2
     },
     {
-      "question": "In semiconductor manufacturing, what is the primary goal of \"Yield Enhancement\" techniques?",
+      "question": "In the context of leakage power reduction at advanced technology nodes, which technique involves dynamically adjusting the threshold voltage (Vt) of transistors by varying the substrate bias (body bias) to reduce subthreshold leakage currents?",
       "options": [
-        "To increase the clock frequency of the fabricated integrated circuits beyond their specified limits.",
-        "To reduce the physical size of individual transistors on the silicon die.",
-        "To maximize the number of functional, defect-free chips produced per wafer.",
-        "To improve the thermal dissipation characteristics of the chip packaging.",
-        "To facilitate the process of placing and routing components on the die."
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Clock Gating",
+        "Multi-Threshold Voltage (Multi-Vt) Design",
+        "Power Gating",
+        "Dynamic Body Biasing (DBB)"
       ],
-      "correct": 2
+      "correct": 4
+    },
+    {
+      "question": "What is the primary purpose of 'Register-Transfer Level (RTL)' design in the digital IC design flow?",
+      "options": [
+        "To define the exact physical layout of transistors on the chip",
+        "To describe the circuit's behavior in terms of data flow between registers and operations performed on that data",
+        "To perform analog-to-digital signal conversion for mixed-signal chips",
+        "To verify the power delivery network's integrity and robustness",
+        "To optimize the clock tree distribution for timing closure"
+      ],
+      "correct": 1
     }
   ]
 }
