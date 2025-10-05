@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does CMOS stand for in the context of digital integrated circuits?",
+      "question": "In digital logic design, what is the primary function of a decoder circuit?",
       "options": [
-        "Complementary Metal-Oxide-Semiconductor",
-        "Central Memory Operating System",
-        "Current Mode Output Signal",
-        "Charged Material On Silicon",
-        "Capacitive Modulated Output System"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "As technology nodes shrink, which electrical phenomenon becomes increasingly prominent in on-chip interconnects, causing significant signal delay and power consumption, often modeled as an RC network?",
-      "options": [
-        "Electromigration",
-        "Quantum Tunneling",
-        "Interconnect Resistance-Capacitance (RC) delay",
-        "Hot Carrier Injection",
-        "Dielectric Breakdown"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In modern out-of-order processors, which architectural component is primarily responsible for reordering instructions to ensure they commit in program order, handle precise exceptions, and buffer results until commitment?",
-      "options": [
-        "Branch Prediction Unit",
-        "Instruction Cache",
-        "Reorder Buffer (ROB)",
-        "Translation Lookaside Buffer (TLB)",
-        "Arithmetic Logic Unit (ALU)"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of leakage power reduction at advanced technology nodes, which technique involves dynamically adjusting the threshold voltage (Vt) of transistors by varying the substrate bias (body bias) to reduce subthreshold leakage currents?",
-      "options": [
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Clock Gating",
-        "Multi-Threshold Voltage (Multi-Vt) Design",
-        "Power Gating",
-        "Dynamic Body Biasing (DBB)"
-      ],
-      "correct": 4
-    },
-    {
-      "question": "What is the primary purpose of 'Register-Transfer Level (RTL)' design in the digital IC design flow?",
-      "options": [
-        "To define the exact physical layout of transistors on the chip",
-        "To describe the circuit's behavior in terms of data flow between registers and operations performed on that data",
-        "To perform analog-to-digital signal conversion for mixed-signal chips",
-        "To verify the power delivery network's integrity and robustness",
-        "To optimize the clock tree distribution for timing closure"
+        "To select one of N input lines and direct it to a single output line.",
+        "To convert a binary input code into a unique output signal corresponding to the input value.",
+        "To store a single bit of data.",
+        "To combine multiple input signals into a single output using logical OR operation.",
+        "To generate a clock signal from an internal oscillator."
       ],
       "correct": 1
+    },
+    {
+      "question": "In synchronous digital IC design, why is careful handling of Clock Domain Crossing (CDC) signals crucial for circuit correctness?",
+      "options": [
+        "To prevent excessive power consumption due to dynamic voltage scaling.",
+        "To ensure all registers are reset synchronously to the same clock edge.",
+        "To avoid metastability issues and ensure reliable data transfer between circuits operating with different clock frequencies or phases.",
+        "To reduce the total number of metal layers required for routing in the physical design.",
+        "To optimize the critical path timing and achieve higher operating frequencies."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) typically store a single bit of data?",
+      "options": [
+        "SRAM uses a magnetic field, while DRAM uses an electrical charge in a capacitor that requires periodic refreshing.",
+        "SRAM uses a bistable latch circuit, while DRAM stores charge in a capacitor that requires periodic refreshing.",
+        "SRAM uses a charge pump, while DRAM uses a non-volatile flash cell.",
+        "SRAM stores data using a network of NOR gates, while DRAM uses a series of shift registers.",
+        "SRAM relies on quantum tunneling, whereas DRAM uses electron spin."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In a modern pipelined CPU architecture, what is the primary purpose of operand forwarding (also known as bypassing)?",
+      "options": [
+        "To allow instructions to execute out-of-order and commit in-order for precise exceptions.",
+        "To predict the outcome of conditional branches and fetch instructions speculatively.",
+        "To reduce pipeline stalls by providing results of an instruction directly from an earlier pipeline stage to a dependent instruction in a later stage.",
+        "To resolve structural hazards by duplicating functional units.",
+        "To prevent cache coherence issues in multi-core systems by ensuring data consistency."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary role of Direct Memory Access (DMA) in a computer system?",
+      "options": [
+        "To translate virtual memory addresses to physical memory addresses.",
+        "To manage the allocation and deallocation of processor registers.",
+        "To allow I/O devices to transfer data directly to and from main memory without involving the CPU.",
+        "To accelerate floating-point arithmetic operations within the CPU.",
+        "To ensure data integrity by performing error correction on memory contents."
+      ],
+      "correct": 2
     }
   ]
 }
