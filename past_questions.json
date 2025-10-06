@@ -43,5 +43,10 @@
   "In synchronous digital IC design, why is careful handling of Clock Domain Crossing (CDC) signals crucial for circuit correctness?",
   "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) typically store a single bit of data?",
   "In a modern pipelined CPU architecture, what is the primary purpose of operand forwarding (also known as bypassing)?",
-  "What is the primary role of Direct Memory Access (DMA) in a computer system?"
+  "What is the primary role of Direct Memory Access (DMA) in a computer system?",
+  "In the final stages of digital integrated circuit physical design, which verification step compares the extracted netlist from the physical layout against the original gate-level or RTL netlist to ensure functional equivalence?",
+  "What is the primary characteristic of *memory-mapped I/O* in computer architecture, distinguishing it from isolated I/O?",
+  "Which widely adopted Design-for-Testability (DFT) technique involves converting most sequential elements (e.g., flip-flops) into a shift register during test mode to allow for serial loading and unloading of internal state, thereby improving fault coverage?",
+  "In a multiprocessor system, which concept defines the rules for how memory operations (reads and writes) from different processors are observed by other processors, establishing an ordering beyond just ensuring data values are consistent?",
+  "What combinational logic circuit is primarily responsible for performing arithmetic addition of two binary numbers, along with a carry-in, and producing a sum and a carry-out?"
 ]

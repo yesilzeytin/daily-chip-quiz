@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital logic design, what is the primary function of a decoder circuit?",
+      "question": "In the final stages of digital integrated circuit physical design, which verification step compares the extracted netlist from the physical layout against the original gate-level or RTL netlist to ensure functional equivalence?",
       "options": [
-        "To select one of N input lines and direct it to a single output line.",
-        "To convert a binary input code into a unique output signal corresponding to the input value.",
-        "To store a single bit of data.",
-        "To combine multiple input signals into a single output using logical OR operation.",
-        "To generate a clock signal from an internal oscillator."
+        "Design Rule Checking (DRC)",
+        "Layout Versus Schematic (LVS)",
+        "Static Timing Analysis (STA)",
+        "Power Integrity Analysis (PIA)",
+        "Electrical Rule Checking (ERC)"
       ],
       "correct": 1
     },
     {
-      "question": "In synchronous digital IC design, why is careful handling of Clock Domain Crossing (CDC) signals crucial for circuit correctness?",
+      "question": "What is the primary characteristic of *memory-mapped I/O* in computer architecture, distinguishing it from isolated I/O?",
       "options": [
-        "To prevent excessive power consumption due to dynamic voltage scaling.",
-        "To ensure all registers are reset synchronously to the same clock edge.",
-        "To avoid metastability issues and ensure reliable data transfer between circuits operating with different clock frequencies or phases.",
-        "To reduce the total number of metal layers required for routing in the physical design.",
-        "To optimize the critical path timing and achieve higher operating frequencies."
+        "I/O devices have their own dedicated address space, separate from main memory.",
+        "All I/O operations are handled exclusively by Direct Memory Access (DMA) controllers.",
+        "I/O devices are accessed using the same machine instructions (e.g., load/store) as memory locations.",
+        "A special set of I/O instructions (e.g., IN/OUT) is used to communicate with peripherals.",
+        "I/O devices can only be accessed by the operating system kernel, not user programs."
       ],
       "correct": 2
     },
     {
-      "question": "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) typically store a single bit of data?",
+      "question": "Which widely adopted Design-for-Testability (DFT) technique involves converting most sequential elements (e.g., flip-flops) into a shift register during test mode to allow for serial loading and unloading of internal state, thereby improving fault coverage?",
       "options": [
-        "SRAM uses a magnetic field, while DRAM uses an electrical charge in a capacitor that requires periodic refreshing.",
-        "SRAM uses a bistable latch circuit, while DRAM stores charge in a capacitor that requires periodic refreshing.",
-        "SRAM uses a charge pump, while DRAM uses a non-volatile flash cell.",
-        "SRAM stores data using a network of NOR gates, while DRAM uses a series of shift registers.",
-        "SRAM relies on quantum tunneling, whereas DRAM uses electron spin."
+        "Built-In Self-Test (BIST)",
+        "Boundary Scan (JTAG)",
+        "Logic Built-In Self-Test (LBIST)",
+        "Scan Chain Insertion",
+        "Automatic Test Pattern Generation (ATPG)"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In a modern pipelined CPU architecture, what is the primary purpose of operand forwarding (also known as bypassing)?",
+      "question": "In a multiprocessor system, which concept defines the rules for how memory operations (reads and writes) from different processors are observed by other processors, establishing an ordering beyond just ensuring data values are consistent?",
       "options": [
-        "To allow instructions to execute out-of-order and commit in-order for precise exceptions.",
-        "To predict the outcome of conditional branches and fetch instructions speculatively.",
-        "To reduce pipeline stalls by providing results of an instruction directly from an earlier pipeline stage to a dependent instruction in a later stage.",
-        "To resolve structural hazards by duplicating functional units.",
-        "To prevent cache coherence issues in multi-core systems by ensuring data consistency."
+        "Cache Coherence Protocol",
+        "Virtual Memory Management",
+        "Instruction Set Architecture (ISA)",
+        "Memory Consistency Model",
+        "Direct Memory Access (DMA)"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "What is the primary role of Direct Memory Access (DMA) in a computer system?",
+      "question": "What combinational logic circuit is primarily responsible for performing arithmetic addition of two binary numbers, along with a carry-in, and producing a sum and a carry-out?",
       "options": [
-        "To translate virtual memory addresses to physical memory addresses.",
-        "To manage the allocation and deallocation of processor registers.",
-        "To allow I/O devices to transfer data directly to and from main memory without involving the CPU.",
-        "To accelerate floating-point arithmetic operations within the CPU.",
-        "To ensure data integrity by performing error correction on memory contents."
+        "Decoder",
+        "Multiplexer",
+        "Flip-flop",
+        "Full Adder",
+        "Register"
       ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }
