@@ -1,9 +1,4 @@
 [
-  "In the typical digital IC design flow, what is the primary role of a 'synthesizer' tool?",
-  "What is the primary purpose of a cache memory in a computer system?",
-  "What is the main advantage of using a formal verification approach over extensive simulation for digital circuit validation?",
-  "Which of the following techniques primarily leverages the principle of *temporal locality* and *spatial locality* to improve memory system performance?",
-  "In the context of chip layout and fabrication, what is the primary purpose of 'design rules' (e.g., minimum width, minimum spacing)?",
   "Which description language is commonly used to model the behavior and structure of digital circuits at an abstract level before physical implementation?",
   "What is the primary benefit of instruction pipelining in a CPU?",
   "In digital IC design, what is the main purpose of Static Timing Analysis (STA)?",
@@ -48,5 +43,10 @@
   "What is the primary characteristic of *memory-mapped I/O* in computer architecture, distinguishing it from isolated I/O?",
   "Which widely adopted Design-for-Testability (DFT) technique involves converting most sequential elements (e.g., flip-flops) into a shift register during test mode to allow for serial loading and unloading of internal state, thereby improving fault coverage?",
   "In a multiprocessor system, which concept defines the rules for how memory operations (reads and writes) from different processors are observed by other processors, establishing an ordering beyond just ensuring data values are consistent?",
-  "What combinational logic circuit is primarily responsible for performing arithmetic addition of two binary numbers, along with a carry-in, and producing a sum and a carry-out?"
+  "What combinational logic circuit is primarily responsible for performing arithmetic addition of two binary numbers, along with a carry-in, and producing a sum and a carry-out?",
+  "What is the primary role of a clock signal in a synchronous digital circuit?",
+  "In digital IC design, what is the primary concern addressed by 'IR drop analysis'?",
+  "In a computer system, what is the primary function of a Memory Management Unit (MMU)?",
+  "In the physical verification phase of digital IC design, what is the primary objective of 'Layout Versus Schematic (LVS)'?",
+  "In the context of multi-core processors, which advanced architectural paradigm aims to simplify concurrent programming by allowing multiple operations on shared data to execute speculatively and commit atomically, often relying on hardware support for conflict detection and rollback?"
 ]
