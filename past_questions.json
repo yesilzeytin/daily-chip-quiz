@@ -1,9 +1,4 @@
 [
-  "Which description language is commonly used to model the behavior and structure of digital circuits at an abstract level before physical implementation?",
-  "What is the primary benefit of instruction pipelining in a CPU?",
-  "In digital IC design, what is the main purpose of Static Timing Analysis (STA)?",
-  "Which concept addresses the problem of maintaining consistent data across multiple private caches in a multi-processor system when shared data is modified?",
-  "What does the acronym FPGA stand for in the context of digital electronics?",
   "What is the fundamental building block for storing a single bit of information in most sequential digital integrated circuits?",
   "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
   "Which phenomenon becomes a significant challenge in sub-nanometer technology nodes, leading to increased static power consumption even when transistors are in their \"off\" state?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary concern addressed by 'IR drop analysis'?",
   "In a computer system, what is the primary function of a Memory Management Unit (MMU)?",
   "In the physical verification phase of digital IC design, what is the primary objective of 'Layout Versus Schematic (LVS)'?",
-  "In the context of multi-core processors, which advanced architectural paradigm aims to simplify concurrent programming by allowing multiple operations on shared data to execute speculatively and commit atomically, often relying on hardware support for conflict detection and rollback?"
+  "In the context of multi-core processors, which advanced architectural paradigm aims to simplify concurrent programming by allowing multiple operations on shared data to execute speculatively and commit atomically, often relying on hardware support for conflict detection and rollback?",
+  "What is the primary purpose of the Register File in a CPU's datapath?",
+  "Which of the following best describes the relationship between a processor's Instruction Set Architecture (ISA) and its Microarchitecture?",
+  "In the physical design phase of an integrated circuit, what is the primary objective of Design Rule Checking (DRC)?",
+  "Which advanced power management technique involves dynamically shutting off the power supply to inactive functional blocks or entire power domains within an SoC to significantly reduce static (leakage) power consumption, often requiring power switches and isolation cells?",
+  "According to Flynn's Taxonomy, which architectural classification describes a system where multiple processing elements execute the *same instruction* on *different data streams* simultaneously?"
 ]
