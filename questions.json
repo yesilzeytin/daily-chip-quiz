@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of the Register File in a CPU's datapath?",
+      "question": "What is the primary purpose of a cache memory in a computer system?",
       "options": [
-        "To store machine instructions fetched from memory.",
-        "To store the program counter value for sequence control.",
-        "To hold operand data and intermediate results for the Arithmetic Logic Unit (ALU).",
-        "To manage virtual to physical address translation for memory accesses.",
-        "To provide cache memory for frequently accessed data blocks."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following best describes the relationship between a processor's Instruction Set Architecture (ISA) and its Microarchitecture?",
-      "options": [
-        "The ISA defines the high-level programming language used, while microarchitecture defines its compilation into machine code.",
-        "The ISA specifies the functional behavior visible to a programmer, and the microarchitecture is a specific implementation of that ISA.",
-        "Microarchitecture determines the physical dimensions and power consumption of the chip, while the ISA defines its clock frequency.",
-        "The ISA dictates the type of operating system that can run on the processor, and microarchitecture optimizes memory access patterns.",
-        "They are synonymous terms, referring to the exact same design aspects of a processor."
+        "To permanently store operating system files.",
+        "To provide a small, fast memory buffer between the CPU and main memory.",
+        "To manage virtual memory addresses.",
+        "To execute arithmetic and logic operations.",
+        "To serve as the primary storage for user data."
       ],
       "correct": 1
     },
     {
-      "question": "In the physical design phase of an integrated circuit, what is the primary objective of Design Rule Checking (DRC)?",
+      "question": "In the digital IC design flow, which step is primarily responsible for transforming a Register-Transfer Level (RTL) description into an optimized gate-level netlist using a technology-specific standard cell library?",
       "options": [
-        "To verify the functional correctness of the design against the RTL description.",
-        "To ensure that the physical layout conforms to manufacturing process limitations and constraints.",
-        "To analyze and optimize the timing performance of the circuit for speed.",
-        "To identify and correct power integrity issues such as IR drop and electromigration.",
-        "To synthesize the gate-level netlist from the Register-Transfer Level (RTL) description."
+        "Physical Verification",
+        "Floorplanning",
+        "Logic Synthesis",
+        "Placement and Routing",
+        "Power Analysis"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In large-scale multiprocessor systems, what is the primary motivation for adopting a Non-Uniform Memory Access (NUMA) architecture?",
+      "options": [
+        "To ensure strict cache coherence across all processors without any performance overhead.",
+        "To eliminate the need for virtual memory and simplify memory management.",
+        "To allow individual processors to access their local memory banks with lower latency and higher bandwidth than remote memory.",
+        "To enable all processors to access all memory with perfectly uniform latency and bandwidth.",
+        "To reduce static power consumption by dynamically powering off unused memory modules."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In synchronous digital circuit timing analysis, what is the 'critical path'?",
+      "options": [
+        "The shortest path through the combinational logic that determines the minimum clock period.",
+        "The path with the highest number of gates from an input to an output.",
+        "The path with the longest propagation delay from a sequential element's output to another sequential element's input, or from an input to an output.",
+        "The path that consumes the most dynamic power during operation.",
+        "The path connecting the clock input to all flip-flops in the design."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a \"standard cell\"?",
+      "options": [
+        "A proprietary CPU core designed by the chip manufacturer.",
+        "A basic pre-designed and pre-characterized logic gate (e.g., AND, OR, flip-flop) with fixed height, available in a technology library.",
+        "A dedicated memory block, such as an SRAM or DRAM macro.",
+        "A custom-designed analog circuit block for high-performance applications.",
+        "A reconfigurable logic block used in Field-Programmable Gate Arrays (FPGAs)."
       ],
       "correct": 1
-    },
-    {
-      "question": "Which advanced power management technique involves dynamically shutting off the power supply to inactive functional blocks or entire power domains within an SoC to significantly reduce static (leakage) power consumption, often requiring power switches and isolation cells?",
-      "options": [
-        "Clock Gating",
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Power Gating",
-        "Body Biasing",
-        "Multi-Vt design"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "According to Flynn's Taxonomy, which architectural classification describes a system where multiple processing elements execute the *same instruction* on *different data streams* simultaneously?",
-      "options": [
-        "MIMD (Multiple Instruction, Multiple Data)",
-        "MISD (Multiple Instruction, Single Data)",
-        "SIMD (Single Instruction, Multiple Data)",
-        "SISD (Single Instruction, Single Data)",
-        "Vector Processor Architecture"
-      ],
-      "correct": 2
     }
   ]
 }

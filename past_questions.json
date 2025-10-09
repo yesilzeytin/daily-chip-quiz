@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block for storing a single bit of information in most sequential digital integrated circuits?",
-  "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
-  "Which phenomenon becomes a significant challenge in sub-nanometer technology nodes, leading to increased static power consumption even when transistors are in their \"off\" state?",
-  "What is the primary function of a Branch Prediction Unit in a modern pipelined CPU architecture?",
-  "In the physical design phase of a digital integrated circuit, what is the main objective of \"floorplanning\"?",
   "Which of the following is considered a fundamental combinational logic gate?",
   "Which power optimization technique involves selectively disabling the clock signal to idle functional blocks or registers, thereby reducing dynamic power consumption?",
   "In modern CPU architectures, what is the primary architectural technique that allows a single processor to execute multiple instructions *concurrently* by dispatching them to multiple execution units in a single clock cycle, even if they are from a single instruction stream?",
@@ -48,5 +43,10 @@
   "Which of the following best describes the relationship between a processor's Instruction Set Architecture (ISA) and its Microarchitecture?",
   "In the physical design phase of an integrated circuit, what is the primary objective of Design Rule Checking (DRC)?",
   "Which advanced power management technique involves dynamically shutting off the power supply to inactive functional blocks or entire power domains within an SoC to significantly reduce static (leakage) power consumption, often requiring power switches and isolation cells?",
-  "According to Flynn's Taxonomy, which architectural classification describes a system where multiple processing elements execute the *same instruction* on *different data streams* simultaneously?"
+  "According to Flynn's Taxonomy, which architectural classification describes a system where multiple processing elements execute the *same instruction* on *different data streams* simultaneously?",
+  "What is the primary purpose of a cache memory in a computer system?",
+  "In the digital IC design flow, which step is primarily responsible for transforming a Register-Transfer Level (RTL) description into an optimized gate-level netlist using a technology-specific standard cell library?",
+  "In large-scale multiprocessor systems, what is the primary motivation for adopting a Non-Uniform Memory Access (NUMA) architecture?",
+  "In synchronous digital circuit timing analysis, what is the 'critical path'?",
+  "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a \"standard cell\"?"
 ]
