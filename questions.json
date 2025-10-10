@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a cache memory in a computer system?",
+      "question": "What is the defining characteristic of an Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "To permanently store operating system files.",
-        "To provide a small, fast memory buffer between the CPU and main memory.",
-        "To manage virtual memory addresses.",
-        "To execute arithmetic and logic operations.",
-        "To serve as the primary storage for user data."
+        "It is designed for a specific purpose or application, offering high performance and efficiency for that task.",
+        "It can be reprogrammed multiple times by the user for different functionalities.",
+        "It consists solely of analog components and does not process digital signals.",
+        "It is primarily used as the main central processing unit (CPU) in general-purpose computers.",
+        "It stores data permanently and is used exclusively for non-volatile memory applications."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In the digital IC design flow, which step is primarily responsible for transforming a Register-Transfer Level (RTL) description into an optimized gate-level netlist using a technology-specific standard cell library?",
+      "question": "In cache memory systems, which write policy updates both the cache and main memory simultaneously upon a write operation?",
       "options": [
-        "Physical Verification",
-        "Floorplanning",
-        "Logic Synthesis",
-        "Placement and Routing",
-        "Power Analysis"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In large-scale multiprocessor systems, what is the primary motivation for adopting a Non-Uniform Memory Access (NUMA) architecture?",
-      "options": [
-        "To ensure strict cache coherence across all processors without any performance overhead.",
-        "To eliminate the need for virtual memory and simplify memory management.",
-        "To allow individual processors to access their local memory banks with lower latency and higher bandwidth than remote memory.",
-        "To enable all processors to access all memory with perfectly uniform latency and bandwidth.",
-        "To reduce static power consumption by dynamically powering off unused memory modules."
+        "Write-back",
+        "Write-allocate",
+        "Write-through",
+        "No-write-allocate",
+        "Copy-back"
       ],
       "correct": 2
     },
     {
-      "question": "In synchronous digital circuit timing analysis, what is the 'critical path'?",
+      "question": "In a pipelined processor, what type of hazard occurs when a later instruction tries to read a register value that an earlier instruction has not yet written back to the register file?",
       "options": [
-        "The shortest path through the combinational logic that determines the minimum clock period.",
-        "The path with the highest number of gates from an input to an output.",
-        "The path with the longest propagation delay from a sequential element's output to another sequential element's input, or from an input to an output.",
-        "The path that consumes the most dynamic power during operation.",
-        "The path connecting the clock input to all flip-flops in the design."
+        "Structural hazard",
+        "Control hazard",
+        "Branch hazard",
+        "Data hazard (RAW dependency)",
+        "Memory hazard"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a \"standard cell\"?",
+      "question": "What is the primary impact of 'Negative Bias Temperature Instability (NBTI)' on PMOS transistors in modern semiconductor devices?",
       "options": [
-        "A proprietary CPU core designed by the chip manufacturer.",
-        "A basic pre-designed and pre-characterized logic gate (e.g., AND, OR, flip-flop) with fixed height, available in a technology library.",
-        "A dedicated memory block, such as an SRAM or DRAM macro.",
-        "A custom-designed analog circuit block for high-performance applications.",
-        "A reconfigurable logic block used in Field-Programmable Gate Arrays (FPGAs)."
+        "It causes an increase in the threshold voltage (Vt) of PMOS transistors over time, leading to performance degradation.",
+        "It results in a decrease in the threshold voltage (Vt) of NMOS transistors, increasing leakage current.",
+        "It causes the breakdown of gate oxide layers due to high electric fields at elevated temperatures.",
+        "It leads to the physical displacement of metal atoms in interconnects, creating open circuits.",
+        "It primarily affects the integrity of non-volatile memory cells, causing data corruption."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In a System-on-Chip (SoC) design, what is the primary advantage of using a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect for complex multi-core systems?",
+      "options": [
+        "It simplifies the routing of signals, reducing design complexity and area.",
+        "It provides higher scalability and parallel communication bandwidth, enabling better performance for many communicating IP blocks.",
+        "It inherently guarantees cache coherence across all connected processing units without additional hardware.",
+        "It consumes significantly less static power due to its simpler arbitration mechanisms.",
+        "It eliminates the need for any clock synchronization mechanisms across different IP blocks."
       ],
       "correct": 1
     }

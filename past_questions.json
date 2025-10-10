@@ -1,9 +1,4 @@
 [
-  "Which of the following is considered a fundamental combinational logic gate?",
-  "Which power optimization technique involves selectively disabling the clock signal to idle functional blocks or registers, thereby reducing dynamic power consumption?",
-  "In modern CPU architectures, what is the primary architectural technique that allows a single processor to execute multiple instructions *concurrently* by dispatching them to multiple execution units in a single clock cycle, even if they are from a single instruction stream?",
-  "To ensure a manufactured integrated circuit is free from manufacturing defects and operates correctly before shipment, which specialized design technique is primarily incorporated during the design phase to facilitate efficient post-silicon testing?",
-  "Which type of semiconductor memory is typically used for the main system memory (RAM) in personal computers and servers, characterized by its high density and requirement for periodic refresh cycles?",
   "In digital ASIC design, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
   "In a computer system employing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?",
   "In advanced semiconductor manufacturing, what phenomenon describes the gradual displacement of metal atoms in an interconnect line due to momentum transfer from flowing electrons, potentially leading to open circuits or short circuits over time and reducing chip reliability?",
@@ -48,5 +43,10 @@
   "In the digital IC design flow, which step is primarily responsible for transforming a Register-Transfer Level (RTL) description into an optimized gate-level netlist using a technology-specific standard cell library?",
   "In large-scale multiprocessor systems, what is the primary motivation for adopting a Non-Uniform Memory Access (NUMA) architecture?",
   "In synchronous digital circuit timing analysis, what is the 'critical path'?",
-  "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a \"standard cell\"?"
+  "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a \"standard cell\"?",
+  "What is the defining characteristic of an Application-Specific Integrated Circuit (ASIC)?",
+  "In cache memory systems, which write policy updates both the cache and main memory simultaneously upon a write operation?",
+  "In a pipelined processor, what type of hazard occurs when a later instruction tries to read a register value that an earlier instruction has not yet written back to the register file?",
+  "What is the primary impact of 'Negative Bias Temperature Instability (NBTI)' on PMOS transistors in modern semiconductor devices?",
+  "In a System-on-Chip (SoC) design, what is the primary advantage of using a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect for complex multi-core systems?"
 ]
