@@ -1,9 +1,4 @@
 [
-  "In digital ASIC design, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
-  "In a computer system employing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?",
-  "In advanced semiconductor manufacturing, what phenomenon describes the gradual displacement of metal atoms in an interconnect line due to momentum transfer from flowing electrons, potentially leading to open circuits or short circuits over time and reducing chip reliability?",
-  "What does the Instruction Set Architecture (ISA) primarily define for a processor?",
-  "In the context of hardware verification using languages like SystemVerilog, what is the primary role of an assertion?",
   "What is the primary material used as a semiconductor substrate in most modern integrated circuits?",
   "After logical synthesis in a typical digital IC design flow, what is the primary goal of the 'placement' step?",
   "Which type of memory retains its stored information even after power is removed, making it suitable for boot-up instructions and firmware in embedded systems?",
@@ -48,5 +43,10 @@
   "In cache memory systems, which write policy updates both the cache and main memory simultaneously upon a write operation?",
   "In a pipelined processor, what type of hazard occurs when a later instruction tries to read a register value that an earlier instruction has not yet written back to the register file?",
   "What is the primary impact of 'Negative Bias Temperature Instability (NBTI)' on PMOS transistors in modern semiconductor devices?",
-  "In a System-on-Chip (SoC) design, what is the primary advantage of using a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect for complex multi-core systems?"
+  "In a System-on-Chip (SoC) design, what is the primary advantage of using a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect for complex multi-core systems?",
+  "In the context of digital IC verification, what is the primary purpose of a testbench?",
+  "In a typical pipelined CPU, what is the primary consequence of a 'branch misprediction'?",
+  "In the physical implementation of digital integrated circuits, what is the primary purpose of 'filler cells' (also known as decap cells or tap cells)?",
+  "In synchronous digital IC design, what is the primary goal of performing 'Static Timing Analysis (STA)'?",
+  "In modern CPU architecture, what does 'Amdahl's Law' primarily describe?"
 ]

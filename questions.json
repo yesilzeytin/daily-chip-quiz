@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the defining characteristic of an Application-Specific Integrated Circuit (ASIC)?",
+      "question": "In the context of digital IC verification, what is the primary purpose of a testbench?",
       "options": [
-        "It is designed for a specific purpose or application, offering high performance and efficiency for that task.",
-        "It can be reprogrammed multiple times by the user for different functionalities.",
-        "It consists solely of analog components and does not process digital signals.",
-        "It is primarily used as the main central processing unit (CPU) in general-purpose computers.",
-        "It stores data permanently and is used exclusively for non-volatile memory applications."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In cache memory systems, which write policy updates both the cache and main memory simultaneously upon a write operation?",
-      "options": [
-        "Write-back",
-        "Write-allocate",
-        "Write-through",
-        "No-write-allocate",
-        "Copy-back"
+        "To synthesize RTL code into a gate-level netlist.",
+        "To perform physical placement and routing of standard cells.",
+        "To simulate the design's functional behavior and verify its correctness against specifications.",
+        "To generate power distribution networks across the chip.",
+        "To optimize the power consumption of the final fabricated silicon."
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what type of hazard occurs when a later instruction tries to read a register value that an earlier instruction has not yet written back to the register file?",
+      "question": "In a typical pipelined CPU, what is the primary consequence of a 'branch misprediction'?",
       "options": [
-        "Structural hazard",
-        "Control hazard",
-        "Branch hazard",
-        "Data hazard (RAW dependency)",
-        "Memory hazard"
+        "The CPU must stall all subsequent instructions until the branch target is confirmed.",
+        "A data hazard occurs, requiring immediate operand forwarding to resolve.",
+        "The pipeline must be flushed, discarding speculatively executed instructions, and execution restarts from the correct branch target, incurring a performance penalty.",
+        "The processor switches to a simpler, non-pipelined execution mode until the branch is resolved.",
+        "Cache memory experiences a significant increase in hit rate due to re-fetching data."
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "What is the primary impact of 'Negative Bias Temperature Instability (NBTI)' on PMOS transistors in modern semiconductor devices?",
+      "question": "In the physical implementation of digital integrated circuits, what is the primary purpose of 'filler cells' (also known as decap cells or tap cells)?",
       "options": [
-        "It causes an increase in the threshold voltage (Vt) of PMOS transistors over time, leading to performance degradation.",
-        "It results in a decrease in the threshold voltage (Vt) of NMOS transistors, increasing leakage current.",
-        "It causes the breakdown of gate oxide layers due to high electric fields at elevated temperatures.",
-        "It leads to the physical displacement of metal atoms in interconnects, creating open circuits.",
-        "It primarily affects the integrity of non-volatile memory cells, causing data corruption."
+        "To provide additional logical functions for complex arithmetic operations.",
+        "To implement Design-for-Testability (DFT) scan chains for fault detection.",
+        "To add decoupling capacitance to the power grid, suppressing power supply noise and mitigating IR drop, while also maintaining layout density and planarity.",
+        "To define the clock distribution network and minimize clock skew.",
+        "To isolate different power domains to enable dynamic voltage and frequency scaling (DVFS)."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In a System-on-Chip (SoC) design, what is the primary advantage of using a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect for complex multi-core systems?",
+      "question": "In synchronous digital IC design, what is the primary goal of performing 'Static Timing Analysis (STA)'?",
       "options": [
-        "It simplifies the routing of signals, reducing design complexity and area.",
-        "It provides higher scalability and parallel communication bandwidth, enabling better performance for many communicating IP blocks.",
-        "It inherently guarantees cache coherence across all connected processing units without additional hardware.",
-        "It consumes significantly less static power due to its simpler arbitration mechanisms.",
-        "It eliminates the need for any clock synchronization mechanisms across different IP blocks."
+        "To simulate the dynamic functional behavior of the design using test vectors.",
+        "To verify the logical correctness of the design against its Register-Transfer Level (RTL) description.",
+        "To calculate all possible propagation delays in the circuit paths and verify that all setup and hold timing constraints are met without requiring test vectors.",
+        "To generate the physical layout of standard cells on the silicon die.",
+        "To identify and remove redundant logic gates to reduce chip area."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In modern CPU architecture, what does 'Amdahl's Law' primarily describe?",
+      "options": [
+        "The maximum clock frequency at which a processor can reliably operate.",
+        "The theoretical speedup limit of a program when only a fraction of its execution can be improved or parallelized.",
+        "The relationship between transistor count and manufacturing cost for a given technology node.",
+        "The energy efficiency gains achieved by lowering the supply voltage in CMOS circuits.",
+        "The average memory access time considering cache hit and miss rates."
       ],
       "correct": 1
     }
