@@ -1,9 +1,4 @@
 [
-  "What is the primary material used as a semiconductor substrate in most modern integrated circuits?",
-  "After logical synthesis in a typical digital IC design flow, what is the primary goal of the 'placement' step?",
-  "Which type of memory retains its stored information even after power is removed, making it suitable for boot-up instructions and firmware in embedded systems?",
-  "In advanced pipelined CPUs utilizing out-of-order execution, what is the primary purpose of *register renaming*?",
-  "In the context of modern digital IC design, what does 'On-Chip Variation (OCV)' primarily refer to, and how is it typically handled in timing analysis?",
   "What is the primary function of a Multiplexer (MUX) in digital logic circuits?",
   "In the context of synchronous digital circuit timing, what does the 'setup time' of a flip-flop primarily refer to?",
   "Which architectural technique allows a processor to execute instructions out of their program order, speculatively executing operations before their control dependencies are resolved, and requires a rollback mechanism in case of mis-speculation?",
@@ -48,5 +43,10 @@
   "In a typical pipelined CPU, what is the primary consequence of a 'branch misprediction'?",
   "In the physical implementation of digital integrated circuits, what is the primary purpose of 'filler cells' (also known as decap cells or tap cells)?",
   "In synchronous digital IC design, what is the primary goal of performing 'Static Timing Analysis (STA)'?",
-  "In modern CPU architecture, what does 'Amdahl's Law' primarily describe?"
+  "In modern CPU architecture, what does 'Amdahl's Law' primarily describe?",
+  "In the digital IC design flow, what is the primary purpose of the 'Clock Tree Synthesis (CTS)' step?",
+  "Which architectural concept is primarily characterized by having separate memory spaces and buses for instructions and data, allowing for simultaneous fetching of instructions and data access?",
+  "In a typical CPU pipeline, which stage is primarily responsible for reading the instruction from the program counter and fetching it from the instruction memory?",
+  "What type of parallelism focuses on executing multiple independent instructions from a single instruction stream simultaneously within a single processor core, often employing techniques like pipelining and superscalar execution?",
+  "In semiconductor fabrication, what is the primary function of Chemical Mechanical Planarization (CMP)?"
 ]

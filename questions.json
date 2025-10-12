@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the context of digital IC verification, what is the primary purpose of a testbench?",
+      "question": "In the digital IC design flow, what is the primary purpose of the 'Clock Tree Synthesis (CTS)' step?",
       "options": [
-        "To synthesize RTL code into a gate-level netlist.",
-        "To perform physical placement and routing of standard cells.",
-        "To simulate the design's functional behavior and verify its correctness against specifications.",
-        "To generate power distribution networks across the chip.",
-        "To optimize the power consumption of the final fabricated silicon."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a typical pipelined CPU, what is the primary consequence of a 'branch misprediction'?",
-      "options": [
-        "The CPU must stall all subsequent instructions until the branch target is confirmed.",
-        "A data hazard occurs, requiring immediate operand forwarding to resolve.",
-        "The pipeline must be flushed, discarding speculatively executed instructions, and execution restarts from the correct branch target, incurring a performance penalty.",
-        "The processor switches to a simpler, non-pipelined execution mode until the branch is resolved.",
-        "Cache memory experiences a significant increase in hit rate due to re-fetching data."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical implementation of digital integrated circuits, what is the primary purpose of 'filler cells' (also known as decap cells or tap cells)?",
-      "options": [
-        "To provide additional logical functions for complex arithmetic operations.",
-        "To implement Design-for-Testability (DFT) scan chains for fault detection.",
-        "To add decoupling capacitance to the power grid, suppressing power supply noise and mitigating IR drop, while also maintaining layout density and planarity.",
-        "To define the clock distribution network and minimize clock skew.",
-        "To isolate different power domains to enable dynamic voltage and frequency scaling (DVFS)."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In synchronous digital IC design, what is the primary goal of performing 'Static Timing Analysis (STA)'?",
-      "options": [
-        "To simulate the dynamic functional behavior of the design using test vectors.",
-        "To verify the logical correctness of the design against its Register-Transfer Level (RTL) description.",
-        "To calculate all possible propagation delays in the circuit paths and verify that all setup and hold timing constraints are met without requiring test vectors.",
-        "To generate the physical layout of standard cells on the silicon die.",
-        "To identify and remove redundant logic gates to reduce chip area."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In modern CPU architecture, what does 'Amdahl's Law' primarily describe?",
-      "options": [
-        "The maximum clock frequency at which a processor can reliably operate.",
-        "The theoretical speedup limit of a program when only a fraction of its execution can be improved or parallelized.",
-        "The relationship between transistor count and manufacturing cost for a given technology node.",
-        "The energy efficiency gains achieved by lowering the supply voltage in CMOS circuits.",
-        "The average memory access time considering cache hit and miss rates."
+        "To perform static timing analysis on the entire design.",
+        "To generate and route a balanced clock distribution network to all sequential elements.",
+        "To optimize the power consumption of all combinational logic gates.",
+        "To place standard cells and macros onto the chip layout.",
+        "To convert the RTL description into a gate-level netlist."
       ],
       "correct": 1
+    },
+    {
+      "question": "Which architectural concept is primarily characterized by having separate memory spaces and buses for instructions and data, allowing for simultaneous fetching of instructions and data access?",
+      "options": [
+        "Von Neumann Architecture",
+        "RISC Architecture",
+        "CISC Architecture",
+        "Harvard Architecture",
+        "System-on-Chip (SoC) Architecture"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In a typical CPU pipeline, which stage is primarily responsible for reading the instruction from the program counter and fetching it from the instruction memory?",
+      "options": [
+        "Execute Stage",
+        "Memory Stage",
+        "Write-Back Stage",
+        "Decode Stage",
+        "Fetch Stage"
+      ],
+      "correct": 4
+    },
+    {
+      "question": "What type of parallelism focuses on executing multiple independent instructions from a single instruction stream simultaneously within a single processor core, often employing techniques like pipelining and superscalar execution?",
+      "options": [
+        "Data-Level Parallelism (DLP)",
+        "Thread-Level Parallelism (TLP)",
+        "Instruction-Level Parallelism (ILP)",
+        "Bit-Level Parallelism (BLP)",
+        "Request-Level Parallelism (RLP)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In semiconductor fabrication, what is the primary function of Chemical Mechanical Planarization (CMP)?",
+      "options": [
+        "To deposit thin layers of insulating material.",
+        "To create patterns on the wafer surface using photolithography.",
+        "To remove unwanted material selectively via etching.",
+        "To precisely flatten and smooth the wafer surface after deposition steps.",
+        "To introduce dopant impurities into the silicon substrate."
+      ],
+      "correct": 3
     }
   ]
 }
