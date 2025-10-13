@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a Multiplexer (MUX) in digital logic circuits?",
-  "In the context of synchronous digital circuit timing, what does the 'setup time' of a flip-flop primarily refer to?",
-  "Which architectural technique allows a processor to execute instructions out of their program order, speculatively executing operations before their control dependencies are resolved, and requires a rollback mechanism in case of mis-speculation?",
-  "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
-  "In semiconductor manufacturing, what is the primary goal of \"Yield Enhancement\" techniques?",
   "What does CMOS stand for in the context of digital integrated circuits?",
   "As technology nodes shrink, which electrical phenomenon becomes increasingly prominent in on-chip interconnects, causing significant signal delay and power consumption, often modeled as an RC network?",
   "In modern out-of-order processors, which architectural component is primarily responsible for reordering instructions to ensure they commit in program order, handle precise exceptions, and buffer results until commitment?",
@@ -48,5 +43,10 @@
   "Which architectural concept is primarily characterized by having separate memory spaces and buses for instructions and data, allowing for simultaneous fetching of instructions and data access?",
   "In a typical CPU pipeline, which stage is primarily responsible for reading the instruction from the program counter and fetching it from the instruction memory?",
   "What type of parallelism focuses on executing multiple independent instructions from a single instruction stream simultaneously within a single processor core, often employing techniques like pipelining and superscalar execution?",
-  "In semiconductor fabrication, what is the primary function of Chemical Mechanical Planarization (CMP)?"
+  "In semiconductor fabrication, what is the primary function of Chemical Mechanical Planarization (CMP)?",
+  "What is the primary function of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
+  "In the context of cache coherence in multi-core processors, what is the primary purpose of a protocol like MESI?",
+  "What is the fundamental advantage of using a FinFET transistor architecture compared to a planar MOSFET in advanced technology nodes (e.g., 20nm and below)?",
+  "What is the primary contributor to *dynamic* power consumption in a CMOS digital circuit?",
+  "Which architectural mechanism in a CPU allows a program to access a larger, contiguous address space than the physical RAM available, by mapping virtual addresses to physical addresses and using disk storage for overflow?"
 ]

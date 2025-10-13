@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the digital IC design flow, what is the primary purpose of the 'Clock Tree Synthesis (CTS)' step?",
+      "question": "What is the primary function of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
       "options": [
-        "To perform static timing analysis on the entire design.",
-        "To generate and route a balanced clock distribution network to all sequential elements.",
-        "To optimize the power consumption of all combinational logic gates.",
-        "To place standard cells and macros onto the chip layout.",
-        "To convert the RTL description into a gate-level netlist."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which architectural concept is primarily characterized by having separate memory spaces and buses for instructions and data, allowing for simultaneous fetching of instructions and data access?",
-      "options": [
-        "Von Neumann Architecture",
-        "RISC Architecture",
-        "CISC Architecture",
-        "Harvard Architecture",
-        "System-on-Chip (SoC) Architecture"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a typical CPU pipeline, which stage is primarily responsible for reading the instruction from the program counter and fetching it from the instruction memory?",
-      "options": [
-        "Execute Stage",
-        "Memory Stage",
-        "Write-Back Stage",
-        "Decode Stage",
-        "Fetch Stage"
-      ],
-      "correct": 4
-    },
-    {
-      "question": "What type of parallelism focuses on executing multiple independent instructions from a single instruction stream simultaneously within a single processor core, often employing techniques like pipelining and superscalar execution?",
-      "options": [
-        "Data-Level Parallelism (DLP)",
-        "Thread-Level Parallelism (TLP)",
-        "Instruction-Level Parallelism (ILP)",
-        "Bit-Level Parallelism (BLP)",
-        "Request-Level Parallelism (RLP)"
+        "Simulating analog circuits.",
+        "Programming microcontrollers directly.",
+        "Describing digital logic circuits' behavior and structure.",
+        "Managing project documentation.",
+        "Performing physical layout routing."
       ],
       "correct": 2
     },
     {
-      "question": "In semiconductor fabrication, what is the primary function of Chemical Mechanical Planarization (CMP)?",
+      "question": "In the context of cache coherence in multi-core processors, what is the primary purpose of a protocol like MESI?",
       "options": [
-        "To deposit thin layers of insulating material.",
-        "To create patterns on the wafer surface using photolithography.",
-        "To remove unwanted material selectively via etching.",
-        "To precisely flatten and smooth the wafer surface after deposition steps.",
-        "To introduce dopant impurities into the silicon substrate."
+        "To ensure all processors use the same instruction set.",
+        "To maintain data consistency of shared memory blocks across multiple private caches.",
+        "To arbitrate access to the main system bus.",
+        "To define the order of instruction execution within a single core.",
+        "To manage virtual memory page tables."
       ],
-      "correct": 3
+      "correct": 1
+    },
+    {
+      "question": "What is the fundamental advantage of using a FinFET transistor architecture compared to a planar MOSFET in advanced technology nodes (e.g., 20nm and below)?",
+      "options": [
+        "Significantly lower manufacturing cost due to simpler processing.",
+        "Improved electrostatic control over the channel, leading to reduced leakage and better performance scaling.",
+        "Higher breakdown voltage for power applications.",
+        "Elimination of the need for a gate oxide layer.",
+        "Inherent immunity to soft errors from alpha particles."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary contributor to *dynamic* power consumption in a CMOS digital circuit?",
+      "options": [
+        "Subthreshold leakage current when transistors are off.",
+        "Junction leakage current.",
+        "Switching activity, charging and discharging parasitic capacitances.",
+        "Gate leakage through the gate oxide.",
+        "Static current drawn by pull-up and pull-down networks."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which architectural mechanism in a CPU allows a program to access a larger, contiguous address space than the physical RAM available, by mapping virtual addresses to physical addresses and using disk storage for overflow?",
+      "options": [
+        "Register renaming.",
+        "Cache prefetching.",
+        "Virtual memory.",
+        "Direct Memory Access (DMA).",
+        "Instruction-Level Parallelism (ILP)."
+      ],
+      "correct": 2
     }
   ]
 }
