@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic?",
       "options": [
-        "Simulating analog circuits.",
-        "Programming microcontrollers directly.",
-        "Describing digital logic circuits' behavior and structure.",
-        "Managing project documentation.",
-        "Performing physical layout routing."
+        "Select one of many input signals to pass to a single output.",
+        "Store a single bit of information.",
+        "Perform arithmetic addition on two binary numbers.",
+        "Convert a parallel input into a serial output.",
+        "Generate a clock signal for synchronous circuits."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In the context of cache coherence in multi-core processors, what is the primary purpose of a protocol like MESI?",
+      "question": "Which characteristic primarily defines the Von Neumann architecture for computer systems?",
       "options": [
-        "To ensure all processors use the same instruction set.",
-        "To maintain data consistency of shared memory blocks across multiple private caches.",
-        "To arbitrate access to the main system bus.",
-        "To define the order of instruction execution within a single core.",
-        "To manage virtual memory page tables."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the fundamental advantage of using a FinFET transistor architecture compared to a planar MOSFET in advanced technology nodes (e.g., 20nm and below)?",
-      "options": [
-        "Significantly lower manufacturing cost due to simpler processing.",
-        "Improved electrostatic control over the channel, leading to reduced leakage and better performance scaling.",
-        "Higher breakdown voltage for power applications.",
-        "Elimination of the need for a gate oxide layer.",
-        "Inherent immunity to soft errors from alpha particles."
+        "Separate memory spaces and buses for instructions and data.",
+        "A single shared memory space and bus for both instructions and data.",
+        "Exclusive use of multiple processing cores for parallel execution.",
+        "Specialized hardware units dedicated solely to I/O operations.",
+        "Strict in-order execution of all instructions."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary contributor to *dynamic* power consumption in a CMOS digital circuit?",
+      "question": "In the context of advanced functional verification for complex System-on-Chip (SoC) designs, which methodology framework is widely adopted for creating reusable, scalable, and robust testbenches, often incorporating constrained-random stimulus generation and coverage-driven verification?",
       "options": [
-        "Subthreshold leakage current when transistors are off.",
-        "Junction leakage current.",
-        "Switching activity, charging and discharging parasitic capacitances.",
-        "Gate leakage through the gate oxide.",
-        "Static current drawn by pull-up and pull-down networks."
+        "Static Timing Analysis (STA)",
+        "Design Rule Checking (DRC)",
+        "Universal Verification Methodology (UVM)",
+        "Layout Versus Schematic (LVS)",
+        "Electrical Rule Checking (ERC)"
       ],
       "correct": 2
     },
     {
-      "question": "Which architectural mechanism in a CPU allows a program to access a larger, contiguous address space than the physical RAM available, by mapping virtual addresses to physical addresses and using disk storage for overflow?",
+      "question": "In a pipelined processor, what technique is used to speculatively guess the outcome of a conditional branch instruction to minimize pipeline stalls and keep the pipeline full, often before the actual branch condition is resolved?",
       "options": [
-        "Register renaming.",
-        "Cache prefetching.",
-        "Virtual memory.",
-        "Direct Memory Access (DMA).",
-        "Instruction-Level Parallelism (ILP)."
+        "Operand forwarding (bypassing)",
+        "Register renaming",
+        "Branch prediction",
+        "Data prefetching",
+        "Memory-mapped I/O"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary role of photolithography in the fabrication of integrated circuits?",
+      "options": [
+        "To deposit thin layers of conductive or insulating materials onto the wafer.",
+        "To selectively remove material from the wafer surface using etchants.",
+        "To transfer geometric patterns from a photomask onto the photosensitive resist on a wafer.",
+        "To electrically test the finished chips for defects.",
+        "To polish and flatten the wafer surface after deposition steps."
       ],
       "correct": 2
     }
