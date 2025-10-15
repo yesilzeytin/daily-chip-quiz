@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic?",
+      "question": "What is the primary purpose of *doping* in a semiconductor material like silicon?",
       "options": [
-        "Select one of many input signals to pass to a single output.",
-        "Store a single bit of information.",
-        "Perform arithmetic addition on two binary numbers.",
-        "Convert a parallel input into a serial output.",
-        "Generate a clock signal for synchronous circuits."
+        "To increase its thermal conductivity.",
+        "To make it optically transparent.",
+        "To modify its electrical conductivity.",
+        "To enhance its mechanical strength.",
+        "To reduce its weight."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In digital logic, which of the following gates is considered a \"universal gate\" because any other Boolean function can be implemented using only instances of this type of gate?",
+      "options": [
+        "OR gate",
+        "XOR gate",
+        "AND gate",
+        "NAND gate",
+        "Buffer gate"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In an advanced out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
+      "options": [
+        "To store instructions that have completed execution but are waiting to write their results back to the architectural registers in program order.",
+        "To hold micro-operations before they are dispatched to execution units.",
+        "To manage the cache coherence protocol among multiple cores.",
+        "To prefetch data from main memory into the L1 cache.",
+        "To resolve branch target addresses during the fetch stage."
       ],
       "correct": 0
     },
     {
-      "question": "Which characteristic primarily defines the Von Neumann architecture for computer systems?",
+      "question": "In integrated circuit interconnects, which reliability concern describes the phenomenon where the continuous flow of electrons causes a gradual displacement of metal atoms in a conductor, potentially leading to open circuits (voids) or short circuits (extrusions) over time?",
       "options": [
-        "Separate memory spaces and buses for instructions and data.",
-        "A single shared memory space and bus for both instructions and data.",
-        "Exclusive use of multiple processing cores for parallel execution.",
-        "Specialized hardware units dedicated solely to I/O operations.",
-        "Strict in-order execution of all instructions."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the context of advanced functional verification for complex System-on-Chip (SoC) designs, which methodology framework is widely adopted for creating reusable, scalable, and robust testbenches, often incorporating constrained-random stimulus generation and coverage-driven verification?",
-      "options": [
-        "Static Timing Analysis (STA)",
-        "Design Rule Checking (DRC)",
-        "Universal Verification Methodology (UVM)",
-        "Layout Versus Schematic (LVS)",
-        "Electrical Rule Checking (ERC)"
+        "Latch-up",
+        "Hot Carrier Injection (HCI)",
+        "Electromigration",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Gate Oxide Breakdown (GOB)"
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what technique is used to speculatively guess the outcome of a conditional branch instruction to minimize pipeline stalls and keep the pipeline full, often before the actual branch condition is resolved?",
+      "question": "Which verification methodology aims to mathematically prove the correctness of a design against a formal specification, rather than relying on extensive simulations with test vectors?",
       "options": [
-        "Operand forwarding (bypassing)",
-        "Register renaming",
-        "Branch prediction",
-        "Data prefetching",
-        "Memory-mapped I/O"
+        "Simulation-based Verification",
+        "Coverage-Driven Verification (CDV)",
+        "Emulation",
+        "Formal Verification",
+        "Regression Testing"
       ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary role of photolithography in the fabrication of integrated circuits?",
-      "options": [
-        "To deposit thin layers of conductive or insulating materials onto the wafer.",
-        "To selectively remove material from the wafer surface using etchants.",
-        "To transfer geometric patterns from a photomask onto the photosensitive resist on a wafer.",
-        "To electrically test the finished chips for defects.",
-        "To polish and flatten the wafer surface after deposition steps."
-      ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }

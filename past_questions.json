@@ -1,9 +1,4 @@
 [
-  "In digital logic design, what is the primary function of a decoder circuit?",
-  "In synchronous digital IC design, why is careful handling of Clock Domain Crossing (CDC) signals crucial for circuit correctness?",
-  "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) typically store a single bit of data?",
-  "In a modern pipelined CPU architecture, what is the primary purpose of operand forwarding (also known as bypassing)?",
-  "What is the primary role of Direct Memory Access (DMA) in a computer system?",
   "In the final stages of digital integrated circuit physical design, which verification step compares the extracted netlist from the physical layout against the original gate-level or RTL netlist to ensure functional equivalence?",
   "What is the primary characteristic of *memory-mapped I/O* in computer architecture, distinguishing it from isolated I/O?",
   "Which widely adopted Design-for-Testability (DFT) technique involves converting most sequential elements (e.g., flip-flops) into a shift register during test mode to allow for serial loading and unloading of internal state, thereby improving fault coverage?",
@@ -48,5 +43,10 @@
   "Which characteristic primarily defines the Von Neumann architecture for computer systems?",
   "In the context of advanced functional verification for complex System-on-Chip (SoC) designs, which methodology framework is widely adopted for creating reusable, scalable, and robust testbenches, often incorporating constrained-random stimulus generation and coverage-driven verification?",
   "In a pipelined processor, what technique is used to speculatively guess the outcome of a conditional branch instruction to minimize pipeline stalls and keep the pipeline full, often before the actual branch condition is resolved?",
-  "What is the primary role of photolithography in the fabrication of integrated circuits?"
+  "What is the primary role of photolithography in the fabrication of integrated circuits?",
+  "What is the primary purpose of *doping* in a semiconductor material like silicon?",
+  "In digital logic, which of the following gates is considered a \"universal gate\" because any other Boolean function can be implemented using only instances of this type of gate?",
+  "In an advanced out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
+  "In integrated circuit interconnects, which reliability concern describes the phenomenon where the continuous flow of electrons causes a gradual displacement of metal atoms in a conductor, potentially leading to open circuits (voids) or short circuits (extrusions) over time?",
+  "Which verification methodology aims to mathematically prove the correctness of a design against a formal specification, rather than relying on extensive simulations with test vectors?"
 ]
