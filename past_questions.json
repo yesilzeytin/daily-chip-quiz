@@ -1,9 +1,4 @@
 [
-  "In the final stages of digital integrated circuit physical design, which verification step compares the extracted netlist from the physical layout against the original gate-level or RTL netlist to ensure functional equivalence?",
-  "What is the primary characteristic of *memory-mapped I/O* in computer architecture, distinguishing it from isolated I/O?",
-  "Which widely adopted Design-for-Testability (DFT) technique involves converting most sequential elements (e.g., flip-flops) into a shift register during test mode to allow for serial loading and unloading of internal state, thereby improving fault coverage?",
-  "In a multiprocessor system, which concept defines the rules for how memory operations (reads and writes) from different processors are observed by other processors, establishing an ordering beyond just ensuring data values are consistent?",
-  "What combinational logic circuit is primarily responsible for performing arithmetic addition of two binary numbers, along with a carry-in, and producing a sum and a carry-out?",
   "What is the primary role of a clock signal in a synchronous digital circuit?",
   "In digital IC design, what is the primary concern addressed by 'IR drop analysis'?",
   "In a computer system, what is the primary function of a Memory Management Unit (MMU)?",
@@ -48,5 +43,10 @@
   "In digital logic, which of the following gates is considered a \"universal gate\" because any other Boolean function can be implemented using only instances of this type of gate?",
   "In an advanced out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
   "In integrated circuit interconnects, which reliability concern describes the phenomenon where the continuous flow of electrons causes a gradual displacement of metal atoms in a conductor, potentially leading to open circuits (voids) or short circuits (extrusions) over time?",
-  "Which verification methodology aims to mathematically prove the correctness of a design against a formal specification, rather than relying on extensive simulations with test vectors?"
+  "Which verification methodology aims to mathematically prove the correctness of a design against a formal specification, rather than relying on extensive simulations with test vectors?",
+  "What is the smallest unit of information that a digital computer can process and store?",
+  "In synchronous digital design, what is a key characteristic of a Moore Finite State Machine (FSM) compared to a Mealy FSM?",
+  "Which type of memory typically uses a capacitor to store each bit, requiring periodic refreshing to retain data, and is commonly used for main system memory (RAM)?",
+  "In a superscalar, out-of-order processor, what is the primary purpose of *register renaming*?",
+  "In the physical implementation of high-speed digital integrated circuits, excessive *clock skew* can lead to which of the following timing violations?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of *doping* in a semiconductor material like silicon?",
+      "question": "What is the smallest unit of information that a digital computer can process and store?",
       "options": [
-        "To increase its thermal conductivity.",
-        "To make it optically transparent.",
-        "To modify its electrical conductivity.",
-        "To enhance its mechanical strength.",
-        "To reduce its weight."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In digital logic, which of the following gates is considered a \"universal gate\" because any other Boolean function can be implemented using only instances of this type of gate?",
-      "options": [
-        "OR gate",
-        "XOR gate",
-        "AND gate",
-        "NAND gate",
-        "Buffer gate"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In an advanced out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
-      "options": [
-        "To store instructions that have completed execution but are waiting to write their results back to the architectural registers in program order.",
-        "To hold micro-operations before they are dispatched to execution units.",
-        "To manage the cache coherence protocol among multiple cores.",
-        "To prefetch data from main memory into the L1 cache.",
-        "To resolve branch target addresses during the fetch stage."
+        "Bit",
+        "Byte",
+        "Nibble",
+        "Word",
+        "Kilobyte"
       ],
       "correct": 0
     },
     {
-      "question": "In integrated circuit interconnects, which reliability concern describes the phenomenon where the continuous flow of electrons causes a gradual displacement of metal atoms in a conductor, potentially leading to open circuits (voids) or short circuits (extrusions) over time?",
+      "question": "In synchronous digital design, what is a key characteristic of a Moore Finite State Machine (FSM) compared to a Mealy FSM?",
       "options": [
-        "Latch-up",
-        "Hot Carrier Injection (HCI)",
-        "Electromigration",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Gate Oxide Breakdown (GOB)"
+        "Its output depends only on the current state.",
+        "Its output depends on both the current state and the current input.",
+        "It typically requires fewer flip-flops for a given number of states.",
+        "Its state transitions are asynchronous.",
+        "It always allows for faster overall operation due to simpler output logic."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which type of memory typically uses a capacitor to store each bit, requiring periodic refreshing to retain data, and is commonly used for main system memory (RAM)?",
+      "options": [
+        "Static Random-Access Memory (SRAM)",
+        "Dynamic Random-Access Memory (DRAM)",
+        "Flash Memory",
+        "Read-Only Memory (ROM)",
+        "Content-Addressable Memory (CAM)"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In a superscalar, out-of-order processor, what is the primary purpose of *register renaming*?",
+      "options": [
+        "To allow different instructions to read the same architectural register simultaneously without conflicts.",
+        "To eliminate structural hazards by providing more physical registers than architectural registers.",
+        "To prevent Write-After-Write (WAW) and Write-After-Read (WAR) hazards by providing unique physical destination registers for speculative writes.",
+        "To resolve Read-After-Write (RAW) data dependencies by forwarding results directly from execution units.",
+        "To optimize cache line replacement policies for better performance."
       ],
       "correct": 2
     },
     {
-      "question": "Which verification methodology aims to mathematically prove the correctness of a design against a formal specification, rather than relying on extensive simulations with test vectors?",
+      "question": "In the physical implementation of high-speed digital integrated circuits, excessive *clock skew* can lead to which of the following timing violations?",
       "options": [
-        "Simulation-based Verification",
-        "Coverage-Driven Verification (CDV)",
-        "Emulation",
-        "Formal Verification",
-        "Regression Testing"
+        "Only setup time violations.",
+        "Only hold time violations.",
+        "Both setup and hold time violations.",
+        "Increased dynamic power consumption, but no timing violations.",
+        "Reduced static power consumption, but increased gate delay."
       ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }
