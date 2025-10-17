@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the smallest unit of information that a digital computer can process and store?",
+      "question": "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with, for a flip-flop?",
       "options": [
-        "Bit",
-        "Byte",
-        "Nibble",
-        "Word",
-        "Kilobyte"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In synchronous digital design, what is a key characteristic of a Moore Finite State Machine (FSM) compared to a Mealy FSM?",
-      "options": [
-        "Its output depends only on the current state.",
-        "Its output depends on both the current state and the current input.",
-        "It typically requires fewer flip-flops for a given number of states.",
-        "Its state transitions are asynchronous.",
-        "It always allows for faster overall operation due to simpler output logic."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Which type of memory typically uses a capacitor to store each bit, requiring periodic refreshing to retain data, and is commonly used for main system memory (RAM)?",
-      "options": [
-        "Static Random-Access Memory (SRAM)",
-        "Dynamic Random-Access Memory (DRAM)",
-        "Flash Memory",
-        "Read-Only Memory (ROM)",
-        "Content-Addressable Memory (CAM)"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a superscalar, out-of-order processor, what is the primary purpose of *register renaming*?",
-      "options": [
-        "To allow different instructions to read the same architectural register simultaneously without conflicts.",
-        "To eliminate structural hazards by providing more physical registers than architectural registers.",
-        "To prevent Write-After-Write (WAW) and Write-After-Read (WAR) hazards by providing unique physical destination registers for speculative writes.",
-        "To resolve Read-After-Write (RAW) data dependencies by forwarding results directly from execution units.",
-        "To optimize cache line replacement policies for better performance."
+        "The time it takes for a signal to propagate through the circuit.",
+        "The minimum and maximum time a clock signal should be high.",
+        "The data input stability requirements relative to the clock edge for reliable sampling.",
+        "The time required for the flip-flop to switch its output state.",
+        "The delay introduced by the interconnect wires between logic gates."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical implementation of high-speed digital integrated circuits, excessive *clock skew* can lead to which of the following timing violations?",
+      "question": "Which principle states that if a particular memory location is accessed, it is likely that nearby memory locations will be accessed soon?",
       "options": [
-        "Only setup time violations.",
-        "Only hold time violations.",
-        "Both setup and hold time violations.",
-        "Increased dynamic power consumption, but no timing violations.",
-        "Reduced static power consumption, but increased gate delay."
+        "Temporal Locality",
+        "Spatial Locality",
+        "Cache Coherence",
+        "Write-Back Policy",
+        "Amdahl's Law"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Beyond functional correctness, what aspect of a digital IC design is primarily verified by \"Power Integrity (PI) analysis\"?",
+      "options": [
+        "The timing performance of the critical path.",
+        "The absence of design rule violations in the layout.",
+        "The robustness of the power delivery network to ensure stable voltage levels.",
+        "The thermal dissipation characteristics of the chip.",
+        "The logical equivalence between RTL and gate-level netlists."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What architectural model is characterized by multiple identical processors sharing a single, uniform main memory via a common bus or interconnect, where any processor can access any memory location with the same latency, and cache coherence protocols maintain data consistency across individual processor caches?",
+      "options": [
+        "Distributed Shared Memory (DSM)",
+        "Symmetric Multiprocessing (SMP)",
+        "Massively Parallel Processing (MPP)",
+        "Non-Uniform Memory Access (NUMA)",
+        "Vector Processing Unit (VPU)"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which phenomenon in semiconductor devices refers to the gradual degradation of device performance (e.g., threshold voltage shift, reduced current drive) due to the trapping of hot carriers (electrons or holes) in the gate dielectric, often exacerbated by high electric fields and switching activity?",
+      "options": [
+        "Electrostatic Discharge (ESD)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Hot Carrier Injection (HCI)",
+        "Latch-up",
+        "Random Telegraph Noise (RTN)"
       ],
       "correct": 2
     }

@@ -1,9 +1,4 @@
 [
-  "What is the primary role of a clock signal in a synchronous digital circuit?",
-  "In digital IC design, what is the primary concern addressed by 'IR drop analysis'?",
-  "In a computer system, what is the primary function of a Memory Management Unit (MMU)?",
-  "In the physical verification phase of digital IC design, what is the primary objective of 'Layout Versus Schematic (LVS)'?",
-  "In the context of multi-core processors, which advanced architectural paradigm aims to simplify concurrent programming by allowing multiple operations on shared data to execute speculatively and commit atomically, often relying on hardware support for conflict detection and rollback?",
   "What is the primary purpose of the Register File in a CPU's datapath?",
   "Which of the following best describes the relationship between a processor's Instruction Set Architecture (ISA) and its Microarchitecture?",
   "In the physical design phase of an integrated circuit, what is the primary objective of Design Rule Checking (DRC)?",
@@ -48,5 +43,10 @@
   "In synchronous digital design, what is a key characteristic of a Moore Finite State Machine (FSM) compared to a Mealy FSM?",
   "Which type of memory typically uses a capacitor to store each bit, requiring periodic refreshing to retain data, and is commonly used for main system memory (RAM)?",
   "In a superscalar, out-of-order processor, what is the primary purpose of *register renaming*?",
-  "In the physical implementation of high-speed digital integrated circuits, excessive *clock skew* can lead to which of the following timing violations?"
+  "In the physical implementation of high-speed digital integrated circuits, excessive *clock skew* can lead to which of the following timing violations?",
+  "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with, for a flip-flop?",
+  "Which principle states that if a particular memory location is accessed, it is likely that nearby memory locations will be accessed soon?",
+  "Beyond functional correctness, what aspect of a digital IC design is primarily verified by \"Power Integrity (PI) analysis\"?",
+  "What architectural model is characterized by multiple identical processors sharing a single, uniform main memory via a common bus or interconnect, where any processor can access any memory location with the same latency, and cache coherence protocols maintain data consistency across individual processor caches?",
+  "Which phenomenon in semiconductor devices refers to the gradual degradation of device performance (e.g., threshold voltage shift, reduced current drive) due to the trapping of hot carriers (electrons or holes) in the gate dielectric, often exacerbated by high electric fields and switching activity?"
 ]
