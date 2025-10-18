@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of the Register File in a CPU's datapath?",
-  "Which of the following best describes the relationship between a processor's Instruction Set Architecture (ISA) and its Microarchitecture?",
-  "In the physical design phase of an integrated circuit, what is the primary objective of Design Rule Checking (DRC)?",
-  "Which advanced power management technique involves dynamically shutting off the power supply to inactive functional blocks or entire power domains within an SoC to significantly reduce static (leakage) power consumption, often requiring power switches and isolation cells?",
-  "According to Flynn's Taxonomy, which architectural classification describes a system where multiple processing elements execute the *same instruction* on *different data streams* simultaneously?",
   "What is the primary purpose of a cache memory in a computer system?",
   "In the digital IC design flow, which step is primarily responsible for transforming a Register-Transfer Level (RTL) description into an optimized gate-level netlist using a technology-specific standard cell library?",
   "In large-scale multiprocessor systems, what is the primary motivation for adopting a Non-Uniform Memory Access (NUMA) architecture?",
@@ -48,5 +43,10 @@
   "Which principle states that if a particular memory location is accessed, it is likely that nearby memory locations will be accessed soon?",
   "Beyond functional correctness, what aspect of a digital IC design is primarily verified by \"Power Integrity (PI) analysis\"?",
   "What architectural model is characterized by multiple identical processors sharing a single, uniform main memory via a common bus or interconnect, where any processor can access any memory location with the same latency, and cache coherence protocols maintain data consistency across individual processor caches?",
-  "Which phenomenon in semiconductor devices refers to the gradual degradation of device performance (e.g., threshold voltage shift, reduced current drive) due to the trapping of hot carriers (electrons or holes) in the gate dielectric, often exacerbated by high electric fields and switching activity?"
+  "Which phenomenon in semiconductor devices refers to the gradual degradation of device performance (e.g., threshold voltage shift, reduced current drive) due to the trapping of hot carriers (electrons or holes) in the gate dielectric, often exacerbated by high electric fields and switching activity?",
+  "What does CMOS primarily stand for in the context of digital integrated circuits?",
+  "Which architectural approach relies heavily on the compiler to statically identify and bundle multiple independent operations into a single, wide instruction word, allowing them to be executed in parallel by multiple functional units?",
+  "In synchronous digital circuits, what phenomenon occurs when a flip-flop's input changes too close to its clock edge (violating setup or hold times), leading to an unpredictable output state that can persist for an arbitrary duration or eventually settle to a random stable state?",
+  "Which memory consistency model guarantees that all memory operations appear to execute in the program order of each processor, and all processors observe memory operations from all other processors in the same global total order, simplifying programming but potentially limiting performance?",
+  "In the physical design flow of an integrated circuit, what is the primary goal of 'Floorplanning'?"
 ]

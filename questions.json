@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with, for a flip-flop?",
+      "question": "What does CMOS primarily stand for in the context of digital integrated circuits?",
       "options": [
-        "The time it takes for a signal to propagate through the circuit.",
-        "The minimum and maximum time a clock signal should be high.",
-        "The data input stability requirements relative to the clock edge for reliable sampling.",
-        "The time required for the flip-flop to switch its output state.",
-        "The delay introduced by the interconnect wires between logic gates."
+        "Complementary Metal-Oxide-Semiconductor",
+        "Centralized Memory Operating System",
+        "Current-Mode Output Switch",
+        "Capacitor-Modulated Optical System",
+        "Common Mode Offset Suppression"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "Which principle states that if a particular memory location is accessed, it is likely that nearby memory locations will be accessed soon?",
+      "question": "Which architectural approach relies heavily on the compiler to statically identify and bundle multiple independent operations into a single, wide instruction word, allowing them to be executed in parallel by multiple functional units?",
       "options": [
-        "Temporal Locality",
-        "Spatial Locality",
-        "Cache Coherence",
-        "Write-Back Policy",
-        "Amdahl's Law"
+        "Very Long Instruction Word (VLIW)",
+        "Complex Instruction Set Computer (CISC)",
+        "Reduced Instruction Set Computer (RISC)",
+        "Single Instruction, Multiple Data (SIMD)",
+        "Superscalar Architecture"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "Beyond functional correctness, what aspect of a digital IC design is primarily verified by \"Power Integrity (PI) analysis\"?",
+      "question": "In synchronous digital circuits, what phenomenon occurs when a flip-flop's input changes too close to its clock edge (violating setup or hold times), leading to an unpredictable output state that can persist for an arbitrary duration or eventually settle to a random stable state?",
       "options": [
-        "The timing performance of the critical path.",
-        "The absence of design rule violations in the layout.",
-        "The robustness of the power delivery network to ensure stable voltage levels.",
-        "The thermal dissipation characteristics of the chip.",
-        "The logical equivalence between RTL and gate-level netlists."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What architectural model is characterized by multiple identical processors sharing a single, uniform main memory via a common bus or interconnect, where any processor can access any memory location with the same latency, and cache coherence protocols maintain data consistency across individual processor caches?",
-      "options": [
-        "Distributed Shared Memory (DSM)",
-        "Symmetric Multiprocessing (SMP)",
-        "Massively Parallel Processing (MPP)",
-        "Non-Uniform Memory Access (NUMA)",
-        "Vector Processing Unit (VPU)"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which phenomenon in semiconductor devices refers to the gradual degradation of device performance (e.g., threshold voltage shift, reduced current drive) due to the trapping of hot carriers (electrons or holes) in the gate dielectric, often exacerbated by high electric fields and switching activity?",
-      "options": [
-        "Electrostatic Discharge (ESD)",
+        "Metastability",
+        "Clock Gating",
+        "Electromigration",
         "Negative Bias Temperature Instability (NBTI)",
-        "Hot Carrier Injection (HCI)",
-        "Latch-up",
-        "Random Telegraph Noise (RTN)"
+        "Dynamic IR Drop"
       ],
-      "correct": 2
+      "correct": 0
+    },
+    {
+      "question": "Which memory consistency model guarantees that all memory operations appear to execute in the program order of each processor, and all processors observe memory operations from all other processors in the same global total order, simplifying programming but potentially limiting performance?",
+      "options": [
+        "Sequential Consistency",
+        "Release Consistency",
+        "Weak Consistency",
+        "Causal Consistency",
+        "Processor Consistency"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the physical design flow of an integrated circuit, what is the primary goal of 'Floorplanning'?",
+      "options": [
+        "To determine the approximate size, shape, and placement of major functional blocks (e.g., CPU, memory, peripherals) on the silicon die, and to define the core and I/O regions.",
+        "To convert the RTL description into a gate-level netlist using standard cells.",
+        "To verify that all geometric patterns on the masks adhere to the foundry's manufacturing rules.",
+        "To optimize and balance the delays of the clock signals to all sequential elements.",
+        "To place individual standard cells within the predefined block boundaries and route their interconnects."
+      ],
+      "correct": 0
     }
   ]
 }
