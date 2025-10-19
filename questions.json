@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does CMOS primarily stand for in the context of digital integrated circuits?",
+      "question": "What is the fundamental building block of synchronous sequential digital circuits, capable of storing a single bit of information and updating its state only at specific clock edges?",
       "options": [
-        "Complementary Metal-Oxide-Semiconductor",
-        "Centralized Memory Operating System",
-        "Current-Mode Output Switch",
-        "Capacitor-Modulated Optical System",
-        "Common Mode Offset Suppression"
+        "NOR gate",
+        "Multiplexer",
+        "Adder",
+        "Flip-flop",
+        "Decoder"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "Which architectural approach relies heavily on the compiler to statically identify and bundle multiple independent operations into a single, wide instruction word, allowing them to be executed in parallel by multiple functional units?",
+      "question": "In a CPU's memory hierarchy, what is the primary advantage of a `set-associative` cache over a `direct-mapped` cache?",
       "options": [
-        "Very Long Instruction Word (VLIW)",
-        "Complex Instruction Set Computer (CISC)",
-        "Reduced Instruction Set Computer (RISC)",
-        "Single Instruction, Multiple Data (SIMD)",
-        "Superscalar Architecture"
+        "Simpler hardware implementation and lower cost",
+        "Faster access times due to direct address mapping",
+        "Reduced power consumption",
+        "Fewer cache misses due to increased flexibility in block placement",
+        "Guaranteed absence of conflict misses"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In synchronous digital circuits, what phenomenon occurs when a flip-flop's input changes too close to its clock edge (violating setup or hold times), leading to an unpredictable output state that can persist for an arbitrary duration or eventually settle to a random stable state?",
+      "question": "In digital IC design, what is the primary purpose of implementing `scan chains` as part of Design for Testability (DFT)?",
       "options": [
-        "Metastability",
-        "Clock Gating",
-        "Electromigration",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Dynamic IR Drop"
+        "To improve the power efficiency of the circuit during normal operation",
+        "To facilitate static timing analysis (STA) by providing clear timing paths",
+        "To enable effective manufacturing test of sequential logic for faults",
+        "To enhance circuit security by encrypting internal states",
+        "To reduce the physical area occupied by the logic gates"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "Which memory consistency model guarantees that all memory operations appear to execute in the program order of each processor, and all processors observe memory operations from all other processors in the same global total order, simplifying programming but potentially limiting performance?",
+      "question": "Which type of specialized processor architecture is designed to efficiently perform the same operation on multiple data elements simultaneously, often using a single instruction to operate on entire arrays or vectors of data?",
       "options": [
-        "Sequential Consistency",
-        "Release Consistency",
-        "Weak Consistency",
-        "Causal Consistency",
-        "Processor Consistency"
+        "Scalar Processor",
+        "Superscalar Processor",
+        "Vector Processor",
+        "Very Long Instruction Word (VLIW) Processor",
+        "Complex Instruction Set Computer (CISC)"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In the physical design flow of an integrated circuit, what is the primary goal of 'Floorplanning'?",
+      "question": "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the `Place and Route` step?",
       "options": [
-        "To determine the approximate size, shape, and placement of major functional blocks (e.g., CPU, memory, peripherals) on the silicon die, and to define the core and I/O regions.",
-        "To convert the RTL description into a gate-level netlist using standard cells.",
-        "To verify that all geometric patterns on the masks adhere to the foundry's manufacturing rules.",
-        "To optimize and balance the delays of the clock signals to all sequential elements.",
-        "To place individual standard cells within the predefined block boundaries and route their interconnects."
+        "To convert the RTL description into a gate-level netlist",
+        "To verify the functional correctness of the design using simulations",
+        "To determine the physical locations of standard cells and connect them with metal wires",
+        "To generate the test vectors for manufacturing fault detection",
+        "To optimize the power consumption of the design at the architectural level"
       ],
-      "correct": 0
+      "correct": 2
     }
   ]
 }

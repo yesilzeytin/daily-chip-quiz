@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a cache memory in a computer system?",
-  "In the digital IC design flow, which step is primarily responsible for transforming a Register-Transfer Level (RTL) description into an optimized gate-level netlist using a technology-specific standard cell library?",
-  "In large-scale multiprocessor systems, what is the primary motivation for adopting a Non-Uniform Memory Access (NUMA) architecture?",
-  "In synchronous digital circuit timing analysis, what is the 'critical path'?",
-  "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a \"standard cell\"?",
   "What is the defining characteristic of an Application-Specific Integrated Circuit (ASIC)?",
   "In cache memory systems, which write policy updates both the cache and main memory simultaneously upon a write operation?",
   "In a pipelined processor, what type of hazard occurs when a later instruction tries to read a register value that an earlier instruction has not yet written back to the register file?",
@@ -48,5 +43,10 @@
   "Which architectural approach relies heavily on the compiler to statically identify and bundle multiple independent operations into a single, wide instruction word, allowing them to be executed in parallel by multiple functional units?",
   "In synchronous digital circuits, what phenomenon occurs when a flip-flop's input changes too close to its clock edge (violating setup or hold times), leading to an unpredictable output state that can persist for an arbitrary duration or eventually settle to a random stable state?",
   "Which memory consistency model guarantees that all memory operations appear to execute in the program order of each processor, and all processors observe memory operations from all other processors in the same global total order, simplifying programming but potentially limiting performance?",
-  "In the physical design flow of an integrated circuit, what is the primary goal of 'Floorplanning'?"
+  "In the physical design flow of an integrated circuit, what is the primary goal of 'Floorplanning'?",
+  "What is the fundamental building block of synchronous sequential digital circuits, capable of storing a single bit of information and updating its state only at specific clock edges?",
+  "In a CPU's memory hierarchy, what is the primary advantage of a `set-associative` cache over a `direct-mapped` cache?",
+  "In digital IC design, what is the primary purpose of implementing `scan chains` as part of Design for Testability (DFT)?",
+  "Which type of specialized processor architecture is designed to efficiently perform the same operation on multiple data elements simultaneously, often using a single instruction to operate on entire arrays or vectors of data?",
+  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the `Place and Route` step?"
 ]
