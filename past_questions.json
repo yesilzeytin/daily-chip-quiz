@@ -1,9 +1,4 @@
 [
-  "What is the defining characteristic of an Application-Specific Integrated Circuit (ASIC)?",
-  "In cache memory systems, which write policy updates both the cache and main memory simultaneously upon a write operation?",
-  "In a pipelined processor, what type of hazard occurs when a later instruction tries to read a register value that an earlier instruction has not yet written back to the register file?",
-  "What is the primary impact of 'Negative Bias Temperature Instability (NBTI)' on PMOS transistors in modern semiconductor devices?",
-  "In a System-on-Chip (SoC) design, what is the primary advantage of using a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect for complex multi-core systems?",
   "In the context of digital IC verification, what is the primary purpose of a testbench?",
   "In a typical pipelined CPU, what is the primary consequence of a 'branch misprediction'?",
   "In the physical implementation of digital integrated circuits, what is the primary purpose of 'filler cells' (also known as decap cells or tap cells)?",
@@ -48,5 +43,10 @@
   "In a CPU's memory hierarchy, what is the primary advantage of a `set-associative` cache over a `direct-mapped` cache?",
   "In digital IC design, what is the primary purpose of implementing `scan chains` as part of Design for Testability (DFT)?",
   "Which type of specialized processor architecture is designed to efficiently perform the same operation on multiple data elements simultaneously, often using a single instruction to operate on entire arrays or vectors of data?",
-  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the `Place and Route` step?"
+  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the `Place and Route` step?",
+  "What is the fundamental semiconductor device used as the primary building block for implementing logic gates and memory cells in modern digital integrated circuits?",
+  "In the CPU's memory hierarchy, which type of memory typically provides the fastest access times and is used for CPU registers and L1/L2 caches, despite its higher cost per bit and lower density compared to main system memory?",
+  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of 'power grid synthesis'?",
+  "In modern CPU architecture, what is the primary purpose of 'out-of-order execution'?",
+  "In advanced functional verification using Property Specification Languages (PSL) or SystemVerilog Assertions (SVA), what is the key advantage they offer over traditional simulation-based testbenches?"
 ]
