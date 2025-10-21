@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental semiconductor device used as the primary building block for implementing logic gates and memory cells in modern digital integrated circuits?",
+      "question": "What is a key characteristic of a *combinational logic circuit*?",
       "options": [
-        "Resistor",
-        "Inductor",
-        "Capacitor",
-        "Transistor",
-        "Diode"
+        "Its output depends only on its current inputs.",
+        "It contains memory elements like flip-flops.",
+        "Its output depends on both current and past inputs.",
+        "It requires a clock signal to operate.",
+        "It is primarily used for storing data."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "In the CPU's memory hierarchy, which type of memory typically provides the fastest access times and is used for CPU registers and L1/L2 caches, despite its higher cost per bit and lower density compared to main system memory?",
+      "question": "In a CPU, what is the primary function of the *Translation Lookaside Buffer (TLB)*?",
       "options": [
-        "Dynamic Random Access Memory (DRAM)",
-        "Static Random Access Memory (SRAM)",
-        "Flash Memory",
-        "Magnetic Disk",
-        "Read-Only Memory (ROM)"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of 'power grid synthesis'?",
-      "options": [
-        "To generate the optimal clock signals for all sequential elements",
-        "To ensure adequate power delivery to all components and minimize voltage drops (IR drop)",
-        "To arrange and place the standard cells on the silicon die",
-        "To route the interconnects between different functional blocks",
-        "To perform post-layout static timing analysis for critical paths"
+        "To store frequently used instructions for faster access.",
+        "To accelerate the translation of virtual addresses to physical addresses.",
+        "To manage the coherence of multiple CPU caches.",
+        "To hold data that has been modified but not yet written back to main memory.",
+        "To prefetch data from main memory into the cache."
       ],
       "correct": 1
     },
     {
-      "question": "In modern CPU architecture, what is the primary purpose of 'out-of-order execution'?",
+      "question": "In the physical verification phase of an integrated circuit design, what is the main purpose of *Design Rule Checking (DRC)*?",
       "options": [
-        "To reduce the overall power consumption of the processor by shutting down idle units",
-        "To simplify the instruction set architecture (ISA) for easier compilation",
-        "To improve instruction-level parallelism by executing instructions when their operands are ready, regardless of their original program order",
-        "To strictly ensure that all instructions complete and commit in their original program order",
-        "To limit the number of functional units available in the processor to save die area"
+        "To verify that all logical gates are connected correctly according to the netlist.",
+        "To ensure the design adheres to the manufacturing capabilities and limitations of the foundry.",
+        "To simulate the circuit's behavior under various operating conditions.",
+        "To identify and fix timing violations like setup and hold time issues.",
+        "To optimize the power consumption of the entire chip."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In multi-processor systems, which statement best describes a *weak consistency model* for memory?",
+      "options": [
+        "All memory operations appear to execute in the program order of each processor, and all processors observe memory operations in the same global total order.",
+        "Writes from one processor are immediately visible to all other processors.",
+        "It allows for reordering of memory operations, but provides mechanisms (e.g., fences or barriers) to enforce ordering when explicitly required by the programmer.",
+        "Cache coherence is maintained exclusively through snooping protocols on a shared bus.",
+        "It prioritizes strict global ordering of all memory accesses over performance."
       ],
       "correct": 2
     },
     {
-      "question": "In advanced functional verification using Property Specification Languages (PSL) or SystemVerilog Assertions (SVA), what is the key advantage they offer over traditional simulation-based testbenches?",
+      "question": "In Static Timing Analysis (STA), what does a *positive slack* value on a timing path indicate?",
       "options": [
-        "They enable faster compilation of the Register Transfer Level (RTL) design",
-        "They automatically generate random stimulus vectors for exhaustive testing",
-        "They allow for the formal specification of design behavior and properties, which can be mathematically proven (formally verified) or dynamically checked during simulation",
-        "They synthesize optimized gate-level netlists directly from high-level specifications",
-        "They provide detailed power consumption reports for various operating conditions"
+        "The path is a critical path and will cause a timing violation.",
+        "The signal arrives at the destination flip-flop's data input too late for the setup time.",
+        "The signal arrives at the destination flip-flop's data input with margin, meeting its timing requirements.",
+        "The path will incur excessive dynamic power consumption.",
+        "The clock signal is skewed significantly, potentially causing hold time violations."
       ],
       "correct": 2
     }

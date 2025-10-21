@@ -1,9 +1,4 @@
 [
-  "In the context of digital IC verification, what is the primary purpose of a testbench?",
-  "In a typical pipelined CPU, what is the primary consequence of a 'branch misprediction'?",
-  "In the physical implementation of digital integrated circuits, what is the primary purpose of 'filler cells' (also known as decap cells or tap cells)?",
-  "In synchronous digital IC design, what is the primary goal of performing 'Static Timing Analysis (STA)'?",
-  "In modern CPU architecture, what does 'Amdahl's Law' primarily describe?",
   "In the digital IC design flow, what is the primary purpose of the 'Clock Tree Synthesis (CTS)' step?",
   "Which architectural concept is primarily characterized by having separate memory spaces and buses for instructions and data, allowing for simultaneous fetching of instructions and data access?",
   "In a typical CPU pipeline, which stage is primarily responsible for reading the instruction from the program counter and fetching it from the instruction memory?",
@@ -48,5 +43,10 @@
   "In the CPU's memory hierarchy, which type of memory typically provides the fastest access times and is used for CPU registers and L1/L2 caches, despite its higher cost per bit and lower density compared to main system memory?",
   "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of 'power grid synthesis'?",
   "In modern CPU architecture, what is the primary purpose of 'out-of-order execution'?",
-  "In advanced functional verification using Property Specification Languages (PSL) or SystemVerilog Assertions (SVA), what is the key advantage they offer over traditional simulation-based testbenches?"
+  "In advanced functional verification using Property Specification Languages (PSL) or SystemVerilog Assertions (SVA), what is the key advantage they offer over traditional simulation-based testbenches?",
+  "What is a key characteristic of a *combinational logic circuit*?",
+  "In a CPU, what is the primary function of the *Translation Lookaside Buffer (TLB)*?",
+  "In the physical verification phase of an integrated circuit design, what is the main purpose of *Design Rule Checking (DRC)*?",
+  "In multi-processor systems, which statement best describes a *weak consistency model* for memory?",
+  "In Static Timing Analysis (STA), what does a *positive slack* value on a timing path indicate?"
 ]
