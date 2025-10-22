@@ -1,9 +1,4 @@
 [
-  "In the digital IC design flow, what is the primary purpose of the 'Clock Tree Synthesis (CTS)' step?",
-  "Which architectural concept is primarily characterized by having separate memory spaces and buses for instructions and data, allowing for simultaneous fetching of instructions and data access?",
-  "In a typical CPU pipeline, which stage is primarily responsible for reading the instruction from the program counter and fetching it from the instruction memory?",
-  "What type of parallelism focuses on executing multiple independent instructions from a single instruction stream simultaneously within a single processor core, often employing techniques like pipelining and superscalar execution?",
-  "In semiconductor fabrication, what is the primary function of Chemical Mechanical Planarization (CMP)?",
   "What is the primary function of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
   "In the context of cache coherence in multi-core processors, what is the primary purpose of a protocol like MESI?",
   "What is the fundamental advantage of using a FinFET transistor architecture compared to a planar MOSFET in advanced technology nodes (e.g., 20nm and below)?",
@@ -48,5 +43,10 @@
   "In a CPU, what is the primary function of the *Translation Lookaside Buffer (TLB)*?",
   "In the physical verification phase of an integrated circuit design, what is the main purpose of *Design Rule Checking (DRC)*?",
   "In multi-processor systems, which statement best describes a *weak consistency model* for memory?",
-  "In Static Timing Analysis (STA), what does a *positive slack* value on a timing path indicate?"
+  "In Static Timing Analysis (STA), what does a *positive slack* value on a timing path indicate?",
+  "What is the output of a 2-input NAND gate if both inputs are HIGH (logic 1)?",
+  "In cache memory systems, which write policy dictates that data is written only to the cache and marked as 'dirty', with updates to main memory occurring only when the cache line is evicted or replaced?",
+  "In a modern pipelined processor, what is the primary function of the Branch Target Buffer (BTB)?",
+  "Which Design for Testability (DFT) technique is standardized as IEEE 1149.1 and enables structured testing of interconnects on a printed circuit board (PCB) as well as internal logic of compliant ICs via a serial interface?",
+  "To reduce static and dynamic power consumption in inactive parts of an SoC, which low-power design technique involves switching off the power supply to specific blocks or domains when they are not in use?"
 ]

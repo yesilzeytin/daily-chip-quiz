@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is a key characteristic of a *combinational logic circuit*?",
+      "question": "What is the output of a 2-input NAND gate if both inputs are HIGH (logic 1)?",
       "options": [
-        "Its output depends only on its current inputs.",
-        "It contains memory elements like flip-flops.",
-        "Its output depends on both current and past inputs.",
-        "It requires a clock signal to operate.",
-        "It is primarily used for storing data."
+        "LOW (logic 0)",
+        "HIGH (logic 1)",
+        "Undefined",
+        "High-impedance",
+        "Oscillating"
       ],
       "correct": 0
     },
     {
-      "question": "In a CPU, what is the primary function of the *Translation Lookaside Buffer (TLB)*?",
+      "question": "In cache memory systems, which write policy dictates that data is written only to the cache and marked as 'dirty', with updates to main memory occurring only when the cache line is evicted or replaced?",
       "options": [
-        "To store frequently used instructions for faster access.",
-        "To accelerate the translation of virtual addresses to physical addresses.",
-        "To manage the coherence of multiple CPU caches.",
-        "To hold data that has been modified but not yet written back to main memory.",
-        "To prefetch data from main memory into the cache."
+        "Write-through",
+        "Write-back",
+        "Write-allocate",
+        "No-write-allocate",
+        "Cache-only"
       ],
       "correct": 1
     },
     {
-      "question": "In the physical verification phase of an integrated circuit design, what is the main purpose of *Design Rule Checking (DRC)*?",
+      "question": "In a modern pipelined processor, what is the primary function of the Branch Target Buffer (BTB)?",
       "options": [
-        "To verify that all logical gates are connected correctly according to the netlist.",
-        "To ensure the design adheres to the manufacturing capabilities and limitations of the foundry.",
-        "To simulate the circuit's behavior under various operating conditions.",
-        "To identify and fix timing violations like setup and hold time issues.",
-        "To optimize the power consumption of the entire chip."
+        "Stores the most recently used data for faster access by the CPU",
+        "Resolves data dependencies between instructions in the pipeline",
+        "Holds instructions that are waiting to be committed to architectural state",
+        "Stores predicted target addresses for conditional and unconditional branches to reduce branch penalty",
+        "Manages the mapping of virtual addresses to physical addresses"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In multi-processor systems, which statement best describes a *weak consistency model* for memory?",
+      "question": "Which Design for Testability (DFT) technique is standardized as IEEE 1149.1 and enables structured testing of interconnects on a printed circuit board (PCB) as well as internal logic of compliant ICs via a serial interface?",
       "options": [
-        "All memory operations appear to execute in the program order of each processor, and all processors observe memory operations in the same global total order.",
-        "Writes from one processor are immediately visible to all other processors.",
-        "It allows for reordering of memory operations, but provides mechanisms (e.g., fences or barriers) to enforce ordering when explicitly required by the programmer.",
-        "Cache coherence is maintained exclusively through snooping protocols on a shared bus.",
-        "It prioritizes strict global ordering of all memory accesses over performance."
+        "Scan chains",
+        "Memory Built-In Self-Test (MBIST)",
+        "Automatic Test Pattern Generation (ATPG)",
+        "Boundary Scan",
+        "Logic Built-In Self-Test (LBIST)"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In Static Timing Analysis (STA), what does a *positive slack* value on a timing path indicate?",
+      "question": "To reduce static and dynamic power consumption in inactive parts of an SoC, which low-power design technique involves switching off the power supply to specific blocks or domains when they are not in use?",
       "options": [
-        "The path is a critical path and will cause a timing violation.",
-        "The signal arrives at the destination flip-flop's data input too late for the setup time.",
-        "The signal arrives at the destination flip-flop's data input with margin, meeting its timing requirements.",
-        "The path will incur excessive dynamic power consumption.",
-        "The clock signal is skewed significantly, potentially causing hold time violations."
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Clock Gating",
+        "Body Biasing",
+        "Power Gating",
+        "Process Variation Control"
       ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }
