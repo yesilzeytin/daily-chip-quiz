@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the output of a 2-input NAND gate if both inputs are HIGH (logic 1)?",
+      "question": "What is the primary role of an Instruction Set Architecture (ISA) in computer architecture?",
       "options": [
-        "LOW (logic 0)",
-        "HIGH (logic 1)",
-        "Undefined",
-        "High-impedance",
-        "Oscillating"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In cache memory systems, which write policy dictates that data is written only to the cache and marked as 'dirty', with updates to main memory occurring only when the cache line is evicted or replaced?",
-      "options": [
-        "Write-through",
-        "Write-back",
-        "Write-allocate",
-        "No-write-allocate",
-        "Cache-only"
+        "To define the physical layout of the CPU on a silicon chip.",
+        "To specify the interaction between the software and the hardware, including the set of instructions, data types, and architectural registers.",
+        "To manage the power consumption of the processor cores.",
+        "To control the manufacturing process of integrated circuits.",
+        "To determine the voltage levels for different logic gates."
       ],
       "correct": 1
     },
     {
-      "question": "In a modern pipelined processor, what is the primary function of the Branch Target Buffer (BTB)?",
+      "question": "In the typical digital IC design flow, what is the main objective of the 'logic synthesis' step?",
       "options": [
-        "Stores the most recently used data for faster access by the CPU",
-        "Resolves data dependencies between instructions in the pipeline",
-        "Holds instructions that are waiting to be committed to architectural state",
-        "Stores predicted target addresses for conditional and unconditional branches to reduce branch penalty",
-        "Manages the mapping of virtual addresses to physical addresses"
+        "To convert the gate-level netlist into a physical layout (mask data).",
+        "To verify the functional correctness of the design using extensive simulations.",
+        "To translate the Register-Transfer Level (RTL) Hardware Description Language (HDL) code into an optimized gate-level netlist using standard cells.",
+        "To perform static timing analysis and ensure all critical paths meet performance requirements.",
+        "To generate test vectors for Design for Testability (DFT) structures."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of Flynn's classifications for computer architectures describes systems capable of executing multiple, distinct instruction streams on multiple, independent data streams simultaneously, often found in multi-core processors?",
+      "options": [
+        "Single Instruction, Single Data (SISD)",
+        "Single Instruction, Multiple Data (SIMD)",
+        "Multiple Instruction, Single Data (MISD)",
+        "Multiple Instruction, Multiple Data (MIMD)",
+        "Single Instruction, Independent Data (SIID)"
       ],
       "correct": 3
     },
     {
-      "question": "Which Design for Testability (DFT) technique is standardized as IEEE 1149.1 and enables structured testing of interconnects on a printed circuit board (PCB) as well as internal logic of compliant ICs via a serial interface?",
+      "question": "In the context of CPU cache memory, which replacement policy discards the cache line that has been in the cache for the longest duration, regardless of how recently it was accessed?",
       "options": [
-        "Scan chains",
-        "Memory Built-In Self-Test (MBIST)",
-        "Automatic Test Pattern Generation (ATPG)",
-        "Boundary Scan",
-        "Logic Built-In Self-Test (LBIST)"
+        "Least Recently Used (LRU)",
+        "Most Recently Used (MRU)",
+        "First-In, First-Out (FIFO)",
+        "Least Frequently Used (LFU)",
+        "Random Replacement"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "To reduce static and dynamic power consumption in inactive parts of an SoC, which low-power design technique involves switching off the power supply to specific blocks or domains when they are not in use?",
+      "question": "For p-type MOSFETs (PMOS) in advanced technology nodes, what specific reliability mechanism causes a gradual increase in threshold voltage (Vth) over time when the device is under a constant negative gate-to-source voltage and elevated temperature?",
       "options": [
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Clock Gating",
-        "Body Biasing",
-        "Power Gating",
-        "Process Variation Control"
+        "Electromigration (EM)",
+        "Hot Carrier Injection (HCI)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Time-Dependent Dielectric Breakdown (TDDB)",
+        "Stress-Induced Leakage Current (SILC)"
       ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
-  "In the context of cache coherence in multi-core processors, what is the primary purpose of a protocol like MESI?",
-  "What is the fundamental advantage of using a FinFET transistor architecture compared to a planar MOSFET in advanced technology nodes (e.g., 20nm and below)?",
-  "What is the primary contributor to *dynamic* power consumption in a CMOS digital circuit?",
-  "Which architectural mechanism in a CPU allows a program to access a larger, contiguous address space than the physical RAM available, by mapping virtual addresses to physical addresses and using disk storage for overflow?",
   "What is the primary function of a multiplexer (MUX) in digital logic?",
   "Which characteristic primarily defines the Von Neumann architecture for computer systems?",
   "In the context of advanced functional verification for complex System-on-Chip (SoC) designs, which methodology framework is widely adopted for creating reusable, scalable, and robust testbenches, often incorporating constrained-random stimulus generation and coverage-driven verification?",
@@ -48,5 +43,10 @@
   "In cache memory systems, which write policy dictates that data is written only to the cache and marked as 'dirty', with updates to main memory occurring only when the cache line is evicted or replaced?",
   "In a modern pipelined processor, what is the primary function of the Branch Target Buffer (BTB)?",
   "Which Design for Testability (DFT) technique is standardized as IEEE 1149.1 and enables structured testing of interconnects on a printed circuit board (PCB) as well as internal logic of compliant ICs via a serial interface?",
-  "To reduce static and dynamic power consumption in inactive parts of an SoC, which low-power design technique involves switching off the power supply to specific blocks or domains when they are not in use?"
+  "To reduce static and dynamic power consumption in inactive parts of an SoC, which low-power design technique involves switching off the power supply to specific blocks or domains when they are not in use?",
+  "What is the primary role of an Instruction Set Architecture (ISA) in computer architecture?",
+  "In the typical digital IC design flow, what is the main objective of the 'logic synthesis' step?",
+  "Which of Flynn's classifications for computer architectures describes systems capable of executing multiple, distinct instruction streams on multiple, independent data streams simultaneously, often found in multi-core processors?",
+  "In the context of CPU cache memory, which replacement policy discards the cache line that has been in the cache for the longest duration, regardless of how recently it was accessed?",
+  "For p-type MOSFETs (PMOS) in advanced technology nodes, what specific reliability mechanism causes a gradual increase in threshold voltage (Vth) over time when the device is under a constant negative gate-to-source voltage and elevated temperature?"
 ]
