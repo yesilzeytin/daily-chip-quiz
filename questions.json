@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of an Instruction Set Architecture (ISA) in computer architecture?",
+      "question": "In a multi-processor system with private caches, what is the primary purpose of a cache coherence protocol?",
       "options": [
-        "To define the physical layout of the CPU on a silicon chip.",
-        "To specify the interaction between the software and the hardware, including the set of instructions, data types, and architectural registers.",
-        "To manage the power consumption of the processor cores.",
-        "To control the manufacturing process of integrated circuits.",
-        "To determine the voltage levels for different logic gates."
+        "To reduce the latency of memory access by storing frequently used data closer to the CPU.",
+        "To ensure that all processors observe a consistent view of memory, even when data is replicated in multiple caches.",
+        "To translate virtual memory addresses into physical memory addresses.",
+        "To manage the allocation and deallocation of memory pages in main memory.",
+        "To prevent race conditions in multi-threaded software applications."
       ],
       "correct": 1
     },
     {
-      "question": "In the typical digital IC design flow, what is the main objective of the 'logic synthesis' step?",
+      "question": "When using a Hardware Description Language (HDL) like Verilog or VHDL, what is the fundamental difference in the outcome between simulating a design and synthesizing it for an ASIC or FPGA?",
       "options": [
-        "To convert the gate-level netlist into a physical layout (mask data).",
-        "To verify the functional correctness of the design using extensive simulations.",
-        "To translate the Register-Transfer Level (RTL) Hardware Description Language (HDL) code into an optimized gate-level netlist using standard cells.",
-        "To perform static timing analysis and ensure all critical paths meet performance requirements.",
-        "To generate test vectors for Design for Testability (DFT) structures."
+        "Simulation validates the timing performance, while synthesis generates the physical layout.",
+        "Simulation verifies the functional correctness and behavior, while synthesis transforms the HDL into a gate-level netlist.",
+        "Simulation provides power consumption estimates, while synthesis optimizes the design for manufacturing yield.",
+        "Simulation creates a graphical schematic of the circuit, while synthesis generates assembly code.",
+        "Simulation produces an executable software program, while synthesis generates a firmware image."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In computer architecture, when an interrupt occurs, what mechanism does the CPU typically use to determine which interrupt service routine (ISR) to execute?",
+      "options": [
+        "It polls all peripheral devices until the source of the interrupt is identified.",
+        "It executes a default error handling routine that logs the event.",
+        "It references an Interrupt Vector Table (IVT) using the interrupt number to find the ISR's starting address.",
+        "It asks the operating system to dynamically load the appropriate ISR from disk.",
+        "It restarts the processor and re-executes the last instruction."
       ],
       "correct": 2
     },
     {
-      "question": "Which of Flynn's classifications for computer architectures describes systems capable of executing multiple, distinct instruction streams on multiple, independent data streams simultaneously, often found in multi-core processors?",
+      "question": "In Static Timing Analysis (STA) of a digital circuit, what does a *negative slack* value on a critical path signify?",
       "options": [
-        "Single Instruction, Single Data (SISD)",
-        "Single Instruction, Multiple Data (SIMD)",
-        "Multiple Instruction, Single Data (MISD)",
-        "Multiple Instruction, Multiple Data (MIMD)",
-        "Single Instruction, Independent Data (SIID)"
+        "The circuit is operating faster than its intended clock frequency.",
+        "The design has met all its timing constraints with margin to spare.",
+        "The actual data arrival time is earlier than the required data arrival time.",
+        "The design fails to meet its timing requirements, meaning a timing violation exists.",
+        "There is an excessive clock skew across the design."
       ],
       "correct": 3
     },
     {
-      "question": "In the context of CPU cache memory, which replacement policy discards the cache line that has been in the cache for the longest duration, regardless of how recently it was accessed?",
+      "question": "Which of the following statements best describes a key difference between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "Least Recently Used (LRU)",
-        "Most Recently Used (MRU)",
-        "First-In, First-Out (FIFO)",
-        "Least Frequently Used (LFU)",
-        "Random Replacement"
+        "FPGAs are designed to be manufactured in significantly larger volumes than ASICs.",
+        "ASICs are reprogrammable after manufacturing, allowing for hardware updates in the field.",
+        "FPGAs offer higher performance and lower power consumption compared to ASICs for the same function.",
+        "ASICs are custom-designed for a specific function, resulting in better performance and efficiency, while FPGAs are reconfigurable generic hardware.",
+        "FPGAs require a full mask set for manufacturing, leading to higher non-recurring engineering (NRE) costs."
       ],
-      "correct": 2
-    },
-    {
-      "question": "For p-type MOSFETs (PMOS) in advanced technology nodes, what specific reliability mechanism causes a gradual increase in threshold voltage (Vth) over time when the device is under a constant negative gate-to-source voltage and elevated temperature?",
-      "options": [
-        "Electromigration (EM)",
-        "Hot Carrier Injection (HCI)",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Time-Dependent Dielectric Breakdown (TDDB)",
-        "Stress-Induced Leakage Current (SILC)"
-      ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }

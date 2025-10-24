@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital logic?",
-  "Which characteristic primarily defines the Von Neumann architecture for computer systems?",
-  "In the context of advanced functional verification for complex System-on-Chip (SoC) designs, which methodology framework is widely adopted for creating reusable, scalable, and robust testbenches, often incorporating constrained-random stimulus generation and coverage-driven verification?",
-  "In a pipelined processor, what technique is used to speculatively guess the outcome of a conditional branch instruction to minimize pipeline stalls and keep the pipeline full, often before the actual branch condition is resolved?",
-  "What is the primary role of photolithography in the fabrication of integrated circuits?",
   "What is the primary purpose of *doping* in a semiconductor material like silicon?",
   "In digital logic, which of the following gates is considered a \"universal gate\" because any other Boolean function can be implemented using only instances of this type of gate?",
   "In an advanced out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
@@ -48,5 +43,10 @@
   "In the typical digital IC design flow, what is the main objective of the 'logic synthesis' step?",
   "Which of Flynn's classifications for computer architectures describes systems capable of executing multiple, distinct instruction streams on multiple, independent data streams simultaneously, often found in multi-core processors?",
   "In the context of CPU cache memory, which replacement policy discards the cache line that has been in the cache for the longest duration, regardless of how recently it was accessed?",
-  "For p-type MOSFETs (PMOS) in advanced technology nodes, what specific reliability mechanism causes a gradual increase in threshold voltage (Vth) over time when the device is under a constant negative gate-to-source voltage and elevated temperature?"
+  "For p-type MOSFETs (PMOS) in advanced technology nodes, what specific reliability mechanism causes a gradual increase in threshold voltage (Vth) over time when the device is under a constant negative gate-to-source voltage and elevated temperature?",
+  "In a multi-processor system with private caches, what is the primary purpose of a cache coherence protocol?",
+  "When using a Hardware Description Language (HDL) like Verilog or VHDL, what is the fundamental difference in the outcome between simulating a design and synthesizing it for an ASIC or FPGA?",
+  "In computer architecture, when an interrupt occurs, what mechanism does the CPU typically use to determine which interrupt service routine (ISR) to execute?",
+  "In Static Timing Analysis (STA) of a digital circuit, what does a *negative slack* value on a critical path signify?",
+  "Which of the following statements best describes a key difference between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?"
 ]
