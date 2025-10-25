@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In a multi-processor system with private caches, what is the primary purpose of a cache coherence protocol?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital design?",
       "options": [
-        "To reduce the latency of memory access by storing frequently used data closer to the CPU.",
-        "To ensure that all processors observe a consistent view of memory, even when data is replicated in multiple caches.",
-        "To translate virtual memory addresses into physical memory addresses.",
-        "To manage the allocation and deallocation of memory pages in main memory.",
-        "To prevent race conditions in multi-threaded software applications."
+        "To select one of several input signals and route it to a single output based on a set of select lines.",
+        "To store a single bit of data.",
+        "To perform arithmetic operations like addition or subtraction.",
+        "To generate a clock signal for synchronous circuits.",
+        "To convert analog signals into digital signals."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary purpose of a *write buffer* in a CPU's memory system?",
+      "options": [
+        "To store instructions fetched from main memory before execution.",
+        "To temporarily hold data written from the CPU, allowing the CPU to proceed without waiting for the write to complete in the memory hierarchy.",
+        "To cache frequently accessed read data, reducing main memory latency for reads.",
+        "To translate virtual addresses to physical addresses.",
+        "To manage cache coherence between multiple processors by broadcasting write operations."
       ],
       "correct": 1
     },
     {
-      "question": "When using a Hardware Description Language (HDL) like Verilog or VHDL, what is the fundamental difference in the outcome between simulating a design and synthesizing it for an ASIC or FPGA?",
+      "question": "What is the primary goal of a `Clock Tree Synthesis (CTS)` step in the physical design flow of an Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "Simulation validates the timing performance, while synthesis generates the physical layout.",
-        "Simulation verifies the functional correctness and behavior, while synthesis transforms the HDL into a gate-level netlist.",
-        "Simulation provides power consumption estimates, while synthesis optimizes the design for manufacturing yield.",
-        "Simulation creates a graphical schematic of the circuit, while synthesis generates assembly code.",
-        "Simulation produces an executable software program, while synthesis generates a firmware image."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In computer architecture, when an interrupt occurs, what mechanism does the CPU typically use to determine which interrupt service routine (ISR) to execute?",
-      "options": [
-        "It polls all peripheral devices until the source of the interrupt is identified.",
-        "It executes a default error handling routine that logs the event.",
-        "It references an Interrupt Vector Table (IVT) using the interrupt number to find the ISR's starting address.",
-        "It asks the operating system to dynamically load the appropriate ISR from disk.",
-        "It restarts the processor and re-executes the last instruction."
+        "To create the initial logical layout of the major functional blocks on the silicon die.",
+        "To optimize the timing of the logic gates to meet setup and hold requirements by adjusting gate sizes.",
+        "To reduce clock skew and insertion delay, ensuring that the clock signal arrives at all sequential elements simultaneously and with minimal propagation time.",
+        "To route all data and control signals between logic gates using available metal layers.",
+        "To verify the physical layout against manufacturing rules such as minimum width and spacing."
       ],
       "correct": 2
     },
     {
-      "question": "In Static Timing Analysis (STA) of a digital circuit, what does a *negative slack* value on a critical path signify?",
+      "question": "In a directory-based cache coherence protocol, what is the primary function of the 'directory'?",
       "options": [
-        "The circuit is operating faster than its intended clock frequency.",
-        "The design has met all its timing constraints with margin to spare.",
-        "The actual data arrival time is earlier than the required data arrival time.",
-        "The design fails to meet its timing requirements, meaning a timing violation exists.",
-        "There is an excessive clock skew across the design."
+        "To store the virtual-to-physical address mappings for memory pages.",
+        "To maintain a record of which caches hold a copy of each memory block and its current state (e.g., shared, modified, invalid).",
+        "To buffer write operations to main memory, allowing them to be completed asynchronously.",
+        "To provide fast lookup for branch target addresses to improve pipeline performance.",
+        "To store micro-operations for complex instructions before they are executed by the functional units."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "Which of the following statements best describes a key difference between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?",
+      "question": "In digital circuit design, what is the primary reason for performing `glitch analysis`?",
       "options": [
-        "FPGAs are designed to be manufactured in significantly larger volumes than ASICs.",
-        "ASICs are reprogrammable after manufacturing, allowing for hardware updates in the field.",
-        "FPGAs offer higher performance and lower power consumption compared to ASICs for the same function.",
-        "ASICs are custom-designed for a specific function, resulting in better performance and efficiency, while FPGAs are reconfigurable generic hardware.",
-        "FPGAs require a full mask set for manufacturing, leading to higher non-recurring engineering (NRE) costs."
+        "To measure the overall static power consumption of the circuit.",
+        "To identify unintended momentary changes (glitches) at the outputs of combinational logic that could cause false triggering in sequential elements.",
+        "To verify the correctness of complex arithmetic operations in the data path.",
+        "To ensure the physical layout meets all manufacturing design rules (e.g., minimum spacing, width).",
+        "To determine the maximum stable operating frequency of the entire circuit."
       ],
-      "correct": 3
+      "correct": 1
     }
   ]
 }

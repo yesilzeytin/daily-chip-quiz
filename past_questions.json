@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of *doping* in a semiconductor material like silicon?",
-  "In digital logic, which of the following gates is considered a \"universal gate\" because any other Boolean function can be implemented using only instances of this type of gate?",
-  "In an advanced out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
-  "In integrated circuit interconnects, which reliability concern describes the phenomenon where the continuous flow of electrons causes a gradual displacement of metal atoms in a conductor, potentially leading to open circuits (voids) or short circuits (extrusions) over time?",
-  "Which verification methodology aims to mathematically prove the correctness of a design against a formal specification, rather than relying on extensive simulations with test vectors?",
   "What is the smallest unit of information that a digital computer can process and store?",
   "In synchronous digital design, what is a key characteristic of a Moore Finite State Machine (FSM) compared to a Mealy FSM?",
   "Which type of memory typically uses a capacitor to store each bit, requiring periodic refreshing to retain data, and is commonly used for main system memory (RAM)?",
@@ -48,5 +43,10 @@
   "When using a Hardware Description Language (HDL) like Verilog or VHDL, what is the fundamental difference in the outcome between simulating a design and synthesizing it for an ASIC or FPGA?",
   "In computer architecture, when an interrupt occurs, what mechanism does the CPU typically use to determine which interrupt service routine (ISR) to execute?",
   "In Static Timing Analysis (STA) of a digital circuit, what does a *negative slack* value on a critical path signify?",
-  "Which of the following statements best describes a key difference between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?"
+  "Which of the following statements best describes a key difference between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?",
+  "What is the primary function of a multiplexer (MUX) in digital design?",
+  "What is the primary purpose of a *write buffer* in a CPU's memory system?",
+  "What is the primary goal of a `Clock Tree Synthesis (CTS)` step in the physical design flow of an Application-Specific Integrated Circuit (ASIC)?",
+  "In a directory-based cache coherence protocol, what is the primary function of the 'directory'?",
+  "In digital circuit design, what is the primary reason for performing `glitch analysis`?"
 ]
