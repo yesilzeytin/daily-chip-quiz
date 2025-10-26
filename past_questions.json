@@ -1,9 +1,4 @@
 [
-  "What is the smallest unit of information that a digital computer can process and store?",
-  "In synchronous digital design, what is a key characteristic of a Moore Finite State Machine (FSM) compared to a Mealy FSM?",
-  "Which type of memory typically uses a capacitor to store each bit, requiring periodic refreshing to retain data, and is commonly used for main system memory (RAM)?",
-  "In a superscalar, out-of-order processor, what is the primary purpose of *register renaming*?",
-  "In the physical implementation of high-speed digital integrated circuits, excessive *clock skew* can lead to which of the following timing violations?",
   "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with, for a flip-flop?",
   "Which principle states that if a particular memory location is accessed, it is likely that nearby memory locations will be accessed soon?",
   "Beyond functional correctness, what aspect of a digital IC design is primarily verified by \"Power Integrity (PI) analysis\"?",
@@ -48,5 +43,10 @@
   "What is the primary purpose of a *write buffer* in a CPU's memory system?",
   "What is the primary goal of a `Clock Tree Synthesis (CTS)` step in the physical design flow of an Application-Specific Integrated Circuit (ASIC)?",
   "In a directory-based cache coherence protocol, what is the primary function of the 'directory'?",
-  "In digital circuit design, what is the primary reason for performing `glitch analysis`?"
+  "In digital circuit design, what is the primary reason for performing `glitch analysis`?",
+  "In a CPU, what is the primary function of the Arithmetic Logic Unit (ALU)?",
+  "In a pipelined processor, which type of hazard occurs when an instruction needs to read data that a previous instruction in the pipeline has not yet written back to the register file or memory?",
+  "Which of the following is a primary challenge or consideration in the design of asynchronous digital circuits, compared to synchronous circuits?",
+  "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of metal atoms in an interconnect line due to momentum transfer from electrons flowing through it, often leading to opens or shorts over time, particularly exacerbated by high current densities and elevated temperatures?",
+  "Which advanced verification technique mathematically proves the correctness of a design against a formal specification, exploring all possible input combinations and states, rather than relying on simulating a finite set of test vectors?"
 ]

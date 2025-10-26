@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital design?",
+      "question": "In a CPU, what is the primary function of the Arithmetic Logic Unit (ALU)?",
       "options": [
-        "To select one of several input signals and route it to a single output based on a set of select lines.",
-        "To store a single bit of data.",
-        "To perform arithmetic operations like addition or subtraction.",
-        "To generate a clock signal for synchronous circuits.",
-        "To convert analog signals into digital signals."
+        "Perform arithmetic and logical operations",
+        "Manage memory access",
+        "Control instruction fetching",
+        "Store program instructions",
+        "Handle input/output operations"
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary purpose of a *write buffer* in a CPU's memory system?",
+      "question": "In a pipelined processor, which type of hazard occurs when an instruction needs to read data that a previous instruction in the pipeline has not yet written back to the register file or memory?",
       "options": [
-        "To store instructions fetched from main memory before execution.",
-        "To temporarily hold data written from the CPU, allowing the CPU to proceed without waiting for the write to complete in the memory hierarchy.",
-        "To cache frequently accessed read data, reducing main memory latency for reads.",
-        "To translate virtual addresses to physical addresses.",
-        "To manage cache coherence between multiple processors by broadcasting write operations."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary goal of a `Clock Tree Synthesis (CTS)` step in the physical design flow of an Application-Specific Integrated Circuit (ASIC)?",
-      "options": [
-        "To create the initial logical layout of the major functional blocks on the silicon die.",
-        "To optimize the timing of the logic gates to meet setup and hold requirements by adjusting gate sizes.",
-        "To reduce clock skew and insertion delay, ensuring that the clock signal arrives at all sequential elements simultaneously and with minimal propagation time.",
-        "To route all data and control signals between logic gates using available metal layers.",
-        "To verify the physical layout against manufacturing rules such as minimum width and spacing."
+        "Structural hazard",
+        "Control hazard",
+        "Data hazard",
+        "Resource hazard",
+        "Memory hazard"
       ],
       "correct": 2
     },
     {
-      "question": "In a directory-based cache coherence protocol, what is the primary function of the 'directory'?",
+      "question": "Which of the following is a primary challenge or consideration in the design of asynchronous digital circuits, compared to synchronous circuits?",
       "options": [
-        "To store the virtual-to-physical address mappings for memory pages.",
-        "To maintain a record of which caches hold a copy of each memory block and its current state (e.g., shared, modified, invalid).",
-        "To buffer write operations to main memory, allowing them to be completed asynchronously.",
-        "To provide fast lookup for branch target addresses to improve pipeline performance.",
-        "To store micro-operations for complex instructions before they are executed by the functional units."
+        "Difficulty in scaling clock frequencies",
+        "Requirement for global clock distribution",
+        "Inherent susceptibility to race conditions without careful design",
+        "Limited power efficiency at high performance",
+        "Simpler timing analysis due to event-driven nature"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of metal atoms in an interconnect line due to momentum transfer from electrons flowing through it, often leading to opens or shorts over time, particularly exacerbated by high current densities and elevated temperatures?",
+      "options": [
+        "Negative Bias Temperature Instability (NBTI)",
+        "Electromigration",
+        "Hot Carrier Injection (HCI)",
+        "Dielectric breakdown",
+        "Latch-up"
       ],
       "correct": 1
     },
     {
-      "question": "In digital circuit design, what is the primary reason for performing `glitch analysis`?",
+      "question": "Which advanced verification technique mathematically proves the correctness of a design against a formal specification, exploring all possible input combinations and states, rather than relying on simulating a finite set of test vectors?",
       "options": [
-        "To measure the overall static power consumption of the circuit.",
-        "To identify unintended momentary changes (glitches) at the outputs of combinational logic that could cause false triggering in sequential elements.",
-        "To verify the correctness of complex arithmetic operations in the data path.",
-        "To ensure the physical layout meets all manufacturing design rules (e.g., minimum spacing, width).",
-        "To determine the maximum stable operating frequency of the entire circuit."
+        "Regression testing",
+        "Emulation",
+        "Formal verification",
+        "Hardware-in-the-Loop simulation",
+        "Coverage-driven verification"
       ],
-      "correct": 1
+      "correct": 2
     }
   ]
 }
