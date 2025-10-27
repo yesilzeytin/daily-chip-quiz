@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In a CPU, what is the primary function of the Arithmetic Logic Unit (ALU)?",
+      "question": "What is the primary role of a clock signal in a synchronous digital circuit?",
       "options": [
-        "Perform arithmetic and logical operations",
-        "Manage memory access",
-        "Control instruction fetching",
-        "Store program instructions",
-        "Handle input/output operations"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a pipelined processor, which type of hazard occurs when an instruction needs to read data that a previous instruction in the pipeline has not yet written back to the register file or memory?",
-      "options": [
-        "Structural hazard",
-        "Control hazard",
-        "Data hazard",
-        "Resource hazard",
-        "Memory hazard"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following is a primary challenge or consideration in the design of asynchronous digital circuits, compared to synchronous circuits?",
-      "options": [
-        "Difficulty in scaling clock frequencies",
-        "Requirement for global clock distribution",
-        "Inherent susceptibility to race conditions without careful design",
-        "Limited power efficiency at high performance",
-        "Simpler timing analysis due to event-driven nature"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of metal atoms in an interconnect line due to momentum transfer from electrons flowing through it, often leading to opens or shorts over time, particularly exacerbated by high current densities and elevated temperatures?",
-      "options": [
-        "Negative Bias Temperature Instability (NBTI)",
-        "Electromigration",
-        "Hot Carrier Injection (HCI)",
-        "Dielectric breakdown",
-        "Latch-up"
+        "To amplify data signals for transmission.",
+        "To synchronize the operations of sequential logic elements.",
+        "To provide power to the circuit components.",
+        "To regulate the temperature of the chip.",
+        "To generate random numbers for testing."
       ],
       "correct": 1
     },
     {
-      "question": "Which advanced verification technique mathematically proves the correctness of a design against a formal specification, exploring all possible input combinations and states, rather than relying on simulating a finite set of test vectors?",
+      "question": "When designing a CPU cache, increasing its associativity (e.g., from direct-mapped to 2-way set-associative) primarily aims to reduce which of the following?",
       "options": [
-        "Regression testing",
-        "Emulation",
-        "Formal verification",
-        "Hardware-in-the-Loop simulation",
-        "Coverage-driven verification"
+        "Latency of cache hits.",
+        "Power consumption of the cache.",
+        "Capacity misses (when the cache is full).",
+        "Conflict misses (when multiple blocks map to the same set).",
+        "Compulsory misses (first access to a block)."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the context of semiconductor manufacturing and yield management, what does the term 'Die Yield' primarily refer to?",
+      "options": [
+        "The number of functional integrated circuits produced per wafer.",
+        "The ratio of successful design iterations to total design iterations.",
+        "The maximum operating frequency achieved by the chip.",
+        "The amount of power consumed by a single integrated circuit.",
+        "The silicon area occupied by the core logic."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary goal of *speculative execution* in a modern superscalar processor?",
+      "options": [
+        "To prevent cache coherence issues in multi-core systems.",
+        "To reduce the number of functional units required for execution.",
+        "To improve instruction-level parallelism by executing instructions before their control dependencies are resolved.",
+        "To ensure all memory accesses are strictly ordered according to the program.",
+        "To reduce the static power consumption of the processor core."
       ],
       "correct": 2
+    },
+    {
+      "question": "In digital IC design, what is the main benefit of implementing *clock gating*?",
+      "options": [
+        "To increase the maximum operating frequency of the circuit.",
+        "To reduce dynamic power consumption by disabling the clock to inactive blocks.",
+        "To improve signal integrity by reducing crosstalk.",
+        "To eliminate the need for an external clock source.",
+        "To provide a backup clock in case of failure."
+      ],
+      "correct": 1
     }
   ]
 }
