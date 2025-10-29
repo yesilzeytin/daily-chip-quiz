@@ -1,9 +1,4 @@
 [
-  "What does CMOS primarily stand for in the context of digital integrated circuits?",
-  "Which architectural approach relies heavily on the compiler to statically identify and bundle multiple independent operations into a single, wide instruction word, allowing them to be executed in parallel by multiple functional units?",
-  "In synchronous digital circuits, what phenomenon occurs when a flip-flop's input changes too close to its clock edge (violating setup or hold times), leading to an unpredictable output state that can persist for an arbitrary duration or eventually settle to a random stable state?",
-  "Which memory consistency model guarantees that all memory operations appear to execute in the program order of each processor, and all processors observe memory operations from all other processors in the same global total order, simplifying programming but potentially limiting performance?",
-  "In the physical design flow of an integrated circuit, what is the primary goal of 'Floorplanning'?",
   "What is the fundamental building block of synchronous sequential digital circuits, capable of storing a single bit of information and updating its state only at specific clock edges?",
   "In a CPU's memory hierarchy, what is the primary advantage of a `set-associative` cache over a `direct-mapped` cache?",
   "In digital IC design, what is the primary purpose of implementing `scan chains` as part of Design for Testability (DFT)?",
@@ -48,5 +43,10 @@
   "When designing a CPU cache, increasing its associativity (e.g., from direct-mapped to 2-way set-associative) primarily aims to reduce which of the following?",
   "In the context of semiconductor manufacturing and yield management, what does the term 'Die Yield' primarily refer to?",
   "What is the primary goal of *speculative execution* in a modern superscalar processor?",
-  "In digital IC design, what is the main benefit of implementing *clock gating*?"
+  "In digital IC design, what is the main benefit of implementing *clock gating*?",
+  "In the context of ASIC design, what is the primary purpose of a 'standard cell library'?",
+  "What is a key architectural characteristic that primarily distinguishes Reduced Instruction Set Computing (RISC) from Complex Instruction Set Computing (CISC)?",
+  "In advanced digital IC verification, what is the specific objective of 'Formal Equivalence Checking (LEC)'?",
+  "When designing a digital integrated circuit with multiple independent clock sources, what is the primary role of a 'Clock Domain Crossing (CDC)' circuit?",
+  "In a modern out-of-order superscalar processor, what is the main purpose of 'register renaming'?"
 ]

@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of a clock signal in a synchronous digital circuit?",
+      "question": "In the context of ASIC design, what is the primary purpose of a 'standard cell library'?",
       "options": [
-        "To amplify data signals for transmission.",
-        "To synchronize the operations of sequential logic elements.",
-        "To provide power to the circuit components.",
-        "To regulate the temperature of the chip.",
-        "To generate random numbers for testing."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "When designing a CPU cache, increasing its associativity (e.g., from direct-mapped to 2-way set-associative) primarily aims to reduce which of the following?",
-      "options": [
-        "Latency of cache hits.",
-        "Power consumption of the cache.",
-        "Capacity misses (when the cache is full).",
-        "Conflict misses (when multiple blocks map to the same set).",
-        "Compulsory misses (first access to a block)."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of semiconductor manufacturing and yield management, what does the term 'Die Yield' primarily refer to?",
-      "options": [
-        "The number of functional integrated circuits produced per wafer.",
-        "The ratio of successful design iterations to total design iterations.",
-        "The maximum operating frequency achieved by the chip.",
-        "The amount of power consumed by a single integrated circuit.",
-        "The silicon area occupied by the core logic."
+        "To provide a collection of pre-designed, pre-characterized logic gates and functional blocks for synthesis and physical layout.",
+        "To define the Instruction Set Architecture (ISA) of the processor being designed.",
+        "To manage the power distribution network across different voltage domains.",
+        "To perform real-time simulation of the entire System-on-Chip (SoC) functionality.",
+        "To dictate the manufacturing process technology parameters for the foundry."
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary goal of *speculative execution* in a modern superscalar processor?",
+      "question": "What is a key architectural characteristic that primarily distinguishes Reduced Instruction Set Computing (RISC) from Complex Instruction Set Computing (CISC)?",
       "options": [
-        "To prevent cache coherence issues in multi-core systems.",
-        "To reduce the number of functional units required for execution.",
-        "To improve instruction-level parallelism by executing instructions before their control dependencies are resolved.",
-        "To ensure all memory accesses are strictly ordered according to the program.",
-        "To reduce the static power consumption of the processor core."
+        "RISC architectures typically feature a larger and more complex set of instructions.",
+        "CISC architectures prioritize fixed-length instructions and a load/store architecture.",
+        "RISC architectures are designed with simpler, fixed-length instructions that can be executed in a single clock cycle or a few cycles.",
+        "CISC architectures have a larger number of general-purpose registers compared to RISC.",
+        "RISC processors heavily rely on microcode for instruction execution, while CISC does not."
       ],
       "correct": 2
     },
     {
-      "question": "In digital IC design, what is the main benefit of implementing *clock gating*?",
+      "question": "In advanced digital IC verification, what is the specific objective of 'Formal Equivalence Checking (LEC)'?",
       "options": [
-        "To increase the maximum operating frequency of the circuit.",
-        "To reduce dynamic power consumption by disabling the clock to inactive blocks.",
-        "To improve signal integrity by reducing crosstalk.",
-        "To eliminate the need for an external clock source.",
-        "To provide a backup clock in case of failure."
+        "To verify that the power consumption of a design meets specified constraints.",
+        "To ensure that the timing paths within the design meet all setup and hold time requirements.",
+        "To mathematically prove that two different representations (e.g., RTL and gate-level netlist) of a design are functionally identical.",
+        "To generate optimized test patterns for manufacturing defect detection.",
+        "To simulate the behavior of the entire chip under various operating conditions."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "When designing a digital integrated circuit with multiple independent clock sources, what is the primary role of a 'Clock Domain Crossing (CDC)' circuit?",
+      "options": [
+        "To generate a single, high-frequency master clock for the entire chip.",
+        "To buffer and distribute a clock signal to reduce clock skew.",
+        "To safely transfer data and control signals between logic operating on different, unsynchronized clock domains.",
+        "To convert an analog clock signal into a digital one.",
+        "To detect and correct errors in the clock signal itself."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a modern out-of-order superscalar processor, what is the main purpose of 'register renaming'?",
+      "options": [
+        "To reduce the number of physical registers required in the processor.",
+        "To allow multiple instructions to concurrently use the same architectural register without false dependencies (WAR/WAW hazards).",
+        "To simplify the instruction decoding stage by providing unique names for each instruction's operands.",
+        "To store the results of speculative execution until they are committed.",
+        "To provide a backup mechanism for restoring register state after a branch misprediction."
       ],
       "correct": 1
     }
