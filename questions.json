@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the context of ASIC design, what is the primary purpose of a 'standard cell library'?",
+      "question": "What does CMOS stand for in the context of digital integrated circuits?",
       "options": [
-        "To provide a collection of pre-designed, pre-characterized logic gates and functional blocks for synthesis and physical layout.",
-        "To define the Instruction Set Architecture (ISA) of the processor being designed.",
-        "To manage the power distribution network across different voltage domains.",
-        "To perform real-time simulation of the entire System-on-Chip (SoC) functionality.",
-        "To dictate the manufacturing process technology parameters for the foundry."
+        "Complementary Metal-Oxide-Semiconductor",
+        "Central Memory Operating System",
+        "Current Mode Output Switching",
+        "Capacitor-Modulated Operating System",
+        "Common Mode Offset Suppressor"
       ],
       "correct": 0
     },
     {
-      "question": "What is a key architectural characteristic that primarily distinguishes Reduced Instruction Set Computing (RISC) from Complex Instruction Set Computing (CISC)?",
+      "question": "What is the primary purpose of *virtual memory* in a modern operating system and CPU architecture?",
       "options": [
-        "RISC architectures typically feature a larger and more complex set of instructions.",
-        "CISC architectures prioritize fixed-length instructions and a load/store architecture.",
-        "RISC architectures are designed with simpler, fixed-length instructions that can be executed in a single clock cycle or a few cycles.",
-        "CISC architectures have a larger number of general-purpose registers compared to RISC.",
-        "RISC processors heavily rely on microcode for instruction execution, while CISC does not."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In advanced digital IC verification, what is the specific objective of 'Formal Equivalence Checking (LEC)'?",
-      "options": [
-        "To verify that the power consumption of a design meets specified constraints.",
-        "To ensure that the timing paths within the design meet all setup and hold time requirements.",
-        "To mathematically prove that two different representations (e.g., RTL and gate-level netlist) of a design are functionally identical.",
-        "To generate optimized test patterns for manufacturing defect detection.",
-        "To simulate the behavior of the entire chip under various operating conditions."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "When designing a digital integrated circuit with multiple independent clock sources, what is the primary role of a 'Clock Domain Crossing (CDC)' circuit?",
-      "options": [
-        "To generate a single, high-frequency master clock for the entire chip.",
-        "To buffer and distribute a clock signal to reduce clock skew.",
-        "To safely transfer data and control signals between logic operating on different, unsynchronized clock domains.",
-        "To convert an analog clock signal into a digital one.",
-        "To detect and correct errors in the clock signal itself."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a modern out-of-order superscalar processor, what is the main purpose of 'register renaming'?",
-      "options": [
-        "To reduce the number of physical registers required in the processor.",
-        "To allow multiple instructions to concurrently use the same architectural register without false dependencies (WAR/WAW hazards).",
-        "To simplify the instruction decoding stage by providing unique names for each instruction's operands.",
-        "To store the results of speculative execution until they are committed.",
-        "To provide a backup mechanism for restoring register state after a branch misprediction."
+        "To speed up memory access by caching frequently used data.",
+        "To provide a larger address space than physically available RAM and offer memory protection between processes.",
+        "To allow the CPU to execute multiple instructions simultaneously.",
+        "To enable communication between different processor cores.",
+        "To manage the power consumption of various memory modules."
       ],
       "correct": 1
+    },
+    {
+      "question": "In deep sub-micron integrated circuit design, what is *crosstalk* primarily concerned with?",
+      "options": [
+        "The unintended coupling of signals between adjacent interconnect wires, potentially causing logic errors or timing violations.",
+        "The loss of signal strength over long metal traces due to resistance.",
+        "The phenomenon where a logic gate's output momentarily goes to an incorrect state (a glitch).",
+        "The thermal stress induced on metal lines due to varying current densities.",
+        "The difficulty in routing complex clock signals across the chip."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In a pipelined processor, what is the main purpose of *data forwarding* (also known as *bypassing*)?",
+      "options": [
+        "To predict the outcome of branch instructions and fetch instructions speculatively.",
+        "To prevent structural hazards by providing multiple functional units for common operations.",
+        "To resolve data hazards by making the result of an instruction available to subsequent instructions earlier than a full write-back to the register file.",
+        "To ensure cache coherence between multiple processors.",
+        "To reduce dynamic power consumption by disabling unused pipeline stages."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which statement best describes the fundamental approach of *model checking* as a formal verification technique in digital IC design?",
+      "options": [
+        "It simulates the design with a comprehensive set of test vectors to identify functional bugs.",
+        "It compares two different representations of a design (e.g., RTL and gate-level) to ensure their logical equivalence.",
+        "It exhaustively explores all reachable states of a finite-state model of the design to check if a given property holds or can be violated.",
+        "It uses statistical sampling of design states to estimate the probability of assertion failures.",
+        "It automatically generates hardware acceleration for simulation by compiling the HDL onto an FPGA."
+      ],
+      "correct": 2
     }
   ]
 }

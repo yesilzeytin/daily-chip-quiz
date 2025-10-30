@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of synchronous sequential digital circuits, capable of storing a single bit of information and updating its state only at specific clock edges?",
-  "In a CPU's memory hierarchy, what is the primary advantage of a `set-associative` cache over a `direct-mapped` cache?",
-  "In digital IC design, what is the primary purpose of implementing `scan chains` as part of Design for Testability (DFT)?",
-  "Which type of specialized processor architecture is designed to efficiently perform the same operation on multiple data elements simultaneously, often using a single instruction to operate on entire arrays or vectors of data?",
-  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the `Place and Route` step?",
   "What is the fundamental semiconductor device used as the primary building block for implementing logic gates and memory cells in modern digital integrated circuits?",
   "In the CPU's memory hierarchy, which type of memory typically provides the fastest access times and is used for CPU registers and L1/L2 caches, despite its higher cost per bit and lower density compared to main system memory?",
   "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of 'power grid synthesis'?",
@@ -48,5 +43,10 @@
   "What is a key architectural characteristic that primarily distinguishes Reduced Instruction Set Computing (RISC) from Complex Instruction Set Computing (CISC)?",
   "In advanced digital IC verification, what is the specific objective of 'Formal Equivalence Checking (LEC)'?",
   "When designing a digital integrated circuit with multiple independent clock sources, what is the primary role of a 'Clock Domain Crossing (CDC)' circuit?",
-  "In a modern out-of-order superscalar processor, what is the main purpose of 'register renaming'?"
+  "In a modern out-of-order superscalar processor, what is the main purpose of 'register renaming'?",
+  "What does CMOS stand for in the context of digital integrated circuits?",
+  "What is the primary purpose of *virtual memory* in a modern operating system and CPU architecture?",
+  "In deep sub-micron integrated circuit design, what is *crosstalk* primarily concerned with?",
+  "In a pipelined processor, what is the main purpose of *data forwarding* (also known as *bypassing*)?",
+  "Which statement best describes the fundamental approach of *model checking* as a formal verification technique in digital IC design?"
 ]
