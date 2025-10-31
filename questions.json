@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does CMOS stand for in the context of digital integrated circuits?",
+      "question": "What is the primary function of a flip-flop in digital circuit design?",
       "options": [
-        "Complementary Metal-Oxide-Semiconductor",
-        "Central Memory Operating System",
-        "Current Mode Output Switching",
-        "Capacitor-Modulated Operating System",
-        "Common Mode Offset Suppressor"
+        "To perform arithmetic operations.",
+        "To combine multiple input signals into a single output.",
+        "To store a single bit of information and maintain its state until updated.",
+        "To amplify a digital signal.",
+        "To convert analog signals to digital."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "What is the primary purpose of *virtual memory* in a modern operating system and CPU architecture?",
+      "question": "In the physical design phase of an integrated circuit, what is the main goal of the `floorplanning` step?",
       "options": [
-        "To speed up memory access by caching frequently used data.",
-        "To provide a larger address space than physically available RAM and offer memory protection between processes.",
-        "To allow the CPU to execute multiple instructions simultaneously.",
-        "To enable communication between different processor cores.",
-        "To manage the power consumption of various memory modules."
+        "To verify the logical correctness of the design against its specification.",
+        "To create the detailed transistor-level schematics for each logic gate.",
+        "To determine the size and placement of major functional blocks and I/O pads on the chip die.",
+        "To generate the clock distribution network to all sequential elements.",
+        "To convert the Register Transfer Level (RTL) code into a gate-level netlist."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following best describes the purpose of a *branch predictor* in a pipelined CPU?",
+      "options": [
+        "To execute multiple instructions in parallel from different program threads.",
+        "To pre-fetch data from main memory into cache before it is requested.",
+        "To guess the outcome of a conditional branch instruction before it is resolved, to avoid pipeline stalls.",
+        "To translate virtual memory addresses into physical memory addresses.",
+        "To temporarily store instructions that have completed execution but are waiting to write results."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of chip manufacturing, what is `Design for Manufacturability (DFM)` primarily concerned with?",
+      "options": [
+        "Ensuring the chip meets its power specifications under various operating conditions.",
+        "Minimizing the number of defects during fabrication to improve yield and reliability.",
+        "Optimizing the performance of critical paths to meet target clock frequencies.",
+        "Facilitating the testing of the manufactured chip to detect defects.",
+        "Reducing the area footprint of the design on the silicon die."
       ],
       "correct": 1
     },
     {
-      "question": "In deep sub-micron integrated circuit design, what is *crosstalk* primarily concerned with?",
+      "question": "What is the primary role of a `Reservation Station` in a Tomasulo's algorithm-based out-of-order processor?",
       "options": [
-        "The unintended coupling of signals between adjacent interconnect wires, potentially causing logic errors or timing violations.",
-        "The loss of signal strength over long metal traces due to resistance.",
-        "The phenomenon where a logic gate's output momentarily goes to an incorrect state (a glitch).",
-        "The thermal stress induced on metal lines due to varying current densities.",
-        "The difficulty in routing complex clock signals across the chip."
+        "To hold decoded instructions and their operands until their required functional unit is free and their operands are ready.",
+        "To store the program counter for instructions that are waiting to be issued to a functional unit.",
+        "To reorder instructions back into their original program order before committing their results to the register file.",
+        "To manage the translation of virtual addresses to physical addresses for load/store operations.",
+        "To buffer the results of completed operations before they are written back to the common data bus."
       ],
       "correct": 0
-    },
-    {
-      "question": "In a pipelined processor, what is the main purpose of *data forwarding* (also known as *bypassing*)?",
-      "options": [
-        "To predict the outcome of branch instructions and fetch instructions speculatively.",
-        "To prevent structural hazards by providing multiple functional units for common operations.",
-        "To resolve data hazards by making the result of an instruction available to subsequent instructions earlier than a full write-back to the register file.",
-        "To ensure cache coherence between multiple processors.",
-        "To reduce dynamic power consumption by disabling unused pipeline stages."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which statement best describes the fundamental approach of *model checking* as a formal verification technique in digital IC design?",
-      "options": [
-        "It simulates the design with a comprehensive set of test vectors to identify functional bugs.",
-        "It compares two different representations of a design (e.g., RTL and gate-level) to ensure their logical equivalence.",
-        "It exhaustively explores all reachable states of a finite-state model of the design to check if a given property holds or can be violated.",
-        "It uses statistical sampling of design states to estimate the probability of assertion failures.",
-        "It automatically generates hardware acceleration for simulation by compiling the HDL onto an FPGA."
-      ],
-      "correct": 2
     }
   ]
 }

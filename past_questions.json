@@ -1,9 +1,4 @@
 [
-  "What is the fundamental semiconductor device used as the primary building block for implementing logic gates and memory cells in modern digital integrated circuits?",
-  "In the CPU's memory hierarchy, which type of memory typically provides the fastest access times and is used for CPU registers and L1/L2 caches, despite its higher cost per bit and lower density compared to main system memory?",
-  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of 'power grid synthesis'?",
-  "In modern CPU architecture, what is the primary purpose of 'out-of-order execution'?",
-  "In advanced functional verification using Property Specification Languages (PSL) or SystemVerilog Assertions (SVA), what is the key advantage they offer over traditional simulation-based testbenches?",
   "What is a key characteristic of a *combinational logic circuit*?",
   "In a CPU, what is the primary function of the *Translation Lookaside Buffer (TLB)*?",
   "In the physical verification phase of an integrated circuit design, what is the main purpose of *Design Rule Checking (DRC)*?",
@@ -48,5 +43,10 @@
   "What is the primary purpose of *virtual memory* in a modern operating system and CPU architecture?",
   "In deep sub-micron integrated circuit design, what is *crosstalk* primarily concerned with?",
   "In a pipelined processor, what is the main purpose of *data forwarding* (also known as *bypassing*)?",
-  "Which statement best describes the fundamental approach of *model checking* as a formal verification technique in digital IC design?"
+  "Which statement best describes the fundamental approach of *model checking* as a formal verification technique in digital IC design?",
+  "What is the primary function of a flip-flop in digital circuit design?",
+  "In the physical design phase of an integrated circuit, what is the main goal of the `floorplanning` step?",
+  "Which of the following best describes the purpose of a *branch predictor* in a pipelined CPU?",
+  "In the context of chip manufacturing, what is `Design for Manufacturability (DFM)` primarily concerned with?",
+  "What is the primary role of a `Reservation Station` in a Tomasulo's algorithm-based out-of-order processor?"
 ]
