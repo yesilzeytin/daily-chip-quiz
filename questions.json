@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a flip-flop in digital circuit design?",
+      "question": "What is the primary purpose of Boolean algebra in digital circuit design?",
       "options": [
-        "To perform arithmetic operations.",
-        "To combine multiple input signals into a single output.",
-        "To store a single bit of information and maintain its state until updated.",
-        "To amplify a digital signal.",
-        "To convert analog signals to digital."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical design phase of an integrated circuit, what is the main goal of the `floorplanning` step?",
-      "options": [
-        "To verify the logical correctness of the design against its specification.",
-        "To create the detailed transistor-level schematics for each logic gate.",
-        "To determine the size and placement of major functional blocks and I/O pads on the chip die.",
-        "To generate the clock distribution network to all sequential elements.",
-        "To convert the Register Transfer Level (RTL) code into a gate-level netlist."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following best describes the purpose of a *branch predictor* in a pipelined CPU?",
-      "options": [
-        "To execute multiple instructions in parallel from different program threads.",
-        "To pre-fetch data from main memory into cache before it is requested.",
-        "To guess the outcome of a conditional branch instruction before it is resolved, to avoid pipeline stalls.",
-        "To translate virtual memory addresses into physical memory addresses.",
-        "To temporarily store instructions that have completed execution but are waiting to write results."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of chip manufacturing, what is `Design for Manufacturability (DFM)` primarily concerned with?",
-      "options": [
-        "Ensuring the chip meets its power specifications under various operating conditions.",
-        "Minimizing the number of defects during fabrication to improve yield and reliability.",
-        "Optimizing the performance of critical paths to meet target clock frequencies.",
-        "Facilitating the testing of the manufactured chip to detect defects.",
-        "Reducing the area footprint of the design on the silicon die."
+        "To calculate financial budgets for chip manufacturing.",
+        "To simplify and analyze logic functions for circuit implementation.",
+        "To manage the physical placement of components on a chip.",
+        "To estimate the power consumption of a circuit.",
+        "To simulate the behavior of analog signals."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary role of a `Reservation Station` in a Tomasulo's algorithm-based out-of-order processor?",
+      "question": "In pipelined processors, what is the primary function of a pipeline register (or inter-stage buffer)?",
       "options": [
-        "To hold decoded instructions and their operands until their required functional unit is free and their operands are ready.",
-        "To store the program counter for instructions that are waiting to be issued to a functional unit.",
-        "To reorder instructions back into their original program order before committing their results to the register file.",
-        "To manage the translation of virtual addresses to physical addresses for load/store operations.",
-        "To buffer the results of completed operations before they are written back to the common data bus."
+        "To store the final result of an instruction after it has completed all stages.",
+        "To hold intermediate results and control signals between consecutive pipeline stages, separating them temporally.",
+        "To manage the allocation and deallocation of physical registers for register renaming.",
+        "To perform complex arithmetic and logical operations on data.",
+        "To buffer instructions that have been fetched from memory but are not yet decoded."
       ],
-      "correct": 0
+      "correct": 1
+    },
+    {
+      "question": "What does the term 'process variation' primarily refer to in the context of semiconductor manufacturing?",
+      "options": [
+        "The different types of manufacturing processes (e.g., CMOS, BiCMOS) available for chip fabrication.",
+        "Unintended deviations in manufacturing parameters (e.g., transistor dimensions, doping concentrations) that cause differences between nominally identical devices.",
+        "The ability of a CPU to switch between different execution modes (e.g., user mode, kernel mode).",
+        "Variations in the clock frequency of an integrated circuit due to temperature changes.",
+        "The different software compilation optimization levels used during development."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which type of memory is volatile, typically constructed using capacitors and transistors, and requires periodic refresh cycles to retain its data?",
+      "options": [
+        "SRAM (Static Random-Access Memory)",
+        "ROM (Read-Only Memory)",
+        "NAND Flash Memory",
+        "DRAM (Dynamic Random-Access Memory)",
+        "EEPROM (Electrically Erasable Programmable Read-Only Memory)"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
+      "options": [
+        "To store the most recently used instruction addresses for branch prediction.",
+        "To provide a temporary buffer for instructions that have been fetched but not yet decoded.",
+        "To hold instructions that have completed execution out-of-order and ensure they are committed (retired) to the architectural state in original program order, handling precise exceptions.",
+        "To perform address translation from virtual to physical memory addresses.",
+        "To buffer data read from the data cache before it is written to a register."
+      ],
+      "correct": 2
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "What is a key characteristic of a *combinational logic circuit*?",
-  "In a CPU, what is the primary function of the *Translation Lookaside Buffer (TLB)*?",
-  "In the physical verification phase of an integrated circuit design, what is the main purpose of *Design Rule Checking (DRC)*?",
-  "In multi-processor systems, which statement best describes a *weak consistency model* for memory?",
-  "In Static Timing Analysis (STA), what does a *positive slack* value on a timing path indicate?",
   "What is the output of a 2-input NAND gate if both inputs are HIGH (logic 1)?",
   "In cache memory systems, which write policy dictates that data is written only to the cache and marked as 'dirty', with updates to main memory occurring only when the cache line is evicted or replaced?",
   "In a modern pipelined processor, what is the primary function of the Branch Target Buffer (BTB)?",
@@ -48,5 +43,10 @@
   "In the physical design phase of an integrated circuit, what is the main goal of the `floorplanning` step?",
   "Which of the following best describes the purpose of a *branch predictor* in a pipelined CPU?",
   "In the context of chip manufacturing, what is `Design for Manufacturability (DFM)` primarily concerned with?",
-  "What is the primary role of a `Reservation Station` in a Tomasulo's algorithm-based out-of-order processor?"
+  "What is the primary role of a `Reservation Station` in a Tomasulo's algorithm-based out-of-order processor?",
+  "What is the primary purpose of Boolean algebra in digital circuit design?",
+  "In pipelined processors, what is the primary function of a pipeline register (or inter-stage buffer)?",
+  "What does the term 'process variation' primarily refer to in the context of semiconductor manufacturing?",
+  "Which type of memory is volatile, typically constructed using capacitors and transistors, and requires periodic refresh cycles to retain its data?",
+  "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?"
 ]
