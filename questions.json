@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of Boolean algebra in digital circuit design?",
+      "question": "Which fundamental digital logic gate produces a HIGH (logic 1) output if *at least one* of its inputs is HIGH?",
       "options": [
-        "To calculate financial budgets for chip manufacturing.",
-        "To simplify and analyze logic functions for circuit implementation.",
-        "To manage the physical placement of components on a chip.",
-        "To estimate the power consumption of a circuit.",
-        "To simulate the behavior of analog signals."
+        "AND gate",
+        "OR gate",
+        "XOR gate",
+        "NAND gate",
+        "NOR gate"
       ],
       "correct": 1
     },
     {
-      "question": "In pipelined processors, what is the primary function of a pipeline register (or inter-stage buffer)?",
+      "question": "In the physical verification phase of digital IC design, what is the primary purpose of 'Layout Versus Schematic (LVS)'?",
       "options": [
-        "To store the final result of an instruction after it has completed all stages.",
-        "To hold intermediate results and control signals between consecutive pipeline stages, separating them temporally.",
-        "To manage the allocation and deallocation of physical registers for register renaming.",
-        "To perform complex arithmetic and logical operations on data.",
-        "To buffer instructions that have been fetched from memory but are not yet decoded."
+        "To optimize the timing performance of the clock network.",
+        "To convert the RTL description into a gate-level netlist.",
+        "To ensure the physical layout accurately matches the electrical design (netlist).",
+        "To identify and fix design rule violations in the layout.",
+        "To verify the functional correctness of the design using simulation."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "What does the term 'process variation' primarily refer to in the context of semiconductor manufacturing?",
+      "question": "In a CPU's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
       "options": [
-        "The different types of manufacturing processes (e.g., CMOS, BiCMOS) available for chip fabrication.",
-        "Unintended deviations in manufacturing parameters (e.g., transistor dimensions, doping concentrations) that cause differences between nominally identical devices.",
-        "The ability of a CPU to switch between different execution modes (e.g., user mode, kernel mode).",
-        "Variations in the clock frequency of an integrated circuit due to temperature changes.",
-        "The different software compilation optimization levels used during development."
+        "To store frequently accessed data blocks from main memory for faster retrieval.",
+        "To manage the allocation and deallocation of physical memory pages.",
+        "To translate virtual addresses into physical addresses more quickly by caching page table entries.",
+        "To protect memory regions from unauthorized access by different processes.",
+        "To reorder memory requests to optimize bus utilization."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "Which type of memory is volatile, typically constructed using capacitors and transistors, and requires periodic refresh cycles to retain its data?",
+      "question": "Which semiconductor reliability mechanism describes the gradual degradation of MOSFET device characteristics, such as transconductance and threshold voltage, due to highly energetic electrons or holes (hot carriers) becoming trapped in the gate oxide or at the silicon-oxide interface, particularly prevalent under high electric fields near the drain?",
       "options": [
-        "SRAM (Static Random-Access Memory)",
-        "ROM (Read-Only Memory)",
-        "NAND Flash Memory",
-        "DRAM (Dynamic Random-Access Memory)",
-        "EEPROM (Electrically Erasable Programmable Read-Only Memory)"
+        "Electromigration",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Stress Migration",
+        "Hot Carrier Injection (HCI)",
+        "Time-Dependent Dielectric Breakdown (TDDB)"
       ],
       "correct": 3
     },
     {
-      "question": "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
+      "question": "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the primary role of a Look-Up Table (LUT)?",
       "options": [
-        "To store the most recently used instruction addresses for branch prediction.",
-        "To provide a temporary buffer for instructions that have been fetched but not yet decoded.",
-        "To hold instructions that have completed execution out-of-order and ensure they are committed (retired) to the architectural state in original program order, handling precise exceptions.",
-        "To perform address translation from virtual to physical memory addresses.",
-        "To buffer data read from the data cache before it is written to a register."
+        "To store program instructions for the embedded processor.",
+        "To provide high-speed memory blocks for data storage.",
+        "To implement combinational logic functions by acting as a small, configurable truth table.",
+        "To route signals between different logic blocks on the chip.",
+        "To synchronize signals between different clock domains."
       ],
       "correct": 2
     }

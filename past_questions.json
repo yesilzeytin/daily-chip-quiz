@@ -1,9 +1,4 @@
 [
-  "What is the output of a 2-input NAND gate if both inputs are HIGH (logic 1)?",
-  "In cache memory systems, which write policy dictates that data is written only to the cache and marked as 'dirty', with updates to main memory occurring only when the cache line is evicted or replaced?",
-  "In a modern pipelined processor, what is the primary function of the Branch Target Buffer (BTB)?",
-  "Which Design for Testability (DFT) technique is standardized as IEEE 1149.1 and enables structured testing of interconnects on a printed circuit board (PCB) as well as internal logic of compliant ICs via a serial interface?",
-  "To reduce static and dynamic power consumption in inactive parts of an SoC, which low-power design technique involves switching off the power supply to specific blocks or domains when they are not in use?",
   "What is the primary role of an Instruction Set Architecture (ISA) in computer architecture?",
   "In the typical digital IC design flow, what is the main objective of the 'logic synthesis' step?",
   "Which of Flynn's classifications for computer architectures describes systems capable of executing multiple, distinct instruction streams on multiple, independent data streams simultaneously, often found in multi-core processors?",
@@ -48,5 +43,10 @@
   "In pipelined processors, what is the primary function of a pipeline register (or inter-stage buffer)?",
   "What does the term 'process variation' primarily refer to in the context of semiconductor manufacturing?",
   "Which type of memory is volatile, typically constructed using capacitors and transistors, and requires periodic refresh cycles to retain its data?",
-  "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?"
+  "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
+  "Which fundamental digital logic gate produces a HIGH (logic 1) output if *at least one* of its inputs is HIGH?",
+  "In the physical verification phase of digital IC design, what is the primary purpose of 'Layout Versus Schematic (LVS)'?",
+  "In a CPU's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
+  "Which semiconductor reliability mechanism describes the gradual degradation of MOSFET device characteristics, such as transconductance and threshold voltage, due to highly energetic electrons or holes (hot carriers) becoming trapped in the gate oxide or at the silicon-oxide interface, particularly prevalent under high electric fields near the drain?",
+  "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the primary role of a Look-Up Table (LUT)?"
 ]
