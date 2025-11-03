@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which fundamental digital logic gate produces a HIGH (logic 1) output if *at least one* of its inputs is HIGH?",
+      "question": "In digital logic design, what is the fundamental characteristic that distinguishes *sequential logic circuits* from *combinational logic circuits*?",
       "options": [
-        "AND gate",
-        "OR gate",
-        "XOR gate",
-        "NAND gate",
-        "NOR gate"
+        "Sequential circuits use only AND and OR gates, while combinational circuits use NAND and NOR gates.",
+        "Sequential circuits have memory elements and their output depends on both current inputs and past states, while combinational circuits' output depends only on current inputs.",
+        "Combinational circuits require a clock signal for operation, whereas sequential circuits do not.",
+        "Sequential circuits are always faster than combinational circuits for the same function.",
+        "Combinational circuits can implement state machines, but sequential circuits cannot."
       ],
       "correct": 1
     },
     {
-      "question": "In the physical verification phase of digital IC design, what is the primary purpose of 'Layout Versus Schematic (LVS)'?",
+      "question": "In digital integrated circuit design, what is the primary purpose of incorporating *scan chains* as part of Design for Testability (DFT)?",
       "options": [
-        "To optimize the timing performance of the clock network.",
+        "To reduce the overall power consumption of the chip during normal operation.",
+        "To increase the operating frequency by shortening critical paths.",
+        "To provide a mechanism for easily observing and controlling the internal states of sequential elements for testing.",
+        "To protect the circuit from electromagnetic interference (EMI).",
+        "To enable dynamic voltage and frequency scaling (DVFS)."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In computer architecture and parallel computing, what does *Amdahl's Law* primarily quantify?",
+      "options": [
+        "The maximum speedup achievable by a program if only a fraction of its execution is parallelizable.",
+        "The energy efficiency gains from reducing the supply voltage of a processor.",
+        "The relationship between transistor count and chip manufacturing cost.",
+        "The performance improvement obtained by increasing the cache hit rate.",
+        "The latency reduction achieved by deeper pipelining."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the physical design flow of a digital integrated circuit, what is the primary goal of the 'placement' step?",
+      "options": [
         "To convert the RTL description into a gate-level netlist.",
-        "To ensure the physical layout accurately matches the electrical design (netlist).",
-        "To identify and fix design rule violations in the layout.",
-        "To verify the functional correctness of the design using simulation."
+        "To optimize the clock distribution network for minimal skew and jitter.",
+        "To assign precise physical locations to all standard cells and macros on the chip floorplan.",
+        "To verify that the layout matches the schematic (LVS).",
+        "To determine the optimal routing paths for all interconnections."
       ],
       "correct": 2
     },
     {
-      "question": "In a CPU's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
+      "question": "Which of the following best describes a key characteristic that distinguishes a *vector processor* from a traditional scalar processor?",
       "options": [
-        "To store frequently accessed data blocks from main memory for faster retrieval.",
-        "To manage the allocation and deallocation of physical memory pages.",
-        "To translate virtual addresses into physical addresses more quickly by caching page table entries.",
-        "To protect memory regions from unauthorized access by different processes.",
-        "To reorder memory requests to optimize bus utilization."
+        "It executes multiple instructions per clock cycle using multiple execution units on independent data.",
+        "It processes entire arrays or sequences of data elements with a single instruction.",
+        "It reorders instructions dynamically to avoid hazards and improve throughput.",
+        "It uses a deeply pipelined architecture to execute instructions in a sequential fashion.",
+        "It has a dedicated instruction set architecture (ISA) for handling I/O operations."
       ],
-      "correct": 2
-    },
-    {
-      "question": "Which semiconductor reliability mechanism describes the gradual degradation of MOSFET device characteristics, such as transconductance and threshold voltage, due to highly energetic electrons or holes (hot carriers) becoming trapped in the gate oxide or at the silicon-oxide interface, particularly prevalent under high electric fields near the drain?",
-      "options": [
-        "Electromigration",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Stress Migration",
-        "Hot Carrier Injection (HCI)",
-        "Time-Dependent Dielectric Breakdown (TDDB)"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the primary role of a Look-Up Table (LUT)?",
-      "options": [
-        "To store program instructions for the embedded processor.",
-        "To provide high-speed memory blocks for data storage.",
-        "To implement combinational logic functions by acting as a small, configurable truth table.",
-        "To route signals between different logic blocks on the chip.",
-        "To synchronize signals between different clock domains."
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

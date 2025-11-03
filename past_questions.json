@@ -1,9 +1,4 @@
 [
-  "What is the primary role of an Instruction Set Architecture (ISA) in computer architecture?",
-  "In the typical digital IC design flow, what is the main objective of the 'logic synthesis' step?",
-  "Which of Flynn's classifications for computer architectures describes systems capable of executing multiple, distinct instruction streams on multiple, independent data streams simultaneously, often found in multi-core processors?",
-  "In the context of CPU cache memory, which replacement policy discards the cache line that has been in the cache for the longest duration, regardless of how recently it was accessed?",
-  "For p-type MOSFETs (PMOS) in advanced technology nodes, what specific reliability mechanism causes a gradual increase in threshold voltage (Vth) over time when the device is under a constant negative gate-to-source voltage and elevated temperature?",
   "In a multi-processor system with private caches, what is the primary purpose of a cache coherence protocol?",
   "When using a Hardware Description Language (HDL) like Verilog or VHDL, what is the fundamental difference in the outcome between simulating a design and synthesizing it for an ASIC or FPGA?",
   "In computer architecture, when an interrupt occurs, what mechanism does the CPU typically use to determine which interrupt service routine (ISR) to execute?",
@@ -48,5 +43,10 @@
   "In the physical verification phase of digital IC design, what is the primary purpose of 'Layout Versus Schematic (LVS)'?",
   "In a CPU's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
   "Which semiconductor reliability mechanism describes the gradual degradation of MOSFET device characteristics, such as transconductance and threshold voltage, due to highly energetic electrons or holes (hot carriers) becoming trapped in the gate oxide or at the silicon-oxide interface, particularly prevalent under high electric fields near the drain?",
-  "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the primary role of a Look-Up Table (LUT)?"
+  "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the primary role of a Look-Up Table (LUT)?",
+  "In digital logic design, what is the fundamental characteristic that distinguishes *sequential logic circuits* from *combinational logic circuits*?",
+  "In digital integrated circuit design, what is the primary purpose of incorporating *scan chains* as part of Design for Testability (DFT)?",
+  "In computer architecture and parallel computing, what does *Amdahl's Law* primarily quantify?",
+  "In the physical design flow of a digital integrated circuit, what is the primary goal of the 'placement' step?",
+  "Which of the following best describes a key characteristic that distinguishes a *vector processor* from a traditional scalar processor?"
 ]
