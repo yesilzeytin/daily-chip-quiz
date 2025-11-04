@@ -1,9 +1,4 @@
 [
-  "In a multi-processor system with private caches, what is the primary purpose of a cache coherence protocol?",
-  "When using a Hardware Description Language (HDL) like Verilog or VHDL, what is the fundamental difference in the outcome between simulating a design and synthesizing it for an ASIC or FPGA?",
-  "In computer architecture, when an interrupt occurs, what mechanism does the CPU typically use to determine which interrupt service routine (ISR) to execute?",
-  "In Static Timing Analysis (STA) of a digital circuit, what does a *negative slack* value on a critical path signify?",
-  "Which of the following statements best describes a key difference between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?",
   "What is the primary function of a multiplexer (MUX) in digital design?",
   "What is the primary purpose of a *write buffer* in a CPU's memory system?",
   "What is the primary goal of a `Clock Tree Synthesis (CTS)` step in the physical design flow of an Application-Specific Integrated Circuit (ASIC)?",
@@ -48,5 +43,10 @@
   "In digital integrated circuit design, what is the primary purpose of incorporating *scan chains* as part of Design for Testability (DFT)?",
   "In computer architecture and parallel computing, what does *Amdahl's Law* primarily quantify?",
   "In the physical design flow of a digital integrated circuit, what is the primary goal of the 'placement' step?",
-  "Which of the following best describes a key characteristic that distinguishes a *vector processor* from a traditional scalar processor?"
+  "Which of the following best describes a key characteristic that distinguishes a *vector processor* from a traditional scalar processor?",
+  "What is the primary purpose of the Program Counter (PC) in a CPU?",
+  "In digital IC design, what is the primary advantage of using a Static Random-Access Memory (SRAM) over a Dynamic Random-Access Memory (DRAM) for on-chip caches?",
+  "What is a 'control hazard' in a pipelined processor?",
+  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the 'Routing' step?",
+  "What does the term 'NBTI' refer to as a reliability concern in advanced CMOS integrated circuits?"
 ]
