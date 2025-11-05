@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of the Program Counter (PC) in a CPU?",
+      "question": "At which abstraction level are digital circuits typically described using Hardware Description Languages (HDLs) like Verilog or VHDL for functional specification, where the design is represented in terms of registers and the data flow between them, prior to logic synthesis?",
       "options": [
-        "To temporarily store the result of an arithmetic operation.",
-        "To hold the instruction currently being executed.",
-        "To store the memory address of the next instruction to be fetched.",
-        "To manage data transfers between the CPU and main memory.",
-        "To control the flow of data within the CPU's internal bus system."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In digital IC design, what is the primary advantage of using a Static Random-Access Memory (SRAM) over a Dynamic Random-Access Memory (DRAM) for on-chip caches?",
-      "options": [
-        "SRAM offers significantly higher storage density.",
-        "SRAM consumes less power per bit stored.",
-        "SRAM is non-volatile, retaining data without power.",
-        "SRAM provides much faster access times.",
-        "SRAM has a simpler manufacturing process."
+        "Behavioral Level",
+        "Gate Level",
+        "Transistor Level",
+        "Register Transfer Level (RTL)",
+        "System Level"
       ],
       "correct": 3
     },
     {
-      "question": "What is a 'control hazard' in a pipelined processor?",
+      "question": "In the context of CPU cache memory design, which write policy ensures that all write operations update both the cache block and the corresponding main memory location simultaneously?",
       "options": [
-        "It occurs when an instruction needs data that a previous instruction in the pipeline has not yet produced.",
-        "It refers to a situation where multiple instructions require the same hardware resource at the same time.",
-        "It arises when the processor cannot determine the address of the next instruction to fetch due to a conditional branch or jump instruction.",
-        "It describes a scenario where an instruction takes an unexpectedly long time to execute.",
-        "It is a consequence of excessive cache misses leading to pipeline stalls."
+        "Write-back",
+        "Write-allocate",
+        "No-write-allocate",
+        "Write-through",
+        "Deferred Write"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the digital IC design flow, particularly during the physical design and sign-off phases, what is the primary objective of performing Static Timing Analysis (STA)?",
+      "options": [
+        "To simulate the circuit's functional behavior with various input test patterns.",
+        "To verify the power grid's integrity and identify potential IR drop issues.",
+        "To mathematically verify that the circuit meets all specified timing constraints (e.g., setup and hold times) across all operating conditions without requiring dynamic simulation.",
+        "To detect and fix physical design rule violations such as minimum width and spacing.",
+        "To ensure proper clock domain crossing synchronization between asynchronous domains."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the 'Routing' step?",
+      "question": "What is the primary motivation behind the design and implementation of a memory hierarchy (e.g., registers, multiple levels of cache, main memory, disk storage) in a modern computer system?",
       "options": [
-        "To determine the optimal placement of standard cells on the silicon die.",
-        "To connect the pins of placed cells and macro-blocks using metal interconnect lines according to the netlist.",
-        "To create a balanced clock distribution network to all sequential elements.",
-        "To define the overall chip area and the relative positions of major functional blocks.",
-        "To verify that the final physical layout accurately reflects the logical schematic."
+        "To reduce the total cost of memory components.",
+        "To minimize the overall power consumption of the memory subsystem.",
+        "To provide both high-speed access to frequently used data and large storage capacity at an acceptable average cost and performance.",
+        "To simplify the memory addressing scheme for the CPU.",
+        "To enhance data integrity through redundancy and error correction."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "What does the term 'NBTI' refer to as a reliability concern in advanced CMOS integrated circuits?",
+      "question": "In modern computer architecture, what is the primary goal of Simultaneous Multithreading (SMT), a technique exemplified by Intel's Hyper-Threading, when implemented on a single processor core?",
       "options": [
-        "Negative Breakdown Threshold Imbalance",
-        "Non-Binary Transistor Interface",
-        "Negative Bias Temperature Instability",
-        "Netlist Based Timing Integration",
-        "Nano-Scale Buffer Thermal Isolation"
+        "To enable the execution of multiple independent programs on separate physical cores.",
+        "To reduce the overall thermal design power (TDP) of the processor.",
+        "To improve the utilization of a single core's execution units by allowing it to execute instructions from multiple independent threads concurrently.",
+        "To provide fault tolerance by duplicating critical execution paths.",
+        "To simplify the instruction set architecture for easier compilation."
       ],
       "correct": 2
     }

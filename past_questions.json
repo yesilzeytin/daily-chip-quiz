@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital design?",
-  "What is the primary purpose of a *write buffer* in a CPU's memory system?",
-  "What is the primary goal of a `Clock Tree Synthesis (CTS)` step in the physical design flow of an Application-Specific Integrated Circuit (ASIC)?",
-  "In a directory-based cache coherence protocol, what is the primary function of the 'directory'?",
-  "In digital circuit design, what is the primary reason for performing `glitch analysis`?",
   "In a CPU, what is the primary function of the Arithmetic Logic Unit (ALU)?",
   "In a pipelined processor, which type of hazard occurs when an instruction needs to read data that a previous instruction in the pipeline has not yet written back to the register file or memory?",
   "Which of the following is a primary challenge or consideration in the design of asynchronous digital circuits, compared to synchronous circuits?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary advantage of using a Static Random-Access Memory (SRAM) over a Dynamic Random-Access Memory (DRAM) for on-chip caches?",
   "What is a 'control hazard' in a pipelined processor?",
   "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the 'Routing' step?",
-  "What does the term 'NBTI' refer to as a reliability concern in advanced CMOS integrated circuits?"
+  "What does the term 'NBTI' refer to as a reliability concern in advanced CMOS integrated circuits?",
+  "At which abstraction level are digital circuits typically described using Hardware Description Languages (HDLs) like Verilog or VHDL for functional specification, where the design is represented in terms of registers and the data flow between them, prior to logic synthesis?",
+  "In the context of CPU cache memory design, which write policy ensures that all write operations update both the cache block and the corresponding main memory location simultaneously?",
+  "In the digital IC design flow, particularly during the physical design and sign-off phases, what is the primary objective of performing Static Timing Analysis (STA)?",
+  "What is the primary motivation behind the design and implementation of a memory hierarchy (e.g., registers, multiple levels of cache, main memory, disk storage) in a modern computer system?",
+  "In modern computer architecture, what is the primary goal of Simultaneous Multithreading (SMT), a technique exemplified by Intel's Hyper-Threading, when implemented on a single processor core?"
 ]
