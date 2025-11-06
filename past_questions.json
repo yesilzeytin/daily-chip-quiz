@@ -1,9 +1,4 @@
 [
-  "In a CPU, what is the primary function of the Arithmetic Logic Unit (ALU)?",
-  "In a pipelined processor, which type of hazard occurs when an instruction needs to read data that a previous instruction in the pipeline has not yet written back to the register file or memory?",
-  "Which of the following is a primary challenge or consideration in the design of asynchronous digital circuits, compared to synchronous circuits?",
-  "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of metal atoms in an interconnect line due to momentum transfer from electrons flowing through it, often leading to opens or shorts over time, particularly exacerbated by high current densities and elevated temperatures?",
-  "Which advanced verification technique mathematically proves the correctness of a design against a formal specification, exploring all possible input combinations and states, rather than relying on simulating a finite set of test vectors?",
   "What is the primary role of a clock signal in a synchronous digital circuit?",
   "When designing a CPU cache, increasing its associativity (e.g., from direct-mapped to 2-way set-associative) primarily aims to reduce which of the following?",
   "In the context of semiconductor manufacturing and yield management, what does the term 'Die Yield' primarily refer to?",
@@ -48,5 +43,10 @@
   "In the context of CPU cache memory design, which write policy ensures that all write operations update both the cache block and the corresponding main memory location simultaneously?",
   "In the digital IC design flow, particularly during the physical design and sign-off phases, what is the primary objective of performing Static Timing Analysis (STA)?",
   "What is the primary motivation behind the design and implementation of a memory hierarchy (e.g., registers, multiple levels of cache, main memory, disk storage) in a modern computer system?",
-  "In modern computer architecture, what is the primary goal of Simultaneous Multithreading (SMT), a technique exemplified by Intel's Hyper-Threading, when implemented on a single processor core?"
+  "In modern computer architecture, what is the primary goal of Simultaneous Multithreading (SMT), a technique exemplified by Intel's Hyper-Threading, when implemented on a single processor core?",
+  "What is the primary output of the logic synthesis phase in the digital IC design flow?",
+  "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol?",
+  "In high-speed digital integrated circuits, what is the primary concern addressed by careful design of the power delivery network (PDN), including on-chip decoupling capacitors and robust power/ground straps?",
+  "In concurrent programming and multi-processor systems, what does a 'memory consistency model' primarily define?",
+  "Which Design for Testability (DFT) technique involves embedding test logic within the circuit itself to generate test patterns and analyze responses internally, reducing reliance on external Automated Test Equipment (ATE) for manufacturing testing?"
 ]

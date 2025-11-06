@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "At which abstraction level are digital circuits typically described using Hardware Description Languages (HDLs) like Verilog or VHDL for functional specification, where the design is represented in terms of registers and the data flow between them, prior to logic synthesis?",
+      "question": "What is the primary output of the logic synthesis phase in the digital IC design flow?",
       "options": [
-        "Behavioral Level",
-        "Gate Level",
-        "Transistor Level",
-        "Register Transfer Level (RTL)",
-        "System Level"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of CPU cache memory design, which write policy ensures that all write operations update both the cache block and the corresponding main memory location simultaneously?",
-      "options": [
-        "Write-back",
-        "Write-allocate",
-        "No-write-allocate",
-        "Write-through",
-        "Deferred Write"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the digital IC design flow, particularly during the physical design and sign-off phases, what is the primary objective of performing Static Timing Analysis (STA)?",
-      "options": [
-        "To simulate the circuit's functional behavior with various input test patterns.",
-        "To verify the power grid's integrity and identify potential IR drop issues.",
-        "To mathematically verify that the circuit meets all specified timing constraints (e.g., setup and hold times) across all operating conditions without requiring dynamic simulation.",
-        "To detect and fix physical design rule violations such as minimum width and spacing.",
-        "To ensure proper clock domain crossing synchronization between asynchronous domains."
+        "A GDSII layout file for manufacturing",
+        "The Register Transfer Level (RTL) Hardware Description Language (HDL) code",
+        "A gate-level netlist (interconnected standard cells)",
+        "A set of test vectors for functional verification",
+        "The finalized floorplan with power grid distribution"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary motivation behind the design and implementation of a memory hierarchy (e.g., registers, multiple levels of cache, main memory, disk storage) in a modern computer system?",
+      "question": "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol?",
       "options": [
-        "To reduce the total cost of memory components.",
-        "To minimize the overall power consumption of the memory subsystem.",
-        "To provide both high-speed access to frequently used data and large storage capacity at an acceptable average cost and performance.",
-        "To simplify the memory addressing scheme for the CPU.",
-        "To enhance data integrity through redundancy and error correction."
+        "To manage the virtual memory mapping for each processor's address space.",
+        "To ensure that all processors maintain consistent views of shared data across their private caches and main memory.",
+        "To optimize instruction fetching and decoding in each processor's pipeline.",
+        "To reduce the power consumption of the memory subsystem by dynamically disabling caches.",
+        "To schedule threads on available processor cores efficiently for parallel execution."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In high-speed digital integrated circuits, what is the primary concern addressed by careful design of the power delivery network (PDN), including on-chip decoupling capacitors and robust power/ground straps?",
+      "options": [
+        "Minimizing crosstalk between adjacent signal lines.",
+        "Preventing latch-up events in CMOS circuits by ensuring proper substrate biasing.",
+        "Ensuring stable supply voltages and reducing power supply noise (e.g., IR drop, di/dt noise) across the chip.",
+        "Facilitating efficient clock distribution across the chip to all sequential elements.",
+        "Managing thermal dissipation from active components to prevent overheating."
       ],
       "correct": 2
     },
     {
-      "question": "In modern computer architecture, what is the primary goal of Simultaneous Multithreading (SMT), a technique exemplified by Intel's Hyper-Threading, when implemented on a single processor core?",
+      "question": "In concurrent programming and multi-processor systems, what does a 'memory consistency model' primarily define?",
       "options": [
-        "To enable the execution of multiple independent programs on separate physical cores.",
-        "To reduce the overall thermal design power (TDP) of the processor.",
-        "To improve the utilization of a single core's execution units by allowing it to execute instructions from multiple independent threads concurrently.",
-        "To provide fault tolerance by duplicating critical execution paths.",
-        "To simplify the instruction set architecture for easier compilation."
+        "The optimal cache replacement policy (e.g., LRU, FIFO) for improving hit rates.",
+        "The set of instructions a processor can execute in parallel within a single clock cycle.",
+        "The rules governing the order in which memory operations (reads and writes) from different processors become visible to one another.",
+        "The method for mapping virtual addresses to physical addresses within the Memory Management Unit (MMU).",
+        "The mechanism for ensuring data integrity and durability during power failures or system crashes."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which Design for Testability (DFT) technique involves embedding test logic within the circuit itself to generate test patterns and analyze responses internally, reducing reliance on external Automated Test Equipment (ATE) for manufacturing testing?",
+      "options": [
+        "Static Timing Analysis (STA)",
+        "Formal Equivalence Checking (LEC)",
+        "Built-In Self-Test (BIST)",
+        "Register Transfer Level (RTL) synthesis",
+        "Logic Optimization"
       ],
       "correct": 2
     }
