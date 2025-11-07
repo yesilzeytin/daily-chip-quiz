@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary output of the logic synthesis phase in the digital IC design flow?",
+      "question": "What is the primary purpose of a multiplexer (MUX) in digital circuit design?",
       "options": [
-        "A GDSII layout file for manufacturing",
-        "The Register Transfer Level (RTL) Hardware Description Language (HDL) code",
-        "A gate-level netlist (interconnected standard cells)",
-        "A set of test vectors for functional verification",
-        "The finalized floorplan with power grid distribution"
+        "Select one of several input signals and route it to a single output.",
+        "Perform arithmetic operations like addition or subtraction.",
+        "Store a single bit of data for an extended period.",
+        "Generate clock pulses for synchronous circuits.",
+        "Convert analog signals to digital signals."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In a pipelined processor, what is the fundamental purpose of dividing an instruction's execution into multiple stages?",
+      "options": [
+        "To simplify the design of individual functional units within the CPU.",
+        "To reduce the overall power consumption of the processor.",
+        "To increase the instruction throughput by allowing multiple instructions to be in progress simultaneously.",
+        "To ensure that all instructions complete execution in a single clock cycle.",
+        "To make the processor compatible with different memory technologies."
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol?",
+      "question": "What is the primary goal of Clock Tree Synthesis (CTS) during the physical design phase of an integrated circuit?",
       "options": [
-        "To manage the virtual memory mapping for each processor's address space.",
-        "To ensure that all processors maintain consistent views of shared data across their private caches and main memory.",
-        "To optimize instruction fetching and decoding in each processor's pipeline.",
-        "To reduce the power consumption of the memory subsystem by dynamically disabling caches.",
-        "To schedule threads on available processor cores efficiently for parallel execution."
+        "To generate all necessary power and ground connections for the chip.",
+        "To optimize the placement of logic gates for minimal area.",
+        "To distribute the clock signal throughout the chip with minimal skew and delay.",
+        "To verify the functional correctness of the synthesized netlist.",
+        "To convert the RTL design into a gate-level netlist."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the main architectural challenge addressed by implementing a Non-Uniform Memory Access (NUMA) architecture in multi-processor systems?",
+      "options": [
+        "Reducing the thermal design power (TDP) of individual CPU cores.",
+        "Minimizing the latency variations when processors access memory in large-scale shared-memory systems.",
+        "Simplifying the Instruction Set Architecture (ISA) for better compiler efficiency.",
+        "Enabling virtual memory paging for larger address spaces.",
+        "Improving the performance of single-threaded applications."
       ],
       "correct": 1
     },
     {
-      "question": "In high-speed digital integrated circuits, what is the primary concern addressed by careful design of the power delivery network (PDN), including on-chip decoupling capacitors and robust power/ground straps?",
+      "question": "Which type of simulation primarily verifies the logical behavior and functional correctness of a digital circuit design using abstract models (e.g., Register-Transfer Level), before detailed timing or physical characteristics are known?",
       "options": [
-        "Minimizing crosstalk between adjacent signal lines.",
-        "Preventing latch-up events in CMOS circuits by ensuring proper substrate biasing.",
-        "Ensuring stable supply voltages and reducing power supply noise (e.g., IR drop, di/dt noise) across the chip.",
-        "Facilitating efficient clock distribution across the chip to all sequential elements.",
-        "Managing thermal dissipation from active components to prevent overheating."
+        "Electrical Simulation",
+        "Functional Simulation",
+        "Thermal Simulation",
+        "Gate-Level Simulation",
+        "Analog Simulation"
       ],
-      "correct": 2
-    },
-    {
-      "question": "In concurrent programming and multi-processor systems, what does a 'memory consistency model' primarily define?",
-      "options": [
-        "The optimal cache replacement policy (e.g., LRU, FIFO) for improving hit rates.",
-        "The set of instructions a processor can execute in parallel within a single clock cycle.",
-        "The rules governing the order in which memory operations (reads and writes) from different processors become visible to one another.",
-        "The method for mapping virtual addresses to physical addresses within the Memory Management Unit (MMU).",
-        "The mechanism for ensuring data integrity and durability during power failures or system crashes."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which Design for Testability (DFT) technique involves embedding test logic within the circuit itself to generate test patterns and analyze responses internally, reducing reliance on external Automated Test Equipment (ATE) for manufacturing testing?",
-      "options": [
-        "Static Timing Analysis (STA)",
-        "Formal Equivalence Checking (LEC)",
-        "Built-In Self-Test (BIST)",
-        "Register Transfer Level (RTL) synthesis",
-        "Logic Optimization"
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
