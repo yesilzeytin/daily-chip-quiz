@@ -1,9 +1,4 @@
 [
-  "In the context of ASIC design, what is the primary purpose of a 'standard cell library'?",
-  "What is a key architectural characteristic that primarily distinguishes Reduced Instruction Set Computing (RISC) from Complex Instruction Set Computing (CISC)?",
-  "In advanced digital IC verification, what is the specific objective of 'Formal Equivalence Checking (LEC)'?",
-  "When designing a digital integrated circuit with multiple independent clock sources, what is the primary role of a 'Clock Domain Crossing (CDC)' circuit?",
-  "In a modern out-of-order superscalar processor, what is the main purpose of 'register renaming'?",
   "What does CMOS stand for in the context of digital integrated circuits?",
   "What is the primary purpose of *virtual memory* in a modern operating system and CPU architecture?",
   "In deep sub-micron integrated circuit design, what is *crosstalk* primarily concerned with?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, what is the fundamental purpose of dividing an instruction's execution into multiple stages?",
   "What is the primary goal of Clock Tree Synthesis (CTS) during the physical design phase of an integrated circuit?",
   "What is the main architectural challenge addressed by implementing a Non-Uniform Memory Access (NUMA) architecture in multi-processor systems?",
-  "Which type of simulation primarily verifies the logical behavior and functional correctness of a digital circuit design using abstract models (e.g., Register-Transfer Level), before detailed timing or physical characteristics are known?"
+  "Which type of simulation primarily verifies the logical behavior and functional correctness of a digital circuit design using abstract models (e.g., Register-Transfer Level), before detailed timing or physical characteristics are known?",
+  "What is the defining characteristic of an XOR (Exclusive OR) logic gate's output when its two inputs are identical?",
+  "In an out-of-order execution processor, what is the primary function of the Load/Store Queue (LSQ)?",
+  "In the physical verification and sign-off stages of advanced integrated circuit design, what is the primary purpose of Electromigration (EM) analysis?",
+  "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the main functional unit that combines Look-Up Tables (LUTs) with flip-flops to implement both combinational and sequential logic?",
+  "Which of the following best describes the fundamental characteristic of non-volatile memory?"
 ]

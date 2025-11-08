@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a multiplexer (MUX) in digital circuit design?",
+      "question": "What is the defining characteristic of an XOR (Exclusive OR) logic gate's output when its two inputs are identical?",
       "options": [
-        "Select one of several input signals and route it to a single output.",
-        "Perform arithmetic operations like addition or subtraction.",
-        "Store a single bit of data for an extended period.",
-        "Generate clock pulses for synchronous circuits.",
-        "Convert analog signals to digital signals."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a pipelined processor, what is the fundamental purpose of dividing an instruction's execution into multiple stages?",
-      "options": [
-        "To simplify the design of individual functional units within the CPU.",
-        "To reduce the overall power consumption of the processor.",
-        "To increase the instruction throughput by allowing multiple instructions to be in progress simultaneously.",
-        "To ensure that all instructions complete execution in a single clock cycle.",
-        "To make the processor compatible with different memory technologies."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary goal of Clock Tree Synthesis (CTS) during the physical design phase of an integrated circuit?",
-      "options": [
-        "To generate all necessary power and ground connections for the chip.",
-        "To optimize the placement of logic gates for minimal area.",
-        "To distribute the clock signal throughout the chip with minimal skew and delay.",
-        "To verify the functional correctness of the synthesized netlist.",
-        "To convert the RTL design into a gate-level netlist."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the main architectural challenge addressed by implementing a Non-Uniform Memory Access (NUMA) architecture in multi-processor systems?",
-      "options": [
-        "Reducing the thermal design power (TDP) of individual CPU cores.",
-        "Minimizing the latency variations when processors access memory in large-scale shared-memory systems.",
-        "Simplifying the Instruction Set Architecture (ISA) for better compiler efficiency.",
-        "Enabling virtual memory paging for larger address spaces.",
-        "Improving the performance of single-threaded applications."
+        "The output is always HIGH (logic 1).",
+        "The output is always LOW (logic 0).",
+        "The output is the inverse of the input.",
+        "The output depends on the previous state of the gate.",
+        "The output is indeterminate."
       ],
       "correct": 1
     },
     {
-      "question": "Which type of simulation primarily verifies the logical behavior and functional correctness of a digital circuit design using abstract models (e.g., Register-Transfer Level), before detailed timing or physical characteristics are known?",
+      "question": "In an out-of-order execution processor, what is the primary function of the Load/Store Queue (LSQ)?",
       "options": [
-        "Electrical Simulation",
-        "Functional Simulation",
-        "Thermal Simulation",
-        "Gate-Level Simulation",
-        "Analog Simulation"
+        "To temporarily store decoded instructions awaiting execution.",
+        "To manage dependencies between arithmetic logic unit (ALU) operations.",
+        "To buffer and reorder memory access instructions (loads and stores) to maintain program order and detect memory dependencies.",
+        "To hold the results of speculative executions until they can be committed.",
+        "To resolve branch mispredictions by flushing incorrect instructions."
       ],
-      "correct": 1
+      "correct": 2
+    },
+    {
+      "question": "In the physical verification and sign-off stages of advanced integrated circuit design, what is the primary purpose of Electromigration (EM) analysis?",
+      "options": [
+        "To ensure all logical gates are properly connected according to the netlist.",
+        "To check for short circuits and open circuits in the metal layers.",
+        "To verify that power and ground networks can handle peak current demands without voltage droop.",
+        "To identify potential failures where metal atoms migrate due to electron flow, causing opens or shorts over the circuit's lifespan.",
+        "To optimize the placement of standard cells for minimum wire length."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the main functional unit that combines Look-Up Tables (LUTs) with flip-flops to implement both combinational and sequential logic?",
+      "options": [
+        "Input/Output Block (IOB)",
+        "Digital Signal Processing (DSP) Slice",
+        "Block RAM",
+        "Configurable Logic Block (CLB)",
+        "Phase-Locked Loop (PLL)"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following best describes the fundamental characteristic of non-volatile memory?",
+      "options": [
+        "It can only be read from, not written to.",
+        "It requires a constant power supply to retain stored information.",
+        "It retains stored information even when power is removed.",
+        "It is significantly faster than volatile memory types.",
+        "It is typically used for CPU cache memory."
+      ],
+      "correct": 2
     }
   ]
 }
