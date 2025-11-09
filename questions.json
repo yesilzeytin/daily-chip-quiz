@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the defining characteristic of an XOR (Exclusive OR) logic gate's output when its two inputs are identical?",
+      "question": "What is the primary role of an Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
       "options": [
-        "The output is always HIGH (logic 1).",
-        "The output is always LOW (logic 0).",
-        "The output is the inverse of the input.",
-        "The output depends on the previous state of the gate.",
-        "The output is indeterminate."
+        "Managing input/output operations.",
+        "Performing arithmetic and logical operations.",
+        "Storing program instructions and data.",
+        "Coordinating memory access for different components.",
+        "Predicting future branch outcomes to avoid pipeline stalls."
       ],
       "correct": 1
     },
     {
-      "question": "In an out-of-order execution processor, what is the primary function of the Load/Store Queue (LSQ)?",
+      "question": "In the physical design flow of an integrated circuit, what is the main objective of 'timing closure'?",
       "options": [
-        "To temporarily store decoded instructions awaiting execution.",
-        "To manage dependencies between arithmetic logic unit (ALU) operations.",
-        "To buffer and reorder memory access instructions (loads and stores) to maintain program order and detect memory dependencies.",
-        "To hold the results of speculative executions until they can be committed.",
-        "To resolve branch mispredictions by flushing incorrect instructions."
+        "To ensure that all power rails are connected and stable across the chip.",
+        "To verify that the layout visually matches the schematic.",
+        "To prevent signal integrity issues like crosstalk and electromigration.",
+        "To ensure that all setup and hold time requirements are met for every register path within the specified clock period.",
+        "To optimize the placement of standard cells for minimal area utilization."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which memory characteristic best describes the ability to access any memory location in roughly the same amount of time, regardless of its physical address?",
+      "options": [
+        "Volatility",
+        "Locality of Reference",
+        "Random Access",
+        "Associativity",
+        "Non-volatility"
       ],
       "correct": 2
     },
     {
-      "question": "In the physical verification and sign-off stages of advanced integrated circuit design, what is the primary purpose of Electromigration (EM) analysis?",
+      "question": "In synchronous digital design, what does the 'setup time' of a flip-flop primarily specify?",
       "options": [
-        "To ensure all logical gates are properly connected according to the netlist.",
-        "To check for short circuits and open circuits in the metal layers.",
-        "To verify that power and ground networks can handle peak current demands without voltage droop.",
-        "To identify potential failures where metal atoms migrate due to electron flow, causing opens or shorts over the circuit's lifespan.",
-        "To optimize the placement of standard cells for minimum wire length."
+        "The minimum time required for the flip-flop to power up and stabilize its internal state.",
+        "The propagation delay from the clock edge to the output changing.",
+        "The maximum time the data input can be unstable after the clock edge.",
+        "The minimum time the data input must be stable *before* the active clock edge to be reliably captured.",
+        "The minimum time the clock signal must be stable after the data input changes."
       ],
       "correct": 3
     },
     {
-      "question": "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the main functional unit that combines Look-Up Tables (LUTs) with flip-flops to implement both combinational and sequential logic?",
+      "question": "In a pipelined processor, what constitutes a 'structural hazard'?",
       "options": [
-        "Input/Output Block (IOB)",
-        "Digital Signal Processing (DSP) Slice",
-        "Block RAM",
-        "Configurable Logic Block (CLB)",
-        "Phase-Locked Loop (PLL)"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Which of the following best describes the fundamental characteristic of non-volatile memory?",
-      "options": [
-        "It can only be read from, not written to.",
-        "It requires a constant power supply to retain stored information.",
-        "It retains stored information even when power is removed.",
-        "It is significantly faster than volatile memory types.",
-        "It is typically used for CPU cache memory."
+        "An instruction attempting to use a result that has not yet been computed by a previous instruction.",
+        "A branch instruction altering the sequential flow of execution, requiring the pipeline to be flushed or predicted.",
+        "A hardware resource conflict where two or more instructions simultaneously require access to the same functional unit.",
+        "An instruction fetching data from an invalid memory address.",
+        "A mismatch between the instruction set architecture and the microarchitecture."
       ],
       "correct": 2
     }
