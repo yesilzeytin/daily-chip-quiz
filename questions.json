@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of an Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+      "question": "What is the primary function of a transistor in a digital integrated circuit?",
       "options": [
-        "Managing input/output operations.",
-        "Performing arithmetic and logical operations.",
-        "Storing program instructions and data.",
-        "Coordinating memory access for different components.",
-        "Predicting future branch outcomes to avoid pipeline stalls."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the physical design flow of an integrated circuit, what is the main objective of 'timing closure'?",
-      "options": [
-        "To ensure that all power rails are connected and stable across the chip.",
-        "To verify that the layout visually matches the schematic.",
-        "To prevent signal integrity issues like crosstalk and electromigration.",
-        "To ensure that all setup and hold time requirements are met for every register path within the specified clock period.",
-        "To optimize the placement of standard cells for minimal area utilization."
+        "To amplify analog signals.",
+        "To store charge for memory cells.",
+        "To generate clock signals.",
+        "To act as an electronic switch.",
+        "To regulate voltage levels."
       ],
       "correct": 3
     },
     {
-      "question": "Which memory characteristic best describes the ability to access any memory location in roughly the same amount of time, regardless of its physical address?",
+      "question": "What is formal verification primarily used for in digital IC design?",
       "options": [
-        "Volatility",
-        "Locality of Reference",
-        "Random Access",
-        "Associativity",
-        "Non-volatility"
+        "To generate physical layout and mask data.",
+        "To perform power consumption analysis.",
+        "To mathematically prove the functional correctness of a design.",
+        "To estimate manufacturing costs.",
+        "To optimize circuit timing paths after placement."
       ],
       "correct": 2
     },
     {
-      "question": "In synchronous digital design, what does the 'setup time' of a flip-flop primarily specify?",
+      "question": "Which of the following is a primary characteristic of a Reduced Instruction Set Computer (RISC) architecture compared to a Complex Instruction Set Computer (CISC) architecture?",
       "options": [
-        "The minimum time required for the flip-flop to power up and stabilize its internal state.",
-        "The propagation delay from the clock edge to the output changing.",
-        "The maximum time the data input can be unstable after the clock edge.",
-        "The minimum time the data input must be stable *before* the active clock edge to be reliably captured.",
-        "The minimum time the clock signal must be stable after the data input changes."
+        "Variable-length instructions.",
+        "A large number of complex addressing modes.",
+        "Extensive use of microcode for instruction execution.",
+        "A focus on providing many specialized, powerful instructions.",
+        "Simpler, fixed-length instructions."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "What is the primary motivation behind the adoption of 'chiplet' architectures in modern semiconductor design?",
+      "options": [
+        "To reduce the need for advanced cooling solutions.",
+        "To increase the maximum clock frequency of individual processing units.",
+        "To simplify the development of custom instruction set architectures.",
+        "To overcome reticle limits and improve yield for large, complex chips.",
+        "To exclusively promote monolithic integration for all designs."
       ],
       "correct": 3
     },
     {
-      "question": "In a pipelined processor, what constitutes a 'structural hazard'?",
+      "question": "What is the primary purpose of 'clock gating' in digital IC design?",
       "options": [
-        "An instruction attempting to use a result that has not yet been computed by a previous instruction.",
-        "A branch instruction altering the sequential flow of execution, requiring the pipeline to be flushed or predicted.",
-        "A hardware resource conflict where two or more instructions simultaneously require access to the same functional unit.",
-        "An instruction fetching data from an invalid memory address.",
-        "A mismatch between the instruction set architecture and the microarchitecture."
+        "To synchronize data transfer between asynchronous clock domains.",
+        "To eliminate setup time violations in sequential circuits.",
+        "To create multiple clock frequencies from a single master clock.",
+        "To reduce dynamic power consumption by selectively disabling clocks to idle blocks.",
+        "To ensure even distribution of the clock signal across the chip."
       ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }
