@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of Boolean algebra in digital circuit design?",
-  "In pipelined processors, what is the primary function of a pipeline register (or inter-stage buffer)?",
-  "What does the term 'process variation' primarily refer to in the context of semiconductor manufacturing?",
-  "Which type of memory is volatile, typically constructed using capacitors and transistors, and requires periodic refresh cycles to retain its data?",
-  "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
   "Which fundamental digital logic gate produces a HIGH (logic 1) output if *at least one* of its inputs is HIGH?",
   "In the physical verification phase of digital IC design, what is the primary purpose of 'Layout Versus Schematic (LVS)'?",
   "In a CPU's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
@@ -48,5 +43,10 @@
   "What is formal verification primarily used for in digital IC design?",
   "Which of the following is a primary characteristic of a Reduced Instruction Set Computer (RISC) architecture compared to a Complex Instruction Set Computer (CISC) architecture?",
   "What is the primary motivation behind the adoption of 'chiplet' architectures in modern semiconductor design?",
-  "What is the primary purpose of 'clock gating' in digital IC design?"
+  "What is the primary purpose of 'clock gating' in digital IC design?",
+  "What is the fundamental building block for sequential logic circuits that can store a single bit of information?",
+  "In cache memory design, what is the primary purpose of a 'dirty bit' associated with a cache line?",
+  "In the physical design verification phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
+  "In modern out-of-order execution processors, what is the primary goal of employing 'speculative execution'?",
+  "For advanced technology nodes (e.g., 3nm and beyond), Gate-All-Around (GAA) FETs are often preferred over FinFETs. What is the primary advantage of GAAFETs in this context?"
 ]

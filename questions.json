@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a transistor in a digital integrated circuit?",
+      "question": "What is the fundamental building block for sequential logic circuits that can store a single bit of information?",
       "options": [
-        "To amplify analog signals.",
-        "To store charge for memory cells.",
-        "To generate clock signals.",
-        "To act as an electronic switch.",
-        "To regulate voltage levels."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is formal verification primarily used for in digital IC design?",
-      "options": [
-        "To generate physical layout and mask data.",
-        "To perform power consumption analysis.",
-        "To mathematically prove the functional correctness of a design.",
-        "To estimate manufacturing costs.",
-        "To optimize circuit timing paths after placement."
+        "AND gate",
+        "Multiplexer",
+        "Flip-flop",
+        "Decoder",
+        "Comparator"
       ],
       "correct": 2
     },
     {
-      "question": "Which of the following is a primary characteristic of a Reduced Instruction Set Computer (RISC) architecture compared to a Complex Instruction Set Computer (CISC) architecture?",
+      "question": "In cache memory design, what is the primary purpose of a 'dirty bit' associated with a cache line?",
       "options": [
-        "Variable-length instructions.",
-        "A large number of complex addressing modes.",
-        "Extensive use of microcode for instruction execution.",
-        "A focus on providing many specialized, powerful instructions.",
-        "Simpler, fixed-length instructions."
-      ],
-      "correct": 4
-    },
-    {
-      "question": "What is the primary motivation behind the adoption of 'chiplet' architectures in modern semiconductor design?",
-      "options": [
-        "To reduce the need for advanced cooling solutions.",
-        "To increase the maximum clock frequency of individual processing units.",
-        "To simplify the development of custom instruction set architectures.",
-        "To overcome reticle limits and improve yield for large, complex chips.",
-        "To exclusively promote monolithic integration for all designs."
+        "To indicate if the cache line has been accessed recently by the CPU.",
+        "To mark the cache line as invalid and ready for replacement.",
+        "To show that the data in the cache line is inconsistent with other caches.",
+        "To signify that the data in the cache line has been modified and is different from main memory.",
+        "To prioritize which cache line to evict first during a cache miss."
       ],
       "correct": 3
     },
     {
-      "question": "What is the primary purpose of 'clock gating' in digital IC design?",
+      "question": "In the physical design verification phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
       "options": [
-        "To synchronize data transfer between asynchronous clock domains.",
-        "To eliminate setup time violations in sequential circuits.",
-        "To create multiple clock frequencies from a single master clock.",
-        "To reduce dynamic power consumption by selectively disabling clocks to idle blocks.",
-        "To ensure even distribution of the clock signal across the chip."
+        "To ensure that the layout matches the schematic (logical netlist).",
+        "To verify the timing performance of the circuit against specifications.",
+        "To check if the physical layout adheres to manufacturing constraints and geometric rules.",
+        "To analyze the power consumption and integrity of the power delivery network.",
+        "To optimize the placement of standard cells for minimal wire length."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In modern out-of-order execution processors, what is the primary goal of employing 'speculative execution'?",
+      "options": [
+        "To reduce the overall power consumption of the CPU.",
+        "To allow multiple threads to execute concurrently on a single core.",
+        "To hide memory latency by prefetching data from main memory.",
+        "To improve performance by executing instructions before it is certain they are needed, particularly to mitigate control hazards.",
+        "To ensure strict program order for all instructions, preventing data dependencies."
       ],
       "correct": 3
+    },
+    {
+      "question": "For advanced technology nodes (e.g., 3nm and beyond), Gate-All-Around (GAA) FETs are often preferred over FinFETs. What is the primary advantage of GAAFETs in this context?",
+      "options": [
+        "Reduced manufacturing cost due to simpler fabrication steps.",
+        "Significantly lower leakage current due to shorter channel lengths.",
+        "Enhanced electrostatic control of the channel, leading to better short-channel effects and scalability.",
+        "Higher drive current at the same supply voltage due to increased gate capacitance.",
+        "Improved immunity to soft errors caused by cosmic rays."
+      ],
+      "correct": 2
     }
   ]
 }
