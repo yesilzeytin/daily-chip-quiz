@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block for sequential logic circuits that can store a single bit of information?",
+      "question": "Which element is the primary semiconductor material used in the vast majority of modern integrated circuits?",
       "options": [
-        "AND gate",
-        "Multiplexer",
-        "Flip-flop",
-        "Decoder",
-        "Comparator"
+        "Germanium",
+        "Gallium Arsenide",
+        "Silicon",
+        "Copper",
+        "Aluminum"
       ],
       "correct": 2
     },
     {
-      "question": "In cache memory design, what is the primary purpose of a 'dirty bit' associated with a cache line?",
+      "question": "In digital CMOS integrated circuits, which component of power consumption is primarily due to the charging and discharging of load capacitances as gates switch their logic states?",
       "options": [
-        "To indicate if the cache line has been accessed recently by the CPU.",
-        "To mark the cache line as invalid and ready for replacement.",
-        "To show that the data in the cache line is inconsistent with other caches.",
-        "To signify that the data in the cache line has been modified and is different from main memory.",
-        "To prioritize which cache line to evict first during a cache miss."
+        "Static power",
+        "Leakage power",
+        "Quiescent power",
+        "Short-circuit power",
+        "Dynamic power"
       ],
-      "correct": 3
+      "correct": 4
     },
     {
-      "question": "In the physical design verification phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
+      "question": "In a set-associative cache memory organization, how is a main memory block typically mapped to a cache location?",
       "options": [
-        "To ensure that the layout matches the schematic (logical netlist).",
-        "To verify the timing performance of the circuit against specifications.",
-        "To check if the physical layout adheres to manufacturing constraints and geometric rules.",
-        "To analyze the power consumption and integrity of the power delivery network.",
-        "To optimize the placement of standard cells for minimal wire length."
+        "It can be placed in any available line in the entire cache.",
+        "It maps to a unique, fixed line within the cache, determined by its address.",
+        "It can be placed in any line within a specific set, determined by an index derived from its address.",
+        "It is mapped based on the frequency of its access, using a least recently used (LRU) algorithm.",
+        "It is directly mapped to main memory and not stored in cache."
       ],
       "correct": 2
     },
     {
-      "question": "In modern out-of-order execution processors, what is the primary goal of employing 'speculative execution'?",
+      "question": "What is the primary motivation for adopting a 'Globally Asynchronous, Locally Synchronous' (GALS) design style in complex System-on-Chip (SoC) designs?",
       "options": [
-        "To reduce the overall power consumption of the CPU.",
-        "To allow multiple threads to execute concurrently on a single core.",
-        "To hide memory latency by prefetching data from main memory.",
-        "To improve performance by executing instructions before it is certain they are needed, particularly to mitigate control hazards.",
-        "To ensure strict program order for all instructions, preventing data dependencies."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "For advanced technology nodes (e.g., 3nm and beyond), Gate-All-Around (GAA) FETs are often preferred over FinFETs. What is the primary advantage of GAAFETs in this context?",
-      "options": [
-        "Reduced manufacturing cost due to simpler fabrication steps.",
-        "Significantly lower leakage current due to shorter channel lengths.",
-        "Enhanced electrostatic control of the channel, leading to better short-channel effects and scalability.",
-        "Higher drive current at the same supply voltage due to increased gate capacitance.",
-        "Improved immunity to soft errors caused by cosmic rays."
+        "To ensure all processing units operate synchronously with a single global clock for maximum performance.",
+        "To eliminate all clock signals from the design for ultra-low power consumption.",
+        "To manage clock domain crossing issues and reduce global clock distribution challenges by allowing independently clocked local modules to communicate asynchronously.",
+        "To simplify timing analysis by making all paths combinational.",
+        "To reduce the die area by removing all flip-flops and using only latches."
       ],
       "correct": 2
+    },
+    {
+      "question": "In modern System-on-Chip (SoC) designs, what is the primary advantage of using a Network-on-Chip (NoC) architecture over traditional bus-based interconnects?",
+      "options": [
+        "To reduce the overall manufacturing cost by eliminating all physical wires.",
+        "To simplify memory access protocols by enforcing a single, global memory space.",
+        "To ensure all data transfers are entirely synchronous with a single global clock.",
+        "To decrease the complexity of individual IP blocks by shifting all communication logic to a central controller.",
+        "To provide scalable, high-bandwidth, and low-latency communication between a large number of intellectual property (IP) blocks."
+      ],
+      "correct": 4
     }
   ]
 }

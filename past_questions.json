@@ -1,9 +1,4 @@
 [
-  "Which fundamental digital logic gate produces a HIGH (logic 1) output if *at least one* of its inputs is HIGH?",
-  "In the physical verification phase of digital IC design, what is the primary purpose of 'Layout Versus Schematic (LVS)'?",
-  "In a CPU's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
-  "Which semiconductor reliability mechanism describes the gradual degradation of MOSFET device characteristics, such as transconductance and threshold voltage, due to highly energetic electrons or holes (hot carriers) becoming trapped in the gate oxide or at the silicon-oxide interface, particularly prevalent under high electric fields near the drain?",
-  "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the primary role of a Look-Up Table (LUT)?",
   "In digital logic design, what is the fundamental characteristic that distinguishes *sequential logic circuits* from *combinational logic circuits*?",
   "In digital integrated circuit design, what is the primary purpose of incorporating *scan chains* as part of Design for Testability (DFT)?",
   "In computer architecture and parallel computing, what does *Amdahl's Law* primarily quantify?",
@@ -48,5 +43,10 @@
   "In cache memory design, what is the primary purpose of a 'dirty bit' associated with a cache line?",
   "In the physical design verification phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
   "In modern out-of-order execution processors, what is the primary goal of employing 'speculative execution'?",
-  "For advanced technology nodes (e.g., 3nm and beyond), Gate-All-Around (GAA) FETs are often preferred over FinFETs. What is the primary advantage of GAAFETs in this context?"
+  "For advanced technology nodes (e.g., 3nm and beyond), Gate-All-Around (GAA) FETs are often preferred over FinFETs. What is the primary advantage of GAAFETs in this context?",
+  "Which element is the primary semiconductor material used in the vast majority of modern integrated circuits?",
+  "In digital CMOS integrated circuits, which component of power consumption is primarily due to the charging and discharging of load capacitances as gates switch their logic states?",
+  "In a set-associative cache memory organization, how is a main memory block typically mapped to a cache location?",
+  "What is the primary motivation for adopting a 'Globally Asynchronous, Locally Synchronous' (GALS) design style in complex System-on-Chip (SoC) designs?",
+  "In modern System-on-Chip (SoC) designs, what is the primary advantage of using a Network-on-Chip (NoC) architecture over traditional bus-based interconnects?"
 ]
