@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which element is the primary semiconductor material used in the vast majority of modern integrated circuits?",
+      "question": "What is the primary role of a standard cell library in Application-Specific Integrated Circuit (ASIC) design?",
       "options": [
-        "Germanium",
-        "Gallium Arsenide",
-        "Silicon",
-        "Copper",
-        "Aluminum"
+        "To define the instruction set architecture (ISA) for the embedded processor.",
+        "To provide pre-characterized basic logic gates, flip-flops, and other cells for synthesis and layout.",
+        "To manage the real-time operating system (RTOS) and its tasks on the SoC.",
+        "To specify the communication protocols for on-chip interconnects.",
+        "To perform formal verification of the design's functional correctness."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In modern CPUs, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+      "options": [
+        "To store frequently executed instructions for faster retrieval by the instruction fetch unit.",
+        "To buffer the results of speculative execution before they are committed.",
+        "To accelerate the translation of virtual memory addresses to physical memory addresses.",
+        "To manage cache coherence protocols between multiple CPU cores.",
+        "To store the return addresses for function calls and subroutine jumps."
       ],
       "correct": 2
     },
     {
-      "question": "In digital CMOS integrated circuits, which component of power consumption is primarily due to the charging and discharging of load capacitances as gates switch their logic states?",
+      "question": "During the post-layout simulation phase of a digital integrated circuit, what is the significance of extracting parasitic capacitances and resistances from the physical layout?",
       "options": [
-        "Static power",
-        "Leakage power",
-        "Quiescent power",
-        "Short-circuit power",
-        "Dynamic power"
-      ],
-      "correct": 4
-    },
-    {
-      "question": "In a set-associative cache memory organization, how is a main memory block typically mapped to a cache location?",
-      "options": [
-        "It can be placed in any available line in the entire cache.",
-        "It maps to a unique, fixed line within the cache, determined by its address.",
-        "It can be placed in any line within a specific set, determined by an index derived from its address.",
-        "It is mapped based on the frequency of its access, using a least recently used (LRU) algorithm.",
-        "It is directly mapped to main memory and not stored in cache."
+        "To generate the final manufacturing instructions for the fabrication plant.",
+        "To determine the ideal power supply voltage for optimal performance.",
+        "To enable accurate timing verification, signal integrity analysis, and power estimation.",
+        "To encrypt the design to protect intellectual property from reverse engineering.",
+        "To define the test vectors for manufacturing defect screening."
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary motivation for adopting a 'Globally Asynchronous, Locally Synchronous' (GALS) design style in complex System-on-Chip (SoC) designs?",
+      "question": "In an out-of-order execution processor, what is the primary role of a 'Reorder Buffer' (ROB)?",
       "options": [
-        "To ensure all processing units operate synchronously with a single global clock for maximum performance.",
-        "To eliminate all clock signals from the design for ultra-low power consumption.",
-        "To manage clock domain crossing issues and reduce global clock distribution challenges by allowing independently clocked local modules to communicate asynchronously.",
-        "To simplify timing analysis by making all paths combinational.",
-        "To reduce the die area by removing all flip-flops and using only latches."
+        "To reorder instructions in the instruction cache to improve fetch bandwidth.",
+        "To ensure that instructions commit their results to architectural state in their original program order, preserving precise exceptions.",
+        "To buffer memory requests from load/store units until data is available from memory.",
+        "To manage the mapping of logical registers to physical registers during execution.",
+        "To store branch prediction history for improving accuracy of future predictions."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "In modern System-on-Chip (SoC) designs, what is the primary advantage of using a Network-on-Chip (NoC) architecture over traditional bus-based interconnects?",
+      "question": "What is Dynamic Voltage and Frequency Scaling (DVFS) primarily used for in System-on-Chip (SoC) designs?",
       "options": [
-        "To reduce the overall manufacturing cost by eliminating all physical wires.",
-        "To simplify memory access protocols by enforcing a single, global memory space.",
-        "To ensure all data transfers are entirely synchronous with a single global clock.",
-        "To decrease the complexity of individual IP blocks by shifting all communication logic to a central controller.",
-        "To provide scalable, high-bandwidth, and low-latency communication between a large number of intellectual property (IP) blocks."
+        "To dynamically adjust the clock network to achieve perfect clock synchronization across all domains.",
+        "To scale the physical dimensions of transistors in real-time based on workload.",
+        "To automatically detect and correct errors in data transmitted across the NoC.",
+        "To dynamically adjust the core voltage and clock frequency to optimize power consumption and performance.",
+        "To allocate memory resources dynamically to different applications running on the SoC."
       ],
-      "correct": 4
+      "correct": 3
     }
   ]
 }

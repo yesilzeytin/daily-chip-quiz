@@ -1,9 +1,4 @@
 [
-  "In digital logic design, what is the fundamental characteristic that distinguishes *sequential logic circuits* from *combinational logic circuits*?",
-  "In digital integrated circuit design, what is the primary purpose of incorporating *scan chains* as part of Design for Testability (DFT)?",
-  "In computer architecture and parallel computing, what does *Amdahl's Law* primarily quantify?",
-  "In the physical design flow of a digital integrated circuit, what is the primary goal of the 'placement' step?",
-  "Which of the following best describes a key characteristic that distinguishes a *vector processor* from a traditional scalar processor?",
   "What is the primary purpose of the Program Counter (PC) in a CPU?",
   "In digital IC design, what is the primary advantage of using a Static Random-Access Memory (SRAM) over a Dynamic Random-Access Memory (DRAM) for on-chip caches?",
   "What is a 'control hazard' in a pipelined processor?",
@@ -48,5 +43,10 @@
   "In digital CMOS integrated circuits, which component of power consumption is primarily due to the charging and discharging of load capacitances as gates switch their logic states?",
   "In a set-associative cache memory organization, how is a main memory block typically mapped to a cache location?",
   "What is the primary motivation for adopting a 'Globally Asynchronous, Locally Synchronous' (GALS) design style in complex System-on-Chip (SoC) designs?",
-  "In modern System-on-Chip (SoC) designs, what is the primary advantage of using a Network-on-Chip (NoC) architecture over traditional bus-based interconnects?"
+  "In modern System-on-Chip (SoC) designs, what is the primary advantage of using a Network-on-Chip (NoC) architecture over traditional bus-based interconnects?",
+  "What is the primary role of a standard cell library in Application-Specific Integrated Circuit (ASIC) design?",
+  "In modern CPUs, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+  "During the post-layout simulation phase of a digital integrated circuit, what is the significance of extracting parasitic capacitances and resistances from the physical layout?",
+  "In an out-of-order execution processor, what is the primary role of a 'Reorder Buffer' (ROB)?",
+  "What is Dynamic Voltage and Frequency Scaling (DVFS) primarily used for in System-on-Chip (SoC) designs?"
 ]
