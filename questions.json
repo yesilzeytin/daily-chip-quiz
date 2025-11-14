@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of a standard cell library in Application-Specific Integrated Circuit (ASIC) design?",
+      "question": "What is the fundamental purpose of an inverter (NOT gate) in digital logic?",
       "options": [
-        "To define the instruction set architecture (ISA) for the embedded processor.",
-        "To provide pre-characterized basic logic gates, flip-flops, and other cells for synthesis and layout.",
-        "To manage the real-time operating system (RTOS) and its tasks on the SoC.",
-        "To specify the communication protocols for on-chip interconnects.",
-        "To perform formal verification of the design's functional correctness."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In modern CPUs, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
-      "options": [
-        "To store frequently executed instructions for faster retrieval by the instruction fetch unit.",
-        "To buffer the results of speculative execution before they are committed.",
-        "To accelerate the translation of virtual memory addresses to physical memory addresses.",
-        "To manage cache coherence protocols between multiple CPU cores.",
-        "To store the return addresses for function calls and subroutine jumps."
+        "To perform arithmetic addition of binary numbers.",
+        "To store a single bit of information over time.",
+        "To invert or complement a logic signal, changing a 0 to a 1 and a 1 to a 0.",
+        "To select one of multiple input signals based on a control input.",
+        "To combine multiple inputs into a single output where the output is high if any input is high."
       ],
       "correct": 2
     },
     {
-      "question": "During the post-layout simulation phase of a digital integrated circuit, what is the significance of extracting parasitic capacitances and resistances from the physical layout?",
+      "question": "In the context of computer architecture, what is the primary role of a 'superscalar' processor design?",
       "options": [
-        "To generate the final manufacturing instructions for the fabrication plant.",
-        "To determine the ideal power supply voltage for optimal performance.",
-        "To enable accurate timing verification, signal integrity analysis, and power estimation.",
-        "To encrypt the design to protect intellectual property from reverse engineering.",
-        "To define the test vectors for manufacturing defect screening."
+        "To execute instructions at a lower clock frequency to significantly reduce power consumption.",
+        "To use multiple independent processing cores to execute separate program threads concurrently.",
+        "To fetch, decode, and execute multiple instructions simultaneously in a single clock cycle, typically using multiple execution units.",
+        "To accelerate memory access by increasing the size and associativity of the on-chip cache memory.",
+        "To provide fault tolerance by duplicating critical execution units and comparing their outputs."
       ],
       "correct": 2
     },
     {
-      "question": "In an out-of-order execution processor, what is the primary role of a 'Reorder Buffer' (ROB)?",
+      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'placement' step?",
       "options": [
-        "To reorder instructions in the instruction cache to improve fetch bandwidth.",
-        "To ensure that instructions commit their results to architectural state in their original program order, preserving precise exceptions.",
-        "To buffer memory requests from load/store units until data is available from memory.",
-        "To manage the mapping of logical registers to physical registers during execution.",
-        "To store branch prediction history for improving accuracy of future predictions."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is Dynamic Voltage and Frequency Scaling (DVFS) primarily used for in System-on-Chip (SoC) designs?",
-      "options": [
-        "To dynamically adjust the clock network to achieve perfect clock synchronization across all domains.",
-        "To scale the physical dimensions of transistors in real-time based on workload.",
-        "To automatically detect and correct errors in data transmitted across the NoC.",
-        "To dynamically adjust the core voltage and clock frequency to optimize power consumption and performance.",
-        "To allocate memory resources dynamically to different applications running on the SoC."
+        "To connect all the logic gates and macros with metal wires according to the design's netlist.",
+        "To distribute the clock signal uniformly across the entire chip to minimize clock skew.",
+        "To verify that the physical layout adheres to all manufacturing rules and technological constraints.",
+        "To arrange and position the standard cells and larger macro blocks onto the silicon die area to optimize for timing, power, and area.",
+        "To convert the Register-Transfer Level (RTL) design into a gate-level netlist of standard cells."
       ],
       "correct": 3
+    },
+    {
+      "question": "What is the key advantage of using a 'Register Renaming' technique in modern out-of-order execution processors?",
+      "options": [
+        "It reduces the total number of physical registers required in the processor's register file.",
+        "It eliminates true data dependencies (Read-After-Write hazards) between instructions, enabling more parallelism.",
+        "It allows instructions to execute out-of-order by resolving Write-After-Read (WAR) and Write-After-Write (WAW) hazards, which are false data dependencies.",
+        "It primarily speeds up memory access by assigning unique identifiers to frequently used cache lines.",
+        "It simplifies the instruction fetch and decode stages of the pipeline by using smaller register identifiers."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of asynchronous digital design, what is the primary concern that 'handshaking protocols' are designed to address?",
+      "options": [
+        "Ensuring that all sequential elements (flip-flops) are synchronized to a single, globally distributed clock edge.",
+        "Minimizing static power dissipation by ensuring gates are idle when not switching.",
+        "Guaranteeing reliable data transfer and coordination between independent modules operating at potentially different speeds without a shared global clock.",
+        "Preventing electromigration by controlling current density in on-chip interconnects.",
+        "Optimizing the physical placement of standard cells to reduce overall wire length and signal propagation delay."
+      ],
+      "correct": 2
     }
   ]
 }

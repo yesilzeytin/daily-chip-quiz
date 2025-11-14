@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of the Program Counter (PC) in a CPU?",
-  "In digital IC design, what is the primary advantage of using a Static Random-Access Memory (SRAM) over a Dynamic Random-Access Memory (DRAM) for on-chip caches?",
-  "What is a 'control hazard' in a pipelined processor?",
-  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the 'Routing' step?",
-  "What does the term 'NBTI' refer to as a reliability concern in advanced CMOS integrated circuits?",
   "At which abstraction level are digital circuits typically described using Hardware Description Languages (HDLs) like Verilog or VHDL for functional specification, where the design is represented in terms of registers and the data flow between them, prior to logic synthesis?",
   "In the context of CPU cache memory design, which write policy ensures that all write operations update both the cache block and the corresponding main memory location simultaneously?",
   "In the digital IC design flow, particularly during the physical design and sign-off phases, what is the primary objective of performing Static Timing Analysis (STA)?",
@@ -48,5 +43,10 @@
   "In modern CPUs, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
   "During the post-layout simulation phase of a digital integrated circuit, what is the significance of extracting parasitic capacitances and resistances from the physical layout?",
   "In an out-of-order execution processor, what is the primary role of a 'Reorder Buffer' (ROB)?",
-  "What is Dynamic Voltage and Frequency Scaling (DVFS) primarily used for in System-on-Chip (SoC) designs?"
+  "What is Dynamic Voltage and Frequency Scaling (DVFS) primarily used for in System-on-Chip (SoC) designs?",
+  "What is the fundamental purpose of an inverter (NOT gate) in digital logic?",
+  "In the context of computer architecture, what is the primary role of a 'superscalar' processor design?",
+  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'placement' step?",
+  "What is the key advantage of using a 'Register Renaming' technique in modern out-of-order execution processors?",
+  "In the context of asynchronous digital design, what is the primary concern that 'handshaking protocols' are designed to address?"
 ]
