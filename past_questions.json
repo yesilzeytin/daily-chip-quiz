@@ -1,9 +1,4 @@
 [
-  "At which abstraction level are digital circuits typically described using Hardware Description Languages (HDLs) like Verilog or VHDL for functional specification, where the design is represented in terms of registers and the data flow between them, prior to logic synthesis?",
-  "In the context of CPU cache memory design, which write policy ensures that all write operations update both the cache block and the corresponding main memory location simultaneously?",
-  "In the digital IC design flow, particularly during the physical design and sign-off phases, what is the primary objective of performing Static Timing Analysis (STA)?",
-  "What is the primary motivation behind the design and implementation of a memory hierarchy (e.g., registers, multiple levels of cache, main memory, disk storage) in a modern computer system?",
-  "In modern computer architecture, what is the primary goal of Simultaneous Multithreading (SMT), a technique exemplified by Intel's Hyper-Threading, when implemented on a single processor core?",
   "What is the primary output of the logic synthesis phase in the digital IC design flow?",
   "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol?",
   "In high-speed digital integrated circuits, what is the primary concern addressed by careful design of the power delivery network (PDN), including on-chip decoupling capacitors and robust power/ground straps?",
@@ -48,5 +43,10 @@
   "In the context of computer architecture, what is the primary role of a 'superscalar' processor design?",
   "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'placement' step?",
   "What is the key advantage of using a 'Register Renaming' technique in modern out-of-order execution processors?",
-  "In the context of asynchronous digital design, what is the primary concern that 'handshaking protocols' are designed to address?"
+  "In the context of asynchronous digital design, what is the primary concern that 'handshaking protocols' are designed to address?",
+  "What is the primary purpose of a clock signal in synchronous digital circuits?",
+  "In a pipelined processor, what is the primary goal of implementing branch prediction?",
+  "What is the primary purpose of 'floorplanning' in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
+  "In a cache-coherent multi-core processor, which mechanism is primarily responsible for ensuring that a stale copy of a data block in one core's cache is invalidated when another core modifies its own cached copy of the same data?",
+  "In System-on-Chip (SoC) designs, particularly for memory arrays or communication links, what is the primary motivation for implementing Error-Correcting Codes (ECC)?"
 ]

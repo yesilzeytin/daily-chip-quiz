@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental purpose of an inverter (NOT gate) in digital logic?",
+      "question": "What is the primary purpose of a clock signal in synchronous digital circuits?",
       "options": [
-        "To perform arithmetic addition of binary numbers.",
-        "To store a single bit of information over time.",
-        "To invert or complement a logic signal, changing a 0 to a 1 and a 1 to a 0.",
-        "To select one of multiple input signals based on a control input.",
-        "To combine multiple inputs into a single output where the output is high if any input is high."
+        "To define the maximum voltage level for all components.",
+        "To provide power to the logic gates.",
+        "To synchronize the operations of different components and sequential elements.",
+        "To generate random numbers for testing.",
+        "To cool down the integrated circuit during operation."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of computer architecture, what is the primary role of a 'superscalar' processor design?",
+      "question": "In a pipelined processor, what is the primary goal of implementing branch prediction?",
       "options": [
-        "To execute instructions at a lower clock frequency to significantly reduce power consumption.",
-        "To use multiple independent processing cores to execute separate program threads concurrently.",
-        "To fetch, decode, and execute multiple instructions simultaneously in a single clock cycle, typically using multiple execution units.",
-        "To accelerate memory access by increasing the size and associativity of the on-chip cache memory.",
-        "To provide fault tolerance by duplicating critical execution units and comparing their outputs."
+        "To reduce the physical size of the processor.",
+        "To improve the accuracy of floating-point calculations.",
+        "To avoid pipeline stalls by guessing the outcome of conditional branches.",
+        "To simplify the instruction set architecture.",
+        "To prevent memory leaks in software."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'placement' step?",
+      "question": "What is the primary purpose of 'floorplanning' in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "To connect all the logic gates and macros with metal wires according to the design's netlist.",
-        "To distribute the clock signal uniformly across the entire chip to minimize clock skew.",
-        "To verify that the physical layout adheres to all manufacturing rules and technological constraints.",
-        "To arrange and position the standard cells and larger macro blocks onto the silicon die area to optimize for timing, power, and area.",
-        "To convert the Register-Transfer Level (RTL) design into a gate-level netlist of standard cells."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is the key advantage of using a 'Register Renaming' technique in modern out-of-order execution processors?",
-      "options": [
-        "It reduces the total number of physical registers required in the processor's register file.",
-        "It eliminates true data dependencies (Read-After-Write hazards) between instructions, enabling more parallelism.",
-        "It allows instructions to execute out-of-order by resolving Write-After-Read (WAR) and Write-After-Write (WAW) hazards, which are false data dependencies.",
-        "It primarily speeds up memory access by assigning unique identifiers to frequently used cache lines.",
-        "It simplifies the instruction fetch and decode stages of the pipeline by using smaller register identifiers."
+        "To verify the functional correctness of the logic design.",
+        "To determine the exact placement of individual standard cells and macro blocks.",
+        "To define the overall chip area, pin assignments, and initial placement of large functional blocks.",
+        "To synthesize the Register-Transfer Level (RTL) code into gate-level netlist.",
+        "To analyze the thermal profile and cooling requirements of the chip."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of asynchronous digital design, what is the primary concern that 'handshaking protocols' are designed to address?",
+      "question": "In a cache-coherent multi-core processor, which mechanism is primarily responsible for ensuring that a stale copy of a data block in one core's cache is invalidated when another core modifies its own cached copy of the same data?",
       "options": [
-        "Ensuring that all sequential elements (flip-flops) are synchronized to a single, globally distributed clock edge.",
-        "Minimizing static power dissipation by ensuring gates are idle when not switching.",
-        "Guaranteeing reliable data transfer and coordination between independent modules operating at potentially different speeds without a shared global clock.",
-        "Preventing electromigration by controlling current density in on-chip interconnects.",
-        "Optimizing the physical placement of standard cells to reduce overall wire length and signal propagation delay."
+        "Branch prediction unit.",
+        "Memory Management Unit (MMU).",
+        "Cache invalidation protocol (e.g., using snooping or directory-based methods).",
+        "Dynamic Voltage and Frequency Scaling (DVFS).",
+        "Instruction Set Architecture (ISA)."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In System-on-Chip (SoC) designs, particularly for memory arrays or communication links, what is the primary motivation for implementing Error-Correcting Codes (ECC)?",
+      "options": [
+        "To decrease the overall power consumption of the SoC.",
+        "To reduce the number of transistors required for the design.",
+        "To detect and correct data corruption caused by transient faults or manufacturing defects.",
+        "To increase the operating frequency of the memory controllers.",
+        "To simplify the process of logic synthesis."
       ],
       "correct": 2
     }
