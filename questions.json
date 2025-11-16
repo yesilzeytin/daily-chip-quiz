@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a clock signal in synchronous digital circuits?",
+      "question": "In digital circuit design, what does RTL primarily stand for?",
       "options": [
-        "To define the maximum voltage level for all components.",
-        "To provide power to the logic gates.",
-        "To synchronize the operations of different components and sequential elements.",
-        "To generate random numbers for testing.",
-        "To cool down the integrated circuit during operation."
+        "Register Transfer Level",
+        "Real-Time Logic",
+        "Resource Task Layout",
+        "Routine Test Language",
+        "Resistive Transistor Logic"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary purpose of Static Timing Analysis (STA) in the digital IC design flow?",
+      "options": [
+        "To simulate the circuit's behavior with specific test vectors.",
+        "To verify the logical correctness of the design by formal methods.",
+        "To identify and verify all possible timing paths meet their setup and hold constraints without dynamic simulation.",
+        "To extract parasitic resistances and capacitances from the layout.",
+        "To generate test patterns for manufacturing defect detection."
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what is the primary goal of implementing branch prediction?",
+      "question": "Amdahl's Law in computer architecture primarily describes which of the following?",
       "options": [
-        "To reduce the physical size of the processor.",
-        "To improve the accuracy of floating-point calculations.",
-        "To avoid pipeline stalls by guessing the outcome of conditional branches.",
-        "To simplify the instruction set architecture.",
-        "To prevent memory leaks in software."
+        "The maximum speed-up of a program when adding more processors, given a sequential portion.",
+        "The relationship between cache hit rate and overall memory access time.",
+        "The optimal number of pipeline stages for a given processor frequency.",
+        "The power consumption reduction achievable through dynamic voltage scaling.",
+        "The trade-off between instruction set complexity and compiler efficiency."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "What is the primary purpose of 'floorplanning' in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
+      "question": "In advanced semiconductor manufacturing, what is the primary goal of employing Design for Manufacturability (DFM) techniques?",
       "options": [
-        "To verify the functional correctness of the logic design.",
-        "To determine the exact placement of individual standard cells and macro blocks.",
-        "To define the overall chip area, pin assignments, and initial placement of large functional blocks.",
-        "To synthesize the Register-Transfer Level (RTL) code into gate-level netlist.",
-        "To analyze the thermal profile and cooling requirements of the chip."
+        "To minimize the overall area of the integrated circuit.",
+        "To reduce the power consumption of the chip during operation.",
+        "To improve the functional performance of the circuit at high frequencies.",
+        "To enhance the yield and reliability of the silicon chips by making designs less sensitive to manufacturing variations.",
+        "To simplify the logic synthesis process and reduce design time."
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In a cache-coherent multi-core processor, which mechanism is primarily responsible for ensuring that a stale copy of a data block in one core's cache is invalidated when another core modifies its own cached copy of the same data?",
+      "question": "In the context of computer architecture and cache memory, what does the 'principle of locality' primarily refer to?",
       "options": [
-        "Branch prediction unit.",
-        "Memory Management Unit (MMU).",
-        "Cache invalidation protocol (e.g., using snooping or directory-based methods).",
-        "Dynamic Voltage and Frequency Scaling (DVFS).",
-        "Instruction Set Architecture (ISA)."
+        "The physical proximity of memory modules to the CPU on the motherboard.",
+        "The tendency of a program to access data and instructions that are spatially or temporally close to recently accessed ones.",
+        "The ability of a cache to store data locally within each processor core.",
+        "The restriction that a program can only access memory within its assigned address space.",
+        "The process by which memory addresses are translated from virtual to physical."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In System-on-Chip (SoC) designs, particularly for memory arrays or communication links, what is the primary motivation for implementing Error-Correcting Codes (ECC)?",
-      "options": [
-        "To decrease the overall power consumption of the SoC.",
-        "To reduce the number of transistors required for the design.",
-        "To detect and correct data corruption caused by transient faults or manufacturing defects.",
-        "To increase the operating frequency of the memory controllers.",
-        "To simplify the process of logic synthesis."
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

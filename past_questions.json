@@ -1,9 +1,4 @@
 [
-  "What is the primary output of the logic synthesis phase in the digital IC design flow?",
-  "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol?",
-  "In high-speed digital integrated circuits, what is the primary concern addressed by careful design of the power delivery network (PDN), including on-chip decoupling capacitors and robust power/ground straps?",
-  "In concurrent programming and multi-processor systems, what does a 'memory consistency model' primarily define?",
-  "Which Design for Testability (DFT) technique involves embedding test logic within the circuit itself to generate test patterns and analyze responses internally, reducing reliance on external Automated Test Equipment (ATE) for manufacturing testing?",
   "What is the primary purpose of a multiplexer (MUX) in digital circuit design?",
   "In a pipelined processor, what is the fundamental purpose of dividing an instruction's execution into multiple stages?",
   "What is the primary goal of Clock Tree Synthesis (CTS) during the physical design phase of an integrated circuit?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, what is the primary goal of implementing branch prediction?",
   "What is the primary purpose of 'floorplanning' in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
   "In a cache-coherent multi-core processor, which mechanism is primarily responsible for ensuring that a stale copy of a data block in one core's cache is invalidated when another core modifies its own cached copy of the same data?",
-  "In System-on-Chip (SoC) designs, particularly for memory arrays or communication links, what is the primary motivation for implementing Error-Correcting Codes (ECC)?"
+  "In System-on-Chip (SoC) designs, particularly for memory arrays or communication links, what is the primary motivation for implementing Error-Correcting Codes (ECC)?",
+  "In digital circuit design, what does RTL primarily stand for?",
+  "What is the primary purpose of Static Timing Analysis (STA) in the digital IC design flow?",
+  "Amdahl's Law in computer architecture primarily describes which of the following?",
+  "In advanced semiconductor manufacturing, what is the primary goal of employing Design for Manufacturability (DFM) techniques?",
+  "In the context of computer architecture and cache memory, what does the 'principle of locality' primarily refer to?"
 ]
