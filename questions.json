@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In digital circuit design, what does RTL primarily stand for?",
+      "question": "What is a fundamental property of a PMOS transistor when a low voltage (e.g., 0V) is applied to its gate, assuming it's part of a standard CMOS logic gate?",
       "options": [
-        "Register Transfer Level",
-        "Real-Time Logic",
-        "Resource Task Layout",
-        "Routine Test Language",
-        "Resistive Transistor Logic"
+        "It turns ON, allowing current flow between source and drain.",
+        "It turns OFF, blocking current flow between source and drain.",
+        "It acts as a high-value resistor.",
+        "It acts as a capacitor, storing charge.",
+        "It emits photons as an LED."
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary purpose of Static Timing Analysis (STA) in the digital IC design flow?",
+      "question": "What is the primary advantage of using a hardware description language (HDL) like Verilog or VHDL over schematic capture for complex digital designs?",
       "options": [
-        "To simulate the circuit's behavior with specific test vectors.",
-        "To verify the logical correctness of the design by formal methods.",
-        "To identify and verify all possible timing paths meet their setup and hold constraints without dynamic simulation.",
-        "To extract parasitic resistances and capacitances from the layout.",
-        "To generate test patterns for manufacturing defect detection."
+        "It guarantees faster simulation speeds.",
+        "It directly generates the physical layout without further tools.",
+        "It enables a higher level of abstraction, modularity, and reusability for complex systems.",
+        "It significantly reduces the design's static power consumption.",
+        "It automatically performs timing closure and optimization."
       ],
       "correct": 2
     },
     {
-      "question": "Amdahl's Law in computer architecture primarily describes which of the following?",
+      "question": "Which type of parallelism is primarily exploited by a Single Instruction, Multiple Data (SIMD) architecture in a processor?",
       "options": [
-        "The maximum speed-up of a program when adding more processors, given a sequential portion.",
-        "The relationship between cache hit rate and overall memory access time.",
-        "The optimal number of pipeline stages for a given processor frequency.",
-        "The power consumption reduction achievable through dynamic voltage scaling.",
-        "The trade-off between instruction set complexity and compiler efficiency."
+        "Instruction-Level Parallelism (ILP)",
+        "Thread-Level Parallelism (TLP)",
+        "Data-Level Parallelism (DLP)",
+        "Process-Level Parallelism (PLP)",
+        "Memory-Level Parallelism (MLP)"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In advanced semiconductor manufacturing, what is the primary goal of employing Design for Manufacturability (DFM) techniques?",
+      "question": "In the semiconductor manufacturing process, what is the primary purpose of Chemical Mechanical Planarization (CMP)?",
       "options": [
-        "To minimize the overall area of the integrated circuit.",
-        "To reduce the power consumption of the chip during operation.",
-        "To improve the functional performance of the circuit at high frequencies.",
-        "To enhance the yield and reliability of the silicon chips by making designs less sensitive to manufacturing variations.",
-        "To simplify the logic synthesis process and reduce design time."
+        "To deposit thin films of insulating material onto the wafer.",
+        "To create intricate patterns on the wafer using lithography.",
+        "To precisely remove material and create a highly flat and smooth surface across the wafer for subsequent layer deposition.",
+        "To implant dopants into the silicon substrate for conductivity modification.",
+        "To selectively etch away unwanted material from the wafer surface."
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "In the context of computer architecture and cache memory, what does the 'principle of locality' primarily refer to?",
+      "question": "In modern CPU architectures, what is the primary functional role of the Memory Management Unit (MMU)?",
       "options": [
-        "The physical proximity of memory modules to the CPU on the motherboard.",
-        "The tendency of a program to access data and instructions that are spatially or temporally close to recently accessed ones.",
-        "The ability of a cache to store data locally within each processor core.",
-        "The restriction that a program can only access memory within its assigned address space.",
-        "The process by which memory addresses are translated from virtual to physical."
+        "To optimize the execution order of instructions in the pipeline.",
+        "To translate virtual memory addresses generated by the CPU into physical memory addresses.",
+        "To manage the coherency of data across multiple processor caches.",
+        "To perform high-speed floating-point arithmetic operations.",
+        "To control the flow of data between the CPU and I/O devices."
       ],
       "correct": 1
     }

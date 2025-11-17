@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a multiplexer (MUX) in digital circuit design?",
-  "In a pipelined processor, what is the fundamental purpose of dividing an instruction's execution into multiple stages?",
-  "What is the primary goal of Clock Tree Synthesis (CTS) during the physical design phase of an integrated circuit?",
-  "What is the main architectural challenge addressed by implementing a Non-Uniform Memory Access (NUMA) architecture in multi-processor systems?",
-  "Which type of simulation primarily verifies the logical behavior and functional correctness of a digital circuit design using abstract models (e.g., Register-Transfer Level), before detailed timing or physical characteristics are known?",
   "What is the defining characteristic of an XOR (Exclusive OR) logic gate's output when its two inputs are identical?",
   "In an out-of-order execution processor, what is the primary function of the Load/Store Queue (LSQ)?",
   "In the physical verification and sign-off stages of advanced integrated circuit design, what is the primary purpose of Electromigration (EM) analysis?",
@@ -48,5 +43,10 @@
   "What is the primary purpose of Static Timing Analysis (STA) in the digital IC design flow?",
   "Amdahl's Law in computer architecture primarily describes which of the following?",
   "In advanced semiconductor manufacturing, what is the primary goal of employing Design for Manufacturability (DFM) techniques?",
-  "In the context of computer architecture and cache memory, what does the 'principle of locality' primarily refer to?"
+  "In the context of computer architecture and cache memory, what does the 'principle of locality' primarily refer to?",
+  "What is a fundamental property of a PMOS transistor when a low voltage (e.g., 0V) is applied to its gate, assuming it's part of a standard CMOS logic gate?",
+  "What is the primary advantage of using a hardware description language (HDL) like Verilog or VHDL over schematic capture for complex digital designs?",
+  "Which type of parallelism is primarily exploited by a Single Instruction, Multiple Data (SIMD) architecture in a processor?",
+  "In the semiconductor manufacturing process, what is the primary purpose of Chemical Mechanical Planarization (CMP)?",
+  "In modern CPU architectures, what is the primary functional role of the Memory Management Unit (MMU)?"
 ]
