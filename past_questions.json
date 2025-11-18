@@ -1,9 +1,4 @@
 [
-  "What is the defining characteristic of an XOR (Exclusive OR) logic gate's output when its two inputs are identical?",
-  "In an out-of-order execution processor, what is the primary function of the Load/Store Queue (LSQ)?",
-  "In the physical verification and sign-off stages of advanced integrated circuit design, what is the primary purpose of Electromigration (EM) analysis?",
-  "In a typical Field-Programmable Gate Array (FPGA) architecture, what is the main functional unit that combines Look-Up Tables (LUTs) with flip-flops to implement both combinational and sequential logic?",
-  "Which of the following best describes the fundamental characteristic of non-volatile memory?",
   "What is the primary role of an Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
   "In the physical design flow of an integrated circuit, what is the main objective of 'timing closure'?",
   "Which memory characteristic best describes the ability to access any memory location in roughly the same amount of time, regardless of its physical address?",
@@ -48,5 +43,10 @@
   "What is the primary advantage of using a hardware description language (HDL) like Verilog or VHDL over schematic capture for complex digital designs?",
   "Which type of parallelism is primarily exploited by a Single Instruction, Multiple Data (SIMD) architecture in a processor?",
   "In the semiconductor manufacturing process, what is the primary purpose of Chemical Mechanical Planarization (CMP)?",
-  "In modern CPU architectures, what is the primary functional role of the Memory Management Unit (MMU)?"
+  "In modern CPU architectures, what is the primary functional role of the Memory Management Unit (MMU)?",
+  "In digital logic design, what does 'fan-out' primarily refer to?",
+  "What is the primary purpose of Layout Versus Schematic (LVS) verification in the digital IC design flow?",
+  "In the MESI cache coherence protocol, what does the 'Shared' (S) state of a cache block primarily indicate?",
+  "In the physical design flow of a digital integrated circuit, what is the primary objective of Clock Tree Synthesis (CTS)?",
+  "In a typical Von Neumann or Harvard architecture CPU, what is the primary function of the Program Counter (PC)?"
 ]
