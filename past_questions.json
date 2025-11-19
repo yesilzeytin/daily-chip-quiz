@@ -1,9 +1,4 @@
 [
-  "What is the primary role of an Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
-  "In the physical design flow of an integrated circuit, what is the main objective of 'timing closure'?",
-  "Which memory characteristic best describes the ability to access any memory location in roughly the same amount of time, regardless of its physical address?",
-  "In synchronous digital design, what does the 'setup time' of a flip-flop primarily specify?",
-  "In a pipelined processor, what constitutes a 'structural hazard'?",
   "What is the primary function of a transistor in a digital integrated circuit?",
   "What is formal verification primarily used for in digital IC design?",
   "Which of the following is a primary characteristic of a Reduced Instruction Set Computer (RISC) architecture compared to a Complex Instruction Set Computer (CISC) architecture?",
@@ -48,5 +43,10 @@
   "What is the primary purpose of Layout Versus Schematic (LVS) verification in the digital IC design flow?",
   "In the MESI cache coherence protocol, what does the 'Shared' (S) state of a cache block primarily indicate?",
   "In the physical design flow of a digital integrated circuit, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "In a typical Von Neumann or Harvard architecture CPU, what is the primary function of the Program Counter (PC)?"
+  "In a typical Von Neumann or Harvard architecture CPU, what is the primary function of the Program Counter (PC)?",
+  "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
+  "In digital IC design, what is the primary purpose of incorporating Design for Testability (DFT) techniques?",
+  "In the context of cache memory, which write policy immediately updates both the cache and the main memory upon a write operation?",
+  "What is the primary concern that Clock Domain Crossing (CDC) verification aims to address in complex System-on-Chip (SoC) designs?",
+  "What is the defining characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?"
 ]

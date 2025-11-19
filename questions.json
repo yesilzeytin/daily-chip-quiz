@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital logic design, what does 'fan-out' primarily refer to?",
+      "question": "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
       "options": [
-        "The number of inputs a logic gate can accept.",
-        "The maximum number of logic gates that a single output can drive while maintaining valid logic levels and timing.",
-        "The speed at which a logic gate can switch its output state.",
-        "The physical area occupied by a logic gate on a chip.",
-        "The total power consumption of a logic circuit."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary purpose of Layout Versus Schematic (LVS) verification in the digital IC design flow?",
-      "options": [
-        "To ensure that the physical layout adheres to foundry design rules.",
-        "To verify that the timing performance meets specifications after layout.",
-        "To compare the extracted netlist from the physical layout against the original schematic or RTL netlist to ensure functional equivalence.",
-        "To check for potential power integrity issues caused by IR drop.",
-        "To determine the optimal placement of standard cells on the chip."
+        "Combinational circuits use feedback, while sequential circuits do not.",
+        "Sequential circuits require a clock signal, while combinational circuits do not.",
+        "The output of a combinational circuit depends only on its current inputs, while a sequential circuit's output depends on current inputs and past states.",
+        "Combinational circuits can store data, while sequential circuits can only process data.",
+        "Sequential circuits are always faster than combinational circuits."
       ],
       "correct": 2
     },
     {
-      "question": "In the MESI cache coherence protocol, what does the 'Shared' (S) state of a cache block primarily indicate?",
+      "question": "In digital IC design, what is the primary purpose of incorporating Design for Testability (DFT) techniques?",
       "options": [
-        "The cache block is currently being modified by the local processor and has not yet been written back to main memory.",
-        "The cache block is the only valid copy across all caches and main memory.",
-        "The cache block is invalid and must be fetched from main memory or another cache.",
-        "The cache block is clean (matches main memory) and may exist in other caches as well.",
-        "The cache block has been requested by multiple processors but is not yet available."
+        "To reduce the overall power consumption of the chip.",
+        "To ensure the chip operates correctly under extreme temperature variations.",
+        "To facilitate the efficient and thorough testing of manufactured chips for defects.",
+        "To optimize the physical placement of standard cells for better performance.",
+        "To prevent unauthorized access or tampering with the chip's internal logic."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of cache memory, which write policy immediately updates both the cache and the main memory upon a write operation?",
+      "options": [
+        "Write-back",
+        "Write-allocate",
+        "Write-through",
+        "No-write-allocate",
+        "Write-invalidate"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary concern that Clock Domain Crossing (CDC) verification aims to address in complex System-on-Chip (SoC) designs?",
+      "options": [
+        "Ensuring that all clock signals have precisely the same frequency.",
+        "Preventing data corruption and metastability issues when data is transferred between logic operating on different clock domains.",
+        "Minimizing the total number of clock gates to save power.",
+        "Optimizing the fan-out of global clock nets for better timing.",
+        "Verifying that the CPU's internal clock is synchronized with external peripheral clocks."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the defining characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
+      "options": [
+        "FPGAs consume significantly less power than ASICs for the same functionality.",
+        "ASICs are reprogrammable after manufacturing, while FPGAs are not.",
+        "FPGAs are designed to perform a fixed set of functions, whereas ASICs can be configured for various applications.",
+        "FPGAs allow for post-manufacturing reconfiguration of their logic functions, while ASICs are designed for a specific, unchangeable function.",
+        "ASICs are typically used for prototyping, and FPGAs are preferred for high-volume production."
       ],
       "correct": 3
-    },
-    {
-      "question": "In the physical design flow of a digital integrated circuit, what is the primary objective of Clock Tree Synthesis (CTS)?",
-      "options": [
-        "To optimize the placement of standard cells to minimize wire length.",
-        "To create a balanced and low-skew clock distribution network across the chip.",
-        "To connect all signal nets according to the design's netlist.",
-        "To verify that the layout adheres to foundry design rules.",
-        "To insert buffers to reduce signal integrity issues on critical paths."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a typical Von Neumann or Harvard architecture CPU, what is the primary function of the Program Counter (PC)?",
-      "options": [
-        "To store data values temporarily during computation.",
-        "To hold the address of the next instruction to be fetched and executed.",
-        "To perform arithmetic and logical operations on data.",
-        "To manage the flow of data between the CPU and memory.",
-        "To store the results of recent branch predictions."
-      ],
-      "correct": 1
     }
   ]
 }
