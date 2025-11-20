@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a transistor in a digital integrated circuit?",
-  "What is formal verification primarily used for in digital IC design?",
-  "Which of the following is a primary characteristic of a Reduced Instruction Set Computer (RISC) architecture compared to a Complex Instruction Set Computer (CISC) architecture?",
-  "What is the primary motivation behind the adoption of 'chiplet' architectures in modern semiconductor design?",
-  "What is the primary purpose of 'clock gating' in digital IC design?",
   "What is the fundamental building block for sequential logic circuits that can store a single bit of information?",
   "In cache memory design, what is the primary purpose of a 'dirty bit' associated with a cache line?",
   "In the physical design verification phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary purpose of incorporating Design for Testability (DFT) techniques?",
   "In the context of cache memory, which write policy immediately updates both the cache and the main memory upon a write operation?",
   "What is the primary concern that Clock Domain Crossing (CDC) verification aims to address in complex System-on-Chip (SoC) designs?",
-  "What is the defining characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?"
+  "What is the defining characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
+  "In the context of digital IC design verification, what is the main purpose of a 'testbench'?",
+  "In a pipelined processor, what is a 'data hazard'?",
+  "In advanced functional verification of complex System-on-Chip (SoC) designs, what does 'functional coverage' primarily aim to measure?",
+  "What is the primary role of a 'register file' in a CPU's datapath?"
 ]

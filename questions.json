@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
+      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
       "options": [
-        "Combinational circuits use feedback, while sequential circuits do not.",
-        "Sequential circuits require a clock signal, while combinational circuits do not.",
-        "The output of a combinational circuit depends only on its current inputs, while a sequential circuit's output depends on current inputs and past states.",
-        "Combinational circuits can store data, while sequential circuits can only process data.",
-        "Sequential circuits are always faster than combinational circuits."
+        "Stores program instructions in main memory.",
+        "Manages virtual memory addresses for program execution.",
+        "Executes arithmetic operations (e.g., addition, subtraction) and logical operations (e.g., AND, OR, XOR).",
+        "Controls the flow of data between the CPU and peripheral devices.",
+        "Generates the master clock signal for synchronous operations."
       ],
       "correct": 2
     },
     {
-      "question": "In digital IC design, what is the primary purpose of incorporating Design for Testability (DFT) techniques?",
+      "question": "In the context of digital IC design verification, what is the main purpose of a 'testbench'?",
       "options": [
-        "To reduce the overall power consumption of the chip.",
-        "To ensure the chip operates correctly under extreme temperature variations.",
-        "To facilitate the efficient and thorough testing of manufactured chips for defects.",
-        "To optimize the physical placement of standard cells for better performance.",
-        "To prevent unauthorized access or tampering with the chip's internal logic."
+        "To physically lay out the circuit components on a silicon wafer.",
+        "To synthesize Register Transfer Level (RTL) code into a gate-level netlist.",
+        "To generate power-aware clock trees for low-power design optimization.",
+        "To simulate the design's behavior by applying specific input stimuli and checking output responses against expected behavior.",
+        "To identify manufacturing defects in the final silicon chip using electrical tests."
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In the context of cache memory, which write policy immediately updates both the cache and the main memory upon a write operation?",
+      "question": "In a pipelined processor, what is a 'data hazard'?",
       "options": [
-        "Write-back",
-        "Write-allocate",
-        "Write-through",
-        "No-write-allocate",
-        "Write-invalidate"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary concern that Clock Domain Crossing (CDC) verification aims to address in complex System-on-Chip (SoC) designs?",
-      "options": [
-        "Ensuring that all clock signals have precisely the same frequency.",
-        "Preventing data corruption and metastability issues when data is transferred between logic operating on different clock domains.",
-        "Minimizing the total number of clock gates to save power.",
-        "Optimizing the fan-out of global clock nets for better timing.",
-        "Verifying that the CPU's internal clock is synchronized with external peripheral clocks."
+        "An error caused by incorrect memory addresses during data access due to a bug in the memory management unit.",
+        "A situation where a subsequent instruction attempts to use data that has not yet been computed or made available by a prior instruction in the pipeline.",
+        "A condition where two instructions attempt to write to the same register simultaneously, leading to an incorrect final value.",
+        "An issue arising from a conditional branch instruction whose outcome (which path to take) is not yet known, leading to potential misfetches.",
+        "A conflict that occurs when multiple instructions simultaneously try to access the instruction cache, causing a bottleneck."
       ],
       "correct": 1
     },
     {
-      "question": "What is the defining characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
+      "question": "In advanced functional verification of complex System-on-Chip (SoC) designs, what does 'functional coverage' primarily aim to measure?",
       "options": [
-        "FPGAs consume significantly less power than ASICs for the same functionality.",
-        "ASICs are reprogrammable after manufacturing, while FPGAs are not.",
-        "FPGAs are designed to perform a fixed set of functions, whereas ASICs can be configured for various applications.",
-        "FPGAs allow for post-manufacturing reconfiguration of their logic functions, while ASICs are designed for a specific, unchangeable function.",
-        "ASICs are typically used for prototyping, and FPGAs are preferred for high-volume production."
+        "The percentage of physical area utilized by the design's logic gates on the silicon die.",
+        "The number of clock cycles required for the slowest critical path in the design to ensure timing closure.",
+        "How thoroughly the design's specified features, corner cases, and behaviors have been exercised by the applied test stimuli.",
+        "The amount of power consumed by the entire chip under various operating conditions and workloads.",
+        "The defect density of the fabricated silicon wafer to assess manufacturing yield."
       ],
-      "correct": 3
+      "correct": 2
+    },
+    {
+      "question": "What is the primary role of a 'register file' in a CPU's datapath?",
+      "options": [
+        "To store the entire program code and static data for execution.",
+        "To provide a small, fast storage unit for frequently accessed data and intermediate results during instruction execution.",
+        "To manage the translation of virtual addresses to physical addresses for memory access.",
+        "To buffer instructions fetched from memory before they are decoded and executed.",
+        "To handle the communication protocols and data transfer between the CPU and various peripheral devices."
+      ],
+      "correct": 1
     }
   ]
 }
