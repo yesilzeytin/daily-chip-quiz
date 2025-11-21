@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
       "options": [
-        "Stores program instructions in main memory.",
-        "Manages virtual memory addresses for program execution.",
-        "Executes arithmetic operations (e.g., addition, subtraction) and logical operations (e.g., AND, OR, XOR).",
-        "Controls the flow of data between the CPU and peripheral devices.",
-        "Generates the master clock signal for synchronous operations."
+        "To store a single bit of data.",
+        "To perform arithmetic operations like addition.",
+        "To combine multiple input signals into a single output signal based on a select input.",
+        "To convert analog signals to digital signals.",
+        "To generate a clock signal."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of digital IC design verification, what is the main purpose of a 'testbench'?",
+      "question": "In digital IC design, what is the primary purpose of incorporating 'scan chains' into a circuit?",
       "options": [
-        "To physically lay out the circuit components on a silicon wafer.",
-        "To synthesize Register Transfer Level (RTL) code into a gate-level netlist.",
-        "To generate power-aware clock trees for low-power design optimization.",
-        "To simulate the design's behavior by applying specific input stimuli and checking output responses against expected behavior.",
-        "To identify manufacturing defects in the final silicon chip using electrical tests."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a pipelined processor, what is a 'data hazard'?",
-      "options": [
-        "An error caused by incorrect memory addresses during data access due to a bug in the memory management unit.",
-        "A situation where a subsequent instruction attempts to use data that has not yet been computed or made available by a prior instruction in the pipeline.",
-        "A condition where two instructions attempt to write to the same register simultaneously, leading to an incorrect final value.",
-        "An issue arising from a conditional branch instruction whose outcome (which path to take) is not yet known, leading to potential misfetches.",
-        "A conflict that occurs when multiple instructions simultaneously try to access the instruction cache, causing a bottleneck."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In advanced functional verification of complex System-on-Chip (SoC) designs, what does 'functional coverage' primarily aim to measure?",
-      "options": [
-        "The percentage of physical area utilized by the design's logic gates on the silicon die.",
-        "The number of clock cycles required for the slowest critical path in the design to ensure timing closure.",
-        "How thoroughly the design's specified features, corner cases, and behaviors have been exercised by the applied test stimuli.",
-        "The amount of power consumed by the entire chip under various operating conditions and workloads.",
-        "The defect density of the fabricated silicon wafer to assess manufacturing yield."
+        "To reduce the dynamic power consumption of the chip.",
+        "To improve the circuit's performance by reducing critical path delay.",
+        "To facilitate testing of sequential logic elements by allowing their states to be easily set and observed.",
+        "To ensure electromagnetic compatibility (EMC) of the chip with its environment.",
+        "To protect intellectual property (IP) from unauthorized copying."
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary role of a 'register file' in a CPU's datapath?",
+      "question": "In computer architecture, what is the primary distinguishing characteristic of a Very Long Instruction Word (VLIW) processor compared to a superscalar processor?",
       "options": [
-        "To store the entire program code and static data for execution.",
-        "To provide a small, fast storage unit for frequently accessed data and intermediate results during instruction execution.",
-        "To manage the translation of virtual addresses to physical addresses for memory access.",
-        "To buffer instructions fetched from memory before they are decoded and executed.",
-        "To handle the communication protocols and data transfer between the CPU and various peripheral devices."
+        "VLIW processors use a deep pipeline to increase instruction throughput.",
+        "VLIW processors rely on hardware-based dynamic scheduling to find instruction-level parallelism at runtime.",
+        "VLIW processors execute multiple operations in parallel based on explicit scheduling by the compiler.",
+        "VLIW processors only execute one instruction per clock cycle but at a very high frequency.",
+        "VLIW processors exclusively use an in-order execution model."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "As transistor dimensions continue to shrink into the nanometer regime (e.g., below 7nm), which fundamental quantum mechanical phenomenon increasingly contributes to leakage current and poses a significant challenge for circuit reliability and power consumption?",
+      "options": [
+        "Doppler effect.",
+        "Photoelectric effect.",
+        "Quantum tunneling.",
+        "Hall effect.",
+        "Thermionic emission."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In computer architecture, what is the primary distinction of 'memory-mapped I/O' compared to 'port-mapped I/O' (or isolated I/O)?",
+      "options": [
+        "Memory-mapped I/O uses a dedicated set of instructions for I/O operations, separate from memory access instructions.",
+        "Memory-mapped I/O devices share the same address space as main memory, allowing them to be accessed using standard memory load/store instructions.",
+        "Memory-mapped I/O requires a separate I/O bus, distinct from the system memory bus.",
+        "Memory-mapped I/O prevents direct memory access (DMA) by peripheral devices.",
+        "Memory-mapped I/O is exclusively used in Harvard architectures, while port-mapped I/O is used in Von Neumann architectures."
       ],
       "correct": 1
     }

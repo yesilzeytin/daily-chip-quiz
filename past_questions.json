@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block for sequential logic circuits that can store a single bit of information?",
-  "In cache memory design, what is the primary purpose of a 'dirty bit' associated with a cache line?",
-  "In the physical design verification phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
-  "In modern out-of-order execution processors, what is the primary goal of employing 'speculative execution'?",
-  "For advanced technology nodes (e.g., 3nm and beyond), Gate-All-Around (GAA) FETs are often preferred over FinFETs. What is the primary advantage of GAAFETs in this context?",
   "Which element is the primary semiconductor material used in the vast majority of modern integrated circuits?",
   "In digital CMOS integrated circuits, which component of power consumption is primarily due to the charging and discharging of load capacitances as gates switch their logic states?",
   "In a set-associative cache memory organization, how is a main memory block typically mapped to a cache location?",
@@ -48,5 +43,10 @@
   "In the context of digital IC design verification, what is the main purpose of a 'testbench'?",
   "In a pipelined processor, what is a 'data hazard'?",
   "In advanced functional verification of complex System-on-Chip (SoC) designs, what does 'functional coverage' primarily aim to measure?",
-  "What is the primary role of a 'register file' in a CPU's datapath?"
+  "What is the primary role of a 'register file' in a CPU's datapath?",
+  "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
+  "In digital IC design, what is the primary purpose of incorporating 'scan chains' into a circuit?",
+  "In computer architecture, what is the primary distinguishing characteristic of a Very Long Instruction Word (VLIW) processor compared to a superscalar processor?",
+  "As transistor dimensions continue to shrink into the nanometer regime (e.g., below 7nm), which fundamental quantum mechanical phenomenon increasingly contributes to leakage current and poses a significant challenge for circuit reliability and power consumption?",
+  "In computer architecture, what is the primary distinction of 'memory-mapped I/O' compared to 'port-mapped I/O' (or isolated I/O)?"
 ]
