@@ -1,9 +1,4 @@
 [
-  "Which element is the primary semiconductor material used in the vast majority of modern integrated circuits?",
-  "In digital CMOS integrated circuits, which component of power consumption is primarily due to the charging and discharging of load capacitances as gates switch their logic states?",
-  "In a set-associative cache memory organization, how is a main memory block typically mapped to a cache location?",
-  "What is the primary motivation for adopting a 'Globally Asynchronous, Locally Synchronous' (GALS) design style in complex System-on-Chip (SoC) designs?",
-  "In modern System-on-Chip (SoC) designs, what is the primary advantage of using a Network-on-Chip (NoC) architecture over traditional bus-based interconnects?",
   "What is the primary role of a standard cell library in Application-Specific Integrated Circuit (ASIC) design?",
   "In modern CPUs, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
   "During the post-layout simulation phase of a digital integrated circuit, what is the significance of extracting parasitic capacitances and resistances from the physical layout?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary purpose of incorporating 'scan chains' into a circuit?",
   "In computer architecture, what is the primary distinguishing characteristic of a Very Long Instruction Word (VLIW) processor compared to a superscalar processor?",
   "As transistor dimensions continue to shrink into the nanometer regime (e.g., below 7nm), which fundamental quantum mechanical phenomenon increasingly contributes to leakage current and poses a significant challenge for circuit reliability and power consumption?",
-  "In computer architecture, what is the primary distinction of 'memory-mapped I/O' compared to 'port-mapped I/O' (or isolated I/O)?"
+  "In computer architecture, what is the primary distinction of 'memory-mapped I/O' compared to 'port-mapped I/O' (or isolated I/O)?",
+  "What is the primary function of a D-flip-flop in digital circuits?",
+  "Which cache replacement policy prioritizes evicting the data block that has not been accessed for the longest period of time?",
+  "In digital integrated circuit design, which verification methodology aims to mathematically prove the functional correctness of a design against its specification, rather than relying on simulation of test cases?",
+  "Which statement accurately describes the relationship between a processor's Instruction Set Architecture (ISA) and its microarchitecture?",
+  "In advanced semiconductor manufacturing processes, particularly at nanometer scales (e.g., below 10nm), which physical phenomenon increasingly causes significant statistical variation in individual transistor characteristics (such as threshold voltage and leakage current) across a chip, impacting yield and performance predictability?"
 ]

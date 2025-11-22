@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
+      "question": "What is the primary function of a D-flip-flop in digital circuits?",
       "options": [
-        "To store a single bit of data.",
-        "To perform arithmetic operations like addition.",
-        "To combine multiple input signals into a single output signal based on a select input.",
-        "To convert analog signals to digital signals.",
-        "To generate a clock signal."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In digital IC design, what is the primary purpose of incorporating 'scan chains' into a circuit?",
-      "options": [
-        "To reduce the dynamic power consumption of the chip.",
-        "To improve the circuit's performance by reducing critical path delay.",
-        "To facilitate testing of sequential logic elements by allowing their states to be easily set and observed.",
-        "To ensure electromagnetic compatibility (EMC) of the chip with its environment.",
-        "To protect intellectual property (IP) from unauthorized copying."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In computer architecture, what is the primary distinguishing characteristic of a Very Long Instruction Word (VLIW) processor compared to a superscalar processor?",
-      "options": [
-        "VLIW processors use a deep pipeline to increase instruction throughput.",
-        "VLIW processors rely on hardware-based dynamic scheduling to find instruction-level parallelism at runtime.",
-        "VLIW processors execute multiple operations in parallel based on explicit scheduling by the compiler.",
-        "VLIW processors only execute one instruction per clock cycle but at a very high frequency.",
-        "VLIW processors exclusively use an in-order execution model."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "As transistor dimensions continue to shrink into the nanometer regime (e.g., below 7nm), which fundamental quantum mechanical phenomenon increasingly contributes to leakage current and poses a significant challenge for circuit reliability and power consumption?",
-      "options": [
-        "Doppler effect.",
-        "Photoelectric effect.",
-        "Quantum tunneling.",
-        "Hall effect.",
-        "Thermionic emission."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In computer architecture, what is the primary distinction of 'memory-mapped I/O' compared to 'port-mapped I/O' (or isolated I/O)?",
-      "options": [
-        "Memory-mapped I/O uses a dedicated set of instructions for I/O operations, separate from memory access instructions.",
-        "Memory-mapped I/O devices share the same address space as main memory, allowing them to be accessed using standard memory load/store instructions.",
-        "Memory-mapped I/O requires a separate I/O bus, distinct from the system memory bus.",
-        "Memory-mapped I/O prevents direct memory access (DMA) by peripheral devices.",
-        "Memory-mapped I/O is exclusively used in Harvard architectures, while port-mapped I/O is used in Von Neumann architectures."
+        "To perform arithmetic operations like addition or multiplication.",
+        "To store a single bit of data for one clock cycle.",
+        "To convert parallel data into serial data.",
+        "To generate an oscillating clock signal.",
+        "To amplify the strength of a digital signal."
       ],
       "correct": 1
+    },
+    {
+      "question": "Which cache replacement policy prioritizes evicting the data block that has not been accessed for the longest period of time?",
+      "options": [
+        "First-In, First-Out (FIFO)",
+        "Least Recently Used (LRU)",
+        "Random Replacement (RR)",
+        "Most Recently Used (MRU)",
+        "Least Frequently Used (LFU)"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In digital integrated circuit design, which verification methodology aims to mathematically prove the functional correctness of a design against its specification, rather than relying on simulation of test cases?",
+      "options": [
+        "Regression testing",
+        "Hardware emulation",
+        "Formal Verification",
+        "Post-layout simulation",
+        "System-level performance modeling"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which statement accurately describes the relationship between a processor's Instruction Set Architecture (ISA) and its microarchitecture?",
+      "options": [
+        "The ISA is a specific hardware implementation, while the microarchitecture defines the software interface.",
+        "The microarchitecture is a set of instructions used by software, whereas the ISA is its hardware execution.",
+        "The ISA defines the functional contract between software and hardware (e.g., instructions, registers), while the microarchitecture is the specific internal hardware implementation that executes that ISA.",
+        "The ISA specifies transistor-level details, and the microarchitecture details the logical gate structure.",
+        "The microarchitecture is a superset of the ISA, including external communication protocols."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In advanced semiconductor manufacturing processes, particularly at nanometer scales (e.g., below 10nm), which physical phenomenon increasingly causes significant statistical variation in individual transistor characteristics (such as threshold voltage and leakage current) across a chip, impacting yield and performance predictability?",
+      "options": [
+        "Electromigration in metal interconnects",
+        "Interconnect resistance-capacitance (RC) delay",
+        "Random Dopant Fluctuations (RDF)",
+        "Hot Carrier Injection (HCI) degradation",
+        "Electrostatic Discharge (ESD) damage"
+      ],
+      "correct": 2
     }
   ]
 }
