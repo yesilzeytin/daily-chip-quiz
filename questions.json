@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is a primary advantage of CMOS technology in terms of power consumption during static operation (i.e., when not switching)?",
+      "question": "What does CMOS primarily stand for in the context of digital integrated circuits?",
       "options": [
-        "It consumes significantly less static power due to negligible leakage current in ideal conditions.",
-        "It enables extremely high switching speeds regardless of load capacitance.",
-        "It allows for dynamic voltage and frequency scaling to reduce peak power.",
-        "It requires a constant high current to maintain logic states, ensuring stability.",
-        "It generates very little heat, eliminating the need for cooling solutions."
+        "Complementary Metal-Oxide-Semiconductor",
+        "Central Memory Operation System",
+        "Current Mode Output Source",
+        "Charged Metal Oxide System",
+        "Capacitor Mode Operating Signal"
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary characteristic distinguishing Dynamic Random-Access Memory (DRAM) from Static Random-Access Memory (SRAM)?",
+      "question": "In sequential digital circuits, what fundamental timing constraint dictates the minimum time data must be stable at a flip-flop's input *before* the active clock edge?",
       "options": [
-        "SRAM is volatile, while DRAM is non-volatile.",
-        "DRAM is typically faster to access than SRAM.",
-        "SRAM requires periodic refreshing of its stored charge, while DRAM does not.",
-        "DRAM stores data using a capacitor and a transistor, requiring periodic refresh.",
-        "SRAM is primarily used for main memory, while DRAM is used for CPU cache."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of digital IC design verification, what is the primary purpose of using an FPGA-based 'emulation' platform?",
-      "options": [
-        "To perform detailed transistor-level simulations for analog characteristics.",
-        "To mathematically prove the functional correctness of a design without simulation.",
-        "To extract parasitic resistances and capacitances from the physical layout.",
-        "To enable early software development and validation on a hardware prototype before ASIC fabrication.",
-        "To conduct static timing analysis (STA) at extremely high clock frequencies."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a complex System-on-Chip (SoC) design, what is the primary advantage of employing a Network-on-Chip (NoC) architecture compared to traditional bus-based interconnects?",
-      "options": [
-        "Reduced power consumption at extremely low data bandwidths.",
-        "Guaranteed low latency for all communication regardless of network load.",
-        "Improved scalability and parallelism for communication between numerous IP blocks.",
-        "Simpler arbitration logic and reduced routing complexity.",
-        "Lower manufacturing cost due to fewer metal layers required."
+        "Hold Time",
+        "Propagation Delay",
+        "Setup Time",
+        "Clock-to-Q Delay",
+        "Transition Time"
       ],
       "correct": 2
     },
     {
-      "question": "In modern processor architectures, what is the primary mechanism by which Simultaneous Multi-threading (SMT), often referred to as Hyper-threading by Intel, aims to improve CPU utilization?",
+      "question": "In Application-Specific Integrated Circuit (ASIC) design, what is the primary benefit of using a 'standard cell' design methodology?",
       "options": [
-        "By dynamically increasing the clock frequency based on the workload demands.",
-        "By allowing multiple independent instructions from a single thread to execute concurrently.",
-        "By replicating entire processor cores on a single die to execute different threads in parallel.",
-        "By rapidly switching between different processes using a hardware-managed context switch mechanism.",
-        "By allowing multiple threads to share the same execution units concurrently, hiding latency caused by cache misses or data dependencies."
+        "Enables dynamic reconfiguration of logic at runtime.",
+        "Provides high flexibility for custom analog circuit integration.",
+        "Guarantees the lowest possible power consumption for all designs.",
+        "Accelerates design time and improves predictability by using pre-characterized logic blocks.",
+        "Eliminates the need for physical design verification steps."
       ],
-      "correct": 4
+      "correct": 3
+    },
+    {
+      "question": "In computer architecture, what is the primary role of a 'page table' within a virtual memory system?",
+      "options": [
+        "To store temporary data used by the CPU's arithmetic logic unit.",
+        "To manage the flow of instructions through the processor pipeline.",
+        "To translate virtual memory addresses generated by the CPU into physical memory addresses.",
+        "To cache recently used instructions for faster access.",
+        "To mediate communication between different CPU cores."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of Complex Instruction Set Computer (CISC) architectures, what is the primary function of 'microcode'?",
+      "options": [
+        "To optimize compiler performance by rearranging instruction order.",
+        "To implement complex instructions as a sequence of simpler, internal micro-operations.",
+        "To provide an interface between the CPU and external peripheral devices.",
+        "To store the operating system kernel for faster boot-up.",
+        "To detect and correct errors in memory accesses."
+      ],
+      "correct": 1
     }
   ]
 }

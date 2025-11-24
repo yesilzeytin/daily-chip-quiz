@@ -1,9 +1,4 @@
 [
-  "What is the fundamental purpose of an inverter (NOT gate) in digital logic?",
-  "In the context of computer architecture, what is the primary role of a 'superscalar' processor design?",
-  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'placement' step?",
-  "What is the key advantage of using a 'Register Renaming' technique in modern out-of-order execution processors?",
-  "In the context of asynchronous digital design, what is the primary concern that 'handshaking protocols' are designed to address?",
   "What is the primary purpose of a clock signal in synchronous digital circuits?",
   "In a pipelined processor, what is the primary goal of implementing branch prediction?",
   "What is the primary purpose of 'floorplanning' in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
@@ -48,5 +43,10 @@
   "What is the primary characteristic distinguishing Dynamic Random-Access Memory (DRAM) from Static Random-Access Memory (SRAM)?",
   "In the context of digital IC design verification, what is the primary purpose of using an FPGA-based 'emulation' platform?",
   "In a complex System-on-Chip (SoC) design, what is the primary advantage of employing a Network-on-Chip (NoC) architecture compared to traditional bus-based interconnects?",
-  "In modern processor architectures, what is the primary mechanism by which Simultaneous Multi-threading (SMT), often referred to as Hyper-threading by Intel, aims to improve CPU utilization?"
+  "In modern processor architectures, what is the primary mechanism by which Simultaneous Multi-threading (SMT), often referred to as Hyper-threading by Intel, aims to improve CPU utilization?",
+  "What does CMOS primarily stand for in the context of digital integrated circuits?",
+  "In sequential digital circuits, what fundamental timing constraint dictates the minimum time data must be stable at a flip-flop's input *before* the active clock edge?",
+  "In Application-Specific Integrated Circuit (ASIC) design, what is the primary benefit of using a 'standard cell' design methodology?",
+  "In computer architecture, what is the primary role of a 'page table' within a virtual memory system?",
+  "In the context of Complex Instruction Set Computer (CISC) architectures, what is the primary function of 'microcode'?"
 ]
