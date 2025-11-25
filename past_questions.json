@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a clock signal in synchronous digital circuits?",
-  "In a pipelined processor, what is the primary goal of implementing branch prediction?",
-  "What is the primary purpose of 'floorplanning' in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
-  "In a cache-coherent multi-core processor, which mechanism is primarily responsible for ensuring that a stale copy of a data block in one core's cache is invalidated when another core modifies its own cached copy of the same data?",
-  "In System-on-Chip (SoC) designs, particularly for memory arrays or communication links, what is the primary motivation for implementing Error-Correcting Codes (ECC)?",
   "In digital circuit design, what does RTL primarily stand for?",
   "What is the primary purpose of Static Timing Analysis (STA) in the digital IC design flow?",
   "Amdahl's Law in computer architecture primarily describes which of the following?",
@@ -48,5 +43,10 @@
   "In sequential digital circuits, what fundamental timing constraint dictates the minimum time data must be stable at a flip-flop's input *before* the active clock edge?",
   "In Application-Specific Integrated Circuit (ASIC) design, what is the primary benefit of using a 'standard cell' design methodology?",
   "In computer architecture, what is the primary role of a 'page table' within a virtual memory system?",
-  "In the context of Complex Instruction Set Computer (CISC) architectures, what is the primary function of 'microcode'?"
+  "In the context of Complex Instruction Set Computer (CISC) architectures, what is the primary function of 'microcode'?",
+  "In a cache memory system, which write policy dictates that data is primarily updated only in the cache, and writes to main memory are delayed until the cache block is evicted or explicitly flushed?",
+  "During the physical design phase of an integrated circuit, which phenomenon arises when routing multiple signal wires in close proximity, leading to unwanted capacitive coupling and interference between adjacent traces, potentially causing signal integrity issues?",
+  "Which fundamental digital logic gate produces a HIGH output (logic 1) if and only if its two inputs are different?",
+  "In modern superscalar processors employing out-of-order execution, what is the primary architectural mechanism that allows the processor to dispatch and execute instructions when their operands are ready, even if they appear later in the program sequence, thereby improving instruction-level parallelism?",
+  "In advanced functional verification of complex System-on-Chip (SoC) designs, which methodology uses pseudo-random stimulus generation guided by a set of user-defined rules and constraints to explore a wide range of operational scenarios and uncover corner-case bugs more efficiently than directed tests?"
 ]
