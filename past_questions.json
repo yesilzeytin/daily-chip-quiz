@@ -1,9 +1,4 @@
 [
-  "In digital circuit design, what does RTL primarily stand for?",
-  "What is the primary purpose of Static Timing Analysis (STA) in the digital IC design flow?",
-  "Amdahl's Law in computer architecture primarily describes which of the following?",
-  "In advanced semiconductor manufacturing, what is the primary goal of employing Design for Manufacturability (DFM) techniques?",
-  "In the context of computer architecture and cache memory, what does the 'principle of locality' primarily refer to?",
   "What is a fundamental property of a PMOS transistor when a low voltage (e.g., 0V) is applied to its gate, assuming it's part of a standard CMOS logic gate?",
   "What is the primary advantage of using a hardware description language (HDL) like Verilog or VHDL over schematic capture for complex digital designs?",
   "Which type of parallelism is primarily exploited by a Single Instruction, Multiple Data (SIMD) architecture in a processor?",
@@ -48,5 +43,10 @@
   "During the physical design phase of an integrated circuit, which phenomenon arises when routing multiple signal wires in close proximity, leading to unwanted capacitive coupling and interference between adjacent traces, potentially causing signal integrity issues?",
   "Which fundamental digital logic gate produces a HIGH output (logic 1) if and only if its two inputs are different?",
   "In modern superscalar processors employing out-of-order execution, what is the primary architectural mechanism that allows the processor to dispatch and execute instructions when their operands are ready, even if they appear later in the program sequence, thereby improving instruction-level parallelism?",
-  "In advanced functional verification of complex System-on-Chip (SoC) designs, which methodology uses pseudo-random stimulus generation guided by a set of user-defined rules and constraints to explore a wide range of operational scenarios and uncover corner-case bugs more efficiently than directed tests?"
+  "In advanced functional verification of complex System-on-Chip (SoC) designs, which methodology uses pseudo-random stimulus generation guided by a set of user-defined rules and constraints to explore a wide range of operational scenarios and uncover corner-case bugs more efficiently than directed tests?",
+  "Which two fundamental logic gates are considered 'universal gates' because any other Boolean function can be implemented solely using multiple instances of one type of these gates?",
+  "In a pipelined processor, what is a 'control hazard' (also known as a branch hazard)?",
+  "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
+  "After synthesis, the gate-level netlist needs to be verified against the original Register Transfer Level (RTL) design. Which formal verification technique is primarily used to mathematically prove that these two representations are functionally identical?",
+  "In a multi-core processor system using a cache coherence protocol, what additional state does the MOESI protocol introduce compared to the MESI protocol, and what is its primary benefit?"
 ]

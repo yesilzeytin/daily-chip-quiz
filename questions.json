@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In a cache memory system, which write policy dictates that data is primarily updated only in the cache, and writes to main memory are delayed until the cache block is evicted or explicitly flushed?",
+      "question": "Which two fundamental logic gates are considered 'universal gates' because any other Boolean function can be implemented solely using multiple instances of one type of these gates?",
       "options": [
-        "Write-Through",
-        "Write-Allocate",
-        "No-Write-Allocate",
-        "Write-Back",
-        "Cache-Bypass"
+        "NAND and NOR gates",
+        "AND and OR gates",
+        "XOR and XNOR gates",
+        "NOT and BUFFER gates",
+        "Multiplexer (MUX) and Demultiplexer (DEMUX)"
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "During the physical design phase of an integrated circuit, which phenomenon arises when routing multiple signal wires in close proximity, leading to unwanted capacitive coupling and interference between adjacent traces, potentially causing signal integrity issues?",
+      "question": "In a pipelined processor, what is a 'control hazard' (also known as a branch hazard)?",
       "options": [
-        "Electrostatic Discharge (ESD)",
-        "Electromigration (EM)",
-        "Crosstalk",
-        "Thermal Runaway",
-        "Latch-up"
+        "It occurs when the processor cannot determine the next instruction to fetch until a branch instruction has been executed and its target address is known.",
+        "It happens when two instructions require the same functional unit at the same time.",
+        "It describes a situation where an instruction tries to read a register before a previous instruction has written to it.",
+        "It refers to an error in the memory hierarchy causing a cache miss that significantly delays data access.",
+        "It is a power consumption issue caused by excessive switching activity in the control path."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
+      "options": [
+        "To ensure proper synchronization between different clock domains across the chip.",
+        "To dynamically adjust the operating voltage and clock frequency of different functional blocks to optimize power consumption and performance based on workload demands.",
+        "To improve the signal integrity of high-speed interconnects by reducing noise and crosstalk.",
+        "To provide a fault-tolerant mechanism against transient errors in logic gates.",
+        "To mathematically verify the logical equivalence between different design representations."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "After synthesis, the gate-level netlist needs to be verified against the original Register Transfer Level (RTL) design. Which formal verification technique is primarily used to mathematically prove that these two representations are functionally identical?",
+      "options": [
+        "Static Timing Analysis (STA)",
+        "Logic Simulation",
+        "Formal Equivalence Checking (LEC)",
+        "Design Rule Checking (DRC)",
+        "Functional Coverage"
       ],
       "correct": 2
     },
     {
-      "question": "Which fundamental digital logic gate produces a HIGH output (logic 1) if and only if its two inputs are different?",
+      "question": "In a multi-core processor system using a cache coherence protocol, what additional state does the MOESI protocol introduce compared to the MESI protocol, and what is its primary benefit?",
       "options": [
-        "AND gate",
-        "OR gate",
-        "NAND gate",
-        "NOR gate",
-        "XOR gate"
-      ],
-      "correct": 4
-    },
-    {
-      "question": "In modern superscalar processors employing out-of-order execution, what is the primary architectural mechanism that allows the processor to dispatch and execute instructions when their operands are ready, even if they appear later in the program sequence, thereby improving instruction-level parallelism?",
-      "options": [
-        "Pipeline Flushing",
-        "Branch Prediction Unit",
-        "Instruction Cache",
-        "Reservation Stations",
-        "Memory Management Unit"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In advanced functional verification of complex System-on-Chip (SoC) designs, which methodology uses pseudo-random stimulus generation guided by a set of user-defined rules and constraints to explore a wide range of operational scenarios and uncover corner-case bugs more efficiently than directed tests?",
-      "options": [
-        "Static Timing Analysis (STA)",
-        "Layout Versus Schematic (LVS)",
-        "Power Integrity Analysis (PIA)",
-        "Constrained Random Verification (CRV)",
-        "Formal Equivalence Checking (FEC)"
+        "The 'Exclusive' (E) state, which allows a cache block to be written without notifying other caches.",
+        "The 'Invalid' (I) state, which marks a cache block as outdated and needing re-fetch from main memory.",
+        "The 'Shared' (S) state, which indicates that the block is present in multiple caches and matches main memory.",
+        "The 'Owned' (O) state, which indicates that a cache block is modified and is the only copy in any cache, but *can* be shared directly with other caches without writing back to main memory first.",
+        "The 'Modified' (M) state, which denotes a cache block that has been changed and is inconsistent with main memory."
       ],
       "correct": 3
     }
