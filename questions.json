@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which two fundamental logic gates are considered 'universal gates' because any other Boolean function can be implemented solely using multiple instances of one type of these gates?",
+      "question": "What does Moore's Law primarily predict about integrated circuits?",
       "options": [
-        "NAND and NOR gates",
-        "AND and OR gates",
-        "XOR and XNOR gates",
-        "NOT and BUFFER gates",
-        "Multiplexer (MUX) and Demultiplexer (DEMUX)"
+        "The number of transistors on an integrated circuit doubles approximately every two years.",
+        "The speed of a processor doubles every 18 months.",
+        "The cost of manufacturing integrated circuits halves every decade.",
+        "The power consumption of integrated circuits remains constant regardless of complexity.",
+        "The physical size of chips increases linearly with computational power."
       ],
       "correct": 0
     },
     {
-      "question": "In a pipelined processor, what is a 'control hazard' (also known as a branch hazard)?",
+      "question": "In digital IC physical design, what is the primary purpose of 'floorplanning'?",
       "options": [
-        "It occurs when the processor cannot determine the next instruction to fetch until a branch instruction has been executed and its target address is known.",
-        "It happens when two instructions require the same functional unit at the same time.",
-        "It describes a situation where an instruction tries to read a register before a previous instruction has written to it.",
-        "It refers to an error in the memory hierarchy causing a cache miss that significantly delays data access.",
-        "It is a power consumption issue caused by excessive switching activity in the control path."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
-      "options": [
-        "To ensure proper synchronization between different clock domains across the chip.",
-        "To dynamically adjust the operating voltage and clock frequency of different functional blocks to optimize power consumption and performance based on workload demands.",
-        "To improve the signal integrity of high-speed interconnects by reducing noise and crosstalk.",
-        "To provide a fault-tolerant mechanism against transient errors in logic gates.",
-        "To mathematically verify the logical equivalence between different design representations."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "After synthesis, the gate-level netlist needs to be verified against the original Register Transfer Level (RTL) design. Which formal verification technique is primarily used to mathematically prove that these two representations are functionally identical?",
-      "options": [
-        "Static Timing Analysis (STA)",
-        "Logic Simulation",
-        "Formal Equivalence Checking (LEC)",
-        "Design Rule Checking (DRC)",
-        "Functional Coverage"
+        "To verify the electrical correctness of the layout against the schematic.",
+        "To place standard cells and routing within pre-defined block boundaries.",
+        "To determine the optimal placement of major functional blocks (e.g., CPU, memory, I/O) and their interconnections on the chip area.",
+        "To optimize the clock distribution network for minimal skew and delay.",
+        "To generate a detailed netlist from the Register Transfer Level (RTL) code."
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-core processor system using a cache coherence protocol, what additional state does the MOESI protocol introduce compared to the MESI protocol, and what is its primary benefit?",
+      "question": "What is the main architectural goal of employing Instruction-Level Parallelism (ILP) techniques in a processor?",
       "options": [
-        "The 'Exclusive' (E) state, which allows a cache block to be written without notifying other caches.",
-        "The 'Invalid' (I) state, which marks a cache block as outdated and needing re-fetch from main memory.",
-        "The 'Shared' (S) state, which indicates that the block is present in multiple caches and matches main memory.",
-        "The 'Owned' (O) state, which indicates that a cache block is modified and is the only copy in any cache, but *can* be shared directly with other caches without writing back to main memory first.",
-        "The 'Modified' (M) state, which denotes a cache block that has been changed and is inconsistent with main memory."
+        "To reduce the total power consumption of the processor by shutting down idle units.",
+        "To improve system security by isolating different instruction streams.",
+        "To maximize the number of instructions executed per clock cycle (IPC) by overlapping instruction execution.",
+        "To simplify the instruction set architecture, making it easier for compilers.",
+        "To enable multiple processors to share a single memory bus more efficiently."
       ],
-      "correct": 3
+      "correct": 2
+    },
+    {
+      "question": "In modern out-of-order superscalar processors, what is the primary role of a Reorder Buffer (ROB)?",
+      "options": [
+        "To store instructions that are currently waiting for their operands to become available.",
+        "To pre-fetch data from memory into the cache before it is explicitly requested by an instruction.",
+        "To ensure that instructions complete and commit their results in program order, even if they executed out of order, and to handle precise exceptions.",
+        "To manage the allocation and deallocation of physical registers for register renaming.",
+        "To translate virtual memory addresses to physical memory addresses."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary advantage of employing asynchronous design methodologies over synchronous design, particularly for very high-speed or ultra-low-power applications?",
+      "options": [
+        "Simpler verification due to the absence of timing closure issues.",
+        "Immunity to power supply variations, making circuits more robust.",
+        "Elimination of global clock distribution networks, leading to reduced power consumption and potentially higher operating speeds without clock skew constraints.",
+        "Automatic optimization of logic gates for minimal area without designer intervention.",
+        "Easier integration with existing synchronous IP blocks."
+      ],
+      "correct": 2
     }
   ]
 }

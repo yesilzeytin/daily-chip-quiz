@@ -1,9 +1,4 @@
 [
-  "What is a fundamental property of a PMOS transistor when a low voltage (e.g., 0V) is applied to its gate, assuming it's part of a standard CMOS logic gate?",
-  "What is the primary advantage of using a hardware description language (HDL) like Verilog or VHDL over schematic capture for complex digital designs?",
-  "Which type of parallelism is primarily exploited by a Single Instruction, Multiple Data (SIMD) architecture in a processor?",
-  "In the semiconductor manufacturing process, what is the primary purpose of Chemical Mechanical Planarization (CMP)?",
-  "In modern CPU architectures, what is the primary functional role of the Memory Management Unit (MMU)?",
   "In digital logic design, what does 'fan-out' primarily refer to?",
   "What is the primary purpose of Layout Versus Schematic (LVS) verification in the digital IC design flow?",
   "In the MESI cache coherence protocol, what does the 'Shared' (S) state of a cache block primarily indicate?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, what is a 'control hazard' (also known as a branch hazard)?",
   "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
   "After synthesis, the gate-level netlist needs to be verified against the original Register Transfer Level (RTL) design. Which formal verification technique is primarily used to mathematically prove that these two representations are functionally identical?",
-  "In a multi-core processor system using a cache coherence protocol, what additional state does the MOESI protocol introduce compared to the MESI protocol, and what is its primary benefit?"
+  "In a multi-core processor system using a cache coherence protocol, what additional state does the MOESI protocol introduce compared to the MESI protocol, and what is its primary benefit?",
+  "What does Moore's Law primarily predict about integrated circuits?",
+  "In digital IC physical design, what is the primary purpose of 'floorplanning'?",
+  "What is the main architectural goal of employing Instruction-Level Parallelism (ILP) techniques in a processor?",
+  "In modern out-of-order superscalar processors, what is the primary role of a Reorder Buffer (ROB)?",
+  "What is the primary advantage of employing asynchronous design methodologies over synchronous design, particularly for very high-speed or ultra-low-power applications?"
 ]
