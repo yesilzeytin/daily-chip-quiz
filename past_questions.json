@@ -1,9 +1,4 @@
 [
-  "In digital logic design, what does 'fan-out' primarily refer to?",
-  "What is the primary purpose of Layout Versus Schematic (LVS) verification in the digital IC design flow?",
-  "In the MESI cache coherence protocol, what does the 'Shared' (S) state of a cache block primarily indicate?",
-  "In the physical design flow of a digital integrated circuit, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "In a typical Von Neumann or Harvard architecture CPU, what is the primary function of the Program Counter (PC)?",
   "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
   "In digital IC design, what is the primary purpose of incorporating Design for Testability (DFT) techniques?",
   "In the context of cache memory, which write policy immediately updates both the cache and the main memory upon a write operation?",
@@ -48,5 +43,10 @@
   "In digital IC physical design, what is the primary purpose of 'floorplanning'?",
   "What is the main architectural goal of employing Instruction-Level Parallelism (ILP) techniques in a processor?",
   "In modern out-of-order superscalar processors, what is the primary role of a Reorder Buffer (ROB)?",
-  "What is the primary advantage of employing asynchronous design methodologies over synchronous design, particularly for very high-speed or ultra-low-power applications?"
+  "What is the primary advantage of employing asynchronous design methodologies over synchronous design, particularly for very high-speed or ultra-low-power applications?",
+  "What is the primary purpose of a \"Netlist\" in digital IC design?",
+  "In a pipelined processor, what is the primary purpose of \"branch prediction\"?",
+  "Which of the following best describes the primary role of \"synthesis\" in the digital IC design flow?",
+  "In post-layout timing analysis, what is the significance of \"On-Chip Variation (OCV)\"?",
+  "What is the primary function of a \"Reservation Station\" in a modern out-of-order execution processor?"
 ]

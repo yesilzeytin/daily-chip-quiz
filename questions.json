@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does Moore's Law primarily predict about integrated circuits?",
+      "question": "What is the primary purpose of a \"Netlist\" in digital IC design?",
       "options": [
-        "The number of transistors on an integrated circuit doubles approximately every two years.",
-        "The speed of a processor doubles every 18 months.",
-        "The cost of manufacturing integrated circuits halves every decade.",
-        "The power consumption of integrated circuits remains constant regardless of complexity.",
-        "The physical size of chips increases linearly with computational power."
+        "To specify the physical layout geometry of transistors on the silicon die.",
+        "To describe the interconnections between logical components (e.g., gates, flip-flops) and their ports.",
+        "To define the precise timing constraints and clock frequencies for the entire design.",
+        "To generate the automated test patterns for manufacturing defect detection.",
+        "To store the original Register Transfer Level (RTL) behavioral description."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In digital IC physical design, what is the primary purpose of 'floorplanning'?",
+      "question": "In a pipelined processor, what is the primary purpose of \"branch prediction\"?",
       "options": [
-        "To verify the electrical correctness of the layout against the schematic.",
-        "To place standard cells and routing within pre-defined block boundaries.",
-        "To determine the optimal placement of major functional blocks (e.g., CPU, memory, I/O) and their interconnections on the chip area.",
-        "To optimize the clock distribution network for minimal skew and delay.",
-        "To generate a detailed netlist from the Register Transfer Level (RTL) code."
+        "To reduce the overall number of instructions that need to be executed by the program.",
+        "To predict the outcome of complex arithmetic operations to accelerate data path computations.",
+        "To guess the target address or outcome of conditional branch instructions to avoid pipeline stalls.",
+        "To determine the most efficient memory access patterns for better cache utilization.",
+        "To prioritize which instructions should be dispatched to execution units in a superscalar processor."
       ],
       "correct": 2
     },
     {
-      "question": "What is the main architectural goal of employing Instruction-Level Parallelism (ILP) techniques in a processor?",
+      "question": "Which of the following best describes the primary role of \"synthesis\" in the digital IC design flow?",
       "options": [
-        "To reduce the total power consumption of the processor by shutting down idle units.",
-        "To improve system security by isolating different instruction streams.",
-        "To maximize the number of instructions executed per clock cycle (IPC) by overlapping instruction execution.",
-        "To simplify the instruction set architecture, making it easier for compilers.",
-        "To enable multiple processors to share a single memory bus more efficiently."
+        "The process of verifying the design's functional correctness through extensive simulation.",
+        "The translation of a high-level Register Transfer Level (RTL) description into an optimized gate-level netlist.",
+        "The step where the gate-level netlist is mapped to a physical layout on the silicon die.",
+        "The analysis of the circuit's power consumption and thermal characteristics.",
+        "The generation of test vectors for Design for Testability (DFT) implementation."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In post-layout timing analysis, what is the significance of \"On-Chip Variation (OCV)\"?",
+      "options": [
+        "It refers to the statistical distribution of different memory types (e.g., SRAM, DRAM) used on a single chip.",
+        "It quantifies the dynamic power fluctuations across various functional blocks within the SoC.",
+        "It models the statistical variations in gate delays and interconnect delays due to manufacturing process variations, temperature, and voltage gradients across the chip, impacting timing closure.",
+        "It describes the capability of a chip to operate at different clock frequencies based on performance requirements.",
+        "It aims to equalize the signal propagation delays for all critical paths across the chip."
       ],
       "correct": 2
     },
     {
-      "question": "In modern out-of-order superscalar processors, what is the primary role of a Reorder Buffer (ROB)?",
+      "question": "What is the primary function of a \"Reservation Station\" in a modern out-of-order execution processor?",
       "options": [
-        "To store instructions that are currently waiting for their operands to become available.",
-        "To pre-fetch data from memory into the cache before it is explicitly requested by an instruction.",
-        "To ensure that instructions complete and commit their results in program order, even if they executed out of order, and to handle precise exceptions.",
-        "To manage the allocation and deallocation of physical registers for register renaming.",
-        "To translate virtual memory addresses to physical memory addresses."
+        "To store the results of instructions that have completed execution but are waiting to be committed to architectural state.",
+        "To hold instructions whose operands are not yet available, awaiting their readiness before dispatching them to an execution unit.",
+        "To reorder instructions back into their original program order for precise exception handling and retirement.",
+        "To manage the mapping between logical registers specified by the ISA and physical registers in the processor's register file.",
+        "To cache frequently accessed instruction sequences to reduce instruction fetch latency."
       ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary advantage of employing asynchronous design methodologies over synchronous design, particularly for very high-speed or ultra-low-power applications?",
-      "options": [
-        "Simpler verification due to the absence of timing closure issues.",
-        "Immunity to power supply variations, making circuits more robust.",
-        "Elimination of global clock distribution networks, leading to reduced power consumption and potentially higher operating speeds without clock skew constraints.",
-        "Automatic optimization of logic gates for minimal area without designer intervention.",
-        "Easier integration with existing synchronous IP blocks."
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
