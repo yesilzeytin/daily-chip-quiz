@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
-  "In digital IC design, what is the primary purpose of incorporating Design for Testability (DFT) techniques?",
-  "In the context of cache memory, which write policy immediately updates both the cache and the main memory upon a write operation?",
-  "What is the primary concern that Clock Domain Crossing (CDC) verification aims to address in complex System-on-Chip (SoC) designs?",
-  "What is the defining characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
   "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
   "In the context of digital IC design verification, what is the main purpose of a 'testbench'?",
   "In a pipelined processor, what is a 'data hazard'?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, what is the primary purpose of \"branch prediction\"?",
   "Which of the following best describes the primary role of \"synthesis\" in the digital IC design flow?",
   "In post-layout timing analysis, what is the significance of \"On-Chip Variation (OCV)\"?",
-  "What is the primary function of a \"Reservation Station\" in a modern out-of-order execution processor?"
+  "What is the primary function of a \"Reservation Station\" in a modern out-of-order execution processor?",
+  "What is the primary purpose of a \"photomask\" (or reticle) in semiconductor manufacturing?",
+  "What does \"clock skew\" primarily refer to in synchronous digital circuits, and why is it a significant concern?",
+  "In a multi-processor system, which memory consistency model generally allows a processor to read its own previously written value immediately, but delays the visibility of writes from other processors until explicit synchronization points, offering a trade-off for improved performance?",
+  "Beyond Dynamic Voltage and Frequency Scaling (DVFS), which common low-power design technique involves selectively disabling the clock signal to inactive portions of a circuit or module to reduce dynamic power consumption?",
+  "In the context of a processor's instruction set architecture (ISA), which category of instructions is primarily responsible for moving data between registers and memory (e.g., LOAD and STORE operations)?"
 ]

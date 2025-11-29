@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a \"Netlist\" in digital IC design?",
+      "question": "What is the primary purpose of a \"photomask\" (or reticle) in semiconductor manufacturing?",
       "options": [
-        "To specify the physical layout geometry of transistors on the silicon die.",
-        "To describe the interconnections between logical components (e.g., gates, flip-flops) and their ports.",
-        "To define the precise timing constraints and clock frequencies for the entire design.",
-        "To generate the automated test patterns for manufacturing defect detection.",
-        "To store the original Register Transfer Level (RTL) behavioral description."
+        "To filter impurities from the silicon wafer before processing.",
+        "To selectively block or transmit UV light patterns onto a photoresist-coated wafer during lithography.",
+        "To store the design layout data for the entire chip in a digital format.",
+        "To apply the metal interconnect layers on the chip through a deposition process.",
+        "To cool the wafer rapidly during the etching process to prevent damage."
       ],
       "correct": 1
     },
     {
-      "question": "In a pipelined processor, what is the primary purpose of \"branch prediction\"?",
+      "question": "What does \"clock skew\" primarily refer to in synchronous digital circuits, and why is it a significant concern?",
       "options": [
-        "To reduce the overall number of instructions that need to be executed by the program.",
-        "To predict the outcome of complex arithmetic operations to accelerate data path computations.",
-        "To guess the target address or outcome of conditional branch instructions to avoid pipeline stalls.",
-        "To determine the most efficient memory access patterns for better cache utilization.",
-        "To prioritize which instructions should be dispatched to execution units in a superscalar processor."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following best describes the primary role of \"synthesis\" in the digital IC design flow?",
-      "options": [
-        "The process of verifying the design's functional correctness through extensive simulation.",
-        "The translation of a high-level Register Transfer Level (RTL) description into an optimized gate-level netlist.",
-        "The step where the gate-level netlist is mapped to a physical layout on the silicon die.",
-        "The analysis of the circuit's power consumption and thermal characteristics.",
-        "The generation of test vectors for Design for Testability (DFT) implementation."
+        "It is the intentional variation in the frequency of the clock signal to reduce power consumption.",
+        "It is the difference in arrival times of a single clock edge at different sequential elements (e.g., flip-flops) across the chip, which can lead to setup or hold time violations.",
+        "It describes the degradation of the clock signal's waveform due to noise, potentially causing false triggering of logic gates.",
+        "It refers to the maximum tolerable clock frequency for a given design before it becomes unstable.",
+        "It is the measure of how much the clock signal is delayed by buffers in the clock distribution network, impacting overall performance."
       ],
       "correct": 1
     },
     {
-      "question": "In post-layout timing analysis, what is the significance of \"On-Chip Variation (OCV)\"?",
+      "question": "In a multi-processor system, which memory consistency model generally allows a processor to read its own previously written value immediately, but delays the visibility of writes from other processors until explicit synchronization points, offering a trade-off for improved performance?",
       "options": [
-        "It refers to the statistical distribution of different memory types (e.g., SRAM, DRAM) used on a single chip.",
-        "It quantifies the dynamic power fluctuations across various functional blocks within the SoC.",
-        "It models the statistical variations in gate delays and interconnect delays due to manufacturing process variations, temperature, and voltage gradients across the chip, impacting timing closure.",
-        "It describes the capability of a chip to operate at different clock frequencies based on performance requirements.",
-        "It aims to equalize the signal propagation delays for all critical paths across the chip."
+        "Sequential Consistency",
+        "Strong Consistency",
+        "Atomic Consistency",
+        "Relaxed Consistency (e.g., Release Consistency, Processor Consistency)",
+        "Write-Ordered Consistency"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "What is the primary function of a \"Reservation Station\" in a modern out-of-order execution processor?",
+      "question": "Beyond Dynamic Voltage and Frequency Scaling (DVFS), which common low-power design technique involves selectively disabling the clock signal to inactive portions of a circuit or module to reduce dynamic power consumption?",
       "options": [
-        "To store the results of instructions that have completed execution but are waiting to be committed to architectural state.",
-        "To hold instructions whose operands are not yet available, awaiting their readiness before dispatching them to an execution unit.",
-        "To reorder instructions back into their original program order for precise exception handling and retirement.",
-        "To manage the mapping between logical registers specified by the ISA and physical registers in the processor's register file.",
-        "To cache frequently accessed instruction sequences to reduce instruction fetch latency."
+        "Power Gating",
+        "Body Biasing",
+        "Voltage Islands",
+        "Clock Gating",
+        "Threshold Voltage Scaling"
       ],
-      "correct": 1
+      "correct": 3
+    },
+    {
+      "question": "In the context of a processor's instruction set architecture (ISA), which category of instructions is primarily responsible for moving data between registers and memory (e.g., LOAD and STORE operations)?",
+      "options": [
+        "Arithmetic Instructions",
+        "Logical Instructions",
+        "Control Flow Instructions",
+        "Data Transfer Instructions",
+        "Bit Manipulation Instructions"
+      ],
+      "correct": 3
     }
   ]
 }
