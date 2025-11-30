@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
-  "In the context of digital IC design verification, what is the main purpose of a 'testbench'?",
-  "In a pipelined processor, what is a 'data hazard'?",
-  "In advanced functional verification of complex System-on-Chip (SoC) designs, what does 'functional coverage' primarily aim to measure?",
-  "What is the primary role of a 'register file' in a CPU's datapath?",
   "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
   "In digital IC design, what is the primary purpose of incorporating 'scan chains' into a circuit?",
   "In computer architecture, what is the primary distinguishing characteristic of a Very Long Instruction Word (VLIW) processor compared to a superscalar processor?",
@@ -48,5 +43,10 @@
   "What does \"clock skew\" primarily refer to in synchronous digital circuits, and why is it a significant concern?",
   "In a multi-processor system, which memory consistency model generally allows a processor to read its own previously written value immediately, but delays the visibility of writes from other processors until explicit synchronization points, offering a trade-off for improved performance?",
   "Beyond Dynamic Voltage and Frequency Scaling (DVFS), which common low-power design technique involves selectively disabling the clock signal to inactive portions of a circuit or module to reduce dynamic power consumption?",
-  "In the context of a processor's instruction set architecture (ISA), which category of instructions is primarily responsible for moving data between registers and memory (e.g., LOAD and STORE operations)?"
+  "In the context of a processor's instruction set architecture (ISA), which category of instructions is primarily responsible for moving data between registers and memory (e.g., LOAD and STORE operations)?",
+  "Which of the following describes the process of converting a high-level Register Transfer Level (RTL) description (e.g., written in VHDL or Verilog) into a gate-level netlist composed of standard logic cells?",
+  "In synchronous digital circuits, what specific condition arises when a flip-flop's input signal changes too close to the clock edge, leading to an indeterminate output state that can take an unusually long time to settle?",
+  "In a processor's memory hierarchy, what is the primary role of the Translation Lookaside Buffer (TLB)?",
+  "What is the primary objective of 'power gating' as a low-power design technique in digital integrated circuits?",
+  "In advanced superscalar processors, which architectural component is responsible for holding instructions after they are decoded, waiting for their operands to become available before dispatching them for execution to appropriate functional units, enabling out-of-order execution?"
 ]

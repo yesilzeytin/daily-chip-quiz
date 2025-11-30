@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a \"photomask\" (or reticle) in semiconductor manufacturing?",
+      "question": "Which of the following describes the process of converting a high-level Register Transfer Level (RTL) description (e.g., written in VHDL or Verilog) into a gate-level netlist composed of standard logic cells?",
       "options": [
-        "To filter impurities from the silicon wafer before processing.",
-        "To selectively block or transmit UV light patterns onto a photoresist-coated wafer during lithography.",
-        "To store the design layout data for the entire chip in a digital format.",
-        "To apply the metal interconnect layers on the chip through a deposition process.",
-        "To cool the wafer rapidly during the etching process to prevent damage."
+        "Floorplanning",
+        "Synthesis",
+        "Place and Route",
+        "Static Timing Analysis",
+        "Design Rule Checking"
       ],
       "correct": 1
     },
     {
-      "question": "What does \"clock skew\" primarily refer to in synchronous digital circuits, and why is it a significant concern?",
+      "question": "In synchronous digital circuits, what specific condition arises when a flip-flop's input signal changes too close to the clock edge, leading to an indeterminate output state that can take an unusually long time to settle?",
       "options": [
-        "It is the intentional variation in the frequency of the clock signal to reduce power consumption.",
-        "It is the difference in arrival times of a single clock edge at different sequential elements (e.g., flip-flops) across the chip, which can lead to setup or hold time violations.",
-        "It describes the degradation of the clock signal's waveform due to noise, potentially causing false triggering of logic gates.",
-        "It refers to the maximum tolerable clock frequency for a given design before it becomes unstable.",
-        "It is the measure of how much the clock signal is delayed by buffers in the clock distribution network, impacting overall performance."
+        "Clock Skew",
+        "Metastability",
+        "Glitches",
+        "Race Condition",
+        "Hold Time Violation"
       ],
       "correct": 1
     },
     {
-      "question": "In a multi-processor system, which memory consistency model generally allows a processor to read its own previously written value immediately, but delays the visibility of writes from other processors until explicit synchronization points, offering a trade-off for improved performance?",
+      "question": "In a processor's memory hierarchy, what is the primary role of the Translation Lookaside Buffer (TLB)?",
       "options": [
-        "Sequential Consistency",
-        "Strong Consistency",
-        "Atomic Consistency",
-        "Relaxed Consistency (e.g., Release Consistency, Processor Consistency)",
-        "Write-Ordered Consistency"
+        "To store frequently used program instructions for faster fetching.",
+        "To cache frequently accessed entries from the page table for faster virtual-to-physical address translation.",
+        "To buffer data between the CPU's registers and the L1 cache.",
+        "To manage direct memory access (DMA) requests from I/O devices.",
+        "To store the results of recent arithmetic and logic operations."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "Beyond Dynamic Voltage and Frequency Scaling (DVFS), which common low-power design technique involves selectively disabling the clock signal to inactive portions of a circuit or module to reduce dynamic power consumption?",
+      "question": "What is the primary objective of 'power gating' as a low-power design technique in digital integrated circuits?",
       "options": [
-        "Power Gating",
-        "Body Biasing",
-        "Voltage Islands",
-        "Clock Gating",
-        "Threshold Voltage Scaling"
+        "To reduce dynamic power consumption by disabling clock signals to inactive blocks.",
+        "To minimize static power consumption by selectively cutting off the power supply to idle circuit blocks.",
+        "To decrease the operating voltage of the entire chip dynamically based on workload.",
+        "To optimize the physical layout for reduced routing congestion, thereby lowering interconnect capacitance.",
+        "To prevent thermal runaway by activating cooling mechanisms on the chip surface."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "In the context of a processor's instruction set architecture (ISA), which category of instructions is primarily responsible for moving data between registers and memory (e.g., LOAD and STORE operations)?",
+      "question": "In advanced superscalar processors, which architectural component is responsible for holding instructions after they are decoded, waiting for their operands to become available before dispatching them for execution to appropriate functional units, enabling out-of-order execution?",
       "options": [
-        "Arithmetic Instructions",
-        "Logical Instructions",
-        "Control Flow Instructions",
-        "Data Transfer Instructions",
-        "Bit Manipulation Instructions"
+        "Program Counter (PC)",
+        "Instruction Cache",
+        "Reservation Stations",
+        "Reorder Buffer (ROB)",
+        "Register File"
       ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }
