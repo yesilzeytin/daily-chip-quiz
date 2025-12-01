@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
-  "In digital IC design, what is the primary purpose of incorporating 'scan chains' into a circuit?",
-  "In computer architecture, what is the primary distinguishing characteristic of a Very Long Instruction Word (VLIW) processor compared to a superscalar processor?",
-  "As transistor dimensions continue to shrink into the nanometer regime (e.g., below 7nm), which fundamental quantum mechanical phenomenon increasingly contributes to leakage current and poses a significant challenge for circuit reliability and power consumption?",
-  "In computer architecture, what is the primary distinction of 'memory-mapped I/O' compared to 'port-mapped I/O' (or isolated I/O)?",
   "What is the primary function of a D-flip-flop in digital circuits?",
   "Which cache replacement policy prioritizes evicting the data block that has not been accessed for the longest period of time?",
   "In digital integrated circuit design, which verification methodology aims to mathematically prove the functional correctness of a design against its specification, rather than relying on simulation of test cases?",
@@ -48,5 +43,10 @@
   "In synchronous digital circuits, what specific condition arises when a flip-flop's input signal changes too close to the clock edge, leading to an indeterminate output state that can take an unusually long time to settle?",
   "In a processor's memory hierarchy, what is the primary role of the Translation Lookaside Buffer (TLB)?",
   "What is the primary objective of 'power gating' as a low-power design technique in digital integrated circuits?",
-  "In advanced superscalar processors, which architectural component is responsible for holding instructions after they are decoded, waiting for their operands to become available before dispatching them for execution to appropriate functional units, enabling out-of-order execution?"
+  "In advanced superscalar processors, which architectural component is responsible for holding instructions after they are decoded, waiting for their operands to become available before dispatching them for execution to appropriate functional units, enabling out-of-order execution?",
+  "What is the primary function of a decoder in digital logic circuits?",
+  "In a cache memory system, what does 'associativity' primarily refer to?",
+  "What is the primary purpose of Built-In Self-Test (BIST) in digital IC design?",
+  "In multi-processor systems, what is a key characteristic and primary challenge of a Non-Uniform Memory Access (NUMA) architecture?",
+  "In advanced semiconductor manufacturing, which reliability phenomenon describes the transport of material atoms in a conductor due to the momentum transfer from electrons, leading to the formation of voids and hills that can eventually cause open circuits or short circuits?"
 ]

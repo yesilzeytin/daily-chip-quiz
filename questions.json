@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which of the following describes the process of converting a high-level Register Transfer Level (RTL) description (e.g., written in VHDL or Verilog) into a gate-level netlist composed of standard logic cells?",
+      "question": "What is the primary function of a decoder in digital logic circuits?",
       "options": [
-        "Floorplanning",
-        "Synthesis",
-        "Place and Route",
-        "Static Timing Analysis",
-        "Design Rule Checking"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In synchronous digital circuits, what specific condition arises when a flip-flop's input signal changes too close to the clock edge, leading to an indeterminate output state that can take an unusually long time to settle?",
-      "options": [
-        "Clock Skew",
-        "Metastability",
-        "Glitches",
-        "Race Condition",
-        "Hold Time Violation"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a processor's memory hierarchy, what is the primary role of the Translation Lookaside Buffer (TLB)?",
-      "options": [
-        "To store frequently used program instructions for faster fetching.",
-        "To cache frequently accessed entries from the page table for faster virtual-to-physical address translation.",
-        "To buffer data between the CPU's registers and the L1 cache.",
-        "To manage direct memory access (DMA) requests from I/O devices.",
-        "To store the results of recent arithmetic and logic operations."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary objective of 'power gating' as a low-power design technique in digital integrated circuits?",
-      "options": [
-        "To reduce dynamic power consumption by disabling clock signals to inactive blocks.",
-        "To minimize static power consumption by selectively cutting off the power supply to idle circuit blocks.",
-        "To decrease the operating voltage of the entire chip dynamically based on workload.",
-        "To optimize the physical layout for reduced routing congestion, thereby lowering interconnect capacitance.",
-        "To prevent thermal runaway by activating cooling mechanisms on the chip surface."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In advanced superscalar processors, which architectural component is responsible for holding instructions after they are decoded, waiting for their operands to become available before dispatching them for execution to appropriate functional units, enabling out-of-order execution?",
-      "options": [
-        "Program Counter (PC)",
-        "Instruction Cache",
-        "Reservation Stations",
-        "Reorder Buffer (ROB)",
-        "Register File"
+        "To select one of N input lines to be connected to a single output line.",
+        "To store a single bit of binary information.",
+        "To convert an N-bit binary input into 2^N unique active output lines.",
+        "To combine multiple input signals into a single output signal based on a Boolean function.",
+        "To generate a sequence of evenly spaced clock pulses for synchronous operations."
       ],
       "correct": 2
+    },
+    {
+      "question": "In a cache memory system, what does 'associativity' primarily refer to?",
+      "options": [
+        "The speed at which data can be written to or read from the cache.",
+        "The number of cache lines that are replaced simultaneously during a cache miss.",
+        "The total storage capacity of the cache in bytes.",
+        "The number of possible locations (sets) within the cache where a block from main memory can be placed.",
+        "The mechanism by which multiple processors maintain a consistent view of memory."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the primary purpose of Built-In Self-Test (BIST) in digital IC design?",
+      "options": [
+        "To mathematically prove the functional equivalence between an RTL design and its gate-level netlist.",
+        "To simulate the circuit's behavior at very high speeds using FPGA-based emulation platforms.",
+        "To generate pseudo-random test patterns and analyze circuit responses internally, thereby reducing reliance on external Automatic Test Equipment (ATE) for testing.",
+        "To ensure that all flip-flops in the design can be set to a known state after power-up.",
+        "To reduce dynamic power consumption by selectively disabling the clock signal to inactive portions of the circuit."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In multi-processor systems, what is a key characteristic and primary challenge of a Non-Uniform Memory Access (NUMA) architecture?",
+      "options": [
+        "All processors have equal access latency to all parts of main memory, simplifying memory management.",
+        "All memory is local to a specific processor, requiring explicit message passing for any data sharing between processors.",
+        "Processors can access local memory faster than memory attached to other processors, making software optimization for data locality crucial for performance.",
+        "Memory bandwidth scales linearly with the number of processors without any corresponding increase in access latency.",
+        "The architecture primarily focuses on reducing cache miss rates by increasing the size of shared L3 caches."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In advanced semiconductor manufacturing, which reliability phenomenon describes the transport of material atoms in a conductor due to the momentum transfer from electrons, leading to the formation of voids and hills that can eventually cause open circuits or short circuits?",
+      "options": [
+        "Negative Bias Temperature Instability (NBTI)",
+        "Hot Carrier Injection (HCI)",
+        "Random Dopant Fluctuations (RDF)",
+        "Electromigration",
+        "Dielectric Breakdown"
+      ],
+      "correct": 3
     }
   ]
 }
