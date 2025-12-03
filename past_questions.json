@@ -1,9 +1,4 @@
 [
-  "What is a primary advantage of CMOS technology in terms of power consumption during static operation (i.e., when not switching)?",
-  "What is the primary characteristic distinguishing Dynamic Random-Access Memory (DRAM) from Static Random-Access Memory (SRAM)?",
-  "In the context of digital IC design verification, what is the primary purpose of using an FPGA-based 'emulation' platform?",
-  "In a complex System-on-Chip (SoC) design, what is the primary advantage of employing a Network-on-Chip (NoC) architecture compared to traditional bus-based interconnects?",
-  "In modern processor architectures, what is the primary mechanism by which Simultaneous Multi-threading (SMT), often referred to as Hyper-threading by Intel, aims to improve CPU utilization?",
   "What does CMOS primarily stand for in the context of digital integrated circuits?",
   "In sequential digital circuits, what fundamental timing constraint dictates the minimum time data must be stable at a flip-flop's input *before* the active clock edge?",
   "In Application-Specific Integrated Circuit (ASIC) design, what is the primary benefit of using a 'standard cell' design methodology?",
@@ -48,5 +43,10 @@
   "In a Central Processing Unit (CPU), which component is primarily responsible for performing arithmetic operations (like addition, subtraction) and logical operations (like AND, OR) on data?",
   "Which step in the physical design flow of an Application-Specific Integrated Circuit (ASIC) involves assigning specific locations on the silicon die for each logic gate or macro block, followed by connecting them with wires, aiming to optimize for area, performance, and power?",
   "Beyond its role in mapping virtual to physical addresses, which key capability does a virtual memory system provide by allowing programs to access more memory than physically available, and by isolating the memory spaces of different processes from each other?",
-  "In static timing analysis (STA) for synchronous digital circuits, what is the term for the maximum time a data signal can be unstable or change at a flip-flop's input *after* the active clock edge and still be reliably captured?"
+  "In static timing analysis (STA) for synchronous digital circuits, what is the term for the maximum time a data signal can be unstable or change at a flip-flop's input *after* the active clock edge and still be reliably captured?",
+  "What is the primary function of the Control Unit within a Central Processing Unit (CPU)?",
+  "In CMOS integrated circuits, which parasitic phenomenon can lead to a low-impedance path between power and ground rails, potentially causing excessive current draw and device damage, often triggered by transient over-voltage or over-current conditions?",
+  "In cache memory design, which replacement policy aims to evict the block that has not been used for the longest period of time, in an effort to minimize future cache misses?",
+  "Which formal verification technique involves specifying desired behaviors or properties of a design using a formal language (like SystemVerilog Assertions - SVA) and then mathematically proving or disproving whether the design satisfies these properties across all possible input sequences?",
+  "In a pipelined processor, what type of hazard occurs when two or more instructions require the same hardware resource (e.g., an adder unit or a memory port) at the same time in the same clock cycle?"
 ]
