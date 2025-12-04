@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Control Unit within a Central Processing Unit (CPU)?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
       "options": [
-        "To perform arithmetic and logical operations on data.",
-        "To temporarily store data and instructions for quick access.",
-        "To manage communication with external memory devices.",
-        "To execute I/O operations and peripheral interactions.",
-        "To decode instructions, manage instruction flow, and orchestrate the operations of other CPU components."
+        "To perform arithmetic operations on two input signals.",
+        "To select one of several input signals and route it to a single output.",
+        "To convert a binary input into a unique output line.",
+        "To store a single bit of data.",
+        "To generate a clock signal for the entire system."
       ],
-      "correct": 4
+      "correct": 1
     },
     {
-      "question": "In CMOS integrated circuits, which parasitic phenomenon can lead to a low-impedance path between power and ground rails, potentially causing excessive current draw and device damage, often triggered by transient over-voltage or over-current conditions?",
+      "question": "In the context of pipelined processor design, what constitutes a 'data hazard'?",
       "options": [
-        "Hot-carrier injection",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Latch-up",
-        "Dielectric breakdown",
-        "Antenna effect"
+        "An instruction attempts to execute before its required data operands are available from a previous instruction.",
+        "A branch instruction changes the program control flow, making it difficult to fetch subsequent instructions.",
+        "Two or more instructions simultaneously require the same functional unit, such as an ALU.",
+        "The processor attempts to access data from an invalid memory address.",
+        "The clock signal arrives at different components at slightly different times."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In cache memory design, which replacement policy aims to evict the block that has not been used for the longest period of time, in an effort to minimize future cache misses?",
+      "question": "In the architecture of a System-on-Chip (SoC), what is the primary purpose of an 'interconnect fabric' (e.g., an AMBA AXI bus or Network-on-Chip)?",
       "options": [
-        "First-In, First-Out (FIFO)",
-        "Random Replacement",
-        "Least Recently Used (LRU)",
-        "Most Recently Used (MRU)",
-        "Optimal Replacement"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which formal verification technique involves specifying desired behaviors or properties of a design using a formal language (like SystemVerilog Assertions - SVA) and then mathematically proving or disproving whether the design satisfies these properties across all possible input sequences?",
-      "options": [
-        "Logic simulation",
-        "Gate-level simulation",
-        "Model checking (or Property Checking)",
-        "Static timing analysis (STA)",
-        "Functional coverage"
+        "To translate virtual memory addresses to physical memory addresses.",
+        "To manage power consumption by dynamically adjusting voltage and frequency.",
+        "To facilitate efficient communication and data transfer between various IP blocks and components on the chip.",
+        "To perform complex arithmetic and logical operations for the CPU.",
+        "To store frequently accessed data for faster retrieval."
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what type of hazard occurs when two or more instructions require the same hardware resource (e.g., an adder unit or a memory port) at the same time in the same clock cycle?",
+      "question": "In modern high-performance processors, what is the primary challenge that 'speculative execution' aims to mitigate?",
       "options": [
-        "Data hazard",
-        "Control hazard",
-        "Structural hazard",
-        "Write-after-write hazard",
-        "Read-after-write hazard"
+        "The physical limitations of transistor scaling predicted by Moore's Law.",
+        "The performance degradation caused by memory stalls due to cache misses.",
+        "The performance penalty associated with branch mispredictions and the need to flush pipelines.",
+        "The difficulty in maintaining cache coherence across multiple CPU cores.",
+        "The complexity of designing custom instruction sets for specific applications."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the semiconductor manufacturing process, what is the primary function of 'photolithography' (or simply lithography)?",
+      "options": [
+        "To create physical connections (wires) between different layers of the integrated circuit.",
+        "To deposit thin layers of material onto the silicon wafer, such as metal or dielectric.",
+        "To precisely transfer geometric patterns from a photomask onto the surface of a silicon wafer.",
+        "To remove unwanted material from the wafer surface through chemical or physical means.",
+        "To test the functionality and identify defects in the completed integrated circuits."
       ],
       "correct": 2
     }
