@@ -1,9 +1,4 @@
 [
-  "In a cache memory system, which write policy dictates that data is primarily updated only in the cache, and writes to main memory are delayed until the cache block is evicted or explicitly flushed?",
-  "During the physical design phase of an integrated circuit, which phenomenon arises when routing multiple signal wires in close proximity, leading to unwanted capacitive coupling and interference between adjacent traces, potentially causing signal integrity issues?",
-  "Which fundamental digital logic gate produces a HIGH output (logic 1) if and only if its two inputs are different?",
-  "In modern superscalar processors employing out-of-order execution, what is the primary architectural mechanism that allows the processor to dispatch and execute instructions when their operands are ready, even if they appear later in the program sequence, thereby improving instruction-level parallelism?",
-  "In advanced functional verification of complex System-on-Chip (SoC) designs, which methodology uses pseudo-random stimulus generation guided by a set of user-defined rules and constraints to explore a wide range of operational scenarios and uncover corner-case bugs more efficiently than directed tests?",
   "Which two fundamental logic gates are considered 'universal gates' because any other Boolean function can be implemented solely using multiple instances of one type of these gates?",
   "In a pipelined processor, what is a 'control hazard' (also known as a branch hazard)?",
   "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
@@ -48,5 +43,10 @@
   "In the context of pipelined processor design, what constitutes a 'data hazard'?",
   "In the architecture of a System-on-Chip (SoC), what is the primary purpose of an 'interconnect fabric' (e.g., an AMBA AXI bus or Network-on-Chip)?",
   "In modern high-performance processors, what is the primary challenge that 'speculative execution' aims to mitigate?",
-  "In the semiconductor manufacturing process, what is the primary function of 'photolithography' (or simply lithography)?"
+  "In the semiconductor manufacturing process, what is the primary function of 'photolithography' (or simply lithography)?",
+  "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
+  "In computer architecture, what does the term \"microarchitecture\" primarily refer to?",
+  "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
+  "In advanced out-of-order execution processors, what is the primary purpose of \"Register Renaming\"?",
+  "What is the defining characteristic of a \"sequential logic circuit\" that distinguishes it from a \"combinational logic circuit\"?"
 ]

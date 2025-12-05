@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
+      "question": "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "To perform arithmetic operations on two input signals.",
-        "To select one of several input signals and route it to a single output.",
-        "To convert a binary input into a unique output line.",
-        "To store a single bit of data.",
-        "To generate a clock signal for the entire system."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the context of pipelined processor design, what constitutes a 'data hazard'?",
-      "options": [
-        "An instruction attempts to execute before its required data operands are available from a previous instruction.",
-        "A branch instruction changes the program control flow, making it difficult to fetch subsequent instructions.",
-        "Two or more instructions simultaneously require the same functional unit, such as an ALU.",
-        "The processor attempts to access data from an invalid memory address.",
-        "The clock signal arrives at different components at slightly different times."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the architecture of a System-on-Chip (SoC), what is the primary purpose of an 'interconnect fabric' (e.g., an AMBA AXI bus or Network-on-Chip)?",
-      "options": [
-        "To translate virtual memory addresses to physical memory addresses.",
-        "To manage power consumption by dynamically adjusting voltage and frequency.",
-        "To facilitate efficient communication and data transfer between various IP blocks and components on the chip.",
-        "To perform complex arithmetic and logical operations for the CPU.",
-        "To store frequently accessed data for faster retrieval."
+        "FPGAs consume significantly less power than ASICs for any given task.",
+        "FPGAs are designed for mass production, while ASICs are exclusively used for prototyping.",
+        "FPGAs can be reconfigured or reprogrammed after manufacturing to implement different digital circuits.",
+        "ASICs always offer higher clock speeds and lower latency compared to FPGAs for any application.",
+        "FPGAs primarily consist of analog components, while ASICs are purely digital."
       ],
       "correct": 2
     },
     {
-      "question": "In modern high-performance processors, what is the primary challenge that 'speculative execution' aims to mitigate?",
+      "question": "In computer architecture, what does the term \"microarchitecture\" primarily refer to?",
       "options": [
-        "The physical limitations of transistor scaling predicted by Moore's Law.",
-        "The performance degradation caused by memory stalls due to cache misses.",
-        "The performance penalty associated with branch mispredictions and the need to flush pipelines.",
-        "The difficulty in maintaining cache coherence across multiple CPU cores.",
-        "The complexity of designing custom instruction sets for specific applications."
+        "The instruction set architecture (ISA) that defines the programmer's view of the processor.",
+        "The physical layout and fabrication process of the integrated circuit on a silicon wafer.",
+        "The specific implementation details of a processor that realize a given instruction set architecture.",
+        "The operating system's interface for managing CPU resources and processes.",
+        "The design of the memory hierarchy, including cache sizes and replacement policies, exclusively."
       ],
       "correct": 2
     },
     {
-      "question": "In the semiconductor manufacturing process, what is the primary function of 'photolithography' (or simply lithography)?",
+      "question": "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
       "options": [
-        "To create physical connections (wires) between different layers of the integrated circuit.",
-        "To deposit thin layers of material onto the silicon wafer, such as metal or dielectric.",
-        "To precisely transfer geometric patterns from a photomask onto the surface of a silicon wafer.",
-        "To remove unwanted material from the wafer surface through chemical or physical means.",
-        "To test the functionality and identify defects in the completed integrated circuits."
+        "To verify the functional correctness of the circuit against its Register Transfer Level (RTL) description.",
+        "To simulate the circuit's timing performance under various operating conditions and temperatures.",
+        "To ensure that the physical layout of the circuit adheres to the manufacturing process limitations and geometric rules, preventing fabrication errors.",
+        "To optimize the placement of standard logic cells and macro blocks for minimal area and power consumption.",
+        "To generate the test patterns and vectors required for post-manufacturing testing of the chip."
       ],
       "correct": 2
+    },
+    {
+      "question": "In advanced out-of-order execution processors, what is the primary purpose of \"Register Renaming\"?",
+      "options": [
+        "To translate virtual memory addresses to physical memory addresses for efficient memory access.",
+        "To resolve true Read-After-Write (RAW) data hazards by forwarding results directly between functional units.",
+        "To convert logical (architectural) register numbers specified in instructions into unique physical register numbers, thereby eliminating Write-After-Write (WAW) and Write-After-Read (WAR) hazards.",
+        "To allow the operating system to dynamically allocate and deallocate physical register sets to different processes.",
+        "To reduce the overall number of physical registers required in the processor by reusing them more efficiently."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the defining characteristic of a \"sequential logic circuit\" that distinguishes it from a \"combinational logic circuit\"?",
+      "options": [
+        "Sequential circuits are always faster and consume less power than combinational circuits.",
+        "Sequential circuits use only basic logic gates like AND, OR, and NOT, while combinational circuits use more complex gates.",
+        "The output of a sequential circuit depends solely on its current inputs, whereas a combinational circuit's output depends on past inputs and internal state.",
+        "Sequential circuits incorporate memory elements (e.g., flip-flops or latches) to store past states, making their output dependent on both current inputs and previous inputs (or state).",
+        "Combinational circuits strictly require a clock signal for operation, while sequential circuits operate entirely asynchronously."
+      ],
+      "correct": 3
     }
   ]
 }
