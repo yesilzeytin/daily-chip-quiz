@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
+      "question": "What is the primary function of a Phase-Locked Loop (PLL) or Delay-Locked Loop (DLL) in a synchronous digital system?",
       "options": [
-        "FPGAs consume significantly less power than ASICs for any given task.",
-        "FPGAs are designed for mass production, while ASICs are exclusively used for prototyping.",
-        "FPGAs can be reconfigured or reprogrammed after manufacturing to implement different digital circuits.",
-        "ASICs always offer higher clock speeds and lower latency compared to FPGAs for any application.",
-        "FPGAs primarily consist of analog components, while ASICs are purely digital."
+        "To regulate voltage levels across different modules.",
+        "To generate and synchronize clock signals, often at multiple frequencies or phases, within the chip.",
+        "To perform complex arithmetic and logic operations.",
+        "To store temporary data for the Central Processing Unit (CPU).",
+        "To route data between different peripheral devices on a System-on-Chip (SoC)."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of Design-for-Testability (DFT) for digital integrated circuits, what is the primary purpose of 'scan chain insertion'?",
+      "options": [
+        "To reduce the overall dynamic power consumption of the chip by disabling unused blocks.",
+        "To improve the timing performance of critical paths by reducing propagation delays.",
+        "To facilitate testing of sequential logic elements (e.g., flip-flops) by making their states controllable and observable from the chip's pins.",
+        "To encrypt data for secure communication channels within the chip.",
+        "To automatically repair manufacturing defects detected during post-production testing."
       ],
       "correct": 2
     },
     {
-      "question": "In computer architecture, what does the term \"microarchitecture\" primarily refer to?",
+      "question": "In multi-processor systems employing shared memory, which of the following statements best describes the guarantee provided by 'Sequential Consistency' as a memory consistency model?",
       "options": [
-        "The instruction set architecture (ISA) that defines the programmer's view of the processor.",
-        "The physical layout and fabrication process of the integrated circuit on a silicon wafer.",
-        "The specific implementation details of a processor that realize a given instruction set architecture.",
-        "The operating system's interface for managing CPU resources and processes.",
-        "The design of the memory hierarchy, including cache sizes and replacement policies, exclusively."
+        "All memory operations from a single processor appear to execute in program order, but the interleaving of operations from different processors is arbitrary.",
+        "All memory operations appear to execute in some global total order, and operations from each individual processor appear in program order within that total order, as if all operations were executed by a single processor in some interleaved sequence.",
+        "Write operations from one processor are immediately visible to all other processors, but read operations can be reordered for performance.",
+        "Writes from a processor are only visible to other processors after an explicit synchronization barrier is reached.",
+        "Only strongly ordered memory operations (e.g., atomic operations) are guaranteed to be seen in program order by all processors."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
+      "question": "What is the fundamental difference in the design philosophy of a Complex Instruction Set Computer (CISC) versus a Reduced Instruction Set Computer (RISC) architecture?",
       "options": [
-        "To verify the functional correctness of the circuit against its Register Transfer Level (RTL) description.",
-        "To simulate the circuit's timing performance under various operating conditions and temperatures.",
-        "To ensure that the physical layout of the circuit adheres to the manufacturing process limitations and geometric rules, preventing fabrication errors.",
-        "To optimize the placement of standard logic cells and macro blocks for minimal area and power consumption.",
-        "To generate the test patterns and vectors required for post-manufacturing testing of the chip."
+        "CISC processors always have a greater number of general-purpose registers compared to RISC processors.",
+        "RISC architectures prioritize simple, fixed-length instructions that can often execute in a single clock cycle, while CISC often uses complex, variable-length instructions that may take multiple cycles.",
+        "CISC processors inherently lack cache memory, whereas RISC processors heavily rely on multi-level cache hierarchies.",
+        "RISC instructions are always microcoded, while CISC instructions are always hardwired for speed.",
+        "CISC processors primarily support register-to-register operations, while RISC processors support direct memory-to-memory operations."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "In advanced out-of-order execution processors, what is the primary purpose of \"Register Renaming\"?",
+      "question": "In digital logic and computer architecture, what is the primary function of a 'Register'?",
       "options": [
-        "To translate virtual memory addresses to physical memory addresses for efficient memory access.",
-        "To resolve true Read-After-Write (RAW) data hazards by forwarding results directly between functional units.",
-        "To convert logical (architectural) register numbers specified in instructions into unique physical register numbers, thereby eliminating Write-After-Write (WAW) and Write-After-Read (WAR) hazards.",
-        "To allow the operating system to dynamically allocate and deallocate physical register sets to different processes.",
-        "To reduce the overall number of physical registers required in the processor by reusing them more efficiently."
+        "To perform complex arithmetic operations like multiplication and division.",
+        "To convert parallel data into serial data for transmission.",
+        "To temporarily store a small, fixed amount of binary data (e.g., a word or a byte) within a CPU or digital circuit.",
+        "To establish a communication path between different functional blocks on a chip.",
+        "To decode instruction opcodes into control signals for the CPU's functional units."
       ],
       "correct": 2
-    },
-    {
-      "question": "What is the defining characteristic of a \"sequential logic circuit\" that distinguishes it from a \"combinational logic circuit\"?",
-      "options": [
-        "Sequential circuits are always faster and consume less power than combinational circuits.",
-        "Sequential circuits use only basic logic gates like AND, OR, and NOT, while combinational circuits use more complex gates.",
-        "The output of a sequential circuit depends solely on its current inputs, whereas a combinational circuit's output depends on past inputs and internal state.",
-        "Sequential circuits incorporate memory elements (e.g., flip-flops or latches) to store past states, making their output dependent on both current inputs and previous inputs (or state).",
-        "Combinational circuits strictly require a clock signal for operation, while sequential circuits operate entirely asynchronously."
-      ],
-      "correct": 3
     }
   ]
 }

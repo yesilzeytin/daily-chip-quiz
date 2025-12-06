@@ -1,9 +1,4 @@
 [
-  "Which two fundamental logic gates are considered 'universal gates' because any other Boolean function can be implemented solely using multiple instances of one type of these gates?",
-  "In a pipelined processor, what is a 'control hazard' (also known as a branch hazard)?",
-  "In modern System-on-Chip (SoC) designs, what is the primary purpose of Dynamic Voltage and Frequency Scaling (DVFS)?",
-  "After synthesis, the gate-level netlist needs to be verified against the original Register Transfer Level (RTL) design. Which formal verification technique is primarily used to mathematically prove that these two representations are functionally identical?",
-  "In a multi-core processor system using a cache coherence protocol, what additional state does the MOESI protocol introduce compared to the MESI protocol, and what is its primary benefit?",
   "What does Moore's Law primarily predict about integrated circuits?",
   "In digital IC physical design, what is the primary purpose of 'floorplanning'?",
   "What is the main architectural goal of employing Instruction-Level Parallelism (ILP) techniques in a processor?",
@@ -48,5 +43,10 @@
   "In computer architecture, what does the term \"microarchitecture\" primarily refer to?",
   "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
   "In advanced out-of-order execution processors, what is the primary purpose of \"Register Renaming\"?",
-  "What is the defining characteristic of a \"sequential logic circuit\" that distinguishes it from a \"combinational logic circuit\"?"
+  "What is the defining characteristic of a \"sequential logic circuit\" that distinguishes it from a \"combinational logic circuit\"?",
+  "What is the primary function of a Phase-Locked Loop (PLL) or Delay-Locked Loop (DLL) in a synchronous digital system?",
+  "In the context of Design-for-Testability (DFT) for digital integrated circuits, what is the primary purpose of 'scan chain insertion'?",
+  "In multi-processor systems employing shared memory, which of the following statements best describes the guarantee provided by 'Sequential Consistency' as a memory consistency model?",
+  "What is the fundamental difference in the design philosophy of a Complex Instruction Set Computer (CISC) versus a Reduced Instruction Set Computer (RISC) architecture?",
+  "In digital logic and computer architecture, what is the primary function of a 'Register'?"
 ]
