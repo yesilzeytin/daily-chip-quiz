@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a \"Netlist\" in digital IC design?",
-  "In a pipelined processor, what is the primary purpose of \"branch prediction\"?",
-  "Which of the following best describes the primary role of \"synthesis\" in the digital IC design flow?",
-  "In post-layout timing analysis, what is the significance of \"On-Chip Variation (OCV)\"?",
-  "What is the primary function of a \"Reservation Station\" in a modern out-of-order execution processor?",
   "What is the primary purpose of a \"photomask\" (or reticle) in semiconductor manufacturing?",
   "What does \"clock skew\" primarily refer to in synchronous digital circuits, and why is it a significant concern?",
   "In a multi-processor system, which memory consistency model generally allows a processor to read its own previously written value immediately, but delays the visibility of writes from other processors until explicit synchronization points, offering a trade-off for improved performance?",
@@ -48,5 +43,10 @@
   "In a write-back cache memory policy, under what primary condition is a modified (dirty) cache block typically written back to the main memory?",
   "After the logic synthesis step in the digital IC design flow, which specific formal verification technique is primarily used to mathematically prove that the generated gate-level netlist is functionally identical to its original Register Transfer Level (RTL) description?",
   "What is the fundamental distinction in how Very Long Instruction Word (VLIW) processors exploit Instruction-Level Parallelism (ILP) compared to traditional superscalar processors?",
-  "After the physical layout (place and route) of an integrated circuit is completed, which critical step involves extracting all parasitic capacitances and resistances from the interconnects and devices, generating a detailed netlist that includes these parasitics for accurate post-layout timing and power analysis?"
+  "After the physical layout (place and route) of an integrated circuit is completed, which critical step involves extracting all parasitic capacitances and resistances from the interconnects and devices, generating a detailed netlist that includes these parasitics for accurate post-layout timing and power analysis?",
+  "What does ASIC stand for in the context of chip design?",
+  "In pipelined processors with out-of-order execution, what is the primary purpose of a \"Reorder Buffer\" (ROB)?",
+  "In the context of semiconductor manufacturing, what does \"Yield\" primarily refer to?",
+  "Which of the following best describes the principle of \"Locality of Reference\" in computer architecture, particularly as it enables the effectiveness of cache memory?",
+  "What is the fundamental difference between \"Static RAM (SRAM)\" and \"Dynamic RAM (DRAM)\" at a circuit level?"
 ]
