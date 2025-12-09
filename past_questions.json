@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a \"photomask\" (or reticle) in semiconductor manufacturing?",
-  "What does \"clock skew\" primarily refer to in synchronous digital circuits, and why is it a significant concern?",
-  "In a multi-processor system, which memory consistency model generally allows a processor to read its own previously written value immediately, but delays the visibility of writes from other processors until explicit synchronization points, offering a trade-off for improved performance?",
-  "Beyond Dynamic Voltage and Frequency Scaling (DVFS), which common low-power design technique involves selectively disabling the clock signal to inactive portions of a circuit or module to reduce dynamic power consumption?",
-  "In the context of a processor's instruction set architecture (ISA), which category of instructions is primarily responsible for moving data between registers and memory (e.g., LOAD and STORE operations)?",
   "Which of the following describes the process of converting a high-level Register Transfer Level (RTL) description (e.g., written in VHDL or Verilog) into a gate-level netlist composed of standard logic cells?",
   "In synchronous digital circuits, what specific condition arises when a flip-flop's input signal changes too close to the clock edge, leading to an indeterminate output state that can take an unusually long time to settle?",
   "In a processor's memory hierarchy, what is the primary role of the Translation Lookaside Buffer (TLB)?",
@@ -48,5 +43,10 @@
   "In pipelined processors with out-of-order execution, what is the primary purpose of a \"Reorder Buffer\" (ROB)?",
   "In the context of semiconductor manufacturing, what does \"Yield\" primarily refer to?",
   "Which of the following best describes the principle of \"Locality of Reference\" in computer architecture, particularly as it enables the effectiveness of cache memory?",
-  "What is the fundamental difference between \"Static RAM (SRAM)\" and \"Dynamic RAM (DRAM)\" at a circuit level?"
+  "What is the fundamental difference between \"Static RAM (SRAM)\" and \"Dynamic RAM (DRAM)\" at a circuit level?",
+  "What is the primary function of a buffer in digital circuits?",
+  "Which timing parameter describes the minimum amount of time a synchronous data input must be stable *before* the active clock edge for a flip-flop to reliably capture the data?",
+  "In the context of modern pipelined processors, what is the primary purpose of a 'branch predictor'?",
+  "As a low-power design technique, why is reducing the supply voltage (VDD) particularly effective in reducing dynamic power consumption in CMOS digital circuits?",
+  "In the semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?"
 ]

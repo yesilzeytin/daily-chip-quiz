@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does ASIC stand for in the context of chip design?",
+      "question": "What is the primary function of a buffer in digital circuits?",
       "options": [
-        "Application-Specific Integrated Circuit",
-        "Advanced System Information Center",
-        "Automated Standard Interface Component",
-        "Analog Signal Integration Controller",
-        "Asynchronous Serial Interface Chip"
+        "To increase the driving strength or fan-out capability of a signal without inverting its logic state.",
+        "To invert the logic state of a signal (e.g., 0 to 1, or 1 to 0).",
+        "To store a single bit of information for a specific duration.",
+        "To select one of multiple input signals and route it to a single output.",
+        "To convert parallel data into serial data for transmission."
       ],
       "correct": 0
     },
     {
-      "question": "In pipelined processors with out-of-order execution, what is the primary purpose of a \"Reorder Buffer\" (ROB)?",
+      "question": "Which timing parameter describes the minimum amount of time a synchronous data input must be stable *before* the active clock edge for a flip-flop to reliably capture the data?",
       "options": [
-        "To store instructions that are waiting for their operands to become available for execution.",
-        "To handle branch prediction failures and restore the correct architectural state of the processor.",
-        "To ensure that instructions commit (write results to permanent architectural state) in their original program order, despite potentially executing out of order.",
-        "To re-synchronize data transfers between different clock domains within the processor.",
-        "To perform the initial instruction decoding and operand fetching from the register file."
+        "Setup time",
+        "Hold time",
+        "Propagation delay",
+        "Clock-to-Q delay",
+        "Clock skew"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the context of modern pipelined processors, what is the primary purpose of a 'branch predictor'?",
+      "options": [
+        "To resolve data dependencies between instructions and prevent read-after-write hazards.",
+        "To predict the outcome of conditional branch instructions and the target address, allowing the pipeline to fetch instructions speculatively.",
+        "To manage and allocate functional units to instructions for out-of-order execution.",
+        "To ensure that all instructions are committed in program order, even if executed out-of-order.",
+        "To translate virtual memory addresses into physical memory addresses efficiently."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "As a low-power design technique, why is reducing the supply voltage (VDD) particularly effective in reducing dynamic power consumption in CMOS digital circuits?",
+      "options": [
+        "Dynamic power is directly proportional to the switching frequency, so reducing VDD automatically reduces frequency.",
+        "Dynamic power is linearly proportional to VDD, so a small reduction in voltage yields a proportional power saving.",
+        "Dynamic power is quadratically proportional to VDD (P_dynamic = C * VDD^2 * f), making voltage reduction highly impactful.",
+        "Reducing VDD primarily reduces static leakage current, which is the dominant power component.",
+        "It increases the transistor threshold voltage, thus slowing down switching and saving power."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of semiconductor manufacturing, what does \"Yield\" primarily refer to?",
+      "question": "In the semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?",
       "options": [
-        "The percentage of manufactured integrated circuits on a wafer that are fully functional and meet all specified performance parameters.",
-        "The maximum operating frequency (clock speed) that a manufactured chip can reliably achieve.",
-        "The total power consumption (dynamic and static) of a chip under typical operating conditions.",
-        "The physical size or area occupied by a single silicon die on a wafer.",
-        "The total number of transistors integrated into a single chip design."
+        "To selectively remove material using chemical etchants to define patterns.",
+        "To deposit thin layers of conductive or insulating materials onto the wafer surface.",
+        "To create a very flat and smooth surface on the wafer by simultaneously using chemical slurry and mechanical polishing, crucial for multi-layer interconnects.",
+        "To introduce dopant atoms into the silicon to form N-type and P-type regions.",
+        "To form the electrical connections between different layers of the integrated circuit."
       ],
-      "correct": 0
-    },
-    {
-      "question": "Which of the following best describes the principle of \"Locality of Reference\" in computer architecture, particularly as it enables the effectiveness of cache memory?",
-      "options": [
-        "The tendency for a processor to access memory locations that are either spatially (nearby addresses) or temporally (accessed recently) close to previously accessed locations.",
-        "The ability of a processor to execute multiple independent instructions concurrently in a single clock cycle.",
-        "The mechanism by which virtual memory addresses generated by the CPU are translated into physical memory addresses.",
-        "The technique of predicting future memory accesses and pre-fetching data into the cache before it is explicitly requested by the CPU.",
-        "The process of isolating memory spaces of different programs to prevent interference and ensure system stability."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What is the fundamental difference between \"Static RAM (SRAM)\" and \"Dynamic RAM (DRAM)\" at a circuit level?",
-      "options": [
-        "SRAM uses a single transistor and a capacitor to store each bit, requiring periodic refresh, while DRAM uses a latch of multiple transistors and does not need refreshing.",
-        "SRAM is typically used for main memory due to its high density, while DRAM is preferred for processor caches due to its speed.",
-        "DRAM is non-volatile memory, meaning it retains its data even without power, unlike volatile SRAM.",
-        "SRAM stores each bit using a latch (typically 4-6 transistors) and does not require periodic refreshing, whereas DRAM stores each bit using a capacitor and a transistor, which requires periodic refreshing to prevent charge leakage.",
-        "DRAM offers significantly higher access speeds and lower power consumption compared to SRAM for the same capacity."
-      ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }
