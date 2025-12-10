@@ -1,9 +1,4 @@
 [
-  "Which of the following describes the process of converting a high-level Register Transfer Level (RTL) description (e.g., written in VHDL or Verilog) into a gate-level netlist composed of standard logic cells?",
-  "In synchronous digital circuits, what specific condition arises when a flip-flop's input signal changes too close to the clock edge, leading to an indeterminate output state that can take an unusually long time to settle?",
-  "In a processor's memory hierarchy, what is the primary role of the Translation Lookaside Buffer (TLB)?",
-  "What is the primary objective of 'power gating' as a low-power design technique in digital integrated circuits?",
-  "In advanced superscalar processors, which architectural component is responsible for holding instructions after they are decoded, waiting for their operands to become available before dispatching them for execution to appropriate functional units, enabling out-of-order execution?",
   "What is the primary function of a decoder in digital logic circuits?",
   "In a cache memory system, what does 'associativity' primarily refer to?",
   "What is the primary purpose of Built-In Self-Test (BIST) in digital IC design?",
@@ -48,5 +43,10 @@
   "Which timing parameter describes the minimum amount of time a synchronous data input must be stable *before* the active clock edge for a flip-flop to reliably capture the data?",
   "In the context of modern pipelined processors, what is the primary purpose of a 'branch predictor'?",
   "As a low-power design technique, why is reducing the supply voltage (VDD) particularly effective in reducing dynamic power consumption in CMOS digital circuits?",
-  "In the semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?"
+  "In the semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?",
+  "What type of transistors are predominantly used as the fundamental switching elements in modern CMOS digital integrated circuits?",
+  "In computer architecture, what is the primary role of the Instruction Set Architecture (ISA)?",
+  "Which verification methodology in digital IC design involves applying a large volume of automatically generated, randomized input stimuli to the design under test (DUT) to uncover corner-case bugs, often guided by coverage metrics?",
+  "In the physical design flow of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
+  "In a multi-processor system with a shared memory model and private caches, what is the fundamental problem that a cache coherence protocol aims to solve?"
 ]

@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a buffer in digital circuits?",
+      "question": "What type of transistors are predominantly used as the fundamental switching elements in modern CMOS digital integrated circuits?",
       "options": [
-        "To increase the driving strength or fan-out capability of a signal without inverting its logic state.",
-        "To invert the logic state of a signal (e.g., 0 to 1, or 1 to 0).",
-        "To store a single bit of information for a specific duration.",
-        "To select one of multiple input signals and route it to a single output.",
-        "To convert parallel data into serial data for transmission."
+        "Bipolar Junction Transistors (BJTs)",
+        "Depletion-mode MOSFETs",
+        "Junction Gate Field-Effect Transistors (JFETs)",
+        "Enhancement-mode MOSFETs",
+        "Insulated Gate Bipolar Transistors (IGBTs)"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "Which timing parameter describes the minimum amount of time a synchronous data input must be stable *before* the active clock edge for a flip-flop to reliably capture the data?",
+      "question": "In computer architecture, what is the primary role of the Instruction Set Architecture (ISA)?",
       "options": [
-        "Setup time",
-        "Hold time",
-        "Propagation delay",
-        "Clock-to-Q delay",
-        "Clock skew"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the context of modern pipelined processors, what is the primary purpose of a 'branch predictor'?",
-      "options": [
-        "To resolve data dependencies between instructions and prevent read-after-write hazards.",
-        "To predict the outcome of conditional branch instructions and the target address, allowing the pipeline to fetch instructions speculatively.",
-        "To manage and allocate functional units to instructions for out-of-order execution.",
-        "To ensure that all instructions are committed in program order, even if executed out-of-order.",
-        "To translate virtual memory addresses into physical memory addresses efficiently."
+        "To specify the physical layout and organization of the processor's functional units.",
+        "To define the interface between hardware and software, detailing instructions, registers, and memory addressing modes.",
+        "To manage the operating system's interaction with peripheral devices.",
+        "To optimize the compiler's ability to generate highly efficient machine code automatically.",
+        "To control the dynamic allocation and deallocation of memory segments."
       ],
       "correct": 1
     },
     {
-      "question": "As a low-power design technique, why is reducing the supply voltage (VDD) particularly effective in reducing dynamic power consumption in CMOS digital circuits?",
+      "question": "Which verification methodology in digital IC design involves applying a large volume of automatically generated, randomized input stimuli to the design under test (DUT) to uncover corner-case bugs, often guided by coverage metrics?",
       "options": [
-        "Dynamic power is directly proportional to the switching frequency, so reducing VDD automatically reduces frequency.",
-        "Dynamic power is linearly proportional to VDD, so a small reduction in voltage yields a proportional power saving.",
-        "Dynamic power is quadratically proportional to VDD (P_dynamic = C * VDD^2 * f), making voltage reduction highly impactful.",
-        "Reducing VDD primarily reduces static leakage current, which is the dominant power component.",
-        "It increases the transistor threshold voltage, thus slowing down switching and saving power."
+        "Equivalence Checking",
+        "Static Timing Analysis (STA)",
+        "Constrained Random Verification (CRV)",
+        "Formal Property Checking",
+        "Design Rule Checking (DRC)"
       ],
       "correct": 2
     },
     {
-      "question": "In the semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?",
+      "question": "In the physical design flow of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
       "options": [
-        "To selectively remove material using chemical etchants to define patterns.",
-        "To deposit thin layers of conductive or insulating materials onto the wafer surface.",
-        "To create a very flat and smooth surface on the wafer by simultaneously using chemical slurry and mechanical polishing, crucial for multi-layer interconnects.",
-        "To introduce dopant atoms into the silicon to form N-type and P-type regions.",
-        "To form the electrical connections between different layers of the integrated circuit."
+        "To convert the high-level RTL description into a gate-level netlist.",
+        "To assign specific locations to standard cells and macro blocks on the silicon die.",
+        "To ensure that the clock signal reaches all sequential elements with minimal skew and insertion delay, and at an appropriate transition time.",
+        "To extract parasitic resistances and capacitances from the final layout for post-layout analysis.",
+        "To mathematically verify the logical equivalence between the synthesized netlist and the original RTL."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a multi-processor system with a shared memory model and private caches, what is the fundamental problem that a cache coherence protocol aims to solve?",
+      "options": [
+        "Ensuring that all instructions are executed in program order, regardless of data dependencies.",
+        "Minimizing the total number of cache misses across all processors.",
+        "Guaranteeing that all processors observe the most up-to-date value for any shared memory location.",
+        "Resolving contention when multiple processors attempt to access the same I/O device simultaneously.",
+        "Optimizing the distribution of tasks among different CPU cores for load balancing."
       ],
       "correct": 2
     }
