@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a decoder in digital logic circuits?",
-  "In a cache memory system, what does 'associativity' primarily refer to?",
-  "What is the primary purpose of Built-In Self-Test (BIST) in digital IC design?",
-  "In multi-processor systems, what is a key characteristic and primary challenge of a Non-Uniform Memory Access (NUMA) architecture?",
-  "In advanced semiconductor manufacturing, which reliability phenomenon describes the transport of material atoms in a conductor due to the momentum transfer from electrons, leading to the formation of voids and hills that can eventually cause open circuits or short circuits?",
   "Which hardware description language (HDL) is widely used for modeling and describing digital circuits at the Register Transfer Level (RTL) for chip design?",
   "In a Central Processing Unit (CPU), which component is primarily responsible for performing arithmetic operations (like addition, subtraction) and logical operations (like AND, OR) on data?",
   "Which step in the physical design flow of an Application-Specific Integrated Circuit (ASIC) involves assigning specific locations on the silicon die for each logic gate or macro block, followed by connecting them with wires, aiming to optimize for area, performance, and power?",
@@ -48,5 +43,10 @@
   "In computer architecture, what is the primary role of the Instruction Set Architecture (ISA)?",
   "Which verification methodology in digital IC design involves applying a large volume of automatically generated, randomized input stimuli to the design under test (DUT) to uncover corner-case bugs, often guided by coverage metrics?",
   "In the physical design flow of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "In a multi-processor system with a shared memory model and private caches, what is the fundamental problem that a cache coherence protocol aims to solve?"
+  "In a multi-processor system with a shared memory model and private caches, what is the fundamental problem that a cache coherence protocol aims to solve?",
+  "What does EDA stand for in the context of chip design and development?",
+  "In the digital IC design flow, what is the primary objective of 'Logic Synthesis'?",
+  "Which specialized hardware component, often part of a Memory Management Unit (MMU) in a CPU, is primarily responsible for caching recent virtual-to-physical address translations to speed up memory access?",
+  "In the physical design of high-speed digital integrated circuits, what phenomenon describes the unwanted signal interference between adjacent interconnect wires, primarily due to parasitic capacitive coupling, which can lead to logic errors and timing violations?",
+  "As a low-power design technique, what is the primary mechanism of 'power gating' in digital integrated circuits?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What type of transistors are predominantly used as the fundamental switching elements in modern CMOS digital integrated circuits?",
+      "question": "What does EDA stand for in the context of chip design and development?",
       "options": [
-        "Bipolar Junction Transistors (BJTs)",
-        "Depletion-mode MOSFETs",
-        "Junction Gate Field-Effect Transistors (JFETs)",
-        "Enhancement-mode MOSFETs",
-        "Insulated Gate Bipolar Transistors (IGBTs)"
+        "Electronic Design Automation",
+        "Electrical Device Architecture",
+        "Embedded Digital Assembly",
+        "Enhanced Data Access",
+        "Energy Distribution Analysis"
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "In computer architecture, what is the primary role of the Instruction Set Architecture (ISA)?",
+      "question": "In the digital IC design flow, what is the primary objective of 'Logic Synthesis'?",
       "options": [
-        "To specify the physical layout and organization of the processor's functional units.",
-        "To define the interface between hardware and software, detailing instructions, registers, and memory addressing modes.",
-        "To manage the operating system's interaction with peripheral devices.",
-        "To optimize the compiler's ability to generate highly efficient machine code automatically.",
-        "To control the dynamic allocation and deallocation of memory segments."
+        "To translate a gate-level netlist into a physical layout and routing information.",
+        "To verify the timing performance of the final physical chip design.",
+        "To convert an RTL (Register Transfer Level) description into an optimized gate-level netlist using a target technology library.",
+        "To extract parasitic capacitances and resistances from the physical layout for post-layout analysis.",
+        "To program a Field-Programmable Gate Array (FPGA) with the compiled design."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which specialized hardware component, often part of a Memory Management Unit (MMU) in a CPU, is primarily responsible for caching recent virtual-to-physical address translations to speed up memory access?",
+      "options": [
+        "Arithmetic Logic Unit (ALU)",
+        "Translation Lookaside Buffer (TLB)",
+        "Instruction Register (IR)",
+        "Program Counter (PC)",
+        "Control Unit (CU)"
       ],
       "correct": 1
     },
     {
-      "question": "Which verification methodology in digital IC design involves applying a large volume of automatically generated, randomized input stimuli to the design under test (DUT) to uncover corner-case bugs, often guided by coverage metrics?",
+      "question": "In the physical design of high-speed digital integrated circuits, what phenomenon describes the unwanted signal interference between adjacent interconnect wires, primarily due to parasitic capacitive coupling, which can lead to logic errors and timing violations?",
       "options": [
-        "Equivalence Checking",
-        "Static Timing Analysis (STA)",
-        "Constrained Random Verification (CRV)",
-        "Formal Property Checking",
-        "Design Rule Checking (DRC)"
+        "Electromigration",
+        "Latch-up",
+        "Crosstalk",
+        "IR Drop",
+        "Antenna Effect"
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design flow of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
+      "question": "As a low-power design technique, what is the primary mechanism of 'power gating' in digital integrated circuits?",
       "options": [
-        "To convert the high-level RTL description into a gate-level netlist.",
-        "To assign specific locations to standard cells and macro blocks on the silicon die.",
-        "To ensure that the clock signal reaches all sequential elements with minimal skew and insertion delay, and at an appropriate transition time.",
-        "To extract parasitic resistances and capacitances from the final layout for post-layout analysis.",
-        "To mathematically verify the logical equivalence between the synthesized netlist and the original RTL."
+        "Reducing the operating frequency of inactive functional blocks.",
+        "Dynamically adjusting the supply voltage (VDD) based on the current workload.",
+        "Disabling the clock signal to inactive sequential logic blocks.",
+        "Inserting header or footer 'sleep' transistors to physically cut off power supply to inactive logic blocks.",
+        "Using lower threshold voltage transistors for non-critical paths to reduce leakage."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In a multi-processor system with a shared memory model and private caches, what is the fundamental problem that a cache coherence protocol aims to solve?",
-      "options": [
-        "Ensuring that all instructions are executed in program order, regardless of data dependencies.",
-        "Minimizing the total number of cache misses across all processors.",
-        "Guaranteeing that all processors observe the most up-to-date value for any shared memory location.",
-        "Resolving contention when multiple processors attempt to access the same I/O device simultaneously.",
-        "Optimizing the distribution of tasks among different CPU cores for load balancing."
-      ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }
