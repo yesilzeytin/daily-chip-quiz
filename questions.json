@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What does EDA stand for in the context of chip design and development?",
+      "question": "In digital logic design, what is the primary function of a basic logic gate (e.g., AND, OR, NOT)?",
       "options": [
-        "Electronic Design Automation",
-        "Electrical Device Architecture",
-        "Embedded Digital Assembly",
-        "Enhanced Data Access",
-        "Energy Distribution Analysis"
+        "To perform a fundamental Boolean operation on one or more binary inputs to produce a single binary output.",
+        "To store multiple bits of data for an extended period.",
+        "To amplify an analog signal.",
+        "To convert analog signals to digital signals.",
+        "To manage memory access permissions."
       ],
       "correct": 0
     },
     {
-      "question": "In the digital IC design flow, what is the primary objective of 'Logic Synthesis'?",
+      "question": "In the context of an Instruction Set Architecture (ISA), what does the \"opcode\" field within an instruction primarily specify?",
       "options": [
-        "To translate a gate-level netlist into a physical layout and routing information.",
-        "To verify the timing performance of the final physical chip design.",
-        "To convert an RTL (Register Transfer Level) description into an optimized gate-level netlist using a target technology library.",
-        "To extract parasitic capacitances and resistances from the physical layout for post-layout analysis.",
-        "To program a Field-Programmable Gate Array (FPGA) with the compiled design."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which specialized hardware component, often part of a Memory Management Unit (MMU) in a CPU, is primarily responsible for caching recent virtual-to-physical address translations to speed up memory access?",
-      "options": [
-        "Arithmetic Logic Unit (ALU)",
-        "Translation Lookaside Buffer (TLB)",
-        "Instruction Register (IR)",
-        "Program Counter (PC)",
-        "Control Unit (CU)"
+        "The memory address of the next instruction to be executed.",
+        "The specific operation (e.g., ADD, SUB, LOAD) that the CPU should perform.",
+        "The value of the operand to be used in the operation.",
+        "The number of clock cycles required to execute the instruction.",
+        "The priority level of the instruction for interrupt handling."
       ],
       "correct": 1
     },
     {
-      "question": "In the physical design of high-speed digital integrated circuits, what phenomenon describes the unwanted signal interference between adjacent interconnect wires, primarily due to parasitic capacitive coupling, which can lead to logic errors and timing violations?",
+      "question": "After the physical layout of an integrated circuit is complete, which verification step is crucial for ensuring that the implemented layout accurately matches the intended circuit schematic (netlist) by comparing connectivity and device properties?",
       "options": [
-        "Electromigration",
-        "Latch-up",
-        "Crosstalk",
-        "IR Drop",
-        "Antenna Effect"
+        "Design Rule Checking (DRC)",
+        "Static Timing Analysis (STA)",
+        "Power Integrity Analysis (PIA)",
+        "Layout Versus Schematic (LVS)",
+        "Antenna Rule Checking (ARC)"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In a multi-core processor system utilizing the MESI cache coherence protocol, what does the \"Modified\" (M) state for a cache line primarily indicate?",
+      "options": [
+        "The cache line contains data that is identical to main memory and is present in other caches.",
+        "The cache line is invalid and must be reloaded from main memory.",
+        "The cache line contains the most up-to-date data, which has been modified by the local processor and is not present in any other cache, nor has it been written back to main memory.",
+        "The cache line is exclusive to this cache and is identical to main memory.",
+        "The cache line is shared with other caches but is out of date."
       ],
       "correct": 2
     },
     {
-      "question": "As a low-power design technique, what is the primary mechanism of 'power gating' in digital integrated circuits?",
+      "question": "Which formal verification technique involves exhaustively exploring all reachable states of a finite-state system to verify if a given temporal logic property holds for all execution paths, often used for control logic verification?",
       "options": [
-        "Reducing the operating frequency of inactive functional blocks.",
-        "Dynamically adjusting the supply voltage (VDD) based on the current workload.",
-        "Disabling the clock signal to inactive sequential logic blocks.",
-        "Inserting header or footer 'sleep' transistors to physically cut off power supply to inactive logic blocks.",
-        "Using lower threshold voltage transistors for non-critical paths to reduce leakage."
+        "Equivalence Checking",
+        "Static Timing Analysis (STA)",
+        "Regression Testing",
+        "Model Checking",
+        "Functional Simulation"
       ],
       "correct": 3
     }

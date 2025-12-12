@@ -1,9 +1,4 @@
 [
-  "Which hardware description language (HDL) is widely used for modeling and describing digital circuits at the Register Transfer Level (RTL) for chip design?",
-  "In a Central Processing Unit (CPU), which component is primarily responsible for performing arithmetic operations (like addition, subtraction) and logical operations (like AND, OR) on data?",
-  "Which step in the physical design flow of an Application-Specific Integrated Circuit (ASIC) involves assigning specific locations on the silicon die for each logic gate or macro block, followed by connecting them with wires, aiming to optimize for area, performance, and power?",
-  "Beyond its role in mapping virtual to physical addresses, which key capability does a virtual memory system provide by allowing programs to access more memory than physically available, and by isolating the memory spaces of different processes from each other?",
-  "In static timing analysis (STA) for synchronous digital circuits, what is the term for the maximum time a data signal can be unstable or change at a flip-flop's input *after* the active clock edge and still be reliably captured?",
   "What is the primary function of the Control Unit within a Central Processing Unit (CPU)?",
   "In CMOS integrated circuits, which parasitic phenomenon can lead to a low-impedance path between power and ground rails, potentially causing excessive current draw and device damage, often triggered by transient over-voltage or over-current conditions?",
   "In cache memory design, which replacement policy aims to evict the block that has not been used for the longest period of time, in an effort to minimize future cache misses?",
@@ -48,5 +43,10 @@
   "In the digital IC design flow, what is the primary objective of 'Logic Synthesis'?",
   "Which specialized hardware component, often part of a Memory Management Unit (MMU) in a CPU, is primarily responsible for caching recent virtual-to-physical address translations to speed up memory access?",
   "In the physical design of high-speed digital integrated circuits, what phenomenon describes the unwanted signal interference between adjacent interconnect wires, primarily due to parasitic capacitive coupling, which can lead to logic errors and timing violations?",
-  "As a low-power design technique, what is the primary mechanism of 'power gating' in digital integrated circuits?"
+  "As a low-power design technique, what is the primary mechanism of 'power gating' in digital integrated circuits?",
+  "In digital logic design, what is the primary function of a basic logic gate (e.g., AND, OR, NOT)?",
+  "In the context of an Instruction Set Architecture (ISA), what does the \"opcode\" field within an instruction primarily specify?",
+  "After the physical layout of an integrated circuit is complete, which verification step is crucial for ensuring that the implemented layout accurately matches the intended circuit schematic (netlist) by comparing connectivity and device properties?",
+  "In a multi-core processor system utilizing the MESI cache coherence protocol, what does the \"Modified\" (M) state for a cache line primarily indicate?",
+  "Which formal verification technique involves exhaustively exploring all reachable states of a finite-state system to verify if a given temporal logic property holds for all execution paths, often used for control logic verification?"
 ]
