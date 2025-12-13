@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital logic design, what is the primary function of a basic logic gate (e.g., AND, OR, NOT)?",
+      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
       "options": [
-        "To perform a fundamental Boolean operation on one or more binary inputs to produce a single binary output.",
-        "To store multiple bits of data for an extended period.",
-        "To amplify an analog signal.",
-        "To convert analog signals to digital signals.",
-        "To manage memory access permissions."
+        "Executing arithmetic operations (e.g., addition, subtraction) and logical operations (e.g., AND, OR, NOT) on data.",
+        "Storing program instructions and data for quick access.",
+        "Managing the flow of data between the CPU and main memory.",
+        "Decoding instructions and controlling the overall operations of the CPU.",
+        "Handling input/output operations for peripheral devices."
       ],
       "correct": 0
     },
     {
-      "question": "In the context of an Instruction Set Architecture (ISA), what does the \"opcode\" field within an instruction primarily specify?",
+      "question": "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
       "options": [
-        "The memory address of the next instruction to be executed.",
-        "The specific operation (e.g., ADD, SUB, LOAD) that the CPU should perform.",
-        "The value of the operand to be used in the operation.",
-        "The number of clock cycles required to execute the instruction.",
-        "The priority level of the instruction for interrupt handling."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "After the physical layout of an integrated circuit is complete, which verification step is crucial for ensuring that the implemented layout accurately matches the intended circuit schematic (netlist) by comparing connectivity and device properties?",
-      "options": [
-        "Design Rule Checking (DRC)",
-        "Static Timing Analysis (STA)",
-        "Power Integrity Analysis (PIA)",
-        "Layout Versus Schematic (LVS)",
-        "Antenna Rule Checking (ARC)"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a multi-core processor system utilizing the MESI cache coherence protocol, what does the \"Modified\" (M) state for a cache line primarily indicate?",
-      "options": [
-        "The cache line contains data that is identical to main memory and is present in other caches.",
-        "The cache line is invalid and must be reloaded from main memory.",
-        "The cache line contains the most up-to-date data, which has been modified by the local processor and is not present in any other cache, nor has it been written back to main memory.",
-        "The cache line is exclusive to this cache and is identical to main memory.",
-        "The cache line is shared with other caches but is out of date."
+        "To verify the functional correctness of the design using simulation test vectors.",
+        "To identify and quantify the power consumption of the integrated circuit under various operating conditions.",
+        "To mathematically verify that all signal paths in the design meet their specified timing constraints (setup and hold times) across all possible operating conditions without dynamic simulation.",
+        "To ensure that the physical layout adheres to manufacturing design rules (e.g., minimum width, spacing).",
+        "To convert the Register Transfer Level (RTL) description into a gate-level netlist."
       ],
       "correct": 2
     },
     {
-      "question": "Which formal verification technique involves exhaustively exploring all reachable states of a finite-state system to verify if a given temporal logic property holds for all execution paths, often used for control logic verification?",
+      "question": "Which technique is primarily employed in digital IC design to ensure reliable data transfer and prevent metastability when signals cross between asynchronously clocked domains?",
       "options": [
-        "Equivalence Checking",
-        "Static Timing Analysis (STA)",
-        "Regression Testing",
-        "Model Checking",
-        "Functional Simulation"
+        "Increasing the clock frequency of both the sending and receiving domains.",
+        "Using advanced error-correction codes on the data being transferred.",
+        "Implementing synchronization flip-flops (e.g., a two-flop synchronizer) or asynchronous FIFOs at the clock domain crossing boundary.",
+        "Applying a single, global clock signal to all parts of the chip, regardless of their function.",
+        "Reducing the supply voltage to lower propagation delays."
       ],
-      "correct": 3
+      "correct": 2
+    },
+    {
+      "question": "In the context of virtual memory management within a computer system, what is the primary function of a \"page table\"?",
+      "options": [
+        "To store frequently accessed instructions for the processor's execution pipeline.",
+        "To map virtual memory addresses generated by the CPU to corresponding physical memory addresses in RAM.",
+        "To manage the allocation and deallocation of processor registers during program execution.",
+        "To control the flow of data between different levels of the cache hierarchy.",
+        "To determine the order in which multiple processes access shared I/O devices."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the main advantage of implementing a hierarchical memory system (e.g., registers, caches, main memory, secondary storage) in computer architecture?",
+      "options": [
+        "To completely eliminate the need for virtual memory, simplifying memory management.",
+        "To provide a balance of high speed, large capacity, and reasonable cost for memory access.",
+        "To simplify the Instruction Set Architecture (ISA) by reducing the number of memory-related instructions.",
+        "To minimize the overall power consumption of the entire system by exclusively using low-power memory technologies.",
+        "To ensure that all data is always available in the fastest possible memory tier, regardless of access patterns."
+      ],
+      "correct": 1
     }
   ]
 }
