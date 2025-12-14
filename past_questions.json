@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
-  "In the context of pipelined processor design, what constitutes a 'data hazard'?",
-  "In the architecture of a System-on-Chip (SoC), what is the primary purpose of an 'interconnect fabric' (e.g., an AMBA AXI bus or Network-on-Chip)?",
-  "In modern high-performance processors, what is the primary challenge that 'speculative execution' aims to mitigate?",
-  "In the semiconductor manufacturing process, what is the primary function of 'photolithography' (or simply lithography)?",
   "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
   "In computer architecture, what does the term \"microarchitecture\" primarily refer to?",
   "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
@@ -48,5 +43,10 @@
   "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
   "Which technique is primarily employed in digital IC design to ensure reliable data transfer and prevent metastability when signals cross between asynchronously clocked domains?",
   "In the context of virtual memory management within a computer system, what is the primary function of a \"page table\"?",
-  "What is the main advantage of implementing a hierarchical memory system (e.g., registers, caches, main memory, secondary storage) in computer architecture?"
+  "What is the main advantage of implementing a hierarchical memory system (e.g., registers, caches, main memory, secondary storage) in computer architecture?",
+  "What is the fundamental component used to implement all logic functions (AND, OR, NOT) in CMOS digital circuits?",
+  "What is the primary purpose of a 'test bench' in the context of digital IC design verification?",
+  "In computer architecture, what is the primary role of the 'Control Unit' (CU) within a CPU?",
+  "What is the primary purpose of Error-Correcting Code (ECC) memory in high-reliability systems?",
+  "What is the main benefit of employing 'virtual memory' in a computer system?"
 ]
