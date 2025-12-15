@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental component used to implement all logic functions (AND, OR, NOT) in CMOS digital circuits?",
+      "question": "What is the primary purpose of \"floorplanning\" in the physical design stage of an Application-Specific Integrated Circuit (ASIC) or custom IC?",
       "options": [
-        "Resistor",
-        "Inductor",
-        "Capacitor",
-        "Transistor",
-        "Diode"
+        "To define the coarse placement of major functional blocks and I/O pads on the chip, estimating area and optimizing for interconnect and power distribution.",
+        "To verify that the gate-level netlist is functionally equivalent to the Register Transfer Level (RTL) description.",
+        "To perform detailed routing of all signal and power connections between standard cells.",
+        "To ensure that all design rules (e.g., minimum width, spacing) are met for manufacturability.",
+        "To generate a test pattern suite for post-silicon validation and debug."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "What is the primary purpose of a 'test bench' in the context of digital IC design verification?",
+      "question": "In cache memory systems, what is the primary advantage of a \"set-associative\" cache over a \"direct-mapped\" cache of the same total size?",
       "options": [
-        "To synthesize RTL code into a gate-level netlist",
-        "To define the physical layout and placement of components",
-        "To apply input stimuli and observe output responses of a design under test",
-        "To perform static timing analysis on the critical paths",
-        "To extract parasitic resistances and capacitances from the layout"
+        "It significantly reduces conflict misses by allowing multiple cache blocks to map to the same set.",
+        "It provides faster access times (lower hit latency) due to simpler tag comparison logic.",
+        "It guarantees that all data access requests will result in a cache hit.",
+        "It consumes less power because fewer memory accesses are required.",
+        "It simplifies the hardware design by eliminating the need for a replacement policy."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In computer architecture, what is the primary role of the 'Control Unit' (CU) within a CPU?",
+      "question": "Which of the following best describes the phenomenon known as \"clock skew\" in synchronous digital circuits?",
       "options": [
-        "To execute arithmetic and logical operations",
-        "To store data and instructions for rapid access",
-        "To manage virtual memory translations",
-        "To direct the operation of the processor by generating control signals",
-        "To handle input/output operations and interrupts"
+        "The difference in arrival times of the same active clock edge at different synchronous elements (e.g., flip-flops) across the chip.",
+        "The variation in the clock signal's period over successive cycles, often referred to as cycle-to-cycle jitter.",
+        "The total delay experienced by a clock signal as it propagates from its source to a specific register's clock input.",
+        "The unwanted capacitive or inductive coupling of a clock signal into an adjacent data or control signal line.",
+        "The phase difference between the input and output clock signals of a Phase-Locked Loop (PLL)."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "What is the primary purpose of Error-Correcting Code (ECC) memory in high-reliability systems?",
+      "question": "In a modern out-of-order superscalar processor, which of the following best describes the primary function of the \"Instruction Window\" (also known as the Reservation Station)?",
       "options": [
-        "To speed up memory access times",
-        "To reduce power consumption in memory",
-        "To detect and correct single-bit memory errors",
-        "To increase the overall storage capacity of the memory",
-        "To provide virtual memory translation services"
+        "It temporarily stores instructions that have completed execution but are waiting to commit their results in program order.",
+        "It holds decoded instructions, waiting for their operands to become available and for a functional unit to be free before dispatching them for execution.",
+        "It serves as a cache for recent virtual-to-physical address translations to accelerate memory access.",
+        "It manages the allocation and deallocation of physical registers to facilitate register renaming.",
+        "It predicts the outcome of conditional branch instructions to avoid pipeline stalls."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "What is the main benefit of employing 'virtual memory' in a computer system?",
+      "question": "Which advanced transistor technology is primarily characterized by a 3D gate structure that wraps around the channel on multiple sides, significantly improving electrostatic control and reducing leakage currents compared to planar transistors at smaller process nodes?",
       "options": [
-        "To increase the physical speed of RAM modules",
-        "To directly execute programs from secondary storage without loading them into RAM",
-        "To provide an abstraction of a large, contiguous memory space to processes, independent of physical RAM availability",
-        "To ensure all data is stored exclusively in cache memory for faster access",
-        "To reduce the total amount of physical RAM required in a system to zero"
+        "Bipolar Junction Transistor (BJT)",
+        "Fin Field-Effect Transistor (FinFET)",
+        "Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET)",
+        "Junction Field-Effect Transistor (JFET)",
+        "Thin-Film Transistor (TFT)"
       ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

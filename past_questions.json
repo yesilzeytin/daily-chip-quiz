@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
-  "In computer architecture, what does the term \"microarchitecture\" primarily refer to?",
-  "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
-  "In advanced out-of-order execution processors, what is the primary purpose of \"Register Renaming\"?",
-  "What is the defining characteristic of a \"sequential logic circuit\" that distinguishes it from a \"combinational logic circuit\"?",
   "What is the primary function of a Phase-Locked Loop (PLL) or Delay-Locked Loop (DLL) in a synchronous digital system?",
   "In the context of Design-for-Testability (DFT) for digital integrated circuits, what is the primary purpose of 'scan chain insertion'?",
   "In multi-processor systems employing shared memory, which of the following statements best describes the guarantee provided by 'Sequential Consistency' as a memory consistency model?",
@@ -48,5 +43,10 @@
   "What is the primary purpose of a 'test bench' in the context of digital IC design verification?",
   "In computer architecture, what is the primary role of the 'Control Unit' (CU) within a CPU?",
   "What is the primary purpose of Error-Correcting Code (ECC) memory in high-reliability systems?",
-  "What is the main benefit of employing 'virtual memory' in a computer system?"
+  "What is the main benefit of employing 'virtual memory' in a computer system?",
+  "What is the primary purpose of \"floorplanning\" in the physical design stage of an Application-Specific Integrated Circuit (ASIC) or custom IC?",
+  "In cache memory systems, what is the primary advantage of a \"set-associative\" cache over a \"direct-mapped\" cache of the same total size?",
+  "Which of the following best describes the phenomenon known as \"clock skew\" in synchronous digital circuits?",
+  "In a modern out-of-order superscalar processor, which of the following best describes the primary function of the \"Instruction Window\" (also known as the Reservation Station)?",
+  "Which advanced transistor technology is primarily characterized by a 3D gate structure that wraps around the channel on multiple sides, significantly improving electrostatic control and reducing leakage currents compared to planar transistors at smaller process nodes?"
 ]
