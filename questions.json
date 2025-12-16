@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of \"floorplanning\" in the physical design stage of an Application-Specific Integrated Circuit (ASIC) or custom IC?",
+      "question": "What does FPGA stand for in the context of chip design?",
       "options": [
-        "To define the coarse placement of major functional blocks and I/O pads on the chip, estimating area and optimizing for interconnect and power distribution.",
-        "To verify that the gate-level netlist is functionally equivalent to the Register Transfer Level (RTL) description.",
-        "To perform detailed routing of all signal and power connections between standard cells.",
-        "To ensure that all design rules (e.g., minimum width, spacing) are met for manufacturability.",
-        "To generate a test pattern suite for post-silicon validation and debug."
+        "Field-Programmable Gate Array",
+        "Fast Processor Global Architecture",
+        "Fully Parallel General Algorithm",
+        "Flexible Peripheral Gate Automation",
+        "Floating Point Gate Array"
       ],
       "correct": 0
     },
     {
-      "question": "In cache memory systems, what is the primary advantage of a \"set-associative\" cache over a \"direct-mapped\" cache of the same total size?",
+      "question": "In the physical design stage of an Integrated Circuit, what is the primary objective of the \"placement\" step?",
       "options": [
-        "It significantly reduces conflict misses by allowing multiple cache blocks to map to the same set.",
-        "It provides faster access times (lower hit latency) due to simpler tag comparison logic.",
-        "It guarantees that all data access requests will result in a cache hit.",
-        "It consumes less power because fewer memory accesses are required.",
-        "It simplifies the hardware design by eliminating the need for a replacement policy."
+        "To convert the RTL description into a gate-level netlist.",
+        "To connect all power and ground rails to the standard cells.",
+        "To determine the optimal physical locations for all standard cells and macros on the chip die.",
+        "To verify that the timing constraints are met across all clock domains.",
+        "To generate the final GDSII file for manufacturing."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "Which of the following best describes the phenomenon known as \"clock skew\" in synchronous digital circuits?",
+      "question": "In a classic five-stage RISC pipeline (Fetch, Decode, Execute, Memory, Write-back), what is the primary purpose of \"data forwarding\" (also known as bypassing)?",
       "options": [
-        "The difference in arrival times of the same active clock edge at different synchronous elements (e.g., flip-flops) across the chip.",
-        "The variation in the clock signal's period over successive cycles, often referred to as cycle-to-cycle jitter.",
-        "The total delay experienced by a clock signal as it propagates from its source to a specific register's clock input.",
-        "The unwanted capacitive or inductive coupling of a clock signal into an adjacent data or control signal line.",
-        "The phase difference between the input and output clock signals of a Phase-Locked Loop (PLL)."
+        "To predict the outcome of conditional branches to reduce control hazards.",
+        "To allow multiple instructions to execute simultaneously in different pipeline stages.",
+        "To resolve data hazards by directly providing the result of an instruction from an earlier pipeline stage to a later instruction that needs it.",
+        "To reorder instructions for out-of-order execution and preserve program order.",
+        "To fetch instructions from main memory into the instruction cache."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In a modern out-of-order superscalar processor, which of the following best describes the primary function of the \"Instruction Window\" (also known as the Reservation Station)?",
+      "question": "What is the primary objective of Dynamic Voltage and Frequency Scaling (DVFS) in modern processors and SoCs?",
       "options": [
-        "It temporarily stores instructions that have completed execution but are waiting to commit their results in program order.",
-        "It holds decoded instructions, waiting for their operands to become available and for a functional unit to be free before dispatching them for execution.",
-        "It serves as a cache for recent virtual-to-physical address translations to accelerate memory access.",
-        "It manages the allocation and deallocation of physical registers to facilitate register renaming.",
-        "It predicts the outcome of conditional branch instructions to avoid pipeline stalls."
+        "To improve circuit yield by reducing manufacturing defects.",
+        "To dynamically adjust the operating voltage and clock frequency to optimize power consumption and performance.",
+        "To completely shut off power to inactive blocks of the chip.",
+        "To compensate for clock skew in synchronous digital circuits.",
+        "To detect and correct errors in memory during runtime."
       ],
       "correct": 1
     },
     {
-      "question": "Which advanced transistor technology is primarily characterized by a 3D gate structure that wraps around the channel on multiple sides, significantly improving electrostatic control and reducing leakage currents compared to planar transistors at smaller process nodes?",
+      "question": "In a typical computer system, what is the primary function of \"main memory\" (often implemented with DRAM)?",
       "options": [
-        "Bipolar Junction Transistor (BJT)",
-        "Fin Field-Effect Transistor (FinFET)",
-        "Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET)",
-        "Junction Field-Effect Transistor (JFET)",
-        "Thin-Film Transistor (TFT)"
+        "To provide very fast, small storage directly accessible by the CPU registers.",
+        "To permanently store the operating system and user applications even when power is off.",
+        "To act as the primary, volatile storage location for actively running programs and their data.",
+        "To manage the virtual-to-physical address translation process.",
+        "To cache frequently accessed data from the hard drive."
       ],
-      "correct": 1
+      "correct": 2
     }
   ]
 }
