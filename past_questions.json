@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of synchronous sequential logic circuits, capable of storing a single bit of information and changing its state only in response to a clock signal?",
-  "In a write-back cache memory policy, under what primary condition is a modified (dirty) cache block typically written back to the main memory?",
-  "After the logic synthesis step in the digital IC design flow, which specific formal verification technique is primarily used to mathematically prove that the generated gate-level netlist is functionally identical to its original Register Transfer Level (RTL) description?",
-  "What is the fundamental distinction in how Very Long Instruction Word (VLIW) processors exploit Instruction-Level Parallelism (ILP) compared to traditional superscalar processors?",
-  "After the physical layout (place and route) of an integrated circuit is completed, which critical step involves extracting all parasitic capacitances and resistances from the interconnects and devices, generating a detailed netlist that includes these parasitics for accurate post-layout timing and power analysis?",
   "What does ASIC stand for in the context of chip design?",
   "In pipelined processors with out-of-order execution, what is the primary purpose of a \"Reorder Buffer\" (ROB)?",
   "In the context of semiconductor manufacturing, what does \"Yield\" primarily refer to?",
@@ -48,5 +43,10 @@
   "In the physical design stage of an Integrated Circuit, what is the primary objective of the \"placement\" step?",
   "In a classic five-stage RISC pipeline (Fetch, Decode, Execute, Memory, Write-back), what is the primary purpose of \"data forwarding\" (also known as bypassing)?",
   "What is the primary objective of Dynamic Voltage and Frequency Scaling (DVFS) in modern processors and SoCs?",
-  "In a typical computer system, what is the primary function of \"main memory\" (often implemented with DRAM)?"
+  "In a typical computer system, what is the primary function of \"main memory\" (often implemented with DRAM)?",
+  "What is the primary role of a Register Transfer Level (RTL) description in the initial stages of digital IC design?",
+  "What is the primary benefit of using instruction pipelining in a Central Processing Unit (CPU)?",
+  "In the physical layout of a complex digital integrated circuit, what is the primary function of a robust power delivery network (often implemented as power grids or planes)?",
+  "In digital logic circuits, what is the primary function of a multiplexer (MUX)?",
+  "What is the primary function of the Memory Management Unit (MMU) in a modern CPU?"
 ]
