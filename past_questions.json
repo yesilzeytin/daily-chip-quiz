@@ -1,9 +1,4 @@
 [
-  "What does ASIC stand for in the context of chip design?",
-  "In pipelined processors with out-of-order execution, what is the primary purpose of a \"Reorder Buffer\" (ROB)?",
-  "In the context of semiconductor manufacturing, what does \"Yield\" primarily refer to?",
-  "Which of the following best describes the principle of \"Locality of Reference\" in computer architecture, particularly as it enables the effectiveness of cache memory?",
-  "What is the fundamental difference between \"Static RAM (SRAM)\" and \"Dynamic RAM (DRAM)\" at a circuit level?",
   "What is the primary function of a buffer in digital circuits?",
   "Which timing parameter describes the minimum amount of time a synchronous data input must be stable *before* the active clock edge for a flip-flop to reliably capture the data?",
   "In the context of modern pipelined processors, what is the primary purpose of a 'branch predictor'?",
@@ -48,5 +43,10 @@
   "What is the primary benefit of using instruction pipelining in a Central Processing Unit (CPU)?",
   "In the physical layout of a complex digital integrated circuit, what is the primary function of a robust power delivery network (often implemented as power grids or planes)?",
   "In digital logic circuits, what is the primary function of a multiplexer (MUX)?",
-  "What is the primary function of the Memory Management Unit (MMU) in a modern CPU?"
+  "What is the primary function of the Memory Management Unit (MMU) in a modern CPU?",
+  "What is the primary purpose of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
+  "In a computer's memory hierarchy, which cache replacement policy typically involves tracking the usage history of cache lines and evicting the line that has not been accessed for the longest period of time?",
+  "In the physical design flow of a digital integrated circuit, what is the main objective of the 'Routing' stage?",
+  "In modern processor architectures, what is the primary mechanism that allows a superscalar processor to execute multiple instructions in a single clock cycle, even if some instructions have dependencies, by dispatching them to available execution units as their operands become ready?",
+  "Which of the following best describes the primary goal of Design for Testability (DFT) techniques in digital IC design?"
 ]
