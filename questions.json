@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
+      "question": "What is the primary characteristic of a digital circuit implemented using Complementary Metal-Oxide-Semiconductor (CMOS) technology regarding its static power consumption?",
       "options": [
-        "To describe the behavior and structure of digital circuits.",
-        "To write device drivers for peripheral components.",
-        "To compile high-level programming languages into machine code.",
-        "To manage project timelines and resource allocation.",
-        "To design analog circuits and power supply networks."
+        "Extremely low static power dissipation, ideally zero, when the circuit is idle.",
+        "High static power dissipation due to significant leakage currents.",
+        "Static power dissipation that is directly proportional to the operating frequency.",
+        "Static power consumption that increases exponentially with a decrease in supply voltage.",
+        "Static power dissipation determined primarily by the number of active transitions per clock cycle."
       ],
       "correct": 0
     },
     {
-      "question": "In a computer's memory hierarchy, which cache replacement policy typically involves tracking the usage history of cache lines and evicting the line that has not been accessed for the longest period of time?",
+      "question": "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
       "options": [
-        "First-In, First-Out (FIFO)",
-        "Random Replacement (RR)",
-        "Least Recently Used (LRU)",
-        "Least Frequently Used (LFU)",
-        "Most Recently Used (MRU)"
+        "The physical layout and hierarchy of memory components within the system.",
+        "The specific algorithms used to manage virtual memory paging and swap space.",
+        "The rules by which the order of memory operations (reads/writes) from multiple processors is observed by all other processors.",
+        "The error detection and correction mechanisms applied to stored data in main memory.",
+        "The maximum data transfer rate between the CPU and the main memory."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design flow of a digital integrated circuit, what is the main objective of the 'Routing' stage?",
+      "question": "Which formal verification technique is primarily used to mathematically prove that two different representations of a digital circuit (e.g., RTL code and a gate-level netlist after synthesis) implement the exact same functionality?",
       "options": [
-        "To convert the Register Transfer Level (RTL) code into a gate-level netlist.",
-        "To determine the optimal placement of standard cells and macros on the chip floorplan.",
-        "To connect all the pins of the placed cells and macros according to the netlist using metal interconnects.",
-        "To synthesize the clock distribution network to minimize skew and ensure signal integrity.",
-        "To verify the logical correctness of the design using simulation patterns."
+        "Logic Simulation",
+        "Model Checking",
+        "Static Timing Analysis (STA)",
+        "Equivalence Checking",
+        "Formal Property Verification (FPV)"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In modern processor architectures, what is the primary mechanism that allows a superscalar processor to execute multiple instructions in a single clock cycle, even if some instructions have dependencies, by dispatching them to available execution units as their operands become ready?",
+      "question": "In the physical verification stage of IC design, what is the primary purpose of \"RC extraction\"?",
       "options": [
-        "Instruction Pipelining",
-        "Cache Coherence Protocols",
-        "Out-of-Order Execution with Dynamic Scheduling",
-        "Direct Memory Access (DMA)",
-        "Hardware Multi-threading"
+        "To convert the gate-level netlist into a detailed transistor-level schematic.",
+        "To calculate the parasitic resistance and capacitance values of interconnects and devices from the physical layout.",
+        "To verify that all power and ground connections are properly routed throughout the chip.",
+        "To optimize the placement of standard cells to minimize overall wire length.",
+        "To check for design rule violations (DRC) such as minimum spacing and width rules."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "Which of the following best describes the primary goal of Design for Testability (DFT) techniques in digital IC design?",
+      "question": "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?",
       "options": [
-        "To reduce the overall power consumption of the chip during its operational lifetime.",
-        "To minimize the physical area occupied by the integrated circuit on the silicon die.",
-        "To ensure the design can be thoroughly and cost-effectively tested for manufacturing defects after fabrication.",
-        "To improve the speed and performance of critical paths in the circuit by optimizing logic.",
-        "To abstract complex digital logic into higher-level behavioral models for early verification."
+        "To store predicted branch outcomes and target addresses for faster instruction fetching.",
+        "To hold decoded instructions and their operands until their execution units are free.",
+        "To ensure that instructions commit (update architectural state) in their original program order, even if they execute out of order.",
+        "To manage the cache coherence protocol among multiple CPU cores.",
+        "To perform address translation from virtual to physical addresses."
       ],
       "correct": 2
     }

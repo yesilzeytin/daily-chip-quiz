@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a buffer in digital circuits?",
-  "Which timing parameter describes the minimum amount of time a synchronous data input must be stable *before* the active clock edge for a flip-flop to reliably capture the data?",
-  "In the context of modern pipelined processors, what is the primary purpose of a 'branch predictor'?",
-  "As a low-power design technique, why is reducing the supply voltage (VDD) particularly effective in reducing dynamic power consumption in CMOS digital circuits?",
-  "In the semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?",
   "What type of transistors are predominantly used as the fundamental switching elements in modern CMOS digital integrated circuits?",
   "In computer architecture, what is the primary role of the Instruction Set Architecture (ISA)?",
   "Which verification methodology in digital IC design involves applying a large volume of automatically generated, randomized input stimuli to the design under test (DUT) to uncover corner-case bugs, often guided by coverage metrics?",
@@ -48,5 +43,10 @@
   "In a computer's memory hierarchy, which cache replacement policy typically involves tracking the usage history of cache lines and evicting the line that has not been accessed for the longest period of time?",
   "In the physical design flow of a digital integrated circuit, what is the main objective of the 'Routing' stage?",
   "In modern processor architectures, what is the primary mechanism that allows a superscalar processor to execute multiple instructions in a single clock cycle, even if some instructions have dependencies, by dispatching them to available execution units as their operands become ready?",
-  "Which of the following best describes the primary goal of Design for Testability (DFT) techniques in digital IC design?"
+  "Which of the following best describes the primary goal of Design for Testability (DFT) techniques in digital IC design?",
+  "What is the primary characteristic of a digital circuit implemented using Complementary Metal-Oxide-Semiconductor (CMOS) technology regarding its static power consumption?",
+  "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
+  "Which formal verification technique is primarily used to mathematically prove that two different representations of a digital circuit (e.g., RTL code and a gate-level netlist after synthesis) implement the exact same functionality?",
+  "In the physical verification stage of IC design, what is the primary purpose of \"RC extraction\"?",
+  "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?"
 ]
