@@ -1,9 +1,4 @@
 [
-  "What type of transistors are predominantly used as the fundamental switching elements in modern CMOS digital integrated circuits?",
-  "In computer architecture, what is the primary role of the Instruction Set Architecture (ISA)?",
-  "Which verification methodology in digital IC design involves applying a large volume of automatically generated, randomized input stimuli to the design under test (DUT) to uncover corner-case bugs, often guided by coverage metrics?",
-  "In the physical design flow of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "In a multi-processor system with a shared memory model and private caches, what is the fundamental problem that a cache coherence protocol aims to solve?",
   "What does EDA stand for in the context of chip design and development?",
   "In the digital IC design flow, what is the primary objective of 'Logic Synthesis'?",
   "Which specialized hardware component, often part of a Memory Management Unit (MMU) in a CPU, is primarily responsible for caching recent virtual-to-physical address translations to speed up memory access?",
@@ -48,5 +43,10 @@
   "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
   "Which formal verification technique is primarily used to mathematically prove that two different representations of a digital circuit (e.g., RTL code and a gate-level netlist after synthesis) implement the exact same functionality?",
   "In the physical verification stage of IC design, what is the primary purpose of \"RC extraction\"?",
-  "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?"
+  "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?",
+  "What is the primary function of a semiconductor foundry in the context of chip manufacturing?",
+  "In the physical design flow of a digital integrated circuit, what does the term 'sign-off' primarily refer to?",
+  "What is the main role of a Branch Predictor in a modern pipelined Central Processing Unit (CPU)?",
+  "Which of the following describes the phenomenon where a transistor's threshold voltage changes due to variations in the voltage difference between its source and bulk (substrate)?",
+  "In computer architecture, what is 'Effective Access Time (EAT)' primarily used to quantify?"
 ]

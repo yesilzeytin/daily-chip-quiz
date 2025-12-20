@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic of a digital circuit implemented using Complementary Metal-Oxide-Semiconductor (CMOS) technology regarding its static power consumption?",
+      "question": "What is the primary function of a semiconductor foundry in the context of chip manufacturing?",
       "options": [
-        "Extremely low static power dissipation, ideally zero, when the circuit is idle.",
-        "High static power dissipation due to significant leakage currents.",
-        "Static power dissipation that is directly proportional to the operating frequency.",
-        "Static power consumption that increases exponentially with a decrease in supply voltage.",
-        "Static power dissipation determined primarily by the number of active transitions per clock cycle."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
-      "options": [
-        "The physical layout and hierarchy of memory components within the system.",
-        "The specific algorithms used to manage virtual memory paging and swap space.",
-        "The rules by which the order of memory operations (reads/writes) from multiple processors is observed by all other processors.",
-        "The error detection and correction mechanisms applied to stored data in main memory.",
-        "The maximum data transfer rate between the CPU and the main memory."
+        "Designing the logical architecture of an IC.",
+        "Developing software tools for chip verification.",
+        "Fabricating integrated circuits based on design specifications.",
+        "Marketing and selling finished semiconductor products.",
+        "Performing post-fabrication packaging and testing."
       ],
       "correct": 2
     },
     {
-      "question": "Which formal verification technique is primarily used to mathematically prove that two different representations of a digital circuit (e.g., RTL code and a gate-level netlist after synthesis) implement the exact same functionality?",
+      "question": "In the physical design flow of a digital integrated circuit, what does the term 'sign-off' primarily refer to?",
       "options": [
-        "Logic Simulation",
-        "Model Checking",
-        "Static Timing Analysis (STA)",
-        "Equivalence Checking",
-        "Formal Property Verification (FPV)"
+        "The initial phase where designers create the RTL description.",
+        "The process of converting the gate-level netlist into a physical layout.",
+        "The final set of comprehensive verification steps performed before tape-out to ensure design correctness and manufacturability.",
+        "The stage where power delivery networks are optimized across the chip.",
+        "The formal agreement between the design team and the customer on project specifications."
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "In the physical verification stage of IC design, what is the primary purpose of \"RC extraction\"?",
+      "question": "What is the main role of a Branch Predictor in a modern pipelined Central Processing Unit (CPU)?",
       "options": [
-        "To convert the gate-level netlist into a detailed transistor-level schematic.",
-        "To calculate the parasitic resistance and capacitance values of interconnects and devices from the physical layout.",
-        "To verify that all power and ground connections are properly routed throughout the chip.",
-        "To optimize the placement of standard cells to minimize overall wire length.",
-        "To check for design rule violations (DRC) such as minimum spacing and width rules."
+        "To manage the flow of data between the CPU and main memory.",
+        "To determine the outcome of conditional branch instructions before they are actually executed, reducing pipeline stalls.",
+        "To perform arithmetic and logical operations on data.",
+        "To translate virtual addresses into physical addresses.",
+        "To ensure that multiple processors maintain a consistent view of shared memory."
       ],
       "correct": 1
     },
     {
-      "question": "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?",
+      "question": "Which of the following describes the phenomenon where a transistor's threshold voltage changes due to variations in the voltage difference between its source and bulk (substrate)?",
       "options": [
-        "To store predicted branch outcomes and target addresses for faster instruction fetching.",
-        "To hold decoded instructions and their operands until their execution units are free.",
-        "To ensure that instructions commit (update architectural state) in their original program order, even if they execute out of order.",
-        "To manage the cache coherence protocol among multiple CPU cores.",
-        "To perform address translation from virtual to physical addresses."
+        "Hot Carrier Injection (HCI)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Drain-Induced Barrier Lowering (DIBL)",
+        "The Body Effect",
+        "Gate Oxide Breakdown (GOB)"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In computer architecture, what is 'Effective Access Time (EAT)' primarily used to quantify?",
+      "options": [
+        "The maximum speed at which data can be transferred between memory and the CPU.",
+        "The total number of memory accesses performed by a program.",
+        "The average time taken to access a memory location, considering the presence and performance of the memory hierarchy (caches, main memory).",
+        "The latency of a single access to the fastest level of cache memory.",
+        "The time required for the CPU to switch between different processes."
       ],
       "correct": 2
     }
