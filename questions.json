@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a semiconductor foundry in the context of chip manufacturing?",
+      "question": "What does the acronym ASIC primarily represent in the context of chip design?",
       "options": [
-        "Designing the logical architecture of an IC.",
-        "Developing software tools for chip verification.",
-        "Fabricating integrated circuits based on design specifications.",
-        "Marketing and selling finished semiconductor products.",
-        "Performing post-fabrication packaging and testing."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical design flow of a digital integrated circuit, what does the term 'sign-off' primarily refer to?",
-      "options": [
-        "The initial phase where designers create the RTL description.",
-        "The process of converting the gate-level netlist into a physical layout.",
-        "The final set of comprehensive verification steps performed before tape-out to ensure design correctness and manufacturability.",
-        "The stage where power delivery networks are optimized across the chip.",
-        "The formal agreement between the design team and the customer on project specifications."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the main role of a Branch Predictor in a modern pipelined Central Processing Unit (CPU)?",
-      "options": [
-        "To manage the flow of data between the CPU and main memory.",
-        "To determine the outcome of conditional branch instructions before they are actually executed, reducing pipeline stalls.",
-        "To perform arithmetic and logical operations on data.",
-        "To translate virtual addresses into physical addresses.",
-        "To ensure that multiple processors maintain a consistent view of shared memory."
+        "Analog Signal Input Controller",
+        "Application-Specific Integrated Circuit",
+        "Asynchronous Sequential Instruction Chip",
+        "Automated System Integration Component",
+        "Advanced Sensor Interface Controller"
       ],
       "correct": 1
     },
     {
-      "question": "Which of the following describes the phenomenon where a transistor's threshold voltage changes due to variations in the voltage difference between its source and bulk (substrate)?",
+      "question": "In a CPU pipeline, what is a \"stall\" (or \"bubble\") primarily used to prevent?",
       "options": [
-        "Hot Carrier Injection (HCI)",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Drain-Induced Barrier Lowering (DIBL)",
-        "The Body Effect",
-        "Gate Oxide Breakdown (GOB)"
+        "Memory corruption errors",
+        "Instruction execution from completing too quickly",
+        "Data hazards and control hazards",
+        "Overheating of the CPU",
+        "Cache misses"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which specialized circuit block is commonly used in System-on-Chip (SoC) designs to generate one or more output clock frequencies that are precise multiples or fractions of an input reference clock, often with phase alignment?",
+      "options": [
+        "Arithmetic Logic Unit (ALU)",
+        "Memory Management Unit (MMU)",
+        "Phase-Locked Loop (PLL)",
+        "Direct Memory Access (DMA) controller",
+        "Graphics Processing Unit (GPU)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "After the physical layout of an integrated circuit is completed, which crucial verification step involves checking the layout against a set of predefined rules (e.g., minimum width, minimum spacing, enclosure) to ensure manufacturability and electrical correctness?",
+      "options": [
+        "Static Timing Analysis (STA)",
+        "Logic Synthesis",
+        "Equivalence Checking",
+        "Design Rule Checking (DRC)",
+        "Power Grid Analysis (PGA)"
       ],
       "correct": 3
     },
     {
-      "question": "In computer architecture, what is 'Effective Access Time (EAT)' primarily used to quantify?",
+      "question": "Which characteristic primarily distinguishes Dynamic Random-Access Memory (DRAM) from Static Random-Access Memory (SRAM), necessitating periodic \"refresh\" operations for DRAM?",
       "options": [
-        "The maximum speed at which data can be transferred between memory and the CPU.",
-        "The total number of memory accesses performed by a program.",
-        "The average time taken to access a memory location, considering the presence and performance of the memory hierarchy (caches, main memory).",
-        "The latency of a single access to the fastest level of cache memory.",
-        "The time required for the CPU to switch between different processes."
+        "DRAM stores data using cross-coupled inverters, while SRAM uses capacitors.",
+        "DRAM is typically faster than SRAM.",
+        "DRAM is volatile, while SRAM is non-volatile.",
+        "DRAM stores data as charge in a capacitor, which leaks over time, unlike SRAM which uses latches.",
+        "DRAM requires more transistors per bit than SRAM."
       ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }

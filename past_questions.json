@@ -1,9 +1,4 @@
 [
-  "What does EDA stand for in the context of chip design and development?",
-  "In the digital IC design flow, what is the primary objective of 'Logic Synthesis'?",
-  "Which specialized hardware component, often part of a Memory Management Unit (MMU) in a CPU, is primarily responsible for caching recent virtual-to-physical address translations to speed up memory access?",
-  "In the physical design of high-speed digital integrated circuits, what phenomenon describes the unwanted signal interference between adjacent interconnect wires, primarily due to parasitic capacitive coupling, which can lead to logic errors and timing violations?",
-  "As a low-power design technique, what is the primary mechanism of 'power gating' in digital integrated circuits?",
   "In digital logic design, what is the primary function of a basic logic gate (e.g., AND, OR, NOT)?",
   "In the context of an Instruction Set Architecture (ISA), what does the \"opcode\" field within an instruction primarily specify?",
   "After the physical layout of an integrated circuit is complete, which verification step is crucial for ensuring that the implemented layout accurately matches the intended circuit schematic (netlist) by comparing connectivity and device properties?",
@@ -48,5 +43,10 @@
   "In the physical design flow of a digital integrated circuit, what does the term 'sign-off' primarily refer to?",
   "What is the main role of a Branch Predictor in a modern pipelined Central Processing Unit (CPU)?",
   "Which of the following describes the phenomenon where a transistor's threshold voltage changes due to variations in the voltage difference between its source and bulk (substrate)?",
-  "In computer architecture, what is 'Effective Access Time (EAT)' primarily used to quantify?"
+  "In computer architecture, what is 'Effective Access Time (EAT)' primarily used to quantify?",
+  "What does the acronym ASIC primarily represent in the context of chip design?",
+  "In a CPU pipeline, what is a \"stall\" (or \"bubble\") primarily used to prevent?",
+  "Which specialized circuit block is commonly used in System-on-Chip (SoC) designs to generate one or more output clock frequencies that are precise multiples or fractions of an input reference clock, often with phase alignment?",
+  "After the physical layout of an integrated circuit is completed, which crucial verification step involves checking the layout against a set of predefined rules (e.g., minimum width, minimum spacing, enclosure) to ensure manufacturability and electrical correctness?",
+  "Which characteristic primarily distinguishes Dynamic Random-Access Memory (DRAM) from Static Random-Access Memory (SRAM), necessitating periodic \"refresh\" operations for DRAM?"
 ]
