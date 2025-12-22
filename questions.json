@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does the acronym ASIC primarily represent in the context of chip design?",
+      "question": "What is the most widely used semiconductor material for fabricating integrated circuits in modern chip manufacturing?",
       "options": [
-        "Analog Signal Input Controller",
-        "Application-Specific Integrated Circuit",
-        "Asynchronous Sequential Instruction Chip",
-        "Automated System Integration Component",
-        "Advanced Sensor Interface Controller"
+        "Germanium",
+        "Copper",
+        "Silicon",
+        "Aluminum",
+        "Gold"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the digital IC design flow, what is the primary role of the \"synthesis\" stage?",
+      "options": [
+        "To convert a gate-level netlist into a physical layout.",
+        "To verify the timing performance of the physical layout.",
+        "To translate a high-level Register Transfer Level (RTL) description into an optimized gate-level netlist.",
+        "To simulate the behavior of the circuit under various test conditions.",
+        "To determine the optimal placement of standard cells on the chip."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In advanced low-power digital IC design, what is the primary purpose of \"power gating\"?",
+      "options": [
+        "To dynamically adjust the operating frequency of specific blocks based on workload.",
+        "To reduce dynamic power consumption by disabling clock signals to idle modules.",
+        "To completely shut off power to inactive circuit blocks, drastically reducing static leakage power.",
+        "To optimize the power delivery network by distributing power rails more efficiently.",
+        "To convert AC power into DC power for internal circuit operation."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In synchronous digital circuit design, what does the \"critical path\" primarily represent?",
+      "options": [
+        "The path with the fewest logic gates between two flip-flops.",
+        "The longest combinational delay path between any two sequentially clocked elements (or input/output ports), determining the maximum operating frequency.",
+        "The path that consumes the most dynamic power in the circuit.",
+        "The routing path that is most susceptible to electromagnetic interference.",
+        "The shortest signal propagation delay path in the entire chip."
       ],
       "correct": 1
     },
     {
-      "question": "In a CPU pipeline, what is a \"stall\" (or \"bubble\") primarily used to prevent?",
+      "question": "In computer architecture, what does an Instruction Set Architecture (ISA) fundamentally define?",
       "options": [
-        "Memory corruption errors",
-        "Instruction execution from completing too quickly",
-        "Data hazards and control hazards",
-        "Overheating of the CPU",
-        "Cache misses"
+        "The physical layout and interconnects of the processor chip.",
+        "The set of all micro-architectural optimizations implemented in a specific CPU design.",
+        "The abstract interface between the software (programmer) and the hardware (processor), including instructions, registers, and memory addressing modes.",
+        "The communication protocol used between the CPU and external memory devices.",
+        "The manufacturing process technology used to fabricate the CPU."
       ],
       "correct": 2
-    },
-    {
-      "question": "Which specialized circuit block is commonly used in System-on-Chip (SoC) designs to generate one or more output clock frequencies that are precise multiples or fractions of an input reference clock, often with phase alignment?",
-      "options": [
-        "Arithmetic Logic Unit (ALU)",
-        "Memory Management Unit (MMU)",
-        "Phase-Locked Loop (PLL)",
-        "Direct Memory Access (DMA) controller",
-        "Graphics Processing Unit (GPU)"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "After the physical layout of an integrated circuit is completed, which crucial verification step involves checking the layout against a set of predefined rules (e.g., minimum width, minimum spacing, enclosure) to ensure manufacturability and electrical correctness?",
-      "options": [
-        "Static Timing Analysis (STA)",
-        "Logic Synthesis",
-        "Equivalence Checking",
-        "Design Rule Checking (DRC)",
-        "Power Grid Analysis (PGA)"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Which characteristic primarily distinguishes Dynamic Random-Access Memory (DRAM) from Static Random-Access Memory (SRAM), necessitating periodic \"refresh\" operations for DRAM?",
-      "options": [
-        "DRAM stores data using cross-coupled inverters, while SRAM uses capacitors.",
-        "DRAM is typically faster than SRAM.",
-        "DRAM is volatile, while SRAM is non-volatile.",
-        "DRAM stores data as charge in a capacitor, which leaks over time, unlike SRAM which uses latches.",
-        "DRAM requires more transistors per bit than SRAM."
-      ],
-      "correct": 3
     }
   ]
 }
