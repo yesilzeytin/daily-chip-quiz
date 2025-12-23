@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the most widely used semiconductor material for fabricating integrated circuits in modern chip manufacturing?",
+      "question": "What is the primary purpose of an 'IP core' (Intellectual Property core) in modern System-on-Chip (SoC) design?",
       "options": [
-        "Germanium",
-        "Copper",
-        "Silicon",
-        "Aluminum",
-        "Gold"
+        "To perform physical layout verification checks.",
+        "To define the instruction set for a custom processor.",
+        "To provide pre-designed, reusable functional blocks for integration into a larger chip.",
+        "To generate clock signals for different domains on the chip.",
+        "To analyze the power consumption of a completed design."
       ],
       "correct": 2
     },
     {
-      "question": "In the digital IC design flow, what is the primary role of the \"synthesis\" stage?",
+      "question": "In synchronous digital design, what does the 'setup time' of a flip-flop primarily refer to?",
       "options": [
-        "To convert a gate-level netlist into a physical layout.",
-        "To verify the timing performance of the physical layout.",
-        "To translate a high-level Register Transfer Level (RTL) description into an optimized gate-level netlist.",
-        "To simulate the behavior of the circuit under various test conditions.",
-        "To determine the optimal placement of standard cells on the chip."
+        "The minimum time the input data must be held stable *after* the active clock edge.",
+        "The maximum time it takes for the clock signal to propagate from its source to the flip-flop.",
+        "The minimum time the input data must be stable *before* the active clock edge to be reliably captured.",
+        "The maximum delay through the combinational logic feeding the flip-flop.",
+        "The time required to reset the flip-flop to its initial state."
       ],
       "correct": 2
     },
     {
-      "question": "In advanced low-power digital IC design, what is the primary purpose of \"power gating\"?",
+      "question": "In a multi-processor system with private caches, what is the primary role of a 'cache coherence protocol'?",
       "options": [
-        "To dynamically adjust the operating frequency of specific blocks based on workload.",
-        "To reduce dynamic power consumption by disabling clock signals to idle modules.",
-        "To completely shut off power to inactive circuit blocks, drastically reducing static leakage power.",
-        "To optimize the power delivery network by distributing power rails more efficiently.",
-        "To convert AC power into DC power for internal circuit operation."
+        "To determine which block of data to evict when the cache is full.",
+        "To translate virtual addresses to physical addresses for cache access.",
+        "To ensure that all processors have a consistent view of shared memory, even when data is replicated in multiple caches.",
+        "To manage the flow of instructions through a pipeline.",
+        "To optimize the power consumption of the cache memory."
       ],
       "correct": 2
     },
     {
-      "question": "In synchronous digital circuit design, what does the \"critical path\" primarily represent?",
+      "question": "Which characteristic is a primary advantage of using an Application-Specific Integrated Circuit (ASIC) over a Field-Programmable Gate Array (FPGA) for high-volume production of a specific digital function?",
       "options": [
-        "The path with the fewest logic gates between two flip-flops.",
-        "The longest combinational delay path between any two sequentially clocked elements (or input/output ports), determining the maximum operating frequency.",
-        "The path that consumes the most dynamic power in the circuit.",
-        "The routing path that is most susceptible to electromagnetic interference.",
-        "The shortest signal propagation delay path in the entire chip."
+        "Re-programmability after manufacturing.",
+        "Faster time-to-market for initial prototyping.",
+        "Lower Non-Recurring Engineering (NRE) costs.",
+        "Significantly lower unit cost and higher performance/power efficiency.",
+        "Greater flexibility for in-field updates and bug fixes."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In computer architecture, what is the primary function of general-purpose registers within the CPU?",
+      "options": [
+        "To store the entire operating system kernel.",
+        "To provide a small, extremely fast storage area for data and addresses currently being manipulated by the CPU.",
+        "To manage the virtual memory mapping for processes.",
+        "To store programs on a long-term basis.",
+        "To handle input/output operations with peripheral devices."
       ],
       "correct": 1
-    },
-    {
-      "question": "In computer architecture, what does an Instruction Set Architecture (ISA) fundamentally define?",
-      "options": [
-        "The physical layout and interconnects of the processor chip.",
-        "The set of all micro-architectural optimizations implemented in a specific CPU design.",
-        "The abstract interface between the software (programmer) and the hardware (processor), including instructions, registers, and memory addressing modes.",
-        "The communication protocol used between the CPU and external memory devices.",
-        "The manufacturing process technology used to fabricate the CPU."
-      ],
-      "correct": 2
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
-  "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
-  "Which technique is primarily employed in digital IC design to ensure reliable data transfer and prevent metastability when signals cross between asynchronously clocked domains?",
-  "In the context of virtual memory management within a computer system, what is the primary function of a \"page table\"?",
-  "What is the main advantage of implementing a hierarchical memory system (e.g., registers, caches, main memory, secondary storage) in computer architecture?",
   "What is the fundamental component used to implement all logic functions (AND, OR, NOT) in CMOS digital circuits?",
   "What is the primary purpose of a 'test bench' in the context of digital IC design verification?",
   "In computer architecture, what is the primary role of the 'Control Unit' (CU) within a CPU?",
@@ -48,5 +43,10 @@
   "In the digital IC design flow, what is the primary role of the \"synthesis\" stage?",
   "In advanced low-power digital IC design, what is the primary purpose of \"power gating\"?",
   "In synchronous digital circuit design, what does the \"critical path\" primarily represent?",
-  "In computer architecture, what does an Instruction Set Architecture (ISA) fundamentally define?"
+  "In computer architecture, what does an Instruction Set Architecture (ISA) fundamentally define?",
+  "What is the primary purpose of an 'IP core' (Intellectual Property core) in modern System-on-Chip (SoC) design?",
+  "In synchronous digital design, what does the 'setup time' of a flip-flop primarily refer to?",
+  "In a multi-processor system with private caches, what is the primary role of a 'cache coherence protocol'?",
+  "Which characteristic is a primary advantage of using an Application-Specific Integrated Circuit (ASIC) over a Field-Programmable Gate Array (FPGA) for high-volume production of a specific digital function?",
+  "In computer architecture, what is the primary function of general-purpose registers within the CPU?"
 ]
