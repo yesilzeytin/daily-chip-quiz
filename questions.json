@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of an 'IP core' (Intellectual Property core) in modern System-on-Chip (SoC) design?",
+      "question": "Which mathematical system is foundational for digital logic design, providing the framework for representing and manipulating logic operations?",
       "options": [
-        "To perform physical layout verification checks.",
-        "To define the instruction set for a custom processor.",
-        "To provide pre-designed, reusable functional blocks for integration into a larger chip.",
-        "To generate clock signals for different domains on the chip.",
-        "To analyze the power consumption of a completed design."
+        "Calculus",
+        "Linear Algebra",
+        "Boolean Algebra",
+        "Differential Equations",
+        "Group Theory"
       ],
       "correct": 2
     },
     {
-      "question": "In synchronous digital design, what does the 'setup time' of a flip-flop primarily refer to?",
+      "question": "In computer architecture, what is the primary role of a \"register file\" within the Central Processing Unit (CPU)?",
       "options": [
-        "The minimum time the input data must be held stable *after* the active clock edge.",
-        "The maximum time it takes for the clock signal to propagate from its source to the flip-flop.",
-        "The minimum time the input data must be stable *before* the active clock edge to be reliably captured.",
-        "The maximum delay through the combinational logic feeding the flip-flop.",
-        "The time required to reset the flip-flop to its initial state."
+        "To manage virtual to physical memory address translation",
+        "To coordinate input/output (I/O) operations with peripherals",
+        "To store a collection of general-purpose registers for high-speed CPU access to frequently used data and addresses",
+        "To execute complex arithmetic and logic operations",
+        "To temporarily store microcode instructions before decoding"
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-processor system with private caches, what is the primary role of a 'cache coherence protocol'?",
+      "question": "In digital IC design, what does a \"Clock Domain Crossing (CDC)\" primarily refer to?",
       "options": [
-        "To determine which block of data to evict when the cache is full.",
-        "To translate virtual addresses to physical addresses for cache access.",
-        "To ensure that all processors have a consistent view of shared memory, even when data is replicated in multiple caches.",
-        "To manage the flow of instructions through a pipeline.",
-        "To optimize the power consumption of the cache memory."
+        "The physical path a clock signal takes across the silicon die",
+        "A synchronization problem arising when data is transferred between circuits operating on different, unsynchronized clock signals",
+        "A technique used to measure the propagation delay of a signal through multiple gates",
+        "The process of slowing down a clock signal for low-power operation",
+        "An architectural decision to use multiple CPUs with entirely separate clocks on an SoC"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "Which characteristic is a primary advantage of using an Application-Specific Integrated Circuit (ASIC) over a Field-Programmable Gate Array (FPGA) for high-volume production of a specific digital function?",
+      "question": "What is the primary goal of Static Timing Analysis (STA) in the digital IC design flow?",
       "options": [
-        "Re-programmability after manufacturing.",
-        "Faster time-to-market for initial prototyping.",
-        "Lower Non-Recurring Engineering (NRE) costs.",
-        "Significantly lower unit cost and higher performance/power efficiency.",
-        "Greater flexibility for in-field updates and bug fixes."
+        "To verify the functional correctness of the design by simulating all possible input vectors",
+        "To generate optimized physical layout data for manufacturing",
+        "To ensure that all power and ground connections are robust and sufficient",
+        "To determine if the circuit will operate correctly at its target clock frequency under all specified operating conditions (e.g., temperature, voltage)",
+        "To create a detailed power consumption report for the entire chip"
       ],
       "correct": 3
     },
     {
-      "question": "In computer architecture, what is the primary function of general-purpose registers within the CPU?",
+      "question": "In computer architecture, what is the primary purpose of an \"interrupt\" mechanism?",
       "options": [
-        "To store the entire operating system kernel.",
-        "To provide a small, extremely fast storage area for data and addresses currently being manipulated by the CPU.",
-        "To manage the virtual memory mapping for processes.",
-        "To store programs on a long-term basis.",
-        "To handle input/output operations with peripheral devices."
+        "To initiate the execution of a new program or process",
+        "To store temporary data during function calls or context switches",
+        "To signal the CPU that an event requiring its immediate attention (e.g., from an I/O device) has occurred, causing it to pause its current task and handle the event",
+        "To manage the flow of data between different levels of the memory hierarchy (e.g., cache to main memory)",
+        "To allocate physical memory pages to newly created processes"
       ],
-      "correct": 1
+      "correct": 2
     }
   ]
 }

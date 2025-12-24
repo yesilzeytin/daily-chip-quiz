@@ -1,9 +1,4 @@
 [
-  "What is the fundamental component used to implement all logic functions (AND, OR, NOT) in CMOS digital circuits?",
-  "What is the primary purpose of a 'test bench' in the context of digital IC design verification?",
-  "In computer architecture, what is the primary role of the 'Control Unit' (CU) within a CPU?",
-  "What is the primary purpose of Error-Correcting Code (ECC) memory in high-reliability systems?",
-  "What is the main benefit of employing 'virtual memory' in a computer system?",
   "What is the primary purpose of \"floorplanning\" in the physical design stage of an Application-Specific Integrated Circuit (ASIC) or custom IC?",
   "In cache memory systems, what is the primary advantage of a \"set-associative\" cache over a \"direct-mapped\" cache of the same total size?",
   "Which of the following best describes the phenomenon known as \"clock skew\" in synchronous digital circuits?",
@@ -48,5 +43,10 @@
   "In synchronous digital design, what does the 'setup time' of a flip-flop primarily refer to?",
   "In a multi-processor system with private caches, what is the primary role of a 'cache coherence protocol'?",
   "Which characteristic is a primary advantage of using an Application-Specific Integrated Circuit (ASIC) over a Field-Programmable Gate Array (FPGA) for high-volume production of a specific digital function?",
-  "In computer architecture, what is the primary function of general-purpose registers within the CPU?"
+  "In computer architecture, what is the primary function of general-purpose registers within the CPU?",
+  "Which mathematical system is foundational for digital logic design, providing the framework for representing and manipulating logic operations?",
+  "In computer architecture, what is the primary role of a \"register file\" within the Central Processing Unit (CPU)?",
+  "In digital IC design, what does a \"Clock Domain Crossing (CDC)\" primarily refer to?",
+  "What is the primary goal of Static Timing Analysis (STA) in the digital IC design flow?",
+  "In computer architecture, what is the primary purpose of an \"interrupt\" mechanism?"
 ]
