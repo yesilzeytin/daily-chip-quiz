@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which mathematical system is foundational for digital logic design, providing the framework for representing and manipulating logic operations?",
+      "question": "What is the fundamental building block of all digital circuits that performs a basic logical operation on one or more binary inputs to produce a single binary output?",
       "options": [
-        "Calculus",
-        "Linear Algebra",
-        "Boolean Algebra",
-        "Differential Equations",
-        "Group Theory"
+        "Transistor",
+        "Resistor",
+        "Logic Gate",
+        "Capacitor",
+        "Inductor"
       ],
       "correct": 2
     },
     {
-      "question": "In computer architecture, what is the primary role of a \"register file\" within the Central Processing Unit (CPU)?",
+      "question": "In a CPU pipeline, what type of hazard occurs when the outcome of a conditional branch instruction is not known until late in the pipeline, potentially requiring the pipeline to flush and restart if the prediction was incorrect?",
       "options": [
-        "To manage virtual to physical memory address translation",
-        "To coordinate input/output (I/O) operations with peripherals",
-        "To store a collection of general-purpose registers for high-speed CPU access to frequently used data and addresses",
-        "To execute complex arithmetic and logic operations",
-        "To temporarily store microcode instructions before decoding"
+        "Structural Hazard",
+        "Data Hazard",
+        "Control Hazard",
+        "Memory Hazard",
+        "Resource Hazard"
       ],
       "correct": 2
     },
     {
-      "question": "In digital IC design, what does a \"Clock Domain Crossing (CDC)\" primarily refer to?",
+      "question": "Which formal verification technique involves specifying desired circuit behavior using temporal logic properties (e.g., LTL or CTL) and then mathematically checking if the circuit's state machine model satisfies these properties for all possible inputs and states?",
       "options": [
-        "The physical path a clock signal takes across the silicon die",
-        "A synchronization problem arising when data is transferred between circuits operating on different, unsynchronized clock signals",
-        "A technique used to measure the propagation delay of a signal through multiple gates",
-        "The process of slowing down a clock signal for low-power operation",
-        "An architectural decision to use multiple CPUs with entirely separate clocks on an SoC"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary goal of Static Timing Analysis (STA) in the digital IC design flow?",
-      "options": [
-        "To verify the functional correctness of the design by simulating all possible input vectors",
-        "To generate optimized physical layout data for manufacturing",
-        "To ensure that all power and ground connections are robust and sufficient",
-        "To determine if the circuit will operate correctly at its target clock frequency under all specified operating conditions (e.g., temperature, voltage)",
-        "To create a detailed power consumption report for the entire chip"
+        "Regression Testing",
+        "Static Timing Analysis (STA)",
+        "Design Rule Checking (DRC)",
+        "Model Checking",
+        "Logic Simulation"
       ],
       "correct": 3
     },
     {
-      "question": "In computer architecture, what is the primary purpose of an \"interrupt\" mechanism?",
+      "question": "In a system employing virtual memory, what is the primary purpose of a \"Translation Lookaside Buffer\" (TLB)?",
       "options": [
-        "To initiate the execution of a new program or process",
-        "To store temporary data during function calls or context switches",
-        "To signal the CPU that an event requiring its immediate attention (e.g., from an I/O device) has occurred, causing it to pause its current task and handle the event",
-        "To manage the flow of data between different levels of the memory hierarchy (e.g., cache to main memory)",
-        "To allocate physical memory pages to newly created processes"
+        "To store frequently used CPU instructions for faster access.",
+        "To cache recent virtual-to-physical address translations.",
+        "To manage the flow of data between the CPU and I/O devices.",
+        "To provide an intermediate buffer for arithmetic logic unit (ALU) operations.",
+        "To store program counters for multiple threads."
       ],
-      "correct": 2
+      "correct": 1
+    },
+    {
+      "question": "In the context of ASIC design methodologies, what is the key characteristic that distinguishes a \"Standard Cell\" design from a \"Full Custom\" design?",
+      "options": [
+        "Standard cell designs are programmed in the field by the user, while full custom designs are mask-programmed during manufacturing.",
+        "Standard cell designs use pre-designed, characterized logic cells from a library, allowing for automated placement and routing, whereas full custom designs involve manual layout of every transistor.",
+        "Full custom designs always consume less power than standard cell designs due to superior optimization capabilities.",
+        "Standard cell designs are typically used for analog circuits, whereas full custom designs are exclusively for digital.",
+        "Full custom designs offer faster time-to-market compared to standard cell designs."
+      ],
+      "correct": 1
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of \"floorplanning\" in the physical design stage of an Application-Specific Integrated Circuit (ASIC) or custom IC?",
-  "In cache memory systems, what is the primary advantage of a \"set-associative\" cache over a \"direct-mapped\" cache of the same total size?",
-  "Which of the following best describes the phenomenon known as \"clock skew\" in synchronous digital circuits?",
-  "In a modern out-of-order superscalar processor, which of the following best describes the primary function of the \"Instruction Window\" (also known as the Reservation Station)?",
-  "Which advanced transistor technology is primarily characterized by a 3D gate structure that wraps around the channel on multiple sides, significantly improving electrostatic control and reducing leakage currents compared to planar transistors at smaller process nodes?",
   "What does FPGA stand for in the context of chip design?",
   "In the physical design stage of an Integrated Circuit, what is the primary objective of the \"placement\" step?",
   "In a classic five-stage RISC pipeline (Fetch, Decode, Execute, Memory, Write-back), what is the primary purpose of \"data forwarding\" (also known as bypassing)?",
@@ -48,5 +43,10 @@
   "In computer architecture, what is the primary role of a \"register file\" within the Central Processing Unit (CPU)?",
   "In digital IC design, what does a \"Clock Domain Crossing (CDC)\" primarily refer to?",
   "What is the primary goal of Static Timing Analysis (STA) in the digital IC design flow?",
-  "In computer architecture, what is the primary purpose of an \"interrupt\" mechanism?"
+  "In computer architecture, what is the primary purpose of an \"interrupt\" mechanism?",
+  "What is the fundamental building block of all digital circuits that performs a basic logical operation on one or more binary inputs to produce a single binary output?",
+  "In a CPU pipeline, what type of hazard occurs when the outcome of a conditional branch instruction is not known until late in the pipeline, potentially requiring the pipeline to flush and restart if the prediction was incorrect?",
+  "Which formal verification technique involves specifying desired circuit behavior using temporal logic properties (e.g., LTL or CTL) and then mathematically checking if the circuit's state machine model satisfies these properties for all possible inputs and states?",
+  "In a system employing virtual memory, what is the primary purpose of a \"Translation Lookaside Buffer\" (TLB)?",
+  "In the context of ASIC design methodologies, what is the key characteristic that distinguishes a \"Standard Cell\" design from a \"Full Custom\" design?"
 ]
