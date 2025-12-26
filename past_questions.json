@@ -1,9 +1,4 @@
 [
-  "What does FPGA stand for in the context of chip design?",
-  "In the physical design stage of an Integrated Circuit, what is the primary objective of the \"placement\" step?",
-  "In a classic five-stage RISC pipeline (Fetch, Decode, Execute, Memory, Write-back), what is the primary purpose of \"data forwarding\" (also known as bypassing)?",
-  "What is the primary objective of Dynamic Voltage and Frequency Scaling (DVFS) in modern processors and SoCs?",
-  "In a typical computer system, what is the primary function of \"main memory\" (often implemented with DRAM)?",
   "What is the primary role of a Register Transfer Level (RTL) description in the initial stages of digital IC design?",
   "What is the primary benefit of using instruction pipelining in a Central Processing Unit (CPU)?",
   "In the physical layout of a complex digital integrated circuit, what is the primary function of a robust power delivery network (often implemented as power grids or planes)?",
@@ -48,5 +43,10 @@
   "In a CPU pipeline, what type of hazard occurs when the outcome of a conditional branch instruction is not known until late in the pipeline, potentially requiring the pipeline to flush and restart if the prediction was incorrect?",
   "Which formal verification technique involves specifying desired circuit behavior using temporal logic properties (e.g., LTL or CTL) and then mathematically checking if the circuit's state machine model satisfies these properties for all possible inputs and states?",
   "In a system employing virtual memory, what is the primary purpose of a \"Translation Lookaside Buffer\" (TLB)?",
-  "In the context of ASIC design methodologies, what is the key characteristic that distinguishes a \"Standard Cell\" design from a \"Full Custom\" design?"
+  "In the context of ASIC design methodologies, what is the key characteristic that distinguishes a \"Standard Cell\" design from a \"Full Custom\" design?",
+  "What does Moore's Law primarily describe in the context of integrated circuits?",
+  "What is the fundamental difference between combinational logic and sequential logic circuits?",
+  "In computer architecture, what is the primary role of the Arithmetic Logic Unit (ALU)?",
+  "How does Near-Threshold Computing (NTC) primarily aim to reduce power consumption in digital circuits?",
+  "In digital IC design verification, what is the primary purpose of an assertion (e.g., using SystemVerilog Assertions - SVA)?"
 ]

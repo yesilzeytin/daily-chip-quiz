@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block of all digital circuits that performs a basic logical operation on one or more binary inputs to produce a single binary output?",
+      "question": "What does Moore's Law primarily describe in the context of integrated circuits?",
       "options": [
-        "Transistor",
-        "Resistor",
-        "Logic Gate",
-        "Capacitor",
-        "Inductor"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a CPU pipeline, what type of hazard occurs when the outcome of a conditional branch instruction is not known until late in the pipeline, potentially requiring the pipeline to flush and restart if the prediction was incorrect?",
-      "options": [
-        "Structural Hazard",
-        "Data Hazard",
-        "Control Hazard",
-        "Memory Hazard",
-        "Resource Hazard"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which formal verification technique involves specifying desired circuit behavior using temporal logic properties (e.g., LTL or CTL) and then mathematically checking if the circuit's state machine model satisfies these properties for all possible inputs and states?",
-      "options": [
-        "Regression Testing",
-        "Static Timing Analysis (STA)",
-        "Design Rule Checking (DRC)",
-        "Model Checking",
-        "Logic Simulation"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a system employing virtual memory, what is the primary purpose of a \"Translation Lookaside Buffer\" (TLB)?",
-      "options": [
-        "To store frequently used CPU instructions for faster access.",
-        "To cache recent virtual-to-physical address translations.",
-        "To manage the flow of data between the CPU and I/O devices.",
-        "To provide an intermediate buffer for arithmetic logic unit (ALU) operations.",
-        "To store program counters for multiple threads."
+        "The rate at which the clock frequency of processors increases.",
+        "The observation that the number of transistors on a microchip doubles approximately every two years.",
+        "The decrease in power consumption of integrated circuits over time.",
+        "The maximum operating temperature of semiconductor devices.",
+        "The increase in the physical size of semiconductor wafers."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of ASIC design methodologies, what is the key characteristic that distinguishes a \"Standard Cell\" design from a \"Full Custom\" design?",
+      "question": "What is the fundamental difference between combinational logic and sequential logic circuits?",
       "options": [
-        "Standard cell designs are programmed in the field by the user, while full custom designs are mask-programmed during manufacturing.",
-        "Standard cell designs use pre-designed, characterized logic cells from a library, allowing for automated placement and routing, whereas full custom designs involve manual layout of every transistor.",
-        "Full custom designs always consume less power than standard cell designs due to superior optimization capabilities.",
-        "Standard cell designs are typically used for analog circuits, whereas full custom designs are exclusively for digital.",
-        "Full custom designs offer faster time-to-market compared to standard cell designs."
+        "Combinational circuits process analog signals, while sequential circuits process digital signals.",
+        "Combinational circuits have memory elements and their output depends on current and past inputs, while sequential circuits do not.",
+        "Sequential circuits have memory elements and their output depends on current and past inputs, while combinational circuits do not and their output depends only on current inputs.",
+        "Combinational circuits are used for arithmetic operations, while sequential circuits are used for control operations.",
+        "Sequential circuits are faster than combinational circuits due to their feedback paths."
       ],
-      "correct": 1
+      "correct": 2
+    },
+    {
+      "question": "In computer architecture, what is the primary role of the Arithmetic Logic Unit (ALU)?",
+      "options": [
+        "To manage memory access and address translation.",
+        "To control the flow of instructions within the CPU.",
+        "To perform arithmetic operations (e.g., addition, subtraction) and bitwise logical operations (e.g., AND, OR, XOR).",
+        "To store program instructions before execution.",
+        "To handle input/output operations for peripheral devices."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "How does Near-Threshold Computing (NTC) primarily aim to reduce power consumption in digital circuits?",
+      "options": [
+        "By aggressively increasing the supply voltage to speed up operations and finish tasks faster.",
+        "By operating transistors at voltages significantly above their threshold voltage to minimize leakage.",
+        "By operating transistors at supply voltages very close to their threshold voltage, trading off performance for quadratic power savings.",
+        "By completely shutting down idle circuit blocks through power gating.",
+        "By using advanced cooling techniques to lower the chip's operating temperature."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In digital IC design verification, what is the primary purpose of an assertion (e.g., using SystemVerilog Assertions - SVA)?",
+      "options": [
+        "To describe the structural connectivity of gates and flip-flops in a netlist.",
+        "To define the physical layout constraints for placement and routing tools.",
+        "To formally specify and monitor expected behavior or properties of a design, flagging deviations during simulation or formal verification.",
+        "To generate test vectors automatically for manufacturing test.",
+        "To synthesize high-level RTL code into gate-level netlists."
+      ],
+      "correct": 2
     }
   ]
 }
