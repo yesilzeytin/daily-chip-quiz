@@ -1,9 +1,4 @@
 [
-  "What is the primary role of a Register Transfer Level (RTL) description in the initial stages of digital IC design?",
-  "What is the primary benefit of using instruction pipelining in a Central Processing Unit (CPU)?",
-  "In the physical layout of a complex digital integrated circuit, what is the primary function of a robust power delivery network (often implemented as power grids or planes)?",
-  "In digital logic circuits, what is the primary function of a multiplexer (MUX)?",
-  "What is the primary function of the Memory Management Unit (MMU) in a modern CPU?",
   "What is the primary purpose of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
   "In a computer's memory hierarchy, which cache replacement policy typically involves tracking the usage history of cache lines and evicting the line that has not been accessed for the longest period of time?",
   "In the physical design flow of a digital integrated circuit, what is the main objective of the 'Routing' stage?",
@@ -48,5 +43,10 @@
   "What is the fundamental difference between combinational logic and sequential logic circuits?",
   "In computer architecture, what is the primary role of the Arithmetic Logic Unit (ALU)?",
   "How does Near-Threshold Computing (NTC) primarily aim to reduce power consumption in digital circuits?",
-  "In digital IC design verification, what is the primary purpose of an assertion (e.g., using SystemVerilog Assertions - SVA)?"
+  "In digital IC design verification, what is the primary purpose of an assertion (e.g., using SystemVerilog Assertions - SVA)?",
+  "What is the primary function of a clock signal in synchronous digital circuits?",
+  "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture?",
+  "What is the primary role of 'functional simulation' in the front-end digital IC design flow?",
+  "What is dynamic voltage and frequency scaling (DVFS) primarily used for in modern processors?",
+  "In chip design reliability, what does 'Electromigration' primarily refer to?"
 ]

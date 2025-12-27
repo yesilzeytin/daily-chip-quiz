@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does Moore's Law primarily describe in the context of integrated circuits?",
+      "question": "What is the primary function of a clock signal in synchronous digital circuits?",
       "options": [
-        "The rate at which the clock frequency of processors increases.",
-        "The observation that the number of transistors on a microchip doubles approximately every two years.",
-        "The decrease in power consumption of integrated circuits over time.",
-        "The maximum operating temperature of semiconductor devices.",
-        "The increase in the physical size of semiconductor wafers."
+        "To synchronize the operations of all sequential elements and control data flow.",
+        "To provide the main power supply for the entire integrated circuit.",
+        "To detect and correct errors in data transmission.",
+        "To store temporary data values within the circuit.",
+        "To generate random numbers for cryptographic applications."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "What is the fundamental difference between combinational logic and sequential logic circuits?",
+      "question": "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture?",
       "options": [
-        "Combinational circuits process analog signals, while sequential circuits process digital signals.",
-        "Combinational circuits have memory elements and their output depends on current and past inputs, while sequential circuits do not.",
-        "Sequential circuits have memory elements and their output depends on current and past inputs, while combinational circuits do not and their output depends only on current inputs.",
-        "Combinational circuits are used for arithmetic operations, while sequential circuits are used for control operations.",
-        "Sequential circuits are faster than combinational circuits due to their feedback paths."
+        "Harvard architecture uses separate memory spaces and buses for instructions and data, while Von Neumann uses a single shared memory space and bus.",
+        "Harvard architecture utilizes a RISC instruction set, whereas Von Neumann architecture employs a CISC instruction set.",
+        "Harvard architecture is optimized for single-core processors, while Von Neumann architecture is designed for multi-core systems.",
+        "Harvard architecture always incorporates a GPU, which is absent in Von Neumann architecture.",
+        "Harvard architecture relies on virtual memory, a feature not present in Von Neumann architecture."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In computer architecture, what is the primary role of the Arithmetic Logic Unit (ALU)?",
+      "question": "What is the primary role of 'functional simulation' in the front-end digital IC design flow?",
       "options": [
-        "To manage memory access and address translation.",
-        "To control the flow of instructions within the CPU.",
-        "To perform arithmetic operations (e.g., addition, subtraction) and bitwise logical operations (e.g., AND, OR, XOR).",
-        "To store program instructions before execution.",
-        "To handle input/output operations for peripheral devices."
+        "To verify the logical correctness and behavior of the design against its specification before physical implementation.",
+        "To determine the precise timing delays and critical paths of the synthesized circuit.",
+        "To convert the high-level RTL design into a gate-level netlist.",
+        "To physically place and route standard cells on the silicon die.",
+        "To generate the final GDSII file for chip manufacturing."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "How does Near-Threshold Computing (NTC) primarily aim to reduce power consumption in digital circuits?",
+      "question": "What is dynamic voltage and frequency scaling (DVFS) primarily used for in modern processors?",
       "options": [
-        "By aggressively increasing the supply voltage to speed up operations and finish tasks faster.",
-        "By operating transistors at voltages significantly above their threshold voltage to minimize leakage.",
-        "By operating transistors at supply voltages very close to their threshold voltage, trading off performance for quadratic power savings.",
-        "By completely shutting down idle circuit blocks through power gating.",
-        "By using advanced cooling techniques to lower the chip's operating temperature."
+        "To dynamically adjust the processor's operating voltage and frequency to manage power consumption and heat dissipation.",
+        "To ensure memory consistency across multiple processor cores.",
+        "To increase the processor's manufacturing yield by compensating for silicon variations.",
+        "To simplify the physical layout complexity of the chip's power delivery network.",
+        "To accelerate the execution of floating-point operations."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In digital IC design verification, what is the primary purpose of an assertion (e.g., using SystemVerilog Assertions - SVA)?",
+      "question": "In chip design reliability, what does 'Electromigration' primarily refer to?",
       "options": [
-        "To describe the structural connectivity of gates and flip-flops in a netlist.",
-        "To define the physical layout constraints for placement and routing tools.",
-        "To formally specify and monitor expected behavior or properties of a design, flagging deviations during simulation or formal verification.",
-        "To generate test vectors automatically for manufacturing test.",
-        "To synthesize high-level RTL code into gate-level netlists."
+        "The transport of material in a conductor due to the momentum transfer from conducting electrons, potentially leading to opens or shorts.",
+        "The phenomenon where electronic components emit electromagnetic radiation, causing interference with other devices.",
+        "The process of creating very small electrical charges on the surface of the silicon substrate.",
+        "A technique used to inject electrons into a transistor's gate oxide to alter its threshold voltage.",
+        "The movement of packaging materials during the final assembly of the integrated circuit."
       ],
-      "correct": 2
+      "correct": 0
     }
   ]
 }
