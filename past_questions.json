@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
-  "In a computer's memory hierarchy, which cache replacement policy typically involves tracking the usage history of cache lines and evicting the line that has not been accessed for the longest period of time?",
-  "In the physical design flow of a digital integrated circuit, what is the main objective of the 'Routing' stage?",
-  "In modern processor architectures, what is the primary mechanism that allows a superscalar processor to execute multiple instructions in a single clock cycle, even if some instructions have dependencies, by dispatching them to available execution units as their operands become ready?",
-  "Which of the following best describes the primary goal of Design for Testability (DFT) techniques in digital IC design?",
   "What is the primary characteristic of a digital circuit implemented using Complementary Metal-Oxide-Semiconductor (CMOS) technology regarding its static power consumption?",
   "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
   "Which formal verification technique is primarily used to mathematically prove that two different representations of a digital circuit (e.g., RTL code and a gate-level netlist after synthesis) implement the exact same functionality?",
@@ -48,5 +43,10 @@
   "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture?",
   "What is the primary role of 'functional simulation' in the front-end digital IC design flow?",
   "What is dynamic voltage and frequency scaling (DVFS) primarily used for in modern processors?",
-  "In chip design reliability, what does 'Electromigration' primarily refer to?"
+  "In chip design reliability, what does 'Electromigration' primarily refer to?",
+  "What is the primary purpose of a 'technology library' (also known as a standard cell library) in the context of digital IC design synthesis?",
+  "In a pipelined processor, what is the primary technique used to mitigate data hazards (RAW dependencies) by directly passing the result of an instruction from one pipeline stage to an earlier stage, bypassing the register file write-back?",
+  "What is the main distinction between 'clock gating' and 'power gating' as low-power design techniques in digital integrated circuits?",
+  "In the context of computer architecture, what kind of cache miss occurs when a block is evicted from the cache to make room for another block, and then the evicted block is needed again later, even if the cache has enough total capacity to hold all blocks required by the program if they were mapped differently (e.g., in a fully associative cache)?",
+  "What is the primary function of the Memory Management Unit (MMU) in a computer system?"
 ]

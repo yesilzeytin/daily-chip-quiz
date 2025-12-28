@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a clock signal in synchronous digital circuits?",
+      "question": "What is the primary purpose of a 'technology library' (also known as a standard cell library) in the context of digital IC design synthesis?",
       "options": [
-        "To synchronize the operations of all sequential elements and control data flow.",
-        "To provide the main power supply for the entire integrated circuit.",
-        "To detect and correct errors in data transmission.",
-        "To store temporary data values within the circuit.",
-        "To generate random numbers for cryptographic applications."
+        "To provide a set of pre-designed and characterized basic logic gates, flip-flops, and other cells specific to a foundry's manufacturing process.",
+        "To define the high-level behavioral model of the entire System-on-Chip (SoC) for architectural exploration.",
+        "To specify the power supply voltages and current requirements for the integrated circuit.",
+        "To generate the physical layout routing paths between different functional blocks on the chip.",
+        "To simulate the post-layout timing performance of the digital circuit under various environmental conditions."
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture?",
+      "question": "In a pipelined processor, what is the primary technique used to mitigate data hazards (RAW dependencies) by directly passing the result of an instruction from one pipeline stage to an earlier stage, bypassing the register file write-back?",
       "options": [
-        "Harvard architecture uses separate memory spaces and buses for instructions and data, while Von Neumann uses a single shared memory space and bus.",
-        "Harvard architecture utilizes a RISC instruction set, whereas Von Neumann architecture employs a CISC instruction set.",
-        "Harvard architecture is optimized for single-core processors, while Von Neumann architecture is designed for multi-core systems.",
-        "Harvard architecture always incorporates a GPU, which is absent in Von Neumann architecture.",
-        "Harvard architecture relies on virtual memory, a feature not present in Von Neumann architecture."
+        "Branch Prediction",
+        "Out-of-Order Execution",
+        "Data Forwarding (or Bypassing)",
+        "Memory Hierarchy Management",
+        "Cache Coherence Protocols"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "What is the primary role of 'functional simulation' in the front-end digital IC design flow?",
+      "question": "What is the main distinction between 'clock gating' and 'power gating' as low-power design techniques in digital integrated circuits?",
       "options": [
-        "To verify the logical correctness and behavior of the design against its specification before physical implementation.",
-        "To determine the precise timing delays and critical paths of the synthesized circuit.",
-        "To convert the high-level RTL design into a gate-level netlist.",
-        "To physically place and route standard cells on the silicon die.",
-        "To generate the final GDSII file for chip manufacturing."
+        "Clock gating completely cuts off the power supply to inactive blocks, while power gating disables the clock signal to them.",
+        "Clock gating reduces dynamic power by preventing unnecessary clock toggles, while power gating reduces static power by turning off power rails to inactive blocks.",
+        "Clock gating is applied only to combinational logic, whereas power gating is applied only to sequential logic.",
+        "Clock gating requires additional external control signals, while power gating is managed entirely by internal logic.",
+        "Clock gating aims to improve performance, while power gating focuses on improving reliability."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "What is dynamic voltage and frequency scaling (DVFS) primarily used for in modern processors?",
+      "question": "In the context of computer architecture, what kind of cache miss occurs when a block is evicted from the cache to make room for another block, and then the evicted block is needed again later, even if the cache has enough total capacity to hold all blocks required by the program if they were mapped differently (e.g., in a fully associative cache)?",
       "options": [
-        "To dynamically adjust the processor's operating voltage and frequency to manage power consumption and heat dissipation.",
-        "To ensure memory consistency across multiple processor cores.",
-        "To increase the processor's manufacturing yield by compensating for silicon variations.",
-        "To simplify the physical layout complexity of the chip's power delivery network.",
-        "To accelerate the execution of floating-point operations."
+        "Compulsory Miss",
+        "Capacity Miss",
+        "Conflict Miss",
+        "Coherence Miss",
+        "Translation Lookaside Buffer (TLB) Miss"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In chip design reliability, what does 'Electromigration' primarily refer to?",
+      "question": "What is the primary function of the Memory Management Unit (MMU) in a computer system?",
       "options": [
-        "The transport of material in a conductor due to the momentum transfer from conducting electrons, potentially leading to opens or shorts.",
-        "The phenomenon where electronic components emit electromagnetic radiation, causing interference with other devices.",
-        "The process of creating very small electrical charges on the surface of the silicon substrate.",
-        "A technique used to inject electrons into a transistor's gate oxide to alter its threshold voltage.",
-        "The movement of packaging materials during the final assembly of the integrated circuit."
+        "To manage and allocate processor registers for instruction execution.",
+        "To translate virtual addresses generated by the CPU into physical addresses in main memory.",
+        "To coordinate data transfers between the CPU and I/O devices.",
+        "To control the timing and synchronization of all memory operations.",
+        "To detect and correct errors in data stored within main memory."
       ],
-      "correct": 0
+      "correct": 1
     }
   ]
 }
