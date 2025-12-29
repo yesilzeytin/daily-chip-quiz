@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic of a digital circuit implemented using Complementary Metal-Oxide-Semiconductor (CMOS) technology regarding its static power consumption?",
-  "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
-  "Which formal verification technique is primarily used to mathematically prove that two different representations of a digital circuit (e.g., RTL code and a gate-level netlist after synthesis) implement the exact same functionality?",
-  "In the physical verification stage of IC design, what is the primary purpose of \"RC extraction\"?",
-  "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?",
   "What is the primary function of a semiconductor foundry in the context of chip manufacturing?",
   "In the physical design flow of a digital integrated circuit, what does the term 'sign-off' primarily refer to?",
   "What is the main role of a Branch Predictor in a modern pipelined Central Processing Unit (CPU)?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, what is the primary technique used to mitigate data hazards (RAW dependencies) by directly passing the result of an instruction from one pipeline stage to an earlier stage, bypassing the register file write-back?",
   "What is the main distinction between 'clock gating' and 'power gating' as low-power design techniques in digital integrated circuits?",
   "In the context of computer architecture, what kind of cache miss occurs when a block is evicted from the cache to make room for another block, and then the evicted block is needed again later, even if the cache has enough total capacity to hold all blocks required by the program if they were mapped differently (e.g., in a fully associative cache)?",
-  "What is the primary function of the Memory Management Unit (MMU) in a computer system?"
+  "What is the primary function of the Memory Management Unit (MMU) in a computer system?",
+  "What is the primary abstraction level used for describing the functional behavior of a digital circuit before synthesis in the ASIC design flow?",
+  "Which cache mapping policy offers the highest flexibility in placing a memory block anywhere in the cache but requires the most complex hardware for address lookup?",
+  "During the post-synthesis or post-layout stages of digital IC design, which type of simulation incorporates propagation delays and interconnect parasitics to verify timing correctness in addition to functional behavior?",
+  "In modern deep submicron IC manufacturing, what is the primary challenge associated with the increasing variability of process parameters across different dies and even within a single die, leading to potential performance and power deviations?",
+  "In advanced digital IC verification, what is the primary purpose of 'functional coverage'?"
 ]
