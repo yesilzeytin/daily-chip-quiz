@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a semiconductor foundry in the context of chip manufacturing?",
-  "In the physical design flow of a digital integrated circuit, what does the term 'sign-off' primarily refer to?",
-  "What is the main role of a Branch Predictor in a modern pipelined Central Processing Unit (CPU)?",
-  "Which of the following describes the phenomenon where a transistor's threshold voltage changes due to variations in the voltage difference between its source and bulk (substrate)?",
-  "In computer architecture, what is 'Effective Access Time (EAT)' primarily used to quantify?",
   "What does the acronym ASIC primarily represent in the context of chip design?",
   "In a CPU pipeline, what is a \"stall\" (or \"bubble\") primarily used to prevent?",
   "Which specialized circuit block is commonly used in System-on-Chip (SoC) designs to generate one or more output clock frequencies that are precise multiples or fractions of an input reference clock, often with phase alignment?",
@@ -48,5 +43,10 @@
   "Which cache mapping policy offers the highest flexibility in placing a memory block anywhere in the cache but requires the most complex hardware for address lookup?",
   "During the post-synthesis or post-layout stages of digital IC design, which type of simulation incorporates propagation delays and interconnect parasitics to verify timing correctness in addition to functional behavior?",
   "In modern deep submicron IC manufacturing, what is the primary challenge associated with the increasing variability of process parameters across different dies and even within a single die, leading to potential performance and power deviations?",
-  "In advanced digital IC verification, what is the primary purpose of 'functional coverage'?"
+  "In advanced digital IC verification, what is the primary purpose of 'functional coverage'?",
+  "What is the primary advantage of FinFET (Fin Field-Effect Transistor) devices over traditional planar MOSFETs in modern deep submicron technology nodes?",
+  "In the context of digital Integrated Circuit (IC) design, what is the main purpose of inserting 'scan chains' during the Design for Testability (DFT) phase?",
+  "In a multi-processor system with private caches, what is the fundamental characteristic that distinguishes a 'snooping' cache coherence protocol from a 'directory-based' protocol?",
+  "Which formal verification technique specifically focuses on mathematically proving that two different representations of a digital circuit (e.g., a Register-Transfer Level (RTL) description and a synthesized gate-level netlist) are functionally equivalent?",
+  "What is the primary advantage of using a floating-point number representation (like the IEEE 754 standard) over a fixed-point representation in computer architecture?"
 ]

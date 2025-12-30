@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary abstraction level used for describing the functional behavior of a digital circuit before synthesis in the ASIC design flow?",
+      "question": "What is the primary advantage of FinFET (Fin Field-Effect Transistor) devices over traditional planar MOSFETs in modern deep submicron technology nodes?",
       "options": [
-        "Gate-level netlist",
-        "Physical layout",
-        "Register Transfer Level (RTL)",
-        "Transistor-level schematic",
-        "Hardware Description Language (HDL) library"
+        "Reduced short-channel effects and improved electrostatic control of the channel.",
+        "Significantly lower manufacturing cost due to simpler fabrication processes.",
+        "Elimination of the need for a gate dielectric material.",
+        "Increased parasitic capacitance, leading to faster switching speeds.",
+        "Higher leakage current in the 'off' state, allowing for dynamic power savings."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "Which cache mapping policy offers the highest flexibility in placing a memory block anywhere in the cache but requires the most complex hardware for address lookup?",
+      "question": "In the context of digital Integrated Circuit (IC) design, what is the main purpose of inserting 'scan chains' during the Design for Testability (DFT) phase?",
       "options": [
-        "Direct-mapped cache",
-        "Set-associative cache",
-        "Fully associative cache",
-        "N-way associative cache",
-        "Victim cache"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "During the post-synthesis or post-layout stages of digital IC design, which type of simulation incorporates propagation delays and interconnect parasitics to verify timing correctness in addition to functional behavior?",
-      "options": [
-        "Behavioral simulation",
-        "Functional simulation",
-        "Logic simulation",
-        "Timing simulation",
-        "Formal verification"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In modern deep submicron IC manufacturing, what is the primary challenge associated with the increasing variability of process parameters across different dies and even within a single die, leading to potential performance and power deviations?",
-      "options": [
-        "Decreased mask costs",
-        "Improved wafer uniformity",
-        "Enhanced voltage scaling limits",
-        "Increased design variability",
-        "Reduced gate leakage current"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In advanced digital IC verification, what is the primary purpose of 'functional coverage'?",
-      "options": [
-        "To measure the percentage of code lines executed during simulation.",
-        "To ensure that all design features and specified behaviors have been exercised by the testbench.",
-        "To verify the power consumption of the design.",
-        "To track the number of test vectors applied.",
-        "To identify physical design rule violations."
+        "To reduce the overall power consumption of the circuit during normal functional operation.",
+        "To allow for the easy observation and control of internal register states, simplifying fault detection and diagnosis.",
+        "To improve the circuit's performance by shortening the critical path delay.",
+        "To facilitate the implementation of dynamic voltage and frequency scaling (DVFS) techniques.",
+        "To encrypt sensitive design data and prevent intellectual property theft."
       ],
       "correct": 1
+    },
+    {
+      "question": "In a multi-processor system with private caches, what is the fundamental characteristic that distinguishes a 'snooping' cache coherence protocol from a 'directory-based' protocol?",
+      "options": [
+        "Snooping protocols use a central, shared memory controller to arbitrate all cache line requests, while directory protocols decentralize this control.",
+        "Directory protocols are typically used in smaller-scale systems due to their high bus bandwidth requirements, whereas snooping scales better for very large core counts.",
+        "Snooping protocols rely on broadcasting cache-related transactions over a shared bus that all caches observe, while directory protocols maintain a distributed record of which caches hold copies of each memory block.",
+        "Snooping protocols are inherently simpler to implement but suffer from significantly higher latency for cache misses compared to directory protocols.",
+        "Directory protocols exclusively utilize a write-through cache policy, whereas snooping protocols always use write-back."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which formal verification technique specifically focuses on mathematically proving that two different representations of a digital circuit (e.g., a Register-Transfer Level (RTL) description and a synthesized gate-level netlist) are functionally equivalent?",
+      "options": [
+        "Constrained Random Simulation (CRS)",
+        "Equivalence Checking (EC)",
+        "Assertion-Based Verification (ABV)",
+        "Emulation",
+        "Static Timing Analysis (STA)"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary advantage of using a floating-point number representation (like the IEEE 754 standard) over a fixed-point representation in computer architecture?",
+      "options": [
+        "It always results in faster arithmetic operations for all types of calculations.",
+        "It simplifies the hardware implementation of basic arithmetic units significantly.",
+        "It provides a much wider dynamic range and greater precision for representing very small or very large numbers.",
+        "It requires less memory storage space for a given number of bits compared to fixed-point.",
+        "It completely eliminates all forms of rounding and truncation errors in computations."
+      ],
+      "correct": 2
     }
   ]
 }
