@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary advantage of FinFET (Fin Field-Effect Transistor) devices over traditional planar MOSFETs in modern deep submicron technology nodes?",
+      "question": "In the digital IC design flow, what does a \"netlist\" primarily represent?",
       "options": [
-        "Reduced short-channel effects and improved electrostatic control of the channel.",
-        "Significantly lower manufacturing cost due to simpler fabrication processes.",
-        "Elimination of the need for a gate dielectric material.",
-        "Increased parasitic capacitance, leading to faster switching speeds.",
-        "Higher leakage current in the 'off' state, allowing for dynamic power savings."
+        "A description of the connectivity between logic gates and components, typically in a hardware description language or a vendor-specific format.",
+        "A graphical representation of the physical layout of transistors on a silicon die.",
+        "The timing report indicating critical paths and slack values after static timing analysis.",
+        "A high-level behavioral model of the circuit's functionality without implementation details.",
+        "The power consumption profile across different operating frequencies."
       ],
       "correct": 0
     },
     {
-      "question": "In the context of digital Integrated Circuit (IC) design, what is the main purpose of inserting 'scan chains' during the Design for Testability (DFT) phase?",
+      "question": "In the physical design stage of an Integrated Circuit (IC), what is the primary goal of \"placement and routing\"?",
       "options": [
-        "To reduce the overall power consumption of the circuit during normal functional operation.",
-        "To allow for the easy observation and control of internal register states, simplifying fault detection and diagnosis.",
-        "To improve the circuit's performance by shortening the critical path delay.",
-        "To facilitate the implementation of dynamic voltage and frequency scaling (DVFS) techniques.",
-        "To encrypt sensitive design data and prevent intellectual property theft."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a multi-processor system with private caches, what is the fundamental characteristic that distinguishes a 'snooping' cache coherence protocol from a 'directory-based' protocol?",
-      "options": [
-        "Snooping protocols use a central, shared memory controller to arbitrate all cache line requests, while directory protocols decentralize this control.",
-        "Directory protocols are typically used in smaller-scale systems due to their high bus bandwidth requirements, whereas snooping scales better for very large core counts.",
-        "Snooping protocols rely on broadcasting cache-related transactions over a shared bus that all caches observe, while directory protocols maintain a distributed record of which caches hold copies of each memory block.",
-        "Snooping protocols are inherently simpler to implement but suffer from significantly higher latency for cache misses compared to directory protocols.",
-        "Directory protocols exclusively utilize a write-through cache policy, whereas snooping protocols always use write-back."
+        "To verify the logical correctness of the RTL design against its specification.",
+        "To allocate CPU registers for optimal performance in a processor core.",
+        "To position logic cells (standard cells, macros) on the chip and connect them with physical wires while meeting timing, area, and power constraints.",
+        "To generate a test pattern sequence for manufacturing defect detection.",
+        "To synthesize the high-level RTL code into a gate-level netlist."
       ],
       "correct": 2
     },
     {
-      "question": "Which formal verification technique specifically focuses on mathematically proving that two different representations of a digital circuit (e.g., a Register-Transfer Level (RTL) description and a synthesized gate-level netlist) are functionally equivalent?",
+      "question": "What is the primary advantage of a \"hardwired control unit\" over a \"microprogrammed control unit\" in a Central Processing Unit (CPU)?",
       "options": [
-        "Constrained Random Simulation (CRS)",
-        "Equivalence Checking (EC)",
-        "Assertion-Based Verification (ABV)",
-        "Emulation",
-        "Static Timing Analysis (STA)"
+        "Greater flexibility for modifying the instruction set without hardware changes.",
+        "Simpler to design and debug complex control logic for new instructions.",
+        "Faster execution speed due to direct implementation of control signals via combinational logic.",
+        "Requires less hardware (fewer gates) for complex instruction sets.",
+        "Offers better support for dynamic instruction scheduling and out-of-order execution."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "What is the primary advantage of using a floating-point number representation (like the IEEE 754 standard) over a fixed-point representation in computer architecture?",
+      "question": "What is the primary challenge that Clock Tree Synthesis (CTS) aims to address in high-performance synchronous digital designs?",
       "options": [
-        "It always results in faster arithmetic operations for all types of calculations.",
-        "It simplifies the hardware implementation of basic arithmetic units significantly.",
-        "It provides a much wider dynamic range and greater precision for representing very small or very large numbers.",
-        "It requires less memory storage space for a given number of bits compared to fixed-point.",
-        "It completely eliminates all forms of rounding and truncation errors in computations."
+        "Ensuring all functional blocks operate on different clock frequencies for asynchronous communication.",
+        "Minimizing the total number of flip-flops and latches used in the design to reduce area.",
+        "Reducing the power consumed by combinational logic gates during active operation.",
+        "Distributing the clock signal to all sequential elements with minimal skew and insertion delay, while maintaining signal integrity.",
+        "Automatically generating test vectors for Stuck-At faults during manufacturing."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In modern System-on-Chip (SoC) design, what is the primary purpose of a Direct Memory Access (DMA) controller?",
+      "options": [
+        "To translate virtual memory addresses to physical memory addresses.",
+        "To ensure data consistency across multiple CPU caches in a multi-core system.",
+        "To allow peripheral devices (e.g., network cards, storage controllers) to transfer data directly to and from main memory without involving the CPU.",
+        "To manage and prioritize interrupt requests from various I/O devices.",
+        "To perform arithmetic and logical operations on data fetched from memory."
       ],
       "correct": 2
     }
