@@ -1,9 +1,4 @@
 [
-  "What is the most widely used semiconductor material for fabricating integrated circuits in modern chip manufacturing?",
-  "In the digital IC design flow, what is the primary role of the \"synthesis\" stage?",
-  "In advanced low-power digital IC design, what is the primary purpose of \"power gating\"?",
-  "In synchronous digital circuit design, what does the \"critical path\" primarily represent?",
-  "In computer architecture, what does an Instruction Set Architecture (ISA) fundamentally define?",
   "What is the primary purpose of an 'IP core' (Intellectual Property core) in modern System-on-Chip (SoC) design?",
   "In synchronous digital design, what does the 'setup time' of a flip-flop primarily refer to?",
   "In a multi-processor system with private caches, what is the primary role of a 'cache coherence protocol'?",
@@ -48,5 +43,10 @@
   "In the physical design stage of an Integrated Circuit (IC), what is the primary goal of \"placement and routing\"?",
   "What is the primary advantage of a \"hardwired control unit\" over a \"microprogrammed control unit\" in a Central Processing Unit (CPU)?",
   "What is the primary challenge that Clock Tree Synthesis (CTS) aims to address in high-performance synchronous digital designs?",
-  "In modern System-on-Chip (SoC) design, what is the primary purpose of a Direct Memory Access (DMA) controller?"
+  "In modern System-on-Chip (SoC) design, what is the primary purpose of a Direct Memory Access (DMA) controller?",
+  "In digital IC design verification, what is the primary purpose of a \"testbench\"?",
+  "What is the primary benefit of using pipelining in a CPU architecture?",
+  "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
+  "In advanced digital IC physical design, what is the primary concern that \"IR drop\" analysis aims to identify and mitigate?",
+  "Which type of memory is typically used for on-chip caches in modern CPUs due to its speed and full static retention of data, despite its higher area consumption compared to other volatile memory types?"
 ]

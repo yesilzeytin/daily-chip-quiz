@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the digital IC design flow, what does a \"netlist\" primarily represent?",
+      "question": "In digital IC design verification, what is the primary purpose of a \"testbench\"?",
       "options": [
-        "A description of the connectivity between logic gates and components, typically in a hardware description language or a vendor-specific format.",
-        "A graphical representation of the physical layout of transistors on a silicon die.",
-        "The timing report indicating critical paths and slack values after static timing analysis.",
-        "A high-level behavioral model of the circuit's functionality without implementation details.",
-        "The power consumption profile across different operating frequencies."
+        "To generate input stimuli and check the output responses of the Design Under Test (DUT).",
+        "To physically lay out the transistors on the silicon die.",
+        "To synthesize the Register-Transfer Level (RTL) code into a gate-level netlist.",
+        "To optimize the power consumption of the finished chip.",
+        "To determine the critical path delay of the circuit."
       ],
       "correct": 0
     },
     {
-      "question": "In the physical design stage of an Integrated Circuit (IC), what is the primary goal of \"placement and routing\"?",
+      "question": "What is the primary benefit of using pipelining in a CPU architecture?",
       "options": [
-        "To verify the logical correctness of the RTL design against its specification.",
-        "To allocate CPU registers for optimal performance in a processor core.",
-        "To position logic cells (standard cells, macros) on the chip and connect them with physical wires while meeting timing, area, and power constraints.",
-        "To generate a test pattern sequence for manufacturing defect detection.",
-        "To synthesize the high-level RTL code into a gate-level netlist."
+        "Reduces the clock frequency of the CPU.",
+        "Decreases the total execution time of a single instruction.",
+        "Increases the throughput (instructions completed per unit time) of the CPU.",
+        "Eliminates the need for a cache memory hierarchy.",
+        "Simplifies the design of the Arithmetic Logic Unit (ALU)."
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary advantage of a \"hardwired control unit\" over a \"microprogrammed control unit\" in a Central Processing Unit (CPU)?",
+      "question": "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
       "options": [
-        "Greater flexibility for modifying the instruction set without hardware changes.",
-        "Simpler to design and debug complex control logic for new instructions.",
-        "Faster execution speed due to direct implementation of control signals via combinational logic.",
-        "Requires less hardware (fewer gates) for complex instruction sets.",
-        "Offers better support for dynamic instruction scheduling and out-of-order execution."
+        "The mechanism for maintaining a single, unified copy of data across multiple CPU caches.",
+        "The maximum speed at which data can be transferred between main memory and the CPU.",
+        "The rules for how memory operations (reads/writes) from different processors are observed and ordered by other processors.",
+        "The physical address mapping scheme used by the Memory Management Unit (MMU).",
+        "The protocol for handling page faults in a virtual memory system."
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary challenge that Clock Tree Synthesis (CTS) aims to address in high-performance synchronous digital designs?",
+      "question": "In advanced digital IC physical design, what is the primary concern that \"IR drop\" analysis aims to identify and mitigate?",
       "options": [
-        "Ensuring all functional blocks operate on different clock frequencies for asynchronous communication.",
-        "Minimizing the total number of flip-flops and latches used in the design to reduce area.",
-        "Reducing the power consumed by combinational logic gates during active operation.",
-        "Distributing the clock signal to all sequential elements with minimal skew and insertion delay, while maintaining signal integrity.",
-        "Automatically generating test vectors for Stuck-At faults during manufacturing."
+        "Excessive signal crosstalk between adjacent interconnects.",
+        "The reduction of effective supply voltage at standard cells due to resistance in the power delivery network, leading to performance degradation or functional failure.",
+        "Thermal runaway caused by localized hotspots on the silicon die.",
+        "Inaccurate clock skew measurements during Static Timing Analysis.",
+        "The physical distance between the CPU and main memory, affecting latency."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "In modern System-on-Chip (SoC) design, what is the primary purpose of a Direct Memory Access (DMA) controller?",
+      "question": "Which type of memory is typically used for on-chip caches in modern CPUs due to its speed and full static retention of data, despite its higher area consumption compared to other volatile memory types?",
       "options": [
-        "To translate virtual memory addresses to physical memory addresses.",
-        "To ensure data consistency across multiple CPU caches in a multi-core system.",
-        "To allow peripheral devices (e.g., network cards, storage controllers) to transfer data directly to and from main memory without involving the CPU.",
-        "To manage and prioritize interrupt requests from various I/O devices.",
-        "To perform arithmetic and logical operations on data fetched from memory."
+        "Dynamic Random-Access Memory (DRAM)",
+        "Static Random-Access Memory (SRAM)",
+        "NAND Flash Memory",
+        "Non-Volatile RAM (NVRAM)",
+        "Read-Only Memory (ROM)"
       ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
