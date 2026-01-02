@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of an 'IP core' (Intellectual Property core) in modern System-on-Chip (SoC) design?",
-  "In synchronous digital design, what does the 'setup time' of a flip-flop primarily refer to?",
-  "In a multi-processor system with private caches, what is the primary role of a 'cache coherence protocol'?",
-  "Which characteristic is a primary advantage of using an Application-Specific Integrated Circuit (ASIC) over a Field-Programmable Gate Array (FPGA) for high-volume production of a specific digital function?",
-  "In computer architecture, what is the primary function of general-purpose registers within the CPU?",
   "Which mathematical system is foundational for digital logic design, providing the framework for representing and manipulating logic operations?",
   "In computer architecture, what is the primary role of a \"register file\" within the Central Processing Unit (CPU)?",
   "In digital IC design, what does a \"Clock Domain Crossing (CDC)\" primarily refer to?",
@@ -48,5 +43,10 @@
   "What is the primary benefit of using pipelining in a CPU architecture?",
   "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
   "In advanced digital IC physical design, what is the primary concern that \"IR drop\" analysis aims to identify and mitigate?",
-  "Which type of memory is typically used for on-chip caches in modern CPUs due to its speed and full static retention of data, despite its higher area consumption compared to other volatile memory types?"
+  "Which type of memory is typically used for on-chip caches in modern CPUs due to its speed and full static retention of data, despite its higher area consumption compared to other volatile memory types?",
+  "What is the primary role of logic synthesis in the digital IC design flow?",
+  "What does an Instruction Set Architecture (ISA) primarily define for a CPU?",
+  "In high-speed deep submicron IC design, what does the term \"signal integrity\" primarily address?",
+  "Which CPU architectural technique allows a processor to execute multiple instructions concurrently by dispatching more than one instruction per clock cycle, typically using multiple execution units?",
+  "In the semiconductor manufacturing process, what is the primary function of photolithography?"
 ]

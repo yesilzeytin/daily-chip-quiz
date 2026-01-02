@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital IC design verification, what is the primary purpose of a \"testbench\"?",
+      "question": "What is the primary role of logic synthesis in the digital IC design flow?",
       "options": [
-        "To generate input stimuli and check the output responses of the Design Under Test (DUT).",
-        "To physically lay out the transistors on the silicon die.",
-        "To synthesize the Register-Transfer Level (RTL) code into a gate-level netlist.",
-        "To optimize the power consumption of the finished chip.",
-        "To determine the critical path delay of the circuit."
+        "Converting a Register-Transfer Level (RTL) description into an optimized gate-level netlist.",
+        "Verifying the physical layout's adherence to design rules.",
+        "Simulating the circuit's behavior with real-world inputs and outputs.",
+        "Analyzing the power consumption of the final integrated circuit.",
+        "Assigning physical locations to standard cells and routing their interconnects."
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary benefit of using pipelining in a CPU architecture?",
+      "question": "What does an Instruction Set Architecture (ISA) primarily define for a CPU?",
       "options": [
-        "Reduces the clock frequency of the CPU.",
-        "Decreases the total execution time of a single instruction.",
-        "Increases the throughput (instructions completed per unit time) of the CPU.",
-        "Eliminates the need for a cache memory hierarchy.",
-        "Simplifies the design of the Arithmetic Logic Unit (ALU)."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
-      "options": [
-        "The mechanism for maintaining a single, unified copy of data across multiple CPU caches.",
-        "The maximum speed at which data can be transferred between main memory and the CPU.",
-        "The rules for how memory operations (reads/writes) from different processors are observed and ordered by other processors.",
-        "The physical address mapping scheme used by the Memory Management Unit (MMU).",
-        "The protocol for handling page faults in a virtual memory system."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In advanced digital IC physical design, what is the primary concern that \"IR drop\" analysis aims to identify and mitigate?",
-      "options": [
-        "Excessive signal crosstalk between adjacent interconnects.",
-        "The reduction of effective supply voltage at standard cells due to resistance in the power delivery network, leading to performance degradation or functional failure.",
-        "Thermal runaway caused by localized hotspots on the silicon die.",
-        "Inaccurate clock skew measurements during Static Timing Analysis.",
-        "The physical distance between the CPU and main memory, affecting latency."
+        "The number of physical processing cores on the chip.",
+        "The set of instructions the CPU can execute, along with their formats, addressing modes, and observable effects.",
+        "The specific transistor technology used in the CPU's fabrication.",
+        "The internal microarchitectural implementation details like pipeline stages and cache sizes.",
+        "The clock frequency at which the processor operates."
       ],
       "correct": 1
     },
     {
-      "question": "Which type of memory is typically used for on-chip caches in modern CPUs due to its speed and full static retention of data, despite its higher area consumption compared to other volatile memory types?",
+      "question": "In high-speed deep submicron IC design, what does the term \"signal integrity\" primarily address?",
       "options": [
-        "Dynamic Random-Access Memory (DRAM)",
-        "Static Random-Access Memory (SRAM)",
-        "NAND Flash Memory",
-        "Non-Volatile RAM (NVRAM)",
-        "Read-Only Memory (ROM)"
+        "The mathematical verification that a circuit's RTL matches its specification.",
+        "The ability of digital signals to maintain their intended voltage levels and timing characteristics without significant degradation from noise, crosstalk, or reflections.",
+        "The process of ensuring all clock domains are properly synchronized.",
+        "The reliability of solder joints on the packaged chip.",
+        "The efficiency of the power delivery network in supplying stable voltage."
       ],
       "correct": 1
+    },
+    {
+      "question": "Which CPU architectural technique allows a processor to execute multiple instructions concurrently by dispatching more than one instruction per clock cycle, typically using multiple execution units?",
+      "options": [
+        "Pipelining",
+        "Vector Processing",
+        "Superscalar Architecture",
+        "Multithreading",
+        "Symmetric Multiprocessing (SMP)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the semiconductor manufacturing process, what is the primary function of photolithography?",
+      "options": [
+        "To deposit thin layers of conductive or insulating materials onto the wafer surface.",
+        "To chemically remove unwanted materials from specific areas of the wafer.",
+        "To implant dopant atoms into the silicon to alter its electrical properties.",
+        "To create precise geometric patterns on the wafer by transferring a design from a photomask using light.",
+        "To electrically test the functionality of individual dies on the wafer before packaging."
+      ],
+      "correct": 3
     }
   ]
 }
