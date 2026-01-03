@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of logic synthesis in the digital IC design flow?",
+      "question": "What is the unique characteristic of an XOR (Exclusive OR) gate's output?",
       "options": [
-        "Converting a Register-Transfer Level (RTL) description into an optimized gate-level netlist.",
-        "Verifying the physical layout's adherence to design rules.",
-        "Simulating the circuit's behavior with real-world inputs and outputs.",
-        "Analyzing the power consumption of the final integrated circuit.",
-        "Assigning physical locations to standard cells and routing their interconnects."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What does an Instruction Set Architecture (ISA) primarily define for a CPU?",
-      "options": [
-        "The number of physical processing cores on the chip.",
-        "The set of instructions the CPU can execute, along with their formats, addressing modes, and observable effects.",
-        "The specific transistor technology used in the CPU's fabrication.",
-        "The internal microarchitectural implementation details like pipeline stages and cache sizes.",
-        "The clock frequency at which the processor operates."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In high-speed deep submicron IC design, what does the term \"signal integrity\" primarily address?",
-      "options": [
-        "The mathematical verification that a circuit's RTL matches its specification.",
-        "The ability of digital signals to maintain their intended voltage levels and timing characteristics without significant degradation from noise, crosstalk, or reflections.",
-        "The process of ensuring all clock domains are properly synchronized.",
-        "The reliability of solder joints on the packaged chip.",
-        "The efficiency of the power delivery network in supplying stable voltage."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which CPU architectural technique allows a processor to execute multiple instructions concurrently by dispatching more than one instruction per clock cycle, typically using multiple execution units?",
-      "options": [
-        "Pipelining",
-        "Vector Processing",
-        "Superscalar Architecture",
-        "Multithreading",
-        "Symmetric Multiprocessing (SMP)"
+        "Its output is high if all inputs are high.",
+        "Its output is high if at least one input is high.",
+        "Its output is high if an odd number of its inputs are high.",
+        "Its output is high if an even number of its inputs are high.",
+        "Its output is always the inverse of its first input."
       ],
       "correct": 2
     },
     {
-      "question": "In the semiconductor manufacturing process, what is the primary function of photolithography?",
+      "question": "In a Central Processing Unit (CPU), what is the primary role of the Program Counter (PC)?",
       "options": [
-        "To deposit thin layers of conductive or insulating materials onto the wafer surface.",
-        "To chemically remove unwanted materials from specific areas of the wafer.",
-        "To implant dopant atoms into the silicon to alter its electrical properties.",
-        "To create precise geometric patterns on the wafer by transferring a design from a photomask using light.",
-        "To electrically test the functionality of individual dies on the wafer before packaging."
+        "To store the memory address of the instruction currently being executed.",
+        "To hold the data values being operated on by the Arithmetic Logic Unit (ALU).",
+        "To store the result of the last arithmetic or logic operation.",
+        "To store the memory address of the next instruction to be fetched.",
+        "To manage the stack pointer for subroutine calls."
       ],
       "correct": 3
+    },
+    {
+      "question": "Which of the following is the most significant differentiating characteristic between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?",
+      "options": [
+        "FPGAs consume significantly less power than ASICs for the same complexity.",
+        "ASICs offer on-chip memory, whereas FPGAs do not.",
+        "FPGAs are reconfigurable by the user after manufacturing, allowing for design changes without new fabrication.",
+        "ASICs are generally much slower in operation compared to FPGAs.",
+        "FPGAs require a full custom design approach, while ASICs use standard cell libraries."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In digital circuit design, what does a \"race condition\" primarily refer to?",
+      "options": [
+        "A scenario where two or more signals arrive at a logic gate at exactly the same time, ensuring correct operation.",
+        "A situation where the final output of a circuit depends on the unpredictable timing of inputs, rather than their logical values, leading to non-deterministic behavior.",
+        "The process of optimizing a circuit's critical path to achieve the highest possible operating frequency.",
+        "A conflict between two different clock domains that is intentionally resolved by an arbitration circuit.",
+        "The competitive access of multiple processing units to a shared memory resource, always managed deterministically."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic?",
+      "options": [
+        "To combine multiple input signals into a single output signal based on a select input.",
+        "To split a single input signal into multiple output signals.",
+        "To temporarily store a binary value for one clock cycle.",
+        "To perform arithmetic operations like addition or subtraction.",
+        "To convert parallel data into serial data."
+      ],
+      "correct": 0
     }
   ]
 }

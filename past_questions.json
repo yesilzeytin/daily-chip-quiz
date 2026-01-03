@@ -1,9 +1,4 @@
 [
-  "Which mathematical system is foundational for digital logic design, providing the framework for representing and manipulating logic operations?",
-  "In computer architecture, what is the primary role of a \"register file\" within the Central Processing Unit (CPU)?",
-  "In digital IC design, what does a \"Clock Domain Crossing (CDC)\" primarily refer to?",
-  "What is the primary goal of Static Timing Analysis (STA) in the digital IC design flow?",
-  "In computer architecture, what is the primary purpose of an \"interrupt\" mechanism?",
   "What is the fundamental building block of all digital circuits that performs a basic logical operation on one or more binary inputs to produce a single binary output?",
   "In a CPU pipeline, what type of hazard occurs when the outcome of a conditional branch instruction is not known until late in the pipeline, potentially requiring the pipeline to flush and restart if the prediction was incorrect?",
   "Which formal verification technique involves specifying desired circuit behavior using temporal logic properties (e.g., LTL or CTL) and then mathematically checking if the circuit's state machine model satisfies these properties for all possible inputs and states?",
@@ -48,5 +43,10 @@
   "What does an Instruction Set Architecture (ISA) primarily define for a CPU?",
   "In high-speed deep submicron IC design, what does the term \"signal integrity\" primarily address?",
   "Which CPU architectural technique allows a processor to execute multiple instructions concurrently by dispatching more than one instruction per clock cycle, typically using multiple execution units?",
-  "In the semiconductor manufacturing process, what is the primary function of photolithography?"
+  "In the semiconductor manufacturing process, what is the primary function of photolithography?",
+  "What is the unique characteristic of an XOR (Exclusive OR) gate's output?",
+  "In a Central Processing Unit (CPU), what is the primary role of the Program Counter (PC)?",
+  "Which of the following is the most significant differentiating characteristic between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?",
+  "In digital circuit design, what does a \"race condition\" primarily refer to?",
+  "What is the primary function of a multiplexer (MUX) in digital logic?"
 ]
