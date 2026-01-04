@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of all digital circuits that performs a basic logical operation on one or more binary inputs to produce a single binary output?",
-  "In a CPU pipeline, what type of hazard occurs when the outcome of a conditional branch instruction is not known until late in the pipeline, potentially requiring the pipeline to flush and restart if the prediction was incorrect?",
-  "Which formal verification technique involves specifying desired circuit behavior using temporal logic properties (e.g., LTL or CTL) and then mathematically checking if the circuit's state machine model satisfies these properties for all possible inputs and states?",
-  "In a system employing virtual memory, what is the primary purpose of a \"Translation Lookaside Buffer\" (TLB)?",
-  "In the context of ASIC design methodologies, what is the key characteristic that distinguishes a \"Standard Cell\" design from a \"Full Custom\" design?",
   "What does Moore's Law primarily describe in the context of integrated circuits?",
   "What is the fundamental difference between combinational logic and sequential logic circuits?",
   "In computer architecture, what is the primary role of the Arithmetic Logic Unit (ALU)?",
@@ -48,5 +43,10 @@
   "In a Central Processing Unit (CPU), what is the primary role of the Program Counter (PC)?",
   "Which of the following is the most significant differentiating characteristic between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?",
   "In digital circuit design, what does a \"race condition\" primarily refer to?",
-  "What is the primary function of a multiplexer (MUX) in digital logic?"
+  "What is the primary function of a multiplexer (MUX) in digital logic?",
+  "Which of the following is commonly used to graphically represent the input-output relationship of a combinational logic circuit?",
+  "In an out-of-order execution processor, what is the primary purpose of 'register renaming'?",
+  "In the context of System-on-Chip (SoC) design, what is the primary role of the Advanced eXtensible Interface (AXI) protocol (part of ARM's AMBA specification)?",
+  "In modern deep submicron IC manufacturing, what is the primary purpose of Optical Proximity Correction (OPC)?",
+  "What is the primary function of a 'parity bit' in digital systems, often used in memory or communication?"
 ]
