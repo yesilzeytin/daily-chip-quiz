@@ -1,9 +1,4 @@
 [
-  "What does Moore's Law primarily describe in the context of integrated circuits?",
-  "What is the fundamental difference between combinational logic and sequential logic circuits?",
-  "In computer architecture, what is the primary role of the Arithmetic Logic Unit (ALU)?",
-  "How does Near-Threshold Computing (NTC) primarily aim to reduce power consumption in digital circuits?",
-  "In digital IC design verification, what is the primary purpose of an assertion (e.g., using SystemVerilog Assertions - SVA)?",
   "What is the primary function of a clock signal in synchronous digital circuits?",
   "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture?",
   "What is the primary role of 'functional simulation' in the front-end digital IC design flow?",
@@ -48,5 +43,10 @@
   "In an out-of-order execution processor, what is the primary purpose of 'register renaming'?",
   "In the context of System-on-Chip (SoC) design, what is the primary role of the Advanced eXtensible Interface (AXI) protocol (part of ARM's AMBA specification)?",
   "In modern deep submicron IC manufacturing, what is the primary purpose of Optical Proximity Correction (OPC)?",
-  "What is the primary function of a 'parity bit' in digital systems, often used in memory or communication?"
+  "What is the primary function of a 'parity bit' in digital systems, often used in memory or communication?",
+  "What is the fundamental building block of most digital circuits that stores a single bit of information and can be set or reset based on clock signals?",
+  "In the context of semiconductor manufacturing, what is 'doping' primarily used for?",
+  "Which of the following describes the architectural technique where a processor attempts to guess the outcome of a conditional jump (branch) and proceeds to execute instructions along the predicted path before the actual outcome is known?",
+  "What is the primary purpose of a 'timing constraint' (e.g., `set_input_delay`, `set_output_delay`, `create_clock`) in a digital IC design flow, particularly during synthesis and place & route?",
+  "In the context of computer memory, what does the term 'write-through' primarily refer to in a cache memory system?"
 ]

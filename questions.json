@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "Which of the following is commonly used to graphically represent the input-output relationship of a combinational logic circuit?",
+      "question": "What is the fundamental building block of most digital circuits that stores a single bit of information and can be set or reset based on clock signals?",
       "options": [
-        "Waveform diagram",
-        "Flowchart",
-        "Truth table",
-        "State diagram",
-        "Timing diagram"
+        "NAND gate",
+        "Inverter",
+        "Flip-flop",
+        "Multiplexer",
+        "Adder"
       ],
       "correct": 2
     },
     {
-      "question": "In an out-of-order execution processor, what is the primary purpose of 'register renaming'?",
+      "question": "In the context of semiconductor manufacturing, what is 'doping' primarily used for?",
       "options": [
-        "To reduce the number of physical registers required by the CPU.",
-        "To map architectural registers to a larger set of physical registers to eliminate Write-After-Read (WAR) and Write-After-Write (WAW) hazards.",
-        "To allow the compiler to use more general-purpose registers during code generation.",
-        "To ensure that all instructions access the same physical register file regardless of their functional unit.",
-        "To dynamically reorder instructions in the instruction cache to improve fetch bandwidth."
+        "Etching patterns onto the silicon wafer surface",
+        "Adding impurities to a semiconductor to control its electrical conductivity",
+        "Polishing the wafer surface to achieve planarity",
+        "Depositing metallic layers for interconnections",
+        "Applying a light-sensitive polymer layer during photolithography"
       ],
       "correct": 1
     },
     {
-      "question": "In the context of System-on-Chip (SoC) design, what is the primary role of the Advanced eXtensible Interface (AXI) protocol (part of ARM's AMBA specification)?",
+      "question": "Which of the following describes the architectural technique where a processor attempts to guess the outcome of a conditional jump (branch) and proceeds to execute instructions along the predicted path before the actual outcome is known?",
       "options": [
-        "To define the instruction set architecture for ARM processors.",
-        "To provide a high-performance, asynchronous communication standard between different IP blocks within an SoC.",
-        "To standardize the interface for connecting external memory (like DDR SDRAM) to the SoC.",
-        "To serve as a synchronous, transactional, and high-bandwidth interconnect for communication between master and slave IP blocks.",
-        "To manage power states and clock gating for various SoC components."
+        "Instruction pipelining",
+        "Superscalar execution",
+        "Out-of-order execution",
+        "Branch prediction",
+        "Register renaming"
       ],
       "correct": 3
     },
     {
-      "question": "In modern deep submicron IC manufacturing, what is the primary purpose of Optical Proximity Correction (OPC)?",
+      "question": "What is the primary purpose of a 'timing constraint' (e.g., `set_input_delay`, `set_output_delay`, `create_clock`) in a digital IC design flow, particularly during synthesis and place & route?",
       "options": [
-        "To reduce the overall power consumption of the integrated circuit by optimizing transistor sizes.",
-        "To detect and fix logical errors in the circuit design before fabrication.",
-        "To compensate for distortions and diffraction effects during photolithography, ensuring that the features printed on the wafer accurately match the intended design shapes.",
-        "To improve the yield by selectively disabling defective parts of the manufactured chip.",
-        "To optimize the routing of interconnects to minimize signal delay."
+        "To define the operating temperature range of the chip",
+        "To specify the physical dimensions and aspect ratio of the silicon die",
+        "To guide EDA tools in meeting desired performance, latency, and synchronization requirements",
+        "To designate specific pins for power, ground, and reset signals",
+        "To describe the logical functionality and state transitions of the circuit"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary function of a 'parity bit' in digital systems, often used in memory or communication?",
+      "question": "In the context of computer memory, what does the term 'write-through' primarily refer to in a cache memory system?",
       "options": [
-        "To store extra data that can be retrieved in case of a power failure.",
-        "To perform complex arithmetic operations at high speed.",
-        "To detect single-bit errors in a block of data.",
-        "To indicate whether a memory block is currently being accessed by the CPU.",
-        "To accelerate the process of virtual-to-physical address translation."
+        "A policy where data is written only to the cache and marked as 'dirty'",
+        "A policy where data is written directly to main memory, bypassing the cache entirely",
+        "A policy where data is simultaneously written to both the cache and main memory",
+        "A policy that delays writing back to main memory until the cache line is evicted or replaced",
+        "A policy that writes data to main memory only if it is not present in the cache"
       ],
       "correct": 2
     }
