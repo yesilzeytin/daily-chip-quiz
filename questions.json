@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block of most digital circuits that stores a single bit of information and can be set or reset based on clock signals?",
+      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
       "options": [
-        "NAND gate",
-        "Inverter",
-        "Flip-flop",
-        "Multiplexer",
-        "Adder"
+        "To manage memory access and caching operations.",
+        "To control the flow of instructions and data within the CPU.",
+        "To execute arithmetic operations (like addition, subtraction) and logical operations (like AND, OR, NOT).",
+        "To store program instructions and data temporarily.",
+        "To handle communication between the CPU and input/output devices."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of semiconductor manufacturing, what is 'doping' primarily used for?",
+      "question": "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
       "options": [
-        "Etching patterns onto the silicon wafer surface",
-        "Adding impurities to a semiconductor to control its electrical conductivity",
-        "Polishing the wafer surface to achieve planarity",
-        "Depositing metallic layers for interconnections",
-        "Applying a light-sensitive polymer layer during photolithography"
+        "To verify the functional correctness of the design by running test vectors.",
+        "To optimize power consumption by identifying and gating unused clock signals.",
+        "To verify that all timing requirements (e.g., setup and hold times) are met across all possible paths without requiring test vectors.",
+        "To generate test patterns for manufacturing defect detection.",
+        "To create the physical layout of standard cells and interconnects on the chip."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which cache replacement policy evicts the block that has not been accessed for the longest period of time?",
+      "options": [
+        "First-In, First-Out (FIFO)",
+        "Least Recently Used (LRU)",
+        "Random Replacement",
+        "Least Frequently Used (LFU)",
+        "Most Recently Used (MRU)"
       ],
       "correct": 1
     },
     {
-      "question": "Which of the following describes the architectural technique where a processor attempts to guess the outcome of a conditional jump (branch) and proceeds to execute instructions along the predicted path before the actual outcome is known?",
+      "question": "In modern System-on-Chip (SoC) designs, what is the primary challenge that Clock Domain Crossing (CDC) verification aims to address?",
       "options": [
-        "Instruction pipelining",
-        "Superscalar execution",
-        "Out-of-order execution",
-        "Branch prediction",
-        "Register renaming"
+        "Ensuring all flip-flops are connected to the same global clock source to minimize skew.",
+        "Preventing metastability and data incoherency when signals transition between asynchronous or different frequency clock domains.",
+        "Minimizing the total power consumption by shutting down clock networks during idle periods.",
+        "Optimizing the clock tree structure to reduce propagation delay across the chip.",
+        "Verifying the functional correctness of logic operating at very high clock frequencies."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "What is the primary purpose of a 'timing constraint' (e.g., `set_input_delay`, `set_output_delay`, `create_clock`) in a digital IC design flow, particularly during synthesis and place & route?",
+      "question": "What is a fundamental design philosophy difference between a Reduced Instruction Set Computer (RISC) and a Complex Instruction Set Computer (CISC) architecture?",
       "options": [
-        "To define the operating temperature range of the chip",
-        "To specify the physical dimensions and aspect ratio of the silicon die",
-        "To guide EDA tools in meeting desired performance, latency, and synchronization requirements",
-        "To designate specific pins for power, ground, and reset signals",
-        "To describe the logical functionality and state transitions of the circuit"
+        "RISC architectures primarily use out-of-order execution, while CISC architectures always use in-order execution.",
+        "RISC architectures generally favor a smaller, simpler set of instructions that execute quickly, often in a single cycle, while CISC architectures allow for a larger, more complex set of instructions that may take multiple cycles.",
+        "CISC architectures always feature a Harvard memory architecture, whereas RISC architectures always use Von Neumann.",
+        "RISC architectures exclusively use microprogrammed control units, while CISC architectures exclusively use hardwired control units.",
+        "CISC processors always have more general-purpose registers than RISC processors."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of computer memory, what does the term 'write-through' primarily refer to in a cache memory system?",
-      "options": [
-        "A policy where data is written only to the cache and marked as 'dirty'",
-        "A policy where data is written directly to main memory, bypassing the cache entirely",
-        "A policy where data is simultaneously written to both the cache and main memory",
-        "A policy that delays writing back to main memory until the cache line is evicted or replaced",
-        "A policy that writes data to main memory only if it is not present in the cache"
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

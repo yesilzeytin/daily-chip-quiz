@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a clock signal in synchronous digital circuits?",
-  "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture?",
-  "What is the primary role of 'functional simulation' in the front-end digital IC design flow?",
-  "What is dynamic voltage and frequency scaling (DVFS) primarily used for in modern processors?",
-  "In chip design reliability, what does 'Electromigration' primarily refer to?",
   "What is the primary purpose of a 'technology library' (also known as a standard cell library) in the context of digital IC design synthesis?",
   "In a pipelined processor, what is the primary technique used to mitigate data hazards (RAW dependencies) by directly passing the result of an instruction from one pipeline stage to an earlier stage, bypassing the register file write-back?",
   "What is the main distinction between 'clock gating' and 'power gating' as low-power design techniques in digital integrated circuits?",
@@ -48,5 +43,10 @@
   "In the context of semiconductor manufacturing, what is 'doping' primarily used for?",
   "Which of the following describes the architectural technique where a processor attempts to guess the outcome of a conditional jump (branch) and proceeds to execute instructions along the predicted path before the actual outcome is known?",
   "What is the primary purpose of a 'timing constraint' (e.g., `set_input_delay`, `set_output_delay`, `create_clock`) in a digital IC design flow, particularly during synthesis and place & route?",
-  "In the context of computer memory, what does the term 'write-through' primarily refer to in a cache memory system?"
+  "In the context of computer memory, what does the term 'write-through' primarily refer to in a cache memory system?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
+  "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
+  "Which cache replacement policy evicts the block that has not been accessed for the longest period of time?",
+  "In modern System-on-Chip (SoC) designs, what is the primary challenge that Clock Domain Crossing (CDC) verification aims to address?",
+  "What is a fundamental design philosophy difference between a Reduced Instruction Set Computer (RISC) and a Complex Instruction Set Computer (CISC) architecture?"
 ]
