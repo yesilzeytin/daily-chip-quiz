@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a 'technology library' (also known as a standard cell library) in the context of digital IC design synthesis?",
-  "In a pipelined processor, what is the primary technique used to mitigate data hazards (RAW dependencies) by directly passing the result of an instruction from one pipeline stage to an earlier stage, bypassing the register file write-back?",
-  "What is the main distinction between 'clock gating' and 'power gating' as low-power design techniques in digital integrated circuits?",
-  "In the context of computer architecture, what kind of cache miss occurs when a block is evicted from the cache to make room for another block, and then the evicted block is needed again later, even if the cache has enough total capacity to hold all blocks required by the program if they were mapped differently (e.g., in a fully associative cache)?",
-  "What is the primary function of the Memory Management Unit (MMU) in a computer system?",
   "What is the primary abstraction level used for describing the functional behavior of a digital circuit before synthesis in the ASIC design flow?",
   "Which cache mapping policy offers the highest flexibility in placing a memory block anywhere in the cache but requires the most complex hardware for address lookup?",
   "During the post-synthesis or post-layout stages of digital IC design, which type of simulation incorporates propagation delays and interconnect parasitics to verify timing correctness in addition to functional behavior?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
   "Which cache replacement policy evicts the block that has not been accessed for the longest period of time?",
   "In modern System-on-Chip (SoC) designs, what is the primary challenge that Clock Domain Crossing (CDC) verification aims to address?",
-  "What is a fundamental design philosophy difference between a Reduced Instruction Set Computer (RISC) and a Complex Instruction Set Computer (CISC) architecture?"
+  "What is a fundamental design philosophy difference between a Reduced Instruction Set Computer (RISC) and a Complex Instruction Set Computer (CISC) architecture?",
+  "What is the fundamental characteristic that distinguishes combinational logic circuits from sequential logic circuits?",
+  "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
+  "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does the 'Modified' state of a cache line primarily indicate?",
+  "In advanced deep submicron integrated circuit design, what reliability concern does 'Electromigration' primarily address?",
+  "In a Central Processing Unit (CPU), what is the primary role of the Instruction Decoder?"
 ]

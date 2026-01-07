@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
+      "question": "What is the fundamental characteristic that distinguishes combinational logic circuits from sequential logic circuits?",
       "options": [
-        "To manage memory access and caching operations.",
-        "To control the flow of instructions and data within the CPU.",
-        "To execute arithmetic operations (like addition, subtraction) and logical operations (like AND, OR, NOT).",
+        "The output depends solely on the current inputs.",
+        "They always require a clock signal for their operation.",
+        "They have the ability to store memory or state.",
+        "Their propagation delay is inherently longer than sequential circuits.",
+        "They always incorporate feedback paths in their design."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
+      "options": [
+        "To verify the functional correctness of the synthesized netlist.",
+        "To simulate the power consumption and thermal characteristics of the chip.",
+        "To ensure the layout adheres to specific geometric and electrical manufacturing process constraints.",
+        "To identify and mitigate clock skew issues across the design.",
+        "To optimize the placement of standard cells for better timing closure."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does the 'Modified' state of a cache line primarily indicate?",
+      "options": [
+        "The cache line is valid and clean, meaning its data matches main memory, and it is the only copy in any cache.",
+        "The cache line is valid and clean, meaning its data matches main memory, and other caches may also have a clean copy.",
+        "The cache line is currently being transferred between the cache and main memory.",
+        "The cache line has been modified in this cache, is dirty (does not match main memory), and this cache holds the only valid copy.",
+        "The cache line contains invalid data and must be reloaded from main memory or another cache."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In advanced deep submicron integrated circuit design, what reliability concern does 'Electromigration' primarily address?",
+      "options": [
+        "The degradation of transistor gate oxides due to high electric fields over time.",
+        "The unintended coupling of signals between adjacent interconnects, leading to noise.",
+        "The physical displacement of metal atoms in interconnects due to sustained high current density, potentially causing opens or shorts.",
+        "The variation in transistor performance characteristics across a chip due to manufacturing inconsistencies.",
+        "The unwanted leakage current through the substrate, leading to increased static power consumption."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a Central Processing Unit (CPU), what is the primary role of the Instruction Decoder?",
+      "options": [
+        "To perform arithmetic and logical operations on data.",
         "To store program instructions and data temporarily.",
-        "To handle communication between the CPU and input/output devices."
+        "To fetch the next instruction from memory.",
+        "To interpret the fetched instruction and generate control signals for other CPU components.",
+        "To manage the flow of data between the CPU and main memory."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
-      "options": [
-        "To verify the functional correctness of the design by running test vectors.",
-        "To optimize power consumption by identifying and gating unused clock signals.",
-        "To verify that all timing requirements (e.g., setup and hold times) are met across all possible paths without requiring test vectors.",
-        "To generate test patterns for manufacturing defect detection.",
-        "To create the physical layout of standard cells and interconnects on the chip."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which cache replacement policy evicts the block that has not been accessed for the longest period of time?",
-      "options": [
-        "First-In, First-Out (FIFO)",
-        "Least Recently Used (LRU)",
-        "Random Replacement",
-        "Least Frequently Used (LFU)",
-        "Most Recently Used (MRU)"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In modern System-on-Chip (SoC) designs, what is the primary challenge that Clock Domain Crossing (CDC) verification aims to address?",
-      "options": [
-        "Ensuring all flip-flops are connected to the same global clock source to minimize skew.",
-        "Preventing metastability and data incoherency when signals transition between asynchronous or different frequency clock domains.",
-        "Minimizing the total power consumption by shutting down clock networks during idle periods.",
-        "Optimizing the clock tree structure to reduce propagation delay across the chip.",
-        "Verifying the functional correctness of logic operating at very high clock frequencies."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is a fundamental design philosophy difference between a Reduced Instruction Set Computer (RISC) and a Complex Instruction Set Computer (CISC) architecture?",
-      "options": [
-        "RISC architectures primarily use out-of-order execution, while CISC architectures always use in-order execution.",
-        "RISC architectures generally favor a smaller, simpler set of instructions that execute quickly, often in a single cycle, while CISC architectures allow for a larger, more complex set of instructions that may take multiple cycles.",
-        "CISC architectures always feature a Harvard memory architecture, whereas RISC architectures always use Von Neumann.",
-        "RISC architectures exclusively use microprogrammed control units, while CISC architectures exclusively use hardwired control units.",
-        "CISC processors always have more general-purpose registers than RISC processors."
-      ],
-      "correct": 1
+      "correct": 3
     }
   ]
 }
