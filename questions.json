@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental characteristic that distinguishes combinational logic circuits from sequential logic circuits?",
+      "question": "What does CMOS primarily stand for in the context of digital integrated circuit design?",
       "options": [
-        "The output depends solely on the current inputs.",
-        "They always require a clock signal for their operation.",
-        "They have the ability to store memory or state.",
-        "Their propagation delay is inherently longer than sequential circuits.",
-        "They always incorporate feedback paths in their design."
+        "Complementary Metal-Oxide-Semiconductor",
+        "Centralized Micro-Operating System",
+        "Common Mode Output Signal",
+        "Current Mode Operating System",
+        "Crystalline Material Oxide Substrate"
       ],
       "correct": 0
     },
     {
-      "question": "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
+      "question": "In digital IC design, what is the primary purpose of implementing 'power gating'?",
       "options": [
-        "To verify the functional correctness of the synthesized netlist.",
-        "To simulate the power consumption and thermal characteristics of the chip.",
-        "To ensure the layout adheres to specific geometric and electrical manufacturing process constraints.",
-        "To identify and mitigate clock skew issues across the design.",
-        "To optimize the placement of standard cells for better timing closure."
+        "To increase the maximum operating frequency of the circuit.",
+        "To reduce dynamic power consumption during active operation of all circuit blocks.",
+        "To mitigate static (leakage) power consumption in inactive circuit blocks.",
+        "To improve signal integrity by stabilizing supply voltages.",
+        "To simplify the clock distribution network."
       ],
       "correct": 2
     },
     {
-      "question": "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does the 'Modified' state of a cache line primarily indicate?",
+      "question": "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
       "options": [
-        "The cache line is valid and clean, meaning its data matches main memory, and it is the only copy in any cache.",
-        "The cache line is valid and clean, meaning its data matches main memory, and other caches may also have a clean copy.",
-        "The cache line is currently being transferred between the cache and main memory.",
-        "The cache line has been modified in this cache, is dirty (does not match main memory), and this cache holds the only valid copy.",
-        "The cache line contains invalid data and must be reloaded from main memory or another cache."
+        "To store frequently accessed data blocks from main memory for faster retrieval.",
+        "To act as a high-speed cache for page table entries, accelerating virtual-to-physical address translation.",
+        "To manage the allocation and deallocation of physical memory pages.",
+        "To buffer instructions fetched from memory before they are dispatched to execution units.",
+        "To provide a mechanism for inter-process communication."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "In advanced deep submicron integrated circuit design, what reliability concern does 'Electromigration' primarily address?",
+      "question": "What is the primary challenge addressed by Statistical Static Timing Analysis (SSTA) compared to traditional Static Timing Analysis (STA)?",
       "options": [
-        "The degradation of transistor gate oxides due to high electric fields over time.",
-        "The unintended coupling of signals between adjacent interconnects, leading to noise.",
-        "The physical displacement of metal atoms in interconnects due to sustained high current density, potentially causing opens or shorts.",
-        "The variation in transistor performance characteristics across a chip due to manufacturing inconsistencies.",
-        "The unwanted leakage current through the substrate, leading to increased static power consumption."
+        "Analyzing the dynamic power consumption characteristics of the circuit.",
+        "Accurately modeling and accounting for the impact of process, voltage, and temperature (PVT) variations on circuit timing.",
+        "Verifying the functional correctness of clock domain crossing (CDC) paths.",
+        "Reducing the computational complexity and runtime of timing analysis for very large designs.",
+        "Identifying and mitigating signal integrity issues such as crosstalk and noise."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "In a Central Processing Unit (CPU), what is the primary role of the Instruction Decoder?",
+      "question": "In a Non-Uniform Memory Access (NUMA) architecture, what is the primary characteristic that distinguishes memory access times?",
       "options": [
-        "To perform arithmetic and logical operations on data.",
-        "To store program instructions and data temporarily.",
-        "To fetch the next instruction from memory.",
-        "To interpret the fetched instruction and generate control signals for other CPU components.",
-        "To manage the flow of data between the CPU and main memory."
+        "All processors have uniform access times to all memory locations, irrespective of physical proximity.",
+        "Accessing memory physically located on a processor's own node (local memory) is significantly faster than accessing memory on another node (remote memory).",
+        "Memory access times are solely determined by the cache hit rate, making all main memory accesses appear uniform.",
+        "Memory is organized as a single global address space, but only one processor can access it at any given time.",
+        "The architecture relies entirely on shared L1/L2 caches, eliminating the need for main memory access differentiation."
       ],
-      "correct": 3
+      "correct": 1
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "What is the primary abstraction level used for describing the functional behavior of a digital circuit before synthesis in the ASIC design flow?",
-  "Which cache mapping policy offers the highest flexibility in placing a memory block anywhere in the cache but requires the most complex hardware for address lookup?",
-  "During the post-synthesis or post-layout stages of digital IC design, which type of simulation incorporates propagation delays and interconnect parasitics to verify timing correctness in addition to functional behavior?",
-  "In modern deep submicron IC manufacturing, what is the primary challenge associated with the increasing variability of process parameters across different dies and even within a single die, leading to potential performance and power deviations?",
-  "In advanced digital IC verification, what is the primary purpose of 'functional coverage'?",
   "What is the primary advantage of FinFET (Fin Field-Effect Transistor) devices over traditional planar MOSFETs in modern deep submicron technology nodes?",
   "In the context of digital Integrated Circuit (IC) design, what is the main purpose of inserting 'scan chains' during the Design for Testability (DFT) phase?",
   "In a multi-processor system with private caches, what is the fundamental characteristic that distinguishes a 'snooping' cache coherence protocol from a 'directory-based' protocol?",
@@ -48,5 +43,10 @@
   "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
   "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does the 'Modified' state of a cache line primarily indicate?",
   "In advanced deep submicron integrated circuit design, what reliability concern does 'Electromigration' primarily address?",
-  "In a Central Processing Unit (CPU), what is the primary role of the Instruction Decoder?"
+  "In a Central Processing Unit (CPU), what is the primary role of the Instruction Decoder?",
+  "What does CMOS primarily stand for in the context of digital integrated circuit design?",
+  "In digital IC design, what is the primary purpose of implementing 'power gating'?",
+  "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
+  "What is the primary challenge addressed by Statistical Static Timing Analysis (SSTA) compared to traditional Static Timing Analysis (STA)?",
+  "In a Non-Uniform Memory Access (NUMA) architecture, what is the primary characteristic that distinguishes memory access times?"
 ]
