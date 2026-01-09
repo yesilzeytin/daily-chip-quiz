@@ -1,9 +1,4 @@
 [
-  "What is the primary advantage of FinFET (Fin Field-Effect Transistor) devices over traditional planar MOSFETs in modern deep submicron technology nodes?",
-  "In the context of digital Integrated Circuit (IC) design, what is the main purpose of inserting 'scan chains' during the Design for Testability (DFT) phase?",
-  "In a multi-processor system with private caches, what is the fundamental characteristic that distinguishes a 'snooping' cache coherence protocol from a 'directory-based' protocol?",
-  "Which formal verification technique specifically focuses on mathematically proving that two different representations of a digital circuit (e.g., a Register-Transfer Level (RTL) description and a synthesized gate-level netlist) are functionally equivalent?",
-  "What is the primary advantage of using a floating-point number representation (like the IEEE 754 standard) over a fixed-point representation in computer architecture?",
   "In the digital IC design flow, what does a \"netlist\" primarily represent?",
   "In the physical design stage of an Integrated Circuit (IC), what is the primary goal of \"placement and routing\"?",
   "What is the primary advantage of a \"hardwired control unit\" over a \"microprogrammed control unit\" in a Central Processing Unit (CPU)?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary purpose of implementing 'power gating'?",
   "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
   "What is the primary challenge addressed by Statistical Static Timing Analysis (SSTA) compared to traditional Static Timing Analysis (STA)?",
-  "In a Non-Uniform Memory Access (NUMA) architecture, what is the primary characteristic that distinguishes memory access times?"
+  "In a Non-Uniform Memory Access (NUMA) architecture, what is the primary characteristic that distinguishes memory access times?",
+  "Which pair of logic gates are considered \"universal gates\" because any other Boolean function can be implemented using only gates of that type?",
+  "In the physical design phase of an Integrated Circuit (IC), what is the primary purpose of 'floorplanning'?",
+  "In a virtual memory system, what is the primary role of a 'page table'?",
+  "In an out-of-order execution processor, what is the primary function of the 'Reorder Buffer' (ROB)?",
+  "In advanced semiconductor manufacturing, what does \"Process-Voltage-Temperature (PVT) variation\" primarily refer to in the context of IC design?"
 ]
