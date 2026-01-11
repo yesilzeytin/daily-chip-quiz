@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a \"standard cell library\" in Application-Specific Integrated Circuit (ASIC) design?",
+      "question": "What type of power consumption occurs in a digital integrated circuit even when the circuit is idle and not switching, primarily due to leakage currents through transistors?",
       "options": [
-        "To provide pre-designed, characterized logic gates and flip-flops for synthesis.",
-        "To define the Instruction Set Architecture (ISA) for the CPU.",
-        "To manage the data flow between different memory levels (cache, main memory).",
-        "To verify the functionality of the complete chip design.",
-        "To generate the power distribution network for the integrated circuit."
+        "Dynamic Power",
+        "Static Power",
+        "Switching Power",
+        "Active Power",
+        "Transient Power"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In a cache memory system, what does \"associativity\" primarily refer to?",
+      "question": "In computer architecture, what does the term 'endianness' primarily refer to?",
       "options": [
-        "The speed at which data can be written from the cache to main memory.",
-        "The size of each individual data block transferred between cache and main memory.",
-        "The number of possible locations in the cache where a given main memory block can be placed.",
-        "The time taken to retrieve data from the cache compared to main memory.",
-        "The number of blocks that can be stored in the cache simultaneously."
+        "The order of bits within a single byte in memory.",
+        "The order of bytes within a multi-byte data word in memory.",
+        "The sequence in which instructions are fetched from memory.",
+        "The physical arrangement of memory modules on a motherboard.",
+        "The protocol used for inter-processor communication."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary motivation for the transition from planar MOSFETs to FinFET (Fin Field-Effect Transistor) architecture in modern semiconductor manufacturing, especially at advanced process nodes?",
+      "options": [
+        "To increase the physical size of transistors for higher current drive.",
+        "To simplify the manufacturing process and reduce costs significantly.",
+        "To reduce leakage current and improve electrostatic control over the transistor channel.",
+        "To eliminate the need for doping in the semiconductor substrate.",
+        "To allow for higher operating voltages without breakdown."
       ],
       "correct": 2
     },
     {
-      "question": "In Design-for-Testability (DFT) methodologies, what is the primary purpose of inserting \"scan chains\" into a digital circuit?",
+      "question": "In digital IC design verification, what is the primary role of an Assertion-Based Verification (ABV) methodology?",
       "options": [
-        "To facilitate efficient testing of sequential logic elements by providing observability and controllability.",
-        "To reduce the overall power consumption of the chip during normal operation.",
-        "To improve the clock frequency and performance of the circuit.",
-        "To prevent electromagnetic interference (EMI) between different circuit blocks.",
-        "To enable on-chip voltage regulation for various power domains."
+        "To generate random test vectors for exhaustive simulation.",
+        "To automatically synthesize RTL code from high-level specifications.",
+        "To formally prove the absence of specific design bugs using mathematical methods, typically before simulation.",
+        "To monitor and report specific design behaviors or properties during simulation or emulation, highlighting unexpected activity.",
+        "To define timing constraints for the physical implementation phase of the design."
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In modern out-of-order execution processors, what mechanism is primarily used to ensure \"precise exceptions\" even when instructions complete out of program order?",
+      "question": "In a cache memory system, what is the primary characteristic of a 'direct-mapped cache'?",
       "options": [
-        "The Translation Lookaside Buffer (TLB) for memory address translation.",
-        "The Instruction Set Architecture (ISA) definition of interrupt handlers.",
-        "The Reorder Buffer (ROB) and its ordered commit of instructions.",
-        "The Branch Target Buffer (BTB) for accurate branch prediction.",
-        "The cache coherence protocol (e.g., MESI) for data consistency."
+        "Any memory block can be placed into any cache line, offering maximum flexibility.",
+        "Each memory block can only be placed into one specific, predetermined cache line.",
+        "A memory block can be placed into a limited set (or 'set-way') of cache lines.",
+        "It uses separate caches for instructions and data to improve throughput.",
+        "It temporarily stores only frequently accessed instructions, not data."
       ],
-      "correct": 2
-    },
-    {
-      "question": "Which advanced low-power design technique dynamically adjusts both the operating voltage and frequency of a processor core to optimize power consumption based on workload demands?",
-      "options": [
-        "Clock Gating",
-        "Power Gating",
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Multi-threshold CMOS (MTCMOS)",
-        "Body Biasing"
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

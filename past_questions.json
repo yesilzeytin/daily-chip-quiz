@@ -1,9 +1,4 @@
 [
-  "In digital IC design verification, what is the primary purpose of a \"testbench\"?",
-  "What is the primary benefit of using pipelining in a CPU architecture?",
-  "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
-  "In advanced digital IC physical design, what is the primary concern that \"IR drop\" analysis aims to identify and mitigate?",
-  "Which type of memory is typically used for on-chip caches in modern CPUs due to its speed and full static retention of data, despite its higher area consumption compared to other volatile memory types?",
   "What is the primary role of logic synthesis in the digital IC design flow?",
   "What does an Instruction Set Architecture (ISA) primarily define for a CPU?",
   "In high-speed deep submicron IC design, what does the term \"signal integrity\" primarily address?",
@@ -48,5 +43,10 @@
   "In a cache memory system, what does \"associativity\" primarily refer to?",
   "In Design-for-Testability (DFT) methodologies, what is the primary purpose of inserting \"scan chains\" into a digital circuit?",
   "In modern out-of-order execution processors, what mechanism is primarily used to ensure \"precise exceptions\" even when instructions complete out of program order?",
-  "Which advanced low-power design technique dynamically adjusts both the operating voltage and frequency of a processor core to optimize power consumption based on workload demands?"
+  "Which advanced low-power design technique dynamically adjusts both the operating voltage and frequency of a processor core to optimize power consumption based on workload demands?",
+  "What type of power consumption occurs in a digital integrated circuit even when the circuit is idle and not switching, primarily due to leakage currents through transistors?",
+  "In computer architecture, what does the term 'endianness' primarily refer to?",
+  "What is the primary motivation for the transition from planar MOSFETs to FinFET (Fin Field-Effect Transistor) architecture in modern semiconductor manufacturing, especially at advanced process nodes?",
+  "In digital IC design verification, what is the primary role of an Assertion-Based Verification (ABV) methodology?",
+  "In a cache memory system, what is the primary characteristic of a 'direct-mapped cache'?"
 ]
