@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What type of power consumption occurs in a digital integrated circuit even when the circuit is idle and not switching, primarily due to leakage currents through transistors?",
+      "question": "What is the primary characteristic distinguishing synchronous digital circuits from asynchronous digital circuits?",
       "options": [
-        "Dynamic Power",
-        "Static Power",
-        "Switching Power",
-        "Active Power",
-        "Transient Power"
+        "Synchronous circuits use a global clock signal to coordinate all state changes.",
+        "Asynchronous circuits are always faster and consume less power.",
+        "Synchronous circuits operate exclusively on combinational logic.",
+        "Asynchronous circuits are easier to design and debug due to lack of timing issues.",
+        "Synchronous circuits do not require external power sources."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In computer architecture, what does the term 'endianness' primarily refer to?",
+      "question": "In digital IC design verification, what is the primary purpose of a 'test bench'?",
       "options": [
-        "The order of bits within a single byte in memory.",
-        "The order of bytes within a multi-byte data word in memory.",
-        "The sequence in which instructions are fetched from memory.",
-        "The physical arrangement of memory modules on a motherboard.",
-        "The protocol used for inter-processor communication."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary motivation for the transition from planar MOSFETs to FinFET (Fin Field-Effect Transistor) architecture in modern semiconductor manufacturing, especially at advanced process nodes?",
-      "options": [
-        "To increase the physical size of transistors for higher current drive.",
-        "To simplify the manufacturing process and reduce costs significantly.",
-        "To reduce leakage current and improve electrostatic control over the transistor channel.",
-        "To eliminate the need for doping in the semiconductor substrate.",
-        "To allow for higher operating voltages without breakdown."
+        "To perform the physical routing and placement of components on the silicon die.",
+        "To translate high-level design specifications into a gate-level netlist.",
+        "To generate input stimuli for the Design Under Test (DUT) and monitor its output responses for correctness.",
+        "To determine the power consumption characteristics of the final chip.",
+        "To ensure all design rules are met for manufacturing."
       ],
       "correct": 2
     },
     {
-      "question": "In digital IC design verification, what is the primary role of an Assertion-Based Verification (ABV) methodology?",
+      "question": "In Static Timing Analysis (STA), what does the 'critical path' primarily represent?",
       "options": [
-        "To generate random test vectors for exhaustive simulation.",
-        "To automatically synthesize RTL code from high-level specifications.",
-        "To formally prove the absence of specific design bugs using mathematical methods, typically before simulation.",
-        "To monitor and report specific design behaviors or properties during simulation or emulation, highlighting unexpected activity.",
-        "To define timing constraints for the physical implementation phase of the design."
+        "The longest combinational path in the circuit, which determines the maximum operating frequency.",
+        "The path that carries the most significant data signals.",
+        "A path prone to electromigration issues.",
+        "The shortest delay path through the circuit.",
+        "A path that requires manual routing due to complex constraints."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "In a cache memory system, what is the primary characteristic of a 'direct-mapped cache'?",
+      "question": "In a multiprocessor system, which concept primarily deals with ensuring that all processors see a consistent view of shared memory, especially when data is cached locally by individual processors?",
       "options": [
-        "Any memory block can be placed into any cache line, offering maximum flexibility.",
-        "Each memory block can only be placed into one specific, predetermined cache line.",
-        "A memory block can be placed into a limited set (or 'set-way') of cache lines.",
-        "It uses separate caches for instructions and data to improve throughput.",
-        "It temporarily stores only frequently accessed instructions, not data."
+        "Virtual Memory Management",
+        "Instruction Pipelining",
+        "Cache Coherence",
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Memory Protection Units (MPUs)"
       ],
-      "correct": 1
+      "correct": 2
+    },
+    {
+      "question": "In digital IC design, what level of abstraction does Register Transfer Level (RTL) primarily represent?",
+      "options": [
+        "The transistor-level netlist showing individual MOSFETs and their connections.",
+        "The physical layout of the chip, including polygons and vias.",
+        "A behavioral description of the system's functionality using high-level programming languages.",
+        "The flow of data between registers and the logical operations performed on that data.",
+        "The Boolean equations describing the logic gates without any sequential elements."
+      ],
+      "correct": 3
     }
   ]
 }
