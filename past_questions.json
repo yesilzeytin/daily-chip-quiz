@@ -1,9 +1,4 @@
 [
-  "What is the unique characteristic of an XOR (Exclusive OR) gate's output?",
-  "In a Central Processing Unit (CPU), what is the primary role of the Program Counter (PC)?",
-  "Which of the following is the most significant differentiating characteristic between a Field-Programmable Gate Array (FPGA) and an Application-Specific Integrated Circuit (ASIC)?",
-  "In digital circuit design, what does a \"race condition\" primarily refer to?",
-  "What is the primary function of a multiplexer (MUX) in digital logic?",
   "Which of the following is commonly used to graphically represent the input-output relationship of a combinational logic circuit?",
   "In an out-of-order execution processor, what is the primary purpose of 'register renaming'?",
   "In the context of System-on-Chip (SoC) design, what is the primary role of the Advanced eXtensible Interface (AXI) protocol (part of ARM's AMBA specification)?",
@@ -48,5 +43,10 @@
   "In digital IC design verification, what is the primary purpose of a 'test bench'?",
   "In Static Timing Analysis (STA), what does the 'critical path' primarily represent?",
   "In a multiprocessor system, which concept primarily deals with ensuring that all processors see a consistent view of shared memory, especially when data is cached locally by individual processors?",
-  "In digital IC design, what level of abstraction does Register Transfer Level (RTL) primarily represent?"
+  "In digital IC design, what level of abstraction does Register Transfer Level (RTL) primarily represent?",
+  "In the context of a System-on-Chip (SoC), what is the primary role of the Phase-Locked Loop (PLL)?",
+  "Which verification methodology exhaustively proves the correctness of a digital design against its specification using mathematical and logical techniques, without relying on simulation of test vectors?",
+  "In a pipelined processor, what technique is primarily used to mitigate the performance impact of data hazards by forwarding the result of an operation from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
+  "At advanced technology nodes (e.g., 7nm, 5nm), what phenomenon primarily refers to the unintentional electrical coupling between adjacent wires or circuit components on a chip, leading to signal integrity issues like crosstalk, increased delays, or false switching?",
+  "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'blocking assignment' (e.g., using the `=` operator) when modeling digital logic?"
 ]

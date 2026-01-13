@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic distinguishing synchronous digital circuits from asynchronous digital circuits?",
+      "question": "In the context of a System-on-Chip (SoC), what is the primary role of the Phase-Locked Loop (PLL)?",
       "options": [
-        "Synchronous circuits use a global clock signal to coordinate all state changes.",
-        "Asynchronous circuits are always faster and consume less power.",
-        "Synchronous circuits operate exclusively on combinational logic.",
-        "Asynchronous circuits are easier to design and debug due to lack of timing issues.",
-        "Synchronous circuits do not require external power sources."
+        "To store program instructions for the CPU.",
+        "To generate a stable and precise clock signal from a lower-frequency reference, often for the entire SoC or specific blocks.",
+        "To perform complex arithmetic and logic operations at high speed.",
+        "To manage and arbitrate access to external memory interfaces.",
+        "To facilitate communication between different voltage domains within the chip."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In digital IC design verification, what is the primary purpose of a 'test bench'?",
+      "question": "Which verification methodology exhaustively proves the correctness of a digital design against its specification using mathematical and logical techniques, without relying on simulation of test vectors?",
       "options": [
-        "To perform the physical routing and placement of components on the silicon die.",
-        "To translate high-level design specifications into a gate-level netlist.",
-        "To generate input stimuli for the Design Under Test (DUT) and monitor its output responses for correctness.",
-        "To determine the power consumption characteristics of the final chip.",
-        "To ensure all design rules are met for manufacturing."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In Static Timing Analysis (STA), what does the 'critical path' primarily represent?",
-      "options": [
-        "The longest combinational path in the circuit, which determines the maximum operating frequency.",
-        "The path that carries the most significant data signals.",
-        "A path prone to electromigration issues.",
-        "The shortest delay path through the circuit.",
-        "A path that requires manual routing due to complex constraints."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a multiprocessor system, which concept primarily deals with ensuring that all processors see a consistent view of shared memory, especially when data is cached locally by individual processors?",
-      "options": [
-        "Virtual Memory Management",
-        "Instruction Pipelining",
-        "Cache Coherence",
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Memory Protection Units (MPUs)"
+        "Regression Testing",
+        "Hardware Emulation",
+        "Formal Verification",
+        "Constrained Random Verification",
+        "Static Timing Analysis"
       ],
       "correct": 2
     },
     {
-      "question": "In digital IC design, what level of abstraction does Register Transfer Level (RTL) primarily represent?",
+      "question": "In a pipelined processor, what technique is primarily used to mitigate the performance impact of data hazards by forwarding the result of an operation from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
       "options": [
-        "The transistor-level netlist showing individual MOSFETs and their connections.",
-        "The physical layout of the chip, including polygons and vias.",
-        "A behavioral description of the system's functionality using high-level programming languages.",
-        "The flow of data between registers and the logical operations performed on that data.",
-        "The Boolean equations describing the logic gates without any sequential elements."
+        "Branch Prediction",
+        "Cache Miss Handling",
+        "Instruction Level Parallelism (ILP)",
+        "Data Forwarding (or Bypassing)",
+        "Register Renaming"
       ],
       "correct": 3
+    },
+    {
+      "question": "At advanced technology nodes (e.g., 7nm, 5nm), what phenomenon primarily refers to the unintentional electrical coupling between adjacent wires or circuit components on a chip, leading to signal integrity issues like crosstalk, increased delays, or false switching?",
+      "options": [
+        "Electromigration",
+        "Thermal Runaway",
+        "Parasitic Capacitance and Inductance",
+        "Threshold Voltage Roll-off",
+        "Gate Leakage"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'blocking assignment' (e.g., using the `=` operator) when modeling digital logic?",
+      "options": [
+        "It models sequential logic elements, such as flip-flops and latches.",
+        "It ensures that assignments are evaluated and updated sequentially within the current time step, typically used for combinational logic.",
+        "It delays the update of a signal until the end of the current simulation time step, crucial for preventing race conditions in sequential logic.",
+        "It defines the clock signal frequency for synchronous operations.",
+        "It is used exclusively for defining module inputs and outputs."
+      ],
+      "correct": 1
     }
   ]
 }
