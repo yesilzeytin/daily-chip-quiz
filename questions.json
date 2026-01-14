@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In the context of a System-on-Chip (SoC), what is the primary role of the Phase-Locked Loop (PLL)?",
+      "question": "Which of the following describes the fundamental property of an 'inverting' logic gate (e.g., NOT, NAND, NOR)?",
       "options": [
-        "To store program instructions for the CPU.",
-        "To generate a stable and precise clock signal from a lower-frequency reference, often for the entire SoC or specific blocks.",
-        "To perform complex arithmetic and logic operations at high speed.",
-        "To manage and arbitrate access to external memory interfaces.",
-        "To facilitate communication between different voltage domains within the chip."
+        "It always produces a '1' output regardless of the input.",
+        "Its output is the Boolean complement (inverse) of its input(s).",
+        "It only has one input and one output.",
+        "It can implement any other Boolean function on its own.",
+        "It primarily buffers the signal, adding only propagation delay."
       ],
       "correct": 1
     },
     {
-      "question": "Which verification methodology exhaustively proves the correctness of a digital design against its specification using mathematical and logical techniques, without relying on simulation of test vectors?",
+      "question": "What is the primary architectural characteristic that distinguishes a Harvard architecture from a Von Neumann architecture, and offers an advantage in certain applications?",
       "options": [
-        "Regression Testing",
-        "Hardware Emulation",
-        "Formal Verification",
-        "Constrained Random Verification",
-        "Static Timing Analysis"
+        "Harvard architecture uses a single shared address space for both instructions and data, simplifying memory management.",
+        "Harvard architecture features separate memory spaces and dedicated buses for instructions and data, enabling simultaneous access.",
+        "Von Neumann architecture has dedicated hardware for floating-point operations, enhancing computational speed.",
+        "Von Neumann architecture utilizes a large number of general-purpose registers, improving compiler efficiency.",
+        "Harvard architecture always incorporates an on-chip instruction cache, reducing memory latency."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the digital IC design flow, specifically during the logic synthesis phase, what is the primary purpose of \"technology mapping\"?",
+      "options": [
+        "To verify the physical layout against the foundry's design rules (DRC).",
+        "To assign specific physical coordinates to each standard cell on the chip layout.",
+        "To transform a technology-independent netlist into an equivalent netlist composed of gates from a specific target technology library.",
+        "To analyze the propagation delays of signals to identify and optimize critical paths.",
+        "To generate the final GDSII file for mask fabrication."
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what technique is primarily used to mitigate the performance impact of data hazards by forwarding the result of an operation from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
+      "question": "In modern many-core processor architectures, what is the primary scalability challenge that a 'Directory-Based Cache Coherence Protocol' is designed to overcome compared to a 'Snooping Protocol'?",
       "options": [
-        "Branch Prediction",
-        "Cache Miss Handling",
-        "Instruction Level Parallelism (ILP)",
-        "Data Forwarding (or Bypassing)",
-        "Register Renaming"
+        "Reducing the power consumption associated with cache tag lookups in each core.",
+        "Eliminating the need for a hierarchical cache memory system.",
+        "Minimizing the latency of individual cache misses for a single core.",
+        "Overcoming the broadcast overhead and bus bandwidth limitations of snooping as the number of cores increases.",
+        "Ensuring that all cache lines are always in the 'Exclusive' state to prevent data conflicts."
       ],
       "correct": 3
     },
     {
-      "question": "At advanced technology nodes (e.g., 7nm, 5nm), what phenomenon primarily refers to the unintentional electrical coupling between adjacent wires or circuit components on a chip, leading to signal integrity issues like crosstalk, increased delays, or false switching?",
+      "question": "In the context of formal verification of digital integrated circuits, what is the primary role of \"Temporal Logic\" (e.g., Linear Temporal Logic (LTL) or Computation Tree Logic (CTL))?",
       "options": [
-        "Electromigration",
-        "Thermal Runaway",
-        "Parasitic Capacitance and Inductance",
-        "Threshold Voltage Roll-off",
-        "Gate Leakage"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'blocking assignment' (e.g., using the `=` operator) when modeling digital logic?",
-      "options": [
-        "It models sequential logic elements, such as flip-flops and latches.",
-        "It ensures that assignments are evaluated and updated sequentially within the current time step, typically used for combinational logic.",
-        "It delays the update of a signal until the end of the current simulation time step, crucial for preventing race conditions in sequential logic.",
-        "It defines the clock signal frequency for synchronous operations.",
-        "It is used exclusively for defining module inputs and outputs."
+        "To define the physical dimensions and routing constraints for wires on the chip layout.",
+        "To mathematically describe how signals and states evolve over time in a sequential system, allowing properties to be checked across sequences of states.",
+        "To translate high-level programming language code into hardware description language (HDL) for synthesis.",
+        "To simulate the behavior of the circuit under various input stimuli and observe outputs.",
+        "To detect power integrity issues such as IR drop and electromigration across the chip."
       ],
       "correct": 1
     }

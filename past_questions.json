@@ -1,9 +1,4 @@
 [
-  "Which of the following is commonly used to graphically represent the input-output relationship of a combinational logic circuit?",
-  "In an out-of-order execution processor, what is the primary purpose of 'register renaming'?",
-  "In the context of System-on-Chip (SoC) design, what is the primary role of the Advanced eXtensible Interface (AXI) protocol (part of ARM's AMBA specification)?",
-  "In modern deep submicron IC manufacturing, what is the primary purpose of Optical Proximity Correction (OPC)?",
-  "What is the primary function of a 'parity bit' in digital systems, often used in memory or communication?",
   "What is the fundamental building block of most digital circuits that stores a single bit of information and can be set or reset based on clock signals?",
   "In the context of semiconductor manufacturing, what is 'doping' primarily used for?",
   "Which of the following describes the architectural technique where a processor attempts to guess the outcome of a conditional jump (branch) and proceeds to execute instructions along the predicted path before the actual outcome is known?",
@@ -48,5 +43,10 @@
   "Which verification methodology exhaustively proves the correctness of a digital design against its specification using mathematical and logical techniques, without relying on simulation of test vectors?",
   "In a pipelined processor, what technique is primarily used to mitigate the performance impact of data hazards by forwarding the result of an operation from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
   "At advanced technology nodes (e.g., 7nm, 5nm), what phenomenon primarily refers to the unintentional electrical coupling between adjacent wires or circuit components on a chip, leading to signal integrity issues like crosstalk, increased delays, or false switching?",
-  "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'blocking assignment' (e.g., using the `=` operator) when modeling digital logic?"
+  "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'blocking assignment' (e.g., using the `=` operator) when modeling digital logic?",
+  "Which of the following describes the fundamental property of an 'inverting' logic gate (e.g., NOT, NAND, NOR)?",
+  "What is the primary architectural characteristic that distinguishes a Harvard architecture from a Von Neumann architecture, and offers an advantage in certain applications?",
+  "In the digital IC design flow, specifically during the logic synthesis phase, what is the primary purpose of \"technology mapping\"?",
+  "In modern many-core processor architectures, what is the primary scalability challenge that a 'Directory-Based Cache Coherence Protocol' is designed to overcome compared to a 'Snooping Protocol'?",
+  "In the context of formal verification of digital integrated circuits, what is the primary role of \"Temporal Logic\" (e.g., Linear Temporal Logic (LTL) or Computation Tree Logic (CTL))?"
 ]
