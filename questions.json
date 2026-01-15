@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "Which of the following describes the fundamental property of an 'inverting' logic gate (e.g., NOT, NAND, NOR)?",
+      "question": "What is the primary characteristic of an FPGA (Field-Programmable Gate Array) that distinguishes it from an ASIC (Application-Specific Integrated Circuit)?",
       "options": [
-        "It always produces a '1' output regardless of the input.",
-        "Its output is the Boolean complement (inverse) of its input(s).",
-        "It only has one input and one output.",
-        "It can implement any other Boolean function on its own.",
-        "It primarily buffers the signal, adding only propagation delay."
+        "FPGAs are designed to be re-programmed by the end-user or designer after manufacturing.",
+        "FPGAs offer significantly lower power consumption and higher clock frequencies compared to ASICs for high-volume production.",
+        "FPGAs typically require custom mask sets and a lengthy fabrication process for their realization.",
+        "FPGAs are primarily optimized for analog signal processing applications rather than digital logic.",
+        "FPGAs fundamentally lack reconfigurable interconnects, relying solely on fixed routing."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "What is the primary architectural characteristic that distinguishes a Harvard architecture from a Von Neumann architecture, and offers an advantage in certain applications?",
+      "question": "In the physical design flow of a digital integrated circuit, what is the main objective of the 'placement' stage?",
       "options": [
-        "Harvard architecture uses a single shared address space for both instructions and data, simplifying memory management.",
-        "Harvard architecture features separate memory spaces and dedicated buses for instructions and data, enabling simultaneous access.",
-        "Von Neumann architecture has dedicated hardware for floating-point operations, enhancing computational speed.",
-        "Von Neumann architecture utilizes a large number of general-purpose registers, improving compiler efficiency.",
-        "Harvard architecture always incorporates an on-chip instruction cache, reducing memory latency."
+        "To assign each standard cell or macro block to a specific physical location on the silicon die, optimizing for area, timing, and routability.",
+        "To convert the high-level Register Transfer Level (RTL) description into a gate-level netlist using a technology library.",
+        "To verify the logical correctness of the design by simulating its behavior with various test vectors.",
+        "To generate the final photolithography masks required for the semiconductor manufacturing process.",
+        "To analyze and ensure that all signal transitions meet the specified timing requirements across different operating conditions."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In the digital IC design flow, specifically during the logic synthesis phase, what is the primary purpose of \"technology mapping\"?",
+      "question": "Which memory consistency model ensures that all memory operations appear to execute in some sequential order, and that the operations of each individual processor appear in program order?",
       "options": [
-        "To verify the physical layout against the foundry's design rules (DRC).",
-        "To assign specific physical coordinates to each standard cell on the chip layout.",
-        "To transform a technology-independent netlist into an equivalent netlist composed of gates from a specific target technology library.",
-        "To analyze the propagation delays of signals to identify and optimize critical paths.",
-        "To generate the final GDSII file for mask fabrication."
+        "Release Consistency",
+        "Weak Consistency",
+        "Sequential Consistency",
+        "Processor Consistency",
+        "Eventual Consistency"
       ],
       "correct": 2
     },
     {
-      "question": "In modern many-core processor architectures, what is the primary scalability challenge that a 'Directory-Based Cache Coherence Protocol' is designed to overcome compared to a 'Snooping Protocol'?",
+      "question": "What is the primary cause of Negative Bias Temperature Instability (NBTI) in p-MOSFETs, leading to a degradation in performance (e.g., threshold voltage shift, reduced drive current) over time?",
       "options": [
-        "Reducing the power consumption associated with cache tag lookups in each core.",
-        "Eliminating the need for a hierarchical cache memory system.",
-        "Minimizing the latency of individual cache misses for a single core.",
-        "Overcoming the broadcast overhead and bus bandwidth limitations of snooping as the number of cores increases.",
-        "Ensuring that all cache lines are always in the 'Exclusive' state to prevent data conflicts."
+        "High electric fields causing hot electrons to inject into the gate oxide from the channel.",
+        "The formation of interface traps at the silicon-dielectric interface under negative gate bias and elevated temperature, typically due to hydrogen bond breaking.",
+        "The diffusion of metal atoms through the interconnects due to high current densities, leading to voids and opens.",
+        "Excessive mechanical stress applied to the transistor gate during chip packaging, resulting in physical damage.",
+        "Random fluctuations in the number and placement of dopant atoms within the transistor channel."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "In the context of formal verification of digital integrated circuits, what is the primary role of \"Temporal Logic\" (e.g., Linear Temporal Logic (LTL) or Computation Tree Logic (CTL))?",
+      "question": "In the context of an Instruction Set Architecture (ISA), what is the primary role of the 'opcode'?",
       "options": [
-        "To define the physical dimensions and routing constraints for wires on the chip layout.",
-        "To mathematically describe how signals and states evolve over time in a sequential system, allowing properties to be checked across sequences of states.",
-        "To translate high-level programming language code into hardware description language (HDL) for synthesis.",
-        "To simulate the behavior of the circuit under various input stimuli and observe outputs.",
-        "To detect power integrity issues such as IR drop and electromigration across the chip."
+        "To specify the memory address of the operand data for the instruction.",
+        "To define the type of operation to be performed by the instruction (e.g., ADD, SUB, LOAD, JUMP).",
+        "To indicate the size of the instruction in memory (e.g., 16-bit, 32-bit).",
+        "To store the result of the arithmetic or logical operation after execution.",
+        "To manage the flow of data between the Central Processing Unit (CPU) and peripheral devices."
       ],
       "correct": 1
     }

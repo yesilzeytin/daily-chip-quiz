@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of most digital circuits that stores a single bit of information and can be set or reset based on clock signals?",
-  "In the context of semiconductor manufacturing, what is 'doping' primarily used for?",
-  "Which of the following describes the architectural technique where a processor attempts to guess the outcome of a conditional jump (branch) and proceeds to execute instructions along the predicted path before the actual outcome is known?",
-  "What is the primary purpose of a 'timing constraint' (e.g., `set_input_delay`, `set_output_delay`, `create_clock`) in a digital IC design flow, particularly during synthesis and place & route?",
-  "In the context of computer memory, what does the term 'write-through' primarily refer to in a cache memory system?",
   "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
   "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
   "Which cache replacement policy evicts the block that has not been accessed for the longest period of time?",
@@ -48,5 +43,10 @@
   "What is the primary architectural characteristic that distinguishes a Harvard architecture from a Von Neumann architecture, and offers an advantage in certain applications?",
   "In the digital IC design flow, specifically during the logic synthesis phase, what is the primary purpose of \"technology mapping\"?",
   "In modern many-core processor architectures, what is the primary scalability challenge that a 'Directory-Based Cache Coherence Protocol' is designed to overcome compared to a 'Snooping Protocol'?",
-  "In the context of formal verification of digital integrated circuits, what is the primary role of \"Temporal Logic\" (e.g., Linear Temporal Logic (LTL) or Computation Tree Logic (CTL))?"
+  "In the context of formal verification of digital integrated circuits, what is the primary role of \"Temporal Logic\" (e.g., Linear Temporal Logic (LTL) or Computation Tree Logic (CTL))?",
+  "What is the primary characteristic of an FPGA (Field-Programmable Gate Array) that distinguishes it from an ASIC (Application-Specific Integrated Circuit)?",
+  "In the physical design flow of a digital integrated circuit, what is the main objective of the 'placement' stage?",
+  "Which memory consistency model ensures that all memory operations appear to execute in some sequential order, and that the operations of each individual processor appear in program order?",
+  "What is the primary cause of Negative Bias Temperature Instability (NBTI) in p-MOSFETs, leading to a degradation in performance (e.g., threshold voltage shift, reduced drive current) over time?",
+  "In the context of an Instruction Set Architecture (ISA), what is the primary role of the 'opcode'?"
 ]
