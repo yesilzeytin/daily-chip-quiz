@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
-  "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
-  "Which cache replacement policy evicts the block that has not been accessed for the longest period of time?",
-  "In modern System-on-Chip (SoC) designs, what is the primary challenge that Clock Domain Crossing (CDC) verification aims to address?",
-  "What is a fundamental design philosophy difference between a Reduced Instruction Set Computer (RISC) and a Complex Instruction Set Computer (CISC) architecture?",
   "What is the fundamental characteristic that distinguishes combinational logic circuits from sequential logic circuits?",
   "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
   "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does the 'Modified' state of a cache line primarily indicate?",
@@ -48,5 +43,10 @@
   "In the physical design flow of a digital integrated circuit, what is the main objective of the 'placement' stage?",
   "Which memory consistency model ensures that all memory operations appear to execute in some sequential order, and that the operations of each individual processor appear in program order?",
   "What is the primary cause of Negative Bias Temperature Instability (NBTI) in p-MOSFETs, leading to a degradation in performance (e.g., threshold voltage shift, reduced drive current) over time?",
-  "In the context of an Instruction Set Architecture (ISA), what is the primary role of the 'opcode'?"
+  "In the context of an Instruction Set Architecture (ISA), what is the primary role of the 'opcode'?",
+  "In the semiconductor manufacturing process, what is the primary role of photolithography?",
+  "In a pipelined processor, what is the primary goal of a branch predictor?",
+  "In synchronous digital circuit design, what does the \"setup time\" of a flip-flop primarily refer to?",
+  "What is the primary advantage of 3D Integrated Circuits (3D ICs) over traditional 2D planar ICs, particularly concerning inter-die communication?",
+  "In a multi-core processor system, what is the primary motivation for employing relaxed memory consistency models instead of strictly sequential consistency?"
 ]

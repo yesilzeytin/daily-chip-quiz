@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic of an FPGA (Field-Programmable Gate Array) that distinguishes it from an ASIC (Application-Specific Integrated Circuit)?",
+      "question": "In the semiconductor manufacturing process, what is the primary role of photolithography?",
       "options": [
-        "FPGAs are designed to be re-programmed by the end-user or designer after manufacturing.",
-        "FPGAs offer significantly lower power consumption and higher clock frequencies compared to ASICs for high-volume production.",
-        "FPGAs typically require custom mask sets and a lengthy fabrication process for their realization.",
-        "FPGAs are primarily optimized for analog signal processing applications rather than digital logic.",
-        "FPGAs fundamentally lack reconfigurable interconnects, relying solely on fixed routing."
+        "To deposit thin layers of material onto the wafer surface.",
+        "To introduce impurities into the semiconductor material to alter its electrical properties.",
+        "To remove unwanted material from the wafer surface using etchants.",
+        "To transfer a geometric pattern from a photomask onto the wafer surface.",
+        "To electrically connect the chip to external pins for packaging."
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In the physical design flow of a digital integrated circuit, what is the main objective of the 'placement' stage?",
+      "question": "In a pipelined processor, what is the primary goal of a branch predictor?",
       "options": [
-        "To assign each standard cell or macro block to a specific physical location on the silicon die, optimizing for area, timing, and routability.",
-        "To convert the high-level Register Transfer Level (RTL) description into a gate-level netlist using a technology library.",
-        "To verify the logical correctness of the design by simulating its behavior with various test vectors.",
-        "To generate the final photolithography masks required for the semiconductor manufacturing process.",
-        "To analyze and ensure that all signal transitions meet the specified timing requirements across different operating conditions."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Which memory consistency model ensures that all memory operations appear to execute in some sequential order, and that the operations of each individual processor appear in program order?",
-      "options": [
-        "Release Consistency",
-        "Weak Consistency",
-        "Sequential Consistency",
-        "Processor Consistency",
-        "Eventual Consistency"
+        "To reduce the number of cycles required to fetch instructions from memory.",
+        "To minimize the latency of accessing the register file by pre-fetching operand values.",
+        "To mitigate the performance penalty caused by control hazards during instruction fetching.",
+        "To ensure that all instructions complete execution in their original program order.",
+        "To optimize the power consumption of the instruction fetch unit."
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary cause of Negative Bias Temperature Instability (NBTI) in p-MOSFETs, leading to a degradation in performance (e.g., threshold voltage shift, reduced drive current) over time?",
+      "question": "In synchronous digital circuit design, what does the \"setup time\" of a flip-flop primarily refer to?",
       "options": [
-        "High electric fields causing hot electrons to inject into the gate oxide from the channel.",
-        "The formation of interface traps at the silicon-dielectric interface under negative gate bias and elevated temperature, typically due to hydrogen bond breaking.",
-        "The diffusion of metal atoms through the interconnects due to high current densities, leading to voids and opens.",
-        "Excessive mechanical stress applied to the transistor gate during chip packaging, resulting in physical damage.",
-        "Random fluctuations in the number and placement of dopant atoms within the transistor channel."
+        "The minimum amount of time the clock signal must remain stable after a data input change.",
+        "The maximum time allowed for the data input to change after the active clock edge.",
+        "The minimum time the data input must be stable and valid *before* the active clock edge to be reliably captured.",
+        "The time delay required for the flip-flop's output to transition after the clock edge.",
+        "The time period during which the clock signal is high."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In the context of an Instruction Set Architecture (ISA), what is the primary role of the 'opcode'?",
+      "question": "What is the primary advantage of 3D Integrated Circuits (3D ICs) over traditional 2D planar ICs, particularly concerning inter-die communication?",
       "options": [
-        "To specify the memory address of the operand data for the instruction.",
-        "To define the type of operation to be performed by the instruction (e.g., ADD, SUB, LOAD, JUMP).",
-        "To indicate the size of the instruction in memory (e.g., 16-bit, 32-bit).",
-        "To store the result of the arithmetic or logical operation after execution.",
-        "To manage the flow of data between the Central Processing Unit (CPU) and peripheral devices."
+        "Significantly lower manufacturing costs due to reduced process complexity.",
+        "Elimination of the need for thermal management solutions.",
+        "Ability to stack heterogeneous components, leading to shorter interconnects and lower power consumption for inter-die communication.",
+        "Greater resistance to radiation effects in harsh environments.",
+        "Simplified design and verification flows for complex System-on-Chip (SoC) designs."
       ],
-      "correct": 1
+      "correct": 2
+    },
+    {
+      "question": "In a multi-core processor system, what is the primary motivation for employing relaxed memory consistency models instead of strictly sequential consistency?",
+      "options": [
+        "To ensure that all memory operations are visible to all processors at the exact same instant.",
+        "To simplify the task of programming parallel applications by providing a more intuitive memory model.",
+        "To improve processor performance by allowing aggressive reordering of memory operations that do not conflict, without sacrificing correctness for properly synchronized programs.",
+        "To reduce the overall physical size and complexity of the cache coherence hardware.",
+        "To eliminate the need for explicit synchronization primitives like locks and barriers."
+      ],
+      "correct": 2
     }
   ]
 }
