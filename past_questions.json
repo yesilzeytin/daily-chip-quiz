@@ -1,9 +1,4 @@
 [
-  "What is the fundamental characteristic that distinguishes combinational logic circuits from sequential logic circuits?",
-  "In the physical design phase of an integrated circuit, what is the primary purpose of Design Rule Checking (DRC)?",
-  "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does the 'Modified' state of a cache line primarily indicate?",
-  "In advanced deep submicron integrated circuit design, what reliability concern does 'Electromigration' primarily address?",
-  "In a Central Processing Unit (CPU), what is the primary role of the Instruction Decoder?",
   "What does CMOS primarily stand for in the context of digital integrated circuit design?",
   "In digital IC design, what is the primary purpose of implementing 'power gating'?",
   "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, what is the primary goal of a branch predictor?",
   "In synchronous digital circuit design, what does the \"setup time\" of a flip-flop primarily refer to?",
   "What is the primary advantage of 3D Integrated Circuits (3D ICs) over traditional 2D planar ICs, particularly concerning inter-die communication?",
-  "In a multi-core processor system, what is the primary motivation for employing relaxed memory consistency models instead of strictly sequential consistency?"
+  "In a multi-core processor system, what is the primary motivation for employing relaxed memory consistency models instead of strictly sequential consistency?",
+  "Which of the following is a fundamental building block of sequential logic circuits, capable of storing a single bit of information and changing its state only at the rising or falling edge of a clock signal?",
+  "In a typical computer system's memory hierarchy, what is the primary purpose of having multiple levels of cache (e.g., L1, L2, L3)?",
+  "In the physical design flow of a digital integrated circuit, after the 'placement' stage, what is the primary objective of the 'routing' stage?",
+  "Which architectural technique allows a processor to execute multiple instructions in a single clock cycle by fetching, decoding, and executing several independent instructions concurrently?",
+  "At advanced technology nodes (e.g., sub-20nm), what fundamental challenge in MOSFET scaling does 'Short Channel Effect' primarily refer to, impacting transistor performance and reliability?"
 ]

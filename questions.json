@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the semiconductor manufacturing process, what is the primary role of photolithography?",
+      "question": "Which of the following is a fundamental building block of sequential logic circuits, capable of storing a single bit of information and changing its state only at the rising or falling edge of a clock signal?",
       "options": [
-        "To deposit thin layers of material onto the wafer surface.",
-        "To introduce impurities into the semiconductor material to alter its electrical properties.",
-        "To remove unwanted material from the wafer surface using etchants.",
-        "To transfer a geometric pattern from a photomask onto the wafer surface.",
-        "To electrically connect the chip to external pins for packaging."
+        "Latch",
+        "Multiplexer",
+        "Flip-flop",
+        "Decoder",
+        "Encoder"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a typical computer system's memory hierarchy, what is the primary purpose of having multiple levels of cache (e.g., L1, L2, L3)?",
+      "options": [
+        "To increase the total available RAM capacity.",
+        "To reduce the physical size of the main memory modules.",
+        "To improve overall system performance by providing faster access to frequently used data, closer to the CPU.",
+        "To simplify the memory addressing scheme for the CPU.",
+        "To prevent data corruption during power outages."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the physical design flow of a digital integrated circuit, after the 'placement' stage, what is the primary objective of the 'routing' stage?",
+      "options": [
+        "To optimize the logical design for power and performance.",
+        "To generate the final GDSII stream for manufacturing.",
+        "To determine the precise physical locations of all standard cells and IP blocks.",
+        "To connect all the pins of placed components with physical wires (interconnects) while adhering to design rules.",
+        "To perform exhaustive functional verification of the design."
       ],
       "correct": 3
     },
     {
-      "question": "In a pipelined processor, what is the primary goal of a branch predictor?",
+      "question": "Which architectural technique allows a processor to execute multiple instructions in a single clock cycle by fetching, decoding, and executing several independent instructions concurrently?",
       "options": [
-        "To reduce the number of cycles required to fetch instructions from memory.",
-        "To minimize the latency of accessing the register file by pre-fetching operand values.",
-        "To mitigate the performance penalty caused by control hazards during instruction fetching.",
-        "To ensure that all instructions complete execution in their original program order.",
-        "To optimize the power consumption of the instruction fetch unit."
+        "Pipelining",
+        "Vector processing",
+        "Multithreading",
+        "Superscalar execution",
+        "Virtual memory"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In synchronous digital circuit design, what does the \"setup time\" of a flip-flop primarily refer to?",
+      "question": "At advanced technology nodes (e.g., sub-20nm), what fundamental challenge in MOSFET scaling does 'Short Channel Effect' primarily refer to, impacting transistor performance and reliability?",
       "options": [
-        "The minimum amount of time the clock signal must remain stable after a data input change.",
-        "The maximum time allowed for the data input to change after the active clock edge.",
-        "The minimum time the data input must be stable and valid *before* the active clock edge to be reliably captured.",
-        "The time delay required for the flip-flop's output to transition after the clock edge.",
-        "The time period during which the clock signal is high."
+        "Increased gate leakage current due to thinner gate dielectrics.",
+        "Degradation of gate control over the channel as the channel length becomes comparable to depletion region widths, leading to increased off-state current and reduced threshold voltage control.",
+        "Higher interconnect resistance and capacitance, causing signal integrity issues.",
+        "The difficulty in forming precise doping profiles for source and drain regions.",
+        "Increased susceptibility to soft errors from cosmic rays or alpha particles."
       ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary advantage of 3D Integrated Circuits (3D ICs) over traditional 2D planar ICs, particularly concerning inter-die communication?",
-      "options": [
-        "Significantly lower manufacturing costs due to reduced process complexity.",
-        "Elimination of the need for thermal management solutions.",
-        "Ability to stack heterogeneous components, leading to shorter interconnects and lower power consumption for inter-die communication.",
-        "Greater resistance to radiation effects in harsh environments.",
-        "Simplified design and verification flows for complex System-on-Chip (SoC) designs."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a multi-core processor system, what is the primary motivation for employing relaxed memory consistency models instead of strictly sequential consistency?",
-      "options": [
-        "To ensure that all memory operations are visible to all processors at the exact same instant.",
-        "To simplify the task of programming parallel applications by providing a more intuitive memory model.",
-        "To improve processor performance by allowing aggressive reordering of memory operations that do not conflict, without sacrificing correctness for properly synchronized programs.",
-        "To reduce the overall physical size and complexity of the cache coherence hardware.",
-        "To eliminate the need for explicit synchronization primitives like locks and barriers."
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
