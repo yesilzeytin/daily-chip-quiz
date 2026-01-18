@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which of the following is a fundamental building block of sequential logic circuits, capable of storing a single bit of information and changing its state only at the rising or falling edge of a clock signal?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
       "options": [
-        "Latch",
-        "Multiplexer",
-        "Flip-flop",
-        "Decoder",
-        "Encoder"
+        "To select one of several input signals and forward it to a single output line.",
+        "To convert analog signals to digital signals.",
+        "To store a single bit of data.",
+        "To generate a clock signal for synchronous circuits.",
+        "To perform arithmetic operations like addition or subtraction."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In a typical computer system's memory hierarchy, what is the primary purpose of having multiple levels of cache (e.g., L1, L2, L3)?",
+      "question": "In a multi-core processor system, what is the primary purpose of a 'write-back' cache policy, as opposed to a 'write-through' policy?",
       "options": [
-        "To increase the total available RAM capacity.",
-        "To reduce the physical size of the main memory modules.",
-        "To improve overall system performance by providing faster access to frequently used data, closer to the CPU.",
-        "To simplify the memory addressing scheme for the CPU.",
-        "To prevent data corruption during power outages."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical design flow of a digital integrated circuit, after the 'placement' stage, what is the primary objective of the 'routing' stage?",
-      "options": [
-        "To optimize the logical design for power and performance.",
-        "To generate the final GDSII stream for manufacturing.",
-        "To determine the precise physical locations of all standard cells and IP blocks.",
-        "To connect all the pins of placed components with physical wires (interconnects) while adhering to design rules.",
-        "To perform exhaustive functional verification of the design."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Which architectural technique allows a processor to execute multiple instructions in a single clock cycle by fetching, decoding, and executing several independent instructions concurrently?",
-      "options": [
-        "Pipelining",
-        "Vector processing",
-        "Multithreading",
-        "Superscalar execution",
-        "Virtual memory"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "At advanced technology nodes (e.g., sub-20nm), what fundamental challenge in MOSFET scaling does 'Short Channel Effect' primarily refer to, impacting transistor performance and reliability?",
-      "options": [
-        "Increased gate leakage current due to thinner gate dielectrics.",
-        "Degradation of gate control over the channel as the channel length becomes comparable to depletion region widths, leading to increased off-state current and reduced threshold voltage control.",
-        "Higher interconnect resistance and capacitance, causing signal integrity issues.",
-        "The difficulty in forming precise doping profiles for source and drain regions.",
-        "Increased susceptibility to soft errors from cosmic rays or alpha particles."
+        "To prioritize cache hits over cache misses.",
+        "To reduce the frequency of writes to main memory, improving performance and reducing bus traffic.",
+        "To ensure that data is immediately written to main memory upon modification.",
+        "To prefetch data from main memory before it is requested.",
+        "To prevent data from being written into the cache."
       ],
       "correct": 1
+    },
+    {
+      "question": "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'non-blocking assignment' (e.g., using the `<=` operator) when modeling sequential digital logic?",
+      "options": [
+        "It is used exclusively for defining constants and parameters in a design.",
+        "It prevents race conditions by blocking other assignments until the current one completes.",
+        "It schedules the assignment to occur at the end of the current simulation time step, making it ideal for modeling flip-flops and registers.",
+        "It evaluates and assigns values immediately within the current simulation time step, primarily used for combinational logic.",
+        "It allows for the definition of high-level algorithmic behavior without specific hardware mapping."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What phenomenon, often observed in n-MOSFETs, involves high-energy electrons or holes getting injected into the gate oxide, leading to threshold voltage shift and degradation of device performance over time?",
+      "options": [
+        "Electromigration",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Hot Carrier Injection (HCI)",
+        "Random Dopant Fluctuation (RDF)",
+        "Dielectric Breakdown"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What architectural technique allows a processor to achieve instruction-level parallelism (ILP) by discovering independent instructions from *multiple* program threads and executing them concurrently on shared functional units?",
+      "options": [
+        "Pipelining",
+        "VLIW (Very Long Instruction Word)",
+        "Superscalar execution",
+        "Simultaneous Multithreading (SMT)",
+        "Dataflow architecture"
+      ],
+      "correct": 3
     }
   ]
 }
