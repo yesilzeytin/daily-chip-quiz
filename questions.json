@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
+      "question": "What is the defining characteristic of a combinational logic circuit?",
       "options": [
-        "To select one of several input signals and forward it to a single output line.",
-        "To convert analog signals to digital signals.",
-        "To store a single bit of data.",
-        "To generate a clock signal for synchronous circuits.",
-        "To perform arithmetic operations like addition or subtraction."
+        "Its output depends only on its current inputs.",
+        "Its output depends on current inputs and past states.",
+        "It contains memory elements like flip-flops.",
+        "It uses a clock signal to synchronize operations.",
+        "It is primarily used for data storage."
       ],
       "correct": 0
     },
     {
-      "question": "In a multi-core processor system, what is the primary purpose of a 'write-back' cache policy, as opposed to a 'write-through' policy?",
+      "question": "In a computer system employing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "To prioritize cache hits over cache misses.",
-        "To reduce the frequency of writes to main memory, improving performance and reducing bus traffic.",
-        "To ensure that data is immediately written to main memory upon modification.",
-        "To prefetch data from main memory before it is requested.",
-        "To prevent data from being written into the cache."
+        "To store frequently accessed data blocks for the CPU.",
+        "To speed up the translation of virtual addresses to physical addresses.",
+        "To manage the allocation and deallocation of physical memory pages.",
+        "To cache recent instruction fetches to improve pipeline performance.",
+        "To buffer I/O requests between the CPU and peripheral devices."
       ],
       "correct": 1
     },
     {
-      "question": "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'non-blocking assignment' (e.g., using the `<=` operator) when modeling sequential digital logic?",
+      "question": "In synchronous digital circuit design, a 'hold time violation' in a flip-flop primarily occurs when:",
       "options": [
-        "It is used exclusively for defining constants and parameters in a design.",
-        "It prevents race conditions by blocking other assignments until the current one completes.",
-        "It schedules the assignment to occur at the end of the current simulation time step, making it ideal for modeling flip-flops and registers.",
-        "It evaluates and assigns values immediately within the current simulation time step, primarily used for combinational logic.",
-        "It allows for the definition of high-level algorithmic behavior without specific hardware mapping."
+        "The data signal arrives at the flip-flop input too early before the active clock edge.",
+        "The data signal does not remain stable for the minimum required duration *after* the active clock edge.",
+        "The clock signal's period is shorter than the sum of propagation delays and setup/hold times.",
+        "The reset signal is asserted simultaneously with the clock edge, causing race conditions.",
+        "The data signal takes too long to propagate from the previous stage, violating setup time."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of digital IC design using Hardware Description Languages (HDLs), what is the primary purpose of 'linting' an RTL design?",
+      "options": [
+        "To simulate the functional behavior of the design with test vectors.",
+        "To synthesize the RTL code into a gate-level netlist.",
+        "To identify common design errors, coding style violations, and potential synthesis issues without simulation.",
+        "To perform static timing analysis and identify critical paths.",
+        "To physically place and route the gates on the silicon die."
       ],
       "correct": 2
     },
     {
-      "question": "What phenomenon, often observed in n-MOSFETs, involves high-energy electrons or holes getting injected into the gate oxide, leading to threshold voltage shift and degradation of device performance over time?",
+      "question": "Which architectural paradigm is primarily employed by modern GPUs to achieve massive parallelism, where multiple independent threads execute the same instruction simultaneously on different data?",
       "options": [
-        "Electromigration",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Hot Carrier Injection (HCI)",
-        "Random Dopant Fluctuation (RDF)",
-        "Dielectric Breakdown"
+        "Single Instruction, Single Data (SISD)",
+        "Multiple Instruction, Multiple Data (MIMD)",
+        "Single Instruction, Multiple Thread (SIMT)",
+        "Single Instruction, Multiple Data (SIMD)",
+        "Superscalar with Out-of-Order Execution"
       ],
       "correct": 2
-    },
-    {
-      "question": "What architectural technique allows a processor to achieve instruction-level parallelism (ILP) by discovering independent instructions from *multiple* program threads and executing them concurrently on shared functional units?",
-      "options": [
-        "Pipelining",
-        "VLIW (Very Long Instruction Word)",
-        "Superscalar execution",
-        "Simultaneous Multithreading (SMT)",
-        "Dataflow architecture"
-      ],
-      "correct": 3
     }
   ]
 }
