@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a \"standard cell library\" in Application-Specific Integrated Circuit (ASIC) design?",
-  "In a cache memory system, what does \"associativity\" primarily refer to?",
-  "In Design-for-Testability (DFT) methodologies, what is the primary purpose of inserting \"scan chains\" into a digital circuit?",
-  "In modern out-of-order execution processors, what mechanism is primarily used to ensure \"precise exceptions\" even when instructions complete out of program order?",
-  "Which advanced low-power design technique dynamically adjusts both the operating voltage and frequency of a processor core to optimize power consumption based on workload demands?",
   "What type of power consumption occurs in a digital integrated circuit even when the circuit is idle and not switching, primarily due to leakage currents through transistors?",
   "In computer architecture, what does the term 'endianness' primarily refer to?",
   "What is the primary motivation for the transition from planar MOSFETs to FinFET (Fin Field-Effect Transistor) architecture in modern semiconductor manufacturing, especially at advanced process nodes?",
@@ -48,5 +43,10 @@
   "In a computer system employing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
   "In synchronous digital circuit design, a 'hold time violation' in a flip-flop primarily occurs when:",
   "In the context of digital IC design using Hardware Description Languages (HDLs), what is the primary purpose of 'linting' an RTL design?",
-  "Which architectural paradigm is primarily employed by modern GPUs to achieve massive parallelism, where multiple independent threads execute the same instruction simultaneously on different data?"
+  "Which architectural paradigm is primarily employed by modern GPUs to achieve massive parallelism, where multiple independent threads execute the same instruction simultaneously on different data?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+  "In Static Timing Analysis (STA), what is the primary purpose of analyzing a design across different 'process, voltage, and temperature (PVT) corners'?",
+  "In the physical design flow of a digital integrated circuit, what is the primary objective of Clock Tree Synthesis (CTS)?",
+  "What is the primary benefit of speculative execution in modern high-performance processors?",
+  "In advanced semiconductor manufacturing, what is the primary concern addressed by Design for Manufacturability (DFM) techniques?"
 ]
