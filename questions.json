@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+      "question": "Which of the following logic gates provides a HIGH output only when all of its inputs are HIGH?",
       "options": [
-        "To manage virtual memory translations and page faults.",
-        "To store program instructions and data for quick access.",
-        "To perform arithmetic operations (e.g., addition, subtraction) and logical operations (e.g., AND, OR, NOT).",
-        "To control the sequencing and timing of other CPU components.",
-        "To handle input/output operations with peripheral devices."
+        "AND gate",
+        "OR gate",
+        "XOR gate",
+        "NOR gate",
+        "NAND gate"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which instruction set architecture (ISA) philosophy typically features a smaller, highly optimized set of instructions, each designed to execute in a single clock cycle, favoring software complexity over hardware complexity?",
+      "options": [
+        "CISC (Complex Instruction Set Computing)",
+        "VLIW (Very Long Instruction Word)",
+        "RISC (Reduced Instruction Set Computing)",
+        "SMT (Simultaneous Multi-threading)",
+        "MIMD (Multiple Instruction, Multiple Data)"
       ],
       "correct": 2
     },
     {
-      "question": "In Static Timing Analysis (STA), what is the primary purpose of analyzing a design across different 'process, voltage, and temperature (PVT) corners'?",
+      "question": "In the context of digital IC design, what is the primary purpose of inserting scan chains into a circuit?",
       "options": [
-        "To ensure the aesthetic quality of the chip's physical layout.",
-        "To optimize the power consumption only under typical operating conditions.",
-        "To verify that the circuit meets its timing specifications under worst-case (slowest) and best-case (fastest) manufacturing, voltage, and thermal conditions.",
-        "To generate the optimal test vectors for post-silicon validation.",
-        "To determine the most efficient instruction set architecture (ISA) for the given design."
+        "To reduce static power consumption",
+        "To improve clock distribution network integrity",
+        "To facilitate structural testing for manufacturing defects",
+        "To enable dynamic voltage and frequency scaling",
+        "To increase the number of functional paths"
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design flow of a digital integrated circuit, what is the primary objective of Clock Tree Synthesis (CTS)?",
+      "question": "For future many-core processors and System-on-Chips (SoCs), which communication architecture is increasingly preferred over traditional bus-based interconnects to provide scalable, high-bandwidth, and low-latency communication between intellectual property (IP) blocks and processor cores?",
       "options": [
-        "To place all logic gates on the chip to minimize overall wire length.",
-        "To distribute the clock signal to all sequential elements (e.g., flip-flops) across the chip with minimal skew and acceptable latency.",
-        "To determine the optimal routing paths for all data signals to prevent crosstalk.",
-        "To generate power distribution networks that efficiently deliver power to all active components.",
-        "To perform formal verification of the control logic functionality."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary benefit of speculative execution in modern high-performance processors?",
-      "options": [
-        "To simplify the debugging process by enforcing sequential consistency at all times.",
-        "To reduce the overall manufacturing cost of the processor by using fewer transistors.",
-        "To allow the processor to execute instructions before it's certain they are needed (e.g., following a predicted branch), thereby potentially hiding latency and improving instruction-level parallelism.",
-        "To ensure data integrity by always writing modified data back to main memory immediately.",
-        "To guarantee that the processor operates at its lowest possible power state."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In advanced semiconductor manufacturing, what is the primary concern addressed by Design for Manufacturability (DFM) techniques?",
-      "options": [
-        "Ensuring the design can be easily ported to different technology nodes without changes.",
-        "Reducing the need for extensive post-silicon testing and characterization.",
-        "Maximizing the overall clock frequency of the integrated circuit.",
-        "Anticipating and mitigating potential manufacturing variations, defects, and process limitations to improve fabrication yield, reliability, and performance.",
-        "Optimizing the compiler's ability to generate efficient machine code for the target architecture."
+        "Shared bus architecture",
+        "Crossbar switch",
+        "Point-to-point links",
+        "Network-on-Chip (NoC)",
+        "Memory-mapped I/O"
       ],
       "correct": 3
+    },
+    {
+      "question": "To accurately predict timing performance and yield for designs at advanced process nodes, where process variations introduce significant uncertainty in gate delays and wire resistances, which analysis technique extends traditional Static Timing Analysis (STA) by modeling delays as probability distributions rather than single worst-case values?",
+      "options": [
+        "Dynamic Timing Analysis (DTA)",
+        "Formal Verification",
+        "Statistical Static Timing Analysis (SSTA)",
+        "Gate-Level Simulation",
+        "Power Analysis"
+      ],
+      "correct": 2
     }
   ]
 }

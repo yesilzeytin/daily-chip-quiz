@@ -1,9 +1,4 @@
 [
-  "What type of power consumption occurs in a digital integrated circuit even when the circuit is idle and not switching, primarily due to leakage currents through transistors?",
-  "In computer architecture, what does the term 'endianness' primarily refer to?",
-  "What is the primary motivation for the transition from planar MOSFETs to FinFET (Fin Field-Effect Transistor) architecture in modern semiconductor manufacturing, especially at advanced process nodes?",
-  "In digital IC design verification, what is the primary role of an Assertion-Based Verification (ABV) methodology?",
-  "In a cache memory system, what is the primary characteristic of a 'direct-mapped cache'?",
   "What is the primary characteristic distinguishing synchronous digital circuits from asynchronous digital circuits?",
   "In digital IC design verification, what is the primary purpose of a 'test bench'?",
   "In Static Timing Analysis (STA), what does the 'critical path' primarily represent?",
@@ -48,5 +43,10 @@
   "In Static Timing Analysis (STA), what is the primary purpose of analyzing a design across different 'process, voltage, and temperature (PVT) corners'?",
   "In the physical design flow of a digital integrated circuit, what is the primary objective of Clock Tree Synthesis (CTS)?",
   "What is the primary benefit of speculative execution in modern high-performance processors?",
-  "In advanced semiconductor manufacturing, what is the primary concern addressed by Design for Manufacturability (DFM) techniques?"
+  "In advanced semiconductor manufacturing, what is the primary concern addressed by Design for Manufacturability (DFM) techniques?",
+  "Which of the following logic gates provides a HIGH output only when all of its inputs are HIGH?",
+  "Which instruction set architecture (ISA) philosophy typically features a smaller, highly optimized set of instructions, each designed to execute in a single clock cycle, favoring software complexity over hardware complexity?",
+  "In the context of digital IC design, what is the primary purpose of inserting scan chains into a circuit?",
+  "For future many-core processors and System-on-Chips (SoCs), which communication architecture is increasingly preferred over traditional bus-based interconnects to provide scalable, high-bandwidth, and low-latency communication between intellectual property (IP) blocks and processor cores?",
+  "To accurately predict timing performance and yield for designs at advanced process nodes, where process variations introduce significant uncertainty in gate delays and wire resistances, which analysis technique extends traditional Static Timing Analysis (STA) by modeling delays as probability distributions rather than single worst-case values?"
 ]
