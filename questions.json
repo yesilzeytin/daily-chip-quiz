@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which of the following logic gates provides a HIGH output only when all of its inputs are HIGH?",
+      "question": "What is the primary contributor to dynamic power consumption in CMOS digital circuits?",
       "options": [
-        "AND gate",
-        "OR gate",
-        "XOR gate",
-        "NOR gate",
-        "NAND gate"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Which instruction set architecture (ISA) philosophy typically features a smaller, highly optimized set of instructions, each designed to execute in a single clock cycle, favoring software complexity over hardware complexity?",
-      "options": [
-        "CISC (Complex Instruction Set Computing)",
-        "VLIW (Very Long Instruction Word)",
-        "RISC (Reduced Instruction Set Computing)",
-        "SMT (Simultaneous Multi-threading)",
-        "MIMD (Multiple Instruction, Multiple Data)"
+        "Leakage current through transistors in the off-state",
+        "Short-circuit current when both PMOS and NMOS transistors are momentarily on during a transition",
+        "Power dissipated during transistor switching activity (charging and discharging load capacitances)",
+        "Substrate current injection causing parasitic effects",
+        "Gate tunneling current through the gate dielectric"
       ],
       "correct": 2
     },
     {
-      "question": "In the context of digital IC design, what is the primary purpose of inserting scan chains into a circuit?",
+      "question": "In the physical design phase of a digital integrated circuit, what is the primary objective of \"floorplanning\"?",
       "options": [
-        "To reduce static power consumption",
-        "To improve clock distribution network integrity",
-        "To facilitate structural testing for manufacturing defects",
-        "To enable dynamic voltage and frequency scaling",
-        "To increase the number of functional paths"
+        "To synthesize the RTL code into a gate-level netlist using a standard cell library.",
+        "To place individual standard cells into their precise final locations on the silicon.",
+        "To define the overall chip area and arrange major functional blocks (e.g., CPU cores, memory blocks, I/O controllers) to optimize interconnection and area.",
+        "To route the power and ground networks across the chip to ensure voltage stability.",
+        "To verify the logical correctness of the design using formal methods before simulation."
       ],
       "correct": 2
     },
     {
-      "question": "For future many-core processors and System-on-Chips (SoCs), which communication architecture is increasingly preferred over traditional bus-based interconnects to provide scalable, high-bandwidth, and low-latency communication between intellectual property (IP) blocks and processor cores?",
+      "question": "Which architectural technique allows a processor to execute instructions in an order different from their original program sequence, as long as data dependencies are respected, to keep execution units busy and improve performance?",
       "options": [
-        "Shared bus architecture",
-        "Crossbar switch",
-        "Point-to-point links",
-        "Network-on-Chip (NoC)",
-        "Memory-mapped I/O"
+        "In-Order Pipelining",
+        "Vector Processing",
+        "Out-of-Order Execution",
+        "Fine-Grained Multithreading",
+        "Explicitly Parallel Instruction Computing (EPIC)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What phenomenon in integrated circuits primarily refers to the transport of material caused by the gradual movement of metal atoms in a conductor due to the momentum transfer from colliding electrons, leading to potential open or short circuits over time?",
+      "options": [
+        "Dielectric Breakdown",
+        "Hot Carrier Injection (HCI)",
+        "Electromigration",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Gate Induced Drain Leakage (GIDL)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In computer architecture, what is the primary mechanism by which an external event or an internal program condition (like a division by zero) can temporarily suspend the current program execution to allow the CPU to handle the event?",
+      "options": [
+        "Context Switching",
+        "Cache Miss",
+        "Pipelining",
+        "Interrupt",
+        "Data Forwarding"
       ],
       "correct": 3
-    },
-    {
-      "question": "To accurately predict timing performance and yield for designs at advanced process nodes, where process variations introduce significant uncertainty in gate delays and wire resistances, which analysis technique extends traditional Static Timing Analysis (STA) by modeling delays as probability distributions rather than single worst-case values?",
-      "options": [
-        "Dynamic Timing Analysis (DTA)",
-        "Formal Verification",
-        "Statistical Static Timing Analysis (SSTA)",
-        "Gate-Level Simulation",
-        "Power Analysis"
-      ],
-      "correct": 2
     }
   ]
 }

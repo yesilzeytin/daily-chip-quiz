@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic distinguishing synchronous digital circuits from asynchronous digital circuits?",
-  "In digital IC design verification, what is the primary purpose of a 'test bench'?",
-  "In Static Timing Analysis (STA), what does the 'critical path' primarily represent?",
-  "In a multiprocessor system, which concept primarily deals with ensuring that all processors see a consistent view of shared memory, especially when data is cached locally by individual processors?",
-  "In digital IC design, what level of abstraction does Register Transfer Level (RTL) primarily represent?",
   "In the context of a System-on-Chip (SoC), what is the primary role of the Phase-Locked Loop (PLL)?",
   "Which verification methodology exhaustively proves the correctness of a digital design against its specification using mathematical and logical techniques, without relying on simulation of test vectors?",
   "In a pipelined processor, what technique is primarily used to mitigate the performance impact of data hazards by forwarding the result of an operation from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
@@ -48,5 +43,10 @@
   "Which instruction set architecture (ISA) philosophy typically features a smaller, highly optimized set of instructions, each designed to execute in a single clock cycle, favoring software complexity over hardware complexity?",
   "In the context of digital IC design, what is the primary purpose of inserting scan chains into a circuit?",
   "For future many-core processors and System-on-Chips (SoCs), which communication architecture is increasingly preferred over traditional bus-based interconnects to provide scalable, high-bandwidth, and low-latency communication between intellectual property (IP) blocks and processor cores?",
-  "To accurately predict timing performance and yield for designs at advanced process nodes, where process variations introduce significant uncertainty in gate delays and wire resistances, which analysis technique extends traditional Static Timing Analysis (STA) by modeling delays as probability distributions rather than single worst-case values?"
+  "To accurately predict timing performance and yield for designs at advanced process nodes, where process variations introduce significant uncertainty in gate delays and wire resistances, which analysis technique extends traditional Static Timing Analysis (STA) by modeling delays as probability distributions rather than single worst-case values?",
+  "What is the primary contributor to dynamic power consumption in CMOS digital circuits?",
+  "In the physical design phase of a digital integrated circuit, what is the primary objective of \"floorplanning\"?",
+  "Which architectural technique allows a processor to execute instructions in an order different from their original program sequence, as long as data dependencies are respected, to keep execution units busy and improve performance?",
+  "What phenomenon in integrated circuits primarily refers to the transport of material caused by the gradual movement of metal atoms in a conductor due to the momentum transfer from colliding electrons, leading to potential open or short circuits over time?",
+  "In computer architecture, what is the primary mechanism by which an external event or an internal program condition (like a division by zero) can temporarily suspend the current program execution to allow the CPU to handle the event?"
 ]
