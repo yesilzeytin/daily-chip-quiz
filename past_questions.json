@@ -1,9 +1,4 @@
 [
-  "In the context of a System-on-Chip (SoC), what is the primary role of the Phase-Locked Loop (PLL)?",
-  "Which verification methodology exhaustively proves the correctness of a digital design against its specification using mathematical and logical techniques, without relying on simulation of test vectors?",
-  "In a pipelined processor, what technique is primarily used to mitigate the performance impact of data hazards by forwarding the result of an operation from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
-  "At advanced technology nodes (e.g., 7nm, 5nm), what phenomenon primarily refers to the unintentional electrical coupling between adjacent wires or circuit components on a chip, leading to signal integrity issues like crosstalk, increased delays, or false switching?",
-  "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'blocking assignment' (e.g., using the `=` operator) when modeling digital logic?",
   "Which of the following describes the fundamental property of an 'inverting' logic gate (e.g., NOT, NAND, NOR)?",
   "What is the primary architectural characteristic that distinguishes a Harvard architecture from a Von Neumann architecture, and offers an advantage in certain applications?",
   "In the digital IC design flow, specifically during the logic synthesis phase, what is the primary purpose of \"technology mapping\"?",
@@ -48,5 +43,10 @@
   "In the physical design phase of a digital integrated circuit, what is the primary objective of \"floorplanning\"?",
   "Which architectural technique allows a processor to execute instructions in an order different from their original program sequence, as long as data dependencies are respected, to keep execution units busy and improve performance?",
   "What phenomenon in integrated circuits primarily refers to the transport of material caused by the gradual movement of metal atoms in a conductor due to the momentum transfer from colliding electrons, leading to potential open or short circuits over time?",
-  "In computer architecture, what is the primary mechanism by which an external event or an internal program condition (like a division by zero) can temporarily suspend the current program execution to allow the CPU to handle the event?"
+  "In computer architecture, what is the primary mechanism by which an external event or an internal program condition (like a division by zero) can temporarily suspend the current program execution to allow the CPU to handle the event?",
+  "In digital IC design, what is the primary purpose of a \"standard cell library\"?",
+  "In a computer system utilizing virtual memory, what is the fundamental role of a \"page table\"?",
+  "In synchronous digital circuits, what phenomenon describes a flip-flop entering an unstable, intermediate state for an indeterminate amount of time, often occurring when setup or hold time requirements are violated, or when synchronizing asynchronous inputs?",
+  "At advanced technology nodes (e.g., 14nm and below), FinFETs (Fin Field-Effect Transistors) largely replaced traditional planar MOSFETs. What is the primary advantage of a FinFET over a planar MOSFET that addresses challenges of continued scaling?",
+  "In the physical design flow of a digital integrated circuit, particularly during logic synthesis and place-and-route, what is the primary objective of \"gate sizing\"?"
 ]
