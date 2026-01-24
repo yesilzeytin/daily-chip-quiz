@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital IC design, what is the primary purpose of a \"standard cell library\"?",
+      "question": "What is the primary purpose of a clock signal in a synchronous digital circuit?",
       "options": [
-        "A collection of pre-designed and characterized basic logic gates (e.g., NAND, NOR, flip-flops) used for ASIC synthesis.",
-        "A software tool for simulating the behavior of analog circuits.",
-        "A database of all intellectual property (IP) blocks available for a System-on-Chip (SoC).",
-        "A set of guidelines for writing efficient Hardware Description Language (HDL) code.",
-        "A list of verified test vectors for functional verification."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a computer system utilizing virtual memory, what is the fundamental role of a \"page table\"?",
-      "options": [
-        "To store temporary data for fast CPU access, acting as a cache.",
-        "To map virtual memory addresses used by a program to physical memory addresses in RAM.",
-        "To manage the allocation and deallocation of stack frames during function calls.",
-        "To store CPU register values when switching between different processes.",
-        "To define the order in which instructions are fetched and executed by the processor."
+        "To provide power to the circuit components.",
+        "To synchronize the operations of all sequential elements.",
+        "To amplify weak digital signals.",
+        "To generate random numbers for testing.",
+        "To measure the ambient temperature of the chip."
       ],
       "correct": 1
     },
     {
-      "question": "In synchronous digital circuits, what phenomenon describes a flip-flop entering an unstable, intermediate state for an indeterminate amount of time, often occurring when setup or hold time requirements are violated, or when synchronizing asynchronous inputs?",
+      "question": "In the context of Design for Testability (DFT) for Integrated Circuits and Printed Circuit Boards (PCBs), what is the primary purpose of the JTAG (IEEE 1149.1) standard, commonly known as Boundary Scan?",
       "options": [
-        "Electromigration, leading to conductor failure.",
-        "Metastability, potentially causing an incorrect output or delayed transition.",
-        "Thermal runaway, causing overheating and damage.",
-        "Negative Bias Temperature Instability (NBTI), degrading p-MOSFET performance.",
-        "Hot Carrier Injection (HCI), shifting transistor threshold voltages."
+        "To measure the operating temperature of the chip for thermal management.",
+        "To provide a standardized method for in-circuit testing of interconnects and components on a PCB.",
+        "To perform static timing analysis on the synthesized netlist.",
+        "To optimize power consumption of the core logic during operation.",
+        "To automatically generate test vectors for combinational logic."
       ],
       "correct": 1
     },
     {
-      "question": "At advanced technology nodes (e.g., 14nm and below), FinFETs (Fin Field-Effect Transistors) largely replaced traditional planar MOSFETs. What is the primary advantage of a FinFET over a planar MOSFET that addresses challenges of continued scaling?",
+      "question": "In a multi-processor system with private caches, which cache coherence protocol typically invalidates other copies of a data block when a write occurs to ensure consistency?",
       "options": [
-        "They eliminate all leakage current, making them perfectly energy efficient.",
-        "They allow for higher operating voltages without breakdown.",
-        "Their 3D gate structure provides better electrostatic control over the channel, reducing short-channel effects and subthreshold leakage.",
-        "They can be manufactured using significantly fewer photolithography steps, reducing cost.",
-        "They are inherently radiation-hardened and impervious to soft errors."
+        "Write-Through protocol",
+        "Write-Back protocol",
+        "Write-Update protocol",
+        "Write-Invalidate protocol",
+        "Sequential Consistency protocol"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In advanced semiconductor devices, what is a \"soft error\" primarily caused by, and what is its main characteristic compared to a \"hard error\"?",
+      "options": [
+        "It's a permanent physical defect caused by manufacturing imperfections, leading to a permanent circuit malfunction.",
+        "It's a temporary, non-destructive data corruption caused by high-energy particle strikes, which can be corrected by rewriting the data.",
+        "It refers to a gradual degradation of transistor performance due to aging and wear-out mechanisms like NBTI.",
+        "It's an error in logic synthesis that results in incorrect Boolean functionality, detected during functional verification.",
+        "It's a timing violation (setup/hold) that causes a flip-flop to enter a metastable state, leading to unpredictable output."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which page replacement algorithm guarantees the lowest possible page fault rate for a given reference string, but is generally impractical to implement in real operating systems?",
+      "options": [
+        "Least Recently Used (LRU)",
+        "First-In, First-Out (FIFO)",
+        "Optimal (MIN/OPT)",
+        "Least Frequently Used (LFU)",
+        "Random Replacement"
       ],
       "correct": 2
-    },
-    {
-      "question": "In the physical design flow of a digital integrated circuit, particularly during logic synthesis and place-and-route, what is the primary objective of \"gate sizing\"?",
-      "options": [
-        "To adjust the physical dimensions of standard cells (e.g., drive strength) to meet timing, power, and area constraints.",
-        "To determine the optimal number of flip-flops required for a sequential circuit.",
-        "To select the appropriate clock frequency for the entire design.",
-        "To partition the chip into smaller, manageable functional blocks.",
-        "To minimize the number of metal layers used for routing."
-      ],
-      "correct": 0
     }
   ]
 }

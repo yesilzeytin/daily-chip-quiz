@@ -1,9 +1,4 @@
 [
-  "Which of the following describes the fundamental property of an 'inverting' logic gate (e.g., NOT, NAND, NOR)?",
-  "What is the primary architectural characteristic that distinguishes a Harvard architecture from a Von Neumann architecture, and offers an advantage in certain applications?",
-  "In the digital IC design flow, specifically during the logic synthesis phase, what is the primary purpose of \"technology mapping\"?",
-  "In modern many-core processor architectures, what is the primary scalability challenge that a 'Directory-Based Cache Coherence Protocol' is designed to overcome compared to a 'Snooping Protocol'?",
-  "In the context of formal verification of digital integrated circuits, what is the primary role of \"Temporal Logic\" (e.g., Linear Temporal Logic (LTL) or Computation Tree Logic (CTL))?",
   "What is the primary characteristic of an FPGA (Field-Programmable Gate Array) that distinguishes it from an ASIC (Application-Specific Integrated Circuit)?",
   "In the physical design flow of a digital integrated circuit, what is the main objective of the 'placement' stage?",
   "Which memory consistency model ensures that all memory operations appear to execute in some sequential order, and that the operations of each individual processor appear in program order?",
@@ -48,5 +43,10 @@
   "In a computer system utilizing virtual memory, what is the fundamental role of a \"page table\"?",
   "In synchronous digital circuits, what phenomenon describes a flip-flop entering an unstable, intermediate state for an indeterminate amount of time, often occurring when setup or hold time requirements are violated, or when synchronizing asynchronous inputs?",
   "At advanced technology nodes (e.g., 14nm and below), FinFETs (Fin Field-Effect Transistors) largely replaced traditional planar MOSFETs. What is the primary advantage of a FinFET over a planar MOSFET that addresses challenges of continued scaling?",
-  "In the physical design flow of a digital integrated circuit, particularly during logic synthesis and place-and-route, what is the primary objective of \"gate sizing\"?"
+  "In the physical design flow of a digital integrated circuit, particularly during logic synthesis and place-and-route, what is the primary objective of \"gate sizing\"?",
+  "What is the primary purpose of a clock signal in a synchronous digital circuit?",
+  "In the context of Design for Testability (DFT) for Integrated Circuits and Printed Circuit Boards (PCBs), what is the primary purpose of the JTAG (IEEE 1149.1) standard, commonly known as Boundary Scan?",
+  "In a multi-processor system with private caches, which cache coherence protocol typically invalidates other copies of a data block when a write occurs to ensure consistency?",
+  "In advanced semiconductor devices, what is a \"soft error\" primarily caused by, and what is its main characteristic compared to a \"hard error\"?",
+  "Which page replacement algorithm guarantees the lowest possible page fault rate for a given reference string, but is generally impractical to implement in real operating systems?"
 ]
