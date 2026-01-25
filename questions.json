@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a clock signal in a synchronous digital circuit?",
+      "question": "Which of the following fundamental logic gates produces an output that is the logical inverse (complement) of its single input?",
       "options": [
-        "To provide power to the circuit components.",
-        "To synchronize the operations of all sequential elements.",
-        "To amplify weak digital signals.",
-        "To generate random numbers for testing.",
-        "To measure the ambient temperature of the chip."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the context of Design for Testability (DFT) for Integrated Circuits and Printed Circuit Boards (PCBs), what is the primary purpose of the JTAG (IEEE 1149.1) standard, commonly known as Boundary Scan?",
-      "options": [
-        "To measure the operating temperature of the chip for thermal management.",
-        "To provide a standardized method for in-circuit testing of interconnects and components on a PCB.",
-        "To perform static timing analysis on the synthesized netlist.",
-        "To optimize power consumption of the core logic during operation.",
-        "To automatically generate test vectors for combinational logic."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a multi-processor system with private caches, which cache coherence protocol typically invalidates other copies of a data block when a write occurs to ensure consistency?",
-      "options": [
-        "Write-Through protocol",
-        "Write-Back protocol",
-        "Write-Update protocol",
-        "Write-Invalidate protocol",
-        "Sequential Consistency protocol"
+        "AND gate",
+        "OR gate",
+        "XOR gate",
+        "NOT gate",
+        "NAND gate"
       ],
       "correct": 3
     },
     {
-      "question": "In advanced semiconductor devices, what is a \"soft error\" primarily caused by, and what is its main characteristic compared to a \"hard error\"?",
+      "question": "In digital IC verification, what is the primary advantage of employing formal verification techniques (e.g., model checking, equivalence checking) compared to traditional simulation-based verification?",
       "options": [
-        "It's a permanent physical defect caused by manufacturing imperfections, leading to a permanent circuit malfunction.",
-        "It's a temporary, non-destructive data corruption caused by high-energy particle strikes, which can be corrected by rewriting the data.",
-        "It refers to a gradual degradation of transistor performance due to aging and wear-out mechanisms like NBTI.",
-        "It's an error in logic synthesis that results in incorrect Boolean functionality, detected during functional verification.",
-        "It's a timing violation (setup/hold) that causes a flip-flop to enter a metastable state, leading to unpredictable output."
+        "It can execute the design much faster than simulation, significantly reducing verification cycles.",
+        "It can mathematically prove the correctness of design properties for all possible input sequences and states, offering exhaustive verification.",
+        "It requires significantly less computational power and memory resources than running extensive simulations for complex designs.",
+        "It is more effective at identifying and debugging asynchronous issues and clock domain crossings.",
+        "It provides accurate power consumption estimates for various operating scenarios without needing a testbench."
       ],
       "correct": 1
     },
     {
-      "question": "Which page replacement algorithm guarantees the lowest possible page fault rate for a given reference string, but is generally impractical to implement in real operating systems?",
+      "question": "What is the primary reason why Dynamic Random-Access Memory (DRAM) is typically used for a computer's main memory (RAM), while Static Random-Access Memory (SRAM) is preferred for CPU caches?",
       "options": [
-        "Least Recently Used (LRU)",
-        "First-In, First-Out (FIFO)",
-        "Optimal (MIN/OPT)",
-        "Least Frequently Used (LFU)",
-        "Random Replacement"
+        "DRAM is significantly faster than SRAM, making it ideal for the CPU's direct access.",
+        "SRAM is non-volatile, whereas DRAM loses its data when power is removed.",
+        "DRAM cells are simpler and require fewer transistors than SRAM cells, enabling higher density and lower cost per bit.",
+        "SRAM requires periodic refreshing of its stored charge, unlike DRAM.",
+        "DRAM consumes substantially less power than SRAM, particularly in idle states."
       ],
       "correct": 2
+    },
+    {
+      "question": "Which power reduction technique in digital IC design involves selectively disabling the clock signal to specific registers or functional blocks when their outputs are not required to change, thus reducing dynamic power consumption?",
+      "options": [
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Power Gating",
+        "Multi-Threshold CMOS (MTCMOS)",
+        "Clock Gating",
+        "Process Variation Management (PVM)"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the microarchitecture of a typical Central Processing Unit (CPU), what is the primary function of the \"Register File\"?",
+      "options": [
+        "To store the operating system's kernel and critical system data.",
+        "To provide a small, fast memory unit for storing operands, intermediate results, and addresses that are actively being used by the CPU's functional units.",
+        "To translate virtual memory addresses into physical memory addresses.",
+        "To manage the fetching of instructions from main memory into the instruction pipeline.",
+        "To perform complex arithmetic operations, such as floating-point calculations."
+      ],
+      "correct": 1
     }
   ]
 }

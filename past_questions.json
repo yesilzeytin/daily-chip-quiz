@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic of an FPGA (Field-Programmable Gate Array) that distinguishes it from an ASIC (Application-Specific Integrated Circuit)?",
-  "In the physical design flow of a digital integrated circuit, what is the main objective of the 'placement' stage?",
-  "Which memory consistency model ensures that all memory operations appear to execute in some sequential order, and that the operations of each individual processor appear in program order?",
-  "What is the primary cause of Negative Bias Temperature Instability (NBTI) in p-MOSFETs, leading to a degradation in performance (e.g., threshold voltage shift, reduced drive current) over time?",
-  "In the context of an Instruction Set Architecture (ISA), what is the primary role of the 'opcode'?",
   "In the semiconductor manufacturing process, what is the primary role of photolithography?",
   "In a pipelined processor, what is the primary goal of a branch predictor?",
   "In synchronous digital circuit design, what does the \"setup time\" of a flip-flop primarily refer to?",
@@ -48,5 +43,10 @@
   "In the context of Design for Testability (DFT) for Integrated Circuits and Printed Circuit Boards (PCBs), what is the primary purpose of the JTAG (IEEE 1149.1) standard, commonly known as Boundary Scan?",
   "In a multi-processor system with private caches, which cache coherence protocol typically invalidates other copies of a data block when a write occurs to ensure consistency?",
   "In advanced semiconductor devices, what is a \"soft error\" primarily caused by, and what is its main characteristic compared to a \"hard error\"?",
-  "Which page replacement algorithm guarantees the lowest possible page fault rate for a given reference string, but is generally impractical to implement in real operating systems?"
+  "Which page replacement algorithm guarantees the lowest possible page fault rate for a given reference string, but is generally impractical to implement in real operating systems?",
+  "Which of the following fundamental logic gates produces an output that is the logical inverse (complement) of its single input?",
+  "In digital IC verification, what is the primary advantage of employing formal verification techniques (e.g., model checking, equivalence checking) compared to traditional simulation-based verification?",
+  "What is the primary reason why Dynamic Random-Access Memory (DRAM) is typically used for a computer's main memory (RAM), while Static Random-Access Memory (SRAM) is preferred for CPU caches?",
+  "Which power reduction technique in digital IC design involves selectively disabling the clock signal to specific registers or functional blocks when their outputs are not required to change, thus reducing dynamic power consumption?",
+  "In the microarchitecture of a typical Central Processing Unit (CPU), what is the primary function of the \"Register File\"?"
 ]
