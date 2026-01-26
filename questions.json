@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "Which of the following fundamental logic gates produces an output that is the logical inverse (complement) of its single input?",
+      "question": "Which of the following is an example of a volatile memory type, meaning its contents are lost when power is removed?",
       "options": [
-        "AND gate",
-        "OR gate",
-        "XOR gate",
-        "NOT gate",
-        "NAND gate"
+        "Solid State Drive (SSD)",
+        "Hard Disk Drive (HDD)",
+        "Read-Only Memory (ROM)",
+        "Dynamic Random-Access Memory (DRAM)",
+        "Flash Memory"
       ],
       "correct": 3
     },
     {
-      "question": "In digital IC verification, what is the primary advantage of employing formal verification techniques (e.g., model checking, equivalence checking) compared to traditional simulation-based verification?",
+      "question": "In the digital IC design flow, what is the primary goal of achieving 'timing closure'?",
       "options": [
-        "It can execute the design much faster than simulation, significantly reducing verification cycles.",
-        "It can mathematically prove the correctness of design properties for all possible input sequences and states, offering exhaustive verification.",
-        "It requires significantly less computational power and memory resources than running extensive simulations for complex designs.",
-        "It is more effective at identifying and debugging asynchronous issues and clock domain crossings.",
-        "It provides accurate power consumption estimates for various operating scenarios without needing a testbench."
+        "Ensuring all functional blocks operate within their power budget",
+        "Verifying the logical correctness of the RTL design against specifications",
+        "Guaranteeing that all clock signals arrive simultaneously at all flip-flops",
+        "Satisfying all setup and hold time constraints across all operating conditions (PVT corners)",
+        "Minimizing the physical area occupied by the integrated circuit"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In a MOSFET, what does the 'threshold voltage' (Vt) primarily represent?",
+      "options": [
+        "The maximum voltage the gate oxide can withstand before breakdown",
+        "The voltage at which the transistor starts conducting significantly by forming an inversion layer",
+        "The voltage required to turn the transistor completely off",
+        "The voltage difference between the source and drain terminals at saturation",
+        "The voltage at which the gate current becomes negligible"
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary reason why Dynamic Random-Access Memory (DRAM) is typically used for a computer's main memory (RAM), while Static Random-Access Memory (SRAM) is preferred for CPU caches?",
+      "question": "In a system with multiple devices sharing a common bus (e.g., a memory bus), what is the primary role of a 'bus arbiter'?",
       "options": [
-        "DRAM is significantly faster than SRAM, making it ideal for the CPU's direct access.",
-        "SRAM is non-volatile, whereas DRAM loses its data when power is removed.",
-        "DRAM cells are simpler and require fewer transistors than SRAM cells, enabling higher density and lower cost per bit.",
-        "SRAM requires periodic refreshing of its stored charge, unlike DRAM.",
-        "DRAM consumes substantially less power than SRAM, particularly in idle states."
+        "To translate addresses from virtual to physical memory",
+        "To enforce cache coherence among multiple processors",
+        "To ensure fair and efficient allocation of bus access among competing masters",
+        "To regulate the clock frequency of the bus",
+        "To store frequently accessed data for faster retrieval"
       ],
       "correct": 2
     },
     {
-      "question": "Which power reduction technique in digital IC design involves selectively disabling the clock signal to specific registers or functional blocks when their outputs are not required to change, thus reducing dynamic power consumption?",
+      "question": "In the context of digital IC verification, what does 'functional coverage' primarily measure?",
       "options": [
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Power Gating",
-        "Multi-Threshold CMOS (MTCMOS)",
-        "Clock Gating",
-        "Process Variation Management (PVM)"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the microarchitecture of a typical Central Processing Unit (CPU), what is the primary function of the \"Register File\"?",
-      "options": [
-        "To store the operating system's kernel and critical system data.",
-        "To provide a small, fast memory unit for storing operands, intermediate results, and addresses that are actively being used by the CPU's functional units.",
-        "To translate virtual memory addresses into physical memory addresses.",
-        "To manage the fetching of instructions from main memory into the instruction pipeline.",
-        "To perform complex arithmetic operations, such as floating-point calculations."
+        "The percentage of the design's physical area that has been routed",
+        "The extent to which the testbench stimulates and observes all specified behaviors of the design",
+        "The number of clock cycles required to execute a specific test case",
+        "The amount of power consumed by the design under various operational scenarios",
+        "The ratio of test vectors to the total gates in the design"
       ],
       "correct": 1
     }

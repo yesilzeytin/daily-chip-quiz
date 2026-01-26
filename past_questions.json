@@ -1,9 +1,4 @@
 [
-  "In the semiconductor manufacturing process, what is the primary role of photolithography?",
-  "In a pipelined processor, what is the primary goal of a branch predictor?",
-  "In synchronous digital circuit design, what does the \"setup time\" of a flip-flop primarily refer to?",
-  "What is the primary advantage of 3D Integrated Circuits (3D ICs) over traditional 2D planar ICs, particularly concerning inter-die communication?",
-  "In a multi-core processor system, what is the primary motivation for employing relaxed memory consistency models instead of strictly sequential consistency?",
   "Which of the following is a fundamental building block of sequential logic circuits, capable of storing a single bit of information and changing its state only at the rising or falling edge of a clock signal?",
   "In a typical computer system's memory hierarchy, what is the primary purpose of having multiple levels of cache (e.g., L1, L2, L3)?",
   "In the physical design flow of a digital integrated circuit, after the 'placement' stage, what is the primary objective of the 'routing' stage?",
@@ -48,5 +43,10 @@
   "In digital IC verification, what is the primary advantage of employing formal verification techniques (e.g., model checking, equivalence checking) compared to traditional simulation-based verification?",
   "What is the primary reason why Dynamic Random-Access Memory (DRAM) is typically used for a computer's main memory (RAM), while Static Random-Access Memory (SRAM) is preferred for CPU caches?",
   "Which power reduction technique in digital IC design involves selectively disabling the clock signal to specific registers or functional blocks when their outputs are not required to change, thus reducing dynamic power consumption?",
-  "In the microarchitecture of a typical Central Processing Unit (CPU), what is the primary function of the \"Register File\"?"
+  "In the microarchitecture of a typical Central Processing Unit (CPU), what is the primary function of the \"Register File\"?",
+  "Which of the following is an example of a volatile memory type, meaning its contents are lost when power is removed?",
+  "In the digital IC design flow, what is the primary goal of achieving 'timing closure'?",
+  "In a MOSFET, what does the 'threshold voltage' (Vt) primarily represent?",
+  "In a system with multiple devices sharing a common bus (e.g., a memory bus), what is the primary role of a 'bus arbiter'?",
+  "In the context of digital IC verification, what does 'functional coverage' primarily measure?"
 ]
