@@ -1,9 +1,4 @@
 [
-  "Which of the following is a fundamental building block of sequential logic circuits, capable of storing a single bit of information and changing its state only at the rising or falling edge of a clock signal?",
-  "In a typical computer system's memory hierarchy, what is the primary purpose of having multiple levels of cache (e.g., L1, L2, L3)?",
-  "In the physical design flow of a digital integrated circuit, after the 'placement' stage, what is the primary objective of the 'routing' stage?",
-  "Which architectural technique allows a processor to execute multiple instructions in a single clock cycle by fetching, decoding, and executing several independent instructions concurrently?",
-  "At advanced technology nodes (e.g., sub-20nm), what fundamental challenge in MOSFET scaling does 'Short Channel Effect' primarily refer to, impacting transistor performance and reliability?",
   "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
   "In a multi-core processor system, what is the primary purpose of a 'write-back' cache policy, as opposed to a 'write-through' policy?",
   "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'non-blocking assignment' (e.g., using the `<=` operator) when modeling sequential digital logic?",
@@ -48,5 +43,10 @@
   "In the digital IC design flow, what is the primary goal of achieving 'timing closure'?",
   "In a MOSFET, what does the 'threshold voltage' (Vt) primarily represent?",
   "In a system with multiple devices sharing a common bus (e.g., a memory bus), what is the primary role of a 'bus arbiter'?",
-  "In the context of digital IC verification, what does 'functional coverage' primarily measure?"
+  "In the context of digital IC verification, what does 'functional coverage' primarily measure?",
+  "What is the primary purpose of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
+  "In the context of pipelined processors, what is a 'data hazard' primarily caused by?",
+  "Which technique is primarily used in advanced System-on-Chip (SoC) power management to completely cut off power to inactive functional blocks, thereby eliminating both static and dynamic power consumption in those regions?",
+  "What is the fundamental difference in purpose and application between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
+  "In the design of high-speed digital interconnects and PCB traces, what phenomenon refers to the bouncing back of a signal at points of impedance mismatch along a transmission line, which can lead to signal integrity issues like overshoot, undershoot, and ringing?"
 ]

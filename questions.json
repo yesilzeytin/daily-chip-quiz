@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which of the following is an example of a volatile memory type, meaning its contents are lost when power is removed?",
+      "question": "What is the primary purpose of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
       "options": [
-        "Solid State Drive (SSD)",
-        "Hard Disk Drive (HDD)",
-        "Read-Only Memory (ROM)",
-        "Dynamic Random-Access Memory (DRAM)",
-        "Flash Memory"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the digital IC design flow, what is the primary goal of achieving 'timing closure'?",
-      "options": [
-        "Ensuring all functional blocks operate within their power budget",
-        "Verifying the logical correctness of the RTL design against specifications",
-        "Guaranteeing that all clock signals arrive simultaneously at all flip-flops",
-        "Satisfying all setup and hold time constraints across all operating conditions (PVT corners)",
-        "Minimizing the physical area occupied by the integrated circuit"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a MOSFET, what does the 'threshold voltage' (Vt) primarily represent?",
-      "options": [
-        "The maximum voltage the gate oxide can withstand before breakdown",
-        "The voltage at which the transistor starts conducting significantly by forming an inversion layer",
-        "The voltage required to turn the transistor completely off",
-        "The voltage difference between the source and drain terminals at saturation",
-        "The voltage at which the gate current becomes negligible"
+        "To physically manufacture silicon wafers in a fabrication plant.",
+        "To describe the behavior, structure, and connectivity of electronic circuits for synthesis and simulation.",
+        "To write operating system code for embedded processors.",
+        "To perform finite element analysis for thermal modeling of chip packages.",
+        "To manage project timelines and resource allocation in a design team."
       ],
       "correct": 1
     },
     {
-      "question": "In a system with multiple devices sharing a common bus (e.g., a memory bus), what is the primary role of a 'bus arbiter'?",
+      "question": "In the context of pipelined processors, what is a 'data hazard' primarily caused by?",
       "options": [
-        "To translate addresses from virtual to physical memory",
-        "To enforce cache coherence among multiple processors",
-        "To ensure fair and efficient allocation of bus access among competing masters",
-        "To regulate the clock frequency of the bus",
-        "To store frequently accessed data for faster retrieval"
+        "Multiple instructions attempting to access the same hardware resource simultaneously.",
+        "A conditional branch instruction causing the pipeline to fetch instructions from an incorrect path.",
+        "An instruction attempting to use data that has not yet been computed or made available by a preceding instruction.",
+        "The processor fetching an invalid or corrupted instruction from memory.",
+        "Insufficient capacity in the processor's register file to store all intermediate results."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of digital IC verification, what does 'functional coverage' primarily measure?",
+      "question": "Which technique is primarily used in advanced System-on-Chip (SoC) power management to completely cut off power to inactive functional blocks, thereby eliminating both static and dynamic power consumption in those regions?",
       "options": [
-        "The percentage of the design's physical area that has been routed",
-        "The extent to which the testbench stimulates and observes all specified behaviors of the design",
-        "The number of clock cycles required to execute a specific test case",
-        "The amount of power consumed by the design under various operational scenarios",
-        "The ratio of test vectors to the total gates in the design"
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Clock Gating",
+        "Pipeline Flushing",
+        "Power Gating",
+        "Cache Coherence Protocols"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the fundamental difference in purpose and application between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
+      "options": [
+        "ASICs are programmed after manufacturing using a bitstream, while FPGAs require a full custom mask set for fabrication.",
+        "ASICs are optimized for high-performance and low-power in mass production, while FPGAs offer design flexibility and faster time-to-market for prototyping and lower volumes.",
+        "ASICs contain only combinational logic gates, whereas FPGAs exclusively use sequential logic elements like flip-flops.",
+        "FPGAs are purely analog circuits, while ASICs are exclusively used for digital processing.",
+        "ASICs are typically used for general-purpose computing, while FPGAs are restricted to embedded control applications."
       ],
       "correct": 1
+    },
+    {
+      "question": "In the design of high-speed digital interconnects and PCB traces, what phenomenon refers to the bouncing back of a signal at points of impedance mismatch along a transmission line, which can lead to signal integrity issues like overshoot, undershoot, and ringing?",
+      "options": [
+        "Crosstalk",
+        "Electromigration",
+        "Jitter",
+        "Signal Reflection",
+        "Ground Bounce"
+      ],
+      "correct": 3
     }
   ]
 }
