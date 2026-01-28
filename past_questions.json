@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
-  "In a multi-core processor system, what is the primary purpose of a 'write-back' cache policy, as opposed to a 'write-through' policy?",
-  "In Hardware Description Languages (HDLs) like Verilog, what is the primary characteristic and typical use of a 'non-blocking assignment' (e.g., using the `<=` operator) when modeling sequential digital logic?",
-  "What phenomenon, often observed in n-MOSFETs, involves high-energy electrons or holes getting injected into the gate oxide, leading to threshold voltage shift and degradation of device performance over time?",
-  "What architectural technique allows a processor to achieve instruction-level parallelism (ILP) by discovering independent instructions from *multiple* program threads and executing them concurrently on shared functional units?",
   "What is the defining characteristic of a combinational logic circuit?",
   "In a computer system employing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
   "In synchronous digital circuit design, a 'hold time violation' in a flip-flop primarily occurs when:",
@@ -48,5 +43,10 @@
   "In the context of pipelined processors, what is a 'data hazard' primarily caused by?",
   "Which technique is primarily used in advanced System-on-Chip (SoC) power management to completely cut off power to inactive functional blocks, thereby eliminating both static and dynamic power consumption in those regions?",
   "What is the fundamental difference in purpose and application between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
-  "In the design of high-speed digital interconnects and PCB traces, what phenomenon refers to the bouncing back of a signal at points of impedance mismatch along a transmission line, which can lead to signal integrity issues like overshoot, undershoot, and ringing?"
+  "In the design of high-speed digital interconnects and PCB traces, what phenomenon refers to the bouncing back of a signal at points of impedance mismatch along a transmission line, which can lead to signal integrity issues like overshoot, undershoot, and ringing?",
+  "What is the fundamental purpose of a flip-flop in digital circuits?",
+  "In the context of computer architecture, what is the primary role of a \"pipeline\" in a CPU?",
+  "In an out-of-order CPU microarchitecture, what is the main function of a \"Reorder Buffer\" (ROB)?",
+  "What is the primary challenge that drives the increasing adoption of 3D IC stacking (e.g., through-silicon vias - TSVs) in modern chip design?",
+  "Which of the following best describes the primary goal of \"Register Transfer Level (RTL)\" design in the digital IC design flow?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
+      "question": "What is the fundamental purpose of a flip-flop in digital circuits?",
       "options": [
-        "To physically manufacture silicon wafers in a fabrication plant.",
-        "To describe the behavior, structure, and connectivity of electronic circuits for synthesis and simulation.",
-        "To write operating system code for embedded processors.",
-        "To perform finite element analysis for thermal modeling of chip packages.",
-        "To manage project timelines and resource allocation in a design team."
+        "To store a single bit of binary information (state).",
+        "To perform arithmetic and logical operations.",
+        "To combine multiple input signals into a single output.",
+        "To amplify digital signals for longer transmission.",
+        "To generate clock signals for synchronous operations."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the context of computer architecture, what is the primary role of a \"pipeline\" in a CPU?",
+      "options": [
+        "To reduce the overall power consumption of the processor.",
+        "To allow multiple instructions to be in different stages of execution concurrently, thereby increasing instruction throughput.",
+        "To provide a temporary storage area for frequently accessed data, speeding up memory access.",
+        "To convert complex instructions into simpler micro-operations for execution.",
+        "To manage external interrupts and exceptions efficiently."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of pipelined processors, what is a 'data hazard' primarily caused by?",
+      "question": "In an out-of-order CPU microarchitecture, what is the main function of a \"Reorder Buffer\" (ROB)?",
       "options": [
-        "Multiple instructions attempting to access the same hardware resource simultaneously.",
-        "A conditional branch instruction causing the pipeline to fetch instructions from an incorrect path.",
-        "An instruction attempting to use data that has not yet been computed or made available by a preceding instruction.",
-        "The processor fetching an invalid or corrupted instruction from memory.",
-        "Insufficient capacity in the processor's register file to store all intermediate results."
+        "To cache the results of frequently used arithmetic operations.",
+        "To store instructions in their original program order until they are ready to be committed, ensuring precise exceptions and architectural state updates.",
+        "To pre-fetch data from memory into caches before it is requested by the CPU.",
+        "To schedule instructions for execution on available functional units.",
+        "To translate virtual memory addresses into physical memory addresses."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary challenge that drives the increasing adoption of 3D IC stacking (e.g., through-silicon vias - TSVs) in modern chip design?",
+      "options": [
+        "The increasing difficulty in manufacturing larger 2D die sizes.",
+        "The need to reduce static power leakage in individual transistors.",
+        "The growing demand for higher memory bandwidth and reduced interconnect latency between different chip components.",
+        "The limitations of traditional lithography in achieving smaller feature sizes.",
+        "The need for improved thermal dissipation techniques for single-die processors."
       ],
       "correct": 2
     },
     {
-      "question": "Which technique is primarily used in advanced System-on-Chip (SoC) power management to completely cut off power to inactive functional blocks, thereby eliminating both static and dynamic power consumption in those regions?",
+      "question": "Which of the following best describes the primary goal of \"Register Transfer Level (RTL)\" design in the digital IC design flow?",
       "options": [
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Clock Gating",
-        "Pipeline Flushing",
-        "Power Gating",
-        "Cache Coherence Protocols"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is the fundamental difference in purpose and application between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
-      "options": [
-        "ASICs are programmed after manufacturing using a bitstream, while FPGAs require a full custom mask set for fabrication.",
-        "ASICs are optimized for high-performance and low-power in mass production, while FPGAs offer design flexibility and faster time-to-market for prototyping and lower volumes.",
-        "ASICs contain only combinational logic gates, whereas FPGAs exclusively use sequential logic elements like flip-flops.",
-        "FPGAs are purely analog circuits, while ASICs are exclusively used for digital processing.",
-        "ASICs are typically used for general-purpose computing, while FPGAs are restricted to embedded control applications."
+        "To perform physical placement and routing of standard cells on the silicon die.",
+        "To describe the circuit's operation in terms of the flow of data between hardware registers and combinational logic transformations.",
+        "To verify the functionality of the final manufactured silicon chip using test patterns.",
+        "To optimize transistor-level designs for minimal power consumption.",
+        "To generate the mask layouts for semiconductor fabrication."
       ],
       "correct": 1
-    },
-    {
-      "question": "In the design of high-speed digital interconnects and PCB traces, what phenomenon refers to the bouncing back of a signal at points of impedance mismatch along a transmission line, which can lead to signal integrity issues like overshoot, undershoot, and ringing?",
-      "options": [
-        "Crosstalk",
-        "Electromigration",
-        "Jitter",
-        "Signal Reflection",
-        "Ground Bounce"
-      ],
-      "correct": 3
     }
   ]
 }
