@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental purpose of a flip-flop in digital circuits?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital circuits?",
       "options": [
-        "To store a single bit of binary information (state).",
-        "To perform arithmetic and logical operations.",
-        "To combine multiple input signals into a single output.",
-        "To amplify digital signals for longer transmission.",
-        "To generate clock signals for synchronous operations."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the context of computer architecture, what is the primary role of a \"pipeline\" in a CPU?",
-      "options": [
-        "To reduce the overall power consumption of the processor.",
-        "To allow multiple instructions to be in different stages of execution concurrently, thereby increasing instruction throughput.",
-        "To provide a temporary storage area for frequently accessed data, speeding up memory access.",
-        "To convert complex instructions into simpler micro-operations for execution.",
-        "To manage external interrupts and exceptions efficiently."
+        "Stores a single bit of data.",
+        "Selects one of several input signals and forwards the selected input into a single output line.",
+        "Converts a binary number into a corresponding set of output lines.",
+        "Compares two binary numbers and indicates their relationship.",
+        "Generates a sequence of timing signals."
       ],
       "correct": 1
     },
     {
-      "question": "In an out-of-order CPU microarchitecture, what is the main function of a \"Reorder Buffer\" (ROB)?",
+      "question": "In the context of CPU cache memory, what is the primary characteristic of a 'write-back' policy?",
       "options": [
-        "To cache the results of frequently used arithmetic operations.",
-        "To store instructions in their original program order until they are ready to be committed, ensuring precise exceptions and architectural state updates.",
-        "To pre-fetch data from memory into caches before it is requested by the CPU.",
-        "To schedule instructions for execution on available functional units.",
-        "To translate virtual memory addresses into physical memory addresses."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary challenge that drives the increasing adoption of 3D IC stacking (e.g., through-silicon vias - TSVs) in modern chip design?",
-      "options": [
-        "The increasing difficulty in manufacturing larger 2D die sizes.",
-        "The need to reduce static power leakage in individual transistors.",
-        "The growing demand for higher memory bandwidth and reduced interconnect latency between different chip components.",
-        "The limitations of traditional lithography in achieving smaller feature sizes.",
-        "The need for improved thermal dissipation techniques for single-die processors."
+        "Data is written to both the cache and main memory simultaneously.",
+        "Data is written only to main memory, bypassing the cache.",
+        "Data is written to the cache, and updated blocks are written back to main memory only when they are evicted from the cache.",
+        "Data is written to the cache, and main memory is updated only after a fixed number of cache lines have been modified.",
+        "Data is written directly to the CPU registers, then moved to the cache."
       ],
       "correct": 2
     },
     {
-      "question": "Which of the following best describes the primary goal of \"Register Transfer Level (RTL)\" design in the digital IC design flow?",
+      "question": "In digital IC verification, what is the primary purpose of 'Formal Equivalence Checking (FEC)'?",
       "options": [
-        "To perform physical placement and routing of standard cells on the silicon die.",
-        "To describe the circuit's operation in terms of the flow of data between hardware registers and combinational logic transformations.",
-        "To verify the functionality of the final manufactured silicon chip using test patterns.",
-        "To optimize transistor-level designs for minimal power consumption.",
-        "To generate the mask layouts for semiconductor fabrication."
+        "To simulate the circuit's behavior under various input stimuli.",
+        "To check if two different representations of a design (e.g., RTL and gate-level netlist) implement the same functionality.",
+        "To measure the percentage of code lines or functional behaviors exercised during simulation.",
+        "To verify that the timing constraints of the design are met across all operating conditions.",
+        "To automatically generate test vectors for manufacturing defect detection."
       ],
       "correct": 1
+    },
+    {
+      "question": "Which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and that the order of operations from a single processor is preserved in this sequential order, making it the strongest (most intuitive) but potentially slowest model?",
+      "options": [
+        "Release Consistency",
+        "Weak Consistency",
+        "Sequential Consistency",
+        "Processor Consistency",
+        "Eventual Consistency"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "At advanced technology nodes, what is 'Negative Bias Temperature Instability (NBTI)' primarily known for affecting in PMOS transistors, leading to performance degradation over time?",
+      "options": [
+        "Increasing the gate oxide thickness.",
+        "Decreasing the source-drain current.",
+        "Shifting the threshold voltage (Vt) of the transistor.",
+        "Enhancing the dielectric constant of the gate insulator.",
+        "Reducing parasitic capacitance."
+      ],
+      "correct": 2
     }
   ]
 }

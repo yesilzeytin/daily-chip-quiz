@@ -1,9 +1,4 @@
 [
-  "What is the defining characteristic of a combinational logic circuit?",
-  "In a computer system employing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
-  "In synchronous digital circuit design, a 'hold time violation' in a flip-flop primarily occurs when:",
-  "In the context of digital IC design using Hardware Description Languages (HDLs), what is the primary purpose of 'linting' an RTL design?",
-  "Which architectural paradigm is primarily employed by modern GPUs to achieve massive parallelism, where multiple independent threads execute the same instruction simultaneously on different data?",
   "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
   "In Static Timing Analysis (STA), what is the primary purpose of analyzing a design across different 'process, voltage, and temperature (PVT) corners'?",
   "In the physical design flow of a digital integrated circuit, what is the primary objective of Clock Tree Synthesis (CTS)?",
@@ -48,5 +43,10 @@
   "In the context of computer architecture, what is the primary role of a \"pipeline\" in a CPU?",
   "In an out-of-order CPU microarchitecture, what is the main function of a \"Reorder Buffer\" (ROB)?",
   "What is the primary challenge that drives the increasing adoption of 3D IC stacking (e.g., through-silicon vias - TSVs) in modern chip design?",
-  "Which of the following best describes the primary goal of \"Register Transfer Level (RTL)\" design in the digital IC design flow?"
+  "Which of the following best describes the primary goal of \"Register Transfer Level (RTL)\" design in the digital IC design flow?",
+  "What is the primary function of a multiplexer (MUX) in digital circuits?",
+  "In the context of CPU cache memory, what is the primary characteristic of a 'write-back' policy?",
+  "In digital IC verification, what is the primary purpose of 'Formal Equivalence Checking (FEC)'?",
+  "Which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and that the order of operations from a single processor is preserved in this sequential order, making it the strongest (most intuitive) but potentially slowest model?",
+  "At advanced technology nodes, what is 'Negative Bias Temperature Instability (NBTI)' primarily known for affecting in PMOS transistors, leading to performance degradation over time?"
 ]
