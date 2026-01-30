@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital circuits?",
+      "question": "What is the primary purpose of doping in semiconductor manufacturing?",
       "options": [
-        "Stores a single bit of data.",
-        "Selects one of several input signals and forwards the selected input into a single output line.",
-        "Converts a binary number into a corresponding set of output lines.",
-        "Compares two binary numbers and indicates their relationship.",
-        "Generates a sequence of timing signals."
+        "To introduce impurities to control and modify the electrical conductivity of the material.",
+        "To increase the physical strength and durability of the silicon wafer.",
+        "To reduce the chip's operating temperature during active use.",
+        "To prevent electromagnetic interference from external sources.",
+        "To create insulating layers between different transistor structures."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In a pipelined CPU, what is the primary role of a branch predictor?",
+      "options": [
+        "To determine the next instruction address to fetch after a conditional branch instruction.",
+        "To allocate physical registers for architectural registers to manage out-of-order execution.",
+        "To maintain consistency of data across multiple CPU caches in a multi-core system.",
+        "To translate virtual memory addresses into physical memory addresses.",
+        "To identify and resolve data dependencies that could cause stalls in the pipeline."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In CMOS digital circuits, what is the primary source of static power dissipation?",
+      "options": [
+        "Power consumed during the switching transitions of logic gates and interconnects.",
+        "Leakage currents through transistors when they are theoretically in the 'off' state.",
+        "Power used to charge and discharge the load capacitances of gates and wires.",
+        "Energy dissipated in the clock distribution network.",
+        "Power loss due to IR drop across power delivery networks."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of CPU cache memory, what is the primary characteristic of a 'write-back' policy?",
+      "question": "In the physical verification phase of a digital IC design, what is the primary objective of a Design Rule Check (DRC)?",
       "options": [
-        "Data is written to both the cache and main memory simultaneously.",
-        "Data is written only to main memory, bypassing the cache.",
-        "Data is written to the cache, and updated blocks are written back to main memory only when they are evicted from the cache.",
-        "Data is written to the cache, and main memory is updated only after a fixed number of cache lines have been modified.",
-        "Data is written directly to the CPU registers, then moved to the cache."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In digital IC verification, what is the primary purpose of 'Formal Equivalence Checking (FEC)'?",
-      "options": [
-        "To simulate the circuit's behavior under various input stimuli.",
-        "To check if two different representations of a design (e.g., RTL and gate-level netlist) implement the same functionality.",
-        "To measure the percentage of code lines or functional behaviors exercised during simulation.",
-        "To verify that the timing constraints of the design are met across all operating conditions.",
-        "To automatically generate test vectors for manufacturing defect detection."
+        "To ensure that the logical functionality of the circuit matches its high-level specification (RTL).",
+        "To verify that the physical layout of the circuit adheres to the geometric constraints and tolerances of the semiconductor manufacturing process.",
+        "To confirm that all critical timing paths in the circuit meet their specified performance requirements.",
+        "To guarantee that the power and ground supply networks have sufficient current carrying capacity.",
+        "To detect and correct logical errors in the circuit design before physical implementation."
       ],
       "correct": 1
     },
     {
-      "question": "Which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and that the order of operations from a single processor is preserved in this sequential order, making it the strongest (most intuitive) but potentially slowest model?",
+      "question": "In the context of CPU caches, what is the primary advantage of a 'set-associative' cache over a 'direct-mapped' cache?",
       "options": [
-        "Release Consistency",
-        "Weak Consistency",
-        "Sequential Consistency",
-        "Processor Consistency",
-        "Eventual Consistency"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "At advanced technology nodes, what is 'Negative Bias Temperature Instability (NBTI)' primarily known for affecting in PMOS transistors, leading to performance degradation over time?",
-      "options": [
-        "Increasing the gate oxide thickness.",
-        "Decreasing the source-drain current.",
-        "Shifting the threshold voltage (Vt) of the transistor.",
-        "Enhancing the dielectric constant of the gate insulator.",
-        "Reducing parasitic capacitance."
+        "It inherently offers faster access times for a cache hit.",
+        "It requires significantly less hardware complexity and smaller area.",
+        "It provides a better hit rate by reducing the frequency of conflict misses.",
+        "It completely eliminates the need for a cache coherence protocol in multi-core systems.",
+        "It simplifies the replacement policy, making it easier to implement."
       ],
       "correct": 2
     }

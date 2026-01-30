@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
-  "In Static Timing Analysis (STA), what is the primary purpose of analyzing a design across different 'process, voltage, and temperature (PVT) corners'?",
-  "In the physical design flow of a digital integrated circuit, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "What is the primary benefit of speculative execution in modern high-performance processors?",
-  "In advanced semiconductor manufacturing, what is the primary concern addressed by Design for Manufacturability (DFM) techniques?",
   "Which of the following logic gates provides a HIGH output only when all of its inputs are HIGH?",
   "Which instruction set architecture (ISA) philosophy typically features a smaller, highly optimized set of instructions, each designed to execute in a single clock cycle, favoring software complexity over hardware complexity?",
   "In the context of digital IC design, what is the primary purpose of inserting scan chains into a circuit?",
@@ -48,5 +43,10 @@
   "In the context of CPU cache memory, what is the primary characteristic of a 'write-back' policy?",
   "In digital IC verification, what is the primary purpose of 'Formal Equivalence Checking (FEC)'?",
   "Which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and that the order of operations from a single processor is preserved in this sequential order, making it the strongest (most intuitive) but potentially slowest model?",
-  "At advanced technology nodes, what is 'Negative Bias Temperature Instability (NBTI)' primarily known for affecting in PMOS transistors, leading to performance degradation over time?"
+  "At advanced technology nodes, what is 'Negative Bias Temperature Instability (NBTI)' primarily known for affecting in PMOS transistors, leading to performance degradation over time?",
+  "What is the primary purpose of doping in semiconductor manufacturing?",
+  "In a pipelined CPU, what is the primary role of a branch predictor?",
+  "In CMOS digital circuits, what is the primary source of static power dissipation?",
+  "In the physical verification phase of a digital IC design, what is the primary objective of a Design Rule Check (DRC)?",
+  "In the context of CPU caches, what is the primary advantage of a 'set-associative' cache over a 'direct-mapped' cache?"
 ]
