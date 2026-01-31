@@ -1,9 +1,4 @@
 [
-  "Which of the following logic gates provides a HIGH output only when all of its inputs are HIGH?",
-  "Which instruction set architecture (ISA) philosophy typically features a smaller, highly optimized set of instructions, each designed to execute in a single clock cycle, favoring software complexity over hardware complexity?",
-  "In the context of digital IC design, what is the primary purpose of inserting scan chains into a circuit?",
-  "For future many-core processors and System-on-Chips (SoCs), which communication architecture is increasingly preferred over traditional bus-based interconnects to provide scalable, high-bandwidth, and low-latency communication between intellectual property (IP) blocks and processor cores?",
-  "To accurately predict timing performance and yield for designs at advanced process nodes, where process variations introduce significant uncertainty in gate delays and wire resistances, which analysis technique extends traditional Static Timing Analysis (STA) by modeling delays as probability distributions rather than single worst-case values?",
   "What is the primary contributor to dynamic power consumption in CMOS digital circuits?",
   "In the physical design phase of a digital integrated circuit, what is the primary objective of \"floorplanning\"?",
   "Which architectural technique allows a processor to execute instructions in an order different from their original program sequence, as long as data dependencies are respected, to keep execution units busy and improve performance?",
@@ -48,5 +43,10 @@
   "In a pipelined CPU, what is the primary role of a branch predictor?",
   "In CMOS digital circuits, what is the primary source of static power dissipation?",
   "In the physical verification phase of a digital IC design, what is the primary objective of a Design Rule Check (DRC)?",
-  "In the context of CPU caches, what is the primary advantage of a 'set-associative' cache over a 'direct-mapped' cache?"
+  "In the context of CPU caches, what is the primary advantage of a 'set-associative' cache over a 'direct-mapped' cache?",
+  "What is the primary role of 'logic synthesis' in the digital IC design flow?",
+  "In a pipelined processor, what is a 'control hazard' primarily caused by?",
+  "What phenomenon primarily affects the performance of N-type MOSFETs over time due to the trapping of high-energy electrons (hot carriers) in the gate oxide, leading to a shift in threshold voltage and degradation of transconductance?",
+  "In a cache memory system, what is the primary characteristic of a 'fully associative' cache mapping scheme?",
+  "Which memory consistency model provides the weakest guarantees, primarily allowing reads and writes by a processor to complete out of order with respect to other processors, and a processor's own writes to be seen by other processors out of order relative to its own reads, often used for performance optimization in distributed shared memory systems through explicit synchronization operations?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of doping in semiconductor manufacturing?",
+      "question": "What is the primary role of 'logic synthesis' in the digital IC design flow?",
       "options": [
-        "To introduce impurities to control and modify the electrical conductivity of the material.",
-        "To increase the physical strength and durability of the silicon wafer.",
-        "To reduce the chip's operating temperature during active use.",
-        "To prevent electromagnetic interference from external sources.",
-        "To create insulating layers between different transistor structures."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a pipelined CPU, what is the primary role of a branch predictor?",
-      "options": [
-        "To determine the next instruction address to fetch after a conditional branch instruction.",
-        "To allocate physical registers for architectural registers to manage out-of-order execution.",
-        "To maintain consistency of data across multiple CPU caches in a multi-core system.",
-        "To translate virtual memory addresses into physical memory addresses.",
-        "To identify and resolve data dependencies that could cause stalls in the pipeline."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In CMOS digital circuits, what is the primary source of static power dissipation?",
-      "options": [
-        "Power consumed during the switching transitions of logic gates and interconnects.",
-        "Leakage currents through transistors when they are theoretically in the 'off' state.",
-        "Power used to charge and discharge the load capacitances of gates and wires.",
-        "Energy dissipated in the clock distribution network.",
-        "Power loss due to IR drop across power delivery networks."
+        "Generating a physical layout (mask data) from the netlist.",
+        "Translating a behavioral or Register Transfer Level (RTL) description into an optimized gate-level netlist.",
+        "Verifying the functional correctness of the design using simulation.",
+        "Optimizing the power delivery network across the chip.",
+        "Identifying and fixing timing violations after placement and routing."
       ],
       "correct": 1
     },
     {
-      "question": "In the physical verification phase of a digital IC design, what is the primary objective of a Design Rule Check (DRC)?",
+      "question": "In a pipelined processor, what is a 'control hazard' primarily caused by?",
       "options": [
-        "To ensure that the logical functionality of the circuit matches its high-level specification (RTL).",
-        "To verify that the physical layout of the circuit adheres to the geometric constraints and tolerances of the semiconductor manufacturing process.",
-        "To confirm that all critical timing paths in the circuit meet their specified performance requirements.",
-        "To guarantee that the power and ground supply networks have sufficient current carrying capacity.",
-        "To detect and correct logical errors in the circuit design before physical implementation."
+        "An instruction attempting to read data before a previous instruction has written it.",
+        "The next instruction to fetch depends on the outcome of a preceding branch or jump instruction.",
+        "Two instructions requiring the same hardware resource at the same time.",
+        "An instruction attempting to access an invalid memory address.",
+        "The processor being unable to write back results due to a full reorder buffer."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of CPU caches, what is the primary advantage of a 'set-associative' cache over a 'direct-mapped' cache?",
+      "question": "What phenomenon primarily affects the performance of N-type MOSFETs over time due to the trapping of high-energy electrons (hot carriers) in the gate oxide, leading to a shift in threshold voltage and degradation of transconductance?",
       "options": [
-        "It inherently offers faster access times for a cache hit.",
-        "It requires significantly less hardware complexity and smaller area.",
-        "It provides a better hit rate by reducing the frequency of conflict misses.",
-        "It completely eliminates the need for a cache coherence protocol in multi-core systems.",
-        "It simplifies the replacement policy, making it easier to implement."
+        "Electromigration",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Time Dependent Dielectric Breakdown (TDDB)",
+        "Hot Carrier Injection (HCI)",
+        "Soft Errors"
       ],
-      "correct": 2
+      "correct": 3
+    },
+    {
+      "question": "In a cache memory system, what is the primary characteristic of a 'fully associative' cache mapping scheme?",
+      "options": [
+        "Each main memory block can be mapped to exactly one specific cache line determined by its address.",
+        "Each main memory block can be mapped to any available cache line.",
+        "Cache lines are divided into sets, and a main memory block can be mapped to any line within a specific set.",
+        "The cache controller determines the mapping based on the least recently used algorithm.",
+        "It exclusively uses a tag and offset to locate data, without an index component."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which memory consistency model provides the weakest guarantees, primarily allowing reads and writes by a processor to complete out of order with respect to other processors, and a processor's own writes to be seen by other processors out of order relative to its own reads, often used for performance optimization in distributed shared memory systems through explicit synchronization operations?",
+      "options": [
+        "Sequential Consistency",
+        "Total Store Order (TSO)",
+        "Processor Consistency",
+        "Weak Ordering",
+        "Release Consistency"
+      ],
+      "correct": 4
     }
   ]
 }
