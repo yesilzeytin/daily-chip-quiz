@@ -1,9 +1,4 @@
 [
-  "What is the primary contributor to dynamic power consumption in CMOS digital circuits?",
-  "In the physical design phase of a digital integrated circuit, what is the primary objective of \"floorplanning\"?",
-  "Which architectural technique allows a processor to execute instructions in an order different from their original program sequence, as long as data dependencies are respected, to keep execution units busy and improve performance?",
-  "What phenomenon in integrated circuits primarily refers to the transport of material caused by the gradual movement of metal atoms in a conductor due to the momentum transfer from colliding electrons, leading to potential open or short circuits over time?",
-  "In computer architecture, what is the primary mechanism by which an external event or an internal program condition (like a division by zero) can temporarily suspend the current program execution to allow the CPU to handle the event?",
   "In digital IC design, what is the primary purpose of a \"standard cell library\"?",
   "In a computer system utilizing virtual memory, what is the fundamental role of a \"page table\"?",
   "In synchronous digital circuits, what phenomenon describes a flip-flop entering an unstable, intermediate state for an indeterminate amount of time, often occurring when setup or hold time requirements are violated, or when synchronizing asynchronous inputs?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, what is a 'control hazard' primarily caused by?",
   "What phenomenon primarily affects the performance of N-type MOSFETs over time due to the trapping of high-energy electrons (hot carriers) in the gate oxide, leading to a shift in threshold voltage and degradation of transconductance?",
   "In a cache memory system, what is the primary characteristic of a 'fully associative' cache mapping scheme?",
-  "Which memory consistency model provides the weakest guarantees, primarily allowing reads and writes by a processor to complete out of order with respect to other processors, and a processor's own writes to be seen by other processors out of order relative to its own reads, often used for performance optimization in distributed shared memory systems through explicit synchronization operations?"
+  "Which memory consistency model provides the weakest guarantees, primarily allowing reads and writes by a processor to complete out of order with respect to other processors, and a processor's own writes to be seen by other processors out of order relative to its own reads, often used for performance optimization in distributed shared memory systems through explicit synchronization operations?",
+  "What is the primary characteristic of a combinational logic circuit?",
+  "In a Central Processing Unit (CPU), what is the primary function of the Arithmetic Logic Unit (ALU)?",
+  "In digital IC design, what is the primary purpose of employing Clock Domain Crossing (CDC) synchronization circuits?",
+  "In the context of modern digital IC verification, what is Universal Verification Methodology (UVM) primarily designed for?",
+  "In a computer system utilizing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?"
 ]

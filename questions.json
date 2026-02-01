@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of 'logic synthesis' in the digital IC design flow?",
+      "question": "What is the primary characteristic of a combinational logic circuit?",
       "options": [
-        "Generating a physical layout (mask data) from the netlist.",
-        "Translating a behavioral or Register Transfer Level (RTL) description into an optimized gate-level netlist.",
-        "Verifying the functional correctness of the design using simulation.",
-        "Optimizing the power delivery network across the chip.",
-        "Identifying and fixing timing violations after placement and routing."
+        "Its output depends only on its current inputs.",
+        "It stores past input values to determine current output.",
+        "It requires a clock signal to operate.",
+        "It is typically built using flip-flops.",
+        "Its state is maintained even after power is removed."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In a Central Processing Unit (CPU), what is the primary function of the Arithmetic Logic Unit (ALU)?",
+      "options": [
+        "To manage memory access and address translation.",
+        "To store program instructions and data for quick retrieval.",
+        "To execute arithmetic operations (like addition, subtraction) and logical operations (like AND, OR).",
+        "To control the flow of data between CPU components.",
+        "To handle interrupts and external I/O operations."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In digital IC design, what is the primary purpose of employing Clock Domain Crossing (CDC) synchronization circuits?",
+      "options": [
+        "To reduce dynamic power consumption by disabling inactive clock signals.",
+        "To ensure proper data transfer between parts of a design operating on independent or asynchronous clock domains.",
+        "To generate the main system clock signal from a reference oscillator.",
+        "To create a hierarchical clock distribution network to minimize clock skew.",
+        "To verify the logical equivalence of two different RTL descriptions."
       ],
       "correct": 1
     },
     {
-      "question": "In a pipelined processor, what is a 'control hazard' primarily caused by?",
+      "question": "In the context of modern digital IC verification, what is Universal Verification Methodology (UVM) primarily designed for?",
       "options": [
-        "An instruction attempting to read data before a previous instruction has written it.",
-        "The next instruction to fetch depends on the outcome of a preceding branch or jump instruction.",
-        "Two instructions requiring the same hardware resource at the same time.",
-        "An instruction attempting to access an invalid memory address.",
-        "The processor being unable to write back results due to a full reorder buffer."
+        "To define the electrical characteristics and physical layout rules for transistors.",
+        "To provide a standardized, reusable, and scalable framework for functional verification using constrained random test generation.",
+        "To perform formal equivalence checking between RTL and gate-level netlists.",
+        "To synthesize high-level C/C++/SystemC descriptions into RTL.",
+        "To manage the entire physical design flow from floorplanning to routing."
       ],
       "correct": 1
     },
     {
-      "question": "What phenomenon primarily affects the performance of N-type MOSFETs over time due to the trapping of high-energy electrons (hot carriers) in the gate oxide, leading to a shift in threshold voltage and degradation of transconductance?",
+      "question": "In a computer system utilizing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "Electromigration",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Time Dependent Dielectric Breakdown (TDDB)",
-        "Hot Carrier Injection (HCI)",
-        "Soft Errors"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a cache memory system, what is the primary characteristic of a 'fully associative' cache mapping scheme?",
-      "options": [
-        "Each main memory block can be mapped to exactly one specific cache line determined by its address.",
-        "Each main memory block can be mapped to any available cache line.",
-        "Cache lines are divided into sets, and a main memory block can be mapped to any line within a specific set.",
-        "The cache controller determines the mapping based on the least recently used algorithm.",
-        "It exclusively uses a tag and offset to locate data, without an index component."
+        "To cache frequently accessed data blocks from main memory.",
+        "To store recently used page table entries to speed up virtual-to-physical address translation.",
+        "To manage the order of instruction execution in an out-of-order processor.",
+        "To resolve cache coherence issues in multi-processor systems.",
+        "To provide a temporary storage area for CPU registers."
       ],
       "correct": 1
-    },
-    {
-      "question": "Which memory consistency model provides the weakest guarantees, primarily allowing reads and writes by a processor to complete out of order with respect to other processors, and a processor's own writes to be seen by other processors out of order relative to its own reads, often used for performance optimization in distributed shared memory systems through explicit synchronization operations?",
-      "options": [
-        "Sequential Consistency",
-        "Total Store Order (TSO)",
-        "Processor Consistency",
-        "Weak Ordering",
-        "Release Consistency"
-      ],
-      "correct": 4
     }
   ]
 }
