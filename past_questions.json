@@ -1,9 +1,4 @@
 [
-  "In digital IC design, what is the primary purpose of a \"standard cell library\"?",
-  "In a computer system utilizing virtual memory, what is the fundamental role of a \"page table\"?",
-  "In synchronous digital circuits, what phenomenon describes a flip-flop entering an unstable, intermediate state for an indeterminate amount of time, often occurring when setup or hold time requirements are violated, or when synchronizing asynchronous inputs?",
-  "At advanced technology nodes (e.g., 14nm and below), FinFETs (Fin Field-Effect Transistors) largely replaced traditional planar MOSFETs. What is the primary advantage of a FinFET over a planar MOSFET that addresses challenges of continued scaling?",
-  "In the physical design flow of a digital integrated circuit, particularly during logic synthesis and place-and-route, what is the primary objective of \"gate sizing\"?",
   "What is the primary purpose of a clock signal in a synchronous digital circuit?",
   "In the context of Design for Testability (DFT) for Integrated Circuits and Printed Circuit Boards (PCBs), what is the primary purpose of the JTAG (IEEE 1149.1) standard, commonly known as Boundary Scan?",
   "In a multi-processor system with private caches, which cache coherence protocol typically invalidates other copies of a data block when a write occurs to ensure consistency?",
@@ -48,5 +43,10 @@
   "In a Central Processing Unit (CPU), what is the primary function of the Arithmetic Logic Unit (ALU)?",
   "In digital IC design, what is the primary purpose of employing Clock Domain Crossing (CDC) synchronization circuits?",
   "In the context of modern digital IC verification, what is Universal Verification Methodology (UVM) primarily designed for?",
-  "In a computer system utilizing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?"
+  "In a computer system utilizing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?",
+  "What does an Instruction Set Architecture (ISA) primarily define for a computer processor?",
+  "Which of the following is a primary characteristic of a Reduced Instruction Set Computer (RISC) architecture compared to a Complex Instruction Set Computer (CISC) architecture?",
+  "In the context of digital IC design, what is the fundamental purpose of Static Timing Analysis (STA)?",
+  "What is the primary function of a Phase-Locked Loop (PLL) in a System-on-Chip (SoC) design?",
+  "In semiconductor chip interconnects, what is 'Electromigration' primarily and why is it a significant reliability concern at advanced technology nodes?"
 ]

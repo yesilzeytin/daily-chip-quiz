@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic of a combinational logic circuit?",
+      "question": "What does an Instruction Set Architecture (ISA) primarily define for a computer processor?",
       "options": [
-        "Its output depends only on its current inputs.",
-        "It stores past input values to determine current output.",
-        "It requires a clock signal to operate.",
-        "It is typically built using flip-flops.",
-        "Its state is maintained even after power is removed."
+        "The physical layout and wiring of the processor chip.",
+        "The low-level interface between hardware and software, including instructions, registers, and memory access modes.",
+        "The maximum operating frequency and power consumption limits.",
+        "The number of processing cores and cache memory levels.",
+        "The specific materials and fabrication process used for the transistors."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In a Central Processing Unit (CPU), what is the primary function of the Arithmetic Logic Unit (ALU)?",
+      "question": "Which of the following is a primary characteristic of a Reduced Instruction Set Computer (RISC) architecture compared to a Complex Instruction Set Computer (CISC) architecture?",
       "options": [
-        "To manage memory access and address translation.",
-        "To store program instructions and data for quick retrieval.",
-        "To execute arithmetic operations (like addition, subtraction) and logical operations (like AND, OR).",
-        "To control the flow of data between CPU components.",
-        "To handle interrupts and external I/O operations."
+        "Emphasizes microcode for complex operations.",
+        "Features a large number of complex, variable-length instructions.",
+        "Primarily uses single-cycle instructions with a focus on hardware simplicity and pipelining.",
+        "Requires fewer general-purpose registers due to rich addressing modes.",
+        "Tends to have higher Cycles Per Instruction (CPI) for simple operations."
       ],
       "correct": 2
     },
     {
-      "question": "In digital IC design, what is the primary purpose of employing Clock Domain Crossing (CDC) synchronization circuits?",
+      "question": "In the context of digital IC design, what is the fundamental purpose of Static Timing Analysis (STA)?",
       "options": [
-        "To reduce dynamic power consumption by disabling inactive clock signals.",
-        "To ensure proper data transfer between parts of a design operating on independent or asynchronous clock domains.",
-        "To generate the main system clock signal from a reference oscillator.",
-        "To create a hierarchical clock distribution network to minimize clock skew.",
-        "To verify the logical equivalence of two different RTL descriptions."
+        "To simulate the circuit's behavior with various input test vectors to verify functional correctness.",
+        "To ensure that all design rules (e.g., width, spacing) for physical layout are met.",
+        "To verify that all timing constraints (e.g., setup, hold times) are met without requiring test vectors.",
+        "To estimate the total power consumption of the chip under different operating conditions.",
+        "To generate the final GDSII layout database for manufacturing."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary function of a Phase-Locked Loop (PLL) in a System-on-Chip (SoC) design?",
+      "options": [
+        "To convert analog signals into digital signals.",
+        "To generate a stable clock signal at a precise frequency, often a multiple or fraction of an input reference clock.",
+        "To manage power distribution and voltage regulation across different blocks.",
+        "To implement cryptographic algorithms for secure communication.",
+        "To perform error correction on data transmitted over high-speed interfaces."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of modern digital IC verification, what is Universal Verification Methodology (UVM) primarily designed for?",
+      "question": "In semiconductor chip interconnects, what is 'Electromigration' primarily and why is it a significant reliability concern at advanced technology nodes?",
       "options": [
-        "To define the electrical characteristics and physical layout rules for transistors.",
-        "To provide a standardized, reusable, and scalable framework for functional verification using constrained random test generation.",
-        "To perform formal equivalence checking between RTL and gate-level netlists.",
-        "To synthesize high-level C/C++/SystemC descriptions into RTL.",
-        "To manage the entire physical design flow from floorplanning to routing."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a computer system utilizing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?",
-      "options": [
-        "To cache frequently accessed data blocks from main memory.",
-        "To store recently used page table entries to speed up virtual-to-physical address translation.",
-        "To manage the order of instruction execution in an out-of-order processor.",
-        "To resolve cache coherence issues in multi-processor systems.",
-        "To provide a temporary storage area for CPU registers."
+        "It is the unwanted transfer of electrons between adjacent metal layers due to capacitive coupling, causing crosstalk noise.",
+        "It is the physical displacement of metal atoms in an interconnect line caused by momentum transfer from flowing electrons, leading to opens or shorts over time.",
+        "It refers to the effect where high electric fields across the gate oxide lead to electron tunneling, increasing leakage current.",
+        "It is the degradation of transistor performance due to the trapping of hot carriers in the gate dielectric, shifting threshold voltage.",
+        "It is the parasitic resistance and capacitance formed by the interconnects, which delays signal propagation and increases power consumption."
       ],
       "correct": 1
     }
