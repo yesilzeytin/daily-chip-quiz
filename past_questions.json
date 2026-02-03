@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a clock signal in a synchronous digital circuit?",
-  "In the context of Design for Testability (DFT) for Integrated Circuits and Printed Circuit Boards (PCBs), what is the primary purpose of the JTAG (IEEE 1149.1) standard, commonly known as Boundary Scan?",
-  "In a multi-processor system with private caches, which cache coherence protocol typically invalidates other copies of a data block when a write occurs to ensure consistency?",
-  "In advanced semiconductor devices, what is a \"soft error\" primarily caused by, and what is its main characteristic compared to a \"hard error\"?",
-  "Which page replacement algorithm guarantees the lowest possible page fault rate for a given reference string, but is generally impractical to implement in real operating systems?",
   "Which of the following fundamental logic gates produces an output that is the logical inverse (complement) of its single input?",
   "In digital IC verification, what is the primary advantage of employing formal verification techniques (e.g., model checking, equivalence checking) compared to traditional simulation-based verification?",
   "What is the primary reason why Dynamic Random-Access Memory (DRAM) is typically used for a computer's main memory (RAM), while Static Random-Access Memory (SRAM) is preferred for CPU caches?",
@@ -48,5 +43,10 @@
   "Which of the following is a primary characteristic of a Reduced Instruction Set Computer (RISC) architecture compared to a Complex Instruction Set Computer (CISC) architecture?",
   "In the context of digital IC design, what is the fundamental purpose of Static Timing Analysis (STA)?",
   "What is the primary function of a Phase-Locked Loop (PLL) in a System-on-Chip (SoC) design?",
-  "In semiconductor chip interconnects, what is 'Electromigration' primarily and why is it a significant reliability concern at advanced technology nodes?"
+  "In semiconductor chip interconnects, what is 'Electromigration' primarily and why is it a significant reliability concern at advanced technology nodes?",
+  "What is the primary advantage of using CMOS technology for digital integrated circuits compared to older technologies like NMOS or PMOS?",
+  "In a multi-level cache hierarchy (e.g., L1, L2, L3), what is the primary motivation for including multiple levels of cache?",
+  "During the physical design phase of an integrated circuit, after logic synthesis, what is the primary goal of the \"placement\" step?",
+  "Which memory technology is best suited for storing firmware (e.g., BIOS, bootloader) in a computer system, offering non-volatility, read-only operation during normal execution, and programmability (often via electrical means) for updates?",
+  "In modern System-on-Chip (SoC) designs, what is the primary role of an \"on-chip interconnect network\" (e.g., Network-on-Chip - NoC, or a bus fabric like AXI)?"
 ]
