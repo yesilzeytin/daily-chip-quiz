@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary advantage of using CMOS technology for digital integrated circuits compared to older technologies like NMOS or PMOS?",
+      "question": "What is the primary purpose of a 'testbench' in the digital IC design verification flow?",
       "options": [
-        "It offers extremely low static power dissipation.",
-        "It allows for significantly higher operating voltages.",
-        "It requires fewer transistors to implement basic logic gates.",
-        "It has a much smaller die area per transistor.",
-        "It is inherently immune to soft errors."
+        "To verify the functional correctness and behavior of the designed hardware against its specifications.",
+        "To convert the high-level design description (RTL) into a gate-level netlist.",
+        "To perform the physical placement of standard cells and routing of interconnects.",
+        "To generate the final GDSII layout file for chip manufacturing.",
+        "To analyze and optimize the power consumption of the finished chip."
       ],
       "correct": 0
     },
     {
-      "question": "In a multi-level cache hierarchy (e.g., L1, L2, L3), what is the primary motivation for including multiple levels of cache?",
+      "question": "In the context of computer architecture, what does the 'locality of reference' principle describe, and why is it fundamental to the effectiveness of cache memory?",
       "options": [
-        "To reduce the total amount of physical memory required by the system.",
-        "To simplify the memory addressing scheme for the CPU.",
-        "To balance the trade-off between speed, capacity, and cost, providing fast access to frequently used data while still having a large overall capacity.",
-        "To provide a dedicated cache for each individual CPU core, independent of others.",
-        "To eliminate the need for virtual memory translation."
+        "It describes the tendency of memory references to cluster in time (temporal locality) and space (spatial locality), allowing caches to predict future accesses and store relevant data nearby.",
+        "It refers to the physical proximity of different memory types (e.g., DRAM, SRAM) on the same circuit board to minimize access latency.",
+        "It's a security principle ensuring that data from different processes remains isolated in distinct memory regions.",
+        "It dictates that data should always be stored in the closest possible memory module to the CPU to minimize propagation delay.",
+        "It's a technique used by the operating system to allocate contiguous blocks of virtual memory to processes."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "During the physical design phase of an integrated circuit, after logic synthesis, what is the primary goal of the \"placement\" step?",
+      "question": "What is the primary role of a 'Design for Testability (DFT)' methodology in modern digital IC design?",
       "options": [
-        "To translate the RTL design into gate-level netlist.",
-        "To connect all the standard cells and IP blocks with interconnect wires.",
-        "To verify that the generated layout adheres to all manufacturing design rules.",
-        "To determine the optimal physical locations for all standard cells and IP blocks on the silicon die, minimizing wire length and meeting timing constraints.",
-        "To simulate the circuit's behavior under various test conditions."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Which memory technology is best suited for storing firmware (e.g., BIOS, bootloader) in a computer system, offering non-volatility, read-only operation during normal execution, and programmability (often via electrical means) for updates?",
-      "options": [
-        "Dynamic Random-Access Memory (DRAM)",
-        "Static Random-Access Memory (SRAM)",
-        "Flash Memory",
-        "Magnetic Random-Access Memory (MRAM)",
-        "Phase-Change Memory (PCM)"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In modern System-on-Chip (SoC) designs, what is the primary role of an \"on-chip interconnect network\" (e.g., Network-on-Chip - NoC, or a bus fabric like AXI)?",
-      "options": [
-        "To generate and distribute clock signals across different functional blocks.",
-        "To provide a robust and efficient communication infrastructure between various IP blocks, processors, and memory controllers on the chip.",
-        "To convert analog signals to digital signals for processing.",
-        "To verify the functional correctness of the entire SoC design before fabrication.",
-        "To reduce the overall power consumption by selectively shutting down inactive blocks."
+        "To optimize the power consumption of the chip during its operation.",
+        "To ensure the final chip can be thoroughly and cost-effectively tested for manufacturing defects after fabrication.",
+        "To define the instruction set architecture (ISA) for the processor core.",
+        "To generate the behavioral Verilog/VHDL code for the design's functional blocks.",
+        "To verify the chip's functional correctness at high speeds during post-silicon validation."
       ],
       "correct": 1
+    },
+    {
+      "question": "In the physical design phase of an integrated circuit, what is 'Design Rule Checking (DRC)' primarily used for, beyond basic geometric validation?",
+      "options": [
+        "To ensure that the timing requirements are met across all clock domains of the design.",
+        "To verify that the layout adheres to the foundry's manufacturing process rules, preventing fabrication errors and ensuring yield.",
+        "To simulate the functional behavior of the chip with parasitic extracted from the layout.",
+        "To identify and correct electromigration issues in high-current traces.",
+        "To determine the optimal placement of standard cells and macros on the chip floorplan."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In an advanced out-of-order superscalar processor implementing Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?",
+      "options": [
+        "To store decoded instructions before they are dispatched to the reorder buffer.",
+        "To hold executed instructions' results until they can be written back to the register file in program order.",
+        "To buffer operands and instructions for a functional unit, allowing instructions to execute as soon as their operands are ready, independent of their original program order.",
+        "To manage and predict the outcomes of conditional branches to reduce pipeline stalls.",
+        "To ensure cache coherence among multiple processor cores in a shared memory system."
+      ],
+      "correct": 2
     }
   ]
 }

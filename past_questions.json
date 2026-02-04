@@ -1,9 +1,4 @@
 [
-  "Which of the following fundamental logic gates produces an output that is the logical inverse (complement) of its single input?",
-  "In digital IC verification, what is the primary advantage of employing formal verification techniques (e.g., model checking, equivalence checking) compared to traditional simulation-based verification?",
-  "What is the primary reason why Dynamic Random-Access Memory (DRAM) is typically used for a computer's main memory (RAM), while Static Random-Access Memory (SRAM) is preferred for CPU caches?",
-  "Which power reduction technique in digital IC design involves selectively disabling the clock signal to specific registers or functional blocks when their outputs are not required to change, thus reducing dynamic power consumption?",
-  "In the microarchitecture of a typical Central Processing Unit (CPU), what is the primary function of the \"Register File\"?",
   "Which of the following is an example of a volatile memory type, meaning its contents are lost when power is removed?",
   "In the digital IC design flow, what is the primary goal of achieving 'timing closure'?",
   "In a MOSFET, what does the 'threshold voltage' (Vt) primarily represent?",
@@ -48,5 +43,10 @@
   "In a multi-level cache hierarchy (e.g., L1, L2, L3), what is the primary motivation for including multiple levels of cache?",
   "During the physical design phase of an integrated circuit, after logic synthesis, what is the primary goal of the \"placement\" step?",
   "Which memory technology is best suited for storing firmware (e.g., BIOS, bootloader) in a computer system, offering non-volatility, read-only operation during normal execution, and programmability (often via electrical means) for updates?",
-  "In modern System-on-Chip (SoC) designs, what is the primary role of an \"on-chip interconnect network\" (e.g., Network-on-Chip - NoC, or a bus fabric like AXI)?"
+  "In modern System-on-Chip (SoC) designs, what is the primary role of an \"on-chip interconnect network\" (e.g., Network-on-Chip - NoC, or a bus fabric like AXI)?",
+  "What is the primary purpose of a 'testbench' in the digital IC design verification flow?",
+  "In the context of computer architecture, what does the 'locality of reference' principle describe, and why is it fundamental to the effectiveness of cache memory?",
+  "What is the primary role of a 'Design for Testability (DFT)' methodology in modern digital IC design?",
+  "In the physical design phase of an integrated circuit, what is 'Design Rule Checking (DRC)' primarily used for, beyond basic geometric validation?",
+  "In an advanced out-of-order superscalar processor implementing Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?"
 ]
