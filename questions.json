@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a 'testbench' in the digital IC design verification flow?",
+      "question": "What is the primary role of a clock signal in synchronous digital circuits?",
       "options": [
-        "To verify the functional correctness and behavior of the designed hardware against its specifications.",
-        "To convert the high-level design description (RTL) into a gate-level netlist.",
-        "To perform the physical placement of standard cells and routing of interconnects.",
-        "To generate the final GDSII layout file for chip manufacturing.",
-        "To analyze and optimize the power consumption of the finished chip."
+        "To synchronize the operations of all sequential elements (e.g., flip-flops) in the circuit.",
+        "To provide the main power supply voltage to the integrated circuit.",
+        "To store binary data for long-term retention without power.",
+        "To amplify weak input signals for improved signal integrity.",
+        "To regulate the temperature of the chip during operation."
       ],
       "correct": 0
     },
     {
-      "question": "In the context of computer architecture, what does the 'locality of reference' principle describe, and why is it fundamental to the effectiveness of cache memory?",
+      "question": "What is the primary purpose of 'register renaming' in an out-of-order execution processor?",
       "options": [
-        "It describes the tendency of memory references to cluster in time (temporal locality) and space (spatial locality), allowing caches to predict future accesses and store relevant data nearby.",
-        "It refers to the physical proximity of different memory types (e.g., DRAM, SRAM) on the same circuit board to minimize access latency.",
-        "It's a security principle ensuring that data from different processes remains isolated in distinct memory regions.",
-        "It dictates that data should always be stored in the closest possible memory module to the CPU to minimize propagation delay.",
-        "It's a technique used by the operating system to allocate contiguous blocks of virtual memory to processes."
+        "To eliminate Write-After-Read (WAR) and Write-After-Write (WAW) hazards by providing unique physical registers for logical registers.",
+        "To reduce the total number of physical registers required in the processor's register file.",
+        "To store the return addresses for function calls and interrupt service routines.",
+        "To enable accurate prediction of future branch outcomes by the branch predictor.",
+        "To provide unique identification numbers for each instruction in the instruction stream."
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary role of a 'Design for Testability (DFT)' methodology in modern digital IC design?",
+      "question": "In deep sub-micron CMOS processes, which phenomenon describes the increase in leakage current between the source and drain terminals of a MOSFET when the gate voltage is below the threshold voltage, contributing significantly to static power consumption?",
       "options": [
-        "To optimize the power consumption of the chip during its operation.",
-        "To ensure the final chip can be thoroughly and cost-effectively tested for manufacturing defects after fabrication.",
-        "To define the instruction set architecture (ISA) for the processor core.",
-        "To generate the behavioral Verilog/VHDL code for the design's functional blocks.",
-        "To verify the chip's functional correctness at high speeds during post-silicon validation."
+        "Subthreshold leakage",
+        "Gate-induced drain leakage (GIDL)",
+        "Drain-induced barrier lowering (DIBL)",
+        "Junction leakage",
+        "Hot carrier injection"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In the physical design phase of an integrated circuit, what is 'Design Rule Checking (DRC)' primarily used for, beyond basic geometric validation?",
+      "question": "In the digital IC design flow, what is the primary role of a 'standard cell library' during logic synthesis and physical design?",
       "options": [
-        "To ensure that the timing requirements are met across all clock domains of the design.",
-        "To verify that the layout adheres to the foundry's manufacturing process rules, preventing fabrication errors and ensuring yield.",
-        "To simulate the functional behavior of the chip with parasitic extracted from the layout.",
-        "To identify and correct electromigration issues in high-current traces.",
-        "To determine the optimal placement of standard cells and macros on the chip floorplan."
+        "It defines a collection of pre-characterized basic logic gates (e.g., AND, OR, XOR) and flip-flops, along with their physical layouts, timing, and power models.",
+        "It provides specifications for large memory blocks (e.g., SRAM, DRAM) used in System-on-Chip (SoC) designs.",
+        "It dictates the instruction set architecture (ISA) that the processor core will implement.",
+        "It contains high-level behavioral models (e.g., SystemVerilog, VHDL) used exclusively for functional verification.",
+        "It specifies the voltage and frequency scaling parameters for dynamic power management."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In an advanced out-of-order superscalar processor implementing Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?",
+      "question": "What is the primary technique used by modern superscalar processors to overcome the execution bottleneck of a single instruction stream and achieve Instruction-Level Parallelism (ILP) by executing multiple instructions concurrently?",
       "options": [
-        "To store decoded instructions before they are dispatched to the reorder buffer.",
-        "To hold executed instructions' results until they can be written back to the register file in program order.",
-        "To buffer operands and instructions for a functional unit, allowing instructions to execute as soon as their operands are ready, independent of their original program order.",
-        "To manage and predict the outcomes of conditional branches to reduce pipeline stalls.",
-        "To ensure cache coherence among multiple processor cores in a shared memory system."
+        "Out-of-order execution",
+        "Vector processing",
+        "Multithreading",
+        "Memory caching",
+        "Clock gating"
       ],
-      "correct": 2
+      "correct": 0
     }
   ]
 }

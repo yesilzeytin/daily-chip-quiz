@@ -1,9 +1,4 @@
 [
-  "Which of the following is an example of a volatile memory type, meaning its contents are lost when power is removed?",
-  "In the digital IC design flow, what is the primary goal of achieving 'timing closure'?",
-  "In a MOSFET, what does the 'threshold voltage' (Vt) primarily represent?",
-  "In a system with multiple devices sharing a common bus (e.g., a memory bus), what is the primary role of a 'bus arbiter'?",
-  "In the context of digital IC verification, what does 'functional coverage' primarily measure?",
   "What is the primary purpose of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
   "In the context of pipelined processors, what is a 'data hazard' primarily caused by?",
   "Which technique is primarily used in advanced System-on-Chip (SoC) power management to completely cut off power to inactive functional blocks, thereby eliminating both static and dynamic power consumption in those regions?",
@@ -48,5 +43,10 @@
   "In the context of computer architecture, what does the 'locality of reference' principle describe, and why is it fundamental to the effectiveness of cache memory?",
   "What is the primary role of a 'Design for Testability (DFT)' methodology in modern digital IC design?",
   "In the physical design phase of an integrated circuit, what is 'Design Rule Checking (DRC)' primarily used for, beyond basic geometric validation?",
-  "In an advanced out-of-order superscalar processor implementing Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?"
+  "In an advanced out-of-order superscalar processor implementing Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?",
+  "What is the primary role of a clock signal in synchronous digital circuits?",
+  "What is the primary purpose of 'register renaming' in an out-of-order execution processor?",
+  "In deep sub-micron CMOS processes, which phenomenon describes the increase in leakage current between the source and drain terminals of a MOSFET when the gate voltage is below the threshold voltage, contributing significantly to static power consumption?",
+  "In the digital IC design flow, what is the primary role of a 'standard cell library' during logic synthesis and physical design?",
+  "What is the primary technique used by modern superscalar processors to overcome the execution bottleneck of a single instruction stream and achieve Instruction-Level Parallelism (ILP) by executing multiple instructions concurrently?"
 ]
