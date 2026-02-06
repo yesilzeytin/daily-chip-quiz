@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
-  "In the context of pipelined processors, what is a 'data hazard' primarily caused by?",
-  "Which technique is primarily used in advanced System-on-Chip (SoC) power management to completely cut off power to inactive functional blocks, thereby eliminating both static and dynamic power consumption in those regions?",
-  "What is the fundamental difference in purpose and application between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
-  "In the design of high-speed digital interconnects and PCB traces, what phenomenon refers to the bouncing back of a signal at points of impedance mismatch along a transmission line, which can lead to signal integrity issues like overshoot, undershoot, and ringing?",
   "What is the fundamental purpose of a flip-flop in digital circuits?",
   "In the context of computer architecture, what is the primary role of a \"pipeline\" in a CPU?",
   "In an out-of-order CPU microarchitecture, what is the main function of a \"Reorder Buffer\" (ROB)?",
@@ -48,5 +43,10 @@
   "What is the primary purpose of 'register renaming' in an out-of-order execution processor?",
   "In deep sub-micron CMOS processes, which phenomenon describes the increase in leakage current between the source and drain terminals of a MOSFET when the gate voltage is below the threshold voltage, contributing significantly to static power consumption?",
   "In the digital IC design flow, what is the primary role of a 'standard cell library' during logic synthesis and physical design?",
-  "What is the primary technique used by modern superscalar processors to overcome the execution bottleneck of a single instruction stream and achieve Instruction-Level Parallelism (ILP) by executing multiple instructions concurrently?"
+  "What is the primary technique used by modern superscalar processors to overcome the execution bottleneck of a single instruction stream and achieve Instruction-Level Parallelism (ILP) by executing multiple instructions concurrently?",
+  "What is the primary function of the Program Counter (PC) in a Central Processing Unit (CPU)?",
+  "In Design for Testability (DFT), what is the primary purpose of a 'scan chain'?",
+  "In a multi-core processor system, what is the primary purpose of a 'cache coherence protocol' (e.g., MESI, MOESI)?",
+  "In modern deep sub-micron chip design, what is the primary challenge posed by 'On-Chip Variation (OCV)' for static timing analysis (STA)?",
+  "During the physical design flow of a digital IC, what is the primary objective of 'floorplanning'?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of a clock signal in synchronous digital circuits?",
+      "question": "What is the primary function of the Program Counter (PC) in a Central Processing Unit (CPU)?",
       "options": [
-        "To synchronize the operations of all sequential elements (e.g., flip-flops) in the circuit.",
-        "To provide the main power supply voltage to the integrated circuit.",
-        "To store binary data for long-term retention without power.",
-        "To amplify weak input signals for improved signal integrity.",
-        "To regulate the temperature of the chip during operation."
+        "To store the results of arithmetic and logic operations.",
+        "To hold the memory address of the next instruction to be fetched.",
+        "To temporarily store data being transferred between the CPU and memory.",
+        "To manage cache memory access and data eviction policies.",
+        "To control the flow of data between the CPU and peripheral devices."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "What is the primary purpose of 'register renaming' in an out-of-order execution processor?",
+      "question": "In Design for Testability (DFT), what is the primary purpose of a 'scan chain'?",
       "options": [
-        "To eliminate Write-After-Read (WAR) and Write-After-Write (WAW) hazards by providing unique physical registers for logical registers.",
-        "To reduce the total number of physical registers required in the processor's register file.",
-        "To store the return addresses for function calls and interrupt service routines.",
-        "To enable accurate prediction of future branch outcomes by the branch predictor.",
-        "To provide unique identification numbers for each instruction in the instruction stream."
+        "To enhance the computational power and speed of the logic gates.",
+        "To implement on-chip debugging features for software development.",
+        "To provide a simple and reliable mechanism for observing and controlling the state of sequential elements during manufacturing testing.",
+        "To reduce the overall power consumption of the integrated circuit during operation.",
+        "To synchronize data transfers between different clock domains within the chip."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In deep sub-micron CMOS processes, which phenomenon describes the increase in leakage current between the source and drain terminals of a MOSFET when the gate voltage is below the threshold voltage, contributing significantly to static power consumption?",
+      "question": "In a multi-core processor system, what is the primary purpose of a 'cache coherence protocol' (e.g., MESI, MOESI)?",
       "options": [
-        "Subthreshold leakage",
-        "Gate-induced drain leakage (GIDL)",
-        "Drain-induced barrier lowering (DIBL)",
-        "Junction leakage",
-        "Hot carrier injection"
+        "To optimize the physical placement of cache blocks on the silicon die.",
+        "To ensure that all processors in the system maintain a consistent view of shared memory, preventing stale data issues.",
+        "To reduce the latency of accessing the main memory by predicting future data requests.",
+        "To dynamically adjust the voltage and frequency of individual cores for power savings.",
+        "To encrypt data stored in the cache for security purposes."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In the digital IC design flow, what is the primary role of a 'standard cell library' during logic synthesis and physical design?",
+      "question": "In modern deep sub-micron chip design, what is the primary challenge posed by 'On-Chip Variation (OCV)' for static timing analysis (STA)?",
       "options": [
-        "It defines a collection of pre-characterized basic logic gates (e.g., AND, OR, XOR) and flip-flops, along with their physical layouts, timing, and power models.",
-        "It provides specifications for large memory blocks (e.g., SRAM, DRAM) used in System-on-Chip (SoC) designs.",
-        "It dictates the instruction set architecture (ISA) that the processor core will implement.",
-        "It contains high-level behavioral models (e.g., SystemVerilog, VHDL) used exclusively for functional verification.",
-        "It specifies the voltage and frequency scaling parameters for dynamic power management."
+        "It increases the power consumption of static logic gates uncontrollably.",
+        "It refers to parasitic capacitance effects that cause unpredictable signal reflections on long traces.",
+        "It introduces variations in gate delays and wire resistances across the chip, making accurate timing prediction and worst-case analysis significantly more complex.",
+        "It leads to permanent physical damage to transistors during the manufacturing process, reducing yield.",
+        "It necessitates the use of more complex clock gating techniques to prevent setup and hold violations."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "What is the primary technique used by modern superscalar processors to overcome the execution bottleneck of a single instruction stream and achieve Instruction-Level Parallelism (ILP) by executing multiple instructions concurrently?",
+      "question": "During the physical design flow of a digital IC, what is the primary objective of 'floorplanning'?",
       "options": [
-        "Out-of-order execution",
-        "Vector processing",
-        "Multithreading",
-        "Memory caching",
-        "Clock gating"
+        "To perform formal verification of the logical equivalence between RTL and gate-level netlists.",
+        "To generate the precise layout of individual standard cells within the library.",
+        "To determine the approximate size, shape, and relative placement of major functional blocks (e.g., CPU, memory, I/O) and power distribution networks on the chip.",
+        "To convert the abstract RTL description into a gate-level netlist using a standard cell library.",
+        "To perform detailed routing of all interconnects and power lines between placed cells."
       ],
-      "correct": 0
+      "correct": 2
     }
   ]
 }
