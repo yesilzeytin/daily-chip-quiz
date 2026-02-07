@@ -1,9 +1,4 @@
 [
-  "What is the fundamental purpose of a flip-flop in digital circuits?",
-  "In the context of computer architecture, what is the primary role of a \"pipeline\" in a CPU?",
-  "In an out-of-order CPU microarchitecture, what is the main function of a \"Reorder Buffer\" (ROB)?",
-  "What is the primary challenge that drives the increasing adoption of 3D IC stacking (e.g., through-silicon vias - TSVs) in modern chip design?",
-  "Which of the following best describes the primary goal of \"Register Transfer Level (RTL)\" design in the digital IC design flow?",
   "What is the primary function of a multiplexer (MUX) in digital circuits?",
   "In the context of CPU cache memory, what is the primary characteristic of a 'write-back' policy?",
   "In digital IC verification, what is the primary purpose of 'Formal Equivalence Checking (FEC)'?",
@@ -48,5 +43,10 @@
   "In Design for Testability (DFT), what is the primary purpose of a 'scan chain'?",
   "In a multi-core processor system, what is the primary purpose of a 'cache coherence protocol' (e.g., MESI, MOESI)?",
   "In modern deep sub-micron chip design, what is the primary challenge posed by 'On-Chip Variation (OCV)' for static timing analysis (STA)?",
-  "During the physical design flow of a digital IC, what is the primary objective of 'floorplanning'?"
+  "During the physical design flow of a digital IC, what is the primary objective of 'floorplanning'?",
+  "What is the primary characteristic that differentiates Static RAM (SRAM) from Dynamic RAM (DRAM) cells?",
+  "In digital IC design, what is the primary purpose of 'power gating'?",
+  "What is the primary motivation for using a Network-on-Chip (NoC) instead of a traditional shared bus architecture for communication in complex System-on-Chip (SoC) designs?",
+  "In static timing analysis (STA), what is the primary purpose of 'derating' factors?",
+  "In the context of chip manufacturing, what does 'yield' primarily measure?"
 ]

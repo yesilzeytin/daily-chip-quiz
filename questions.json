@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Program Counter (PC) in a Central Processing Unit (CPU)?",
+      "question": "What is the primary characteristic that differentiates Static RAM (SRAM) from Dynamic RAM (DRAM) cells?",
       "options": [
-        "To store the results of arithmetic and logic operations.",
-        "To hold the memory address of the next instruction to be fetched.",
-        "To temporarily store data being transferred between the CPU and memory.",
-        "To manage cache memory access and data eviction policies.",
-        "To control the flow of data between the CPU and peripheral devices."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In Design for Testability (DFT), what is the primary purpose of a 'scan chain'?",
-      "options": [
-        "To enhance the computational power and speed of the logic gates.",
-        "To implement on-chip debugging features for software development.",
-        "To provide a simple and reliable mechanism for observing and controlling the state of sequential elements during manufacturing testing.",
-        "To reduce the overall power consumption of the integrated circuit during operation.",
-        "To synchronize data transfers between different clock domains within the chip."
+        "SRAM uses capacitors that require periodic refreshing, while DRAM does not.",
+        "DRAM is volatile (loses data when power is removed), while SRAM is non-volatile.",
+        "SRAM cells are typically larger and consume more static power per bit than DRAM cells.",
+        "DRAM offers significantly faster access times compared to SRAM.",
+        "SRAM requires continuous refreshing to retain data, whereas DRAM does not."
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-core processor system, what is the primary purpose of a 'cache coherence protocol' (e.g., MESI, MOESI)?",
+      "question": "In digital IC design, what is the primary purpose of 'power gating'?",
       "options": [
-        "To optimize the physical placement of cache blocks on the silicon die.",
-        "To ensure that all processors in the system maintain a consistent view of shared memory, preventing stale data issues.",
-        "To reduce the latency of accessing the main memory by predicting future data requests.",
-        "To dynamically adjust the voltage and frequency of individual cores for power savings.",
-        "To encrypt data stored in the cache for security purposes."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In modern deep sub-micron chip design, what is the primary challenge posed by 'On-Chip Variation (OCV)' for static timing analysis (STA)?",
-      "options": [
-        "It increases the power consumption of static logic gates uncontrollably.",
-        "It refers to parasitic capacitance effects that cause unpredictable signal reflections on long traces.",
-        "It introduces variations in gate delays and wire resistances across the chip, making accurate timing prediction and worst-case analysis significantly more complex.",
-        "It leads to permanent physical damage to transistors during the manufacturing process, reducing yield.",
-        "It necessitates the use of more complex clock gating techniques to prevent setup and hold violations."
+        "To provide a regulated voltage supply to different circuit blocks.",
+        "To allow for dynamic clock frequency scaling across the chip.",
+        "To eliminate static (leakage) power consumption in inactive circuit blocks.",
+        "To reduce dynamic power consumption during active operation.",
+        "To protect against overcurrent conditions in power delivery networks."
       ],
       "correct": 2
     },
     {
-      "question": "During the physical design flow of a digital IC, what is the primary objective of 'floorplanning'?",
+      "question": "What is the primary motivation for using a Network-on-Chip (NoC) instead of a traditional shared bus architecture for communication in complex System-on-Chip (SoC) designs?",
       "options": [
-        "To perform formal verification of the logical equivalence between RTL and gate-level netlists.",
-        "To generate the precise layout of individual standard cells within the library.",
-        "To determine the approximate size, shape, and relative placement of major functional blocks (e.g., CPU, memory, I/O) and power distribution networks on the chip.",
-        "To convert the abstract RTL description into a gate-level netlist using a standard cell library.",
-        "To perform detailed routing of all interconnects and power lines between placed cells."
+        "Lower design complexity for small systems with few IP blocks.",
+        "Guaranteed lower latency for all transactions regardless of traffic.",
+        "Simpler verification due to inherent synchronous operation across all nodes.",
+        "Superior scalability, higher bandwidth, and better isolation for an increasing number of IP blocks.",
+        "Reduced overall power consumption irrespective of communication patterns."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In static timing analysis (STA), what is the primary purpose of 'derating' factors?",
+      "options": [
+        "To reduce the overall number of timing paths that need to be analyzed.",
+        "To account for the impact of process, voltage, and temperature (PVT) variations on cell and interconnect delays.",
+        "To simplify the clock tree synthesis process by abstracting complex delays.",
+        "To improve the accuracy of gate-level simulation by modeling signal integrity effects.",
+        "To verify the functional correctness of the design under various corner cases."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of chip manufacturing, what does 'yield' primarily measure?",
+      "options": [
+        "The maximum clock frequency at which the chip can operate.",
+        "The total number of transistors successfully integrated onto a single die.",
+        "The percentage of manufactured chips that are fully functional and meet specifications.",
+        "The average power consumption of the chip under typical operating conditions.",
+        "The physical dimensions (length and width) of the semiconductor die."
       ],
       "correct": 2
     }
