@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital circuits?",
-  "In the context of CPU cache memory, what is the primary characteristic of a 'write-back' policy?",
-  "In digital IC verification, what is the primary purpose of 'Formal Equivalence Checking (FEC)'?",
-  "Which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and that the order of operations from a single processor is preserved in this sequential order, making it the strongest (most intuitive) but potentially slowest model?",
-  "At advanced technology nodes, what is 'Negative Bias Temperature Instability (NBTI)' primarily known for affecting in PMOS transistors, leading to performance degradation over time?",
   "What is the primary purpose of doping in semiconductor manufacturing?",
   "In a pipelined CPU, what is the primary role of a branch predictor?",
   "In CMOS digital circuits, what is the primary source of static power dissipation?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary purpose of 'power gating'?",
   "What is the primary motivation for using a Network-on-Chip (NoC) instead of a traditional shared bus architecture for communication in complex System-on-Chip (SoC) designs?",
   "In static timing analysis (STA), what is the primary purpose of 'derating' factors?",
-  "In the context of chip manufacturing, what does 'yield' primarily measure?"
+  "In the context of chip manufacturing, what does 'yield' primarily measure?",
+  "What is the defining characteristic of a digital signal compared to an analog signal in electronics?",
+  "In computer architecture, what is the primary purpose of an 'interrupt' mechanism?",
+  "In digital IC verification, what is the main objective of achieving 'functional coverage'?",
+  "In the physical design flow of a digital integrated circuit, what is the primary reason for inserting buffers into a signal net?",
+  "In a pipelined processor, what is a 'data hazard' primarily caused by?"
 ]

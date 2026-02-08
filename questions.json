@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that differentiates Static RAM (SRAM) from Dynamic RAM (DRAM) cells?",
+      "question": "What is the defining characteristic of a digital signal compared to an analog signal in electronics?",
       "options": [
-        "SRAM uses capacitors that require periodic refreshing, while DRAM does not.",
-        "DRAM is volatile (loses data when power is removed), while SRAM is non-volatile.",
-        "SRAM cells are typically larger and consume more static power per bit than DRAM cells.",
-        "DRAM offers significantly faster access times compared to SRAM.",
-        "SRAM requires continuous refreshing to retain data, whereas DRAM does not."
+        "It can represent an infinite range of values.",
+        "It is always a perfect sine wave.",
+        "It represents information using a discrete set of values (e.g., high/low, 0/1).",
+        "It is only susceptible to noise at very low frequencies.",
+        "It requires significantly less power to transmit."
       ],
       "correct": 2
     },
     {
-      "question": "In digital IC design, what is the primary purpose of 'power gating'?",
+      "question": "In computer architecture, what is the primary purpose of an 'interrupt' mechanism?",
       "options": [
-        "To provide a regulated voltage supply to different circuit blocks.",
-        "To allow for dynamic clock frequency scaling across the chip.",
-        "To eliminate static (leakage) power consumption in inactive circuit blocks.",
-        "To reduce dynamic power consumption during active operation.",
-        "To protect against overcurrent conditions in power delivery networks."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary motivation for using a Network-on-Chip (NoC) instead of a traditional shared bus architecture for communication in complex System-on-Chip (SoC) designs?",
-      "options": [
-        "Lower design complexity for small systems with few IP blocks.",
-        "Guaranteed lower latency for all transactions regardless of traffic.",
-        "Simpler verification due to inherent synchronous operation across all nodes.",
-        "Superior scalability, higher bandwidth, and better isolation for an increasing number of IP blocks.",
-        "Reduced overall power consumption irrespective of communication patterns."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In static timing analysis (STA), what is the primary purpose of 'derating' factors?",
-      "options": [
-        "To reduce the overall number of timing paths that need to be analyzed.",
-        "To account for the impact of process, voltage, and temperature (PVT) variations on cell and interconnect delays.",
-        "To simplify the clock tree synthesis process by abstracting complex delays.",
-        "To improve the accuracy of gate-level simulation by modeling signal integrity effects.",
-        "To verify the functional correctness of the design under various corner cases."
+        "To improve the efficiency of prefetching data into cache memory.",
+        "To allow the CPU to respond to external events or asynchronous requests from peripherals or software.",
+        "To synchronize the execution of multiple instructions within a pipeline.",
+        "To manage the translation of virtual addresses to physical addresses.",
+        "To enable simultaneous execution of multiple threads on a single core."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of chip manufacturing, what does 'yield' primarily measure?",
+      "question": "In digital IC verification, what is the main objective of achieving 'functional coverage'?",
       "options": [
-        "The maximum clock frequency at which the chip can operate.",
-        "The total number of transistors successfully integrated onto a single die.",
-        "The percentage of manufactured chips that are fully functional and meet specifications.",
-        "The average power consumption of the chip under typical operating conditions.",
-        "The physical dimensions (length and width) of the semiconductor die."
+        "To measure the power consumption of the design under various operating conditions.",
+        "To ensure that all lines of RTL code have been simulated at least once.",
+        "To confirm that all specified design features, behaviors, and corner cases have been exercised and observed during simulation.",
+        "To verify the physical layout rules and geometric correctness of the design.",
+        "To analyze the timing performance of critical paths across different process corners."
       ],
       "correct": 2
+    },
+    {
+      "question": "In the physical design flow of a digital integrated circuit, what is the primary reason for inserting buffers into a signal net?",
+      "options": [
+        "To reduce the overall transistor count for power efficiency.",
+        "To increase the logic complexity of the Boolean function implemented by the net.",
+        "To improve signal integrity by strengthening the signal drive, reducing transition times (slew), and mitigating propagation delay issues.",
+        "To provide a direct connection to the power supply for the gate.",
+        "To store data temporarily for pipelined operations."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a pipelined processor, what is a 'data hazard' primarily caused by?",
+      "options": [
+        "The uncertainty in determining the target address of a branch instruction.",
+        "A dependency where a subsequent instruction attempts to read a register before a preceding instruction has finished writing to it.",
+        "Multiple instructions trying to access the same functional unit simultaneously.",
+        "The inability to fetch new instructions from memory fast enough to keep the pipeline full.",
+        "A conflict in accessing the main memory due to a cache miss."
+      ],
+      "correct": 1
     }
   ]
 }
