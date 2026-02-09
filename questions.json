@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the defining characteristic of a digital signal compared to an analog signal in electronics?",
+      "question": "What is the primary function of a flip-flop in digital sequential circuits?",
       "options": [
-        "It can represent an infinite range of values.",
-        "It is always a perfect sine wave.",
-        "It represents information using a discrete set of values (e.g., high/low, 0/1).",
-        "It is only susceptible to noise at very low frequencies.",
-        "It requires significantly less power to transmit."
+        "To perform arithmetic operations on two input signals.",
+        "To generate a stable clock signal for the entire system.",
+        "To temporarily store a single bit of information.",
+        "To amplify weak digital signals.",
+        "To convert analog signals into digital format."
       ],
       "correct": 2
     },
     {
-      "question": "In computer architecture, what is the primary purpose of an 'interrupt' mechanism?",
+      "question": "In the context of a processor's memory hierarchy, what is the primary role of a Memory Management Unit (MMU)?",
       "options": [
-        "To improve the efficiency of prefetching data into cache memory.",
-        "To allow the CPU to respond to external events or asynchronous requests from peripherals or software.",
-        "To synchronize the execution of multiple instructions within a pipeline.",
-        "To manage the translation of virtual addresses to physical addresses.",
-        "To enable simultaneous execution of multiple threads on a single core."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In digital IC verification, what is the main objective of achieving 'functional coverage'?",
-      "options": [
-        "To measure the power consumption of the design under various operating conditions.",
-        "To ensure that all lines of RTL code have been simulated at least once.",
-        "To confirm that all specified design features, behaviors, and corner cases have been exercised and observed during simulation.",
-        "To verify the physical layout rules and geometric correctness of the design.",
-        "To analyze the timing performance of critical paths across different process corners."
+        "To execute arithmetic and logic operations.",
+        "To manage the order of instruction execution in the pipeline.",
+        "To translate virtual memory addresses into physical memory addresses.",
+        "To control the flow of data between the CPU and I/O devices.",
+        "To optimize data compression for storage efficiency."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design flow of a digital integrated circuit, what is the primary reason for inserting buffers into a signal net?",
+      "question": "What is 'formal verification' primarily used for in digital IC design?",
       "options": [
-        "To reduce the overall transistor count for power efficiency.",
-        "To increase the logic complexity of the Boolean function implemented by the net.",
-        "To improve signal integrity by strengthening the signal drive, reducing transition times (slew), and mitigating propagation delay issues.",
-        "To provide a direct connection to the power supply for the gate.",
-        "To store data temporarily for pipelined operations."
+        "To simulate the circuit's behavior under various input stimuli.",
+        "To estimate the power consumption of the synthesized design.",
+        "To mathematically prove the correctness of a design against its specification.",
+        "To analyze and optimize the physical layout of the chip.",
+        "To perform post-silicon testing and debugging."
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what is a 'data hazard' primarily caused by?",
+      "question": "What is the fundamental advantage of using FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs in advanced semiconductor nodes (e.g., 16nm and below)?",
       "options": [
-        "The uncertainty in determining the target address of a branch instruction.",
-        "A dependency where a subsequent instruction attempts to read a register before a preceding instruction has finished writing to it.",
-        "Multiple instructions trying to access the same functional unit simultaneously.",
-        "The inability to fetch new instructions from memory fast enough to keep the pipeline full.",
-        "A conflict in accessing the main memory due to a cache miss."
+        "It significantly reduces the overall chip manufacturing cost.",
+        "It simplifies the fabrication process by requiring fewer mask layers.",
+        "It provides superior electrostatic control over the channel, reducing leakage current and improving switching performance.",
+        "It allows for the use of thicker gate dielectrics, enhancing reliability at higher voltages.",
+        "It inherently prevents electromigration issues in interconnects."
       ],
-      "correct": 1
+      "correct": 2
+    },
+    {
+      "question": "In a System-on-Chip (SoC) design, what is the primary purpose of a 'boot ROM'?",
+      "options": [
+        "To serve as the main volatile memory for program execution.",
+        "To provide a high-speed cache for frequently accessed data and instructions.",
+        "To store the initial program (bootloader) that is executed immediately after power-on or reset.",
+        "To facilitate high-bandwidth data transfers between different processor cores.",
+        "To provide a secure environment for cryptographic operations."
+      ],
+      "correct": 2
     }
   ]
 }
