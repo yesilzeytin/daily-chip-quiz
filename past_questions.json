@@ -1,9 +1,4 @@
 [
-  "What is the primary role of 'logic synthesis' in the digital IC design flow?",
-  "In a pipelined processor, what is a 'control hazard' primarily caused by?",
-  "What phenomenon primarily affects the performance of N-type MOSFETs over time due to the trapping of high-energy electrons (hot carriers) in the gate oxide, leading to a shift in threshold voltage and degradation of transconductance?",
-  "In a cache memory system, what is the primary characteristic of a 'fully associative' cache mapping scheme?",
-  "Which memory consistency model provides the weakest guarantees, primarily allowing reads and writes by a processor to complete out of order with respect to other processors, and a processor's own writes to be seen by other processors out of order relative to its own reads, often used for performance optimization in distributed shared memory systems through explicit synchronization operations?",
   "What is the primary characteristic of a combinational logic circuit?",
   "In a Central Processing Unit (CPU), what is the primary function of the Arithmetic Logic Unit (ALU)?",
   "In digital IC design, what is the primary purpose of employing Clock Domain Crossing (CDC) synchronization circuits?",
@@ -48,5 +43,10 @@
   "In the context of a processor's memory hierarchy, what is the primary role of a Memory Management Unit (MMU)?",
   "What is 'formal verification' primarily used for in digital IC design?",
   "What is the fundamental advantage of using FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs in advanced semiconductor nodes (e.g., 16nm and below)?",
-  "In a System-on-Chip (SoC) design, what is the primary purpose of a 'boot ROM'?"
+  "In a System-on-Chip (SoC) design, what is the primary purpose of a 'boot ROM'?",
+  "What is the fastest type of memory directly accessible by the CPU, typically used to store data for immediate processing during instruction execution?",
+  "In synchronous digital circuits, what is 'hold time' primarily associated with?",
+  "In semiconductor manufacturing, what is the primary purpose of Optical Proximity Correction (OPC) within the photolithography process?",
+  "Beyond simply extending address space, what is a crucial benefit of virtual memory systems in modern operating systems, primarily achieved through the Memory Management Unit (MMU)?",
+  "Which type of integrated circuit is designed for a specific application by masking during fabrication, offering high performance and low power for that task, but is not reconfigurable after manufacturing?"
 ]
