@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fastest type of memory directly accessible by the CPU, typically used to store data for immediate processing during instruction execution?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic design?",
       "options": [
-        "Hard Disk Drive (HDD)",
-        "Dynamic Random-Access Memory (DRAM)",
-        "Solid State Drive (SSD)",
-        "CPU Registers",
-        "Cache Memory (SRAM)"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In synchronous digital circuits, what is 'hold time' primarily associated with?",
-      "options": [
-        "The minimum time a clock signal must remain high for proper operation.",
-        "The maximum delay allowed for a signal to propagate through a combinational logic block.",
-        "The minimum time data must be stable at the input of a flip-flop *after* the active clock edge.",
-        "The total time required for a memory access operation.",
-        "The minimum time required for a processor to execute an instruction."
+        "To store a single bit of data.",
+        "To perform arithmetic operations.",
+        "To select one of several input signals and route it to a single output.",
+        "To amplify an analog signal.",
+        "To convert a parallel input to a serial output."
       ],
       "correct": 2
     },
     {
-      "question": "In semiconductor manufacturing, what is the primary purpose of Optical Proximity Correction (OPC) within the photolithography process?",
+      "question": "In pipelined processor design, what is a 'structural hazard'?",
       "options": [
-        "To reduce the number of manufacturing defects on the wafer.",
-        "To optimize the electrical characteristics of the transistors.",
-        "To compensate for diffraction effects and improve the fidelity of printed features on the wafer.",
-        "To perform electrical testing of the fabricated dies.",
-        "To accelerate the etching process for faster wafer processing."
+        "Occurs when an instruction attempts to use data that has not yet been produced by a prior instruction.",
+        "Occurs when there is a dependency between instructions that changes the flow of control, such as a branch instruction.",
+        "Arises when multiple instructions require the same hardware resource simultaneously, and the hardware cannot support all requests at once.",
+        "Refers to a failure in the processor's physical structure due to manufacturing defects.",
+        "Describes a situation where an instruction cannot be fetched from memory due to a cache miss."
       ],
       "correct": 2
     },
     {
-      "question": "Beyond simply extending address space, what is a crucial benefit of virtual memory systems in modern operating systems, primarily achieved through the Memory Management Unit (MMU)?",
+      "question": "What is the primary role of an 'arbiter' in a multi-master, multi-slave communication system within a System-on-Chip (SoC)?",
       "options": [
-        "Eliminating the need for any physical memory.",
-        "Directly improving the CPU's clock speed.",
-        "Providing memory protection and isolation between different processes.",
-        "Reducing the power consumption of the entire system.",
-        "Enabling the processor to execute instructions in parallel without a pipeline."
+        "To convert parallel data into serial data for transmission.",
+        "To ensure that only one master can access a shared resource at any given time, preventing conflicts.",
+        "To amplify weak signals to improve signal integrity across long traces.",
+        "To store configuration registers for various peripheral blocks.",
+        "To generate clock signals for different clock domains."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "Which type of integrated circuit is designed for a specific application by masking during fabrication, offering high performance and low power for that task, but is not reconfigurable after manufacturing?",
+      "question": "In the context of VLSI design, what is 'Design Technology Co-Optimization (DTCO)' primarily concerned with?",
       "options": [
-        "Field-Programmable Gate Array (FPGA)",
-        "Microcontroller Unit (MCU)",
-        "Graphics Processing Unit (GPU)",
-        "Application-Specific Integrated Circuit (ASIC)",
-        "Complex Programmable Logic Device (CPLD)"
+        "Optimizing the trade-offs between power consumption and performance at the software application level.",
+        "The simultaneous optimization of process technology, device architecture, and circuit design to achieve better overall system performance and cost.",
+        "Minimizing the number of interconnect layers used in a multi-layer metal stack.",
+        "The verification of design functionality across different operating temperatures and voltages.",
+        "Ensuring that the chip design complies with international standards for electromagnetic compatibility."
       ],
-      "correct": 3
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a key characteristic of a Von Neumann architecture?",
+      "options": [
+        "Separate memory spaces for instructions and data.",
+        "Instructions are fetched and executed in parallel from different memory banks.",
+        "A single address space and bus for both instructions and data.",
+        "Employs a cache hierarchy with separate L1 caches for instructions and data.",
+        "All data processing occurs within a dedicated floating-point unit."
+      ],
+      "correct": 2
     }
   ]
 }

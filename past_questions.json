@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic of a combinational logic circuit?",
-  "In a Central Processing Unit (CPU), what is the primary function of the Arithmetic Logic Unit (ALU)?",
-  "In digital IC design, what is the primary purpose of employing Clock Domain Crossing (CDC) synchronization circuits?",
-  "In the context of modern digital IC verification, what is Universal Verification Methodology (UVM) primarily designed for?",
-  "In a computer system utilizing virtual memory, what is the primary function of a Translation Lookaside Buffer (TLB)?",
   "What does an Instruction Set Architecture (ISA) primarily define for a computer processor?",
   "Which of the following is a primary characteristic of a Reduced Instruction Set Computer (RISC) architecture compared to a Complex Instruction Set Computer (CISC) architecture?",
   "In the context of digital IC design, what is the fundamental purpose of Static Timing Analysis (STA)?",
@@ -48,5 +43,10 @@
   "In synchronous digital circuits, what is 'hold time' primarily associated with?",
   "In semiconductor manufacturing, what is the primary purpose of Optical Proximity Correction (OPC) within the photolithography process?",
   "Beyond simply extending address space, what is a crucial benefit of virtual memory systems in modern operating systems, primarily achieved through the Memory Management Unit (MMU)?",
-  "Which type of integrated circuit is designed for a specific application by masking during fabrication, offering high performance and low power for that task, but is not reconfigurable after manufacturing?"
+  "Which type of integrated circuit is designed for a specific application by masking during fabrication, offering high performance and low power for that task, but is not reconfigurable after manufacturing?",
+  "What is the primary function of a multiplexer (MUX) in digital logic design?",
+  "In pipelined processor design, what is a 'structural hazard'?",
+  "What is the primary role of an 'arbiter' in a multi-master, multi-slave communication system within a System-on-Chip (SoC)?",
+  "In the context of VLSI design, what is 'Design Technology Co-Optimization (DTCO)' primarily concerned with?",
+  "Which of the following is a key characteristic of a Von Neumann architecture?"
 ]
