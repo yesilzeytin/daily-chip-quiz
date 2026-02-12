@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic design?",
+      "question": "What is the primary purpose of a \"register file\" in a Central Processing Unit (CPU)?",
       "options": [
-        "To store a single bit of data.",
-        "To perform arithmetic operations.",
-        "To select one of several input signals and route it to a single output.",
-        "To amplify an analog signal.",
-        "To convert a parallel input to a serial output."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In pipelined processor design, what is a 'structural hazard'?",
-      "options": [
-        "Occurs when an instruction attempts to use data that has not yet been produced by a prior instruction.",
-        "Occurs when there is a dependency between instructions that changes the flow of control, such as a branch instruction.",
-        "Arises when multiple instructions require the same hardware resource simultaneously, and the hardware cannot support all requests at once.",
-        "Refers to a failure in the processor's physical structure due to manufacturing defects.",
-        "Describes a situation where an instruction cannot be fetched from memory due to a cache miss."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary role of an 'arbiter' in a multi-master, multi-slave communication system within a System-on-Chip (SoC)?",
-      "options": [
-        "To convert parallel data into serial data for transmission.",
-        "To ensure that only one master can access a shared resource at any given time, preventing conflicts.",
-        "To amplify weak signals to improve signal integrity across long traces.",
-        "To store configuration registers for various peripheral blocks.",
-        "To generate clock signals for different clock domains."
+        "Storing program instructions for the entire application.",
+        "Storing frequently accessed data and intermediate results for the Arithmetic Logic Unit (ALU).",
+        "Managing the mapping between virtual and physical memory addresses.",
+        "Handling the input/output operations with peripheral devices.",
+        "Storing the microcode sequences for complex instructions."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of VLSI design, what is 'Design Technology Co-Optimization (DTCO)' primarily concerned with?",
+      "question": "What is the primary benefit of \"speculative execution\" in modern pipelined processors?",
       "options": [
-        "Optimizing the trade-offs between power consumption and performance at the software application level.",
-        "The simultaneous optimization of process technology, device architecture, and circuit design to achieve better overall system performance and cost.",
-        "Minimizing the number of interconnect layers used in a multi-layer metal stack.",
-        "The verification of design functionality across different operating temperatures and voltages.",
-        "Ensuring that the chip design complies with international standards for electromagnetic compatibility."
+        "Reducing static power consumption by powering off idle components.",
+        "Improving Instruction-Level Parallelism (ILP) by enabling execution past unresolved control dependencies (e.g., branches).",
+        "Eliminating the need for a multi-level cache hierarchy.",
+        "Simplifying the instruction set architecture (ISA) for easier decoding.",
+        "Increasing the overall memory bandwidth of the system."
       ],
       "correct": 1
     },
     {
-      "question": "Which of the following is a key characteristic of a Von Neumann architecture?",
+      "question": "In the physical design phase of a digital integrated circuit, what is the main objective of \"Clock Tree Synthesis (CTS)\"?",
       "options": [
-        "Separate memory spaces for instructions and data.",
-        "Instructions are fetched and executed in parallel from different memory banks.",
-        "A single address space and bus for both instructions and data.",
-        "Employs a cache hierarchy with separate L1 caches for instructions and data.",
-        "All data processing occurs within a dedicated floating-point unit."
+        "To optimize the routing of high-speed data paths between functional blocks to reduce latency.",
+        "To generate the primary clock signal from an external crystal oscillator and distribute it to a Phase-Locked Loop (PLL).",
+        "To ensure all sequential elements (e.g., flip-flops) receive the clock signal at approximately the same time, minimizing clock skew and insertion delay.",
+        "To perform logic synthesis and technology mapping of the clock generation logic after Register Transfer Level (RTL) design.",
+        "To verify the functional correctness of the design's clock gating scheme and identify dead clock paths."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of computer memory systems, what does the principle of \"Temporal Locality\" primarily imply?",
+      "options": [
+        "If a data item is accessed, nearby data items in memory are likely to be accessed soon.",
+        "Data items that are accessed sequentially in memory will experience faster access times due to prefetching.",
+        "If a data item is accessed at a particular time, it is likely to be accessed again in the near future.",
+        "The time it takes to access data depends directly on its physical distance from the processor on the chip.",
+        "Memory access patterns change unpredictably over the duration of program execution, requiring dynamic optimization."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary challenge or phenomenon addressed by the concept of \"dark silicon\" in advanced many-core chip design?",
+      "options": [
+        "The increasing difficulty in debugging software running on heterogeneous multi-core architectures.",
+        "The architectural overhead of maintaining cache coherence across a large number of cores, leading to complex protocols.",
+        "The physical limitation where not all transistors on a chip can be simultaneously powered on and operated at full speed due to thermal and power density constraints.",
+        "The escalating manufacturing costs associated with fabricating chips at smaller process nodes, making some designs uneconomical.",
+        "The problem of achieving perfect load balancing across all cores in a highly parallel system, leading to underutilized resources."
       ],
       "correct": 2
     }
