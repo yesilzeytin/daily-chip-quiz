@@ -1,9 +1,4 @@
 [
-  "What is the primary advantage of using CMOS technology for digital integrated circuits compared to older technologies like NMOS or PMOS?",
-  "In a multi-level cache hierarchy (e.g., L1, L2, L3), what is the primary motivation for including multiple levels of cache?",
-  "During the physical design phase of an integrated circuit, after logic synthesis, what is the primary goal of the \"placement\" step?",
-  "Which memory technology is best suited for storing firmware (e.g., BIOS, bootloader) in a computer system, offering non-volatility, read-only operation during normal execution, and programmability (often via electrical means) for updates?",
-  "In modern System-on-Chip (SoC) designs, what is the primary role of an \"on-chip interconnect network\" (e.g., Network-on-Chip - NoC, or a bus fabric like AXI)?",
   "What is the primary purpose of a 'testbench' in the digital IC design verification flow?",
   "In the context of computer architecture, what does the 'locality of reference' principle describe, and why is it fundamental to the effectiveness of cache memory?",
   "What is the primary role of a 'Design for Testability (DFT)' methodology in modern digital IC design?",
@@ -48,5 +43,10 @@
   "What is the primary benefit of \"speculative execution\" in modern pipelined processors?",
   "In the physical design phase of a digital integrated circuit, what is the main objective of \"Clock Tree Synthesis (CTS)\"?",
   "In the context of computer memory systems, what does the principle of \"Temporal Locality\" primarily imply?",
-  "What is the primary challenge or phenomenon addressed by the concept of \"dark silicon\" in advanced many-core chip design?"
+  "What is the primary challenge or phenomenon addressed by the concept of \"dark silicon\" in advanced many-core chip design?",
+  "What is the output of a 2-input NAND gate when both inputs are logically HIGH (1)?",
+  "In a pipelined processor, which type of hazard is primarily associated with conditional branch instructions and can lead to incorrect instruction fetching if not handled properly?",
+  "In the physical design flow of a digital integrated circuit, after routing is complete, what is the primary purpose of 'parasitic extraction'?",
+  "In the context of cache memory write policies, what is the primary characteristic of a \"write-back\" (or copy-back) policy?",
+  "In semiconductor manufacturing and reliability, what is the phenomenon where momentum transfer from high-velocity electrons causes gradual displacement of metal atoms within integrated circuit interconnects, potentially leading to open circuits or short circuits over the device's lifetime?"
 ]

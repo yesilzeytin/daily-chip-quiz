@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a \"register file\" in a Central Processing Unit (CPU)?",
+      "question": "What is the output of a 2-input NAND gate when both inputs are logically HIGH (1)?",
       "options": [
-        "Storing program instructions for the entire application.",
-        "Storing frequently accessed data and intermediate results for the Arithmetic Logic Unit (ALU).",
-        "Managing the mapping between virtual and physical memory addresses.",
-        "Handling the input/output operations with peripheral devices.",
-        "Storing the microcode sequences for complex instructions."
+        "HIGH (1)",
+        "LOW (0)",
+        "Undefined",
+        "High Impedance",
+        "Toggling between HIGH and LOW"
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary benefit of \"speculative execution\" in modern pipelined processors?",
+      "question": "In a pipelined processor, which type of hazard is primarily associated with conditional branch instructions and can lead to incorrect instruction fetching if not handled properly?",
       "options": [
-        "Reducing static power consumption by powering off idle components.",
-        "Improving Instruction-Level Parallelism (ILP) by enabling execution past unresolved control dependencies (e.g., branches).",
-        "Eliminating the need for a multi-level cache hierarchy.",
-        "Simplifying the instruction set architecture (ISA) for easier decoding.",
-        "Increasing the overall memory bandwidth of the system."
+        "Data Hazard",
+        "Structural Hazard",
+        "Control Hazard",
+        "Resource Hazard",
+        "Memory Hazard"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the physical design flow of a digital integrated circuit, after routing is complete, what is the primary purpose of 'parasitic extraction'?",
+      "options": [
+        "To convert the gate-level netlist into a transistor-level netlist.",
+        "To identify and fix Design Rule Check (DRC) violations.",
+        "To generate the final GDSII file for manufacturing.",
+        "To quantify the resistance and capacitance of interconnects and devices for accurate post-layout timing and power analysis.",
+        "To optimize the placement of standard cells for better area utilization."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the context of cache memory write policies, what is the primary characteristic of a \"write-back\" (or copy-back) policy?",
+      "options": [
+        "Data is written directly to both cache and main memory simultaneously.",
+        "Data is only written to the cache, and main memory is updated only when the cache block is evicted or explicitly flushed.",
+        "Data is written only to main memory, bypassing the cache entirely for write operations.",
+        "Cache line status (valid, dirty) is ignored during write operations.",
+        "Write operations are always performed asynchronously to reduce latency."
       ],
       "correct": 1
     },
     {
-      "question": "In the physical design phase of a digital integrated circuit, what is the main objective of \"Clock Tree Synthesis (CTS)\"?",
+      "question": "In semiconductor manufacturing and reliability, what is the phenomenon where momentum transfer from high-velocity electrons causes gradual displacement of metal atoms within integrated circuit interconnects, potentially leading to open circuits or short circuits over the device's lifetime?",
       "options": [
-        "To optimize the routing of high-speed data paths between functional blocks to reduce latency.",
-        "To generate the primary clock signal from an external crystal oscillator and distribute it to a Phase-Locked Loop (PLL).",
-        "To ensure all sequential elements (e.g., flip-flops) receive the clock signal at approximately the same time, minimizing clock skew and insertion delay.",
-        "To perform logic synthesis and technology mapping of the clock generation logic after Register Transfer Level (RTL) design.",
-        "To verify the functional correctness of the design's clock gating scheme and identify dead clock paths."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of computer memory systems, what does the principle of \"Temporal Locality\" primarily imply?",
-      "options": [
-        "If a data item is accessed, nearby data items in memory are likely to be accessed soon.",
-        "Data items that are accessed sequentially in memory will experience faster access times due to prefetching.",
-        "If a data item is accessed at a particular time, it is likely to be accessed again in the near future.",
-        "The time it takes to access data depends directly on its physical distance from the processor on the chip.",
-        "Memory access patterns change unpredictably over the duration of program execution, requiring dynamic optimization."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary challenge or phenomenon addressed by the concept of \"dark silicon\" in advanced many-core chip design?",
-      "options": [
-        "The increasing difficulty in debugging software running on heterogeneous multi-core architectures.",
-        "The architectural overhead of maintaining cache coherence across a large number of cores, leading to complex protocols.",
-        "The physical limitation where not all transistors on a chip can be simultaneously powered on and operated at full speed due to thermal and power density constraints.",
-        "The escalating manufacturing costs associated with fabricating chips at smaller process nodes, making some designs uneconomical.",
-        "The problem of achieving perfect load balancing across all cores in a highly parallel system, leading to underutilized resources."
+        "Hot Carrier Injection (HCI)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Electromigration",
+        "Time Dependent Dielectric Breakdown (TDDB)",
+        "Gate-Induced Drain Leakage (GIDL)"
       ],
       "correct": 2
     }
