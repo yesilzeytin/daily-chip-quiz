@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a 'testbench' in the digital IC design verification flow?",
-  "In the context of computer architecture, what does the 'locality of reference' principle describe, and why is it fundamental to the effectiveness of cache memory?",
-  "What is the primary role of a 'Design for Testability (DFT)' methodology in modern digital IC design?",
-  "In the physical design phase of an integrated circuit, what is 'Design Rule Checking (DRC)' primarily used for, beyond basic geometric validation?",
-  "In an advanced out-of-order superscalar processor implementing Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?",
   "What is the primary role of a clock signal in synchronous digital circuits?",
   "What is the primary purpose of 'register renaming' in an out-of-order execution processor?",
   "In deep sub-micron CMOS processes, which phenomenon describes the increase in leakage current between the source and drain terminals of a MOSFET when the gate voltage is below the threshold voltage, contributing significantly to static power consumption?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, which type of hazard is primarily associated with conditional branch instructions and can lead to incorrect instruction fetching if not handled properly?",
   "In the physical design flow of a digital integrated circuit, after routing is complete, what is the primary purpose of 'parasitic extraction'?",
   "In the context of cache memory write policies, what is the primary characteristic of a \"write-back\" (or copy-back) policy?",
-  "In semiconductor manufacturing and reliability, what is the phenomenon where momentum transfer from high-velocity electrons causes gradual displacement of metal atoms within integrated circuit interconnects, potentially leading to open circuits or short circuits over the device's lifetime?"
+  "In semiconductor manufacturing and reliability, what is the phenomenon where momentum transfer from high-velocity electrons causes gradual displacement of metal atoms within integrated circuit interconnects, potentially leading to open circuits or short circuits over the device's lifetime?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+  "During the logic synthesis phase of digital IC design, what is the main goal of \"technology mapping\"?",
+  "In the context of processor design, what does the term \"Instruction Set Architecture (ISA)\" primarily define?",
+  "Which of the following describes the primary challenge addressed by \"double patterning\" (or multi-patterning) techniques in advanced semiconductor manufacturing?",
+  "In a modern synchronous digital system, what is the primary purpose of a \"Phase-Locked Loop (PLL)\"?"
 ]
