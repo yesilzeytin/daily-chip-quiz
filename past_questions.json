@@ -1,9 +1,4 @@
 [
-  "What is the primary role of a clock signal in synchronous digital circuits?",
-  "What is the primary purpose of 'register renaming' in an out-of-order execution processor?",
-  "In deep sub-micron CMOS processes, which phenomenon describes the increase in leakage current between the source and drain terminals of a MOSFET when the gate voltage is below the threshold voltage, contributing significantly to static power consumption?",
-  "In the digital IC design flow, what is the primary role of a 'standard cell library' during logic synthesis and physical design?",
-  "What is the primary technique used by modern superscalar processors to overcome the execution bottleneck of a single instruction stream and achieve Instruction-Level Parallelism (ILP) by executing multiple instructions concurrently?",
   "What is the primary function of the Program Counter (PC) in a Central Processing Unit (CPU)?",
   "In Design for Testability (DFT), what is the primary purpose of a 'scan chain'?",
   "In a multi-core processor system, what is the primary purpose of a 'cache coherence protocol' (e.g., MESI, MOESI)?",
@@ -48,5 +43,10 @@
   "During the logic synthesis phase of digital IC design, what is the main goal of \"technology mapping\"?",
   "In the context of processor design, what does the term \"Instruction Set Architecture (ISA)\" primarily define?",
   "Which of the following describes the primary challenge addressed by \"double patterning\" (or multi-patterning) techniques in advanced semiconductor manufacturing?",
-  "In a modern synchronous digital system, what is the primary purpose of a \"Phase-Locked Loop (PLL)\"?"
+  "In a modern synchronous digital system, what is the primary purpose of a \"Phase-Locked Loop (PLL)\"?",
+  "What is the primary purpose of Hardware Description Languages (HDLs) like Verilog or VHDL in digital IC design?",
+  "In a set-associative cache, when a cache miss occurs and the target set is already full, which mechanism determines which existing cache block is replaced to make space for the new data block?",
+  "Dynamic Voltage and Frequency Scaling (DVFS) is a widely used power management technique in modern processors. What is its primary mechanism for achieving power reduction?",
+  "After the physical layout of an integrated circuit is completed, what crucial verification steps are performed to ensure that the layout adheres to manufacturing rules and accurately represents the logical design?",
+  "In a typical pipelined processor, which functional unit is primarily responsible for interpreting the fetched instruction and generating the necessary control signals to direct other components (such as the ALU, register file, and memory) to perform the specified operation?"
 ]
