@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of Hardware Description Languages (HDLs) like Verilog or VHDL in digital IC design?",
+      "question": "What is the primary function of a clock signal in a synchronous digital circuit?",
       "options": [
-        "To compile high-level programming languages into machine code for microcontrollers.",
-        "To describe the behavior, structure, and connectivity of digital circuits at various levels of abstraction.",
-        "To manage project dependencies and automate the software build process.",
-        "To simulate analog circuit behavior at the transistor level for precise current and voltage analysis.",
-        "To generate physical layouts directly from high-level specifications without intermediate synthesis steps."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a set-associative cache, when a cache miss occurs and the target set is already full, which mechanism determines which existing cache block is replaced to make space for the new data block?",
-      "options": [
-        "The Memory Management Unit (MMU) policy for virtual-to-physical address translation.",
-        "The cache coherence protocol that ensures data consistency across multiple processors.",
-        "The Instruction Set Architecture (ISA) specification that defines processor operations.",
-        "The cache eviction policy (e.g., Least Recently Used (LRU), First-In-First-Out (FIFO), Random).",
-        "The branch prediction unit's accuracy for future instruction fetches."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Dynamic Voltage and Frequency Scaling (DVFS) is a widely used power management technique in modern processors. What is its primary mechanism for achieving power reduction?",
-      "options": [
-        "Temporarily turning off entire unused functional blocks (power gating) to eliminate static and dynamic power.",
-        "Reducing the supply voltage and simultaneously lowering the clock frequency of a circuit.",
-        "Increasing the clock frequency to complete tasks faster, allowing the processor to enter a low-power idle state sooner.",
-        "Using advanced transistor architectures like FinFETs, which inherently reduce leakage currents.",
-        "Implementing complex error correction codes (ECC) in memory to reduce re-computations."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "After the physical layout of an integrated circuit is completed, what crucial verification steps are performed to ensure that the layout adheres to manufacturing rules and accurately represents the logical design?",
-      "options": [
-        "Logic Synthesis and Technology Mapping to optimize the gate-level netlist.",
-        "Static Timing Analysis (STA) to check for timing violations like setup and hold.",
-        "Design Rule Check (DRC) and Layout Versus Schematic (LVS).",
-        "Behavioral simulation using Hardware Description Languages (HDLs).",
-        "Architectural design exploration and microarchitecture definition."
+        "To provide electrical power to the circuit components.",
+        "To regulate the temperature of the silicon die.",
+        "To synchronize the operations of all sequential elements and control data flow.",
+        "To amplify weak input signals for reliable processing.",
+        "To define the specific instruction set architecture (ISA) of a processor."
       ],
       "correct": 2
     },
     {
-      "question": "In a typical pipelined processor, which functional unit is primarily responsible for interpreting the fetched instruction and generating the necessary control signals to direct other components (such as the ALU, register file, and memory) to perform the specified operation?",
+      "question": "What is the main advantage of an Instruction Set Architecture (ISA) that supports a Reduced Instruction Set Computing (RISC) philosophy compared to a Complex Instruction Set Computing (CISC) philosophy for processor microarchitecture?",
       "options": [
-        "The Arithmetic Logic Unit (ALU) which performs arithmetic and logical operations.",
-        "The Memory Management Unit (MMU) which handles virtual-to-physical address translation.",
-        "The Program Counter (PC) which stores the address of the next instruction.",
-        "The Control Unit.",
-        "The Data Cache, which stores frequently accessed data."
+        "RISC instructions are inherently more powerful, achieving more work per instruction.",
+        "RISC architectures typically have simpler and more uniform instruction formats, enabling easier pipelining and higher clock frequencies.",
+        "RISC processors are designed to execute complex operations in a single cycle, reducing overall instruction count.",
+        "RISC designs require less main memory bandwidth due to their compact instruction encoding.",
+        "RISC allows for direct execution of high-level programming language constructs without compilation."
       ],
-      "correct": 3
+      "correct": 1
+    },
+    {
+      "question": "In the context of asynchronous digital circuit design, what is a primary design consideration that distinguishes it from synchronous design?",
+      "options": [
+        "Minimizing overall power consumption across the chip.",
+        "The absence of a global clock necessitates robust handshaking protocols to ensure correct data transfer and operation ordering.",
+        "The critical importance of precisely balancing clock skews and jitter across all clock domains.",
+        "Optimizing the number of transistors used in logic gates for area efficiency.",
+        "Ensuring that logic gates operate correctly despite variations in process, voltage, and temperature."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which statement best describes the role of \"micro-operations\" (or \"micro-ops\") within the pipeline of a modern Complex Instruction Set Computer (CISC) processor?",
+      "options": [
+        "They represent the data stored in the L1 data cache for rapid access by the execution units.",
+        "They are simple, fixed-length, RISC-like internal instructions that complex CISC instructions are translated into for execution.",
+        "They are hardware registers used exclusively for storing program counter values during branch predictions.",
+        "They are software routines executed by the operating system kernel to manage CPU resources.",
+        "They define the specifications for communication between different IP blocks on a System-on-Chip."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary purpose of a \"Standard Cell Library\" in the automated digital integrated circuit (IC) physical design flow?",
+      "options": [
+        "To define the processor's Instruction Set Architecture (ISA) and memory addressing modes.",
+        "To provide a collection of pre-designed, fully characterized basic logic gates (e.g., AND, OR, XOR) and sequential elements (e.g., flip-flops) with known performance, power, and area specifications.",
+        "To manage the manufacturing process variations and ensure high yield during wafer fabrication.",
+        "To establish communication protocols between different functional blocks within a System-on-Chip (SoC).",
+        "To store the executable software code that runs on the embedded processor."
+      ],
+      "correct": 1
     }
   ]
 }
