@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that differentiates Static RAM (SRAM) from Dynamic RAM (DRAM) cells?",
-  "In digital IC design, what is the primary purpose of 'power gating'?",
-  "What is the primary motivation for using a Network-on-Chip (NoC) instead of a traditional shared bus architecture for communication in complex System-on-Chip (SoC) designs?",
-  "In static timing analysis (STA), what is the primary purpose of 'derating' factors?",
-  "In the context of chip manufacturing, what does 'yield' primarily measure?",
   "What is the defining characteristic of a digital signal compared to an analog signal in electronics?",
   "In computer architecture, what is the primary purpose of an 'interrupt' mechanism?",
   "In digital IC verification, what is the main objective of achieving 'functional coverage'?",
@@ -48,5 +43,10 @@
   "What is the main advantage of an Instruction Set Architecture (ISA) that supports a Reduced Instruction Set Computing (RISC) philosophy compared to a Complex Instruction Set Computing (CISC) philosophy for processor microarchitecture?",
   "In the context of asynchronous digital circuit design, what is a primary design consideration that distinguishes it from synchronous design?",
   "Which statement best describes the role of \"micro-operations\" (or \"micro-ops\") within the pipeline of a modern Complex Instruction Set Computer (CISC) processor?",
-  "What is the primary purpose of a \"Standard Cell Library\" in the automated digital integrated circuit (IC) physical design flow?"
+  "What is the primary purpose of a \"Standard Cell Library\" in the automated digital integrated circuit (IC) physical design flow?",
+  "What is the output of an XOR gate when one input is logically HIGH (1) and the other input is logically LOW (0)?",
+  "What is the primary advantage of using a Field-Programmable Gate Array (FPGA) over an Application-Specific Integrated Circuit (ASIC) during the early stages of product development and prototyping?",
+  "In a multi-processor system with private caches, what is the primary role of a cache coherence protocol (e.g., MESI, MOESI)?",
+  "In the physical design flow of a digital integrated circuit, which of the following best describes the primary objective of the *placement* stage?",
+  "In a modern superscalar processor implementing out-of-order execution, what role does the Reorder Buffer (ROB) primarily play?"
 ]
