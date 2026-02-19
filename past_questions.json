@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a flip-flop in digital sequential circuits?",
-  "In the context of a processor's memory hierarchy, what is the primary role of a Memory Management Unit (MMU)?",
-  "What is 'formal verification' primarily used for in digital IC design?",
-  "What is the fundamental advantage of using FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs in advanced semiconductor nodes (e.g., 16nm and below)?",
-  "In a System-on-Chip (SoC) design, what is the primary purpose of a 'boot ROM'?",
   "What is the fastest type of memory directly accessible by the CPU, typically used to store data for immediate processing during instruction execution?",
   "In synchronous digital circuits, what is 'hold time' primarily associated with?",
   "In semiconductor manufacturing, what is the primary purpose of Optical Proximity Correction (OPC) within the photolithography process?",
@@ -48,5 +43,10 @@
   "In the context of multi-processor systems utilizing the MESI cache coherence protocol, what does the 'M' state for a cache line primarily indicate?",
   "What is the primary purpose of integrating 'scan chains' into a digital integrated circuit design?",
   "In advanced out-of-order execution processors, what is the primary architectural technique known as 'register renaming' designed to mitigate?",
-  "In the advanced semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?"
+  "In the advanced semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?",
+  "What is the primary advantage of CMOS (Complementary Metal-Oxide-Semiconductor) logic over older technologies like TTL (Transistor-Transistor Logic) in modern digital integrated circuits?",
+  "In the context of shared-memory multiprocessor systems, what property does the \"Sequential Consistency\" memory model primarily guarantee to the programmer?",
+  "In synchronous digital circuit design, \"setup time\" for a flip-flop refers to the minimum amount of time that:",
+  "What is the primary purpose of implementing a JTAG (Joint Test Action Group) boundary-scan architecture in a complex System-on-Chip (SoC)?",
+  "What is the fundamental reason for implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a modern CPU?"
 ]

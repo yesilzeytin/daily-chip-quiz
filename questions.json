@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In CMOS digital integrated circuits, what are the two fundamental categories of power dissipation?",
+      "question": "What is the primary advantage of CMOS (Complementary Metal-Oxide-Semiconductor) logic over older technologies like TTL (Transistor-Transistor Logic) in modern digital integrated circuits?",
       "options": [
-        "Capacitive and Inductive Power",
-        "Conduction and Radiation Power",
-        "Dynamic and Static Power",
-        "Throughput and Latency Power",
-        "Signal and Noise Power"
+        "Significantly lower static power consumption",
+        "Higher operating frequency at the same voltage",
+        "Greater noise immunity against external interference",
+        "Simpler and cheaper manufacturing process",
+        "Ability to drive larger capacitive loads directly"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In the context of multi-processor systems utilizing the MESI cache coherence protocol, what does the 'M' state for a cache line primarily indicate?",
+      "question": "In the context of shared-memory multiprocessor systems, what property does the \"Sequential Consistency\" memory model primarily guarantee to the programmer?",
       "options": [
-        "The cache line is present in main memory but invalid in this cache.",
-        "The cache line is Modified and only exists in this cache, and its content is different from main memory.",
-        "The cache line is Shared across multiple caches and is identical to main memory.",
-        "The cache line is Exclusive to this cache but is identical to main memory.",
-        "The cache line has been Migrated to another processor's cache."
+        "All writes by a processor are immediately visible to all other processors.",
+        "The result of any execution is the same as if the operations of all processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program.",
+        "Data cached by one processor is automatically updated in all other processors' caches when modified.",
+        "Memory operations are always performed in the fastest possible order, often out-of-order, without regard to program order.",
+        "Cache misses are eliminated entirely through perfect prefetching mechanisms."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary purpose of integrating 'scan chains' into a digital integrated circuit design?",
+      "question": "In synchronous digital circuit design, \"setup time\" for a flip-flop refers to the minimum amount of time that:",
       "options": [
-        "To improve the circuit's performance by reducing critical path delay.",
-        "To provide a mechanism for real-time debugging during normal functional operation.",
-        "To enable efficient testing of sequential logic elements by converting flip-flops into a large shift register during test mode.",
-        "To reduce static power consumption by selectively disabling unused logic blocks.",
-        "To allow dynamic reconfiguration of the circuit's functionality after manufacturing."
+        "The output of the flip-flop takes to become stable after the active clock edge.",
+        "The clock signal must remain stable before the data input can change.",
+        "The input data must be stable and valid *before* the active clock edge arrives.",
+        "The input data must be stable and valid *after* the active clock edge has passed.",
+        "The flip-flop must remain in its current state, irrespective of the clock."
       ],
       "correct": 2
     },
     {
-      "question": "In advanced out-of-order execution processors, what is the primary architectural technique known as 'register renaming' designed to mitigate?",
+      "question": "What is the primary purpose of implementing a JTAG (Joint Test Action Group) boundary-scan architecture in a complex System-on-Chip (SoC)?",
       "options": [
-        "Branch prediction inaccuracies",
-        "Data hazards such as Write-After-Write (WAW) and Write-After-Read (WAR)",
-        "Instruction cache misses",
-        "Structural hazards in functional units",
-        "Memory access latency"
+        "To perform formal verification of the RTL design against its specifications.",
+        "To optimize the physical placement and routing of standard cells on the die.",
+        "To enable in-circuit testing and debugging of the chip's internal logic and its interconnections on a Printed Circuit Board (PCB).",
+        "To dynamically adjust the operating voltage and frequency for power management.",
+        "To automatically generate a gate-level netlist from a high-level behavioral description."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In the advanced semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?",
+      "question": "What is the fundamental reason for implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a modern CPU?",
       "options": [
-        "To grow a perfect crystalline silicon layer on the wafer.",
-        "To deposit a photosensitive material for lithography.",
-        "To remove contaminants from the wafer surface using chemical solvents.",
-        "To create a globally flat surface across the wafer, essential for multi-layer interconnect formation and subsequent lithography steps.",
-        "To implant ions into the silicon to change its electrical properties."
+        "To expand the total physical addressable memory space for the processor.",
+        "To reduce the power consumption of the main memory (DRAM) by keeping it active less frequently.",
+        "To provide faster access to frequently used data and instructions by exploiting principles of locality.",
+        "To simplify the instruction decoding and execution pipeline within the CPU.",
+        "To enable multiple CPUs to share a single main memory module without contention."
       ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }
