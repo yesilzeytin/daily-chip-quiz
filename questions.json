@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary advantage of CMOS (Complementary Metal-Oxide-Semiconductor) logic over older technologies like TTL (Transistor-Transistor Logic) in modern digital integrated circuits?",
+      "question": "Which of the following digital logic circuits requires a clock signal to synchronize its state changes?",
       "options": [
-        "Significantly lower static power consumption",
-        "Higher operating frequency at the same voltage",
-        "Greater noise immunity against external interference",
-        "Simpler and cheaper manufacturing process",
-        "Ability to drive larger capacitive loads directly"
+        "AND gate",
+        "Multiplexer",
+        "Full Adder",
+        "D-Flip-Flop",
+        "Decoder"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In the context of shared-memory multiprocessor systems, what property does the \"Sequential Consistency\" memory model primarily guarantee to the programmer?",
+      "question": "In the classical 5-stage RISC pipeline (IF, ID, EX, MEM, WB), which stage is typically responsible for executing arithmetic and logical operations, and also for calculating the memory address for load/store instructions?",
       "options": [
-        "All writes by a processor are immediately visible to all other processors.",
-        "The result of any execution is the same as if the operations of all processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program.",
-        "Data cached by one processor is automatically updated in all other processors' caches when modified.",
-        "Memory operations are always performed in the fastest possible order, often out-of-order, without regard to program order.",
-        "Cache misses are eliminated entirely through perfect prefetching mechanisms."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In synchronous digital circuit design, \"setup time\" for a flip-flop refers to the minimum amount of time that:",
-      "options": [
-        "The output of the flip-flop takes to become stable after the active clock edge.",
-        "The clock signal must remain stable before the data input can change.",
-        "The input data must be stable and valid *before* the active clock edge arrives.",
-        "The input data must be stable and valid *after* the active clock edge has passed.",
-        "The flip-flop must remain in its current state, irrespective of the clock."
+        "Instruction Fetch (IF)",
+        "Instruction Decode (ID)",
+        "Execute (EX)",
+        "Memory Access (MEM)",
+        "Write-Back (WB)"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary purpose of implementing a JTAG (Joint Test Action Group) boundary-scan architecture in a complex System-on-Chip (SoC)?",
+      "question": "Which verification method attempts to mathematically prove the correctness of a design against its specification, without requiring extensive test vector generation?",
       "options": [
-        "To perform formal verification of the RTL design against its specifications.",
-        "To optimize the physical placement and routing of standard cells on the die.",
-        "To enable in-circuit testing and debugging of the chip's internal logic and its interconnections on a Printed Circuit Board (PCB).",
-        "To dynamically adjust the operating voltage and frequency for power management.",
-        "To automatically generate a gate-level netlist from a high-level behavioral description."
+        "Dynamic Simulation",
+        "Emulation",
+        "Formal Verification",
+        "Hardware-Software Co-verification",
+        "Functional Coverage Analysis"
       ],
       "correct": 2
     },
     {
-      "question": "What is the fundamental reason for implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a modern CPU?",
+      "question": "In a shared-memory multiprocessor system, which memory consistency model allows a write operation by one processor to be seen by all other processors, but does not guarantee that writes from different processors will be seen in the same order by all observers?",
       "options": [
-        "To expand the total physical addressable memory space for the processor.",
-        "To reduce the power consumption of the main memory (DRAM) by keeping it active less frequently.",
-        "To provide faster access to frequently used data and instructions by exploiting principles of locality.",
-        "To simplify the instruction decoding and execution pipeline within the CPU.",
-        "To enable multiple CPUs to share a single main memory module without contention."
+        "Sequential Consistency",
+        "Relaxed Consistency",
+        "Release Consistency",
+        "Weak Consistency",
+        "Processor Consistency"
+      ],
+      "correct": 4
+    },
+    {
+      "question": "Which advanced transistor technology uses a 3D gate structure wrapped around a silicon 'fin' to provide better control over the channel and reduce leakage current, especially at smaller process nodes?",
+      "options": [
+        "Planar MOSFET",
+        "Bi-polar Junction Transistor (BJT)",
+        "FinFET",
+        "High-K Metal Gate (HKMG)",
+        "Silicon Germanium (SiGe) Transistor"
       ],
       "correct": 2
     }
