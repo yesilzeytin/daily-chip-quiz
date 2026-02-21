@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "Which of the following digital logic circuits requires a clock signal to synchronize its state changes?",
+      "question": "What is the primary function of a flip-flop in digital circuits?",
       "options": [
-        "AND gate",
-        "Multiplexer",
-        "Full Adder",
-        "D-Flip-Flop",
-        "Decoder"
+        "To perform arithmetic and logical operations",
+        "To amplify weak electrical signals",
+        "To store a single bit of binary data",
+        "To convert analog signals to digital",
+        "To regulate power supply voltage"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the physical design flow of a digital integrated circuit, what is the primary objective of Static Timing Analysis (STA)?",
+      "options": [
+        "To automatically route interconnections between placed cells",
+        "To verify that all layout features adhere to manufacturing rules (DRC)",
+        "To ensure that the circuit meets all specified timing constraints (e.g., clock frequency, setup/hold times)",
+        "To place standard cells and macros onto the chip's die area",
+        "To estimate the parasitic capacitance and resistance of interconnects"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which advanced lithography technique primarily uses light with a wavelength of 13.5 nm, necessitating a vacuum environment and reflective optics, to enable the patterning of smaller features in semiconductor manufacturing?",
+      "options": [
+        "Immersion Lithography",
+        "Electron Beam Lithography",
+        "X-ray Lithography",
+        "Extreme Ultraviolet (EUV) Lithography",
+        "Deep Ultraviolet (DUV) Lithography"
       ],
       "correct": 3
     },
     {
-      "question": "In the classical 5-stage RISC pipeline (IF, ID, EX, MEM, WB), which stage is typically responsible for executing arithmetic and logical operations, and also for calculating the memory address for load/store instructions?",
+      "question": "In computer architecture, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "Instruction Fetch (IF)",
-        "Instruction Decode (ID)",
-        "Execute (EX)",
-        "Memory Access (MEM)",
-        "Write-Back (WB)"
+        "To cache frequently accessed data blocks from main memory for faster CPU access",
+        "To provide a fast lookup mechanism for virtual-to-physical address translations",
+        "To reorder instructions to enable out-of-order execution in the pipeline",
+        "To store microcode sequences for complex instructions to simplify hardware design",
+        "To maintain coherence among multiple CPU caches in a multiprocessor system"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "Which verification method attempts to mathematically prove the correctness of a design against its specification, without requiring extensive test vector generation?",
+      "question": "What is the fundamental concept behind pipelining in processor design?",
       "options": [
-        "Dynamic Simulation",
-        "Emulation",
-        "Formal Verification",
-        "Hardware-Software Co-verification",
-        "Functional Coverage Analysis"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a shared-memory multiprocessor system, which memory consistency model allows a write operation by one processor to be seen by all other processors, but does not guarantee that writes from different processors will be seen in the same order by all observers?",
-      "options": [
-        "Sequential Consistency",
-        "Relaxed Consistency",
-        "Release Consistency",
-        "Weak Consistency",
-        "Processor Consistency"
-      ],
-      "correct": 4
-    },
-    {
-      "question": "Which advanced transistor technology uses a 3D gate structure wrapped around a silicon 'fin' to provide better control over the channel and reduce leakage current, especially at smaller process nodes?",
-      "options": [
-        "Planar MOSFET",
-        "Bi-polar Junction Transistor (BJT)",
-        "FinFET",
-        "High-K Metal Gate (HKMG)",
-        "Silicon Germanium (SiGe) Transistor"
+        "Executing multiple instructions simultaneously by using multiple processing units in parallel",
+        "Storing frequently used data closer to the CPU to reduce memory access latency",
+        "Breaking down the execution of an instruction into a series of sequential stages that operate concurrently on different instructions",
+        "Running multiple independent programs or threads at the same time on a single core",
+        "Adjusting the processor's clock frequency and voltage dynamically to reduce power consumption"
       ],
       "correct": 2
     }

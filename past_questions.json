@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital logic design?",
-  "In pipelined processor design, what is a 'structural hazard'?",
-  "What is the primary role of an 'arbiter' in a multi-master, multi-slave communication system within a System-on-Chip (SoC)?",
-  "In the context of VLSI design, what is 'Design Technology Co-Optimization (DTCO)' primarily concerned with?",
-  "Which of the following is a key characteristic of a Von Neumann architecture?",
   "What is the primary purpose of a \"register file\" in a Central Processing Unit (CPU)?",
   "What is the primary benefit of \"speculative execution\" in modern pipelined processors?",
   "In the physical design phase of a digital integrated circuit, what is the main objective of \"Clock Tree Synthesis (CTS)\"?",
@@ -48,5 +43,10 @@
   "In the classical 5-stage RISC pipeline (IF, ID, EX, MEM, WB), which stage is typically responsible for executing arithmetic and logical operations, and also for calculating the memory address for load/store instructions?",
   "Which verification method attempts to mathematically prove the correctness of a design against its specification, without requiring extensive test vector generation?",
   "In a shared-memory multiprocessor system, which memory consistency model allows a write operation by one processor to be seen by all other processors, but does not guarantee that writes from different processors will be seen in the same order by all observers?",
-  "Which advanced transistor technology uses a 3D gate structure wrapped around a silicon 'fin' to provide better control over the channel and reduce leakage current, especially at smaller process nodes?"
+  "Which advanced transistor technology uses a 3D gate structure wrapped around a silicon 'fin' to provide better control over the channel and reduce leakage current, especially at smaller process nodes?",
+  "What is the primary function of a flip-flop in digital circuits?",
+  "In the physical design flow of a digital integrated circuit, what is the primary objective of Static Timing Analysis (STA)?",
+  "Which advanced lithography technique primarily uses light with a wavelength of 13.5 nm, necessitating a vacuum environment and reflective optics, to enable the patterning of smaller features in semiconductor manufacturing?",
+  "In computer architecture, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+  "What is the fundamental concept behind pipelining in processor design?"
 ]
