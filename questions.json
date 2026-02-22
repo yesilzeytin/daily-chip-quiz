@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a flip-flop in digital circuits?",
+      "question": "What is the primary function of an inverter (NOT gate) in digital logic circuits?",
       "options": [
-        "To perform arithmetic and logical operations",
-        "To amplify weak electrical signals",
-        "To store a single bit of binary data",
-        "To convert analog signals to digital",
-        "To regulate power supply voltage"
+        "Invert a binary signal (change 0 to 1, or 1 to 0)",
+        "Store a single bit of data temporarily",
+        "Perform arithmetic addition on two binary numbers",
+        "Compare two binary signals for equality",
+        "Multiply two binary numbers"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'floorplanning' stage?",
+      "options": [
+        "To perform detailed routing of interconnections between cells.",
+        "To verify the timing performance of the entire chip after layout.",
+        "To define the overall chip area, placement of major functional blocks (macros), and I/O pads.",
+        "To convert the gate-level netlist into a technology-specific netlist.",
+        "To optimize the clock network for minimal skew and delay."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design flow of a digital integrated circuit, what is the primary objective of Static Timing Analysis (STA)?",
+      "question": "Which component is primarily responsible for translating virtual memory addresses into physical memory addresses in a CPU, often working in conjunction with a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "To automatically route interconnections between placed cells",
-        "To verify that all layout features adhere to manufacturing rules (DRC)",
-        "To ensure that the circuit meets all specified timing constraints (e.g., clock frequency, setup/hold times)",
-        "To place standard cells and macros onto the chip's die area",
-        "To estimate the parasitic capacitance and resistance of interconnects"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which advanced lithography technique primarily uses light with a wavelength of 13.5 nm, necessitating a vacuum environment and reflective optics, to enable the patterning of smaller features in semiconductor manufacturing?",
-      "options": [
-        "Immersion Lithography",
-        "Electron Beam Lithography",
-        "X-ray Lithography",
-        "Extreme Ultraviolet (EUV) Lithography",
-        "Deep Ultraviolet (DUV) Lithography"
+        "Arithmetic Logic Unit (ALU)",
+        "Instruction Register (IR)",
+        "Program Counter (PC)",
+        "Memory Management Unit (MMU)",
+        "Cache Controller"
       ],
       "correct": 3
     },
     {
-      "question": "In computer architecture, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+      "question": "In the context of verifying modern System-on-Chip (SoC) designs, what is the main advantage of using 'Emulation' over traditional Register-Transfer Level (RTL) simulation?",
       "options": [
-        "To cache frequently accessed data blocks from main memory for faster CPU access",
-        "To provide a fast lookup mechanism for virtual-to-physical address translations",
-        "To reorder instructions to enable out-of-order execution in the pipeline",
-        "To store microcode sequences for complex instructions to simplify hardware design",
-        "To maintain coherence among multiple CPU caches in a multiprocessor system"
+        "It provides a formal mathematical proof of design correctness, eliminating the need for test vectors.",
+        "It offers significantly higher execution speeds, often allowing software execution at near real-time rates.",
+        "It requires less complex hardware setup and specialized tools compared to RTL simulation.",
+        "Its primary purpose is to generate the final mask patterns for chip manufacturing.",
+        "It is exclusively used for detailed power analysis and optimization at the transistor level."
       ],
       "correct": 1
     },
     {
-      "question": "What is the fundamental concept behind pipelining in processor design?",
+      "question": "In a superscalar processor implementing out-of-order execution, what is the primary role of a 'Reservation Station'?",
       "options": [
-        "Executing multiple instructions simultaneously by using multiple processing units in parallel",
-        "Storing frequently used data closer to the CPU to reduce memory access latency",
-        "Breaking down the execution of an instruction into a series of sequential stages that operate concurrently on different instructions",
-        "Running multiple independent programs or threads at the same time on a single core",
-        "Adjusting the processor's clock frequency and voltage dynamically to reduce power consumption"
+        "To commit instructions to the architectural state in program order.",
+        "To store instructions and their operands, waiting for the operands to become available before execution.",
+        "To predict the outcome of conditional branch instructions before they are executed.",
+        "To allocate physical registers for register renaming to eliminate WAR and WAW hazards.",
+        "To prefetch data from main memory into the cache hierarchy."
       ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

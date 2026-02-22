@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a \"register file\" in a Central Processing Unit (CPU)?",
-  "What is the primary benefit of \"speculative execution\" in modern pipelined processors?",
-  "In the physical design phase of a digital integrated circuit, what is the main objective of \"Clock Tree Synthesis (CTS)\"?",
-  "In the context of computer memory systems, what does the principle of \"Temporal Locality\" primarily imply?",
-  "What is the primary challenge or phenomenon addressed by the concept of \"dark silicon\" in advanced many-core chip design?",
   "What is the output of a 2-input NAND gate when both inputs are logically HIGH (1)?",
   "In a pipelined processor, which type of hazard is primarily associated with conditional branch instructions and can lead to incorrect instruction fetching if not handled properly?",
   "In the physical design flow of a digital integrated circuit, after routing is complete, what is the primary purpose of 'parasitic extraction'?",
@@ -48,5 +43,10 @@
   "In the physical design flow of a digital integrated circuit, what is the primary objective of Static Timing Analysis (STA)?",
   "Which advanced lithography technique primarily uses light with a wavelength of 13.5 nm, necessitating a vacuum environment and reflective optics, to enable the patterning of smaller features in semiconductor manufacturing?",
   "In computer architecture, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
-  "What is the fundamental concept behind pipelining in processor design?"
+  "What is the fundamental concept behind pipelining in processor design?",
+  "What is the primary function of an inverter (NOT gate) in digital logic circuits?",
+  "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'floorplanning' stage?",
+  "Which component is primarily responsible for translating virtual memory addresses into physical memory addresses in a CPU, often working in conjunction with a Translation Lookaside Buffer (TLB)?",
+  "In the context of verifying modern System-on-Chip (SoC) designs, what is the main advantage of using 'Emulation' over traditional Register-Transfer Level (RTL) simulation?",
+  "In a superscalar processor implementing out-of-order execution, what is the primary role of a 'Reservation Station'?"
 ]
