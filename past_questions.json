@@ -1,9 +1,4 @@
 [
-  "What is the output of a 2-input NAND gate when both inputs are logically HIGH (1)?",
-  "In a pipelined processor, which type of hazard is primarily associated with conditional branch instructions and can lead to incorrect instruction fetching if not handled properly?",
-  "In the physical design flow of a digital integrated circuit, after routing is complete, what is the primary purpose of 'parasitic extraction'?",
-  "In the context of cache memory write policies, what is the primary characteristic of a \"write-back\" (or copy-back) policy?",
-  "In semiconductor manufacturing and reliability, what is the phenomenon where momentum transfer from high-velocity electrons causes gradual displacement of metal atoms within integrated circuit interconnects, potentially leading to open circuits or short circuits over the device's lifetime?",
   "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
   "During the logic synthesis phase of digital IC design, what is the main goal of \"technology mapping\"?",
   "In the context of processor design, what does the term \"Instruction Set Architecture (ISA)\" primarily define?",
@@ -48,5 +43,10 @@
   "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'floorplanning' stage?",
   "Which component is primarily responsible for translating virtual memory addresses into physical memory addresses in a CPU, often working in conjunction with a Translation Lookaside Buffer (TLB)?",
   "In the context of verifying modern System-on-Chip (SoC) designs, what is the main advantage of using 'Emulation' over traditional Register-Transfer Level (RTL) simulation?",
-  "In a superscalar processor implementing out-of-order execution, what is the primary role of a 'Reservation Station'?"
+  "In a superscalar processor implementing out-of-order execution, what is the primary role of a 'Reservation Station'?",
+  "What is the primary purpose of a \"data path\" in a processor's microarchitecture?",
+  "In the context of chip verification, what is a \"coverage metric\" primarily used for?",
+  "What is the primary advantage of a Harvard architecture over a Von Neumann architecture in terms of instruction and data access?",
+  "In advanced CMOS technology, what is the primary purpose of 'dummy fills' or 'filler cells' during the physical design backend flow?",
+  "In modern memory systems, what is the primary benefit of using Error-Correcting Code (ECC) memory?"
 ]
