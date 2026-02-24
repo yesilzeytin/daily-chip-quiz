@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a \"data path\" in a processor's microarchitecture?",
+      "question": "What is the primary characteristic of a NAND gate's output relative to its inputs?",
       "options": [
-        "To manage cache coherence protocols across multiple cores.",
-        "To execute arithmetic and logical operations and store intermediate results using components like ALUs and registers.",
-        "To generate clock signals for synchronizing all sequential elements.",
-        "To translate virtual memory addresses into physical memory addresses.",
-        "To handle the fetching and decoding of instructions from memory."
+        "The output is HIGH only when all inputs are HIGH.",
+        "The output is LOW only when all inputs are HIGH.",
+        "The output is HIGH when all inputs are LOW.",
+        "The output is LOW only when all inputs are LOW.",
+        "The output is HIGH only when an odd number of inputs are HIGH."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of chip verification, what is a \"coverage metric\" primarily used for?",
+      "question": "In a pipelined processor, what is the primary architectural technique used to minimize the performance penalty caused by control hazards (e.g., conditional branches)?",
       "options": [
-        "Measuring the physical area occupied by the chip's layout on the silicon wafer.",
-        "Estimating the total power consumption of the integrated circuit during operation.",
-        "Quantifying how thoroughly the design's specification has been tested by the verification suite.",
-        "Determining the maximum operating frequency a digital circuit can achieve.",
-        "Tracking the number of design iterations required to fix all identified bugs."
+        "Data Forwarding (Bypassing)",
+        "Memory Interleaving",
+        "Branch Prediction",
+        "Instruction Level Parallelism (ILP)",
+        "Cache Coherence Protocols"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary advantage of a Harvard architecture over a Von Neumann architecture in terms of instruction and data access?",
+      "question": "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'Clock Tree Synthesis' (CTS) stage?",
       "options": [
-        "It simplifies the overall memory management unit (MMU) design and implementation.",
-        "It allows for simultaneous fetching of instructions and loading/storing of data due to separate memory spaces/buses, improving throughput.",
-        "It inherently reduces the static power consumption of the processor.",
-        "It enables direct support for shared-memory multiprocessing without additional hardware.",
-        "It uses a single, unified cache hierarchy for both instructions and data, reducing complexity."
+        "To place standard cells and macros onto the chip area.",
+        "To ensure all clock signals arrive at sequential elements at approximately the same time, minimizing skew.",
+        "To determine the optimal routing paths for all data signals.",
+        "To verify that the layout meets manufacturing design rules.",
+        "To convert the Register-Transfer Level (RTL) design into a gate-level netlist."
       ],
       "correct": 1
     },
     {
-      "question": "In advanced CMOS technology, what is the primary purpose of 'dummy fills' or 'filler cells' during the physical design backend flow?",
+      "question": "In the context of CPU caches, what is the primary characteristic of a 'Write-Back' cache policy compared to a 'Write-Through' policy?",
       "options": [
-        "To provide additional power and ground connections for complex macros that require higher current.",
-        "To act as placeholders for future design changes or for implementing built-in self-test (BIST) structures.",
-        "To ensure sufficient metal density for manufacturing processes like Chemical Mechanical Planarization (CMP) and prevent dishing or erosion.",
-        "To serve as test points for on-chip debuggers and logic analyzers.",
-        "To isolate sensitive analog components from digital noise on the same die."
+        "Write-Back updates main memory immediately upon a write hit, Write-Through does not.",
+        "Write-Back always allocates a cache line on a write miss, Write-Through never does.",
+        "Write-Back allows modified data to reside only in the cache for a period, deferring writes to main memory; Write-Through updates main memory concurrently.",
+        "Write-Back maintains a snooping protocol, Write-Through does not.",
+        "Write-Back is typically slower for write operations but consumes less power."
       ],
       "correct": 2
     },
     {
-      "question": "In modern memory systems, what is the primary benefit of using Error-Correcting Code (ECC) memory?",
+      "question": "Which of the following fault models is primarily used in automated test pattern generation (ATPG) for combinational and sequential logic to detect permanent manufacturing defects in digital integrated circuits?",
       "options": [
-        "It significantly increases the overall memory bandwidth, allowing for faster data transfer rates.",
-        "It enables memory modules to operate reliably at much lower voltages, reducing power consumption.",
-        "It detects and corrects single-bit errors, and sometimes multi-bit errors, enhancing data integrity and system reliability.",
-        "It provides faster access times to stored data compared to non-ECC memory modules.",
-        "It encrypts all data stored in main memory, improving security against unauthorized access."
+        "Delay Fault Model",
+        "Stuck-at Fault Model",
+        "Bridging Fault Model",
+        "Transition Fault Model",
+        "Open Fault Model"
       ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

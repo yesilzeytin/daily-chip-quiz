@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
-  "During the logic synthesis phase of digital IC design, what is the main goal of \"technology mapping\"?",
-  "In the context of processor design, what does the term \"Instruction Set Architecture (ISA)\" primarily define?",
-  "Which of the following describes the primary challenge addressed by \"double patterning\" (or multi-patterning) techniques in advanced semiconductor manufacturing?",
-  "In a modern synchronous digital system, what is the primary purpose of a \"Phase-Locked Loop (PLL)\"?",
   "What is the primary purpose of Hardware Description Languages (HDLs) like Verilog or VHDL in digital IC design?",
   "In a set-associative cache, when a cache miss occurs and the target set is already full, which mechanism determines which existing cache block is replaced to make space for the new data block?",
   "Dynamic Voltage and Frequency Scaling (DVFS) is a widely used power management technique in modern processors. What is its primary mechanism for achieving power reduction?",
@@ -48,5 +43,10 @@
   "In the context of chip verification, what is a \"coverage metric\" primarily used for?",
   "What is the primary advantage of a Harvard architecture over a Von Neumann architecture in terms of instruction and data access?",
   "In advanced CMOS technology, what is the primary purpose of 'dummy fills' or 'filler cells' during the physical design backend flow?",
-  "In modern memory systems, what is the primary benefit of using Error-Correcting Code (ECC) memory?"
+  "In modern memory systems, what is the primary benefit of using Error-Correcting Code (ECC) memory?",
+  "What is the primary characteristic of a NAND gate's output relative to its inputs?",
+  "In a pipelined processor, what is the primary architectural technique used to minimize the performance penalty caused by control hazards (e.g., conditional branches)?",
+  "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'Clock Tree Synthesis' (CTS) stage?",
+  "In the context of CPU caches, what is the primary characteristic of a 'Write-Back' cache policy compared to a 'Write-Through' policy?",
+  "Which of the following fault models is primarily used in automated test pattern generation (ATPG) for combinational and sequential logic to detect permanent manufacturing defects in digital integrated circuits?"
 ]
