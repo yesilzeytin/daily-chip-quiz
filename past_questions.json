@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of Hardware Description Languages (HDLs) like Verilog or VHDL in digital IC design?",
-  "In a set-associative cache, when a cache miss occurs and the target set is already full, which mechanism determines which existing cache block is replaced to make space for the new data block?",
-  "Dynamic Voltage and Frequency Scaling (DVFS) is a widely used power management technique in modern processors. What is its primary mechanism for achieving power reduction?",
-  "After the physical layout of an integrated circuit is completed, what crucial verification steps are performed to ensure that the layout adheres to manufacturing rules and accurately represents the logical design?",
-  "In a typical pipelined processor, which functional unit is primarily responsible for interpreting the fetched instruction and generating the necessary control signals to direct other components (such as the ALU, register file, and memory) to perform the specified operation?",
   "What is the primary function of a clock signal in a synchronous digital circuit?",
   "What is the main advantage of an Instruction Set Architecture (ISA) that supports a Reduced Instruction Set Computing (RISC) philosophy compared to a Complex Instruction Set Computing (CISC) philosophy for processor microarchitecture?",
   "In the context of asynchronous digital circuit design, what is a primary design consideration that distinguishes it from synchronous design?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, what is the primary architectural technique used to minimize the performance penalty caused by control hazards (e.g., conditional branches)?",
   "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'Clock Tree Synthesis' (CTS) stage?",
   "In the context of CPU caches, what is the primary characteristic of a 'Write-Back' cache policy compared to a 'Write-Through' policy?",
-  "Which of the following fault models is primarily used in automated test pattern generation (ATPG) for combinational and sequential logic to detect permanent manufacturing defects in digital integrated circuits?"
+  "Which of the following fault models is primarily used in automated test pattern generation (ATPG) for combinational and sequential logic to detect permanent manufacturing defects in digital integrated circuits?",
+  "What does the acronym ASIC stand for in the context of chip design?",
+  "In a pipelined processor, what type of hazard occurs when an instruction attempts to use data that has not yet been computed by a preceding instruction in the pipeline?",
+  "What is the primary technique used in digital IC design to reduce dynamic power consumption by disabling the clock signal to inactive portions of the circuit, preventing unnecessary switching activity?",
+  "In the digital IC design flow, what is the primary purpose of Formal Equivalence Checking (FEC)?",
+  "In a CPU, which component is primarily responsible for holding the address of the next instruction to be fetched from memory?"
 ]

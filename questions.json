@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic of a NAND gate's output relative to its inputs?",
+      "question": "What does the acronym ASIC stand for in the context of chip design?",
       "options": [
-        "The output is HIGH only when all inputs are HIGH.",
-        "The output is LOW only when all inputs are HIGH.",
-        "The output is HIGH when all inputs are LOW.",
-        "The output is LOW only when all inputs are LOW.",
-        "The output is HIGH only when an odd number of inputs are HIGH."
+        "Application-Specific Integrated Circuit",
+        "Advanced System Integration Controller",
+        "Analog Signal Interface Chip",
+        "Automated Synthesis and Implementation Component",
+        "Architecture-Standardized Internal Computing"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In a pipelined processor, what type of hazard occurs when an instruction attempts to use data that has not yet been computed by a preceding instruction in the pipeline?",
+      "options": [
+        "Data Hazard",
+        "Control Hazard",
+        "Structural Hazard",
+        "Memory Hazard",
+        "Pipeline Stall"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary technique used in digital IC design to reduce dynamic power consumption by disabling the clock signal to inactive portions of the circuit, preventing unnecessary switching activity?",
+      "options": [
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Clock Gating",
+        "Power Gating",
+        "Memory Compression",
+        "Instruction Level Parallelism"
       ],
       "correct": 1
     },
     {
-      "question": "In a pipelined processor, what is the primary architectural technique used to minimize the performance penalty caused by control hazards (e.g., conditional branches)?",
+      "question": "In the digital IC design flow, what is the primary purpose of Formal Equivalence Checking (FEC)?",
       "options": [
-        "Data Forwarding (Bypassing)",
-        "Memory Interleaving",
-        "Branch Prediction",
-        "Instruction Level Parallelism (ILP)",
-        "Cache Coherence Protocols"
+        "To verify the timing performance of the circuit after physical layout.",
+        "To generate test vectors for manufacturing defect detection.",
+        "To mathematically prove that two different representations of a design (e.g., RTL vs. gate-level netlist) are functionally identical.",
+        "To simulate the behavior of the circuit under various operating conditions.",
+        "To automatically fix design rule violations in the layout."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'Clock Tree Synthesis' (CTS) stage?",
+      "question": "In a CPU, which component is primarily responsible for holding the address of the next instruction to be fetched from memory?",
       "options": [
-        "To place standard cells and macros onto the chip area.",
-        "To ensure all clock signals arrive at sequential elements at approximately the same time, minimizing skew.",
-        "To determine the optimal routing paths for all data signals.",
-        "To verify that the layout meets manufacturing design rules.",
-        "To convert the Register-Transfer Level (RTL) design into a gate-level netlist."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the context of CPU caches, what is the primary characteristic of a 'Write-Back' cache policy compared to a 'Write-Through' policy?",
-      "options": [
-        "Write-Back updates main memory immediately upon a write hit, Write-Through does not.",
-        "Write-Back always allocates a cache line on a write miss, Write-Through never does.",
-        "Write-Back allows modified data to reside only in the cache for a period, deferring writes to main memory; Write-Through updates main memory concurrently.",
-        "Write-Back maintains a snooping protocol, Write-Through does not.",
-        "Write-Back is typically slower for write operations but consumes less power."
+        "Arithmetic Logic Unit (ALU)",
+        "Register File",
+        "Program Counter (PC)",
+        "Instruction Register (IR)",
+        "Memory Data Register (MDR)"
       ],
       "correct": 2
-    },
-    {
-      "question": "Which of the following fault models is primarily used in automated test pattern generation (ATPG) for combinational and sequential logic to detect permanent manufacturing defects in digital integrated circuits?",
-      "options": [
-        "Delay Fault Model",
-        "Stuck-at Fault Model",
-        "Bridging Fault Model",
-        "Transition Fault Model",
-        "Open Fault Model"
-      ],
-      "correct": 1
     }
   ]
 }
