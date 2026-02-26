@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What does the acronym ASIC stand for in the context of chip design?",
+      "question": "What is the defining characteristic of a sequential logic circuit compared to a combinational logic circuit?",
       "options": [
-        "Application-Specific Integrated Circuit",
-        "Advanced System Integration Controller",
-        "Analog Signal Interface Chip",
-        "Automated Synthesis and Implementation Component",
-        "Architecture-Standardized Internal Computing"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a pipelined processor, what type of hazard occurs when an instruction attempts to use data that has not yet been computed by a preceding instruction in the pipeline?",
-      "options": [
-        "Data Hazard",
-        "Control Hazard",
-        "Structural Hazard",
-        "Memory Hazard",
-        "Pipeline Stall"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What is the primary technique used in digital IC design to reduce dynamic power consumption by disabling the clock signal to inactive portions of the circuit, preventing unnecessary switching activity?",
-      "options": [
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Clock Gating",
-        "Power Gating",
-        "Memory Compression",
-        "Instruction Level Parallelism"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the digital IC design flow, what is the primary purpose of Formal Equivalence Checking (FEC)?",
-      "options": [
-        "To verify the timing performance of the circuit after physical layout.",
-        "To generate test vectors for manufacturing defect detection.",
-        "To mathematically prove that two different representations of a design (e.g., RTL vs. gate-level netlist) are functionally identical.",
-        "To simulate the behavior of the circuit under various operating conditions.",
-        "To automatically fix design rule violations in the layout."
+        "Its output depends solely on its current inputs.",
+        "It always contains an internal clock generator.",
+        "Its output depends on its current inputs and its past inputs (or internal state).",
+        "It can only implement arithmetic operations.",
+        "It does not require any form of synchronization."
       ],
       "correct": 2
     },
     {
-      "question": "In a CPU, which component is primarily responsible for holding the address of the next instruction to be fetched from memory?",
+      "question": "In a CPU cache, which replacement policy aims to discard the cache line that has not been accessed for the longest period of time?",
       "options": [
-        "Arithmetic Logic Unit (ALU)",
-        "Register File",
-        "Program Counter (PC)",
-        "Instruction Register (IR)",
-        "Memory Data Register (MDR)"
+        "First-In, First-Out (FIFO)",
+        "Least Recently Used (LRU)",
+        "Most Recently Used (MRU)",
+        "Random Replacement",
+        "Optimal Replacement (Belady's algorithm)"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "During the physical design verification phase of an integrated circuit, what is the primary purpose of performing a \"Layout Versus Schematic\" (LVS) check?",
+      "options": [
+        "To ensure all geometric shapes in the layout adhere to manufacturing rules (e.g., width, spacing).",
+        "To verify that the physical layout implementation precisely matches the logical netlist (schematic).",
+        "To analyze the power distribution network for voltage drops (IR drop).",
+        "To identify potential electromigration issues in metal interconnects.",
+        "To estimate the propagation delays and timing paths of the circuit."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which architectural approach allows a single instruction to operate simultaneously on multiple data elements, typically found in multimedia processing or scientific computing?",
+      "options": [
+        "Multiple Instruction, Multiple Data (MIMD)",
+        "Single Instruction, Multiple Data (SIMD)",
+        "Multiple Instruction, Single Data (MISD)",
+        "Single Instruction, Single Data (SISD)",
+        "Very Long Instruction Word (VLIW)"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the digital IC design flow, what is a \"netlist\" primarily used to represent?",
+      "options": [
+        "The physical dimensions and locations of all transistors and interconnects on the chip.",
+        "A high-level behavioral description of the circuit's functionality using a Hardware Description Language (HDL).",
+        "The logical connectivity and instantiation of gates, flip-flops, and other components, without physical layout information.",
+        "A set of input test patterns and expected outputs for functional simulation.",
+        "The estimated power consumption and thermal profile of the integrated circuit."
       ],
       "correct": 2
     }
