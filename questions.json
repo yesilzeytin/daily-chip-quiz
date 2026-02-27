@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the defining characteristic of a sequential logic circuit compared to a combinational logic circuit?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
       "options": [
-        "Its output depends solely on its current inputs.",
-        "It always contains an internal clock generator.",
-        "Its output depends on its current inputs and its past inputs (or internal state).",
-        "It can only implement arithmetic operations.",
-        "It does not require any form of synchronization."
+        "To store a single bit of data.",
+        "To select one of several input signals and forward it to a single output.",
+        "To perform arithmetic operations like addition or subtraction.",
+        "To generate a clock signal for synchronization.",
+        "To convert an analog signal to a digital signal."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In a virtual memory system, what is the primary role of a 'page table'?",
+      "options": [
+        "To store recently accessed data for faster retrieval by the CPU.",
+        "To translate virtual addresses used by programs into physical addresses in main memory.",
+        "To manage the flow of data between the CPU and I/O devices.",
+        "To serve as a high-speed cache for instruction fetching.",
+        "To determine the execution order of instructions in an out-of-order processor."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In digital IC design, what is a 'Clock Domain Crossing (CDC)' primarily concerned with?",
+      "options": [
+        "Ensuring that all flip-flops in a design receive the clock signal at the exact same time.",
+        "Synchronizing data transfer between circuit blocks operating with different, asynchronous, or phase-shifted clock signals.",
+        "Optimizing the clock network to minimize power consumption.",
+        "Detecting and resolving timing violations related to setup and hold times within a single clock domain.",
+        "Converting a high-frequency clock signal into a lower-frequency clock signal."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which instruction set architecture (ISA) philosophy relies on the compiler to explicitly package multiple independent operations into a single, wide instruction word for parallel execution by multiple functional units, rather than relying on hardware-based dynamic scheduling?",
+      "options": [
+        "CISC (Complex Instruction Set Computing)",
+        "RISC (Reduced Instruction Set Computing)",
+        "VLIW (Very Long Instruction Word)",
+        "SIMD (Single Instruction, Multiple Data)",
+        "MIMD (Multiple Instruction, Multiple Data)"
       ],
       "correct": 2
     },
     {
-      "question": "In a CPU cache, which replacement policy aims to discard the cache line that has not been accessed for the longest period of time?",
+      "question": "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of material in metal interconnect lines due to the momentum transfer from conducting electrons, potentially leading to opens or shorts over time?",
       "options": [
-        "First-In, First-Out (FIFO)",
-        "Least Recently Used (LRU)",
-        "Most Recently Used (MRU)",
-        "Random Replacement",
-        "Optimal Replacement (Belady's algorithm)"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "During the physical design verification phase of an integrated circuit, what is the primary purpose of performing a \"Layout Versus Schematic\" (LVS) check?",
-      "options": [
-        "To ensure all geometric shapes in the layout adhere to manufacturing rules (e.g., width, spacing).",
-        "To verify that the physical layout implementation precisely matches the logical netlist (schematic).",
-        "To analyze the power distribution network for voltage drops (IR drop).",
-        "To identify potential electromigration issues in metal interconnects.",
-        "To estimate the propagation delays and timing paths of the circuit."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which architectural approach allows a single instruction to operate simultaneously on multiple data elements, typically found in multimedia processing or scientific computing?",
-      "options": [
-        "Multiple Instruction, Multiple Data (MIMD)",
-        "Single Instruction, Multiple Data (SIMD)",
-        "Multiple Instruction, Single Data (MISD)",
-        "Single Instruction, Single Data (SISD)",
-        "Very Long Instruction Word (VLIW)"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the digital IC design flow, what is a \"netlist\" primarily used to represent?",
-      "options": [
-        "The physical dimensions and locations of all transistors and interconnects on the chip.",
-        "A high-level behavioral description of the circuit's functionality using a Hardware Description Language (HDL).",
-        "The logical connectivity and instantiation of gates, flip-flops, and other components, without physical layout information.",
-        "A set of input test patterns and expected outputs for functional simulation.",
-        "The estimated power consumption and thermal profile of the integrated circuit."
+        "Negative Bias Temperature Instability (NBTI)",
+        "Hot Carrier Injection (HCI)",
+        "Electromigration (EM)",
+        "Dielectric Breakdown (DB)",
+        "Thermal Runaway (TR)"
       ],
       "correct": 2
     }

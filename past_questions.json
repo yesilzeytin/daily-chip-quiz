@@ -1,9 +1,4 @@
 [
-  "What is the output of an XOR gate when one input is logically HIGH (1) and the other input is logically LOW (0)?",
-  "What is the primary advantage of using a Field-Programmable Gate Array (FPGA) over an Application-Specific Integrated Circuit (ASIC) during the early stages of product development and prototyping?",
-  "In a multi-processor system with private caches, what is the primary role of a cache coherence protocol (e.g., MESI, MOESI)?",
-  "In the physical design flow of a digital integrated circuit, which of the following best describes the primary objective of the *placement* stage?",
-  "In a modern superscalar processor implementing out-of-order execution, what role does the Reorder Buffer (ROB) primarily play?",
   "In CMOS digital integrated circuits, what are the two fundamental categories of power dissipation?",
   "In the context of multi-processor systems utilizing the MESI cache coherence protocol, what does the 'M' state for a cache line primarily indicate?",
   "What is the primary purpose of integrating 'scan chains' into a digital integrated circuit design?",
@@ -48,5 +43,10 @@
   "In a CPU cache, which replacement policy aims to discard the cache line that has not been accessed for the longest period of time?",
   "During the physical design verification phase of an integrated circuit, what is the primary purpose of performing a \"Layout Versus Schematic\" (LVS) check?",
   "Which architectural approach allows a single instruction to operate simultaneously on multiple data elements, typically found in multimedia processing or scientific computing?",
-  "In the digital IC design flow, what is a \"netlist\" primarily used to represent?"
+  "In the digital IC design flow, what is a \"netlist\" primarily used to represent?",
+  "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
+  "In a virtual memory system, what is the primary role of a 'page table'?",
+  "In digital IC design, what is a 'Clock Domain Crossing (CDC)' primarily concerned with?",
+  "Which instruction set architecture (ISA) philosophy relies on the compiler to explicitly package multiple independent operations into a single, wide instruction word for parallel execution by multiple functional units, rather than relying on hardware-based dynamic scheduling?",
+  "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of material in metal interconnect lines due to the momentum transfer from conducting electrons, potentially leading to opens or shorts over time?"
 ]
