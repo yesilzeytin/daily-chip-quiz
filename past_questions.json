@@ -1,9 +1,4 @@
 [
-  "In CMOS digital integrated circuits, what are the two fundamental categories of power dissipation?",
-  "In the context of multi-processor systems utilizing the MESI cache coherence protocol, what does the 'M' state for a cache line primarily indicate?",
-  "What is the primary purpose of integrating 'scan chains' into a digital integrated circuit design?",
-  "In advanced out-of-order execution processors, what is the primary architectural technique known as 'register renaming' designed to mitigate?",
-  "In the advanced semiconductor manufacturing process, what is the primary role of Chemical Mechanical Planarization (CMP)?",
   "What is the primary advantage of CMOS (Complementary Metal-Oxide-Semiconductor) logic over older technologies like TTL (Transistor-Transistor Logic) in modern digital integrated circuits?",
   "In the context of shared-memory multiprocessor systems, what property does the \"Sequential Consistency\" memory model primarily guarantee to the programmer?",
   "In synchronous digital circuit design, \"setup time\" for a flip-flop refers to the minimum amount of time that:",
@@ -48,5 +43,10 @@
   "In a virtual memory system, what is the primary role of a 'page table'?",
   "In digital IC design, what is a 'Clock Domain Crossing (CDC)' primarily concerned with?",
   "Which instruction set architecture (ISA) philosophy relies on the compiler to explicitly package multiple independent operations into a single, wide instruction word for parallel execution by multiple functional units, rather than relying on hardware-based dynamic scheduling?",
-  "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of material in metal interconnect lines due to the momentum transfer from conducting electrons, potentially leading to opens or shorts over time?"
+  "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of material in metal interconnect lines due to the momentum transfer from conducting electrons, potentially leading to opens or shorts over time?",
+  "Which of the following logic gates is considered a 'universal gate,' meaning any Boolean function can be implemented using only this type of gate?",
+  "In a typical Central Processing Unit (CPU), what is the primary role of the Control Unit?",
+  "In synchronous digital circuit design, 'hold time' for a flip-flop refers to the minimum amount of time that:",
+  "What is the primary benefit of increasing the 'associativity' of a CPU cache (e.g., moving from a direct-mapped to a 2-way set-associative cache, or higher)?",
+  "In the context of modern high-performance computing, what is the primary architectural paradigm that distinguishes a Graphics Processing Unit (GPU) from a traditional Central Processing Unit (CPU)?"
 ]

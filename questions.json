@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
+      "question": "Which of the following logic gates is considered a 'universal gate,' meaning any Boolean function can be implemented using only this type of gate?",
       "options": [
-        "To store a single bit of data.",
-        "To select one of several input signals and forward it to a single output.",
-        "To perform arithmetic operations like addition or subtraction.",
-        "To generate a clock signal for synchronization.",
-        "To convert an analog signal to a digital signal."
+        "AND gate",
+        "OR gate",
+        "XOR gate",
+        "NOR gate",
+        "Buffer gate"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In a virtual memory system, what is the primary role of a 'page table'?",
+      "question": "In a typical Central Processing Unit (CPU), what is the primary role of the Control Unit?",
       "options": [
-        "To store recently accessed data for faster retrieval by the CPU.",
-        "To translate virtual addresses used by programs into physical addresses in main memory.",
-        "To manage the flow of data between the CPU and I/O devices.",
-        "To serve as a high-speed cache for instruction fetching.",
-        "To determine the execution order of instructions in an out-of-order processor."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In digital IC design, what is a 'Clock Domain Crossing (CDC)' primarily concerned with?",
-      "options": [
-        "Ensuring that all flip-flops in a design receive the clock signal at the exact same time.",
-        "Synchronizing data transfer between circuit blocks operating with different, asynchronous, or phase-shifted clock signals.",
-        "Optimizing the clock network to minimize power consumption.",
-        "Detecting and resolving timing violations related to setup and hold times within a single clock domain.",
-        "Converting a high-frequency clock signal into a lower-frequency clock signal."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which instruction set architecture (ISA) philosophy relies on the compiler to explicitly package multiple independent operations into a single, wide instruction word for parallel execution by multiple functional units, rather than relying on hardware-based dynamic scheduling?",
-      "options": [
-        "CISC (Complex Instruction Set Computing)",
-        "RISC (Reduced Instruction Set Computing)",
-        "VLIW (Very Long Instruction Word)",
-        "SIMD (Single Instruction, Multiple Data)",
-        "MIMD (Multiple Instruction, Multiple Data)"
+        "Performing arithmetic and logical operations on data",
+        "Storing program instructions and data in its registers",
+        "Generating control signals to orchestrate the operations of other CPU components",
+        "Translating virtual memory addresses into physical memory addresses",
+        "Caching frequently accessed data for faster retrieval"
       ],
       "correct": 2
     },
     {
-      "question": "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of material in metal interconnect lines due to the momentum transfer from conducting electrons, potentially leading to opens or shorts over time?",
+      "question": "In synchronous digital circuit design, 'hold time' for a flip-flop refers to the minimum amount of time that:",
       "options": [
-        "Negative Bias Temperature Instability (NBTI)",
-        "Hot Carrier Injection (HCI)",
-        "Electromigration (EM)",
-        "Dielectric Breakdown (DB)",
-        "Thermal Runaway (TR)"
+        "The clock signal must be stable after the data input changes",
+        "The data input must remain stable *after* the active clock edge to ensure reliable capture",
+        "The data input must be stable *before* the active clock edge to ensure reliable capture",
+        "The output signal requires to become stable after the clock edge",
+        "The power supply must remain stable before the clock pulse"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary benefit of increasing the 'associativity' of a CPU cache (e.g., moving from a direct-mapped to a 2-way set-associative cache, or higher)?",
+      "options": [
+        "It significantly reduces the memory access latency for cache hits by optimizing the lookup speed.",
+        "It decreases the overall power consumption of the cache memory by simplifying tag comparisons.",
+        "It increases the hit rate by reducing the number of conflict misses, allowing more flexible block placement.",
+        "It simplifies the cache controller logic and reduces its complexity, leading to faster design cycles.",
+        "It allows for larger total cache sizes to be implemented without impacting performance."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of modern high-performance computing, what is the primary architectural paradigm that distinguishes a Graphics Processing Unit (GPU) from a traditional Central Processing Unit (CPU)?",
+      "options": [
+        "GPUs primarily use a deep, in-order pipeline optimized for single-thread performance.",
+        "GPUs are designed with a few powerful, complex cores optimized for sequential task execution.",
+        "GPUs emphasize massive parallelism with thousands of simpler, energy-efficient cores, ideal for highly parallelizable tasks.",
+        "GPUs operate exclusively with fixed-point arithmetic, lacking floating-point capabilities.",
+        "GPUs rely heavily on large, multi-level cache hierarchies to handle irregular memory access patterns."
       ],
       "correct": 2
     }
