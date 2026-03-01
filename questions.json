@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "Which of the following logic gates is considered a 'universal gate,' meaning any Boolean function can be implemented using only this type of gate?",
+      "question": "What is the most common way to implement a clock divider circuit in digital logic?",
       "options": [
-        "AND gate",
-        "OR gate",
-        "XOR gate",
-        "NOR gate",
-        "Buffer gate"
+        "By connecting multiple D-flip-flops in a cascade arrangement to form a counter or toggle chain.",
+        "Using only combinational logic gates like AND and OR gates.",
+        "Through a series of XOR gates to generate a variable frequency.",
+        "By dynamically changing the supply voltage of an oscillator.",
+        "Utilizing a dedicated analog phase-locked loop (PLL) for frequency reduction."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "In a typical Central Processing Unit (CPU), what is the primary role of the Control Unit?",
+      "question": "In a multi-core processor system with private caches, what is the primary purpose of a cache coherence protocol like MESI?",
       "options": [
-        "Performing arithmetic and logical operations on data",
-        "Storing program instructions and data in its registers",
-        "Generating control signals to orchestrate the operations of other CPU components",
-        "Translating virtual memory addresses into physical memory addresses",
-        "Caching frequently accessed data for faster retrieval"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In synchronous digital circuit design, 'hold time' for a flip-flop refers to the minimum amount of time that:",
-      "options": [
-        "The clock signal must be stable after the data input changes",
-        "The data input must remain stable *after* the active clock edge to ensure reliable capture",
-        "The data input must be stable *before* the active clock edge to ensure reliable capture",
-        "The output signal requires to become stable after the clock edge",
-        "The power supply must remain stable before the clock pulse"
+        "To translate virtual addresses to physical addresses for faster memory access.",
+        "To ensure that all copies of a shared memory block across different caches are consistent, preventing stale data issues.",
+        "To optimize power consumption by selectively disabling inactive cache lines.",
+        "To predict future memory accesses and prefetch data into the cache, reducing latency.",
+        "To determine the optimal cache line size based on application workload characteristics."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary benefit of increasing the 'associativity' of a CPU cache (e.g., moving from a direct-mapped to a 2-way set-associative cache, or higher)?",
+      "question": "In digital IC design, what is the primary purpose of integrating scan chains into a synchronous design?",
       "options": [
-        "It significantly reduces the memory access latency for cache hits by optimizing the lookup speed.",
-        "It decreases the overall power consumption of the cache memory by simplifying tag comparisons.",
-        "It increases the hit rate by reducing the number of conflict misses, allowing more flexible block placement.",
-        "It simplifies the cache controller logic and reduces its complexity, leading to faster design cycles.",
-        "It allows for larger total cache sizes to be implemented without impacting performance."
+        "To reduce dynamic power consumption during normal operation by isolating inactive logic.",
+        "To improve the speed of the critical path by reducing combinational logic stages.",
+        "To allow for efficient testing of sequential elements (flip-flops) by converting them into shift registers during test mode.",
+        "To provide secure encryption for data stored within the chip's registers.",
+        "To implement clock gating for inactive modules, thereby saving static power."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of modern high-performance computing, what is the primary architectural paradigm that distinguishes a Graphics Processing Unit (GPU) from a traditional Central Processing Unit (CPU)?",
+      "question": "In modern out-of-order execution processors, what is the primary benefit of \"Register Renaming\"?",
       "options": [
-        "GPUs primarily use a deep, in-order pipeline optimized for single-thread performance.",
-        "GPUs are designed with a few powerful, complex cores optimized for sequential task execution.",
-        "GPUs emphasize massive parallelism with thousands of simpler, energy-efficient cores, ideal for highly parallelizable tasks.",
-        "GPUs operate exclusively with fixed-point arithmetic, lacking floating-point capabilities.",
-        "GPUs rely heavily on large, multi-level cache hierarchies to handle irregular memory access patterns."
+        "To reduce the total number of physical registers required in the processor.",
+        "To eliminate Write-After-Write (WAW) and Write-After-Read (WAR) data hazards, thereby exposing more Instruction Level Parallelism (ILP).",
+        "To enable efficient memory management by mapping virtual registers to physical memory locations.",
+        "To simplify the instruction fetch and decode stages of the pipeline, reducing their complexity.",
+        "To reduce the power consumption of the register file by minimizing read/write operations."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the physical design verification phase of an integrated circuit, what is the primary purpose of performing a \"Design Rule Check\" (DRC)?",
+      "options": [
+        "To verify that the physical layout accurately matches the original schematic netlist (connectivity check).",
+        "To analyze the timing performance of the design and ensure it meets frequency and latency requirements.",
+        "To ensure that the physical layout adheres to the manufacturing process's geometric constraints and limitations, preventing fabrication errors.",
+        "To detect potential power integrity issues caused by IR drop and electromigration.",
+        "To guarantee that all clock domains within the design are properly synchronized to prevent metastability."
       ],
       "correct": 2
     }

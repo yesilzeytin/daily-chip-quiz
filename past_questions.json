@@ -1,9 +1,4 @@
 [
-  "What is the primary advantage of CMOS (Complementary Metal-Oxide-Semiconductor) logic over older technologies like TTL (Transistor-Transistor Logic) in modern digital integrated circuits?",
-  "In the context of shared-memory multiprocessor systems, what property does the \"Sequential Consistency\" memory model primarily guarantee to the programmer?",
-  "In synchronous digital circuit design, \"setup time\" for a flip-flop refers to the minimum amount of time that:",
-  "What is the primary purpose of implementing a JTAG (Joint Test Action Group) boundary-scan architecture in a complex System-on-Chip (SoC)?",
-  "What is the fundamental reason for implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a modern CPU?",
   "Which of the following digital logic circuits requires a clock signal to synchronize its state changes?",
   "In the classical 5-stage RISC pipeline (IF, ID, EX, MEM, WB), which stage is typically responsible for executing arithmetic and logical operations, and also for calculating the memory address for load/store instructions?",
   "Which verification method attempts to mathematically prove the correctness of a design against its specification, without requiring extensive test vector generation?",
@@ -48,5 +43,10 @@
   "In a typical Central Processing Unit (CPU), what is the primary role of the Control Unit?",
   "In synchronous digital circuit design, 'hold time' for a flip-flop refers to the minimum amount of time that:",
   "What is the primary benefit of increasing the 'associativity' of a CPU cache (e.g., moving from a direct-mapped to a 2-way set-associative cache, or higher)?",
-  "In the context of modern high-performance computing, what is the primary architectural paradigm that distinguishes a Graphics Processing Unit (GPU) from a traditional Central Processing Unit (CPU)?"
+  "In the context of modern high-performance computing, what is the primary architectural paradigm that distinguishes a Graphics Processing Unit (GPU) from a traditional Central Processing Unit (CPU)?",
+  "What is the most common way to implement a clock divider circuit in digital logic?",
+  "In a multi-core processor system with private caches, what is the primary purpose of a cache coherence protocol like MESI?",
+  "In digital IC design, what is the primary purpose of integrating scan chains into a synchronous design?",
+  "In modern out-of-order execution processors, what is the primary benefit of \"Register Renaming\"?",
+  "In the physical design verification phase of an integrated circuit, what is the primary purpose of performing a \"Design Rule Check\" (DRC)?"
 ]
