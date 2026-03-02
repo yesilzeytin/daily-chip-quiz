@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the most common way to implement a clock divider circuit in digital logic?",
+      "question": "In synchronous digital circuit design, 'setup time' for a flip-flop refers to the minimum amount of time that:",
       "options": [
-        "By connecting multiple D-flip-flops in a cascade arrangement to form a counter or toggle chain.",
-        "Using only combinational logic gates like AND and OR gates.",
-        "Through a series of XOR gates to generate a variable frequency.",
-        "By dynamically changing the supply voltage of an oscillator.",
-        "Utilizing a dedicated analog phase-locked loop (PLL) for frequency reduction."
+        "The input data must be stable before the active clock edge.",
+        "The output data takes to become stable after the active clock edge.",
+        "The input data must be stable after the active clock edge.",
+        "The clock signal must remain high for proper operation.",
+        "The flip-flop takes to reset its state."
       ],
       "correct": 0
     },
     {
-      "question": "In a multi-core processor system with private caches, what is the primary purpose of a cache coherence protocol like MESI?",
+      "question": "In a modern out-of-order execution processor, which architectural component is primarily responsible for ensuring that instructions commit their results in original program order, even if they execute out-of-order?",
       "options": [
-        "To translate virtual addresses to physical addresses for faster memory access.",
-        "To ensure that all copies of a shared memory block across different caches are consistent, preventing stale data issues.",
-        "To optimize power consumption by selectively disabling inactive cache lines.",
-        "To predict future memory accesses and prefetch data into the cache, reducing latency.",
-        "To determine the optimal cache line size based on application workload characteristics."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In digital IC design, what is the primary purpose of integrating scan chains into a synchronous design?",
-      "options": [
-        "To reduce dynamic power consumption during normal operation by isolating inactive logic.",
-        "To improve the speed of the critical path by reducing combinational logic stages.",
-        "To allow for efficient testing of sequential elements (flip-flops) by converting them into shift registers during test mode.",
-        "To provide secure encryption for data stored within the chip's registers.",
-        "To implement clock gating for inactive modules, thereby saving static power."
+        "Instruction Cache",
+        "Translation Lookaside Buffer (TLB)",
+        "Reorder Buffer (ROB)",
+        "Branch Prediction Unit (BPU)",
+        "Reservation Station"
       ],
       "correct": 2
     },
     {
-      "question": "In modern out-of-order execution processors, what is the primary benefit of \"Register Renaming\"?",
+      "question": "To ensure robust timing performance across manufacturing variations, voltage fluctuations, and operating temperatures in a complex System-on-Chip (SoC), IC designers typically perform Static Timing Analysis (STA) at various combinations of:",
       "options": [
-        "To reduce the total number of physical registers required in the processor.",
-        "To eliminate Write-After-Write (WAW) and Write-After-Read (WAR) data hazards, thereby exposing more Instruction Level Parallelism (ILP).",
-        "To enable efficient memory management by mapping virtual registers to physical memory locations.",
-        "To simplify the instruction fetch and decode stages of the pipeline, reducing their complexity.",
-        "To reduce the power consumption of the register file by minimizing read/write operations."
+        "Instruction Set Architecture (ISA) revisions",
+        "Program Counter (PC) values",
+        "Cache associativity levels",
+        "Process, Voltage, and Temperature (PVT) corners",
+        "Bus arbitration protocols"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the primary function of an Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+      "options": [
+        "Storing program instructions for quick access.",
+        "Performing arithmetic operations (addition, subtraction) and logical operations (AND, OR, NOT).",
+        "Managing virtual-to-physical address translation.",
+        "Synchronizing data transfer between different clock domains.",
+        "Controlling the flow of execution based on branch predictions."
       ],
       "correct": 1
     },
     {
-      "question": "In the physical design verification phase of an integrated circuit, what is the primary purpose of performing a \"Design Rule Check\" (DRC)?",
+      "question": "Which power management technique allows a processor to dynamically adjust its operating voltage and clock frequency during runtime to balance performance requirements with power consumption targets?",
       "options": [
-        "To verify that the physical layout accurately matches the original schematic netlist (connectivity check).",
-        "To analyze the timing performance of the design and ensure it meets frequency and latency requirements.",
-        "To ensure that the physical layout adheres to the manufacturing process's geometric constraints and limitations, preventing fabrication errors.",
-        "To detect potential power integrity issues caused by IR drop and electromigration.",
-        "To guarantee that all clock domains within the design are properly synchronized to prevent metastability."
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Static Random-Access Memory (SRAM)",
+        "Memory-Mapped I/O (MMIO)",
+        "Cache Coherence Protocol (CCP)",
+        "Interrupt Service Routine (ISR)"
       ],
-      "correct": 2
+      "correct": 0
     }
   ]
 }
