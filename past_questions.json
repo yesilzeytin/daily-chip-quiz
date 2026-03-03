@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a flip-flop in digital circuits?",
-  "In the physical design flow of a digital integrated circuit, what is the primary objective of Static Timing Analysis (STA)?",
-  "Which advanced lithography technique primarily uses light with a wavelength of 13.5 nm, necessitating a vacuum environment and reflective optics, to enable the patterning of smaller features in semiconductor manufacturing?",
-  "In computer architecture, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
-  "What is the fundamental concept behind pipelining in processor design?",
   "What is the primary function of an inverter (NOT gate) in digital logic circuits?",
   "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'floorplanning' stage?",
   "Which component is primarily responsible for translating virtual memory addresses into physical memory addresses in a CPU, often working in conjunction with a Translation Lookaside Buffer (TLB)?",
@@ -48,5 +43,10 @@
   "In a modern out-of-order execution processor, which architectural component is primarily responsible for ensuring that instructions commit their results in original program order, even if they execute out-of-order?",
   "To ensure robust timing performance across manufacturing variations, voltage fluctuations, and operating temperatures in a complex System-on-Chip (SoC), IC designers typically perform Static Timing Analysis (STA) at various combinations of:",
   "What is the primary function of an Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
-  "Which power management technique allows a processor to dynamically adjust its operating voltage and clock frequency during runtime to balance performance requirements with power consumption targets?"
+  "Which power management technique allows a processor to dynamically adjust its operating voltage and clock frequency during runtime to balance performance requirements with power consumption targets?",
+  "Which type of power consumption in a CMOS digital circuit is primarily due to the charging and discharging of parasitic capacitances and short-circuit current during transistor switching?",
+  "In the context of a modern RISC-V processor, which instruction type is primarily used for loading data from memory into a register using an immediate offset?",
+  "In formal verification of digital ICs, which type of language is commonly used to express desired behavioral properties and safety/liveness conditions that the design must satisfy?",
+  "In advanced physical design, which routing technique is employed to create a controlled impedance path for high-speed signals by sandwiching a signal trace between two ground planes, minimizing crosstalk and ensuring signal integrity?",
+  "In a Non-Uniform Memory Access (NUMA) system with multiple processor nodes, what architectural challenge arises from ensuring data consistency when different nodes access shared memory, where the latency of access depends on the memory's location relative to the processor?"
 ]

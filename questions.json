@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In synchronous digital circuit design, 'setup time' for a flip-flop refers to the minimum amount of time that:",
+      "question": "Which type of power consumption in a CMOS digital circuit is primarily due to the charging and discharging of parasitic capacitances and short-circuit current during transistor switching?",
       "options": [
-        "The input data must be stable before the active clock edge.",
-        "The output data takes to become stable after the active clock edge.",
-        "The input data must be stable after the active clock edge.",
-        "The clock signal must remain high for proper operation.",
-        "The flip-flop takes to reset its state."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a modern out-of-order execution processor, which architectural component is primarily responsible for ensuring that instructions commit their results in original program order, even if they execute out-of-order?",
-      "options": [
-        "Instruction Cache",
-        "Translation Lookaside Buffer (TLB)",
-        "Reorder Buffer (ROB)",
-        "Branch Prediction Unit (BPU)",
-        "Reservation Station"
+        "Static power",
+        "Leakage power",
+        "Dynamic power",
+        "Thermal power",
+        "Standby power"
       ],
       "correct": 2
     },
     {
-      "question": "To ensure robust timing performance across manufacturing variations, voltage fluctuations, and operating temperatures in a complex System-on-Chip (SoC), IC designers typically perform Static Timing Analysis (STA) at various combinations of:",
+      "question": "In the context of a modern RISC-V processor, which instruction type is primarily used for loading data from memory into a register using an immediate offset?",
       "options": [
-        "Instruction Set Architecture (ISA) revisions",
-        "Program Counter (PC) values",
-        "Cache associativity levels",
-        "Process, Voltage, and Temperature (PVT) corners",
-        "Bus arbitration protocols"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is the primary function of an Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
-      "options": [
-        "Storing program instructions for quick access.",
-        "Performing arithmetic operations (addition, subtraction) and logical operations (AND, OR, NOT).",
-        "Managing virtual-to-physical address translation.",
-        "Synchronizing data transfer between different clock domains.",
-        "Controlling the flow of execution based on branch predictions."
+        "R-type",
+        "I-type",
+        "S-type",
+        "B-type",
+        "U-type"
       ],
       "correct": 1
     },
     {
-      "question": "Which power management technique allows a processor to dynamically adjust its operating voltage and clock frequency during runtime to balance performance requirements with power consumption targets?",
+      "question": "In formal verification of digital ICs, which type of language is commonly used to express desired behavioral properties and safety/liveness conditions that the design must satisfy?",
       "options": [
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Static Random-Access Memory (SRAM)",
-        "Memory-Mapped I/O (MMIO)",
-        "Cache Coherence Protocol (CCP)",
-        "Interrupt Service Routine (ISR)"
+        "SystemVerilog",
+        "VHDL",
+        "C++",
+        "SVA (SystemVerilog Assertions)",
+        "Python"
       ],
-      "correct": 0
+      "correct": 3
+    },
+    {
+      "question": "In advanced physical design, which routing technique is employed to create a controlled impedance path for high-speed signals by sandwiching a signal trace between two ground planes, minimizing crosstalk and ensuring signal integrity?",
+      "options": [
+        "Power routing",
+        "Standard routing",
+        "Clock routing",
+        "Stripline routing",
+        "Via farm routing"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In a Non-Uniform Memory Access (NUMA) system with multiple processor nodes, what architectural challenge arises from ensuring data consistency when different nodes access shared memory, where the latency of access depends on the memory's location relative to the processor?",
+      "options": [
+        "Instruction decoding latency",
+        "Cache hit ratio optimization",
+        "Inter-node cache coherence",
+        "Branch prediction accuracy",
+        "Register file contention"
+      ],
+      "correct": 2
     }
   ]
 }
