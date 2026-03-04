@@ -1,9 +1,4 @@
 [
-  "What is the primary function of an inverter (NOT gate) in digital logic circuits?",
-  "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'floorplanning' stage?",
-  "Which component is primarily responsible for translating virtual memory addresses into physical memory addresses in a CPU, often working in conjunction with a Translation Lookaside Buffer (TLB)?",
-  "In the context of verifying modern System-on-Chip (SoC) designs, what is the main advantage of using 'Emulation' over traditional Register-Transfer Level (RTL) simulation?",
-  "In a superscalar processor implementing out-of-order execution, what is the primary role of a 'Reservation Station'?",
   "What is the primary purpose of a \"data path\" in a processor's microarchitecture?",
   "In the context of chip verification, what is a \"coverage metric\" primarily used for?",
   "What is the primary advantage of a Harvard architecture over a Von Neumann architecture in terms of instruction and data access?",
@@ -48,5 +43,10 @@
   "In the context of a modern RISC-V processor, which instruction type is primarily used for loading data from memory into a register using an immediate offset?",
   "In formal verification of digital ICs, which type of language is commonly used to express desired behavioral properties and safety/liveness conditions that the design must satisfy?",
   "In advanced physical design, which routing technique is employed to create a controlled impedance path for high-speed signals by sandwiching a signal trace between two ground planes, minimizing crosstalk and ensuring signal integrity?",
-  "In a Non-Uniform Memory Access (NUMA) system with multiple processor nodes, what architectural challenge arises from ensuring data consistency when different nodes access shared memory, where the latency of access depends on the memory's location relative to the processor?"
+  "In a Non-Uniform Memory Access (NUMA) system with multiple processor nodes, what architectural challenge arises from ensuring data consistency when different nodes access shared memory, where the latency of access depends on the memory's location relative to the processor?",
+  "What is the primary advantage of Static Random-Access Memory (SRAM) over Dynamic Random-Access Memory (DRAM) in terms of data retention requirements?",
+  "In modern digital IC design, what is the primary benefit of employing a \"gate-level netlist\" for simulation during the post-synthesis or post-layout stages, compared to an RTL (Register-Transfer Level) netlist?",
+  "In the microarchitecture of a CPU, what is the primary function of the \"Instruction Cache\"?",
+  "In advanced synchronous digital design, what is the primary challenge addressed by \"Asynchronous FIFO (First-In, First-Out)\" circuits?",
+  "In the context of custom analog or mixed-signal IC design, what is the primary purpose of a \"Process Corner\" analysis during simulation?"
 ]

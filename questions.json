@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which type of power consumption in a CMOS digital circuit is primarily due to the charging and discharging of parasitic capacitances and short-circuit current during transistor switching?",
+      "question": "What is the primary advantage of Static Random-Access Memory (SRAM) over Dynamic Random-Access Memory (DRAM) in terms of data retention requirements?",
       "options": [
-        "Static power",
-        "Leakage power",
-        "Dynamic power",
-        "Thermal power",
-        "Standby power"
+        "SRAM offers significantly higher storage density per unit area.",
+        "SRAM is cheaper to manufacture for equivalent storage capacity.",
+        "SRAM does not require periodic refreshing to retain data.",
+        "SRAM consumes less power during active operation.",
+        "SRAM is non-volatile, retaining data without power."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of a modern RISC-V processor, which instruction type is primarily used for loading data from memory into a register using an immediate offset?",
+      "question": "In modern digital IC design, what is the primary benefit of employing a \"gate-level netlist\" for simulation during the post-synthesis or post-layout stages, compared to an RTL (Register-Transfer Level) netlist?",
       "options": [
-        "R-type",
-        "I-type",
-        "S-type",
-        "B-type",
-        "U-type"
+        "It allows for faster simulation speeds due to higher abstraction.",
+        "It captures detailed timing information, including gate delays and interconnect delays.",
+        "It is primarily used for functional verification before synthesis.",
+        "It requires less computational power for logic simulation.",
+        "It allows for early power estimation before any physical implementation."
       ],
       "correct": 1
     },
     {
-      "question": "In formal verification of digital ICs, which type of language is commonly used to express desired behavioral properties and safety/liveness conditions that the design must satisfy?",
+      "question": "In the microarchitecture of a CPU, what is the primary function of the \"Instruction Cache\"?",
       "options": [
-        "SystemVerilog",
-        "VHDL",
-        "C++",
-        "SVA (SystemVerilog Assertions)",
-        "Python"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In advanced physical design, which routing technique is employed to create a controlled impedance path for high-speed signals by sandwiching a signal trace between two ground planes, minimizing crosstalk and ensuring signal integrity?",
-      "options": [
-        "Power routing",
-        "Standard routing",
-        "Clock routing",
-        "Stripline routing",
-        "Via farm routing"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a Non-Uniform Memory Access (NUMA) system with multiple processor nodes, what architectural challenge arises from ensuring data consistency when different nodes access shared memory, where the latency of access depends on the memory's location relative to the processor?",
-      "options": [
-        "Instruction decoding latency",
-        "Cache hit ratio optimization",
-        "Inter-node cache coherence",
-        "Branch prediction accuracy",
-        "Register file contention"
+        "To store frequently accessed data values for quick retrieval.",
+        "To hold the physical memory addresses of instructions.",
+        "To temporarily store instructions fetched from main memory, reducing access latency.",
+        "To execute arithmetic and logical operations on instructions.",
+        "To buffer results of completed instructions before writing back to main memory."
       ],
       "correct": 2
+    },
+    {
+      "question": "In advanced synchronous digital design, what is the primary challenge addressed by \"Asynchronous FIFO (First-In, First-Out)\" circuits?",
+      "options": [
+        "Minimizing power consumption in idle states.",
+        "Providing a high-bandwidth, low-latency path for data transfer within a single clock domain.",
+        "Ensuring proper data transfer and synchronization between two different clock domains.",
+        "Recovering from soft errors caused by cosmic rays.",
+        "Reducing the overall gate count of the design."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of custom analog or mixed-signal IC design, what is the primary purpose of a \"Process Corner\" analysis during simulation?",
+      "options": [
+        "To verify the logical equivalence between RTL and gate-level netlists.",
+        "To ensure the design functions correctly under worst-case manufacturing variations, temperature, and voltage.",
+        "To determine the optimal placement of standard cells for minimal area.",
+        "To estimate the total power consumption of the entire chip.",
+        "To generate test patterns for manufacturing defect detection."
+      ],
+      "correct": 1
     }
   ]
 }
