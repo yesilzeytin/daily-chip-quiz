@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a \"data path\" in a processor's microarchitecture?",
-  "In the context of chip verification, what is a \"coverage metric\" primarily used for?",
-  "What is the primary advantage of a Harvard architecture over a Von Neumann architecture in terms of instruction and data access?",
-  "In advanced CMOS technology, what is the primary purpose of 'dummy fills' or 'filler cells' during the physical design backend flow?",
-  "In modern memory systems, what is the primary benefit of using Error-Correcting Code (ECC) memory?",
   "What is the primary characteristic of a NAND gate's output relative to its inputs?",
   "In a pipelined processor, what is the primary architectural technique used to minimize the performance penalty caused by control hazards (e.g., conditional branches)?",
   "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'Clock Tree Synthesis' (CTS) stage?",
@@ -48,5 +43,10 @@
   "In modern digital IC design, what is the primary benefit of employing a \"gate-level netlist\" for simulation during the post-synthesis or post-layout stages, compared to an RTL (Register-Transfer Level) netlist?",
   "In the microarchitecture of a CPU, what is the primary function of the \"Instruction Cache\"?",
   "In advanced synchronous digital design, what is the primary challenge addressed by \"Asynchronous FIFO (First-In, First-Out)\" circuits?",
-  "In the context of custom analog or mixed-signal IC design, what is the primary purpose of a \"Process Corner\" analysis during simulation?"
+  "In the context of custom analog or mixed-signal IC design, what is the primary purpose of a \"Process Corner\" analysis during simulation?",
+  "In synchronous digital circuits, what is the primary role of a clock signal?",
+  "In a virtual memory system, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+  "In the digital IC design flow, what is the primary purpose of Static Timing Analysis (STA)?",
+  "In a modern high-performance CPU, which concept allows the processor to execute instructions beyond a conditional branch before the branch outcome is definitively known, with a mechanism to undo incorrect predictions?",
+  "In modern advanced technology nodes (e.g., 16nm and below), which transistor architecture was introduced to significantly improve gate control over the channel, reduce leakage currents, and enable better scaling by extending the gate around multiple sides of a fin-shaped silicon channel?"
 ]
