@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic of a NAND gate's output relative to its inputs?",
-  "In a pipelined processor, what is the primary architectural technique used to minimize the performance penalty caused by control hazards (e.g., conditional branches)?",
-  "In the physical design flow of a digital integrated circuit, what is the primary objective of the 'Clock Tree Synthesis' (CTS) stage?",
-  "In the context of CPU caches, what is the primary characteristic of a 'Write-Back' cache policy compared to a 'Write-Through' policy?",
-  "Which of the following fault models is primarily used in automated test pattern generation (ATPG) for combinational and sequential logic to detect permanent manufacturing defects in digital integrated circuits?",
   "What does the acronym ASIC stand for in the context of chip design?",
   "In a pipelined processor, what type of hazard occurs when an instruction attempts to use data that has not yet been computed by a preceding instruction in the pipeline?",
   "What is the primary technique used in digital IC design to reduce dynamic power consumption by disabling the clock signal to inactive portions of the circuit, preventing unnecessary switching activity?",
@@ -48,5 +43,10 @@
   "In a virtual memory system, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
   "In the digital IC design flow, what is the primary purpose of Static Timing Analysis (STA)?",
   "In a modern high-performance CPU, which concept allows the processor to execute instructions beyond a conditional branch before the branch outcome is definitively known, with a mechanism to undo incorrect predictions?",
-  "In modern advanced technology nodes (e.g., 16nm and below), which transistor architecture was introduced to significantly improve gate control over the channel, reduce leakage currents, and enable better scaling by extending the gate around multiple sides of a fin-shaped silicon channel?"
+  "In modern advanced technology nodes (e.g., 16nm and below), which transistor architecture was introduced to significantly improve gate control over the channel, reduce leakage currents, and enable better scaling by extending the gate around multiple sides of a fin-shaped silicon channel?",
+  "What is the most common semiconductor material used as the primary substrate for fabricating integrated circuits (ICs)?",
+  "In the context of digital IC design, what is the primary role of 'timing constraints' (e.g., set_input_delay, set_output_delay, create_clock) during the synthesis and place-and-route stages?",
+  "In a pipelined processor, what is the primary benefit of a 'forwarding' (also known as 'bypassing') unit?",
+  "In advanced digital IC physical design and verification, what is the primary objective of a 'Power Integrity (PI)' analysis?",
+  "In a multi-processor system with private caches, which fundamental challenge does the concept of 'cache coherence' specifically aim to resolve?"
 ]
