@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the most common semiconductor material used as the primary substrate for fabricating integrated circuits (ICs)?",
+      "question": "In a typical CPU architecture, what is the primary function of the Register File?",
       "options": [
-        "Germanium",
-        "Copper",
-        "Silicon",
-        "Aluminum",
-        "Gold"
+        "To store temporary data and operands for immediate use by the Arithmetic Logic Unit (ALU).",
+        "To hold the address of the next instruction to be fetched from memory.",
+        "To manage the flow of data between the CPU and the main memory (RAM).",
+        "To perform complex arithmetic operations and logical comparisons.",
+        "To decode instructions into sequences of micro-operations."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary advantage of a Field-Programmable Gate Array (FPGA) over an Application-Specific Integrated Circuit (ASIC) in the early stages of product development and prototyping?",
+      "options": [
+        "Lower unit cost for high-volume production.",
+        "Significantly higher clock speeds and lower power consumption for a given function.",
+        "Greater flexibility for design changes, bug fixes, and rapid iterative development.",
+        "Smaller physical footprint and higher transistor density.",
+        "Guaranteed optimal performance and power efficiency for a specific, unchanging application."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of digital IC design, what is the primary role of 'timing constraints' (e.g., set_input_delay, set_output_delay, create_clock) during the synthesis and place-and-route stages?",
+      "question": "What is a defining characteristic of the Von Neumann architecture, which is widely used in modern computers?",
       "options": [
-        "To define the physical dimensions and locations of standard cells on the chip.",
-        "To specify the logic functionality and truth tables of combinational gates.",
-        "To guide the synthesis and physical design tools in meeting the required operational frequency and signal propagation delays.",
-        "To verify the electrical connectivity between different components of the circuit.",
-        "To automatically generate test patterns for manufacturing defect detection."
+        "It employs separate instruction and data caches to improve memory access efficiency.",
+        "It uses a specialized control unit to manage out-of-order instruction execution.",
+        "It features a single address space for both instructions and data, stored in the same memory.",
+        "It allows for strictly sequential execution of instructions, without any form of pipelining.",
+        "It requires multiple dedicated processing units to handle different types of data."
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what is the primary benefit of a 'forwarding' (also known as 'bypassing') unit?",
+      "question": "In modern deep sub-micron integrated circuits (e.g., 28nm and below), which of the following factors has become a dominant contributor to overall circuit delay, often surpassing gate delay, particularly for long signal paths?",
       "options": [
-        "To predict the outcome of conditional branches, reducing control hazards.",
-        "To allow multiple instructions to execute simultaneously in different functional units.",
-        "To store frequently accessed data close to the CPU, reducing memory access latency.",
-        "To supply the result of an instruction directly to a subsequent instruction that needs it, before the result is written back to the register file, thereby reducing data hazards.",
-        "To reorder instructions dynamically for out-of-order execution, improving instruction-level parallelism."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In advanced digital IC physical design and verification, what is the primary objective of a 'Power Integrity (PI)' analysis?",
-      "options": [
-        "To ensure that all clock signals are distributed with minimal skew across the chip.",
-        "To verify that the physical layout adheres to manufacturing design rules (e.g., minimum width, spacing).",
-        "To analyze and mitigate voltage drops (IR drop) and ground bounce in the power delivery network, ensuring stable operation.",
-        "To confirm that the transistor-level netlist matches the RTL description.",
-        "To identify and fix signal integrity issues like crosstalk and reflection on high-speed traces."
+        "Variations in the gate oxide thickness of transistors.",
+        "The intrinsic switching speed of individual transistors.",
+        "The parasitic capacitance and resistance of interconnect wires (routing metal).",
+        "Threshold voltage variability across different transistors on the same chip.",
+        "Fluctuations in the nominal supply voltage."
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-processor system with private caches, which fundamental challenge does the concept of 'cache coherence' specifically aim to resolve?",
+      "question": "Amdahl's Law is a principle used to predict the theoretical maximum speedup of a program when utilizing parallel computing resources. What key factor does Amdahl's Law highlight as the primary limitation to achieving ideal linear speedup from parallelization, regardless of the number of processors?",
       "options": [
-        "How to efficiently manage virtual memory pages between different processes.",
-        "How to ensure that all processors see a consistent view of shared memory, even when data is duplicated in multiple caches.",
-        "How to minimize the power consumption of individual cache memories.",
-        "How to allocate different portions of the main memory to each processor.",
-        "How to optimize the replacement policy for cache lines when a cache miss occurs."
+        "The latency associated with inter-processor communication and synchronization.",
+        "The increased power consumption of a highly parallelized system.",
+        "The portion of the program that must be executed sequentially and cannot be parallelized.",
+        "The memory bandwidth limitations that can starve parallel processing units.",
+        "The manufacturing cost of increasing the number of processing cores."
       ],
-      "correct": 1
+      "correct": 2
     }
   ]
 }

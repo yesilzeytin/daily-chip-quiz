@@ -1,9 +1,4 @@
 [
-  "What does the acronym ASIC stand for in the context of chip design?",
-  "In a pipelined processor, what type of hazard occurs when an instruction attempts to use data that has not yet been computed by a preceding instruction in the pipeline?",
-  "What is the primary technique used in digital IC design to reduce dynamic power consumption by disabling the clock signal to inactive portions of the circuit, preventing unnecessary switching activity?",
-  "In the digital IC design flow, what is the primary purpose of Formal Equivalence Checking (FEC)?",
-  "In a CPU, which component is primarily responsible for holding the address of the next instruction to be fetched from memory?",
   "What is the defining characteristic of a sequential logic circuit compared to a combinational logic circuit?",
   "In a CPU cache, which replacement policy aims to discard the cache line that has not been accessed for the longest period of time?",
   "During the physical design verification phase of an integrated circuit, what is the primary purpose of performing a \"Layout Versus Schematic\" (LVS) check?",
@@ -48,5 +43,10 @@
   "In the context of digital IC design, what is the primary role of 'timing constraints' (e.g., set_input_delay, set_output_delay, create_clock) during the synthesis and place-and-route stages?",
   "In a pipelined processor, what is the primary benefit of a 'forwarding' (also known as 'bypassing') unit?",
   "In advanced digital IC physical design and verification, what is the primary objective of a 'Power Integrity (PI)' analysis?",
-  "In a multi-processor system with private caches, which fundamental challenge does the concept of 'cache coherence' specifically aim to resolve?"
+  "In a multi-processor system with private caches, which fundamental challenge does the concept of 'cache coherence' specifically aim to resolve?",
+  "In a typical CPU architecture, what is the primary function of the Register File?",
+  "What is the primary advantage of a Field-Programmable Gate Array (FPGA) over an Application-Specific Integrated Circuit (ASIC) in the early stages of product development and prototyping?",
+  "What is a defining characteristic of the Von Neumann architecture, which is widely used in modern computers?",
+  "In modern deep sub-micron integrated circuits (e.g., 28nm and below), which of the following factors has become a dominant contributor to overall circuit delay, often surpassing gate delay, particularly for long signal paths?",
+  "Amdahl's Law is a principle used to predict the theoretical maximum speedup of a program when utilizing parallel computing resources. What key factor does Amdahl's Law highlight as the primary limitation to achieving ideal linear speedup from parallelization, regardless of the number of processors?"
 ]
