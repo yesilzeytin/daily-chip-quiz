@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In a typical CPU architecture, what is the primary function of the Register File?",
+      "question": "In digital logic, what is the primary function of a half-adder circuit?",
       "options": [
-        "To store temporary data and operands for immediate use by the Arithmetic Logic Unit (ALU).",
-        "To hold the address of the next instruction to be fetched from memory.",
-        "To manage the flow of data between the CPU and the main memory (RAM).",
-        "To perform complex arithmetic operations and logical comparisons.",
-        "To decode instructions into sequences of micro-operations."
+        "To store a single bit of data.",
+        "To perform addition of two single binary digits and output a sum and a carry.",
+        "To select one of multiple input signals.",
+        "To divide a clock signal's frequency.",
+        "To convert an analog signal to a digital signal."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "What is the primary advantage of a Field-Programmable Gate Array (FPGA) over an Application-Specific Integrated Circuit (ASIC) in the early stages of product development and prototyping?",
+      "question": "In the context of CPU caches, what is the primary characteristic of a \"write-back\" cache policy?",
       "options": [
-        "Lower unit cost for high-volume production.",
-        "Significantly higher clock speeds and lower power consumption for a given function.",
-        "Greater flexibility for design changes, bug fixes, and rapid iterative development.",
-        "Smaller physical footprint and higher transistor density.",
-        "Guaranteed optimal performance and power efficiency for a specific, unchanging application."
+        "All write operations are immediately propagated to main memory.",
+        "Data is written to the cache, and updates to main memory are deferred until the cache block is evicted.",
+        "Writes always bypass the cache and go directly to main memory.",
+        "Only read operations are allowed, writes are prohibited.",
+        "It uses a separate cache for write operations only."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "What is a defining characteristic of the Von Neumann architecture, which is widely used in modern computers?",
+      "question": "In the context of digital IC design, what is the primary purpose of \"standard cell characterization\"?",
       "options": [
-        "It employs separate instruction and data caches to improve memory access efficiency.",
-        "It uses a specialized control unit to manage out-of-order instruction execution.",
-        "It features a single address space for both instructions and data, stored in the same memory.",
-        "It allows for strictly sequential execution of instructions, without any form of pipelining.",
-        "It requires multiple dedicated processing units to handle different types of data."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In modern deep sub-micron integrated circuits (e.g., 28nm and below), which of the following factors has become a dominant contributor to overall circuit delay, often surpassing gate delay, particularly for long signal paths?",
-      "options": [
-        "Variations in the gate oxide thickness of transistors.",
-        "The intrinsic switching speed of individual transistors.",
-        "The parasitic capacitance and resistance of interconnect wires (routing metal).",
-        "Threshold voltage variability across different transistors on the same chip.",
-        "Fluctuations in the nominal supply voltage."
+        "To verify the logical correctness of the RTL code against the design specification.",
+        "To generate a physical layout (mask data) from the synthesized netlist.",
+        "To extract timing, power, and area information for each logic gate (cell) under various PVT corners, creating Liberty (.lib) files.",
+        "To perform formal verification that ensures the design adheres to specific safety properties.",
+        "To optimize the clock tree network for minimum skew and jitter."
       ],
       "correct": 2
     },
     {
-      "question": "Amdahl's Law is a principle used to predict the theoretical maximum speedup of a program when utilizing parallel computing resources. What key factor does Amdahl's Law highlight as the primary limitation to achieving ideal linear speedup from parallelization, regardless of the number of processors?",
+      "question": "In a pipelined processor, what is the primary function of a Branch Target Buffer (BTB)?",
       "options": [
-        "The latency associated with inter-processor communication and synchronization.",
-        "The increased power consumption of a highly parallelized system.",
-        "The portion of the program that must be executed sequentially and cannot be parallelized.",
-        "The memory bandwidth limitations that can starve parallel processing units.",
-        "The manufacturing cost of increasing the number of processing cores."
+        "To store the results of arithmetic operations before writing them to the register file.",
+        "To buffer instructions that are fetched out of order, waiting for their operands.",
+        "To store the predicted target address of a branch instruction, improving fetch efficiency on predicted taken branches.",
+        "To resolve data dependencies between consecutive instructions.",
+        "To manage the allocation and deallocation of physical registers during register renaming."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What does the \"Fetch\" stage of the CPU's instruction cycle primarily involve?",
+      "options": [
+        "Performing arithmetic and logical operations on data.",
+        "Identifying the type of instruction and its operands.",
+        "Retrieving the next instruction from memory, pointed to by the Program Counter.",
+        "Writing the result of an operation back to a register or memory.",
+        "Determining if a branch instruction should be taken."
       ],
       "correct": 2
     }
