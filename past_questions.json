@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
-  "In a virtual memory system, what is the primary role of a 'page table'?",
-  "In digital IC design, what is a 'Clock Domain Crossing (CDC)' primarily concerned with?",
-  "Which instruction set architecture (ISA) philosophy relies on the compiler to explicitly package multiple independent operations into a single, wide instruction word for parallel execution by multiple functional units, rather than relying on hardware-based dynamic scheduling?",
-  "In the reliability analysis of integrated circuits, what phenomenon describes the gradual transport of material in metal interconnect lines due to the momentum transfer from conducting electrons, potentially leading to opens or shorts over time?",
   "Which of the following logic gates is considered a 'universal gate,' meaning any Boolean function can be implemented using only this type of gate?",
   "In a typical Central Processing Unit (CPU), what is the primary role of the Control Unit?",
   "In synchronous digital circuit design, 'hold time' for a flip-flop refers to the minimum amount of time that:",
@@ -48,5 +43,10 @@
   "In the context of CPU caches, what is the primary characteristic of a \"write-back\" cache policy?",
   "In the context of digital IC design, what is the primary purpose of \"standard cell characterization\"?",
   "In a pipelined processor, what is the primary function of a Branch Target Buffer (BTB)?",
-  "What does the \"Fetch\" stage of the CPU's instruction cycle primarily involve?"
+  "What does the \"Fetch\" stage of the CPU's instruction cycle primarily involve?",
+  "What is the primary characteristic of the Register Transfer Level (RTL) in the digital IC design flow?",
+  "Which technique is commonly employed in digital IC design to reduce dynamic power consumption by selectively deactivating clock signals to idle functional blocks or registers?",
+  "In an out-of-order execution processor, what is the primary purpose of the Reorder Buffer (ROB)?",
+  "In advanced physical design for deep sub-micron nodes, which phenomenon describes the variation in transistor threshold voltage and drive current across a chip due to random fluctuations in dopant atom count or geometric variations during manufacturing, impacting circuit performance and yield?",
+  "In a system employing a relaxed memory consistency model (e.g., Release Consistency), what architectural mechanism is typically used to enforce ordering between specific memory operations (e.g., a write followed by a read) when required by the programmer or compiler, without globally enforcing sequential consistency for all operations?"
 ]

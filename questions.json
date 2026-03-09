@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital logic, what is the primary function of a half-adder circuit?",
+      "question": "What is the primary characteristic of the Register Transfer Level (RTL) in the digital IC design flow?",
       "options": [
-        "To store a single bit of data.",
-        "To perform addition of two single binary digits and output a sum and a carry.",
-        "To select one of multiple input signals.",
-        "To divide a clock signal's frequency.",
-        "To convert an analog signal to a digital signal."
+        "It describes the circuit's behavior in terms of data flow and register operations, independent of specific gate implementations.",
+        "It represents the detailed physical layout of transistors and interconnects on the silicon die.",
+        "It focuses on the precise timing delays of individual gates and flip-flops for static timing analysis.",
+        "It specifies the voltage and current characteristics for analog circuit blocks.",
+        "It is a compiled executable code used for hardware acceleration during runtime."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In the context of CPU caches, what is the primary characteristic of a \"write-back\" cache policy?",
+      "question": "Which technique is commonly employed in digital IC design to reduce dynamic power consumption by selectively deactivating clock signals to idle functional blocks or registers?",
       "options": [
-        "All write operations are immediately propagated to main memory.",
-        "Data is written to the cache, and updates to main memory are deferred until the cache block is evicted.",
-        "Writes always bypass the cache and go directly to main memory.",
-        "Only read operations are allowed, writes are prohibited.",
-        "It uses a separate cache for write operations only."
+        "Voltage Scaling",
+        "Frequency Scaling",
+        "Operand Forwarding",
+        "Clock Gating",
+        "Dynamic Instruction Scheduling"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In the context of digital IC design, what is the primary purpose of \"standard cell characterization\"?",
+      "question": "In an out-of-order execution processor, what is the primary purpose of the Reorder Buffer (ROB)?",
       "options": [
-        "To verify the logical correctness of the RTL code against the design specification.",
-        "To generate a physical layout (mask data) from the synthesized netlist.",
-        "To extract timing, power, and area information for each logic gate (cell) under various PVT corners, creating Liberty (.lib) files.",
-        "To perform formal verification that ensures the design adheres to specific safety properties.",
-        "To optimize the clock tree network for minimum skew and jitter."
+        "To store recently fetched instructions before they are decoded.",
+        "To manage the mapping of architectural registers to physical registers during renaming.",
+        "To maintain the program order of instructions and ensure correct, in-order retirement of results.",
+        "To predict the outcome of conditional branches.",
+        "To provide a temporary storage area for data before it is written back to the data cache."
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what is the primary function of a Branch Target Buffer (BTB)?",
+      "question": "In advanced physical design for deep sub-micron nodes, which phenomenon describes the variation in transistor threshold voltage and drive current across a chip due to random fluctuations in dopant atom count or geometric variations during manufacturing, impacting circuit performance and yield?",
       "options": [
-        "To store the results of arithmetic operations before writing them to the register file.",
-        "To buffer instructions that are fetched out of order, waiting for their operands.",
-        "To store the predicted target address of a branch instruction, improving fetch efficiency on predicted taken branches.",
-        "To resolve data dependencies between consecutive instructions.",
-        "To manage the allocation and deallocation of physical registers during register renaming."
+        "Electromigration",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Random Dopant Fluctuation (RDF)",
+        "Hot Carrier Injection (HCI)",
+        "Latch-up"
       ],
       "correct": 2
     },
     {
-      "question": "What does the \"Fetch\" stage of the CPU's instruction cycle primarily involve?",
+      "question": "In a system employing a relaxed memory consistency model (e.g., Release Consistency), what architectural mechanism is typically used to enforce ordering between specific memory operations (e.g., a write followed by a read) when required by the programmer or compiler, without globally enforcing sequential consistency for all operations?",
       "options": [
-        "Performing arithmetic and logical operations on data.",
-        "Identifying the type of instruction and its operands.",
-        "Retrieving the next instruction from memory, pointed to by the Program Counter.",
-        "Writing the result of an operation back to a register or memory.",
-        "Determining if a branch instruction should be taken."
+        "Atomic Swap Instructions",
+        "Cache Coherence Protocols (e.g., MESI)",
+        "Translation Lookaside Buffer (TLB)",
+        "Memory Barriers (or Fences)",
+        "Hardware Transactional Memory (HTM)"
       ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }
