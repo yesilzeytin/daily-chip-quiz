@@ -1,9 +1,4 @@
 [
-  "Which of the following logic gates is considered a 'universal gate,' meaning any Boolean function can be implemented using only this type of gate?",
-  "In a typical Central Processing Unit (CPU), what is the primary role of the Control Unit?",
-  "In synchronous digital circuit design, 'hold time' for a flip-flop refers to the minimum amount of time that:",
-  "What is the primary benefit of increasing the 'associativity' of a CPU cache (e.g., moving from a direct-mapped to a 2-way set-associative cache, or higher)?",
-  "In the context of modern high-performance computing, what is the primary architectural paradigm that distinguishes a Graphics Processing Unit (GPU) from a traditional Central Processing Unit (CPU)?",
   "What is the most common way to implement a clock divider circuit in digital logic?",
   "In a multi-core processor system with private caches, what is the primary purpose of a cache coherence protocol like MESI?",
   "In digital IC design, what is the primary purpose of integrating scan chains into a synchronous design?",
@@ -48,5 +43,10 @@
   "Which technique is commonly employed in digital IC design to reduce dynamic power consumption by selectively deactivating clock signals to idle functional blocks or registers?",
   "In an out-of-order execution processor, what is the primary purpose of the Reorder Buffer (ROB)?",
   "In advanced physical design for deep sub-micron nodes, which phenomenon describes the variation in transistor threshold voltage and drive current across a chip due to random fluctuations in dopant atom count or geometric variations during manufacturing, impacting circuit performance and yield?",
-  "In a system employing a relaxed memory consistency model (e.g., Release Consistency), what architectural mechanism is typically used to enforce ordering between specific memory operations (e.g., a write followed by a read) when required by the programmer or compiler, without globally enforcing sequential consistency for all operations?"
+  "In a system employing a relaxed memory consistency model (e.g., Release Consistency), what architectural mechanism is typically used to enforce ordering between specific memory operations (e.g., a write followed by a read) when required by the programmer or compiler, without globally enforcing sequential consistency for all operations?",
+  "In digital logic design, what is the primary function of a multiplexer (MUX)?",
+  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of \"floorplanning\"?",
+  "When implementing clock gating as a power reduction technique in digital ICs, what is the most critical design consideration to prevent functional errors?",
+  "In the modern digital IC design flow, what is the primary role of Hardware Description Languages (HDLs) like Verilog or VHDL?",
+  "In computer architecture, particularly concerning memory hierarchies and caching, what does the principle of \"temporal locality\" primarily describe?"
 ]

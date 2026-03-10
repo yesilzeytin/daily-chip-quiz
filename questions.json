@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic of the Register Transfer Level (RTL) in the digital IC design flow?",
+      "question": "In digital logic design, what is the primary function of a multiplexer (MUX)?",
       "options": [
-        "It describes the circuit's behavior in terms of data flow and register operations, independent of specific gate implementations.",
-        "It represents the detailed physical layout of transistors and interconnects on the silicon die.",
-        "It focuses on the precise timing delays of individual gates and flip-flops for static timing analysis.",
-        "It specifies the voltage and current characteristics for analog circuit blocks.",
-        "It is a compiled executable code used for hardware acceleration during runtime."
+        "To combine multiple inputs into a single output based on a select signal.",
+        "To split a single input into multiple outputs.",
+        "To perform arithmetic operations on two inputs.",
+        "To store a single bit of data.",
+        "To generate clock signals for synchronous circuits."
       ],
       "correct": 0
     },
     {
-      "question": "Which technique is commonly employed in digital IC design to reduce dynamic power consumption by selectively deactivating clock signals to idle functional blocks or registers?",
+      "question": "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of \"floorplanning\"?",
       "options": [
-        "Voltage Scaling",
-        "Frequency Scaling",
-        "Operand Forwarding",
-        "Clock Gating",
-        "Dynamic Instruction Scheduling"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In an out-of-order execution processor, what is the primary purpose of the Reorder Buffer (ROB)?",
-      "options": [
-        "To store recently fetched instructions before they are decoded.",
-        "To manage the mapping of architectural registers to physical registers during renaming.",
-        "To maintain the program order of instructions and ensure correct, in-order retirement of results.",
-        "To predict the outcome of conditional branches.",
-        "To provide a temporary storage area for data before it is written back to the data cache."
+        "To perform static timing analysis on the synthesized netlist.",
+        "To convert the Register-Transfer Level (RTL) code into a gate-level netlist.",
+        "To define the overall chip dimensions, aspect ratio, and preliminary placement of major functional blocks (e.g., CPU core, memory macros, I/O pads).",
+        "To route all the power and ground lines across the entire chip.",
+        "To generate test vectors for post-manufacturing testing."
       ],
       "correct": 2
     },
     {
-      "question": "In advanced physical design for deep sub-micron nodes, which phenomenon describes the variation in transistor threshold voltage and drive current across a chip due to random fluctuations in dopant atom count or geometric variations during manufacturing, impacting circuit performance and yield?",
+      "question": "When implementing clock gating as a power reduction technique in digital ICs, what is the most critical design consideration to prevent functional errors?",
       "options": [
-        "Electromigration",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Random Dopant Fluctuation (RDF)",
-        "Hot Carrier Injection (HCI)",
-        "Latch-up"
+        "Ensuring the gated clock signal has a precise 50% duty cycle.",
+        "Preventing glitches or undesired toggles on the gated clock signal.",
+        "Minimizing the number of flip-flops connected to the gated clock.",
+        "Ensuring the clock enable signal is synchronous to the ungated clock.",
+        "Maximizing the propagation delay of the clock gating cell."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "In a system employing a relaxed memory consistency model (e.g., Release Consistency), what architectural mechanism is typically used to enforce ordering between specific memory operations (e.g., a write followed by a read) when required by the programmer or compiler, without globally enforcing sequential consistency for all operations?",
+      "question": "In the modern digital IC design flow, what is the primary role of Hardware Description Languages (HDLs) like Verilog or VHDL?",
       "options": [
-        "Atomic Swap Instructions",
-        "Cache Coherence Protocols (e.g., MESI)",
-        "Translation Lookaside Buffer (TLB)",
-        "Memory Barriers (or Fences)",
-        "Hardware Transactional Memory (HTM)"
+        "To perform physical layout and routing of transistors.",
+        "To verify the analog behavior of mixed-signal circuits.",
+        "To synthesize power distribution networks.",
+        "To describe the functionality and structure of digital circuits at various levels of abstraction, from behavioral to Register-Transfer Level (RTL).",
+        "To simulate the thermal characteristics of the silicon substrate."
       ],
       "correct": 3
+    },
+    {
+      "question": "In computer architecture, particularly concerning memory hierarchies and caching, what does the principle of \"temporal locality\" primarily describe?",
+      "options": [
+        "The tendency for a program to access memory locations that are physically close to recently accessed locations.",
+        "The phenomenon where a program accesses the same memory location multiple times within a short period.",
+        "The ability of a processor to prefetch data into cache before it is explicitly requested.",
+        "The amount of time a memory block remains in the cache before being evicted.",
+        "The speed at which data can be transferred between the CPU and main memory."
+      ],
+      "correct": 1
     }
   ]
 }
