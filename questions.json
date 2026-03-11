@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital logic design, what is the primary function of a multiplexer (MUX)?",
+      "question": "What does the acronym ASIC stand for in the context of integrated circuit design?",
       "options": [
-        "To combine multiple inputs into a single output based on a select signal.",
-        "To split a single input into multiple outputs.",
-        "To perform arithmetic operations on two inputs.",
-        "To store a single bit of data.",
-        "To generate clock signals for synchronous circuits."
+        "Application-Specific Integrated Circuit",
+        "Advanced System Interface Controller",
+        "Automated Sequential Instruction Code",
+        "Analog Signal Input Converter",
+        "Asynchronous Serial Interconnection Channel"
       ],
       "correct": 0
     },
     {
-      "question": "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of \"floorplanning\"?",
+      "question": "In a standard CMOS digital logic gate (e.g., an inverter), what is the primary role of a P-type Metal-Oxide-Semiconductor Field-Effect Transistor (PMOS) device?",
       "options": [
-        "To perform static timing analysis on the synthesized netlist.",
-        "To convert the Register-Transfer Level (RTL) code into a gate-level netlist.",
-        "To define the overall chip dimensions, aspect ratio, and preliminary placement of major functional blocks (e.g., CPU core, memory macros, I/O pads).",
-        "To route all the power and ground lines across the entire chip.",
-        "To generate test vectors for post-manufacturing testing."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "When implementing clock gating as a power reduction technique in digital ICs, what is the most critical design consideration to prevent functional errors?",
-      "options": [
-        "Ensuring the gated clock signal has a precise 50% duty cycle.",
-        "Preventing glitches or undesired toggles on the gated clock signal.",
-        "Minimizing the number of flip-flops connected to the gated clock.",
-        "Ensuring the clock enable signal is synchronous to the ungated clock.",
-        "Maximizing the propagation delay of the clock gating cell."
+        "To act as a pull-down network, connecting the output to ground when active.",
+        "To act as a pull-up network, connecting the output to VDD when active.",
+        "To store charge and provide memory functionality.",
+        "To amplify the input signal voltage.",
+        "To convert an analog signal into a digital one."
       ],
       "correct": 1
     },
     {
-      "question": "In the modern digital IC design flow, what is the primary role of Hardware Description Languages (HDLs) like Verilog or VHDL?",
+      "question": "In the context of multi-processor systems and shared memory, what defines \"Sequential Consistency\" as proposed by Lamport?",
       "options": [
-        "To perform physical layout and routing of transistors.",
-        "To verify the analog behavior of mixed-signal circuits.",
-        "To synthesize power distribution networks.",
-        "To describe the functionality and structure of digital circuits at various levels of abstraction, from behavioral to Register-Transfer Level (RTL).",
-        "To simulate the thermal characteristics of the silicon substrate."
+        "The result of any execution is the same as if the operations of all processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program.",
+        "Writes from one processor are immediately visible to all other processors.",
+        "Memory operations are only ordered if they are explicitly synchronized by software.",
+        "Each processor observes its own memory operations in program order, but not necessarily those of other processors.",
+        "Data is only consistent within a single cache line, not across the entire memory system."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In digital IC design, which power reduction technique involves temporarily shutting off the power supply to an idle functional block or an entire region of a chip to eliminate both dynamic and static power consumption in that block?",
+      "options": [
+        "Clock Gating",
+        "Voltage Scaling",
+        "Frequency Scaling",
+        "Power Gating",
+        "Body Biasing"
       ],
       "correct": 3
     },
     {
-      "question": "In computer architecture, particularly concerning memory hierarchies and caching, what does the principle of \"temporal locality\" primarily describe?",
+      "question": "In computer architecture, what does the term \"Instruction Set Architecture (ISA)\" primarily define?",
       "options": [
-        "The tendency for a program to access memory locations that are physically close to recently accessed locations.",
-        "The phenomenon where a program accesses the same memory location multiple times within a short period.",
-        "The ability of a processor to prefetch data into cache before it is explicitly requested.",
-        "The amount of time a memory block remains in the cache before being evicted.",
-        "The speed at which data can be transferred between the CPU and main memory."
+        "The physical layout and interconnects of transistors on a microchip.",
+        "The maximum operating frequency and power consumption limits of a processor.",
+        "The abstract interface between the software (programmer/compiler) and the hardware (processor).",
+        "The specific algorithms used for cache coherence protocols.",
+        "The type of memory technology used (e.g., SRAM, DRAM)."
       ],
-      "correct": 1
+      "correct": 2
     }
   ]
 }
