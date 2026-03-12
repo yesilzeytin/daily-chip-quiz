@@ -1,9 +1,4 @@
 [
-  "In synchronous digital circuit design, 'setup time' for a flip-flop refers to the minimum amount of time that:",
-  "In a modern out-of-order execution processor, which architectural component is primarily responsible for ensuring that instructions commit their results in original program order, even if they execute out-of-order?",
-  "To ensure robust timing performance across manufacturing variations, voltage fluctuations, and operating temperatures in a complex System-on-Chip (SoC), IC designers typically perform Static Timing Analysis (STA) at various combinations of:",
-  "What is the primary function of an Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
-  "Which power management technique allows a processor to dynamically adjust its operating voltage and clock frequency during runtime to balance performance requirements with power consumption targets?",
   "Which type of power consumption in a CMOS digital circuit is primarily due to the charging and discharging of parasitic capacitances and short-circuit current during transistor switching?",
   "In the context of a modern RISC-V processor, which instruction type is primarily used for loading data from memory into a register using an immediate offset?",
   "In formal verification of digital ICs, which type of language is commonly used to express desired behavioral properties and safety/liveness conditions that the design must satisfy?",
@@ -48,5 +43,10 @@
   "In a standard CMOS digital logic gate (e.g., an inverter), what is the primary role of a P-type Metal-Oxide-Semiconductor Field-Effect Transistor (PMOS) device?",
   "In the context of multi-processor systems and shared memory, what defines \"Sequential Consistency\" as proposed by Lamport?",
   "In digital IC design, which power reduction technique involves temporarily shutting off the power supply to an idle functional block or an entire region of a chip to eliminate both dynamic and static power consumption in that block?",
-  "In computer architecture, what does the term \"Instruction Set Architecture (ISA)\" primarily define?"
+  "In computer architecture, what does the term \"Instruction Set Architecture (ISA)\" primarily define?",
+  "What is a fundamental building block of all digital integrated circuits that performs a basic Boolean logic function (e.g., AND, OR, NOT)?",
+  "In a pipelined CPU, which type of hazard occurs when a subsequent instruction needs the result of a previous instruction that has not yet completed its execution stage?",
+  "Which design stage in the digital IC flow involves translating the Register-Transfer Level (RTL) description into an optimized gate-level netlist using standard cells from a technology library?",
+  "What is the primary purpose of a 'Memory Management Unit (MMU)' in a modern computer system?",
+  "In the context of formal verification for digital ICs, what does 'Equivalence Checking' primarily aim to verify?"
 ]
