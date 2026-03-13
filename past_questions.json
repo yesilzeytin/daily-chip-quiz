@@ -1,9 +1,4 @@
 [
-  "Which type of power consumption in a CMOS digital circuit is primarily due to the charging and discharging of parasitic capacitances and short-circuit current during transistor switching?",
-  "In the context of a modern RISC-V processor, which instruction type is primarily used for loading data from memory into a register using an immediate offset?",
-  "In formal verification of digital ICs, which type of language is commonly used to express desired behavioral properties and safety/liveness conditions that the design must satisfy?",
-  "In advanced physical design, which routing technique is employed to create a controlled impedance path for high-speed signals by sandwiching a signal trace between two ground planes, minimizing crosstalk and ensuring signal integrity?",
-  "In a Non-Uniform Memory Access (NUMA) system with multiple processor nodes, what architectural challenge arises from ensuring data consistency when different nodes access shared memory, where the latency of access depends on the memory's location relative to the processor?",
   "What is the primary advantage of Static Random-Access Memory (SRAM) over Dynamic Random-Access Memory (DRAM) in terms of data retention requirements?",
   "In modern digital IC design, what is the primary benefit of employing a \"gate-level netlist\" for simulation during the post-synthesis or post-layout stages, compared to an RTL (Register-Transfer Level) netlist?",
   "In the microarchitecture of a CPU, what is the primary function of the \"Instruction Cache\"?",
@@ -48,5 +43,10 @@
   "In a pipelined CPU, which type of hazard occurs when a subsequent instruction needs the result of a previous instruction that has not yet completed its execution stage?",
   "Which design stage in the digital IC flow involves translating the Register-Transfer Level (RTL) description into an optimized gate-level netlist using standard cells from a technology library?",
   "What is the primary purpose of a 'Memory Management Unit (MMU)' in a modern computer system?",
-  "In the context of formal verification for digital ICs, what does 'Equivalence Checking' primarily aim to verify?"
+  "In the context of formal verification for digital ICs, what does 'Equivalence Checking' primarily aim to verify?",
+  "What is the primary function of a D flip-flop in digital circuits?",
+  "In the context of CPU caches, what does \"N-way set associative\" imply about how cache lines are mapped from main memory?",
+  "What is the primary objective of High-Level Synthesis (HLS) in the digital IC design flow?",
+  "In high-performance multi-master bus architectures (e.g., AMBA AXI), what is the key advantage of a \"split-transaction\" bus protocol compared to a \"single-transaction\" bus?",
+  "In Design for Testability (DFT) for digital ICs, what is the primary purpose of converting sequential elements (like flip-flops) into scan chains?"
 ]
