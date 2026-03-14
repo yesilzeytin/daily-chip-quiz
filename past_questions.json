@@ -1,9 +1,4 @@
 [
-  "What is the primary advantage of Static Random-Access Memory (SRAM) over Dynamic Random-Access Memory (DRAM) in terms of data retention requirements?",
-  "In modern digital IC design, what is the primary benefit of employing a \"gate-level netlist\" for simulation during the post-synthesis or post-layout stages, compared to an RTL (Register-Transfer Level) netlist?",
-  "In the microarchitecture of a CPU, what is the primary function of the \"Instruction Cache\"?",
-  "In advanced synchronous digital design, what is the primary challenge addressed by \"Asynchronous FIFO (First-In, First-Out)\" circuits?",
-  "In the context of custom analog or mixed-signal IC design, what is the primary purpose of a \"Process Corner\" analysis during simulation?",
   "In synchronous digital circuits, what is the primary role of a clock signal?",
   "In a virtual memory system, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
   "In the digital IC design flow, what is the primary purpose of Static Timing Analysis (STA)?",
@@ -48,5 +43,10 @@
   "In the context of CPU caches, what does \"N-way set associative\" imply about how cache lines are mapped from main memory?",
   "What is the primary objective of High-Level Synthesis (HLS) in the digital IC design flow?",
   "In high-performance multi-master bus architectures (e.g., AMBA AXI), what is the key advantage of a \"split-transaction\" bus protocol compared to a \"single-transaction\" bus?",
-  "In Design for Testability (DFT) for digital ICs, what is the primary purpose of converting sequential elements (like flip-flops) into scan chains?"
+  "In Design for Testability (DFT) for digital ICs, what is the primary purpose of converting sequential elements (like flip-flops) into scan chains?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
+  "In the physical design verification flow for an Integrated Circuit (IC), what is the primary purpose of a Layout Versus Schematic (LVS) check?",
+  "In the context of shared-memory multi-processor systems, particularly with relaxed memory consistency models, what is the primary characteristic of an \"acquire\" memory operation?",
+  "In the physical design phase of digital Integrated Circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
+  "Which semiconductor manufacturing process involves using light to transfer a geometric pattern from a photomask to a light-sensitive chemical photoresist on the wafer surface, initiating the patterning of IC features?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a D flip-flop in digital circuits?",
+      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
       "options": [
-        "To store a single bit of data and update it synchronously on a clock edge.",
-        "To perform arithmetic operations like addition or subtraction.",
-        "To combine multiple input signals into a single output.",
-        "To divide the input clock frequency by two.",
-        "To amplify a weak digital signal."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the context of CPU caches, what does \"N-way set associative\" imply about how cache lines are mapped from main memory?",
-      "options": [
-        "Each block from main memory can be placed in any location within the cache.",
-        "Each block from main memory can be placed in exactly one specific location in the cache.",
-        "Each block from main memory can be placed in any of N specific locations (ways) within a particular set in the cache.",
-        "The cache is organized into N independent banks, each handling a different memory address range.",
-        "N refers to the number of levels in the cache hierarchy (e.g., L1, L2, L3)."
+        "Storing program instructions.",
+        "Managing virtual memory translations.",
+        "Performing arithmetic and bitwise logic operations.",
+        "Controlling the flow of data between components.",
+        "Caching frequently accessed data."
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary objective of High-Level Synthesis (HLS) in the digital IC design flow?",
+      "question": "In the physical design verification flow for an Integrated Circuit (IC), what is the primary purpose of a Layout Versus Schematic (LVS) check?",
       "options": [
-        "To verify the correctness of a gate-level netlist against its RTL description.",
-        "To automatically generate Register-Transfer Level (RTL) code from an algorithmic description written in a high-level language like C, C++, or SystemC.",
-        "To optimize the physical placement of standard cells on the silicon die.",
-        "To perform detailed timing analysis after physical layout is complete.",
-        "To characterize the power consumption of individual standard cells."
+        "To verify that the circuit meets its specified timing requirements.",
+        "To ensure the physical layout matches the functionality described in the schematic/netlist.",
+        "To identify power integrity issues across the chip.",
+        "To check for design rule violations (e.g., minimum spacing, width).",
+        "To estimate the power consumption of the design."
       ],
       "correct": 1
     },
     {
-      "question": "In high-performance multi-master bus architectures (e.g., AMBA AXI), what is the key advantage of a \"split-transaction\" bus protocol compared to a \"single-transaction\" bus?",
+      "question": "In the context of shared-memory multi-processor systems, particularly with relaxed memory consistency models, what is the primary characteristic of an \"acquire\" memory operation?",
       "options": [
-        "It simplifies the arbitration logic by allowing only one master to access the bus at a time.",
-        "It reduces the total number of wires required for the bus interface.",
-        "It allows the bus to be released by a master after issuing a request, enabling other masters to use the bus while the requested data is being fetched, thereby improving bus utilization.",
-        "It guarantees cache coherence across all masters without additional hardware.",
-        "It enables simultaneous read and write operations on the same address."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In Design for Testability (DFT) for digital ICs, what is the primary purpose of converting sequential elements (like flip-flops) into scan chains?",
-      "options": [
-        "To reduce the dynamic power consumption of the chip during normal operation.",
-        "To facilitate easier observation and control of internal node states, enabling high fault coverage for manufacturing defects through automated test pattern generation (ATPG).",
-        "To improve the clock frequency and overall performance of the circuit.",
-        "To decrease the silicon area required for the design.",
-        "To implement built-in self-test (BIST) capabilities without requiring external test equipment."
+        "It ensures that all subsequent memory operations on the acquiring processor are observed after the acquire completes.",
+        "It guarantees that any memory operations preceding its paired \"release\" operation on another processor are made visible before any memory operations following the acquire on the current processor.",
+        "It invalidates all local cache lines associated with the acquired resource.",
+        "It strictly enforces sequential consistency for all operations between the acquire and a subsequent release.",
+        "It allows prior reads to be reordered past it but prevents prior writes from being reordered past it."
       ],
       "correct": 1
+    },
+    {
+      "question": "In the physical design phase of digital Integrated Circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
+      "options": [
+        "To maximize the overall operating frequency of the chip by reducing critical path delays.",
+        "To ensure all sequential elements receive the clock signal simultaneously or with minimal clock skew, and within acceptable latency.",
+        "To reduce the overall power consumption by selectively turning off clock signals to idle blocks.",
+        "To optimize the routing of data signals between different functional blocks, reducing interconnect delay.",
+        "To generate the gate-level netlist from an RTL description, converting high-level logic into gates."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which semiconductor manufacturing process involves using light to transfer a geometric pattern from a photomask to a light-sensitive chemical photoresist on the wafer surface, initiating the patterning of IC features?",
+      "options": [
+        "Chemical Vapor Deposition (CVD)",
+        "Atomic Layer Deposition (ALD)",
+        "Etching",
+        "Lithography",
+        "Ion Implantation"
+      ],
+      "correct": 3
     }
   ]
 }
