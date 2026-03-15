@@ -1,9 +1,4 @@
 [
-  "In synchronous digital circuits, what is the primary role of a clock signal?",
-  "In a virtual memory system, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
-  "In the digital IC design flow, what is the primary purpose of Static Timing Analysis (STA)?",
-  "In a modern high-performance CPU, which concept allows the processor to execute instructions beyond a conditional branch before the branch outcome is definitively known, with a mechanism to undo incorrect predictions?",
-  "In modern advanced technology nodes (e.g., 16nm and below), which transistor architecture was introduced to significantly improve gate control over the channel, reduce leakage currents, and enable better scaling by extending the gate around multiple sides of a fin-shaped silicon channel?",
   "What is the most common semiconductor material used as the primary substrate for fabricating integrated circuits (ICs)?",
   "In the context of digital IC design, what is the primary role of 'timing constraints' (e.g., set_input_delay, set_output_delay, create_clock) during the synthesis and place-and-route stages?",
   "In a pipelined processor, what is the primary benefit of a 'forwarding' (also known as 'bypassing') unit?",
@@ -48,5 +43,10 @@
   "In the physical design verification flow for an Integrated Circuit (IC), what is the primary purpose of a Layout Versus Schematic (LVS) check?",
   "In the context of shared-memory multi-processor systems, particularly with relaxed memory consistency models, what is the primary characteristic of an \"acquire\" memory operation?",
   "In the physical design phase of digital Integrated Circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "Which semiconductor manufacturing process involves using light to transfer a geometric pattern from a photomask to a light-sensitive chemical photoresist on the wafer surface, initiating the patterning of IC features?"
+  "Which semiconductor manufacturing process involves using light to transfer a geometric pattern from a photomask to a light-sensitive chemical photoresist on the wafer surface, initiating the patterning of IC features?",
+  "What is the primary advantage of Static Random-Access Memory (SRAM) over Dynamic Random-Access Memory (DRAM) when used in CPU cache design?",
+  "In a typical synchronous digital circuit, what is the fundamental purpose of the setup time requirement for a flip-flop?",
+  "Which of the following best describes the function of a \"Reservation Station\" in a dynamically scheduled, out-of-order execution processor?",
+  "In advanced semiconductor manufacturing, what does Chemical Mechanical Planarization (CMP) primarily achieve?",
+  "In the context of CPU cache memory, what event defines a \"cache hit\"?"
 ]

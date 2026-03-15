@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
+      "question": "What is the primary advantage of Static Random-Access Memory (SRAM) over Dynamic Random-Access Memory (DRAM) when used in CPU cache design?",
       "options": [
-        "Storing program instructions.",
-        "Managing virtual memory translations.",
-        "Performing arithmetic and bitwise logic operations.",
-        "Controlling the flow of data between components.",
-        "Caching frequently accessed data."
+        "Significantly lower manufacturing cost per bit.",
+        "Higher memory density, allowing more data storage in the same area.",
+        "Does not require periodic refreshing, simplifying control logic.",
+        "Non-volatility, retaining data even without power.",
+        "Lower power consumption during active operation."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design verification flow for an Integrated Circuit (IC), what is the primary purpose of a Layout Versus Schematic (LVS) check?",
+      "question": "In a typical synchronous digital circuit, what is the fundamental purpose of the setup time requirement for a flip-flop?",
       "options": [
-        "To verify that the circuit meets its specified timing requirements.",
-        "To ensure the physical layout matches the functionality described in the schematic/netlist.",
-        "To identify power integrity issues across the chip.",
-        "To check for design rule violations (e.g., minimum spacing, width).",
-        "To estimate the power consumption of the design."
+        "To ensure the clock signal remains stable throughout the entire clock cycle.",
+        "To guarantee that the data input is stable and valid for a sufficient period *before* the active clock edge.",
+        "To allow the flip-flop's output to propagate and stabilize before the next clock cycle begins.",
+        "To prevent meta-stability by ensuring the clock signal has a sharp rising or falling edge.",
+        "To minimize dynamic power consumption during state transitions."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of shared-memory multi-processor systems, particularly with relaxed memory consistency models, what is the primary characteristic of an \"acquire\" memory operation?",
+      "question": "Which of the following best describes the function of a \"Reservation Station\" in a dynamically scheduled, out-of-order execution processor?",
       "options": [
-        "It ensures that all subsequent memory operations on the acquiring processor are observed after the acquire completes.",
-        "It guarantees that any memory operations preceding its paired \"release\" operation on another processor are made visible before any memory operations following the acquire on the current processor.",
-        "It invalidates all local cache lines associated with the acquired resource.",
-        "It strictly enforces sequential consistency for all operations between the acquire and a subsequent release.",
-        "It allows prior reads to be reordered past it but prevents prior writes from being reordered past it."
+        "It stores the committed state of registers, allowing for precise exceptions and recovery from incorrect predictions.",
+        "It buffers instructions after they are fetched and decoded, waiting for in-order dispatch to functional units.",
+        "It translates virtual memory addresses to physical memory addresses to facilitate memory access.",
+        "It holds pending instructions and their operands, waiting for their required functional unit to become free and all operands to be ready.",
+        "It predicts the outcome of conditional branches to reduce pipeline stalls and improve instruction throughput."
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In the physical design phase of digital Integrated Circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
+      "question": "In advanced semiconductor manufacturing, what does Chemical Mechanical Planarization (CMP) primarily achieve?",
       "options": [
-        "To maximize the overall operating frequency of the chip by reducing critical path delays.",
-        "To ensure all sequential elements receive the clock signal simultaneously or with minimal clock skew, and within acceptable latency.",
-        "To reduce the overall power consumption by selectively turning off clock signals to idle blocks.",
-        "To optimize the routing of data signals between different functional blocks, reducing interconnect delay.",
-        "To generate the gate-level netlist from an RTL description, converting high-level logic into gates."
+        "Doping silicon wafers with impurities to create P-type and N-type regions for transistors.",
+        "Etching intricate patterns into the wafer surface using photolithography and chemical removal.",
+        "Depositing thin films of insulating or conducting materials onto the wafer surface.",
+        "Creating perfectly flat and smooth surfaces across the wafer for subsequent layer deposition and patterning.",
+        "Inspecting the wafer for defects and particulate contamination after each processing step."
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "Which semiconductor manufacturing process involves using light to transfer a geometric pattern from a photomask to a light-sensitive chemical photoresist on the wafer surface, initiating the patterning of IC features?",
+      "question": "In the context of CPU cache memory, what event defines a \"cache hit\"?",
       "options": [
-        "Chemical Vapor Deposition (CVD)",
-        "Atomic Layer Deposition (ALD)",
-        "Etching",
-        "Lithography",
-        "Ion Implantation"
+        "The CPU attempts to write data to main memory, and the data is successfully stored.",
+        "The requested data is found in the main memory after a lookup in the cache fails.",
+        "The CPU attempts to access a memory address that is protected or invalid.",
+        "The requested data is successfully retrieved from the cache memory.",
+        "The cache needs to evict an existing data block to make space for new data."
       ],
       "correct": 3
     }
