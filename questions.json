@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary advantage of Static Random-Access Memory (SRAM) over Dynamic Random-Access Memory (DRAM) when used in CPU cache design?",
+      "question": "What is the main purpose of the Program Counter (PC) in a CPU?",
       "options": [
-        "Significantly lower manufacturing cost per bit.",
-        "Higher memory density, allowing more data storage in the same area.",
-        "Does not require periodic refreshing, simplifying control logic.",
-        "Non-volatility, retaining data even without power.",
-        "Lower power consumption during active operation."
+        "To store the address of the next instruction to be fetched.",
+        "To hold intermediate results of arithmetic operations.",
+        "To manage the flow of data between the CPU and main memory.",
+        "To register the current operational mode of the processor.",
+        "To cache recently used data values."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the digital IC design flow, after logic synthesis, what is the primary goal of the \"Place\" stage during physical implementation?",
+      "options": [
+        "To convert the Register-Transfer Level (RTL) description into a gate-level netlist.",
+        "To optimize the power delivery network for reduced voltage drop.",
+        "To assign physical coordinates to all standard cells, macros, and I/O pins within the defined core area.",
+        "To verify the functional correctness of the design against specifications.",
+        "To route all the interconnects between placed components."
       ],
       "correct": 2
     },
     {
-      "question": "In a typical synchronous digital circuit, what is the fundamental purpose of the setup time requirement for a flip-flop?",
+      "question": "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system with virtual memory?",
       "options": [
-        "To ensure the clock signal remains stable throughout the entire clock cycle.",
-        "To guarantee that the data input is stable and valid for a sufficient period *before* the active clock edge.",
-        "To allow the flip-flop's output to propagate and stabilize before the next clock cycle begins.",
-        "To prevent meta-stability by ensuring the clock signal has a sharp rising or falling edge.",
-        "To minimize dynamic power consumption during state transitions."
+        "To cache frequently accessed data blocks from main memory.",
+        "To provide a high-speed cache for virtual-to-physical address translations.",
+        "To manage the allocation and deallocation of physical memory pages.",
+        "To store the instruction set architecture (ISA) definitions.",
+        "To facilitate communication between multiple processing cores."
       ],
       "correct": 1
     },
     {
-      "question": "Which of the following best describes the function of a \"Reservation Station\" in a dynamically scheduled, out-of-order execution processor?",
+      "question": "In deep sub-micron technology nodes, which of the following post-layout parasitic effects has a significant impact on circuit timing and signal integrity, often requiring extensive analysis and mitigation strategies?",
       "options": [
-        "It stores the committed state of registers, allowing for precise exceptions and recovery from incorrect predictions.",
-        "It buffers instructions after they are fetched and decoded, waiting for in-order dispatch to functional units.",
-        "It translates virtual memory addresses to physical memory addresses to facilitate memory access.",
-        "It holds pending instructions and their operands, waiting for their required functional unit to become free and all operands to be ready.",
-        "It predicts the outcome of conditional branches to reduce pipeline stalls and improve instruction throughput."
+        "Alpha particle induced soft errors.",
+        "Thermal runaway in power transistors.",
+        "Electromigration in power traces.",
+        "Interconnect resistance-capacitance (RC) delay.",
+        "Quantum tunneling across gate oxides."
       ],
       "correct": 3
     },
     {
-      "question": "In advanced semiconductor manufacturing, what does Chemical Mechanical Planarization (CMP) primarily achieve?",
+      "question": "What is the primary purpose of performing Static Timing Analysis (STA) in the digital IC design flow?",
       "options": [
-        "Doping silicon wafers with impurities to create P-type and N-type regions for transistors.",
-        "Etching intricate patterns into the wafer surface using photolithography and chemical removal.",
-        "Depositing thin films of insulating or conducting materials onto the wafer surface.",
-        "Creating perfectly flat and smooth surfaces across the wafer for subsequent layer deposition and patterning.",
-        "Inspecting the wafer for defects and particulate contamination after each processing step."
+        "To ensure the chip operates correctly at its specified clock frequency by verifying all timing paths meet setup and hold requirements.",
+        "To generate the final manufacturing mask data (GDSII).",
+        "To estimate the total silicon area required for the design.",
+        "To automatically insert test structures for design-for-testability (DFT).",
+        "To simulate the functional behavior of the circuit with actual input patterns."
       ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of CPU cache memory, what event defines a \"cache hit\"?",
-      "options": [
-        "The CPU attempts to write data to main memory, and the data is successfully stored.",
-        "The requested data is found in the main memory after a lookup in the cache fails.",
-        "The CPU attempts to access a memory address that is protected or invalid.",
-        "The requested data is successfully retrieved from the cache memory.",
-        "The cache needs to evict an existing data block to make space for new data."
-      ],
-      "correct": 3
+      "correct": 0
     }
   ]
 }

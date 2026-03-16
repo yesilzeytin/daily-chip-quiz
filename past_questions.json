@@ -1,9 +1,4 @@
 [
-  "What is the most common semiconductor material used as the primary substrate for fabricating integrated circuits (ICs)?",
-  "In the context of digital IC design, what is the primary role of 'timing constraints' (e.g., set_input_delay, set_output_delay, create_clock) during the synthesis and place-and-route stages?",
-  "In a pipelined processor, what is the primary benefit of a 'forwarding' (also known as 'bypassing') unit?",
-  "In advanced digital IC physical design and verification, what is the primary objective of a 'Power Integrity (PI)' analysis?",
-  "In a multi-processor system with private caches, which fundamental challenge does the concept of 'cache coherence' specifically aim to resolve?",
   "In a typical CPU architecture, what is the primary function of the Register File?",
   "What is the primary advantage of a Field-Programmable Gate Array (FPGA) over an Application-Specific Integrated Circuit (ASIC) in the early stages of product development and prototyping?",
   "What is a defining characteristic of the Von Neumann architecture, which is widely used in modern computers?",
@@ -48,5 +43,10 @@
   "In a typical synchronous digital circuit, what is the fundamental purpose of the setup time requirement for a flip-flop?",
   "Which of the following best describes the function of a \"Reservation Station\" in a dynamically scheduled, out-of-order execution processor?",
   "In advanced semiconductor manufacturing, what does Chemical Mechanical Planarization (CMP) primarily achieve?",
-  "In the context of CPU cache memory, what event defines a \"cache hit\"?"
+  "In the context of CPU cache memory, what event defines a \"cache hit\"?",
+  "What is the main purpose of the Program Counter (PC) in a CPU?",
+  "In the digital IC design flow, after logic synthesis, what is the primary goal of the \"Place\" stage during physical implementation?",
+  "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system with virtual memory?",
+  "In deep sub-micron technology nodes, which of the following post-layout parasitic effects has a significant impact on circuit timing and signal integrity, often requiring extensive analysis and mitigation strategies?",
+  "What is the primary purpose of performing Static Timing Analysis (STA) in the digital IC design flow?"
 ]
