@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the main purpose of the Program Counter (PC) in a CPU?",
+      "question": "In synchronous digital circuits, what is the primary purpose of a 'reset' signal?",
       "options": [
-        "To store the address of the next instruction to be fetched.",
-        "To hold intermediate results of arithmetic operations.",
-        "To manage the flow of data between the CPU and main memory.",
-        "To register the current operational mode of the processor.",
-        "To cache recently used data values."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the digital IC design flow, after logic synthesis, what is the primary goal of the \"Place\" stage during physical implementation?",
-      "options": [
-        "To convert the Register-Transfer Level (RTL) description into a gate-level netlist.",
-        "To optimize the power delivery network for reduced voltage drop.",
-        "To assign physical coordinates to all standard cells, macros, and I/O pins within the defined core area.",
-        "To verify the functional correctness of the design against specifications.",
-        "To route all the interconnects between placed components."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system with virtual memory?",
-      "options": [
-        "To cache frequently accessed data blocks from main memory.",
-        "To provide a high-speed cache for virtual-to-physical address translations.",
-        "To manage the allocation and deallocation of physical memory pages.",
-        "To store the instruction set architecture (ISA) definitions.",
-        "To facilitate communication between multiple processing cores."
+        "To temporarily halt the clock signal for debugging.",
+        "To force all sequential elements into a known, initial state.",
+        "To increase the operating frequency of the circuit.",
+        "To reduce the power consumption by deactivating idle blocks.",
+        "To prevent data hazards in pipelined architectures."
       ],
       "correct": 1
     },
     {
-      "question": "In deep sub-micron technology nodes, which of the following post-layout parasitic effects has a significant impact on circuit timing and signal integrity, often requiring extensive analysis and mitigation strategies?",
+      "question": "In a multi-processor system with shared cache memory, what is the primary purpose of the MESI protocol?",
       "options": [
-        "Alpha particle induced soft errors.",
-        "Thermal runaway in power transistors.",
-        "Electromigration in power traces.",
-        "Interconnect resistance-capacitance (RC) delay.",
-        "Quantum tunneling across gate oxides."
+        "To optimize the power consumption of cache blocks.",
+        "To ensure data consistency and coherence across multiple caches.",
+        "To define the instruction set architecture for the processors.",
+        "To manage virtual memory page mappings.",
+        "To accelerate the booting sequence of the system."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "What is the primary purpose of performing Static Timing Analysis (STA) in the digital IC design flow?",
+      "question": "During the physical verification phase of an integrated circuit, what is the main objective of Design Rule Checking (DRC)?",
       "options": [
-        "To ensure the chip operates correctly at its specified clock frequency by verifying all timing paths meet setup and hold requirements.",
-        "To generate the final manufacturing mask data (GDSII).",
-        "To estimate the total silicon area required for the design.",
-        "To automatically insert test structures for design-for-testability (DFT).",
-        "To simulate the functional behavior of the circuit with actual input patterns."
+        "To verify that the implemented gates match the logical netlist.",
+        "To analyze the power consumption of the entire chip.",
+        "To ensure that the layout adheres to manufacturing process constraints and avoids fabrication errors.",
+        "To simulate the functional behavior of the circuit under various input conditions.",
+        "To determine the maximum operating frequency of the design."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary goal of Dynamic Voltage and Frequency Scaling (DVFS) in modern processor and SoC designs?",
+      "options": [
+        "To permanently increase the maximum performance of the device under all conditions.",
+        "To statically set the optimal voltage and frequency during manufacturing for maximum yield.",
+        "To dynamically adjust the operating voltage and frequency to balance performance and power consumption.",
+        "To prevent electromagnetic interference (EMI) between different functional blocks.",
+        "To implement fault tolerance by replicating critical processing units."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In synchronous digital circuits, what is the primary purpose of the \"hold time\" requirement for a flip-flop?",
+      "options": [
+        "To ensure that the data input remains stable for a minimum duration *after* the active clock edge.",
+        "To ensure that the data input arrives at least a minimum duration *before* the active clock edge.",
+        "To specify the maximum time allowed for the clock signal to propagate across the chip.",
+        "To define the minimum duration for which the clock signal must be high or low.",
+        "To control the power-up sequence of the flip-flop."
       ],
       "correct": 0
     }
