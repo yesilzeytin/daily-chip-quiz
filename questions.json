@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In synchronous digital circuits, what is the primary purpose of a 'reset' signal?",
+      "question": "What does the acronym FPGA stand for in the context of digital electronics?",
       "options": [
-        "To temporarily halt the clock signal for debugging.",
-        "To force all sequential elements into a known, initial state.",
-        "To increase the operating frequency of the circuit.",
-        "To reduce the power consumption by deactivating idle blocks.",
-        "To prevent data hazards in pipelined architectures."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a multi-processor system with shared cache memory, what is the primary purpose of the MESI protocol?",
-      "options": [
-        "To optimize the power consumption of cache blocks.",
-        "To ensure data consistency and coherence across multiple caches.",
-        "To define the instruction set architecture for the processors.",
-        "To manage virtual memory page mappings.",
-        "To accelerate the booting sequence of the system."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "During the physical verification phase of an integrated circuit, what is the main objective of Design Rule Checking (DRC)?",
-      "options": [
-        "To verify that the implemented gates match the logical netlist.",
-        "To analyze the power consumption of the entire chip.",
-        "To ensure that the layout adheres to manufacturing process constraints and avoids fabrication errors.",
-        "To simulate the functional behavior of the circuit under various input conditions.",
-        "To determine the maximum operating frequency of the design."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary goal of Dynamic Voltage and Frequency Scaling (DVFS) in modern processor and SoC designs?",
-      "options": [
-        "To permanently increase the maximum performance of the device under all conditions.",
-        "To statically set the optimal voltage and frequency during manufacturing for maximum yield.",
-        "To dynamically adjust the operating voltage and frequency to balance performance and power consumption.",
-        "To prevent electromagnetic interference (EMI) between different functional blocks.",
-        "To implement fault tolerance by replicating critical processing units."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In synchronous digital circuits, what is the primary purpose of the \"hold time\" requirement for a flip-flop?",
-      "options": [
-        "To ensure that the data input remains stable for a minimum duration *after* the active clock edge.",
-        "To ensure that the data input arrives at least a minimum duration *before* the active clock edge.",
-        "To specify the maximum time allowed for the clock signal to propagate across the chip.",
-        "To define the minimum duration for which the clock signal must be high or low.",
-        "To control the power-up sequence of the flip-flop."
+        "Field-Programmable Gate Array",
+        "Fast Processing Global Architecture",
+        "Fully Parallel Gate Accelerator",
+        "Frequency Protocol Generated Area",
+        "Flexible Peripheral Graphics Adapter"
       ],
       "correct": 0
+    },
+    {
+      "question": "During the logic synthesis stage of digital IC design, what is the primary objective of \"logic optimization\"?",
+      "options": [
+        "To convert the gate-level netlist back into an RTL description for verification.",
+        "To place and route standard cells on the silicon die.",
+        "To reduce the gate count, improve timing performance, and minimize power consumption of the design.",
+        "To verify the functionality of the design through extensive simulations.",
+        "To generate the test patterns for Design for Testability (DFT)."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In modern complex System-on-Chip (SoC) designs, what is the primary motivation for adopting a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
+      "options": [
+        "To simplify the process of analog circuit integration.",
+        "To reduce the overall manufacturing cost of the chip.",
+        "To improve scalability, performance, and power efficiency for communication between numerous IP blocks.",
+        "To eliminate the need for memory controllers within the SoC.",
+        "To strictly enforce sequential consistency across all processing elements."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the fundamental advantage that formal verification techniques (e.g., model checking, equivalence checking) offer over traditional simulation-based verification in digital IC design?",
+      "options": [
+        "Formal verification can run significantly faster than simulation, especially for large designs.",
+        "Formal verification provides exhaustive proof of correctness across all possible input sequences and states, unlike simulation which only checks observed scenarios.",
+        "Formal verification requires significantly less computational resources and memory compared to simulation.",
+        "Formal verification is primarily used for analog circuit verification, not digital.",
+        "Formal verification is easier to set up and debug for complex designs than simulation."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In high-performance computer architectures, what is the primary goal of \"speculative execution\"?",
+      "options": [
+        "To reduce the physical size of the processor by eliminating unnecessary components.",
+        "To pre-fetch data from main memory into cache even if it's not immediately needed.",
+        "To improve instruction-level parallelism and hide latency by executing instructions before it's certain they are required, based on predictions.",
+        "To ensure that all memory operations strictly adhere to sequential consistency.",
+        "To provide a secure sandbox environment for untrusted code execution."
+      ],
+      "correct": 2
     }
   ]
 }
