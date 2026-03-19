@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic of the Register Transfer Level (RTL) in the digital IC design flow?",
-  "Which technique is commonly employed in digital IC design to reduce dynamic power consumption by selectively deactivating clock signals to idle functional blocks or registers?",
-  "In an out-of-order execution processor, what is the primary purpose of the Reorder Buffer (ROB)?",
-  "In advanced physical design for deep sub-micron nodes, which phenomenon describes the variation in transistor threshold voltage and drive current across a chip due to random fluctuations in dopant atom count or geometric variations during manufacturing, impacting circuit performance and yield?",
-  "In a system employing a relaxed memory consistency model (e.g., Release Consistency), what architectural mechanism is typically used to enforce ordering between specific memory operations (e.g., a write followed by a read) when required by the programmer or compiler, without globally enforcing sequential consistency for all operations?",
   "In digital logic design, what is the primary function of a multiplexer (MUX)?",
   "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of \"floorplanning\"?",
   "When implementing clock gating as a power reduction technique in digital ICs, what is the most critical design consideration to prevent functional errors?",
@@ -48,5 +43,10 @@
   "During the logic synthesis stage of digital IC design, what is the primary objective of \"logic optimization\"?",
   "In modern complex System-on-Chip (SoC) designs, what is the primary motivation for adopting a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
   "What is the fundamental advantage that formal verification techniques (e.g., model checking, equivalence checking) offer over traditional simulation-based verification in digital IC design?",
-  "In high-performance computer architectures, what is the primary goal of \"speculative execution\"?"
+  "In high-performance computer architectures, what is the primary goal of \"speculative execution\"?",
+  "What is the primary characteristic that distinguishes an Exclusive OR (XOR) gate from an OR gate in digital logic?",
+  "In a cache coherence protocol such as MESI (Modified, Exclusive, Shared, Invalid), what does the 'Invalid' state of a cache line primarily indicate?",
+  "In the context of digital IC verification, what is the primary strength of Model Checking as a formal verification technique, distinct from simulation-based verification?",
+  "In deep sub-micron digital ICs, which reliability concern arises from the momentum transfer between flowing electrons and metal ions in interconnects, causing material displacement and potentially leading to opens or shorts over time?",
+  "Within a Central Processing Unit (CPU), what is the primary function of the Control Unit?"
 ]

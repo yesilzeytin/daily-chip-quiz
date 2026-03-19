@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What does the acronym FPGA stand for in the context of digital electronics?",
+      "question": "What is the primary characteristic that distinguishes an Exclusive OR (XOR) gate from an OR gate in digital logic?",
       "options": [
-        "Field-Programmable Gate Array",
-        "Fast Processing Global Architecture",
-        "Fully Parallel Gate Accelerator",
-        "Frequency Protocol Generated Area",
-        "Flexible Peripheral Graphics Adapter"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "During the logic synthesis stage of digital IC design, what is the primary objective of \"logic optimization\"?",
-      "options": [
-        "To convert the gate-level netlist back into an RTL description for verification.",
-        "To place and route standard cells on the silicon die.",
-        "To reduce the gate count, improve timing performance, and minimize power consumption of the design.",
-        "To verify the functionality of the design through extensive simulations.",
-        "To generate the test patterns for Design for Testability (DFT)."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In modern complex System-on-Chip (SoC) designs, what is the primary motivation for adopting a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
-      "options": [
-        "To simplify the process of analog circuit integration.",
-        "To reduce the overall manufacturing cost of the chip.",
-        "To improve scalability, performance, and power efficiency for communication between numerous IP blocks.",
-        "To eliminate the need for memory controllers within the SoC.",
-        "To strictly enforce sequential consistency across all processing elements."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the fundamental advantage that formal verification techniques (e.g., model checking, equivalence checking) offer over traditional simulation-based verification in digital IC design?",
-      "options": [
-        "Formal verification can run significantly faster than simulation, especially for large designs.",
-        "Formal verification provides exhaustive proof of correctness across all possible input sequences and states, unlike simulation which only checks observed scenarios.",
-        "Formal verification requires significantly less computational resources and memory compared to simulation.",
-        "Formal verification is primarily used for analog circuit verification, not digital.",
-        "Formal verification is easier to set up and debug for complex designs than simulation."
+        "An XOR gate produces a HIGH output only when both inputs are HIGH, while an OR gate produces HIGH when either is HIGH.",
+        "An XOR gate produces a LOW output when both inputs are the same (both HIGH or both LOW), while an OR gate produces a HIGH output if any input is HIGH.",
+        "An XOR gate can be used as a universal gate, unlike an OR gate.",
+        "An XOR gate has only one input, whereas an OR gate has two or more.",
+        "An XOR gate provides buffered output for improved signal integrity, which an OR gate lacks."
       ],
       "correct": 1
     },
     {
-      "question": "In high-performance computer architectures, what is the primary goal of \"speculative execution\"?",
+      "question": "In a cache coherence protocol such as MESI (Modified, Exclusive, Shared, Invalid), what does the 'Invalid' state of a cache line primarily indicate?",
       "options": [
-        "To reduce the physical size of the processor by eliminating unnecessary components.",
-        "To pre-fetch data from main memory into cache even if it's not immediately needed.",
-        "To improve instruction-level parallelism and hide latency by executing instructions before it's certain they are required, based on predictions.",
-        "To ensure that all memory operations strictly adhere to sequential consistency.",
-        "To provide a secure sandbox environment for untrusted code execution."
+        "The cache line contains the most up-to-date data, and this cache is the only one holding it.",
+        "The cache line is currently being modified by the local processor.",
+        "The data in the cache line is stale and must not be used, requiring a fresh copy from main memory or another cache.",
+        "The cache line is shared by multiple processors, all having read-only copies.",
+        "The cache line is locked and cannot be accessed by other processors."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of digital IC verification, what is the primary strength of Model Checking as a formal verification technique, distinct from simulation-based verification?",
+      "options": [
+        "It executes the design much faster than traditional simulation, reducing total verification time.",
+        "It can exhaustively explore all possible states and input sequences of a finite-state system to mathematically prove the absence of design errors.",
+        "It requires less computational resources compared to running extensive test benches.",
+        "It automatically generates test vectors for specific corner cases that are hard to reach via random simulation.",
+        "It provides real-time performance metrics by executing the design on a physical prototype."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In deep sub-micron digital ICs, which reliability concern arises from the momentum transfer between flowing electrons and metal ions in interconnects, causing material displacement and potentially leading to opens or shorts over time?",
+      "options": [
+        "Negative Bias Temperature Instability (NBTI)",
+        "Hot Carrier Injection (HCI)",
+        "Electromigration",
+        "Dielectric Breakdown",
+        "Thermal Runaway"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Within a Central Processing Unit (CPU), what is the primary function of the Control Unit?",
+      "options": [
+        "To perform all arithmetic and logical operations on data.",
+        "To store program instructions and data for quick access.",
+        "To generate timing and control signals that direct the flow of data and execution of instructions.",
+        "To manage the virtual memory mapping and page tables.",
+        "To temporarily hold data being processed by the ALU."
       ],
       "correct": 2
     }
