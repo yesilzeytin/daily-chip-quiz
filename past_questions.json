@@ -1,9 +1,4 @@
 [
-  "In digital logic design, what is the primary function of a multiplexer (MUX)?",
-  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of \"floorplanning\"?",
-  "When implementing clock gating as a power reduction technique in digital ICs, what is the most critical design consideration to prevent functional errors?",
-  "In the modern digital IC design flow, what is the primary role of Hardware Description Languages (HDLs) like Verilog or VHDL?",
-  "In computer architecture, particularly concerning memory hierarchies and caching, what does the principle of \"temporal locality\" primarily describe?",
   "What does the acronym ASIC stand for in the context of integrated circuit design?",
   "In a standard CMOS digital logic gate (e.g., an inverter), what is the primary role of a P-type Metal-Oxide-Semiconductor Field-Effect Transistor (PMOS) device?",
   "In the context of multi-processor systems and shared memory, what defines \"Sequential Consistency\" as proposed by Lamport?",
@@ -48,5 +43,10 @@
   "In a cache coherence protocol such as MESI (Modified, Exclusive, Shared, Invalid), what does the 'Invalid' state of a cache line primarily indicate?",
   "In the context of digital IC verification, what is the primary strength of Model Checking as a formal verification technique, distinct from simulation-based verification?",
   "In deep sub-micron digital ICs, which reliability concern arises from the momentum transfer between flowing electrons and metal ions in interconnects, causing material displacement and potentially leading to opens or shorts over time?",
-  "Within a Central Processing Unit (CPU), what is the primary function of the Control Unit?"
+  "Within a Central Processing Unit (CPU), what is the primary function of the Control Unit?",
+  "What is the primary characteristic of Read-Only Memory (ROM) in computer systems?",
+  "In CMOS digital circuits, what is the primary contributor to *dynamic* power consumption?",
+  "Which type of simulation in digital IC design involves applying specific input vectors (stimuli) to a design described at the Register-Transfer Level (RTL) or gate level, and observing its outputs over time to verify functional correctness and timing behavior?",
+  "In relaxed memory consistency models for multi-processor systems, what is the primary purpose of a \"release\" memory operation?",
+  "In modern deep sub-micron Integrated Circuit (IC) fabrication, what is the primary challenge related to \"variability\" that significantly impacts yield, performance, and power, requiring advanced Design for Manufacturability (DFM) techniques?"
 ]

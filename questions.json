@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that distinguishes an Exclusive OR (XOR) gate from an OR gate in digital logic?",
+      "question": "What is the primary characteristic of Read-Only Memory (ROM) in computer systems?",
       "options": [
-        "An XOR gate produces a HIGH output only when both inputs are HIGH, while an OR gate produces HIGH when either is HIGH.",
-        "An XOR gate produces a LOW output when both inputs are the same (both HIGH or both LOW), while an OR gate produces a HIGH output if any input is HIGH.",
-        "An XOR gate can be used as a universal gate, unlike an OR gate.",
-        "An XOR gate has only one input, whereas an OR gate has two or more.",
-        "An XOR gate provides buffered output for improved signal integrity, which an OR gate lacks."
+        "Data stored in ROM is retained even when power is removed (non-volatile).",
+        "ROM allows for extremely fast write operations compared to RAM.",
+        "ROM is primarily used for temporary data storage during program execution.",
+        "ROM typically requires periodic refresh cycles to maintain its data.",
+        "The contents of ROM can be easily modified by the CPU during normal operation."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In a cache coherence protocol such as MESI (Modified, Exclusive, Shared, Invalid), what does the 'Invalid' state of a cache line primarily indicate?",
+      "question": "In CMOS digital circuits, what is the primary contributor to *dynamic* power consumption?",
       "options": [
-        "The cache line contains the most up-to-date data, and this cache is the only one holding it.",
-        "The cache line is currently being modified by the local processor.",
-        "The data in the cache line is stale and must not be used, requiring a fresh copy from main memory or another cache.",
-        "The cache line is shared by multiple processors, all having read-only copies.",
-        "The cache line is locked and cannot be accessed by other processors."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of digital IC verification, what is the primary strength of Model Checking as a formal verification technique, distinct from simulation-based verification?",
-      "options": [
-        "It executes the design much faster than traditional simulation, reducing total verification time.",
-        "It can exhaustively explore all possible states and input sequences of a finite-state system to mathematically prove the absence of design errors.",
-        "It requires less computational resources compared to running extensive test benches.",
-        "It automatically generates test vectors for specific corner cases that are hard to reach via random simulation.",
-        "It provides real-time performance metrics by executing the design on a physical prototype."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In deep sub-micron digital ICs, which reliability concern arises from the momentum transfer between flowing electrons and metal ions in interconnects, causing material displacement and potentially leading to opens or shorts over time?",
-      "options": [
-        "Negative Bias Temperature Instability (NBTI)",
-        "Hot Carrier Injection (HCI)",
-        "Electromigration",
-        "Dielectric Breakdown",
-        "Thermal Runaway"
+        "Leakage current through transistors in their OFF state.",
+        "Static current due to the always-on nature of certain transistors.",
+        "Power dissipated during the charging and discharging of load capacitances when gates switch.",
+        "Subthreshold current flowing in active transistors when they are theoretically off.",
+        "Gate oxide tunneling current occurring through the transistor's gate insulator."
       ],
       "correct": 2
     },
     {
-      "question": "Within a Central Processing Unit (CPU), what is the primary function of the Control Unit?",
+      "question": "Which type of simulation in digital IC design involves applying specific input vectors (stimuli) to a design described at the Register-Transfer Level (RTL) or gate level, and observing its outputs over time to verify functional correctness and timing behavior?",
       "options": [
-        "To perform all arithmetic and logical operations on data.",
-        "To store program instructions and data for quick access.",
-        "To generate timing and control signals that direct the flow of data and execution of instructions.",
-        "To manage the virtual memory mapping and page tables.",
-        "To temporarily hold data being processed by the ALU."
+        "Formal Verification",
+        "Static Timing Analysis (STA)",
+        "Dynamic Simulation",
+        "Logic Synthesis",
+        "Electromigration Analysis"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In relaxed memory consistency models for multi-processor systems, what is the primary purpose of a \"release\" memory operation?",
+      "options": [
+        "To ensure that all previous memory operations by the issuing processor are made visible to other processors before the release operation itself completes.",
+        "To guarantee that no subsequent memory operations by the issuing processor can be reordered before the release operation.",
+        "To atomically update a shared variable and acquire a lock.",
+        "To signal that the processor is about to access shared data, potentially fetching it from another cache.",
+        "To invalidate a specific cache line in all other caches within the system."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In modern deep sub-micron Integrated Circuit (IC) fabrication, what is the primary challenge related to \"variability\" that significantly impacts yield, performance, and power, requiring advanced Design for Manufacturability (DFM) techniques?",
+      "options": [
+        "The increasing cost of raw silicon wafers due to limited supply.",
+        "The inability to scale transistor gate lengths below 100nm without significant quantum tunneling effects.",
+        "Process variations during manufacturing (e.g., in lithography, etching, deposition) leading to significant differences in transistor electrical characteristics (e.g., threshold voltage, channel length) and interconnect dimensions across a wafer or between chips.",
+        "The difficulty in developing new materials with higher dielectric constants for improved gate insulation.",
+        "The exponential increase in the number of transistors, leading to insurmountable design complexity."
       ],
       "correct": 2
     }
