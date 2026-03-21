@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic of Read-Only Memory (ROM) in computer systems?",
+      "question": "What is the primary purpose of 'Clock Gating' in digital IC design?",
       "options": [
-        "Data stored in ROM is retained even when power is removed (non-volatile).",
-        "ROM allows for extremely fast write operations compared to RAM.",
-        "ROM is primarily used for temporary data storage during program execution.",
-        "ROM typically requires periodic refresh cycles to maintain its data.",
-        "The contents of ROM can be easily modified by the CPU during normal operation."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In CMOS digital circuits, what is the primary contributor to *dynamic* power consumption?",
-      "options": [
-        "Leakage current through transistors in their OFF state.",
-        "Static current due to the always-on nature of certain transistors.",
-        "Power dissipated during the charging and discharging of load capacitances when gates switch.",
-        "Subthreshold current flowing in active transistors when they are theoretically off.",
-        "Gate oxide tunneling current occurring through the transistor's gate insulator."
+        "To reduce the overall clock tree delay.",
+        "To improve the signal integrity of clock signals by reducing jitter.",
+        "To reduce dynamic power consumption by disabling the clock signal to idle logic blocks.",
+        "To synchronize asynchronous signals between different clock domains.",
+        "To enable the use of higher clock frequencies across the chip."
       ],
       "correct": 2
     },
     {
-      "question": "Which type of simulation in digital IC design involves applying specific input vectors (stimuli) to a design described at the Register-Transfer Level (RTL) or gate level, and observing its outputs over time to verify functional correctness and timing behavior?",
+      "question": "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
       "options": [
-        "Formal Verification",
-        "Static Timing Analysis (STA)",
-        "Dynamic Simulation",
-        "Logic Synthesis",
-        "Electromigration Analysis"
+        "To resolve data hazards by forwarding results between pipeline stages.",
+        "To manage the allocation and deallocation of physical memory pages.",
+        "To guess the outcome of conditional branches to minimize pipeline stalls due to control hazards.",
+        "To maintain consistency of data across multiple CPU caches.",
+        "To facilitate communication between the CPU and peripheral devices."
       ],
       "correct": 2
     },
     {
-      "question": "In relaxed memory consistency models for multi-processor systems, what is the primary purpose of a \"release\" memory operation?",
+      "question": "What does 'Floorplanning' primarily aim to achieve during the early physical design phase of an integrated circuit?",
       "options": [
-        "To ensure that all previous memory operations by the issuing processor are made visible to other processors before the release operation itself completes.",
-        "To guarantee that no subsequent memory operations by the issuing processor can be reordered before the release operation.",
-        "To atomically update a shared variable and acquire a lock.",
-        "To signal that the processor is about to access shared data, potentially fetching it from another cache.",
-        "To invalidate a specific cache line in all other caches within the system."
+        "To perform a detailed static timing analysis across all clock domains.",
+        "To generate the final mask data for semiconductor fabrication.",
+        "To optimize the gate-level netlist for area and speed, creating standard cells.",
+        "To define the initial placement of major functional blocks and estimate routing resources, and I/O pin assignments.",
+        "To verify the electrical rules and layout connectivity against the schematic."
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In modern deep sub-micron Integrated Circuit (IC) fabrication, what is the primary challenge related to \"variability\" that significantly impacts yield, performance, and power, requiring advanced Design for Manufacturability (DFM) techniques?",
+      "question": "In modern deep sub-micron CMOS technology, what is the primary structural innovation of a 'FinFET' transistor compared to a traditional planar MOSFET?",
       "options": [
-        "The increasing cost of raw silicon wafers due to limited supply.",
-        "The inability to scale transistor gate lengths below 100nm without significant quantum tunneling effects.",
-        "Process variations during manufacturing (e.g., in lithography, etching, deposition) leading to significant differences in transistor electrical characteristics (e.g., threshold voltage, channel length) and interconnect dimensions across a wafer or between chips.",
-        "The difficulty in developing new materials with higher dielectric constants for improved gate insulation.",
-        "The exponential increase in the number of transistors, leading to insurmountable design complexity."
+        "It utilizes a high-k dielectric material for the gate insulator to reduce leakage current.",
+        "Its channel is a thin silicon 'fin' wrapped by the gate on multiple sides, providing better gate control and reducing short-channel effects.",
+        "It incorporates a strained silicon layer to enhance carrier mobility within the channel.",
+        "It significantly reduces the overall gate length to below 10 nanometers through advanced lithography.",
+        "It is built on a Silicon-On-Insulator (SOI) substrate for better device isolation and reduced parasitic capacitance."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of digital IC verification, what is the primary advantage of using a 'constrained-random verification' approach compared to a purely 'directed test' approach?",
+      "options": [
+        "It guarantees 100% functional coverage without any manual effort or coverage goals.",
+        "It always results in significantly faster simulation runtimes compared to directed tests.",
+        "It automatically explores a much wider and less predictable range of design behaviors, increasing the likelihood of finding corner-case bugs.",
+        "It completely eliminates the need for a sophisticated verification testbench infrastructure.",
+        "It inherently simplifies the debugging process for unexpected design failures due to its structured nature."
       ],
       "correct": 2
     }

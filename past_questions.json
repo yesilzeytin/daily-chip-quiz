@@ -1,9 +1,4 @@
 [
-  "What does the acronym ASIC stand for in the context of integrated circuit design?",
-  "In a standard CMOS digital logic gate (e.g., an inverter), what is the primary role of a P-type Metal-Oxide-Semiconductor Field-Effect Transistor (PMOS) device?",
-  "In the context of multi-processor systems and shared memory, what defines \"Sequential Consistency\" as proposed by Lamport?",
-  "In digital IC design, which power reduction technique involves temporarily shutting off the power supply to an idle functional block or an entire region of a chip to eliminate both dynamic and static power consumption in that block?",
-  "In computer architecture, what does the term \"Instruction Set Architecture (ISA)\" primarily define?",
   "What is a fundamental building block of all digital integrated circuits that performs a basic Boolean logic function (e.g., AND, OR, NOT)?",
   "In a pipelined CPU, which type of hazard occurs when a subsequent instruction needs the result of a previous instruction that has not yet completed its execution stage?",
   "Which design stage in the digital IC flow involves translating the Register-Transfer Level (RTL) description into an optimized gate-level netlist using standard cells from a technology library?",
@@ -48,5 +43,10 @@
   "In CMOS digital circuits, what is the primary contributor to *dynamic* power consumption?",
   "Which type of simulation in digital IC design involves applying specific input vectors (stimuli) to a design described at the Register-Transfer Level (RTL) or gate level, and observing its outputs over time to verify functional correctness and timing behavior?",
   "In relaxed memory consistency models for multi-processor systems, what is the primary purpose of a \"release\" memory operation?",
-  "In modern deep sub-micron Integrated Circuit (IC) fabrication, what is the primary challenge related to \"variability\" that significantly impacts yield, performance, and power, requiring advanced Design for Manufacturability (DFM) techniques?"
+  "In modern deep sub-micron Integrated Circuit (IC) fabrication, what is the primary challenge related to \"variability\" that significantly impacts yield, performance, and power, requiring advanced Design for Manufacturability (DFM) techniques?",
+  "What is the primary purpose of 'Clock Gating' in digital IC design?",
+  "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
+  "What does 'Floorplanning' primarily aim to achieve during the early physical design phase of an integrated circuit?",
+  "In modern deep sub-micron CMOS technology, what is the primary structural innovation of a 'FinFET' transistor compared to a traditional planar MOSFET?",
+  "In the context of digital IC verification, what is the primary advantage of using a 'constrained-random verification' approach compared to a purely 'directed test' approach?"
 ]
