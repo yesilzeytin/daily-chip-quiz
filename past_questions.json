@@ -1,9 +1,4 @@
 [
-  "What is a fundamental building block of all digital integrated circuits that performs a basic Boolean logic function (e.g., AND, OR, NOT)?",
-  "In a pipelined CPU, which type of hazard occurs when a subsequent instruction needs the result of a previous instruction that has not yet completed its execution stage?",
-  "Which design stage in the digital IC flow involves translating the Register-Transfer Level (RTL) description into an optimized gate-level netlist using standard cells from a technology library?",
-  "What is the primary purpose of a 'Memory Management Unit (MMU)' in a modern computer system?",
-  "In the context of formal verification for digital ICs, what does 'Equivalence Checking' primarily aim to verify?",
   "What is the primary function of a D flip-flop in digital circuits?",
   "In the context of CPU caches, what does \"N-way set associative\" imply about how cache lines are mapped from main memory?",
   "What is the primary objective of High-Level Synthesis (HLS) in the digital IC design flow?",
@@ -48,5 +43,10 @@
   "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
   "What does 'Floorplanning' primarily aim to achieve during the early physical design phase of an integrated circuit?",
   "In modern deep sub-micron CMOS technology, what is the primary structural innovation of a 'FinFET' transistor compared to a traditional planar MOSFET?",
-  "In the context of digital IC verification, what is the primary advantage of using a 'constrained-random verification' approach compared to a purely 'directed test' approach?"
+  "In the context of digital IC verification, what is the primary advantage of using a 'constrained-random verification' approach compared to a purely 'directed test' approach?",
+  "What is the primary function of a multiplexer (MUX) in digital circuits?",
+  "In the context of digital IC design and verification, what is the primary role of a \"test bench\"?",
+  "In a computer system utilizing virtual memory, what event triggers a \"page fault\"?",
+  "In out-of-order execution processors, what is the primary purpose of \"register renaming\"?",
+  "In advanced CMOS technology nodes, what is Negative Bias Temperature Instability (NBTI) primarily associated with?"
 ]

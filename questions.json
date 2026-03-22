@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of 'Clock Gating' in digital IC design?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital circuits?",
       "options": [
-        "To reduce the overall clock tree delay.",
-        "To improve the signal integrity of clock signals by reducing jitter.",
-        "To reduce dynamic power consumption by disabling the clock signal to idle logic blocks.",
-        "To synchronize asynchronous signals between different clock domains.",
-        "To enable the use of higher clock frequencies across the chip."
+        "To combine multiple data inputs into a single output, controlled by select lines.",
+        "To store a single bit of data for one clock cycle.",
+        "To perform arithmetic operations such as addition and subtraction.",
+        "To convert an analog signal to a digital signal.",
+        "To distribute a single input to multiple outputs."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the context of digital IC design and verification, what is the primary role of a \"test bench\"?",
+      "options": [
+        "To generate the physical layout of the integrated circuit.",
+        "To synthesize the RTL code into a gate-level netlist.",
+        "To provide stimuli to the Design Under Test (DUT) and check its responses against expected behavior.",
+        "To perform static timing analysis on the circuit.",
+        "To optimize the power consumption of the design."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
+      "question": "In a computer system utilizing virtual memory, what event triggers a \"page fault\"?",
       "options": [
-        "To resolve data hazards by forwarding results between pipeline stages.",
-        "To manage the allocation and deallocation of physical memory pages.",
-        "To guess the outcome of conditional branches to minimize pipeline stalls due to control hazards.",
-        "To maintain consistency of data across multiple CPU caches.",
-        "To facilitate communication between the CPU and peripheral devices."
+        "The CPU attempts to access data that is not present in any level of the cache hierarchy.",
+        "The CPU tries to execute an instruction with an invalid opcode.",
+        "The CPU attempts to access a virtual memory address whose corresponding physical page is not currently in main memory.",
+        "A division-by-zero error occurs during an arithmetic operation.",
+        "A peripheral device attempts to access a memory region without proper authorization."
       ],
       "correct": 2
     },
     {
-      "question": "What does 'Floorplanning' primarily aim to achieve during the early physical design phase of an integrated circuit?",
+      "question": "In out-of-order execution processors, what is the primary purpose of \"register renaming\"?",
       "options": [
-        "To perform a detailed static timing analysis across all clock domains.",
-        "To generate the final mask data for semiconductor fabrication.",
-        "To optimize the gate-level netlist for area and speed, creating standard cells.",
-        "To define the initial placement of major functional blocks and estimate routing resources, and I/O pin assignments.",
-        "To verify the electrical rules and layout connectivity against the schematic."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In modern deep sub-micron CMOS technology, what is the primary structural innovation of a 'FinFET' transistor compared to a traditional planar MOSFET?",
-      "options": [
-        "It utilizes a high-k dielectric material for the gate insulator to reduce leakage current.",
-        "Its channel is a thin silicon 'fin' wrapped by the gate on multiple sides, providing better gate control and reducing short-channel effects.",
-        "It incorporates a strained silicon layer to enhance carrier mobility within the channel.",
-        "It significantly reduces the overall gate length to below 10 nanometers through advanced lithography.",
-        "It is built on a Silicon-On-Insulator (SOI) substrate for better device isolation and reduced parasitic capacitance."
+        "To reduce the number of physical registers required in the processor.",
+        "To eliminate Write-After-Read (WAR) and Write-After-Write (WAW) data hazards by providing multiple physical registers for the same architectural register.",
+        "To allow the operating system to dynamically allocate register sets to different processes.",
+        "To convert register-direct addressing modes into immediate addressing modes.",
+        "To optimize compiler-generated code by assigning registers more efficiently during compilation."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of digital IC verification, what is the primary advantage of using a 'constrained-random verification' approach compared to a purely 'directed test' approach?",
+      "question": "In advanced CMOS technology nodes, what is Negative Bias Temperature Instability (NBTI) primarily associated with?",
       "options": [
-        "It guarantees 100% functional coverage without any manual effort or coverage goals.",
-        "It always results in significantly faster simulation runtimes compared to directed tests.",
-        "It automatically explores a much wider and less predictable range of design behaviors, increasing the likelihood of finding corner-case bugs.",
-        "It completely eliminates the need for a sophisticated verification testbench infrastructure.",
-        "It inherently simplifies the debugging process for unexpected design failures due to its structured nature."
+        "A degradation mechanism causing a shift in the threshold voltage of NMOS transistors over time due to high electric fields.",
+        "A reliability issue primarily affecting the gate oxide of PMOS transistors, leading to a shift in their threshold voltage and reduced drive current under negative gate bias and elevated temperature.",
+        "A parasitic capacitance effect that causes signal delays in long interconnects at high frequencies.",
+        "A manufacturing defect where adjacent metal lines are unintentionally shorted due to lithography errors.",
+        "A phenomenon where a transistor's channel conductivity increases due to leakage current from the drain to the bulk."
       ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
