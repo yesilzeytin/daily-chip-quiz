@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the output of a 2-input NAND gate if one input is HIGH (1) and the other is LOW (0)?",
+      "question": "What is the primary function of an Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "HIGH (1)",
-        "LOW (0)",
-        "Undefined",
-        "Depends on the gate type",
-        "Oscillating"
+        "To be programmed by the user to implement various digital functions, typically after manufacturing.",
+        "To provide a general-purpose programmable processing unit for software execution.",
+        "To store large amounts of data for long-term retention.",
+        "To perform a specific, fixed set of functions, often designed for a particular application.",
+        "To simulate complex analog circuits during the design phase."
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In a pipelined processor, a 'data hazard' primarily occurs when:",
+      "question": "In a typical CPU pipeline, which stage is primarily responsible for identifying the type of instruction and fetching its operands?",
       "options": [
-        "An instruction tries to read a register before a previous instruction has written to it.",
-        "The processor attempts to fetch an instruction from a non-existent memory address.",
-        "Two instructions attempt to use the same functional unit simultaneously.",
-        "A branch instruction's target address is not known until late in the pipeline.",
-        "An instruction requires an operand from a different core."
+        "Fetch",
+        "Execute",
+        "Memory Access",
+        "Write Back",
+        "Decode"
       ],
-      "correct": 0
+      "correct": 4
     },
     {
-      "question": "Which formal verification technique is primarily used to mathematically prove that two different representations of a digital design (e.g., a Register-Transfer Level (RTL) description and its synthesized gate-level netlist) behave identically?",
+      "question": "Which of the following best describes the role of a \"scan chain\" in Design for Testability (DFT) for digital ICs?",
       "options": [
-        "Property Checking",
-        "Equivalence Checking",
-        "Model Checking",
-        "Assertion-Based Verification",
-        "Coverage-Driven Verification"
+        "To provide a high-speed data path for critical memory operations within the chip.",
+        "To convert analog signals to digital for processing at the chip boundary.",
+        "To allow internal flip-flops to be reconfigured into a shift register for testing and fault detection.",
+        "To manage power delivery to different functional blocks, reducing dynamic power consumption.",
+        "To verify the physical layout of the chip against its schematic representation."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In advanced microprocessor architectures, what is the primary purpose of a \"reorder buffer\" (ROB)?",
+      "options": [
+        "To buffer instructions before they enter the instruction pipeline, optimizing instruction fetch bandwidth.",
+        "To translate virtual addresses to physical addresses quickly to reduce memory access latency.",
+        "To store the results of speculatively executed instructions in program order until they can be committed to architectural state, ensuring precise exceptions.",
+        "To manage the allocation and deallocation of physical registers during register renaming.",
+        "To prefetch data from main memory into the cache based on predicted access patterns."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary challenge addressed by the use of \"Clock Domain Crossing (CDC) synchronization circuits\" in digital IC design?",
+      "options": [
+        "Minimizing static power leakage in idle functional blocks.",
+        "Ensuring data integrity and avoiding metastability when transferring signals between circuits operating at different clock frequencies or phases.",
+        "Reducing the physical area occupied by the clock distribution network.",
+        "Preventing electromigration in high-current clock lines.",
+        "Optimizing the number of pipeline stages in a CPU for maximum throughput."
       ],
       "correct": 1
-    },
-    {
-      "question": "In the physical design of deep sub-micron integrated circuits, what is the primary adverse effect that 'IR drop' analysis seeks to identify and mitigate?",
-      "options": [
-        "Excessive leakage current in standby mode.",
-        "Signal integrity issues due to crosstalk between adjacent interconnects.",
-        "Degradation of circuit performance and reliability due to voltage drops across power delivery networks.",
-        "Increased thermal runaway caused by inadequate heat dissipation.",
-        "Metastability issues in asynchronous circuit interfaces."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which cache mapping scheme offers the highest flexibility, allowing any main memory block to be placed in any cache line, but typically requires more complex hardware for tag comparison?",
-      "options": [
-        "Direct-mapped cache",
-        "Set-associative cache",
-        "Fully associative cache",
-        "Victim cache",
-        "Write-through cache"
-      ],
-      "correct": 2
     }
   ]
 }

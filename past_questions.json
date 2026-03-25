@@ -1,9 +1,4 @@
 [
-  "What is the primary advantage of Static Random-Access Memory (SRAM) over Dynamic Random-Access Memory (DRAM) when used in CPU cache design?",
-  "In a typical synchronous digital circuit, what is the fundamental purpose of the setup time requirement for a flip-flop?",
-  "Which of the following best describes the function of a \"Reservation Station\" in a dynamically scheduled, out-of-order execution processor?",
-  "In advanced semiconductor manufacturing, what does Chemical Mechanical Planarization (CMP) primarily achieve?",
-  "In the context of CPU cache memory, what event defines a \"cache hit\"?",
   "What is the main purpose of the Program Counter (PC) in a CPU?",
   "In the digital IC design flow, after logic synthesis, what is the primary goal of the \"Place\" stage during physical implementation?",
   "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system with virtual memory?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, a 'data hazard' primarily occurs when:",
   "Which formal verification technique is primarily used to mathematically prove that two different representations of a digital design (e.g., a Register-Transfer Level (RTL) description and its synthesized gate-level netlist) behave identically?",
   "In the physical design of deep sub-micron integrated circuits, what is the primary adverse effect that 'IR drop' analysis seeks to identify and mitigate?",
-  "Which cache mapping scheme offers the highest flexibility, allowing any main memory block to be placed in any cache line, but typically requires more complex hardware for tag comparison?"
+  "Which cache mapping scheme offers the highest flexibility, allowing any main memory block to be placed in any cache line, but typically requires more complex hardware for tag comparison?",
+  "What is the primary function of an Application-Specific Integrated Circuit (ASIC)?",
+  "In a typical CPU pipeline, which stage is primarily responsible for identifying the type of instruction and fetching its operands?",
+  "Which of the following best describes the role of a \"scan chain\" in Design for Testability (DFT) for digital ICs?",
+  "In advanced microprocessor architectures, what is the primary purpose of a \"reorder buffer\" (ROB)?",
+  "What is the primary challenge addressed by the use of \"Clock Domain Crossing (CDC) synchronization circuits\" in digital IC design?"
 ]
