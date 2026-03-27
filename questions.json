@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the most basic digital component that implements a Boolean function, typically having one or more inputs and a single output?",
+      "question": "What is the primary function of a D-type flip-flop in digital circuits?",
       "options": [
-        "Transistor",
-        "Resistor",
-        "Logic Gate",
-        "Capacitor",
-        "Diode"
+        "Store a single bit of data",
+        "Perform arithmetic operations",
+        "Implement a combinational logic function",
+        "Amplify analog signals",
+        "Generate a clock signal"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In a pipelined processor, which type of hazard occurs when the pipeline is unable to fetch the correct instruction sequence due to a conditional branch instruction whose outcome (taken or not taken) is not known until late in the pipeline?",
+      "question": "What is the primary role of the Translation Lookaside Buffer (TLB) in a computer system?",
       "options": [
-        "Structural Hazard",
-        "Data Hazard",
-        "Resource Hazard",
-        "Control Hazard (or Branch Hazard)",
-        "Memory Hazard"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of Design for Testability (DFT) for digital integrated circuits, what is the primary role of Automatic Test Pattern Generation (ATPG)?",
-      "options": [
-        "To automatically synthesize the Register-Transfer Level (RTL) code into a gate-level netlist.",
-        "To generate a sequence of input vectors that can detect potential manufacturing defects (faults) in the circuit.",
-        "To optimize the power consumption of the design during physical implementation.",
-        "To verify the functional correctness of the design using formal methods.",
-        "To determine the critical path delay of the circuit for timing closure."
+        "Manage cache coherence between multiple processors",
+        "Speed up virtual address to physical address translation",
+        "Store frequently used CPU instructions for quick access",
+        "Perform complex floating-point arithmetic operations",
+        "Protect against stack overflow vulnerabilities"
       ],
       "correct": 1
     },
     {
-      "question": "In multi-processor computer architectures, which memory consistency model guarantees that the result of any execution is the same as if all operations from all processors were executed in some sequential order, and the operations of each individual processor appear in that sequence in the order specified by its program?",
+      "question": "In the context of semiconductor manufacturing, what does the term 'yield' primarily refer to?",
       "options": [
-        "Release Consistency",
-        "Weak Consistency",
-        "Eventual Consistency",
-        "Sequential Consistency",
-        "Processor Consistency"
+        "The total number of wafers produced per month",
+        "The maximum operating frequency achieved by a chip",
+        "The percentage of functional (defect-free) chips produced from a wafer",
+        "The amount of raw silicon material consumed in production",
+        "The power consumption of a fabricated integrated circuit"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
+      "options": [
+        "Mathematically verify functional equivalence between RTL and gate-level netlists",
+        "Identify and classify all possible manufacturing defects through fault simulation",
+        "Optimize power consumption by identifying and disabling inactive logic blocks",
+        "Prove the absence of setup and hold violations, and ensure all timing paths meet performance requirements without relying on extensive simulations",
+        "Generate automatic test patterns for production testing of the fabricated chip"
       ],
       "correct": 3
     },
     {
-      "question": "During the physical verification phase of an integrated circuit design, which analysis is primarily focused on identifying potential electrical issues such as floating nets, shorts between power/ground domains, or incorrect power/ground connections, which are not typically caught by Design Rule Checking (DRC) or Layout Versus Schematic (LVS)?",
+      "question": "In an out-of-order execution processor utilizing a mechanism like Tomasulo's algorithm, what is the primary function of 'Reservation Stations'?",
       "options": [
-        "Design Rule Checking (DRC)",
-        "Layout Versus Schematic (LVS)",
-        "Extraction Rule Checking (ERC)",
-        "Electrical Rule Checking (ERC)",
-        "Formal Verification (FV)"
+        "Store data for load and store instructions that are pending memory access",
+        "Perform speculative fetching of instructions from memory based on branch predictions",
+        "Reorder committed instructions to ensure they are written back to registers in program order",
+        "Hold instructions and their operands until all required operands are ready, allowing execution out of program order",
+        "Translate virtual addresses into physical addresses for memory access"
       ],
       "correct": 3
     }

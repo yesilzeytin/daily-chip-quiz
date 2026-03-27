@@ -1,9 +1,4 @@
 [
-  "In synchronous digital circuits, what is the primary purpose of a 'reset' signal?",
-  "In a multi-processor system with shared cache memory, what is the primary purpose of the MESI protocol?",
-  "During the physical verification phase of an integrated circuit, what is the main objective of Design Rule Checking (DRC)?",
-  "What is the primary goal of Dynamic Voltage and Frequency Scaling (DVFS) in modern processor and SoC designs?",
-  "In synchronous digital circuits, what is the primary purpose of the \"hold time\" requirement for a flip-flop?",
   "What does the acronym FPGA stand for in the context of digital electronics?",
   "During the logic synthesis stage of digital IC design, what is the primary objective of \"logic optimization\"?",
   "In modern complex System-on-Chip (SoC) designs, what is the primary motivation for adopting a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, which type of hazard occurs when the pipeline is unable to fetch the correct instruction sequence due to a conditional branch instruction whose outcome (taken or not taken) is not known until late in the pipeline?",
   "In the context of Design for Testability (DFT) for digital integrated circuits, what is the primary role of Automatic Test Pattern Generation (ATPG)?",
   "In multi-processor computer architectures, which memory consistency model guarantees that the result of any execution is the same as if all operations from all processors were executed in some sequential order, and the operations of each individual processor appear in that sequence in the order specified by its program?",
-  "During the physical verification phase of an integrated circuit design, which analysis is primarily focused on identifying potential electrical issues such as floating nets, shorts between power/ground domains, or incorrect power/ground connections, which are not typically caught by Design Rule Checking (DRC) or Layout Versus Schematic (LVS)?"
+  "During the physical verification phase of an integrated circuit design, which analysis is primarily focused on identifying potential electrical issues such as floating nets, shorts between power/ground domains, or incorrect power/ground connections, which are not typically caught by Design Rule Checking (DRC) or Layout Versus Schematic (LVS)?",
+  "What is the primary function of a D-type flip-flop in digital circuits?",
+  "What is the primary role of the Translation Lookaside Buffer (TLB) in a computer system?",
+  "In the context of semiconductor manufacturing, what does the term 'yield' primarily refer to?",
+  "In the context of digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
+  "In an out-of-order execution processor utilizing a mechanism like Tomasulo's algorithm, what is the primary function of 'Reservation Stations'?"
 ]
