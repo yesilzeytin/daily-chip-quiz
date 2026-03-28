@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a D-type flip-flop in digital circuits?",
+      "question": "In synchronous digital circuits, what is the primary role of the clock signal?",
       "options": [
-        "Store a single bit of data",
-        "Perform arithmetic operations",
-        "Implement a combinational logic function",
-        "Amplify analog signals",
-        "Generate a clock signal"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What is the primary role of the Translation Lookaside Buffer (TLB) in a computer system?",
-      "options": [
-        "Manage cache coherence between multiple processors",
-        "Speed up virtual address to physical address translation",
-        "Store frequently used CPU instructions for quick access",
-        "Perform complex floating-point arithmetic operations",
-        "Protect against stack overflow vulnerabilities"
+        "To provide power to the circuit components.",
+        "To synchronize the operations of all sequential elements, ensuring correct data transfer and state updates.",
+        "To amplify the output signals of logic gates.",
+        "To convert analog input signals into digital ones.",
+        "To store data indefinitely without power."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of semiconductor manufacturing, what does the term 'yield' primarily refer to?",
+      "question": "Which principle states that programs tend to reuse data and instructions that they have used recently or that are located near data/instructions they have used recently, forming the basis for effective cache memory design?",
       "options": [
-        "The total number of wafers produced per month",
-        "The maximum operating frequency achieved by a chip",
-        "The percentage of functional (defect-free) chips produced from a wafer",
-        "The amount of raw silicon material consumed in production",
-        "The power consumption of a fabricated integrated circuit"
+        "Principle of Superposition",
+        "Principle of Locality",
+        "Principle of Inductance",
+        "Principle of Duality",
+        "Principle of Uncertainty"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In digital IC verification, what is 'functional coverage' primarily used to measure?",
+      "options": [
+        "The physical area occupied by the logic gates on the chip.",
+        "The percentage of code lines (e.g., in an HDL description) executed during simulation.",
+        "How thoroughly the design's specified behaviors and features have been exercised by the test suite.",
+        "The number of power domains present within the Integrated Circuit.",
+        "The maximum frequency at which the clock signal can reliably operate."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
+      "question": "During the physical design and sign-off flow for integrated circuits, what is the primary purpose of 'parasitic extraction'?",
       "options": [
-        "Mathematically verify functional equivalence between RTL and gate-level netlists",
-        "Identify and classify all possible manufacturing defects through fault simulation",
-        "Optimize power consumption by identifying and disabling inactive logic blocks",
-        "Prove the absence of setup and hold violations, and ensure all timing paths meet performance requirements without relying on extensive simulations",
-        "Generate automatic test patterns for production testing of the fabricated chip"
+        "To remove unwanted doping impurities from the silicon substrate.",
+        "To determine the optimal placement of standard cells and macro blocks.",
+        "To extract the layout's geometric features for mask generation.",
+        "To quantify the resistance and capacitance of interconnects and devices from the layout for accurate timing and power analysis.",
+        "To identify potential electromigration hot spots within the metal layers."
       ],
       "correct": 3
     },
     {
-      "question": "In an out-of-order execution processor utilizing a mechanism like Tomasulo's algorithm, what is the primary function of 'Reservation Stations'?",
+      "question": "Which of the following best describes an Instruction Set Architecture (ISA)?",
       "options": [
-        "Store data for load and store instructions that are pending memory access",
-        "Perform speculative fetching of instructions from memory based on branch predictions",
-        "Reorder committed instructions to ensure they are written back to registers in program order",
-        "Hold instructions and their operands until all required operands are ready, allowing execution out of program order",
-        "Translate virtual addresses into physical addresses for memory access"
+        "The physical layout and dimensions of the CPU chip.",
+        "A hardware abstraction layer that manages memory and peripherals.",
+        "The set of instructions that a CPU can understand and execute, along with their formats, addressing modes, and observable effects.",
+        "A software framework for developing drivers for new hardware components.",
+        "A technique for reducing dynamic power consumption by disabling unused functional units."
       ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }

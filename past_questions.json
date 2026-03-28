@@ -1,9 +1,4 @@
 [
-  "What does the acronym FPGA stand for in the context of digital electronics?",
-  "During the logic synthesis stage of digital IC design, what is the primary objective of \"logic optimization\"?",
-  "In modern complex System-on-Chip (SoC) designs, what is the primary motivation for adopting a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
-  "What is the fundamental advantage that formal verification techniques (e.g., model checking, equivalence checking) offer over traditional simulation-based verification in digital IC design?",
-  "In high-performance computer architectures, what is the primary goal of \"speculative execution\"?",
   "What is the primary characteristic that distinguishes an Exclusive OR (XOR) gate from an OR gate in digital logic?",
   "In a cache coherence protocol such as MESI (Modified, Exclusive, Shared, Invalid), what does the 'Invalid' state of a cache line primarily indicate?",
   "In the context of digital IC verification, what is the primary strength of Model Checking as a formal verification technique, distinct from simulation-based verification?",
@@ -48,5 +43,10 @@
   "What is the primary role of the Translation Lookaside Buffer (TLB) in a computer system?",
   "In the context of semiconductor manufacturing, what does the term 'yield' primarily refer to?",
   "In the context of digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
-  "In an out-of-order execution processor utilizing a mechanism like Tomasulo's algorithm, what is the primary function of 'Reservation Stations'?"
+  "In an out-of-order execution processor utilizing a mechanism like Tomasulo's algorithm, what is the primary function of 'Reservation Stations'?",
+  "In synchronous digital circuits, what is the primary role of the clock signal?",
+  "Which principle states that programs tend to reuse data and instructions that they have used recently or that are located near data/instructions they have used recently, forming the basis for effective cache memory design?",
+  "In digital IC verification, what is 'functional coverage' primarily used to measure?",
+  "During the physical design and sign-off flow for integrated circuits, what is the primary purpose of 'parasitic extraction'?",
+  "Which of the following best describes an Instruction Set Architecture (ISA)?"
 ]
