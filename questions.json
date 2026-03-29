@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In synchronous digital circuits, what is the primary role of the clock signal?",
+      "question": "What is the primary characteristic that distinguishes sequential logic circuits from combinational logic circuits?",
       "options": [
-        "To provide power to the circuit components.",
-        "To synchronize the operations of all sequential elements, ensuring correct data transfer and state updates.",
-        "To amplify the output signals of logic gates.",
-        "To convert analog input signals into digital ones.",
-        "To store data indefinitely without power."
+        "Sequential circuits have memory and their output depends on current and past inputs, whereas combinational circuits' output depends only on current inputs.",
+        "Combinational circuits always require a clock signal to operate correctly.",
+        "Sequential circuits use only basic logic gates like AND, OR, and NOT, without any feedback paths.",
+        "Combinational circuits can store data indefinitely even without power.",
+        "Sequential circuits are inherently faster in processing data compared to combinational circuits of similar complexity."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "When a cache line needs to be replaced to make room for a new block, which of the following cache eviction policies aims to discard the block that has not been accessed for the longest period of time?",
+      "options": [
+        "Least Recently Used (LRU)",
+        "First-In, First-Out (FIFO)",
+        "Random Replacement (RR)",
+        "Most Recently Used (MRU)",
+        "Least Frequently Used (LFU)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the physical design phase of an integrated circuit, what is the primary objective of the 'Placement' step?",
+      "options": [
+        "To convert the Register-Transfer Level (RTL) description into a gate-level netlist.",
+        "To assign physical locations on the chip for all standard cells, macros, and I/O pins, while minimizing wire length and meeting timing constraints.",
+        "To verify the functional correctness of the design using simulation and formal methods.",
+        "To connect all the placed components with actual physical wires (interconnects) and minimize routing congestion.",
+        "To verify that the layout adheres to manufacturing design rules specified by the foundry."
       ],
       "correct": 1
     },
     {
-      "question": "Which principle states that programs tend to reuse data and instructions that they have used recently or that are located near data/instructions they have used recently, forming the basis for effective cache memory design?",
+      "question": "Which of the following parallel processing architectures is best described by having multiple processing elements that each execute different instructions on different data streams simultaneously?",
       "options": [
-        "Principle of Superposition",
-        "Principle of Locality",
-        "Principle of Inductance",
-        "Principle of Duality",
-        "Principle of Uncertainty"
+        "Single Instruction, Multiple Data (SIMD)",
+        "Multiple Instruction, Single Data (MISD)",
+        "Multiple Instruction, Multiple Data (MIMD)",
+        "Single Instruction, Single Data (SISD)",
+        "Vector Processor"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In synchronous digital circuits, which of the following describes the 'setup time' requirement for a flip-flop?",
+      "options": [
+        "The minimum amount of time the data input must remain stable *after* the active clock edge for it to be reliably latched.",
+        "The minimum amount of time the data input must be stable *before* the active clock edge for it to be reliably latched.",
+        "The maximum propagation delay allowed for the clock signal to reach the flip-flop's clock input.",
+        "The time it takes for the flip-flop's output to transition to its new state after the active clock edge.",
+        "The interval during which the output of the flip-flop is metastable or indeterminate after a clock transition."
       ],
       "correct": 1
-    },
-    {
-      "question": "In digital IC verification, what is 'functional coverage' primarily used to measure?",
-      "options": [
-        "The physical area occupied by the logic gates on the chip.",
-        "The percentage of code lines (e.g., in an HDL description) executed during simulation.",
-        "How thoroughly the design's specified behaviors and features have been exercised by the test suite.",
-        "The number of power domains present within the Integrated Circuit.",
-        "The maximum frequency at which the clock signal can reliably operate."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "During the physical design and sign-off flow for integrated circuits, what is the primary purpose of 'parasitic extraction'?",
-      "options": [
-        "To remove unwanted doping impurities from the silicon substrate.",
-        "To determine the optimal placement of standard cells and macro blocks.",
-        "To extract the layout's geometric features for mask generation.",
-        "To quantify the resistance and capacitance of interconnects and devices from the layout for accurate timing and power analysis.",
-        "To identify potential electromigration hot spots within the metal layers."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Which of the following best describes an Instruction Set Architecture (ISA)?",
-      "options": [
-        "The physical layout and dimensions of the CPU chip.",
-        "A hardware abstraction layer that manages memory and peripherals.",
-        "The set of instructions that a CPU can understand and execute, along with their formats, addressing modes, and observable effects.",
-        "A software framework for developing drivers for new hardware components.",
-        "A technique for reducing dynamic power consumption by disabling unused functional units."
-      ],
-      "correct": 2
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes an Exclusive OR (XOR) gate from an OR gate in digital logic?",
-  "In a cache coherence protocol such as MESI (Modified, Exclusive, Shared, Invalid), what does the 'Invalid' state of a cache line primarily indicate?",
-  "In the context of digital IC verification, what is the primary strength of Model Checking as a formal verification technique, distinct from simulation-based verification?",
-  "In deep sub-micron digital ICs, which reliability concern arises from the momentum transfer between flowing electrons and metal ions in interconnects, causing material displacement and potentially leading to opens or shorts over time?",
-  "Within a Central Processing Unit (CPU), what is the primary function of the Control Unit?",
   "What is the primary characteristic of Read-Only Memory (ROM) in computer systems?",
   "In CMOS digital circuits, what is the primary contributor to *dynamic* power consumption?",
   "Which type of simulation in digital IC design involves applying specific input vectors (stimuli) to a design described at the Register-Transfer Level (RTL) or gate level, and observing its outputs over time to verify functional correctness and timing behavior?",
@@ -48,5 +43,10 @@
   "Which principle states that programs tend to reuse data and instructions that they have used recently or that are located near data/instructions they have used recently, forming the basis for effective cache memory design?",
   "In digital IC verification, what is 'functional coverage' primarily used to measure?",
   "During the physical design and sign-off flow for integrated circuits, what is the primary purpose of 'parasitic extraction'?",
-  "Which of the following best describes an Instruction Set Architecture (ISA)?"
+  "Which of the following best describes an Instruction Set Architecture (ISA)?",
+  "What is the primary characteristic that distinguishes sequential logic circuits from combinational logic circuits?",
+  "When a cache line needs to be replaced to make room for a new block, which of the following cache eviction policies aims to discard the block that has not been accessed for the longest period of time?",
+  "In the physical design phase of an integrated circuit, what is the primary objective of the 'Placement' step?",
+  "Which of the following parallel processing architectures is best described by having multiple processing elements that each execute different instructions on different data streams simultaneously?",
+  "In synchronous digital circuits, which of the following describes the 'setup time' requirement for a flip-flop?"
 ]
