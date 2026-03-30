@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic of Read-Only Memory (ROM) in computer systems?",
-  "In CMOS digital circuits, what is the primary contributor to *dynamic* power consumption?",
-  "Which type of simulation in digital IC design involves applying specific input vectors (stimuli) to a design described at the Register-Transfer Level (RTL) or gate level, and observing its outputs over time to verify functional correctness and timing behavior?",
-  "In relaxed memory consistency models for multi-processor systems, what is the primary purpose of a \"release\" memory operation?",
-  "In modern deep sub-micron Integrated Circuit (IC) fabrication, what is the primary challenge related to \"variability\" that significantly impacts yield, performance, and power, requiring advanced Design for Manufacturability (DFM) techniques?",
   "What is the primary purpose of 'Clock Gating' in digital IC design?",
   "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
   "What does 'Floorplanning' primarily aim to achieve during the early physical design phase of an integrated circuit?",
@@ -48,5 +43,10 @@
   "When a cache line needs to be replaced to make room for a new block, which of the following cache eviction policies aims to discard the block that has not been accessed for the longest period of time?",
   "In the physical design phase of an integrated circuit, what is the primary objective of the 'Placement' step?",
   "Which of the following parallel processing architectures is best described by having multiple processing elements that each execute different instructions on different data streams simultaneously?",
-  "In synchronous digital circuits, which of the following describes the 'setup time' requirement for a flip-flop?"
+  "In synchronous digital circuits, which of the following describes the 'setup time' requirement for a flip-flop?",
+  "What is the fundamental building block of sequential logic circuits used to store a single bit of information?",
+  "In computer architecture, what is the primary purpose of a cache memory?",
+  "In the physical design of an Integrated Circuit (IC), what is the primary function of the 'power delivery network' (PDN), also known as the power grid?",
+  "In System-on-Chip (SoC) design and verification, what is the primary objective of employing \"Transaction-Level Modeling (TLM)\"?",
+  "What is the primary reason for incorporating \"Error Correcting Codes (ECC)\" into memory systems (e.g., DRAM, caches)?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that distinguishes sequential logic circuits from combinational logic circuits?",
+      "question": "What is the fundamental building block of sequential logic circuits used to store a single bit of information?",
       "options": [
-        "Sequential circuits have memory and their output depends on current and past inputs, whereas combinational circuits' output depends only on current inputs.",
-        "Combinational circuits always require a clock signal to operate correctly.",
-        "Sequential circuits use only basic logic gates like AND, OR, and NOT, without any feedback paths.",
-        "Combinational circuits can store data indefinitely even without power.",
-        "Sequential circuits are inherently faster in processing data compared to combinational circuits of similar complexity."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "When a cache line needs to be replaced to make room for a new block, which of the following cache eviction policies aims to discard the block that has not been accessed for the longest period of time?",
-      "options": [
-        "Least Recently Used (LRU)",
-        "First-In, First-Out (FIFO)",
-        "Random Replacement (RR)",
-        "Most Recently Used (MRU)",
-        "Least Frequently Used (LFU)"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the physical design phase of an integrated circuit, what is the primary objective of the 'Placement' step?",
-      "options": [
-        "To convert the Register-Transfer Level (RTL) description into a gate-level netlist.",
-        "To assign physical locations on the chip for all standard cells, macros, and I/O pins, while minimizing wire length and meeting timing constraints.",
-        "To verify the functional correctness of the design using simulation and formal methods.",
-        "To connect all the placed components with actual physical wires (interconnects) and minimize routing congestion.",
-        "To verify that the layout adheres to manufacturing design rules specified by the foundry."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which of the following parallel processing architectures is best described by having multiple processing elements that each execute different instructions on different data streams simultaneously?",
-      "options": [
-        "Single Instruction, Multiple Data (SIMD)",
-        "Multiple Instruction, Single Data (MISD)",
-        "Multiple Instruction, Multiple Data (MIMD)",
-        "Single Instruction, Single Data (SISD)",
-        "Vector Processor"
+        "AND gate",
+        "Multiplexer",
+        "Flip-flop",
+        "Full adder",
+        "Decoder"
       ],
       "correct": 2
     },
     {
-      "question": "In synchronous digital circuits, which of the following describes the 'setup time' requirement for a flip-flop?",
+      "question": "In computer architecture, what is the primary purpose of a cache memory?",
       "options": [
-        "The minimum amount of time the data input must remain stable *after* the active clock edge for it to be reliably latched.",
-        "The minimum amount of time the data input must be stable *before* the active clock edge for it to be reliably latched.",
-        "The maximum propagation delay allowed for the clock signal to reach the flip-flop's clock input.",
-        "The time it takes for the flip-flop's output to transition to its new state after the active clock edge.",
-        "The interval during which the output of the flip-flop is metastable or indeterminate after a clock transition."
+        "To store permanent system boot instructions.",
+        "To act as the main long-term storage for user data.",
+        "To provide fast access to frequently used data and instructions, bridging the speed gap between CPU and main memory.",
+        "To regulate power supply to various components.",
+        "To perform complex arithmetic operations."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the physical design of an Integrated Circuit (IC), what is the primary function of the 'power delivery network' (PDN), also known as the power grid?",
+      "options": [
+        "To generate clock signals for all sequential elements.",
+        "To route high-speed data signals between functional blocks.",
+        "To provide stable and sufficient voltage and ground connections to all active components on the chip.",
+        "To act as a heat sink for thermal management.",
+        "To implement complex logical functions."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In System-on-Chip (SoC) design and verification, what is the primary objective of employing \"Transaction-Level Modeling (TLM)\"?",
+      "options": [
+        "To perform detailed gate-level timing simulations for final sign-off.",
+        "To enable early functional verification and architectural exploration by abstracting communication details and focusing on data transfers.",
+        "To generate manufacturing test patterns for silicon debug.",
+        "To automatically synthesize RTL code from high-level specifications.",
+        "To optimize the physical layout for power and area."
       ],
       "correct": 1
+    },
+    {
+      "question": "What is the primary reason for incorporating \"Error Correcting Codes (ECC)\" into memory systems (e.g., DRAM, caches)?",
+      "options": [
+        "To encrypt sensitive data stored in memory, enhancing security.",
+        "To compress data, thereby increasing the effective memory capacity.",
+        "To detect and correct single-bit and sometimes multi-bit errors caused by various factors like alpha particles, cosmic rays, or manufacturing defects, improving data integrity.",
+        "To speed up memory access times by prefetching data.",
+        "To manage memory power consumption during idle states."
+      ],
+      "correct": 2
     }
   ]
 }
