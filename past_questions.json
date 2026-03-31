@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of 'Clock Gating' in digital IC design?",
-  "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
-  "What does 'Floorplanning' primarily aim to achieve during the early physical design phase of an integrated circuit?",
-  "In modern deep sub-micron CMOS technology, what is the primary structural innovation of a 'FinFET' transistor compared to a traditional planar MOSFET?",
-  "In the context of digital IC verification, what is the primary advantage of using a 'constrained-random verification' approach compared to a purely 'directed test' approach?",
   "What is the primary function of a multiplexer (MUX) in digital circuits?",
   "In the context of digital IC design and verification, what is the primary role of a \"test bench\"?",
   "In a computer system utilizing virtual memory, what event triggers a \"page fault\"?",
@@ -48,5 +43,10 @@
   "In computer architecture, what is the primary purpose of a cache memory?",
   "In the physical design of an Integrated Circuit (IC), what is the primary function of the 'power delivery network' (PDN), also known as the power grid?",
   "In System-on-Chip (SoC) design and verification, what is the primary objective of employing \"Transaction-Level Modeling (TLM)\"?",
-  "What is the primary reason for incorporating \"Error Correcting Codes (ECC)\" into memory systems (e.g., DRAM, caches)?"
+  "What is the primary reason for incorporating \"Error Correcting Codes (ECC)\" into memory systems (e.g., DRAM, caches)?",
+  "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
+  "In digital circuit timing analysis, what does the \"critical path\" primarily represent?",
+  "In the context of digital IC verification, what is the primary role of an \"assertion\"?",
+  "In a multi-processor system with private caches for each core, what is the primary problem that \"cache coherence protocols\" aim to address?",
+  "What is the primary abstraction level and goal of Register-Transfer Level (RTL) design in the digital IC design flow?"
 ]

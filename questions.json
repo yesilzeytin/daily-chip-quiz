@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block of sequential logic circuits used to store a single bit of information?",
+      "question": "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "AND gate",
-        "Multiplexer",
-        "Flip-flop",
-        "Full adder",
-        "Decoder"
+        "FPGAs are designed exclusively for analog signal processing, while ASICs are for digital.",
+        "ASICs can be reconfigured or reprogrammed after manufacturing by the end-user, whereas FPGAs cannot.",
+        "FPGAs are programmed post-manufacturing by the user or designer, enabling flexibility and rapid prototyping.",
+        "ASICs are generally much slower and consume more power than equivalent FPGA designs.",
+        "FPGAs require a full custom fabrication process for each new design, unlike ASICs."
       ],
       "correct": 2
     },
     {
-      "question": "In computer architecture, what is the primary purpose of a cache memory?",
+      "question": "In digital circuit timing analysis, what does the \"critical path\" primarily represent?",
       "options": [
-        "To store permanent system boot instructions.",
-        "To act as the main long-term storage for user data.",
-        "To provide fast access to frequently used data and instructions, bridging the speed gap between CPU and main memory.",
-        "To regulate power supply to various components.",
-        "To perform complex arithmetic operations."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical design of an Integrated Circuit (IC), what is the primary function of the 'power delivery network' (PDN), also known as the power grid?",
-      "options": [
-        "To generate clock signals for all sequential elements.",
-        "To route high-speed data signals between functional blocks.",
-        "To provide stable and sufficient voltage and ground connections to all active components on the chip.",
-        "To act as a heat sink for thermal management.",
-        "To implement complex logical functions."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In System-on-Chip (SoC) design and verification, what is the primary objective of employing \"Transaction-Level Modeling (TLM)\"?",
-      "options": [
-        "To perform detailed gate-level timing simulations for final sign-off.",
-        "To enable early functional verification and architectural exploration by abstracting communication details and focusing on data transfers.",
-        "To generate manufacturing test patterns for silicon debug.",
-        "To automatically synthesize RTL code from high-level specifications.",
-        "To optimize the physical layout for power and area."
+        "The shortest electrical connection path between a power supply and ground.",
+        "The longest combinational delay path in the circuit, determining the maximum operating frequency.",
+        "The path through the circuit that consumes the most static power.",
+        "The data path most frequently accessed during normal operation.",
+        "The path used for chip-level testing and debug, such as scan chains."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary reason for incorporating \"Error Correcting Codes (ECC)\" into memory systems (e.g., DRAM, caches)?",
+      "question": "In the context of digital IC verification, what is the primary role of an \"assertion\"?",
       "options": [
-        "To encrypt sensitive data stored in memory, enhancing security.",
-        "To compress data, thereby increasing the effective memory capacity.",
-        "To detect and correct single-bit and sometimes multi-bit errors caused by various factors like alpha particles, cosmic rays, or manufacturing defects, improving data integrity.",
-        "To speed up memory access times by prefetching data.",
-        "To manage memory power consumption during idle states."
+        "To automatically generate synthesizable Register-Transfer Level (RTL) code from high-level specifications.",
+        "To define the physical placement of cells and routing of interconnects on the chip layout.",
+        "To extract parasitic resistance and capacitance values from the final physical layout.",
+        "To formally specify properties that the design must satisfy, enabling checks during simulation or formal verification.",
+        "To convert parallel data into serial data for transmission."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In a multi-processor system with private caches for each core, what is the primary problem that \"cache coherence protocols\" aim to address?",
+      "options": [
+        "Ensuring that all processors have sufficient local memory bandwidth to access their private data.",
+        "Preventing deadlocks that can occur when multiple processors contend for shared system bus access.",
+        "Maintaining a consistent view of shared data across multiple private caches and main memory when one or more processors modify that data.",
+        "Optimizing the cache hit rate by prefetching data that is likely to be accessed soon by any processor.",
+        "Minimizing the power consumption of the cache hierarchy through intelligent clock gating."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary abstraction level and goal of Register-Transfer Level (RTL) design in the digital IC design flow?",
+      "options": [
+        "To optimize the physical layout by placing transistors and routing wires to minimize area and power.",
+        "To define the instruction set architecture (ISA) and the micro-architecture of the processor.",
+        "To describe the circuit's operation in terms of data flow between registers and the logical operations performed on that data, typically using HDLs like Verilog or VHDL, without specifying physical implementation.",
+        "To generate test patterns for manufacturing defect detection using Automatic Test Pattern Generation (ATPG).",
+        "To perform static timing analysis (STA) to ensure all timing paths meet performance requirements."
       ],
       "correct": 2
     }
