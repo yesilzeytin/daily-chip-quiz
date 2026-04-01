@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital circuits?",
-  "In the context of digital IC design and verification, what is the primary role of a \"test bench\"?",
-  "In a computer system utilizing virtual memory, what event triggers a \"page fault\"?",
-  "In out-of-order execution processors, what is the primary purpose of \"register renaming\"?",
-  "In advanced CMOS technology nodes, what is Negative Bias Temperature Instability (NBTI) primarily associated with?",
   "Which of the following describes the most common hardware description language (HDL) used for designing digital circuits, enabling designers to model and simulate digital systems at various levels of abstraction?",
   "What is the primary benefit of a pipelined processor architecture in a CPU?",
   "In the context of power management for digital Integrated Circuits (ICs), what is the primary purpose of 'power gating'?",
@@ -48,5 +43,10 @@
   "In digital circuit timing analysis, what does the \"critical path\" primarily represent?",
   "In the context of digital IC verification, what is the primary role of an \"assertion\"?",
   "In a multi-processor system with private caches for each core, what is the primary problem that \"cache coherence protocols\" aim to address?",
-  "What is the primary abstraction level and goal of Register-Transfer Level (RTL) design in the digital IC design flow?"
+  "What is the primary abstraction level and goal of Register-Transfer Level (RTL) design in the digital IC design flow?",
+  "What is one of the key advantages of using Complementary Metal-Oxide-Semiconductor (CMOS) technology for digital integrated circuits?",
+  "In the Von Neumann architecture or typical CPU design, what is the primary role of the Control Unit?",
+  "In advanced VLSI physical design, what phenomenon does \"crosstalk\" primarily refer to, and why is its analysis crucial?",
+  "What is a fundamental characteristic of a Finite State Machine (FSM) in digital circuit design?",
+  "Which of the following best describes the fundamental operational principle of a Vector Processor in computer architecture?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
+      "question": "What is one of the key advantages of using Complementary Metal-Oxide-Semiconductor (CMOS) technology for digital integrated circuits?",
       "options": [
-        "FPGAs are designed exclusively for analog signal processing, while ASICs are for digital.",
-        "ASICs can be reconfigured or reprogrammed after manufacturing by the end-user, whereas FPGAs cannot.",
-        "FPGAs are programmed post-manufacturing by the user or designer, enabling flexibility and rapid prototyping.",
-        "ASICs are generally much slower and consume more power than equivalent FPGA designs.",
-        "FPGAs require a full custom fabrication process for each new design, unlike ASICs."
+        "Low static power dissipation.",
+        "High operating voltage requirements.",
+        "Complex fabrication process compared to older technologies.",
+        "Inability to scale down to smaller feature sizes.",
+        "Exclusive use in analog circuit design."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the Von Neumann architecture or typical CPU design, what is the primary role of the Control Unit?",
+      "options": [
+        "Performing all arithmetic and logical operations on data.",
+        "Storing large amounts of program instructions and data.",
+        "Generating timing and control signals to manage the execution flow of instructions.",
+        "Managing the interaction between the CPU and external I/O devices.",
+        "Temporarily holding data for fast access during computations."
       ],
       "correct": 2
     },
     {
-      "question": "In digital circuit timing analysis, what does the \"critical path\" primarily represent?",
+      "question": "In advanced VLSI physical design, what phenomenon does \"crosstalk\" primarily refer to, and why is its analysis crucial?",
       "options": [
-        "The shortest electrical connection path between a power supply and ground.",
-        "The longest combinational delay path in the circuit, determining the maximum operating frequency.",
-        "The path through the circuit that consumes the most static power.",
-        "The data path most frequently accessed during normal operation.",
-        "The path used for chip-level testing and debug, such as scan chains."
+        "The unintentional magnetic field interference between power and ground lines, leading to voltage fluctuations.",
+        "The electrical coupling between adjacent signal lines, where a change in voltage on one line induces a voltage change on another.",
+        "The delay variation of clock signals across different parts of the chip due to resistive-capacitive effects.",
+        "The thermal degradation of transistor performance at high operating temperatures, leading to reliability issues.",
+        "The degradation of signal integrity due to cosmic rays causing single-event upsets in memory cells."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of digital IC verification, what is the primary role of an \"assertion\"?",
+      "question": "What is a fundamental characteristic of a Finite State Machine (FSM) in digital circuit design?",
       "options": [
-        "To automatically generate synthesizable Register-Transfer Level (RTL) code from high-level specifications.",
-        "To define the physical placement of cells and routing of interconnects on the chip layout.",
-        "To extract parasitic resistance and capacitance values from the final physical layout.",
-        "To formally specify properties that the design must satisfy, enabling checks during simulation or formal verification.",
-        "To convert parallel data into serial data for transmission."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a multi-processor system with private caches for each core, what is the primary problem that \"cache coherence protocols\" aim to address?",
-      "options": [
-        "Ensuring that all processors have sufficient local memory bandwidth to access their private data.",
-        "Preventing deadlocks that can occur when multiple processors contend for shared system bus access.",
-        "Maintaining a consistent view of shared data across multiple private caches and main memory when one or more processors modify that data.",
-        "Optimizing the cache hit rate by prefetching data that is likely to be accessed soon by any processor.",
-        "Minimizing the power consumption of the cache hierarchy through intelligent clock gating."
+        "Its outputs are solely determined by its current inputs, with no memory of past inputs.",
+        "It consists only of combinational logic gates, without any feedback paths.",
+        "It possesses memory elements (like flip-flops) that store the current state, influencing future outputs.",
+        "It is primarily used for high-speed arithmetic computations.",
+        "It can only exist as a software construct and not as a hardware implementation."
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary abstraction level and goal of Register-Transfer Level (RTL) design in the digital IC design flow?",
+      "question": "Which of the following best describes the fundamental operational principle of a Vector Processor in computer architecture?",
       "options": [
-        "To optimize the physical layout by placing transistors and routing wires to minimize area and power.",
-        "To define the instruction set architecture (ISA) and the micro-architecture of the processor.",
-        "To describe the circuit's operation in terms of data flow between registers and the logical operations performed on that data, typically using HDLs like Verilog or VHDL, without specifying physical implementation.",
-        "To generate test patterns for manufacturing defect detection using Automatic Test Pattern Generation (ATPG).",
-        "To perform static timing analysis (STA) to ensure all timing paths meet performance requirements."
+        "It executes different instructions on different data streams concurrently.",
+        "It executes a single instruction on an entire array of data elements (vectors) simultaneously or in a pipelined fashion.",
+        "It relies heavily on out-of-order execution and speculative branching to maximize instruction-level parallelism.",
+        "It exclusively uses a complex instruction set with variable-length instructions.",
+        "It has multiple, independent ALUs operating on scalar operands."
       ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
