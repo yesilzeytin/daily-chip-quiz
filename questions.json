@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is one of the key advantages of using Complementary Metal-Oxide-Semiconductor (CMOS) technology for digital integrated circuits?",
+      "question": "What is the fundamental building block of modern digital integrated circuits, which acts as an electrically controlled switch?",
       "options": [
-        "Low static power dissipation.",
-        "High operating voltage requirements.",
-        "Complex fabrication process compared to older technologies.",
-        "Inability to scale down to smaller feature sizes.",
-        "Exclusive use in analog circuit design."
+        "Resistor",
+        "Capacitor",
+        "Inductor",
+        "Transistor",
+        "Diode"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In the Von Neumann architecture or typical CPU design, what is the primary role of the Control Unit?",
+      "question": "In modern pipelined processors, which architectural technique is primarily used to reduce the performance penalty associated with conditional branch instructions by speculatively guessing the outcome of a branch before it is fully evaluated?",
       "options": [
-        "Performing all arithmetic and logical operations on data.",
-        "Storing large amounts of program instructions and data.",
-        "Generating timing and control signals to manage the execution flow of instructions.",
-        "Managing the interaction between the CPU and external I/O devices.",
-        "Temporarily holding data for fast access during computations."
+        "Out-of-order execution",
+        "Data forwarding",
+        "Instruction caching",
+        "Branch prediction",
+        "Register renaming"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In advanced VLSI physical design, what phenomenon does \"crosstalk\" primarily refer to, and why is its analysis crucial?",
+      "question": "After logic synthesis, the 'Place and Route' stage in the digital IC design flow is crucial. What is its primary objective?",
       "options": [
-        "The unintentional magnetic field interference between power and ground lines, leading to voltage fluctuations.",
-        "The electrical coupling between adjacent signal lines, where a change in voltage on one line induces a voltage change on another.",
-        "The delay variation of clock signals across different parts of the chip due to resistive-capacitive effects.",
-        "The thermal degradation of transistor performance at high operating temperatures, leading to reliability issues.",
-        "The degradation of signal integrity due to cosmic rays causing single-event upsets in memory cells."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is a fundamental characteristic of a Finite State Machine (FSM) in digital circuit design?",
-      "options": [
-        "Its outputs are solely determined by its current inputs, with no memory of past inputs.",
-        "It consists only of combinational logic gates, without any feedback paths.",
-        "It possesses memory elements (like flip-flops) that store the current state, influencing future outputs.",
-        "It is primarily used for high-speed arithmetic computations.",
-        "It can only exist as a software construct and not as a hardware implementation."
+        "To convert the Register-Transfer Level (RTL) code into a gate-level netlist.",
+        "To verify the functional correctness of the design against its specification.",
+        "To physically arrange standard cells on the die and connect them with metal traces according to the netlist.",
+        "To perform static timing analysis and ensure all timing constraints are met.",
+        "To generate test vectors for manufacturing defect detection."
       ],
       "correct": 2
     },
     {
-      "question": "Which of the following best describes the fundamental operational principle of a Vector Processor in computer architecture?",
+      "question": "In a Non-Uniform Memory Access (NUMA) architecture, what is the primary characteristic that distinguishes it from a Uniform Memory Access (UMA) architecture?",
       "options": [
-        "It executes different instructions on different data streams concurrently.",
-        "It executes a single instruction on an entire array of data elements (vectors) simultaneously or in a pipelined fashion.",
-        "It relies heavily on out-of-order execution and speculative branching to maximize instruction-level parallelism.",
-        "It exclusively uses a complex instruction set with variable-length instructions.",
-        "It has multiple, independent ALUs operating on scalar operands."
+        "NUMA systems inherently support a larger total memory capacity.",
+        "In NUMA, all processors have equal access latency to all parts of the main memory.",
+        "NUMA architectures guarantee strict sequential consistency across all memory operations.",
+        "In NUMA, a processor's access time to memory varies depending on whether the memory is local to its node or remote.",
+        "UMA architectures rely exclusively on private caches, whereas NUMA uses shared caches."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the context of digital IC verification, what is the primary purpose of the Universal Verification Methodology (UVM)?",
+      "options": [
+        "To define the Instruction Set Architecture (ISA) for a custom processor.",
+        "To provide a standardized, reusable, and scalable framework for verifying complex System-on-Chip (SoC) designs.",
+        "To perform physical layout and routing of digital circuits.",
+        "To convert a high-level C++ model into a Register-Transfer Level (RTL) description.",
+        "To automatically generate optimized gate-level netlists from RTL code."
       ],
       "correct": 1
     }
