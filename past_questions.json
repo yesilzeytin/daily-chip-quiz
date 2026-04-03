@@ -1,9 +1,4 @@
 [
-  "What is the output of a 2-input NAND gate if one input is HIGH (1) and the other is LOW (0)?",
-  "In a pipelined processor, a 'data hazard' primarily occurs when:",
-  "Which formal verification technique is primarily used to mathematically prove that two different representations of a digital design (e.g., a Register-Transfer Level (RTL) description and its synthesized gate-level netlist) behave identically?",
-  "In the physical design of deep sub-micron integrated circuits, what is the primary adverse effect that 'IR drop' analysis seeks to identify and mitigate?",
-  "Which cache mapping scheme offers the highest flexibility, allowing any main memory block to be placed in any cache line, but typically requires more complex hardware for tag comparison?",
   "What is the primary function of an Application-Specific Integrated Circuit (ASIC)?",
   "In a typical CPU pipeline, which stage is primarily responsible for identifying the type of instruction and fetching its operands?",
   "Which of the following best describes the role of a \"scan chain\" in Design for Testability (DFT) for digital ICs?",
@@ -48,5 +43,10 @@
   "In modern pipelined processors, which architectural technique is primarily used to reduce the performance penalty associated with conditional branch instructions by speculatively guessing the outcome of a branch before it is fully evaluated?",
   "After logic synthesis, the 'Place and Route' stage in the digital IC design flow is crucial. What is its primary objective?",
   "In a Non-Uniform Memory Access (NUMA) architecture, what is the primary characteristic that distinguishes it from a Uniform Memory Access (UMA) architecture?",
-  "In the context of digital IC verification, what is the primary purpose of the Universal Verification Methodology (UVM)?"
+  "In the context of digital IC verification, what is the primary purpose of the Universal Verification Methodology (UVM)?",
+  "Which of the following digital logic gates is considered 'universal' because any other Boolean function can be implemented using only this type of gate?",
+  "In a virtual memory system, what is a 'page fault'?",
+  "Which power optimization technique in digital IC design involves selectively disabling the clock signal to inactive functional blocks to reduce dynamic power consumption?",
+  "In formal verification of digital circuits, which technique systematically explores all possible states of a finite-state model of a system to prove or disprove properties expressed in temporal logic (e.g., LTL or CTL)?",
+  "What is the primary purpose of 'register renaming' in modern out-of-order execution processors?"
 ]

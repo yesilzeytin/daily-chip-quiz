@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block of modern digital integrated circuits, which acts as an electrically controlled switch?",
+      "question": "Which of the following digital logic gates is considered 'universal' because any other Boolean function can be implemented using only this type of gate?",
       "options": [
-        "Resistor",
-        "Capacitor",
-        "Inductor",
-        "Transistor",
-        "Diode"
+        "AND gate",
+        "OR gate",
+        "XOR gate",
+        "NOR gate",
+        "XNOR gate"
       ],
       "correct": 3
     },
     {
-      "question": "In modern pipelined processors, which architectural technique is primarily used to reduce the performance penalty associated with conditional branch instructions by speculatively guessing the outcome of a branch before it is fully evaluated?",
+      "question": "In a virtual memory system, what is a 'page fault'?",
       "options": [
-        "Out-of-order execution",
-        "Data forwarding",
-        "Instruction caching",
-        "Branch prediction",
-        "Register renaming"
+        "An error that occurs when the CPU tries to access data from an invalid memory address.",
+        "An event where the CPU attempts to access a page that is currently not present in physical memory.",
+        "A hardware malfunction indicating a corrupted page table entry.",
+        "A condition where two different virtual addresses map to the same physical address.",
+        "The successful retrieval of data from a page in cache memory."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "After logic synthesis, the 'Place and Route' stage in the digital IC design flow is crucial. What is its primary objective?",
+      "question": "Which power optimization technique in digital IC design involves selectively disabling the clock signal to inactive functional blocks to reduce dynamic power consumption?",
       "options": [
-        "To convert the Register-Transfer Level (RTL) code into a gate-level netlist.",
-        "To verify the functional correctness of the design against its specification.",
-        "To physically arrange standard cells on the die and connect them with metal traces according to the netlist.",
-        "To perform static timing analysis and ensure all timing constraints are met.",
-        "To generate test vectors for manufacturing defect detection."
+        "Power Gating",
+        "Voltage Scaling",
+        "Clock Gating",
+        "Frequency Modulation",
+        "Body Biasing"
       ],
       "correct": 2
     },
     {
-      "question": "In a Non-Uniform Memory Access (NUMA) architecture, what is the primary characteristic that distinguishes it from a Uniform Memory Access (UMA) architecture?",
+      "question": "In formal verification of digital circuits, which technique systematically explores all possible states of a finite-state model of a system to prove or disprove properties expressed in temporal logic (e.g., LTL or CTL)?",
       "options": [
-        "NUMA systems inherently support a larger total memory capacity.",
-        "In NUMA, all processors have equal access latency to all parts of the main memory.",
-        "NUMA architectures guarantee strict sequential consistency across all memory operations.",
-        "In NUMA, a processor's access time to memory varies depending on whether the memory is local to its node or remote.",
-        "UMA architectures rely exclusively on private caches, whereas NUMA uses shared caches."
+        "Equivalence Checking",
+        "Static Timing Analysis",
+        "Model Checking",
+        "Logic Simulation",
+        "Assertion-Based Verification"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "In the context of digital IC verification, what is the primary purpose of the Universal Verification Methodology (UVM)?",
+      "question": "What is the primary purpose of 'register renaming' in modern out-of-order execution processors?",
       "options": [
-        "To define the Instruction Set Architecture (ISA) for a custom processor.",
-        "To provide a standardized, reusable, and scalable framework for verifying complex System-on-Chip (SoC) designs.",
-        "To perform physical layout and routing of digital circuits.",
-        "To convert a high-level C++ model into a Register-Transfer Level (RTL) description.",
-        "To automatically generate optimized gate-level netlists from RTL code."
+        "To reduce the number of physical registers required by the CPU.",
+        "To eliminate false data dependencies (Write-After-Read (WAR) and Write-After-Write (WAW) hazards) and enable out-of-order execution.",
+        "To allow multiple instructions to simultaneously write to the same architectural register.",
+        "To convert architectural registers into memory-mapped registers.",
+        "To resolve control hazards by predicting branch outcomes."
       ],
       "correct": 1
     }
