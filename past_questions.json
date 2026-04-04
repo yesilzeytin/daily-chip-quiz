@@ -1,9 +1,4 @@
 [
-  "What is the primary function of an Application-Specific Integrated Circuit (ASIC)?",
-  "In a typical CPU pipeline, which stage is primarily responsible for identifying the type of instruction and fetching its operands?",
-  "Which of the following best describes the role of a \"scan chain\" in Design for Testability (DFT) for digital ICs?",
-  "In advanced microprocessor architectures, what is the primary purpose of a \"reorder buffer\" (ROB)?",
-  "What is the primary challenge addressed by the use of \"Clock Domain Crossing (CDC) synchronization circuits\" in digital IC design?",
   "What is the most basic digital component that implements a Boolean function, typically having one or more inputs and a single output?",
   "In a pipelined processor, which type of hazard occurs when the pipeline is unable to fetch the correct instruction sequence due to a conditional branch instruction whose outcome (taken or not taken) is not known until late in the pipeline?",
   "In the context of Design for Testability (DFT) for digital integrated circuits, what is the primary role of Automatic Test Pattern Generation (ATPG)?",
@@ -48,5 +43,10 @@
   "In a virtual memory system, what is a 'page fault'?",
   "Which power optimization technique in digital IC design involves selectively disabling the clock signal to inactive functional blocks to reduce dynamic power consumption?",
   "In formal verification of digital circuits, which technique systematically explores all possible states of a finite-state model of a system to prove or disprove properties expressed in temporal logic (e.g., LTL or CTL)?",
-  "What is the primary purpose of 'register renaming' in modern out-of-order execution processors?"
+  "What is the primary purpose of 'register renaming' in modern out-of-order execution processors?",
+  "In the physical design phase of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
+  "Which of the following statements accurately describes a key difference between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM)?",
+  "In digital IC verification, what is the primary goal of Formal Equivalence Checking (FEC)?",
+  "In a pipelined processor, what is the architectural technique known as \"data forwarding\" or \"bypassing\" primarily designed to mitigate?",
+  "In semiconductor manufacturing, which process is primarily responsible for transferring geometric patterns from a photomask onto a wafer, defining the layout of transistors and interconnections?"
 ]

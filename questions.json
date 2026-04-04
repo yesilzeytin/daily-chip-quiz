@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which of the following digital logic gates is considered 'universal' because any other Boolean function can be implemented using only this type of gate?",
+      "question": "In the physical design phase of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
       "options": [
-        "AND gate",
-        "OR gate",
-        "XOR gate",
-        "NOR gate",
-        "XNOR gate"
+        "To minimize the total area occupied by sequential logic elements.",
+        "To balance clock arrival times at all sequential elements and minimize clock skew.",
+        "To optimize the logical functionality of the circuit by removing redundant gates.",
+        "To generate test patterns for manufacturing defect detection.",
+        "To route power and ground connections efficiently across the chip."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following statements accurately describes a key difference between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM)?",
+      "options": [
+        "SRAM typically uses capacitors to store data, while DRAM uses latches.",
+        "DRAM is generally faster and more expensive per bit than SRAM.",
+        "SRAM requires periodic refreshing to retain data, while DRAM does not.",
+        "DRAM is primarily used for CPU caches, whereas SRAM is used for main system memory.",
+        "SRAM cells are generally larger and consume more static power per bit than DRAM cells."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "In digital IC verification, what is the primary goal of Formal Equivalence Checking (FEC)?",
+      "options": [
+        "To verify that the power consumption of the design meets specifications.",
+        "To simulate the design's behavior under various input stimuli and observe outputs.",
+        "To mathematically prove that two different representations of a design (e.g., RTL and gate-level netlist) implement the identical functionality.",
+        "To identify and correct design rule violations in the physical layout.",
+        "To automatically generate test patterns for manufacturing defect detection."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a pipelined processor, what is the architectural technique known as \"data forwarding\" or \"bypassing\" primarily designed to mitigate?",
+      "options": [
+        "Control hazards caused by conditional branch instructions.",
+        "Structural hazards arising from resource conflicts in the pipeline.",
+        "Data hazards, specifically Read-After-Write (RAW) dependencies, by providing results directly from internal pipeline registers.",
+        "Write-After-Read (WAR) data hazards by reordering instruction execution.",
+        "The overhead of context switching between different processes."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In semiconductor manufacturing, which process is primarily responsible for transferring geometric patterns from a photomask onto a wafer, defining the layout of transistors and interconnections?",
+      "options": [
+        "Chemical Mechanical Planarization (CMP)",
+        "Ion Implantation",
+        "Etching",
+        "Lithography",
+        "Deposition"
       ],
       "correct": 3
-    },
-    {
-      "question": "In a virtual memory system, what is a 'page fault'?",
-      "options": [
-        "An error that occurs when the CPU tries to access data from an invalid memory address.",
-        "An event where the CPU attempts to access a page that is currently not present in physical memory.",
-        "A hardware malfunction indicating a corrupted page table entry.",
-        "A condition where two different virtual addresses map to the same physical address.",
-        "The successful retrieval of data from a page in cache memory."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which power optimization technique in digital IC design involves selectively disabling the clock signal to inactive functional blocks to reduce dynamic power consumption?",
-      "options": [
-        "Power Gating",
-        "Voltage Scaling",
-        "Clock Gating",
-        "Frequency Modulation",
-        "Body Biasing"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In formal verification of digital circuits, which technique systematically explores all possible states of a finite-state model of a system to prove or disprove properties expressed in temporal logic (e.g., LTL or CTL)?",
-      "options": [
-        "Equivalence Checking",
-        "Static Timing Analysis",
-        "Model Checking",
-        "Logic Simulation",
-        "Assertion-Based Verification"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary purpose of 'register renaming' in modern out-of-order execution processors?",
-      "options": [
-        "To reduce the number of physical registers required by the CPU.",
-        "To eliminate false data dependencies (Write-After-Read (WAR) and Write-After-Write (WAW) hazards) and enable out-of-order execution.",
-        "To allow multiple instructions to simultaneously write to the same architectural register.",
-        "To convert architectural registers into memory-mapped registers.",
-        "To resolve control hazards by predicting branch outcomes."
-      ],
-      "correct": 1
     }
   ]
 }
