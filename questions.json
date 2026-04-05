@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the physical design phase of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
+      "question": "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
       "options": [
-        "To minimize the total area occupied by sequential logic elements.",
-        "To balance clock arrival times at all sequential elements and minimize clock skew.",
-        "To optimize the logical functionality of the circuit by removing redundant gates.",
-        "To generate test patterns for manufacturing defect detection.",
-        "To route power and ground connections efficiently across the chip."
+        "To define the Instruction Set Architecture (ISA) for the custom processor.",
+        "To provide pre-designed and pre-characterized basic logic gates and functional blocks (e.g., inverters, NANDs, flip-flops) for synthesis.",
+        "To manage the power delivery network during the physical design phase.",
+        "To perform static timing analysis on the entire design.",
+        "To generate test patterns for manufacturing defect detection."
       ],
       "correct": 1
     },
     {
-      "question": "Which of the following statements accurately describes a key difference between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM)?",
+      "question": "In the context of CPU design, what is the primary purpose of 'microcode'?",
       "options": [
-        "SRAM typically uses capacitors to store data, while DRAM uses latches.",
-        "DRAM is generally faster and more expensive per bit than SRAM.",
-        "SRAM requires periodic refreshing to retain data, while DRAM does not.",
-        "DRAM is primarily used for CPU caches, whereas SRAM is used for main system memory.",
-        "SRAM cells are generally larger and consume more static power per bit than DRAM cells."
-      ],
-      "correct": 4
-    },
-    {
-      "question": "In digital IC verification, what is the primary goal of Formal Equivalence Checking (FEC)?",
-      "options": [
-        "To verify that the power consumption of the design meets specifications.",
-        "To simulate the design's behavior under various input stimuli and observe outputs.",
-        "To mathematically prove that two different representations of a design (e.g., RTL and gate-level netlist) implement the identical functionality.",
-        "To identify and correct design rule violations in the physical layout.",
-        "To automatically generate test patterns for manufacturing defect detection."
+        "To store frequently accessed data for faster retrieval by the CPU.",
+        "To define the physical layout and routing of transistors on the silicon die.",
+        "To implement complex instruction set architecture (CISC) instructions as a sequence of simpler, low-level operations.",
+        "To provide a temporary storage area for intermediate results during arithmetic operations.",
+        "To manage the allocation of memory pages in a virtual memory system."
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what is the architectural technique known as \"data forwarding\" or \"bypassing\" primarily designed to mitigate?",
+      "question": "In very-large-scale integration (VLSI) circuits, what phenomenon does 'electromigration' primarily refer to?",
       "options": [
-        "Control hazards caused by conditional branch instructions.",
-        "Structural hazards arising from resource conflicts in the pipeline.",
-        "Data hazards, specifically Read-After-Write (RAW) dependencies, by providing results directly from internal pipeline registers.",
-        "Write-After-Read (WAR) data hazards by reordering instruction execution.",
-        "The overhead of context switching between different processes."
+        "The leakage current observed when a transistor is in its off-state.",
+        "The migration of metal atoms in an interconnect line due to the momentum transfer from high-velocity electrons, potentially leading to circuit failure.",
+        "The unwanted capacitive coupling between adjacent signal lines, causing signal integrity issues.",
+        "The temporary loss of data in a dynamic random-access memory (DRAM) cell due to charge leakage.",
+        "The formation of a depletion region at a p-n junction under reverse bias conditions."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "In semiconductor manufacturing, which process is primarily responsible for transferring geometric patterns from a photomask onto a wafer, defining the layout of transistors and interconnections?",
+      "question": "In the digital IC design and verification flow, what is the primary role of a 'test bench'?",
       "options": [
-        "Chemical Mechanical Planarization (CMP)",
-        "Ion Implantation",
-        "Etching",
-        "Lithography",
-        "Deposition"
+        "To automatically generate optimized physical layouts from a Register-Transfer Level (RTL) description.",
+        "To act as a simulation environment that provides stimulus to the Design Under Test (DUT) and checks its output for correctness.",
+        "To synthesize high-level behavioral code into a gate-level netlist.",
+        "To extract parasitic resistances and capacitances from the layout for post-layout simulation.",
+        "To identify and fix timing violations after clock tree synthesis."
       ],
-      "correct": 3
+      "correct": 1
+    },
+    {
+      "question": "In the context of computer architecture, the 'memory wall' problem primarily refers to which fundamental challenge?",
+      "options": [
+        "The increasing difficulty in scaling down transistor sizes due to quantum effects.",
+        "The growing disparity between the increasing speed of processors and the relatively stagnant access times and bandwidth of main memory.",
+        "The architectural limitation that prevents multiple processors from accessing the same shared memory simultaneously without significant overhead.",
+        "The power consumption bottleneck caused by excessive dynamic power dissipation in high-performance computing systems.",
+        "The challenge of maintaining cache coherence in large-scale multi-core systems with private caches."
+      ],
+      "correct": 1
     }
   ]
 }

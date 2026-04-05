@@ -1,9 +1,4 @@
 [
-  "What is the most basic digital component that implements a Boolean function, typically having one or more inputs and a single output?",
-  "In a pipelined processor, which type of hazard occurs when the pipeline is unable to fetch the correct instruction sequence due to a conditional branch instruction whose outcome (taken or not taken) is not known until late in the pipeline?",
-  "In the context of Design for Testability (DFT) for digital integrated circuits, what is the primary role of Automatic Test Pattern Generation (ATPG)?",
-  "In multi-processor computer architectures, which memory consistency model guarantees that the result of any execution is the same as if all operations from all processors were executed in some sequential order, and the operations of each individual processor appear in that sequence in the order specified by its program?",
-  "During the physical verification phase of an integrated circuit design, which analysis is primarily focused on identifying potential electrical issues such as floating nets, shorts between power/ground domains, or incorrect power/ground connections, which are not typically caught by Design Rule Checking (DRC) or Layout Versus Schematic (LVS)?",
   "What is the primary function of a D-type flip-flop in digital circuits?",
   "What is the primary role of the Translation Lookaside Buffer (TLB) in a computer system?",
   "In the context of semiconductor manufacturing, what does the term 'yield' primarily refer to?",
@@ -48,5 +43,10 @@
   "Which of the following statements accurately describes a key difference between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM)?",
   "In digital IC verification, what is the primary goal of Formal Equivalence Checking (FEC)?",
   "In a pipelined processor, what is the architectural technique known as \"data forwarding\" or \"bypassing\" primarily designed to mitigate?",
-  "In semiconductor manufacturing, which process is primarily responsible for transferring geometric patterns from a photomask onto a wafer, defining the layout of transistors and interconnections?"
+  "In semiconductor manufacturing, which process is primarily responsible for transferring geometric patterns from a photomask onto a wafer, defining the layout of transistors and interconnections?",
+  "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
+  "In the context of CPU design, what is the primary purpose of 'microcode'?",
+  "In very-large-scale integration (VLSI) circuits, what phenomenon does 'electromigration' primarily refer to?",
+  "In the digital IC design and verification flow, what is the primary role of a 'test bench'?",
+  "In the context of computer architecture, the 'memory wall' problem primarily refers to which fundamental challenge?"
 ]
