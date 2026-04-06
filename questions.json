@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic?",
       "options": [
-        "To define the Instruction Set Architecture (ISA) for the custom processor.",
-        "To provide pre-designed and pre-characterized basic logic gates and functional blocks (e.g., inverters, NANDs, flip-flops) for synthesis.",
-        "To manage the power delivery network during the physical design phase.",
-        "To perform static timing analysis on the entire design.",
-        "To generate test patterns for manufacturing defect detection."
+        "To select one of several input signals and forward it to a single output line.",
+        "To store a single bit of data.",
+        "To perform arithmetic operations like addition or subtraction.",
+        "To convert parallel data into serial data.",
+        "To generate a clock signal for synchronous circuits."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In the context of CPU design, what is the primary purpose of 'microcode'?",
+      "question": "What type of hazard in a pipelined processor occurs when the next instruction to fetch depends on the outcome of a preceding instruction that is not yet resolved?",
       "options": [
-        "To store frequently accessed data for faster retrieval by the CPU.",
-        "To define the physical layout and routing of transistors on the silicon die.",
-        "To implement complex instruction set architecture (CISC) instructions as a sequence of simpler, low-level operations.",
-        "To provide a temporary storage area for intermediate results during arithmetic operations.",
-        "To manage the allocation of memory pages in a virtual memory system."
+        "Data hazard",
+        "Structural hazard",
+        "Control hazard",
+        "Resource hazard",
+        "Memory hazard"
       ],
       "correct": 2
     },
     {
-      "question": "In very-large-scale integration (VLSI) circuits, what phenomenon does 'electromigration' primarily refer to?",
+      "question": "What is the primary purpose of adding \"scan chains\" during the Design for Testability (DFT) phase of IC design?",
       "options": [
-        "The leakage current observed when a transistor is in its off-state.",
-        "The migration of metal atoms in an interconnect line due to the momentum transfer from high-velocity electrons, potentially leading to circuit failure.",
-        "The unwanted capacitive coupling between adjacent signal lines, causing signal integrity issues.",
-        "The temporary loss of data in a dynamic random-access memory (DRAM) cell due to charge leakage.",
-        "The formation of a depletion region at a p-n junction under reverse bias conditions."
+        "To reduce power consumption during normal operation.",
+        "To improve the circuit's performance by shortening critical paths.",
+        "To facilitate fault detection and isolation by making internal flip-flops controllable and observable during testing.",
+        "To optimize the physical layout for better routing density.",
+        "To provide a secure boot mechanism for the chip."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In the digital IC design and verification flow, what is the primary role of a 'test bench'?",
+      "question": "In a multi-processor system, which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and the order of operations from any individual processor thread appears in program order?",
       "options": [
-        "To automatically generate optimized physical layouts from a Register-Transfer Level (RTL) description.",
-        "To act as a simulation environment that provides stimulus to the Design Under Test (DUT) and checks its output for correctness.",
-        "To synthesize high-level behavioral code into a gate-level netlist.",
-        "To extract parasitic resistances and capacitances from the layout for post-layout simulation.",
-        "To identify and fix timing violations after clock tree synthesis."
+        "Release Consistency",
+        "Weak Consistency",
+        "Sequential Consistency",
+        "Entry Consistency",
+        "Processor Consistency"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In the context of computer architecture, the 'memory wall' problem primarily refers to which fundamental challenge?",
+      "question": "In digital IC design, what is the primary objective of \"gate sizing\" (or transistor sizing) during the optimization phase?",
       "options": [
-        "The increasing difficulty in scaling down transistor sizes due to quantum effects.",
-        "The growing disparity between the increasing speed of processors and the relatively stagnant access times and bandwidth of main memory.",
-        "The architectural limitation that prevents multiple processors from accessing the same shared memory simultaneously without significant overhead.",
-        "The power consumption bottleneck caused by excessive dynamic power dissipation in high-performance computing systems.",
-        "The challenge of maintaining cache coherence in large-scale multi-core systems with private caches."
+        "To minimize the number of gates used in the design.",
+        "To balance propagation delay, power consumption, and area.",
+        "To ensure all gates operate at the same voltage level.",
+        "To convert combinational logic into sequential logic.",
+        "To prevent electromigration by reducing current density."
       ],
       "correct": 1
     }

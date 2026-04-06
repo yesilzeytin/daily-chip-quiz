@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a D-type flip-flop in digital circuits?",
-  "What is the primary role of the Translation Lookaside Buffer (TLB) in a computer system?",
-  "In the context of semiconductor manufacturing, what does the term 'yield' primarily refer to?",
-  "In the context of digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
-  "In an out-of-order execution processor utilizing a mechanism like Tomasulo's algorithm, what is the primary function of 'Reservation Stations'?",
   "In synchronous digital circuits, what is the primary role of the clock signal?",
   "Which principle states that programs tend to reuse data and instructions that they have used recently or that are located near data/instructions they have used recently, forming the basis for effective cache memory design?",
   "In digital IC verification, what is 'functional coverage' primarily used to measure?",
@@ -48,5 +43,10 @@
   "In the context of CPU design, what is the primary purpose of 'microcode'?",
   "In very-large-scale integration (VLSI) circuits, what phenomenon does 'electromigration' primarily refer to?",
   "In the digital IC design and verification flow, what is the primary role of a 'test bench'?",
-  "In the context of computer architecture, the 'memory wall' problem primarily refers to which fundamental challenge?"
+  "In the context of computer architecture, the 'memory wall' problem primarily refers to which fundamental challenge?",
+  "What is the primary function of a multiplexer (MUX) in digital logic?",
+  "What type of hazard in a pipelined processor occurs when the next instruction to fetch depends on the outcome of a preceding instruction that is not yet resolved?",
+  "What is the primary purpose of adding \"scan chains\" during the Design for Testability (DFT) phase of IC design?",
+  "In a multi-processor system, which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and the order of operations from any individual processor thread appears in program order?",
+  "In digital IC design, what is the primary objective of \"gate sizing\" (or transistor sizing) during the optimization phase?"
 ]
