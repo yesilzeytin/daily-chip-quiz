@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic?",
+      "question": "Which Boolean logic gate outputs a HIGH (1) only when ALL of its inputs are HIGH (1)?",
       "options": [
-        "To select one of several input signals and forward it to a single output line.",
-        "To store a single bit of data.",
-        "To perform arithmetic operations like addition or subtraction.",
-        "To convert parallel data into serial data.",
-        "To generate a clock signal for synchronous circuits."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What type of hazard in a pipelined processor occurs when the next instruction to fetch depends on the outcome of a preceding instruction that is not yet resolved?",
-      "options": [
-        "Data hazard",
-        "Structural hazard",
-        "Control hazard",
-        "Resource hazard",
-        "Memory hazard"
+        "OR gate",
+        "XOR gate",
+        "AND gate",
+        "NOT gate",
+        "NAND gate"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary purpose of adding \"scan chains\" during the Design for Testability (DFT) phase of IC design?",
+      "question": "In a Field-Programmable Gate Array (FPGA), what is the primary component within a Configurable Logic Block (CLB) that is responsible for implementing arbitrary Boolean functions?",
       "options": [
-        "To reduce power consumption during normal operation.",
-        "To improve the circuit's performance by shortening critical paths.",
-        "To facilitate fault detection and isolation by making internal flip-flops controllable and observable during testing.",
-        "To optimize the physical layout for better routing density.",
-        "To provide a secure boot mechanism for the chip."
+        "Flip-Flop",
+        "Multiplexer",
+        "Look-Up Table (LUT)",
+        "Full Adder",
+        "Register File"
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-processor system, which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and the order of operations from any individual processor thread appears in program order?",
+      "question": "In a virtual memory system, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "Release Consistency",
-        "Weak Consistency",
-        "Sequential Consistency",
-        "Entry Consistency",
-        "Processor Consistency"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In digital IC design, what is the primary objective of \"gate sizing\" (or transistor sizing) during the optimization phase?",
-      "options": [
-        "To minimize the number of gates used in the design.",
-        "To balance propagation delay, power consumption, and area.",
-        "To ensure all gates operate at the same voltage level.",
-        "To convert combinational logic into sequential logic.",
-        "To prevent electromigration by reducing current density."
+        "To store frequently accessed data blocks from main memory for faster CPU access.",
+        "To cache recently used page table entries, accelerating virtual-to-physical address translation.",
+        "To ensure data consistency across multiple CPU caches in a multiprocessor system.",
+        "To buffer incoming I/O requests before they are processed by the CPU.",
+        "To store microcode for complex instruction execution sequences."
       ],
       "correct": 1
+    },
+    {
+      "question": "What design methodology aims to optimize an integrated circuit layout to reduce sensitivity to manufacturing process variations and improve overall yield?",
+      "options": [
+        "Design for Testability (DFT)",
+        "Design for Verification (DFV)",
+        "Design for Manufacturability (DFM)",
+        "Design for Debug (DFD)",
+        "Design for Power (DFP)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
+      "options": [
+        "To store instructions waiting to be issued to execution units.",
+        "To manage the mapping between architectural and physical registers for renaming purposes.",
+        "To ensure that instructions commit (update architectural state) in their original program order and facilitate precise exceptions.",
+        "To buffer data between different levels of the cache hierarchy.",
+        "To store predicted branch outcomes and target addresses."
+      ],
+      "correct": 2
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "In synchronous digital circuits, what is the primary role of the clock signal?",
-  "Which principle states that programs tend to reuse data and instructions that they have used recently or that are located near data/instructions they have used recently, forming the basis for effective cache memory design?",
-  "In digital IC verification, what is 'functional coverage' primarily used to measure?",
-  "During the physical design and sign-off flow for integrated circuits, what is the primary purpose of 'parasitic extraction'?",
-  "Which of the following best describes an Instruction Set Architecture (ISA)?",
   "What is the primary characteristic that distinguishes sequential logic circuits from combinational logic circuits?",
   "When a cache line needs to be replaced to make room for a new block, which of the following cache eviction policies aims to discard the block that has not been accessed for the longest period of time?",
   "In the physical design phase of an integrated circuit, what is the primary objective of the 'Placement' step?",
@@ -48,5 +43,10 @@
   "What type of hazard in a pipelined processor occurs when the next instruction to fetch depends on the outcome of a preceding instruction that is not yet resolved?",
   "What is the primary purpose of adding \"scan chains\" during the Design for Testability (DFT) phase of IC design?",
   "In a multi-processor system, which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and the order of operations from any individual processor thread appears in program order?",
-  "In digital IC design, what is the primary objective of \"gate sizing\" (or transistor sizing) during the optimization phase?"
+  "In digital IC design, what is the primary objective of \"gate sizing\" (or transistor sizing) during the optimization phase?",
+  "Which Boolean logic gate outputs a HIGH (1) only when ALL of its inputs are HIGH (1)?",
+  "In a Field-Programmable Gate Array (FPGA), what is the primary component within a Configurable Logic Block (CLB) that is responsible for implementing arbitrary Boolean functions?",
+  "In a virtual memory system, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+  "What design methodology aims to optimize an integrated circuit layout to reduce sensitivity to manufacturing process variations and improve overall yield?",
+  "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?"
 ]
