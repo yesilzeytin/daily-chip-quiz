@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which Boolean logic gate outputs a HIGH (1) only when ALL of its inputs are HIGH (1)?",
+      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
       "options": [
-        "OR gate",
-        "XOR gate",
-        "AND gate",
-        "NOT gate",
-        "NAND gate"
+        "To store program instructions and data.",
+        "To manage data input and output operations.",
+        "To perform arithmetic calculations (e.g., addition, subtraction) and logical operations (e.g., AND, OR).",
+        "To control the sequence of operations and instruction execution.",
+        "To provide temporary storage for frequently accessed data."
       ],
       "correct": 2
     },
     {
-      "question": "In a Field-Programmable Gate Array (FPGA), what is the primary component within a Configurable Logic Block (CLB) that is responsible for implementing arbitrary Boolean functions?",
+      "question": "During the Design for Testability (DFT) phase of an integrated circuit, what is the main purpose of \"Boundary Scan\" (specified by the IEEE 1149.1 JTAG standard)?",
       "options": [
-        "Flip-Flop",
-        "Multiplexer",
-        "Look-Up Table (LUT)",
-        "Full Adder",
-        "Register File"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a virtual memory system, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
-      "options": [
-        "To store frequently accessed data blocks from main memory for faster CPU access.",
-        "To cache recently used page table entries, accelerating virtual-to-physical address translation.",
-        "To ensure data consistency across multiple CPU caches in a multiprocessor system.",
-        "To buffer incoming I/O requests before they are processed by the CPU.",
-        "To store microcode for complex instruction execution sequences."
+        "To reduce the overall power consumption of the chip during operation.",
+        "To enable external access to I/O pins and internal chip functionality for testing and debugging without requiring direct physical probing.",
+        "To optimize the physical placement of logic gates for improved performance.",
+        "To verify the functional correctness of the Register-Transfer Level (RTL) design against its specifications.",
+        "To synthesize the clock network for proper timing distribution."
       ],
       "correct": 1
     },
     {
-      "question": "What design methodology aims to optimize an integrated circuit layout to reduce sensitivity to manufacturing process variations and improve overall yield?",
+      "question": "Which type of hazard in a pipelined processor occurs when an instruction attempts to use a hardware resource that is currently occupied by another instruction in the pipeline (e.g., a specific functional unit or memory port)?",
       "options": [
-        "Design for Testability (DFT)",
-        "Design for Verification (DFV)",
-        "Design for Manufacturability (DFM)",
-        "Design for Debug (DFD)",
-        "Design for Power (DFP)"
+        "Data Hazard",
+        "Control Hazard",
+        "Structural Hazard",
+        "Memory Hazard",
+        "Register Hazard"
       ],
       "correct": 2
     },
     {
-      "question": "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
+      "question": "During the fabrication process of an integrated circuit, what phenomenon primarily leads to unavoidable, statistical variations in transistor threshold voltage (Vt) and current (Id) due to the discrete nature of dopant atoms, becoming a significant challenge for advanced technology nodes?",
       "options": [
-        "To store instructions waiting to be issued to execution units.",
-        "To manage the mapping between architectural and physical registers for renaming purposes.",
-        "To ensure that instructions commit (update architectural state) in their original program order and facilitate precise exceptions.",
-        "To buffer data between different levels of the cache hierarchy.",
-        "To store predicted branch outcomes and target addresses."
+        "Electromigration",
+        "Hot Carrier Injection (HCI)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Random Dopant Fluctuations (RDF)",
+        "Dielectric Breakdown"
       ],
-      "correct": 2
+      "correct": 3
+    },
+    {
+      "question": "What is the primary role of a \"Program Counter\" (PC) in a typical CPU architecture?",
+      "options": [
+        "To store the results of arithmetic and logic operations after execution.",
+        "To hold the memory address of the next instruction to be fetched and executed.",
+        "To manage the flow of data between the CPU's registers and the main memory.",
+        "To contain microcode instructions that define complex CPU operations.",
+        "To provide temporary, high-speed storage for operand values during computation."
+      ],
+      "correct": 1
     }
   ]
 }

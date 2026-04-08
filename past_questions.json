@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes sequential logic circuits from combinational logic circuits?",
-  "When a cache line needs to be replaced to make room for a new block, which of the following cache eviction policies aims to discard the block that has not been accessed for the longest period of time?",
-  "In the physical design phase of an integrated circuit, what is the primary objective of the 'Placement' step?",
-  "Which of the following parallel processing architectures is best described by having multiple processing elements that each execute different instructions on different data streams simultaneously?",
-  "In synchronous digital circuits, which of the following describes the 'setup time' requirement for a flip-flop?",
   "What is the fundamental building block of sequential logic circuits used to store a single bit of information?",
   "In computer architecture, what is the primary purpose of a cache memory?",
   "In the physical design of an Integrated Circuit (IC), what is the primary function of the 'power delivery network' (PDN), also known as the power grid?",
@@ -48,5 +43,10 @@
   "In a Field-Programmable Gate Array (FPGA), what is the primary component within a Configurable Logic Block (CLB) that is responsible for implementing arbitrary Boolean functions?",
   "In a virtual memory system, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
   "What design methodology aims to optimize an integrated circuit layout to reduce sensitivity to manufacturing process variations and improve overall yield?",
-  "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?"
+  "In a modern out-of-order execution processor, what is the primary role of the Reorder Buffer (ROB)?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
+  "During the Design for Testability (DFT) phase of an integrated circuit, what is the main purpose of \"Boundary Scan\" (specified by the IEEE 1149.1 JTAG standard)?",
+  "Which type of hazard in a pipelined processor occurs when an instruction attempts to use a hardware resource that is currently occupied by another instruction in the pipeline (e.g., a specific functional unit or memory port)?",
+  "During the fabrication process of an integrated circuit, what phenomenon primarily leads to unavoidable, statistical variations in transistor threshold voltage (Vt) and current (Id) due to the discrete nature of dopant atoms, becoming a significant challenge for advanced technology nodes?",
+  "What is the primary role of a \"Program Counter\" (PC) in a typical CPU architecture?"
 ]
