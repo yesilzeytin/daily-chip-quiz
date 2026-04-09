@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of sequential logic circuits used to store a single bit of information?",
-  "In computer architecture, what is the primary purpose of a cache memory?",
-  "In the physical design of an Integrated Circuit (IC), what is the primary function of the 'power delivery network' (PDN), also known as the power grid?",
-  "In System-on-Chip (SoC) design and verification, what is the primary objective of employing \"Transaction-Level Modeling (TLM)\"?",
-  "What is the primary reason for incorporating \"Error Correcting Codes (ECC)\" into memory systems (e.g., DRAM, caches)?",
   "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
   "In digital circuit timing analysis, what does the \"critical path\" primarily represent?",
   "In the context of digital IC verification, what is the primary role of an \"assertion\"?",
@@ -48,5 +43,10 @@
   "During the Design for Testability (DFT) phase of an integrated circuit, what is the main purpose of \"Boundary Scan\" (specified by the IEEE 1149.1 JTAG standard)?",
   "Which type of hazard in a pipelined processor occurs when an instruction attempts to use a hardware resource that is currently occupied by another instruction in the pipeline (e.g., a specific functional unit or memory port)?",
   "During the fabrication process of an integrated circuit, what phenomenon primarily leads to unavoidable, statistical variations in transistor threshold voltage (Vt) and current (Id) due to the discrete nature of dopant atoms, becoming a significant challenge for advanced technology nodes?",
-  "What is the primary role of a \"Program Counter\" (PC) in a typical CPU architecture?"
+  "What is the primary role of a \"Program Counter\" (PC) in a typical CPU architecture?",
+  "What is the primary function of a clock signal in synchronous digital circuits?",
+  "What does Instruction Set Architecture (ISA) primarily define in computer systems?",
+  "In the physical verification phase of Integrated Circuit (IC) design, what is the primary purpose of Design Rule Checking (DRC)?",
+  "What is the primary objective of Static Timing Analysis (STA) in the digital IC design flow?",
+  "In modern computer architectures, what is the primary purpose of 'virtual memory'?"
 ]
