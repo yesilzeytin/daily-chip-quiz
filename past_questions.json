@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
-  "In digital circuit timing analysis, what does the \"critical path\" primarily represent?",
-  "In the context of digital IC verification, what is the primary role of an \"assertion\"?",
-  "In a multi-processor system with private caches for each core, what is the primary problem that \"cache coherence protocols\" aim to address?",
-  "What is the primary abstraction level and goal of Register-Transfer Level (RTL) design in the digital IC design flow?",
   "What is one of the key advantages of using Complementary Metal-Oxide-Semiconductor (CMOS) technology for digital integrated circuits?",
   "In the Von Neumann architecture or typical CPU design, what is the primary role of the Control Unit?",
   "In advanced VLSI physical design, what phenomenon does \"crosstalk\" primarily refer to, and why is its analysis crucial?",
@@ -48,5 +43,10 @@
   "What does Instruction Set Architecture (ISA) primarily define in computer systems?",
   "In the physical verification phase of Integrated Circuit (IC) design, what is the primary purpose of Design Rule Checking (DRC)?",
   "What is the primary objective of Static Timing Analysis (STA) in the digital IC design flow?",
-  "In modern computer architectures, what is the primary purpose of 'virtual memory'?"
+  "In modern computer architectures, what is the primary purpose of 'virtual memory'?",
+  "What is the primary difference between a D-latch and a D-flip-flop in terms of their triggering mechanism?",
+  "In the typical Application-Specific Integrated Circuit (ASIC) design flow, what is the primary output of the \"logic synthesis\" stage?",
+  "In computer architecture, what is the primary characteristic of a \"write-back\" cache policy when a modified cache block needs to be written to main memory?",
+  "In advanced low-power digital IC design, what is the primary purpose of implementing \"power gating\" techniques?",
+  "In the context of large-scale System-on-Chip (SoC) designs, what is the primary advantage of employing a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect system?"
 ]
