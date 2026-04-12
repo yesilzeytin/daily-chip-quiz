@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary difference between a D-latch and a D-flip-flop in terms of their triggering mechanism?",
+      "question": "In digital circuit design, what defines the \"critical path\"?",
       "options": [
-        "A D-latch is edge-triggered, while a D-flip-flop is level-sensitive.",
-        "A D-latch is level-sensitive, while a D-flip-flop is edge-triggered.",
-        "A D-latch can store multiple bits, while a D-flip-flop stores only one.",
-        "A D-latch has an asynchronous reset, while a D-flip-flop always has a synchronous reset.",
-        "A D-latch is used in combinational logic, while a D-flip-flop is used in sequential logic."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the typical Application-Specific Integrated Circuit (ASIC) design flow, what is the primary output of the \"logic synthesis\" stage?",
-      "options": [
-        "A technology-independent Register-Transfer Level (RTL) description.",
-        "A physical layout (GDSII file) ready for fabrication.",
-        "A gate-level netlist mapped to a target technology library.",
-        "A verified test bench for functional simulation.",
-        "An optimized floorplan with power grid distribution."
+        "The shortest delay path from an input to an output.",
+        "The path with the highest number of gates.",
+        "The longest delay path from an input or register output to an output or register input.",
+        "The path that experiences the most crosstalk.",
+        "The path that consumes the most static power."
       ],
       "correct": 2
     },
     {
-      "question": "In computer architecture, what is the primary characteristic of a \"write-back\" cache policy when a modified cache block needs to be written to main memory?",
+      "question": "In a multi-core processor system with shared memory, which of the following protocols is commonly used to maintain data consistency across multiple caches?",
       "options": [
-        "All write operations are immediately propagated to both cache and main memory.",
-        "Data is written to main memory only when the corresponding cache block is evicted or explicitly flushed.",
-        "Write operations only update the cache, and main memory is never updated.",
-        "Writes are broadcast to all other caches in a multi-processor system before updating main memory.",
-        "Main memory is updated only during system shutdown or power-off."
+        "Virtual Memory Paging Protocol",
+        "Instruction Set Architecture (ISA)",
+        "Memory Read/Write Arbitration Protocol",
+        "MESI Protocol (Modified, Exclusive, Shared, Invalid)",
+        "Dynamic Voltage and Frequency Scaling (DVFS)"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In advanced low-power digital IC design, what is the primary purpose of implementing \"power gating\" techniques?",
+      "question": "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with?",
       "options": [
-        "To dynamically adjust the operating frequency of the circuit based on workload.",
-        "To reduce static (leakage) power consumption by completely cutting off power to idle blocks.",
-        "To minimize dynamic power consumption by disabling clock signals to inactive blocks.",
-        "To reduce manufacturing costs by using smaller transistors.",
-        "To improve circuit performance by increasing the supply voltage."
+        "The time required to power up and power down an IC.",
+        "The propagation delay through combinational logic gates.",
+        "Ensuring data stability at a flip-flop's input around the active clock edge.",
+        "The time taken for a processor to fetch an instruction from memory.",
+        "The delay introduced by interconnections (wires) on the chip."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In the context of large-scale System-on-Chip (SoC) designs, what is the primary advantage of employing a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect system?",
+      "question": "In advanced semiconductor manufacturing, what is the primary purpose of inserting \"dummy metal fill\" (or \"density fill\") structures into the integrated circuit layout?",
       "options": [
-        "Reduced design complexity due to a centralized control unit.",
-        "Enhanced scalability and throughput, especially for many IP cores, by using parallel communication paths.",
-        "Lower power consumption because all communication is synchronous.",
-        "Guaranteed real-time performance for all data transfers regardless of network congestion.",
-        "Simpler arbitration logic and fewer routing challenges."
+        "To enhance the electrical conductivity of power lines.",
+        "To reduce parasitic capacitance between signal lines.",
+        "To improve the planarity of the wafer surface during chemical mechanical planarization (CMP).",
+        "To provide additional grounding points for noise reduction.",
+        "To reduce the overall chip area and cost."
       ],
-      "correct": 1
+      "correct": 2
+    },
+    {
+      "question": "Which of the following is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
+      "options": [
+        "RISC processors typically have a larger and more complex instruction set.",
+        "CISC processors prioritize single-cycle execution for most instructions.",
+        "RISC architectures generally employ simpler addressing modes and fixed-length instructions.",
+        "CISC architectures typically have more general-purpose registers than RISC.",
+        "RISC processors inherently support microcode for complex operations, while CISC does not."
+      ],
+      "correct": 2
     }
   ]
 }

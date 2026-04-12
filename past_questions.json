@@ -1,9 +1,4 @@
 [
-  "What is one of the key advantages of using Complementary Metal-Oxide-Semiconductor (CMOS) technology for digital integrated circuits?",
-  "In the Von Neumann architecture or typical CPU design, what is the primary role of the Control Unit?",
-  "In advanced VLSI physical design, what phenomenon does \"crosstalk\" primarily refer to, and why is its analysis crucial?",
-  "What is a fundamental characteristic of a Finite State Machine (FSM) in digital circuit design?",
-  "Which of the following best describes the fundamental operational principle of a Vector Processor in computer architecture?",
   "What is the fundamental building block of modern digital integrated circuits, which acts as an electrically controlled switch?",
   "In modern pipelined processors, which architectural technique is primarily used to reduce the performance penalty associated with conditional branch instructions by speculatively guessing the outcome of a branch before it is fully evaluated?",
   "After logic synthesis, the 'Place and Route' stage in the digital IC design flow is crucial. What is its primary objective?",
@@ -48,5 +43,10 @@
   "In the typical Application-Specific Integrated Circuit (ASIC) design flow, what is the primary output of the \"logic synthesis\" stage?",
   "In computer architecture, what is the primary characteristic of a \"write-back\" cache policy when a modified cache block needs to be written to main memory?",
   "In advanced low-power digital IC design, what is the primary purpose of implementing \"power gating\" techniques?",
-  "In the context of large-scale System-on-Chip (SoC) designs, what is the primary advantage of employing a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect system?"
+  "In the context of large-scale System-on-Chip (SoC) designs, what is the primary advantage of employing a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect system?",
+  "In digital circuit design, what defines the \"critical path\"?",
+  "In a multi-core processor system with shared memory, which of the following protocols is commonly used to maintain data consistency across multiple caches?",
+  "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with?",
+  "In advanced semiconductor manufacturing, what is the primary purpose of inserting \"dummy metal fill\" (or \"density fill\") structures into the integrated circuit layout?",
+  "Which of the following is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?"
 ]
