@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In digital circuit design, what defines the \"critical path\"?",
+      "question": "What is the primary distinction between combinational logic circuits and sequential logic circuits?",
       "options": [
-        "The shortest delay path from an input to an output.",
-        "The path with the highest number of gates.",
-        "The longest delay path from an input or register output to an output or register input.",
-        "The path that experiences the most crosstalk.",
-        "The path that consumes the most static power."
+        "Combinational logic's output depends solely on its current inputs, while sequential logic's output depends on current inputs and its past state.",
+        "Combinational logic uses only AND and OR gates, while sequential logic uses only XOR and XNOR gates.",
+        "Sequential logic circuits are always faster than combinational logic circuits.",
+        "Combinational logic always includes a clock signal, while sequential logic never does.",
+        "Sequential logic can implement arithmetic operations, while combinational logic cannot."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is a defining characteristic of a Very Long Instruction Word (VLIW) architecture?",
+      "options": [
+        "It relies heavily on dynamic hardware scheduling to find parallelism at runtime.",
+        "The compiler is primarily responsible for detecting and scheduling independent operations to execute in parallel.",
+        "It executes only one instruction per clock cycle but uses multiple pipelines.",
+        "It uses a variable-length instruction format that adapts to the complexity of the operation.",
+        "It strictly enforces in-order execution to simplify control logic."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the post-layout phase of digital IC design, what is the primary purpose of 'parasitic extraction'?",
+      "options": [
+        "To verify that all layout features adhere to the manufacturing rules (e.g., width, spacing).",
+        "To identify and fix any timing violations that occurred during clock tree synthesis.",
+        "To generate detailed resistance and capacitance values from the physical layout, essential for accurate timing and signal integrity analysis.",
+        "To insert test structures like scan chains for manufacturing testability.",
+        "To optimize the power consumption of the design by identifying leakage paths."
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-core processor system with shared memory, which of the following protocols is commonly used to maintain data consistency across multiple caches?",
+      "question": "In synchronous digital circuit design, 'metastability' in a flip-flop or latch primarily refers to what phenomenon?",
       "options": [
-        "Virtual Memory Paging Protocol",
-        "Instruction Set Architecture (ISA)",
-        "Memory Read/Write Arbitration Protocol",
-        "MESI Protocol (Modified, Exclusive, Shared, Invalid)",
-        "Dynamic Voltage and Frequency Scaling (DVFS)"
+        "The state where a flip-flop's output oscillates indefinitely between logic 0 and 1 due to excessive clock skew.",
+        "A condition where the flip-flop's output enters an indeterminate, unstable state when setup or hold time violations occur, making it neither a clear logic 0 nor a clear logic 1.",
+        "The rapid transition of a flip-flop's output from one stable state to another after a clock edge.",
+        "A temporary short-circuit current path that occurs during the switching of transistors.",
+        "The process of a flip-flop losing its stored data due to a power supply glitch."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with?",
+      "question": "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the digital IC design flow?",
       "options": [
-        "The time required to power up and power down an IC.",
-        "The propagation delay through combinational logic gates.",
-        "Ensuring data stability at a flip-flop's input around the active clock edge.",
-        "The time taken for a processor to fetch an instruction from memory.",
-        "The delay introduced by interconnections (wires) on the chip."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In advanced semiconductor manufacturing, what is the primary purpose of inserting \"dummy metal fill\" (or \"density fill\") structures into the integrated circuit layout?",
-      "options": [
-        "To enhance the electrical conductivity of power lines.",
-        "To reduce parasitic capacitance between signal lines.",
-        "To improve the planarity of the wafer surface during chemical mechanical planarization (CMP).",
-        "To provide additional grounding points for noise reduction.",
-        "To reduce the overall chip area and cost."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
-      "options": [
-        "RISC processors typically have a larger and more complex instruction set.",
-        "CISC processors prioritize single-cycle execution for most instructions.",
-        "RISC architectures generally employ simpler addressing modes and fixed-length instructions.",
-        "CISC architectures typically have more general-purpose registers than RISC.",
-        "RISC processors inherently support microcode for complex operations, while CISC does not."
+        "To write embedded software programs that run on the designed chip.",
+        "To physically simulate the analog characteristics of individual transistors and interconnects.",
+        "To provide a textual way to describe the behavior, structure, and connectivity of digital hardware at various levels of abstraction.",
+        "To perform formal mathematical proofs of circuit correctness.",
+        "To manage the project schedule and allocate design tasks among team members."
       ],
       "correct": 2
     }

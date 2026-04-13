@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of modern digital integrated circuits, which acts as an electrically controlled switch?",
-  "In modern pipelined processors, which architectural technique is primarily used to reduce the performance penalty associated with conditional branch instructions by speculatively guessing the outcome of a branch before it is fully evaluated?",
-  "After logic synthesis, the 'Place and Route' stage in the digital IC design flow is crucial. What is its primary objective?",
-  "In a Non-Uniform Memory Access (NUMA) architecture, what is the primary characteristic that distinguishes it from a Uniform Memory Access (UMA) architecture?",
-  "In the context of digital IC verification, what is the primary purpose of the Universal Verification Methodology (UVM)?",
   "Which of the following digital logic gates is considered 'universal' because any other Boolean function can be implemented using only this type of gate?",
   "In a virtual memory system, what is a 'page fault'?",
   "Which power optimization technique in digital IC design involves selectively disabling the clock signal to inactive functional blocks to reduce dynamic power consumption?",
@@ -48,5 +43,10 @@
   "In a multi-core processor system with shared memory, which of the following protocols is commonly used to maintain data consistency across multiple caches?",
   "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with?",
   "In advanced semiconductor manufacturing, what is the primary purpose of inserting \"dummy metal fill\" (or \"density fill\") structures into the integrated circuit layout?",
-  "Which of the following is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?"
+  "Which of the following is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
+  "What is the primary distinction between combinational logic circuits and sequential logic circuits?",
+  "What is a defining characteristic of a Very Long Instruction Word (VLIW) architecture?",
+  "In the post-layout phase of digital IC design, what is the primary purpose of 'parasitic extraction'?",
+  "In synchronous digital circuit design, 'metastability' in a flip-flop or latch primarily refers to what phenomenon?",
+  "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the digital IC design flow?"
 ]
