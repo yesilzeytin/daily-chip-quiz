@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary distinction between combinational logic circuits and sequential logic circuits?",
+      "question": "In digital circuit design, what does the 'fan-out' of a logic gate primarily refer to?",
       "options": [
-        "Combinational logic's output depends solely on its current inputs, while sequential logic's output depends on current inputs and its past state.",
-        "Combinational logic uses only AND and OR gates, while sequential logic uses only XOR and XNOR gates.",
-        "Sequential logic circuits are always faster than combinational logic circuits.",
-        "Combinational logic always includes a clock signal, while sequential logic never does.",
-        "Sequential logic can implement arithmetic operations, while combinational logic cannot."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What is a defining characteristic of a Very Long Instruction Word (VLIW) architecture?",
-      "options": [
-        "It relies heavily on dynamic hardware scheduling to find parallelism at runtime.",
-        "The compiler is primarily responsible for detecting and scheduling independent operations to execute in parallel.",
-        "It executes only one instruction per clock cycle but uses multiple pipelines.",
-        "It uses a variable-length instruction format that adapts to the complexity of the operation.",
-        "It strictly enforces in-order execution to simplify control logic."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the post-layout phase of digital IC design, what is the primary purpose of 'parasitic extraction'?",
-      "options": [
-        "To verify that all layout features adhere to the manufacturing rules (e.g., width, spacing).",
-        "To identify and fix any timing violations that occurred during clock tree synthesis.",
-        "To generate detailed resistance and capacitance values from the physical layout, essential for accurate timing and signal integrity analysis.",
-        "To insert test structures like scan chains for manufacturing testability.",
-        "To optimize the power consumption of the design by identifying leakage paths."
+        "The maximum number of input signals it can accept.",
+        "The number of output signals it generates.",
+        "The maximum number of similar gates that can be driven by its output while maintaining valid logic levels.",
+        "The amount of heat dissipated by the gate.",
+        "The speed at which the gate can switch its output state."
       ],
       "correct": 2
     },
     {
-      "question": "In synchronous digital circuit design, 'metastability' in a flip-flop or latch primarily refers to what phenomenon?",
+      "question": "In the physical design phase of an Application-Specific Integrated Circuit (ASIC) or System-on-Chip (SoC), what is the primary objective of the 'Place and Route' stage?",
       "options": [
-        "The state where a flip-flop's output oscillates indefinitely between logic 0 and 1 due to excessive clock skew.",
-        "A condition where the flip-flop's output enters an indeterminate, unstable state when setup or hold time violations occur, making it neither a clear logic 0 nor a clear logic 1.",
-        "The rapid transition of a flip-flop's output from one stable state to another after a clock edge.",
-        "A temporary short-circuit current path that occurs during the switching of transistors.",
-        "The process of a flip-flop losing its stored data due to a power supply glitch."
+        "To convert the Register Transfer Level (RTL) description into a gate-level netlist.",
+        "To verify the logical equivalence between the RTL and gate-level netlists.",
+        "To determine the physical location of logic cells (placement) and connect them with wires (routing) on the silicon die.",
+        "To analyze the timing performance of the circuit and ensure it meets specifications.",
+        "To generate test patterns for manufacturing defect detection."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a processor's cache memory system, which cache replacement policy typically evicts the block that has not been accessed for the longest period of time?",
+      "options": [
+        "First-In, First-Out (FIFO)",
+        "Least Recently Used (LRU)",
+        "Random Replacement (RR)",
+        "Most Recently Used (MRU)",
+        "Optimal Replacement (OPT)"
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the digital IC design flow?",
+      "question": "When designing a System-on-Chip (SoC) where different functional blocks operate with independent and unsynchronized clock signals, what is the primary challenge addressed by Clock Domain Crossing (CDC) synchronization techniques?",
       "options": [
-        "To write embedded software programs that run on the designed chip.",
-        "To physically simulate the analog characteristics of individual transistors and interconnects.",
-        "To provide a textual way to describe the behavior, structure, and connectivity of digital hardware at various levels of abstraction.",
-        "To perform formal mathematical proofs of circuit correctness.",
-        "To manage the project schedule and allocate design tasks among team members."
+        "Minimizing static power consumption in the inactive blocks.",
+        "Ensuring data integrity and preventing metastability when signals transition between clock domains.",
+        "Optimizing the physical placement of clock buffers to reduce clock skew.",
+        "Converting analog signals into digital format for processing.",
+        "Detecting and correcting single-event upsets (SEUs) caused by radiation."
       ],
-      "correct": 2
+      "correct": 1
+    },
+    {
+      "question": "In digital circuits, the 'propagation delay' (tpd) of a logic gate primarily quantifies which characteristic?",
+      "options": [
+        "The maximum number of inputs the gate can accept.",
+        "The time required for the gate's output to respond to a change in its input(s).",
+        "The total power consumed by the gate during operation.",
+        "The physical area occupied by the gate on the silicon die.",
+        "The frequency at which the gate can reliably operate."
+      ],
+      "correct": 1
     }
   ]
 }

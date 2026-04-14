@@ -1,9 +1,4 @@
 [
-  "Which of the following digital logic gates is considered 'universal' because any other Boolean function can be implemented using only this type of gate?",
-  "In a virtual memory system, what is a 'page fault'?",
-  "Which power optimization technique in digital IC design involves selectively disabling the clock signal to inactive functional blocks to reduce dynamic power consumption?",
-  "In formal verification of digital circuits, which technique systematically explores all possible states of a finite-state model of a system to prove or disprove properties expressed in temporal logic (e.g., LTL or CTL)?",
-  "What is the primary purpose of 'register renaming' in modern out-of-order execution processors?",
   "In the physical design phase of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
   "Which of the following statements accurately describes a key difference between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM)?",
   "In digital IC verification, what is the primary goal of Formal Equivalence Checking (FEC)?",
@@ -48,5 +43,10 @@
   "What is a defining characteristic of a Very Long Instruction Word (VLIW) architecture?",
   "In the post-layout phase of digital IC design, what is the primary purpose of 'parasitic extraction'?",
   "In synchronous digital circuit design, 'metastability' in a flip-flop or latch primarily refers to what phenomenon?",
-  "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the digital IC design flow?"
+  "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the digital IC design flow?",
+  "In digital circuit design, what does the 'fan-out' of a logic gate primarily refer to?",
+  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC) or System-on-Chip (SoC), what is the primary objective of the 'Place and Route' stage?",
+  "In a processor's cache memory system, which cache replacement policy typically evicts the block that has not been accessed for the longest period of time?",
+  "When designing a System-on-Chip (SoC) where different functional blocks operate with independent and unsynchronized clock signals, what is the primary challenge addressed by Clock Domain Crossing (CDC) synchronization techniques?",
+  "In digital circuits, the 'propagation delay' (tpd) of a logic gate primarily quantifies which characteristic?"
 ]
