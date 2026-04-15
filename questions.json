@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital circuit design, what does the 'fan-out' of a logic gate primarily refer to?",
+      "question": "Which technology is characterized by its use of both p-type and n-type MOSFETs to create logic gates, enabling low static power consumption in modern digital integrated circuits?",
       "options": [
-        "The maximum number of input signals it can accept.",
-        "The number of output signals it generates.",
-        "The maximum number of similar gates that can be driven by its output while maintaining valid logic levels.",
-        "The amount of heat dissipated by the gate.",
-        "The speed at which the gate can switch its output state."
+        "CMOS",
+        "TTL",
+        "ECL",
+        "RTL",
+        "DTL"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the context of computer architecture, what is the primary role of a Branch Predictor unit within a modern CPU pipeline?",
+      "options": [
+        "To reduce the latency of memory access by prefetching data.",
+        "To optimize the execution of arithmetic and logical operations.",
+        "To guess the outcome of conditional branch instructions to avoid pipeline stalls.",
+        "To manage the allocation and deallocation of registers for out-of-order execution.",
+        "To ensure cache coherence across multiple processor cores."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design phase of an Application-Specific Integrated Circuit (ASIC) or System-on-Chip (SoC), what is the primary objective of the 'Place and Route' stage?",
+      "question": "When designing digital circuits, what phenomenon occurs when the clock signal arrives at different flip-flops at slightly different times across the chip, potentially leading to setup or hold time violations if not properly managed?",
       "options": [
-        "To convert the Register Transfer Level (RTL) description into a gate-level netlist.",
-        "To verify the logical equivalence between the RTL and gate-level netlists.",
-        "To determine the physical location of logic cells (placement) and connect them with wires (routing) on the silicon die.",
-        "To analyze the timing performance of the circuit and ensure it meets specifications.",
-        "To generate test patterns for manufacturing defect detection."
+        "Signal integrity degradation",
+        "Power grid bounce",
+        "Clock skew",
+        "Electromigration",
+        "Thermal runaway"
       ],
       "correct": 2
     },
     {
-      "question": "In a processor's cache memory system, which cache replacement policy typically evicts the block that has not been accessed for the longest period of time?",
+      "question": "In the physical design of digital integrated circuits, particularly at advanced technology nodes, what is the dominant factor contributing to signal propagation delay in long interconnect wires, especially as compared to gate delay?",
       "options": [
-        "First-In, First-Out (FIFO)",
-        "Least Recently Used (LRU)",
-        "Random Replacement (RR)",
-        "Most Recently Used (MRU)",
-        "Optimal Replacement (OPT)"
+        "Transistor switching speed",
+        "RC delay of interconnects",
+        "Gate leakage current",
+        "Subthreshold conduction",
+        "Process variation in transistor threshold voltage"
       ],
       "correct": 1
     },
     {
-      "question": "When designing a System-on-Chip (SoC) where different functional blocks operate with independent and unsynchronized clock signals, what is the primary challenge addressed by Clock Domain Crossing (CDC) synchronization techniques?",
+      "question": "Which digital IC design methodology relies heavily on the reuse of pre-designed, pre-verified intellectual property (IP) blocks (e.g., CPU cores, DSPs, memory controllers) to rapidly construct complex System-on-Chip (SoC) designs?",
       "options": [
-        "Minimizing static power consumption in the inactive blocks.",
-        "Ensuring data integrity and preventing metastability when signals transition between clock domains.",
-        "Optimizing the physical placement of clock buffers to reduce clock skew.",
-        "Converting analog signals into digital format for processing.",
-        "Detecting and correcting single-event upsets (SEUs) caused by radiation."
+        "Full-custom design",
+        "Standard cell ASIC design",
+        "Gate array design",
+        "IP-based design",
+        "Analog mixed-signal design"
       ],
-      "correct": 1
-    },
-    {
-      "question": "In digital circuits, the 'propagation delay' (tpd) of a logic gate primarily quantifies which characteristic?",
-      "options": [
-        "The maximum number of inputs the gate can accept.",
-        "The time required for the gate's output to respond to a change in its input(s).",
-        "The total power consumed by the gate during operation.",
-        "The physical area occupied by the gate on the silicon die.",
-        "The frequency at which the gate can reliably operate."
-      ],
-      "correct": 1
+      "correct": 3
     }
   ]
 }

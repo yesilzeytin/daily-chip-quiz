@@ -1,9 +1,4 @@
 [
-  "In the physical design phase of digital integrated circuits, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "Which of the following statements accurately describes a key difference between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM)?",
-  "In digital IC verification, what is the primary goal of Formal Equivalence Checking (FEC)?",
-  "In a pipelined processor, what is the architectural technique known as \"data forwarding\" or \"bypassing\" primarily designed to mitigate?",
-  "In semiconductor manufacturing, which process is primarily responsible for transferring geometric patterns from a photomask onto a wafer, defining the layout of transistors and interconnections?",
   "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
   "In the context of CPU design, what is the primary purpose of 'microcode'?",
   "In very-large-scale integration (VLSI) circuits, what phenomenon does 'electromigration' primarily refer to?",
@@ -48,5 +43,10 @@
   "In the physical design phase of an Application-Specific Integrated Circuit (ASIC) or System-on-Chip (SoC), what is the primary objective of the 'Place and Route' stage?",
   "In a processor's cache memory system, which cache replacement policy typically evicts the block that has not been accessed for the longest period of time?",
   "When designing a System-on-Chip (SoC) where different functional blocks operate with independent and unsynchronized clock signals, what is the primary challenge addressed by Clock Domain Crossing (CDC) synchronization techniques?",
-  "In digital circuits, the 'propagation delay' (tpd) of a logic gate primarily quantifies which characteristic?"
+  "In digital circuits, the 'propagation delay' (tpd) of a logic gate primarily quantifies which characteristic?",
+  "Which technology is characterized by its use of both p-type and n-type MOSFETs to create logic gates, enabling low static power consumption in modern digital integrated circuits?",
+  "In the context of computer architecture, what is the primary role of a Branch Predictor unit within a modern CPU pipeline?",
+  "When designing digital circuits, what phenomenon occurs when the clock signal arrives at different flip-flops at slightly different times across the chip, potentially leading to setup or hold time violations if not properly managed?",
+  "In the physical design of digital integrated circuits, particularly at advanced technology nodes, what is the dominant factor contributing to signal propagation delay in long interconnect wires, especially as compared to gate delay?",
+  "Which digital IC design methodology relies heavily on the reuse of pre-designed, pre-verified intellectual property (IP) blocks (e.g., CPU cores, DSPs, memory controllers) to rapidly construct complex System-on-Chip (SoC) designs?"
 ]
