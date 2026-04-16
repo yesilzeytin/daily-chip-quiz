@@ -1,9 +1,4 @@
 [
-  "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
-  "In the context of CPU design, what is the primary purpose of 'microcode'?",
-  "In very-large-scale integration (VLSI) circuits, what phenomenon does 'electromigration' primarily refer to?",
-  "In the digital IC design and verification flow, what is the primary role of a 'test bench'?",
-  "In the context of computer architecture, the 'memory wall' problem primarily refers to which fundamental challenge?",
   "What is the primary function of a multiplexer (MUX) in digital logic?",
   "What type of hazard in a pipelined processor occurs when the next instruction to fetch depends on the outcome of a preceding instruction that is not yet resolved?",
   "What is the primary purpose of adding \"scan chains\" during the Design for Testability (DFT) phase of IC design?",
@@ -48,5 +43,10 @@
   "In the context of computer architecture, what is the primary role of a Branch Predictor unit within a modern CPU pipeline?",
   "When designing digital circuits, what phenomenon occurs when the clock signal arrives at different flip-flops at slightly different times across the chip, potentially leading to setup or hold time violations if not properly managed?",
   "In the physical design of digital integrated circuits, particularly at advanced technology nodes, what is the dominant factor contributing to signal propagation delay in long interconnect wires, especially as compared to gate delay?",
-  "Which digital IC design methodology relies heavily on the reuse of pre-designed, pre-verified intellectual property (IP) blocks (e.g., CPU cores, DSPs, memory controllers) to rapidly construct complex System-on-Chip (SoC) designs?"
+  "Which digital IC design methodology relies heavily on the reuse of pre-designed, pre-verified intellectual property (IP) blocks (e.g., CPU cores, DSPs, memory controllers) to rapidly construct complex System-on-Chip (SoC) designs?",
+  "In digital logic, what does a small circle (bubble) at the output of a logic gate symbol typically represent?",
+  "Which addressing mode calculates the effective memory address by adding the contents of a base register to a constant offset value provided in the instruction?",
+  "In the digital IC design flow, what is the primary purpose of \"Formal Equivalence Checking\" (FEC) tools?",
+  "What characteristic of Dynamic Random-Access Memory (DRAM) necessitates periodic \"refresh cycles\" to retain data?",
+  "In digital CMOS circuits, which type of power consumption occurs primarily due to the charging and discharging of load capacitances during switching events?"
 ]

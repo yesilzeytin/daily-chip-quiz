@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which technology is characterized by its use of both p-type and n-type MOSFETs to create logic gates, enabling low static power consumption in modern digital integrated circuits?",
+      "question": "In digital logic, what does a small circle (bubble) at the output of a logic gate symbol typically represent?",
       "options": [
-        "CMOS",
-        "TTL",
-        "ECL",
-        "RTL",
-        "DTL"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the context of computer architecture, what is the primary role of a Branch Predictor unit within a modern CPU pipeline?",
-      "options": [
-        "To reduce the latency of memory access by prefetching data.",
-        "To optimize the execution of arithmetic and logical operations.",
-        "To guess the outcome of conditional branch instructions to avoid pipeline stalls.",
-        "To manage the allocation and deallocation of registers for out-of-order execution.",
-        "To ensure cache coherence across multiple processor cores."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "When designing digital circuits, what phenomenon occurs when the clock signal arrives at different flip-flops at slightly different times across the chip, potentially leading to setup or hold time violations if not properly managed?",
-      "options": [
-        "Signal integrity degradation",
-        "Power grid bounce",
-        "Clock skew",
-        "Electromigration",
-        "Thermal runaway"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical design of digital integrated circuits, particularly at advanced technology nodes, what is the dominant factor contributing to signal propagation delay in long interconnect wires, especially as compared to gate delay?",
-      "options": [
-        "Transistor switching speed",
-        "RC delay of interconnects",
-        "Gate leakage current",
-        "Subthreshold conduction",
-        "Process variation in transistor threshold voltage"
+        "A power supply connection",
+        "An inverter or negation",
+        "A tri-state buffer",
+        "An enable signal",
+        "An open collector output"
       ],
       "correct": 1
     },
     {
-      "question": "Which digital IC design methodology relies heavily on the reuse of pre-designed, pre-verified intellectual property (IP) blocks (e.g., CPU cores, DSPs, memory controllers) to rapidly construct complex System-on-Chip (SoC) designs?",
+      "question": "Which addressing mode calculates the effective memory address by adding the contents of a base register to a constant offset value provided in the instruction?",
       "options": [
-        "Full-custom design",
-        "Standard cell ASIC design",
-        "Gate array design",
-        "IP-based design",
-        "Analog mixed-signal design"
+        "Immediate Addressing",
+        "Direct Addressing",
+        "Register Addressing",
+        "Base-plus-offset (or Indexed) Addressing",
+        "Auto-increment Addressing"
       ],
       "correct": 3
+    },
+    {
+      "question": "In the digital IC design flow, what is the primary purpose of \"Formal Equivalence Checking\" (FEC) tools?",
+      "options": [
+        "To synthesize RTL code into gate-level netlists",
+        "To verify that two different representations of a design (e.g., RTL vs. Gate-level) are functionally identical",
+        "To perform static timing analysis on the post-layout netlist",
+        "To generate test vectors for manufacturing test",
+        "To extract parasitic resistance and capacitance from the layout"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What characteristic of Dynamic Random-Access Memory (DRAM) necessitates periodic \"refresh cycles\" to retain data?",
+      "options": [
+        "Its reliance on flip-flops which can spontaneously invert state",
+        "The susceptibility of its magnetic domains to external interference",
+        "Its use of latches as storage elements",
+        "The charge stored in its capacitors leaks over time",
+        "Its volatile nature requires constant power to operate"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In digital CMOS circuits, which type of power consumption occurs primarily due to the charging and discharging of load capacitances during switching events?",
+      "options": [
+        "Static Power",
+        "Leakage Power",
+        "Dynamic Power",
+        "Short-circuit Power",
+        "Idle Power"
+      ],
+      "correct": 2
     }
   ]
 }
