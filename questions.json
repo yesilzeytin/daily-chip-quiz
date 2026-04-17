@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In digital logic, what does a small circle (bubble) at the output of a logic gate symbol typically represent?",
+      "question": "What is the primary characteristic that distinguishes an Application-Specific Integrated Circuit (ASIC) from a Field-Programmable Gate Array (FPGA)?",
       "options": [
-        "A power supply connection",
-        "An inverter or negation",
-        "A tri-state buffer",
-        "An enable signal",
-        "An open collector output"
+        "ASICs are custom-designed for a specific function and are immutable after fabrication, while FPGAs can be reprogrammed to implement different logic functions.",
+        "ASICs exclusively use combinational logic, whereas FPGAs are designed only with sequential logic.",
+        "ASICs are programmed using Hardware Description Languages (HDLs) like Verilog, while FPGAs are configured solely through graphical schematic capture.",
+        "ASICs are primarily used for analog signal processing, and FPGAs are exclusively for digital signal processing.",
+        "ASICs generally consume more power and are less performant than FPGAs due to their fixed nature."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In a processor's cache memory system, what is the main difference between a 'write-through' and a 'write-back' cache policy when data is written to a cache block?",
+      "options": [
+        "Write-through updates only the cache, while write-back updates both cache and main memory simultaneously.",
+        "Write-through updates both cache and main memory simultaneously, while write-back updates main memory only when the modified cache block is evicted from the cache.",
+        "Write-through is generally slower for individual write operations due to main memory access, while write-back is always faster for writes.",
+        "Write-through requires a 'dirty bit' to track modified blocks, whereas write-back does not.",
+        "Write-through typically has a higher hit rate than write-back for the same cache size."
       ],
       "correct": 1
     },
     {
-      "question": "Which addressing mode calculates the effective memory address by adding the contents of a base register to a constant offset value provided in the instruction?",
+      "question": "In the context of Hardware Description Languages (HDLs) like Verilog or VHDL, which abstraction level typically describes the circuit's behavior in terms of data flow, registers, and operations, without specifying the exact gates or transistors?",
       "options": [
-        "Immediate Addressing",
-        "Direct Addressing",
-        "Register Addressing",
-        "Base-plus-offset (or Indexed) Addressing",
-        "Auto-increment Addressing"
+        "Gate-level abstraction",
+        "Transistor-level abstraction",
+        "Physical-level abstraction",
+        "Register-Transfer Level (RTL) abstraction",
+        "Behavioral-level abstraction (without any structural detail)"
       ],
       "correct": 3
     },
     {
-      "question": "In the digital IC design flow, what is the primary purpose of \"Formal Equivalence Checking\" (FEC) tools?",
+      "question": "For verifying complex System-on-Chip (SoC) designs, particularly for software-driven validation, which verification methodology offers the highest execution speed, allowing for running significant amounts of software on a hardware representation of the design before tape-out?",
       "options": [
-        "To synthesize RTL code into gate-level netlists",
-        "To verify that two different representations of a design (e.g., RTL vs. Gate-level) are functionally identical",
-        "To perform static timing analysis on the post-layout netlist",
-        "To generate test vectors for manufacturing test",
-        "To extract parasitic resistance and capacitance from the layout"
+        "Gate-level simulation",
+        "Formal verification using satisfiability solvers",
+        "Emulation (using FPGA-based prototypes or dedicated hardware emulators)",
+        "Static timing analysis (STA)",
+        "Design Rule Checking (DRC)"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "What characteristic of Dynamic Random-Access Memory (DRAM) necessitates periodic \"refresh cycles\" to retain data?",
+      "question": "Within the Central Processing Unit (CPU), which component is primarily responsible for orchestrating the overall operation of the processor by generating timing and control signals to manage the fetching, decoding, execution, and write-back stages of instructions?",
       "options": [
-        "Its reliance on flip-flops which can spontaneously invert state",
-        "The susceptibility of its magnetic domains to external interference",
-        "Its use of latches as storage elements",
-        "The charge stored in its capacitors leaks over time",
-        "Its volatile nature requires constant power to operate"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In digital CMOS circuits, which type of power consumption occurs primarily due to the charging and discharging of load capacitances during switching events?",
-      "options": [
-        "Static Power",
-        "Leakage Power",
-        "Dynamic Power",
-        "Short-circuit Power",
-        "Idle Power"
+        "Arithmetic Logic Unit (ALU)",
+        "Memory Management Unit (MMU)",
+        "Control Unit (CU)",
+        "Cache Controller",
+        "Floating-Point Unit (FPU)"
       ],
       "correct": 2
     }

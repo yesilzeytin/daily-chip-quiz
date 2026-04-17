@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital logic?",
-  "What type of hazard in a pipelined processor occurs when the next instruction to fetch depends on the outcome of a preceding instruction that is not yet resolved?",
-  "What is the primary purpose of adding \"scan chains\" during the Design for Testability (DFT) phase of IC design?",
-  "In a multi-processor system, which memory consistency model guarantees that all memory operations appear to execute in some sequential order, and the order of operations from any individual processor thread appears in program order?",
-  "In digital IC design, what is the primary objective of \"gate sizing\" (or transistor sizing) during the optimization phase?",
   "Which Boolean logic gate outputs a HIGH (1) only when ALL of its inputs are HIGH (1)?",
   "In a Field-Programmable Gate Array (FPGA), what is the primary component within a Configurable Logic Block (CLB) that is responsible for implementing arbitrary Boolean functions?",
   "In a virtual memory system, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
@@ -48,5 +43,10 @@
   "Which addressing mode calculates the effective memory address by adding the contents of a base register to a constant offset value provided in the instruction?",
   "In the digital IC design flow, what is the primary purpose of \"Formal Equivalence Checking\" (FEC) tools?",
   "What characteristic of Dynamic Random-Access Memory (DRAM) necessitates periodic \"refresh cycles\" to retain data?",
-  "In digital CMOS circuits, which type of power consumption occurs primarily due to the charging and discharging of load capacitances during switching events?"
+  "In digital CMOS circuits, which type of power consumption occurs primarily due to the charging and discharging of load capacitances during switching events?",
+  "What is the primary characteristic that distinguishes an Application-Specific Integrated Circuit (ASIC) from a Field-Programmable Gate Array (FPGA)?",
+  "In a processor's cache memory system, what is the main difference between a 'write-through' and a 'write-back' cache policy when data is written to a cache block?",
+  "In the context of Hardware Description Languages (HDLs) like Verilog or VHDL, which abstraction level typically describes the circuit's behavior in terms of data flow, registers, and operations, without specifying the exact gates or transistors?",
+  "For verifying complex System-on-Chip (SoC) designs, particularly for software-driven validation, which verification methodology offers the highest execution speed, allowing for running significant amounts of software on a hardware representation of the design before tape-out?",
+  "Within the Central Processing Unit (CPU), which component is primarily responsible for orchestrating the overall operation of the processor by generating timing and control signals to manage the fetching, decoding, execution, and write-back stages of instructions?"
 ]
