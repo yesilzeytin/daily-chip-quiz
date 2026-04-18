@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that distinguishes an Application-Specific Integrated Circuit (ASIC) from a Field-Programmable Gate Array (FPGA)?",
+      "question": "In digital circuit design, which of the following is a common abstract representation of a combinational logic function that can be implemented using a lookup table (LUT) or gates?",
       "options": [
-        "ASICs are custom-designed for a specific function and are immutable after fabrication, while FPGAs can be reprogrammed to implement different logic functions.",
-        "ASICs exclusively use combinational logic, whereas FPGAs are designed only with sequential logic.",
-        "ASICs are programmed using Hardware Description Languages (HDLs) like Verilog, while FPGAs are configured solely through graphical schematic capture.",
-        "ASICs are primarily used for analog signal processing, and FPGAs are exclusively for digital signal processing.",
-        "ASICs generally consume more power and are less performant than FPGAs due to their fixed nature."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a processor's cache memory system, what is the main difference between a 'write-through' and a 'write-back' cache policy when data is written to a cache block?",
-      "options": [
-        "Write-through updates only the cache, while write-back updates both cache and main memory simultaneously.",
-        "Write-through updates both cache and main memory simultaneously, while write-back updates main memory only when the modified cache block is evicted from the cache.",
-        "Write-through is generally slower for individual write operations due to main memory access, while write-back is always faster for writes.",
-        "Write-through requires a 'dirty bit' to track modified blocks, whereas write-back does not.",
-        "Write-through typically has a higher hit rate than write-back for the same cache size."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the context of Hardware Description Languages (HDLs) like Verilog or VHDL, which abstraction level typically describes the circuit's behavior in terms of data flow, registers, and operations, without specifying the exact gates or transistors?",
-      "options": [
-        "Gate-level abstraction",
-        "Transistor-level abstraction",
-        "Physical-level abstraction",
-        "Register-Transfer Level (RTL) abstraction",
-        "Behavioral-level abstraction (without any structural detail)"
+        "State Machine",
+        "Flip-Flop",
+        "Multiplexer",
+        "Truth Table",
+        "Register File"
       ],
       "correct": 3
     },
     {
-      "question": "For verifying complex System-on-Chip (SoC) designs, particularly for software-driven validation, which verification methodology offers the highest execution speed, allowing for running significant amounts of software on a hardware representation of the design before tape-out?",
+      "question": "In a typical Von Neumann architecture, which stage of the instruction pipeline is responsible for interpreting the operation code (opcode) and identifying the operands required for an instruction?",
       "options": [
-        "Gate-level simulation",
-        "Formal verification using satisfiability solvers",
-        "Emulation (using FPGA-based prototypes or dedicated hardware emulators)",
-        "Static timing analysis (STA)",
-        "Design Rule Checking (DRC)"
+        "Fetch",
+        "Execute",
+        "Memory Access",
+        "Write-Back",
+        "Decode"
       ],
-      "correct": 2
+      "correct": 4
     },
     {
-      "question": "Within the Central Processing Unit (CPU), which component is primarily responsible for orchestrating the overall operation of the processor by generating timing and control signals to manage the fetching, decoding, execution, and write-back stages of instructions?",
+      "question": "In modern System-on-Chip (SoC) designs, particularly for embedded systems with tight latency requirements, what is the primary benefit of using \"Scratchpad Memory\" (SPM) over traditional cache memory for certain critical data or instructions?",
       "options": [
-        "Arithmetic Logic Unit (ALU)",
-        "Memory Management Unit (MMU)",
-        "Control Unit (CU)",
-        "Cache Controller",
-        "Floating-Point Unit (FPU)"
+        "Automatic cache coherence across multiple processors.",
+        "Guarantees deterministic access latency as it is software-managed.",
+        "Offers higher capacity than traditional DRAM modules.",
+        "Reduces dynamic power consumption by completely eliminating static power.",
+        "Simplifies memory management unit (MMU) design by removing virtual addressing."
       ],
-      "correct": 2
+      "correct": 1
+    },
+    {
+      "question": "In advanced semiconductor manufacturing, particularly at sub-10nm technology nodes, which phenomenon describes the statistical variation in physical dimensions and electrical characteristics of nominally identical devices on a single die, primarily due to inherent randomness in the lithographic and etching processes?",
+      "options": [
+        "Interconnect coupling capacitance",
+        "Random Dopant Fluctuations (RDF)",
+        "Die-to-die variation",
+        "Within-die (WID) variation",
+        "Electrostatic discharge (ESD)"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Beyond logic equivalence checking, what is the primary advantage of employing \"Formal Verification\" techniques, such as Model Checking, in complex digital IC design flows compared to traditional simulation-based verification?",
+      "options": [
+        "It can execute testbenches much faster than cycle-accurate simulators.",
+        "It can exhaustively prove the absence of certain design errors across all possible inputs and states.",
+        "It automatically generates optimal test vectors for functional coverage.",
+        "It provides detailed waveforms that are easier for designers to debug.",
+        "It is primarily used for verifying analog mixed-signal interfaces."
+      ],
+      "correct": 1
     }
   ]
 }
