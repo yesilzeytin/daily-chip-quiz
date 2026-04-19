@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
-  "During the Design for Testability (DFT) phase of an integrated circuit, what is the main purpose of \"Boundary Scan\" (specified by the IEEE 1149.1 JTAG standard)?",
-  "Which type of hazard in a pipelined processor occurs when an instruction attempts to use a hardware resource that is currently occupied by another instruction in the pipeline (e.g., a specific functional unit or memory port)?",
-  "During the fabrication process of an integrated circuit, what phenomenon primarily leads to unavoidable, statistical variations in transistor threshold voltage (Vt) and current (Id) due to the discrete nature of dopant atoms, becoming a significant challenge for advanced technology nodes?",
-  "What is the primary role of a \"Program Counter\" (PC) in a typical CPU architecture?",
   "What is the primary function of a clock signal in synchronous digital circuits?",
   "What does Instruction Set Architecture (ISA) primarily define in computer systems?",
   "In the physical verification phase of Integrated Circuit (IC) design, what is the primary purpose of Design Rule Checking (DRC)?",
@@ -48,5 +43,10 @@
   "In a typical Von Neumann architecture, which stage of the instruction pipeline is responsible for interpreting the operation code (opcode) and identifying the operands required for an instruction?",
   "In modern System-on-Chip (SoC) designs, particularly for embedded systems with tight latency requirements, what is the primary benefit of using \"Scratchpad Memory\" (SPM) over traditional cache memory for certain critical data or instructions?",
   "In advanced semiconductor manufacturing, particularly at sub-10nm technology nodes, which phenomenon describes the statistical variation in physical dimensions and electrical characteristics of nominally identical devices on a single die, primarily due to inherent randomness in the lithographic and etching processes?",
-  "Beyond logic equivalence checking, what is the primary advantage of employing \"Formal Verification\" techniques, such as Model Checking, in complex digital IC design flows compared to traditional simulation-based verification?"
+  "Beyond logic equivalence checking, what is the primary advantage of employing \"Formal Verification\" techniques, such as Model Checking, in complex digital IC design flows compared to traditional simulation-based verification?",
+  "What is the primary characteristic that distinguishes a Harvard architecture from a Von Neumann architecture?",
+  "In low-power digital IC design, what is the primary purpose of employing \"clock gating\" techniques?",
+  "In digital logic circuits, what property describes the maximum amount of unwanted input noise a gate can tolerate without causing an incorrect output logic level?",
+  "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) cells store a single bit of information?",
+  "In integrated circuit reliability, what phenomenon describes the gradual transport of metal atoms in an interconnect line under the influence of an electric current, potentially leading to opens or shorts over time and causing device failure?"
 ]

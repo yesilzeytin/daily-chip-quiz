@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital circuit design, which of the following is a common abstract representation of a combinational logic function that can be implemented using a lookup table (LUT) or gates?",
+      "question": "What is the primary characteristic that distinguishes a Harvard architecture from a Von Neumann architecture?",
       "options": [
-        "State Machine",
-        "Flip-Flop",
-        "Multiplexer",
-        "Truth Table",
-        "Register File"
+        "Harvard architecture uses separate memory spaces for instructions and data, while Von Neumann uses a single shared memory space.",
+        "Von Neumann architecture supports pipelining, while Harvard architecture does not.",
+        "Harvard architecture is exclusively used in general-purpose CPUs, while Von Neumann is for embedded systems.",
+        "Von Neumann architecture has a larger instruction set compared to Harvard architecture.",
+        "Harvard architecture utilizes a write-through cache policy, whereas Von Neumann uses write-back."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "In a typical Von Neumann architecture, which stage of the instruction pipeline is responsible for interpreting the operation code (opcode) and identifying the operands required for an instruction?",
+      "question": "In low-power digital IC design, what is the primary purpose of employing \"clock gating\" techniques?",
       "options": [
-        "Fetch",
-        "Execute",
-        "Memory Access",
-        "Write-Back",
-        "Decode"
+        "To reduce dynamic power consumption by selectively disabling the clock signal to idle functional blocks.",
+        "To provide a separate, slower clock domain for peripheral interfaces.",
+        "To synchronize asynchronous signals between different clock domains.",
+        "To increase the overall operating frequency of the circuit.",
+        "To eliminate static leakage current in standby mode."
       ],
-      "correct": 4
+      "correct": 0
     },
     {
-      "question": "In modern System-on-Chip (SoC) designs, particularly for embedded systems with tight latency requirements, what is the primary benefit of using \"Scratchpad Memory\" (SPM) over traditional cache memory for certain critical data or instructions?",
+      "question": "In digital logic circuits, what property describes the maximum amount of unwanted input noise a gate can tolerate without causing an incorrect output logic level?",
       "options": [
-        "Automatic cache coherence across multiple processors.",
-        "Guarantees deterministic access latency as it is software-managed.",
-        "Offers higher capacity than traditional DRAM modules.",
-        "Reduces dynamic power consumption by completely eliminating static power.",
-        "Simplifies memory management unit (MMU) design by removing virtual addressing."
+        "Noise Margin",
+        "Propagation Delay",
+        "Fan-out",
+        "Setup Time",
+        "Output Impedance"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In advanced semiconductor manufacturing, particularly at sub-10nm technology nodes, which phenomenon describes the statistical variation in physical dimensions and electrical characteristics of nominally identical devices on a single die, primarily due to inherent randomness in the lithographic and etching processes?",
+      "question": "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) cells store a single bit of information?",
       "options": [
-        "Interconnect coupling capacitance",
-        "Random Dopant Fluctuations (RDF)",
-        "Die-to-die variation",
-        "Within-die (WID) variation",
-        "Electrostatic discharge (ESD)"
+        "SRAM stores a bit using a flip-flop, while DRAM stores it as a charge on a capacitor.",
+        "SRAM uses a resistor to store a bit, while DRAM uses a transistor.",
+        "DRAM is non-volatile, while SRAM is volatile.",
+        "SRAM requires periodic refreshing to retain data, while DRAM does not.",
+        "SRAM is primarily used for main system memory, while DRAM is used for CPU caches."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "Beyond logic equivalence checking, what is the primary advantage of employing \"Formal Verification\" techniques, such as Model Checking, in complex digital IC design flows compared to traditional simulation-based verification?",
+      "question": "In integrated circuit reliability, what phenomenon describes the gradual transport of metal atoms in an interconnect line under the influence of an electric current, potentially leading to opens or shorts over time and causing device failure?",
       "options": [
-        "It can execute testbenches much faster than cycle-accurate simulators.",
-        "It can exhaustively prove the absence of certain design errors across all possible inputs and states.",
-        "It automatically generates optimal test vectors for functional coverage.",
-        "It provides detailed waveforms that are easier for designers to debug.",
-        "It is primarily used for verifying analog mixed-signal interfaces."
+        "Electromigration",
+        "Latch-up",
+        "Hot Carrier Injection",
+        "Dielectric Breakdown",
+        "Negative Bias Temperature Instability (NBTI)"
       ],
-      "correct": 1
+      "correct": 0
     }
   ]
 }
