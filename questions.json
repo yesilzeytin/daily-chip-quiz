@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that distinguishes a Harvard architecture from a Von Neumann architecture?",
+      "question": "What is the primary purpose of a testbench in the digital IC design verification flow?",
       "options": [
-        "Harvard architecture uses separate memory spaces for instructions and data, while Von Neumann uses a single shared memory space.",
-        "Von Neumann architecture supports pipelining, while Harvard architecture does not.",
-        "Harvard architecture is exclusively used in general-purpose CPUs, while Von Neumann is for embedded systems.",
-        "Von Neumann architecture has a larger instruction set compared to Harvard architecture.",
-        "Harvard architecture utilizes a write-through cache policy, whereas Von Neumann uses write-back."
+        "To simulate the design's behavior and verify its functional correctness against specifications.",
+        "To define the physical dimensions and layout of the integrated circuit on a silicon wafer.",
+        "To optimize the gate-level netlist for power, performance, and area during synthesis.",
+        "To provide power and ground connections to the final packaged chip.",
+        "To measure the electrical characteristics of individual transistors after manufacturing."
       ],
       "correct": 0
     },
     {
-      "question": "In low-power digital IC design, what is the primary purpose of employing \"clock gating\" techniques?",
+      "question": "In the context of pipelined processor architectures, what typically defines a \"data hazard\"?",
       "options": [
-        "To reduce dynamic power consumption by selectively disabling the clock signal to idle functional blocks.",
-        "To provide a separate, slower clock domain for peripheral interfaces.",
-        "To synchronize asynchronous signals between different clock domains.",
-        "To increase the overall operating frequency of the circuit.",
-        "To eliminate static leakage current in standby mode."
+        "When two or more instructions attempt to access the same memory location simultaneously.",
+        "When an instruction requires the result of a previous instruction that has not yet completed its execution stage.",
+        "When a branch instruction misprediction causes the pipeline to fetch incorrect instructions.",
+        "When multiple instructions in different pipeline stages compete for the same hardware resource (e.g., an ALU).",
+        "When the instruction cache misses, causing a stall while the instruction is fetched from main memory."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In digital logic circuits, what property describes the maximum amount of unwanted input noise a gate can tolerate without causing an incorrect output logic level?",
+      "question": "What is the primary function of a \"power grid\" in the physical layout of a complex Integrated Circuit (IC)?",
       "options": [
-        "Noise Margin",
-        "Propagation Delay",
-        "Fan-out",
-        "Setup Time",
-        "Output Impedance"
+        "To distribute clock signals uniformly across the entire chip.",
+        "To provide a robust, low-resistance network for distributing VDD (power) and GND (ground) to all active circuit elements.",
+        "To route critical high-speed data paths between different functional blocks.",
+        "To implement on-chip voltage regulation and power management units.",
+        "To serve as a shield against electromagnetic interference from external sources."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) cells store a single bit of information?",
+      "question": "In advanced digital IC design, particularly for achieving lower power consumption and managing thermal dissipation, what is \"voltage scaling\" primarily used for?",
       "options": [
-        "SRAM stores a bit using a flip-flop, while DRAM stores it as a charge on a capacitor.",
-        "SRAM uses a resistor to store a bit, while DRAM uses a transistor.",
-        "DRAM is non-volatile, while SRAM is volatile.",
-        "SRAM requires periodic refreshing to retain data, while DRAM does not.",
-        "SRAM is primarily used for main system memory, while DRAM is used for CPU caches."
+        "To reduce the physical size of individual transistors on the silicon die.",
+        "To increase the logic threshold voltage (Vt) of MOSFETs for better noise immunity.",
+        "To lower the supply voltage (VDD) to significantly reduce dynamic and static power consumption.",
+        "To adjust the operating frequency of the circuit to meet specific performance targets.",
+        "To convert analog input signals into digital values for internal processing."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In integrated circuit reliability, what phenomenon describes the gradual transport of metal atoms in an interconnect line under the influence of an electric current, potentially leading to opens or shorts over time and causing device failure?",
+      "question": "What is \"crosstalk\" in the context of digital IC interconnects, and why is it a significant concern at advanced technology nodes?",
       "options": [
-        "Electromigration",
-        "Latch-up",
-        "Hot Carrier Injection",
-        "Dielectric Breakdown",
-        "Negative Bias Temperature Instability (NBTI)"
+        "It refers to the unintended electrical coupling between adjacent signal lines, where a switching signal on one line can induce noise or errors on another, becoming more severe as wires get closer.",
+        "It describes the physical intersection of different metal layers in the chip layout, causing increased capacitance.",
+        "It is a technique for monitoring the resistance and capacitance of long interconnect wires during operation.",
+        "It refers to the process of transmitting data between different chips using shared communication channels.",
+        "It is the delay incurred when a signal needs to pass through multiple clock domains on a System-on-Chip (SoC)."
       ],
       "correct": 0
     }

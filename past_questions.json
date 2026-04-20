@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a clock signal in synchronous digital circuits?",
-  "What does Instruction Set Architecture (ISA) primarily define in computer systems?",
-  "In the physical verification phase of Integrated Circuit (IC) design, what is the primary purpose of Design Rule Checking (DRC)?",
-  "What is the primary objective of Static Timing Analysis (STA) in the digital IC design flow?",
-  "In modern computer architectures, what is the primary purpose of 'virtual memory'?",
   "What is the primary difference between a D-latch and a D-flip-flop in terms of their triggering mechanism?",
   "In the typical Application-Specific Integrated Circuit (ASIC) design flow, what is the primary output of the \"logic synthesis\" stage?",
   "In computer architecture, what is the primary characteristic of a \"write-back\" cache policy when a modified cache block needs to be written to main memory?",
@@ -48,5 +43,10 @@
   "In low-power digital IC design, what is the primary purpose of employing \"clock gating\" techniques?",
   "In digital logic circuits, what property describes the maximum amount of unwanted input noise a gate can tolerate without causing an incorrect output logic level?",
   "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) cells store a single bit of information?",
-  "In integrated circuit reliability, what phenomenon describes the gradual transport of metal atoms in an interconnect line under the influence of an electric current, potentially leading to opens or shorts over time and causing device failure?"
+  "In integrated circuit reliability, what phenomenon describes the gradual transport of metal atoms in an interconnect line under the influence of an electric current, potentially leading to opens or shorts over time and causing device failure?",
+  "What is the primary purpose of a testbench in the digital IC design verification flow?",
+  "In the context of pipelined processor architectures, what typically defines a \"data hazard\"?",
+  "What is the primary function of a \"power grid\" in the physical layout of a complex Integrated Circuit (IC)?",
+  "In advanced digital IC design, particularly for achieving lower power consumption and managing thermal dissipation, what is \"voltage scaling\" primarily used for?",
+  "What is \"crosstalk\" in the context of digital IC interconnects, and why is it a significant concern at advanced technology nodes?"
 ]
