@@ -1,9 +1,4 @@
 [
-  "What is the primary difference between a D-latch and a D-flip-flop in terms of their triggering mechanism?",
-  "In the typical Application-Specific Integrated Circuit (ASIC) design flow, what is the primary output of the \"logic synthesis\" stage?",
-  "In computer architecture, what is the primary characteristic of a \"write-back\" cache policy when a modified cache block needs to be written to main memory?",
-  "In advanced low-power digital IC design, what is the primary purpose of implementing \"power gating\" techniques?",
-  "In the context of large-scale System-on-Chip (SoC) designs, what is the primary advantage of employing a Network-on-Chip (NoC) architecture compared to a traditional bus-based interconnect system?",
   "In digital circuit design, what defines the \"critical path\"?",
   "In a multi-core processor system with shared memory, which of the following protocols is commonly used to maintain data consistency across multiple caches?",
   "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with?",
@@ -48,5 +43,10 @@
   "In the context of pipelined processor architectures, what typically defines a \"data hazard\"?",
   "What is the primary function of a \"power grid\" in the physical layout of a complex Integrated Circuit (IC)?",
   "In advanced digital IC design, particularly for achieving lower power consumption and managing thermal dissipation, what is \"voltage scaling\" primarily used for?",
-  "What is \"crosstalk\" in the context of digital IC interconnects, and why is it a significant concern at advanced technology nodes?"
+  "What is \"crosstalk\" in the context of digital IC interconnects, and why is it a significant concern at advanced technology nodes?",
+  "In digital IC design, what is the primary purpose of incorporating \"scan chains\" into a circuit during the design-for-testability (DFT) phase?",
+  "In the context of digital IC design, what does the term \"timing closure\" primarily refer to?",
+  "In a multi-level cache hierarchy (e.g., L1, L2, L3), what does the term \"inclusion property\" imply for cache design?",
+  "What is the primary characteristic of \"out-of-order execution\" in a modern superscalar processor?",
+  "In the context of advanced semiconductor manufacturing and packaging, what is the primary motivation for adopting \"3D Integrated Circuits (3D-ICs)\" or \"chiplet\" architectures?"
 ]

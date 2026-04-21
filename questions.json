@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a testbench in the digital IC design verification flow?",
+      "question": "In digital IC design, what is the primary purpose of incorporating \"scan chains\" into a circuit during the design-for-testability (DFT) phase?",
       "options": [
-        "To simulate the design's behavior and verify its functional correctness against specifications.",
-        "To define the physical dimensions and layout of the integrated circuit on a silicon wafer.",
-        "To optimize the gate-level netlist for power, performance, and area during synthesis.",
-        "To provide power and ground connections to the final packaged chip.",
-        "To measure the electrical characteristics of individual transistors after manufacturing."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the context of pipelined processor architectures, what typically defines a \"data hazard\"?",
-      "options": [
-        "When two or more instructions attempt to access the same memory location simultaneously.",
-        "When an instruction requires the result of a previous instruction that has not yet completed its execution stage.",
-        "When a branch instruction misprediction causes the pipeline to fetch incorrect instructions.",
-        "When multiple instructions in different pipeline stages compete for the same hardware resource (e.g., an ALU).",
-        "When the instruction cache misses, causing a stall while the instruction is fetched from main memory."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary function of a \"power grid\" in the physical layout of a complex Integrated Circuit (IC)?",
-      "options": [
-        "To distribute clock signals uniformly across the entire chip.",
-        "To provide a robust, low-resistance network for distributing VDD (power) and GND (ground) to all active circuit elements.",
-        "To route critical high-speed data paths between different functional blocks.",
-        "To implement on-chip voltage regulation and power management units.",
-        "To serve as a shield against electromagnetic interference from external sources."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In advanced digital IC design, particularly for achieving lower power consumption and managing thermal dissipation, what is \"voltage scaling\" primarily used for?",
-      "options": [
-        "To reduce the physical size of individual transistors on the silicon die.",
-        "To increase the logic threshold voltage (Vt) of MOSFETs for better noise immunity.",
-        "To lower the supply voltage (VDD) to significantly reduce dynamic and static power consumption.",
-        "To adjust the operating frequency of the circuit to meet specific performance targets.",
-        "To convert analog input signals into digital values for internal processing."
+        "To reduce dynamic power consumption during normal operation of the chip.",
+        "To enable external debugging of software running on the embedded processor.",
+        "To provide a mechanism for easily testing the functionality of sequential elements (flip-flops) by shifting test patterns in and out.",
+        "To optimize the physical placement of logic gates for improved performance.",
+        "To prevent electromagnetic interference (EMI) between adjacent functional blocks on the die."
       ],
       "correct": 2
     },
     {
-      "question": "What is \"crosstalk\" in the context of digital IC interconnects, and why is it a significant concern at advanced technology nodes?",
+      "question": "In the context of digital IC design, what does the term \"timing closure\" primarily refer to?",
       "options": [
-        "It refers to the unintended electrical coupling between adjacent signal lines, where a switching signal on one line can induce noise or errors on another, becoming more severe as wires get closer.",
-        "It describes the physical intersection of different metal layers in the chip layout, causing increased capacitance.",
-        "It is a technique for monitoring the resistance and capacitance of long interconnect wires during operation.",
-        "It refers to the process of transmitting data between different chips using shared communication channels.",
-        "It is the delay incurred when a signal needs to pass through multiple clock domains on a System-on-Chip (SoC)."
+        "The process of ensuring that all clock signals on the chip are perfectly synchronized to a single global clock source.",
+        "The final stage of physical design where all layout and routing are completed and verified for manufacturability.",
+        "The iterative process of meeting all timing constraints (e.g., setup time, hold time, clock period) across all critical paths in the design, typically achieved through design changes, optimization, and physical adjustments.",
+        "The act of freezing the clock frequency during the design phase to avoid unexpected timing violations.",
+        "The methodology for precisely measuring the actual propagation delays of all gates after the chip has been manufactured."
       ],
-      "correct": 0
+      "correct": 2
+    },
+    {
+      "question": "In a multi-level cache hierarchy (e.g., L1, L2, L3), what does the term \"inclusion property\" imply for cache design?",
+      "options": [
+        "That every block present in a higher-level cache (e.g., L1) must also be present in all lower-level caches (e.g., L2, L3).",
+        "That data can only be written to the L1 cache if it is also present in main memory.",
+        "That all caches in the hierarchy must have the same line size to ensure data consistency.",
+        "That a block can only be evicted from a cache level if it has been written back to main memory.",
+        "That a lower-level cache (e.g., L2) must contain a superset of the blocks present in its immediately higher-level cache (e.g., L1)."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "What is the primary characteristic of \"out-of-order execution\" in a modern superscalar processor?",
+      "options": [
+        "Instructions are always fetched, decoded, executed, and committed to architectural state in the exact sequential order they appear in the program.",
+        "Instructions can execute and finish out of program order, but their results must always be committed (written back) to the architectural register file in program order to maintain precise exceptions.",
+        "Multiple instructions from different program threads are executed simultaneously to improve overall throughput on a single core.",
+        "The processor prefetches data into the cache based on predicted future access patterns, irrespective of the current instruction stream order.",
+        "Control hazards are entirely eliminated by delaying branch decisions until all previous instructions are committed, preventing misprediction penalties."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of advanced semiconductor manufacturing and packaging, what is the primary motivation for adopting \"3D Integrated Circuits (3D-ICs)\" or \"chiplet\" architectures?",
+      "options": [
+        "To reduce the total number of transistors on a single die, simplifying manufacturing processes and improving yield.",
+        "To increase the clock frequency of individual processor cores by shortening critical logic paths within a monolithic die.",
+        "To enable heterogeneous integration of different functional blocks (e.g., CPU cores, specialized accelerators, high-bandwidth memory) built on different process technologies, offering higher bandwidth, lower power, and smaller form factors than monolithic designs.",
+        "To eliminate the need for sophisticated thermal management solutions by distributing heat evenly across multiple stacked layers.",
+        "To solely increase the yield of large monolithic dies by manufacturing smaller, defect-free units and interconnecting them on an interposer."
+      ],
+      "correct": 2
     }
   ]
 }
