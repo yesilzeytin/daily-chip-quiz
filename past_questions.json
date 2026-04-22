@@ -1,9 +1,4 @@
 [
-  "In digital circuit design, what defines the \"critical path\"?",
-  "In a multi-core processor system with shared memory, which of the following protocols is commonly used to maintain data consistency across multiple caches?",
-  "In synchronous digital circuit design, what are \"setup time\" and \"hold time\" primarily concerned with?",
-  "In advanced semiconductor manufacturing, what is the primary purpose of inserting \"dummy metal fill\" (or \"density fill\") structures into the integrated circuit layout?",
-  "Which of the following is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
   "What is the primary distinction between combinational logic circuits and sequential logic circuits?",
   "What is a defining characteristic of a Very Long Instruction Word (VLIW) architecture?",
   "In the post-layout phase of digital IC design, what is the primary purpose of 'parasitic extraction'?",
@@ -48,5 +43,10 @@
   "In the context of digital IC design, what does the term \"timing closure\" primarily refer to?",
   "In a multi-level cache hierarchy (e.g., L1, L2, L3), what does the term \"inclusion property\" imply for cache design?",
   "What is the primary characteristic of \"out-of-order execution\" in a modern superscalar processor?",
-  "In the context of advanced semiconductor manufacturing and packaging, what is the primary motivation for adopting \"3D Integrated Circuits (3D-ICs)\" or \"chiplet\" architectures?"
+  "In the context of advanced semiconductor manufacturing and packaging, what is the primary motivation for adopting \"3D Integrated Circuits (3D-ICs)\" or \"chiplet\" architectures?",
+  "What is the fundamental function of a logic inverter (NOT gate) in digital circuits?",
+  "In a CPU, what is the primary function of the Program Counter (PC)?",
+  "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
+  "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
+  "In the digital IC design flow, what is the process called that converts a high-level Hardware Description Language (HDL) description (e.g., Verilog RTL) into an optimized gate-level netlist?"
 ]

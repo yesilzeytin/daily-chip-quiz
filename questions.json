@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In digital IC design, what is the primary purpose of incorporating \"scan chains\" into a circuit during the design-for-testability (DFT) phase?",
+      "question": "What is the fundamental function of a logic inverter (NOT gate) in digital circuits?",
       "options": [
-        "To reduce dynamic power consumption during normal operation of the chip.",
-        "To enable external debugging of software running on the embedded processor.",
-        "To provide a mechanism for easily testing the functionality of sequential elements (flip-flops) by shifting test patterns in and out.",
-        "To optimize the physical placement of logic gates for improved performance.",
-        "To prevent electromagnetic interference (EMI) between adjacent functional blocks on the die."
+        "Adds two input bits together.",
+        "Stores a single bit of data for a clock cycle.",
+        "Reverses the logic state (0 to 1, or 1 to 0) of its input.",
+        "Selects one of multiple input signals based on a control input.",
+        "Generates a periodic clock signal for synchronous operations."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of digital IC design, what does the term \"timing closure\" primarily refer to?",
+      "question": "In a CPU, what is the primary function of the Program Counter (PC)?",
       "options": [
-        "The process of ensuring that all clock signals on the chip are perfectly synchronized to a single global clock source.",
-        "The final stage of physical design where all layout and routing are completed and verified for manufacturability.",
-        "The iterative process of meeting all timing constraints (e.g., setup time, hold time, clock period) across all critical paths in the design, typically achieved through design changes, optimization, and physical adjustments.",
-        "The act of freezing the clock frequency during the design phase to avoid unexpected timing violations.",
-        "The methodology for precisely measuring the actual propagation delays of all gates after the chip has been manufactured."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a multi-level cache hierarchy (e.g., L1, L2, L3), what does the term \"inclusion property\" imply for cache design?",
-      "options": [
-        "That every block present in a higher-level cache (e.g., L1) must also be present in all lower-level caches (e.g., L2, L3).",
-        "That data can only be written to the L1 cache if it is also present in main memory.",
-        "That all caches in the hierarchy must have the same line size to ensure data consistency.",
-        "That a block can only be evicted from a cache level if it has been written back to main memory.",
-        "That a lower-level cache (e.g., L2) must contain a superset of the blocks present in its immediately higher-level cache (e.g., L1)."
-      ],
-      "correct": 4
-    },
-    {
-      "question": "What is the primary characteristic of \"out-of-order execution\" in a modern superscalar processor?",
-      "options": [
-        "Instructions are always fetched, decoded, executed, and committed to architectural state in the exact sequential order they appear in the program.",
-        "Instructions can execute and finish out of program order, but their results must always be committed (written back) to the architectural register file in program order to maintain precise exceptions.",
-        "Multiple instructions from different program threads are executed simultaneously to improve overall throughput on a single core.",
-        "The processor prefetches data into the cache based on predicted future access patterns, irrespective of the current instruction stream order.",
-        "Control hazards are entirely eliminated by delaying branch decisions until all previous instructions are committed, preventing misprediction penalties."
+        "Holds the result of the last arithmetic or logical operation.",
+        "Stores the memory address of the next instruction to be fetched and executed.",
+        "Manages the data flow between the processor's registers and the Arithmetic Logic Unit (ALU).",
+        "Keeps track of the memory address of the current operand being processed.",
+        "Controls the timing and sequencing of all instruction execution phases."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of advanced semiconductor manufacturing and packaging, what is the primary motivation for adopting \"3D Integrated Circuits (3D-ICs)\" or \"chiplet\" architectures?",
+      "question": "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
       "options": [
-        "To reduce the total number of transistors on a single die, simplifying manufacturing processes and improving yield.",
-        "To increase the clock frequency of individual processor cores by shortening critical logic paths within a monolithic die.",
-        "To enable heterogeneous integration of different functional blocks (e.g., CPU cores, specialized accelerators, high-bandwidth memory) built on different process technologies, offering higher bandwidth, lower power, and smaller form factors than monolithic designs.",
-        "To eliminate the need for sophisticated thermal management solutions by distributing heat evenly across multiple stacked layers.",
-        "To solely increase the yield of large monolithic dies by manufacturing smaller, defect-free units and interconnecting them on an interposer."
+        "To verify the functional correctness of the design by simulating its behavior with extensive test vectors.",
+        "To determine if the circuit will meet all its timing requirements (e.g., clock frequency, setup/hold times) across various operating conditions without needing to run simulations.",
+        "To identify and fix logical errors in the Register Transfer Level (RTL) code before it is synthesized.",
+        "To extract parasitic resistances and capacitances from the physical layout for highly accurate post-layout simulations.",
+        "To automatically generate the physical layout (place and route) of the design based on the gate-level netlist."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
+      "options": [
+        "To store frequently accessed data blocks for the CPU, reducing access time to main memory.",
+        "To accelerate the translation of virtual memory addresses to physical memory addresses.",
+        "To maintain data consistency across multiple CPU caches in a multi-processor system.",
+        "To provide fast access to the most recently executed instructions.",
+        "To temporarily store data during direct memory access (DMA) operations between peripherals and main memory."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the digital IC design flow, what is the process called that converts a high-level Hardware Description Language (HDL) description (e.g., Verilog RTL) into an optimized gate-level netlist?",
+      "options": [
+        "Verification",
+        "Fabrication",
+        "Synthesis",
+        "Physical Layout",
+        "Post-Layout Simulation"
       ],
       "correct": 2
     }
