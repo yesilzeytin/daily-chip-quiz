@@ -1,9 +1,4 @@
 [
-  "What is the primary distinction between combinational logic circuits and sequential logic circuits?",
-  "What is a defining characteristic of a Very Long Instruction Word (VLIW) architecture?",
-  "In the post-layout phase of digital IC design, what is the primary purpose of 'parasitic extraction'?",
-  "In synchronous digital circuit design, 'metastability' in a flip-flop or latch primarily refers to what phenomenon?",
-  "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the digital IC design flow?",
   "In digital circuit design, what does the 'fan-out' of a logic gate primarily refer to?",
   "In the physical design phase of an Application-Specific Integrated Circuit (ASIC) or System-on-Chip (SoC), what is the primary objective of the 'Place and Route' stage?",
   "In a processor's cache memory system, which cache replacement policy typically evicts the block that has not been accessed for the longest period of time?",
@@ -48,5 +43,10 @@
   "In a CPU, what is the primary function of the Program Counter (PC)?",
   "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
   "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
-  "In the digital IC design flow, what is the process called that converts a high-level Hardware Description Language (HDL) description (e.g., Verilog RTL) into an optimized gate-level netlist?"
+  "In the digital IC design flow, what is the process called that converts a high-level Hardware Description Language (HDL) description (e.g., Verilog RTL) into an optimized gate-level netlist?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+  "In the physical design phase of an Integrated Circuit (IC) development, what is the main objective of the \"Floorplanning\" stage?",
+  "In modern superscalar processors employing out-of-order execution, what is the primary benefit achieved by \"Register Renaming\"?",
+  "At advanced technology nodes (e.g., 22nm and below), what is the primary architectural advantage of using FinFET transistors over traditional planar MOSFETs in Integrated Circuit (IC) design?",
+  "What is the primary purpose of a JTAG (Joint Test Action Group) interface, commonly referred to as a debug port, in modern System-on-Chip (SoC) designs?"
 ]
