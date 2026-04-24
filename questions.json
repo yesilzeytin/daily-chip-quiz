@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+      "question": "Which fundamental digital circuit component is primarily used to store a single bit of information and serves as the basic memory element in sequential logic circuits?",
       "options": [
-        "To manage memory access and control I/O operations.",
-        "To decode instructions and sequence micro-operations.",
-        "To perform arithmetic calculations and bitwise logical operations.",
-        "To store program instructions and data temporarily.",
-        "To predict the outcome of conditional branches."
+        "Multiplexer",
+        "Flip-flop",
+        "Decoder",
+        "Encoder",
+        "Adder"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of computer architecture, what is the primary function of a 'microcode' engine within a CPU?",
+      "options": [
+        "To manage cache coherence protocols across multiple cores",
+        "To translate complex machine instructions into a sequence of simpler micro-operations for execution",
+        "To perform floating-point arithmetic operations at high speed",
+        "To arbitrate access to the main memory bus",
+        "To handle interrupts and exceptions within the processor pipeline"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the ASIC design flow, what is the main objective of 'Library Characterization'?",
+      "options": [
+        "To define the logical functionality of custom IP blocks",
+        "To verify the correctness of the RTL design against specifications",
+        "To generate timing, power, and noise models for standard cells and IP blocks for use in synthesis and physical design",
+        "To optimize the placement of macros and standard cells on the die",
+        "To simulate the design's behavior under various input stimuli"
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design phase of an Integrated Circuit (IC) development, what is the main objective of the \"Floorplanning\" stage?",
+      "question": "What is the primary purpose of 'Voltage and Frequency Scaling (VFS)', often implemented through Dynamic Voltage and Frequency Scaling (DVFS), in modern System-on-Chip (SoC) designs?",
       "options": [
-        "To convert the RTL design into a gate-level netlist using logic synthesis.",
-        "To verify the design's functional correctness against its specification.",
-        "To optimize the clock tree network for minimal skew and latency.",
-        "To define the approximate placement, dimensions, and interconnection routes for major functional blocks.",
-        "To extract parasitic capacitances and resistances from the layout."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In modern superscalar processors employing out-of-order execution, what is the primary benefit achieved by \"Register Renaming\"?",
-      "options": [
-        "It reduces the number of general-purpose registers required by the Instruction Set Architecture (ISA).",
-        "It allows the processor to fetch and decode more instructions simultaneously from the instruction cache.",
-        "It eliminates Write-After-Write (WAW) and Write-After-Read (WAR) hazards, enabling greater instruction-level parallelism.",
-        "It improves cache hit rates by dynamically remapping memory addresses to physical cache lines.",
-        "It simplifies the hardware implementation of branch prediction logic by abstracting register usage."
+        "To improve signal integrity by reducing electromagnetic interference",
+        "To increase the processing speed of the CPU indefinitely",
+        "To dynamically adjust power consumption and performance based on workload requirements",
+        "To reduce the physical size of the chip by operating at lower voltages",
+        "To prevent clock skew issues across different clock domains"
       ],
       "correct": 2
     },
     {
-      "question": "At advanced technology nodes (e.g., 22nm and below), what is the primary architectural advantage of using FinFET transistors over traditional planar MOSFETs in Integrated Circuit (IC) design?",
+      "question": "In advanced semiconductor manufacturing, what does 'Yield' primarily refer to?",
       "options": [
-        "Significantly lower manufacturing cost due to simpler fabrication processes.",
-        "Enhanced breakdown voltage and power handling for high-power applications.",
-        "Improved electrostatic control over the channel, leading to reduced leakage current and better switching performance.",
-        "Increased density of memory cells, enabling larger on-chip cache sizes.",
-        "Elimination of the need for oxide isolation between devices, saving silicon area."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary purpose of a JTAG (Joint Test Action Group) interface, commonly referred to as a debug port, in modern System-on-Chip (SoC) designs?",
-      "options": [
-        "To provide a high-speed interface for data transfer between different processing cores on the SoC.",
-        "To enable in-system debugging, boundary-scan testing, and in-field programming of the device.",
-        "To regulate the power supply voltages for various functional blocks across the chip.",
-        "To perform dynamic voltage and frequency scaling (DVFS) for power optimization.",
-        "To act as the primary interface for connecting external peripherals like USB or Ethernet."
+        "The maximum clock frequency at which a chip can reliably operate",
+        "The number of functional dies produced per wafer",
+        "The average power consumption of a fabricated integrated circuit",
+        "The amount of raw silicon material used in wafer production",
+        "The total throughput of the manufacturing facility in a given period"
       ],
       "correct": 1
     }
