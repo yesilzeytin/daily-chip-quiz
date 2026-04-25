@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which fundamental digital circuit component is primarily used to store a single bit of information and serves as the basic memory element in sequential logic circuits?",
+      "question": "What type of digital circuit combines combinational logic with memory elements (like flip-flops) to produce outputs that depend on both current inputs and past inputs (its internal state)?",
       "options": [
+        "Finite State Machine (FSM)",
+        "Combinational Logic Gate",
         "Multiplexer",
-        "Flip-flop",
-        "Decoder",
-        "Encoder",
-        "Adder"
+        "Demultiplexer",
+        "Arithmetic Logic Unit (ALU)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In a multi-processor or multi-core system, which mechanism ensures that all processors have a consistent view of shared memory, especially when one processor modifies data that might be cached by others?",
+      "options": [
+        "Virtual Memory Paging",
+        "Cache Coherence Protocol",
+        "Instruction Pipelining",
+        "Branch Prediction",
+        "Register Renaming"
       ],
       "correct": 1
     },
     {
-      "question": "In the context of computer architecture, what is the primary function of a 'microcode' engine within a CPU?",
+      "question": "Which verification technique involves embedding specific properties or expected behaviors directly into the RTL design using assertions (e.g., SVA in Verilog or PSL in VHDL) to monitor and report violations during simulation or formal analysis?",
       "options": [
-        "To manage cache coherence protocols across multiple cores",
-        "To translate complex machine instructions into a sequence of simpler micro-operations for execution",
-        "To perform floating-point arithmetic operations at high speed",
-        "To arbitrate access to the main memory bus",
-        "To handle interrupts and exceptions within the processor pipeline"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the ASIC design flow, what is the main objective of 'Library Characterization'?",
-      "options": [
-        "To define the logical functionality of custom IP blocks",
-        "To verify the correctness of the RTL design against specifications",
-        "To generate timing, power, and noise models for standard cells and IP blocks for use in synthesis and physical design",
-        "To optimize the placement of macros and standard cells on the die",
-        "To simulate the design's behavior under various input stimuli"
+        "Gate-Level Simulation",
+        "Design For Testability (DFT)",
+        "Assertion-Based Verification (ABV)",
+        "Physical Verification (DRC/LVS)",
+        "Static Timing Analysis (STA)"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary purpose of 'Voltage and Frequency Scaling (VFS)', often implemented through Dynamic Voltage and Frequency Scaling (DVFS), in modern System-on-Chip (SoC) designs?",
+      "question": "In the physical design flow of an Integrated Circuit, what is the primary purpose of \"parasitic extraction\" tools?",
       "options": [
-        "To improve signal integrity by reducing electromagnetic interference",
-        "To increase the processing speed of the CPU indefinitely",
-        "To dynamically adjust power consumption and performance based on workload requirements",
-        "To reduce the physical size of the chip by operating at lower voltages",
-        "To prevent clock skew issues across different clock domains"
+        "To verify that the layout adheres to manufacturing design rules (DRC).",
+        "To convert the gate-level netlist into a transistor-level netlist.",
+        "To perform logical equivalence checking against the RTL.",
+        "To determine the resistance and capacitance values of interconnects and devices from the physical layout.",
+        "To generate the final GDSII file for fabrication."
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In advanced semiconductor manufacturing, what does 'Yield' primarily refer to?",
+      "question": "What is the primary architectural characteristic that distinguishes a Tensor Processing Unit (TPU) from a general-purpose CPU or GPU, making it highly efficient for machine learning workloads, particularly neural network inference and training?",
       "options": [
-        "The maximum clock frequency at which a chip can reliably operate",
-        "The number of functional dies produced per wafer",
-        "The average power consumption of a fabricated integrated circuit",
-        "The amount of raw silicon material used in wafer production",
-        "The total throughput of the manufacturing facility in a given period"
+        "Extensive support for out-of-order execution and branch prediction.",
+        "A deep, general-purpose instruction pipeline optimized for scalar operations.",
+        "Exclusive reliance on a multi-level cache hierarchy with strong coherence.",
+        "A design focused solely on low-power sensor data processing.",
+        "The use of a large systolic array for massively parallel matrix multiplications."
       ],
-      "correct": 1
+      "correct": 4
     }
   ]
 }

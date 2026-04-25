@@ -1,9 +1,4 @@
 [
-  "Which technology is characterized by its use of both p-type and n-type MOSFETs to create logic gates, enabling low static power consumption in modern digital integrated circuits?",
-  "In the context of computer architecture, what is the primary role of a Branch Predictor unit within a modern CPU pipeline?",
-  "When designing digital circuits, what phenomenon occurs when the clock signal arrives at different flip-flops at slightly different times across the chip, potentially leading to setup or hold time violations if not properly managed?",
-  "In the physical design of digital integrated circuits, particularly at advanced technology nodes, what is the dominant factor contributing to signal propagation delay in long interconnect wires, especially as compared to gate delay?",
-  "Which digital IC design methodology relies heavily on the reuse of pre-designed, pre-verified intellectual property (IP) blocks (e.g., CPU cores, DSPs, memory controllers) to rapidly construct complex System-on-Chip (SoC) designs?",
   "In digital logic, what does a small circle (bubble) at the output of a logic gate symbol typically represent?",
   "Which addressing mode calculates the effective memory address by adding the contents of a base register to a constant offset value provided in the instruction?",
   "In the digital IC design flow, what is the primary purpose of \"Formal Equivalence Checking\" (FEC) tools?",
@@ -48,5 +43,10 @@
   "In the context of computer architecture, what is the primary function of a 'microcode' engine within a CPU?",
   "In the ASIC design flow, what is the main objective of 'Library Characterization'?",
   "What is the primary purpose of 'Voltage and Frequency Scaling (VFS)', often implemented through Dynamic Voltage and Frequency Scaling (DVFS), in modern System-on-Chip (SoC) designs?",
-  "In advanced semiconductor manufacturing, what does 'Yield' primarily refer to?"
+  "In advanced semiconductor manufacturing, what does 'Yield' primarily refer to?",
+  "What type of digital circuit combines combinational logic with memory elements (like flip-flops) to produce outputs that depend on both current inputs and past inputs (its internal state)?",
+  "In a multi-processor or multi-core system, which mechanism ensures that all processors have a consistent view of shared memory, especially when one processor modifies data that might be cached by others?",
+  "Which verification technique involves embedding specific properties or expected behaviors directly into the RTL design using assertions (e.g., SVA in Verilog or PSL in VHDL) to monitor and report violations during simulation or formal analysis?",
+  "In the physical design flow of an Integrated Circuit, what is the primary purpose of \"parasitic extraction\" tools?",
+  "What is the primary architectural characteristic that distinguishes a Tensor Processing Unit (TPU) from a general-purpose CPU or GPU, making it highly efficient for machine learning workloads, particularly neural network inference and training?"
 ]
