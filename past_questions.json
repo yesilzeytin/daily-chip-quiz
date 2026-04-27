@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes an Application-Specific Integrated Circuit (ASIC) from a Field-Programmable Gate Array (FPGA)?",
-  "In a processor's cache memory system, what is the main difference between a 'write-through' and a 'write-back' cache policy when data is written to a cache block?",
-  "In the context of Hardware Description Languages (HDLs) like Verilog or VHDL, which abstraction level typically describes the circuit's behavior in terms of data flow, registers, and operations, without specifying the exact gates or transistors?",
-  "For verifying complex System-on-Chip (SoC) designs, particularly for software-driven validation, which verification methodology offers the highest execution speed, allowing for running significant amounts of software on a hardware representation of the design before tape-out?",
-  "Within the Central Processing Unit (CPU), which component is primarily responsible for orchestrating the overall operation of the processor by generating timing and control signals to manage the fetching, decoding, execution, and write-back stages of instructions?",
   "In digital circuit design, which of the following is a common abstract representation of a combinational logic function that can be implemented using a lookup table (LUT) or gates?",
   "In a typical Von Neumann architecture, which stage of the instruction pipeline is responsible for interpreting the operation code (opcode) and identifying the operands required for an instruction?",
   "In modern System-on-Chip (SoC) designs, particularly for embedded systems with tight latency requirements, what is the primary benefit of using \"Scratchpad Memory\" (SPM) over traditional cache memory for certain critical data or instructions?",
@@ -48,5 +43,10 @@
   "In the physical design phase of an Integrated Circuit (IC), what is the main objective of the \"Clock Tree Synthesis\" (CTS) step?",
   "Which cache replacement policy removes the block that has not been used for the longest period of time from the cache, typically requiring a mechanism to track the 'age' of each block?",
   "Which pair of logic gates is considered \"universal,\" meaning that any Boolean function can be implemented using only gates from that specific pair?",
-  "Negative Bias Temperature Instability (NBTI) is a critical reliability concern in modern CMOS circuits, primarily affecting PMOS transistors under specific stress conditions. What is its main manifestation?"
+  "Negative Bias Temperature Instability (NBTI) is a critical reliability concern in modern CMOS circuits, primarily affecting PMOS transistors under specific stress conditions. What is its main manifestation?",
+  "What does the acronym \"CMOS\" primarily refer to in digital integrated circuit design?",
+  "In computer architecture, what is the primary role of a 'decoder' circuit?",
+  "In a modern pipelined processor, what is the main purpose of a 'branch predictor' unit?",
+  "What is the primary benefit of employing a 'Content-Addressable Memory (CAM)' in systems like a Translation Lookaside Buffer (TLB) or cache tag comparison?",
+  "In processor architectures employing Tomasulo's Algorithm for out-of-order execution, what is the primary function of a 'Reservation Station'?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary reason for using two's complement representation for signed integers in most digital computers?",
+      "question": "What does the acronym \"CMOS\" primarily refer to in digital integrated circuit design?",
       "options": [
-        "To simplify floating-point arithmetic operations.",
-        "To allow for easier detection of arithmetic overflow conditions.",
-        "To enable both addition and subtraction operations to be performed using a single arithmetic unit (adder) without special handling for signs.",
-        "To reduce the number of bits required for storing negative numbers compared to sign-magnitude representation.",
-        "To enhance data security by obscuring the true value of negative numbers from casual inspection."
+        "Complementary Metal-Oxide-Semiconductor",
+        "Central Memory Operating System",
+        "Current Mode Output Stage",
+        "Capacitive Memory Operating System",
+        "Circuit Material Optimization Software"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In the physical design phase of an Integrated Circuit (IC), what is the main objective of the \"Clock Tree Synthesis\" (CTS) step?",
+      "question": "In computer architecture, what is the primary role of a 'decoder' circuit?",
       "options": [
-        "To optimize the power consumption of the entire chip by disabling unused clock signals.",
-        "To reduce the number of logic gates by combining multiple clock domains into a single one.",
-        "To distribute the clock signal throughout the chip such that it reaches all sequential elements (flip-flops, latches) with minimal skew and delay.",
-        "To convert the gate-level netlist into a transistor-level schematic for manufacturing.",
-        "To verify the logical functionality of all clock domain crossings (CDCs)."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which cache replacement policy removes the block that has not been used for the longest period of time from the cache, typically requiring a mechanism to track the 'age' of each block?",
-      "options": [
-        "Least Frequently Used (LFU)",
-        "First-In, First-Out (FIFO)",
-        "Random Replacement (RR)",
-        "Least Recently Used (LRU)",
-        "Most Recently Used (MRU)"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Which pair of logic gates is considered \"universal,\" meaning that any Boolean function can be implemented using only gates from that specific pair?",
-      "options": [
-        "AND and OR gates",
-        "XOR and XNOR gates",
-        "NAND and NOR gates",
-        "NOT and Buffer gates",
-        "Multiplexer (MUX) and Demultiplexer (DEMUX)"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Negative Bias Temperature Instability (NBTI) is a critical reliability concern in modern CMOS circuits, primarily affecting PMOS transistors under specific stress conditions. What is its main manifestation?",
-      "options": [
-        "A gradual decrease in the threshold voltage (Vt) of PMOS transistors, leading to faster switching times but increased leakage.",
-        "A gradual increase in the threshold voltage (Vt) of PMOS transistors, leading to slower switching times and performance degradation.",
-        "An accelerated breakdown of the gate oxide in NMOS transistors due to high electric fields.",
-        "The transport of metal atoms in interconnect lines, causing shorts or opens at elevated temperatures.",
-        "Intermittent failures caused by random cosmic ray particle strikes, leading to soft errors in memory elements."
+        "To perform arithmetic operations on input data",
+        "To convert a binary input code into a unique active output line",
+        "To temporarily store data registers during computation",
+        "To amplify weak electrical signals for transmission",
+        "To manage the flow of instructions within the CPU pipeline"
       ],
       "correct": 1
+    },
+    {
+      "question": "In a modern pipelined processor, what is the main purpose of a 'branch predictor' unit?",
+      "options": [
+        "To determine the actual target address of a jump instruction",
+        "To resolve data dependencies between consecutive instructions",
+        "To speculatively guess the outcome of a conditional branch before it is resolved",
+        "To ensure that all cache lines are kept consistent across multiple cores",
+        "To prevent structural hazards by duplicating functional units"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary benefit of employing a 'Content-Addressable Memory (CAM)' in systems like a Translation Lookaside Buffer (TLB) or cache tag comparison?",
+      "options": [
+        "It provides a higher storage density compared to traditional SRAM",
+        "It allows data retrieval by specifying the memory address directly",
+        "It enables very fast parallel searching for matching data based on content rather than address",
+        "It consumes significantly less power than conventional random-access memory",
+        "It is non-volatile, retaining its data even without power"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In processor architectures employing Tomasulo's Algorithm for out-of-order execution, what is the primary function of a 'Reservation Station'?",
+      "options": [
+        "To reorder instructions into their original program order before commit",
+        "To hold the results of executed instructions until they are ready to be written back",
+        "To buffer operands and operations, waiting for functional units to become free and operands to be available",
+        "To pre-fetch instructions from the instruction cache into the instruction buffer",
+        "To manage the allocation and deallocation of physical registers for register renaming"
+      ],
+      "correct": 2
     }
   ]
 }
