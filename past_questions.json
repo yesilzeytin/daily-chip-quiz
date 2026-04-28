@@ -1,9 +1,4 @@
 [
-  "In digital circuit design, which of the following is a common abstract representation of a combinational logic function that can be implemented using a lookup table (LUT) or gates?",
-  "In a typical Von Neumann architecture, which stage of the instruction pipeline is responsible for interpreting the operation code (opcode) and identifying the operands required for an instruction?",
-  "In modern System-on-Chip (SoC) designs, particularly for embedded systems with tight latency requirements, what is the primary benefit of using \"Scratchpad Memory\" (SPM) over traditional cache memory for certain critical data or instructions?",
-  "In advanced semiconductor manufacturing, particularly at sub-10nm technology nodes, which phenomenon describes the statistical variation in physical dimensions and electrical characteristics of nominally identical devices on a single die, primarily due to inherent randomness in the lithographic and etching processes?",
-  "Beyond logic equivalence checking, what is the primary advantage of employing \"Formal Verification\" techniques, such as Model Checking, in complex digital IC design flows compared to traditional simulation-based verification?",
   "What is the primary characteristic that distinguishes a Harvard architecture from a Von Neumann architecture?",
   "In low-power digital IC design, what is the primary purpose of employing \"clock gating\" techniques?",
   "In digital logic circuits, what property describes the maximum amount of unwanted input noise a gate can tolerate without causing an incorrect output logic level?",
@@ -48,5 +43,10 @@
   "In computer architecture, what is the primary role of a 'decoder' circuit?",
   "In a modern pipelined processor, what is the main purpose of a 'branch predictor' unit?",
   "What is the primary benefit of employing a 'Content-Addressable Memory (CAM)' in systems like a Translation Lookaside Buffer (TLB) or cache tag comparison?",
-  "In processor architectures employing Tomasulo's Algorithm for out-of-order execution, what is the primary function of a 'Reservation Station'?"
+  "In processor architectures employing Tomasulo's Algorithm for out-of-order execution, what is the primary function of a 'Reservation Station'?",
+  "What is the primary characteristic that distinguishes a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
+  "In the digital IC design verification process, what is the primary role of 'Gate-Level Simulation' (GLS) compared to 'Register-Transfer Level (RTL) Simulation'?",
+  "For high-performance or low-power chip designs, 'Globally Asynchronous, Locally Synchronous (GALS)' architectures are sometimes employed. What is the primary motivation for using a GALS approach?",
+  "In a computer system employing virtual memory with paging, what is the primary purpose of a 'Page Table'?",
+  "In digital logic, what does the term 'fan-out' primarily refer to?"
 ]
