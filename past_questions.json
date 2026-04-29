@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes a Harvard architecture from a Von Neumann architecture?",
-  "In low-power digital IC design, what is the primary purpose of employing \"clock gating\" techniques?",
-  "In digital logic circuits, what property describes the maximum amount of unwanted input noise a gate can tolerate without causing an incorrect output logic level?",
-  "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) cells store a single bit of information?",
-  "In integrated circuit reliability, what phenomenon describes the gradual transport of metal atoms in an interconnect line under the influence of an electric current, potentially leading to opens or shorts over time and causing device failure?",
   "What is the primary purpose of a testbench in the digital IC design verification flow?",
   "In the context of pipelined processor architectures, what typically defines a \"data hazard\"?",
   "What is the primary function of a \"power grid\" in the physical layout of a complex Integrated Circuit (IC)?",
@@ -48,5 +43,10 @@
   "In the digital IC design verification process, what is the primary role of 'Gate-Level Simulation' (GLS) compared to 'Register-Transfer Level (RTL) Simulation'?",
   "For high-performance or low-power chip designs, 'Globally Asynchronous, Locally Synchronous (GALS)' architectures are sometimes employed. What is the primary motivation for using a GALS approach?",
   "In a computer system employing virtual memory with paging, what is the primary purpose of a 'Page Table'?",
-  "In digital logic, what does the term 'fan-out' primarily refer to?"
+  "In digital logic, what does the term 'fan-out' primarily refer to?",
+  "In computer architecture, what is the primary role of a 'cache' memory?",
+  "In a typical five-stage RISC pipeline (Fetch, Decode, Execute, Memory, Writeback), which stage is primarily responsible for calculating the effective address of an operand and performing the actual data load or store operation from/to memory?",
+  "In digital IC verification, what is the key advantage of using \"Formal Verification\" techniques (e.g., Model Checking, Equivalence Checking) over traditional simulation-based verification for certain design aspects?",
+  "In modern CMOS digital circuits, which component of power dissipation scales quadratically with supply voltage (VDD) and linearly with operating frequency, primarily due to charging and discharging of parasitic capacitances?",
+  "In a cache memory system, which mapping scheme allows a block of main memory to be placed in *any* available cache line, requiring all cache tags to be checked in parallel during a lookup?"
 ]
