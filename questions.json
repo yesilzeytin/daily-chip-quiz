@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In computer architecture, what is the primary role of a 'cache' memory?",
+      "question": "In a typical CPU, which type of memory offers the fastest access time and is directly integrated within the processor core to store temporary data and instructions during execution?",
       "options": [
-        "To store persistent data even when power is off.",
-        "To convert virtual addresses to physical addresses.",
-        "To provide fast access to frequently used data and instructions, reducing latency to main memory.",
-        "To perform arithmetic and logical operations on data.",
-        "To manage input/output operations between CPU and peripherals."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a typical five-stage RISC pipeline (Fetch, Decode, Execute, Memory, Writeback), which stage is primarily responsible for calculating the effective address of an operand and performing the actual data load or store operation from/to memory?",
-      "options": [
-        "Fetch",
-        "Decode",
-        "Execute",
-        "Memory",
-        "Writeback"
+        "Main Memory (RAM)",
+        "Hard Disk Drive (HDD)",
+        "Solid State Drive (SSD)",
+        "CPU Registers",
+        "L3 Cache"
       ],
       "correct": 3
     },
     {
-      "question": "In digital IC verification, what is the key advantage of using \"Formal Verification\" techniques (e.g., Model Checking, Equivalence Checking) over traditional simulation-based verification for certain design aspects?",
+      "question": "In a pipelined processor, what type of hazard occurs when two or more instructions require the same hardware resource (e.g., a specific functional unit or memory port) at the same time, leading to a conflict?",
       "options": [
-        "It provides higher execution speed for testing large data sets.",
-        "It can exhaustively prove the absence of certain bugs or properties, rather than just demonstrating their presence.",
-        "It requires less setup time and expertise compared to creating testbenches.",
-        "It is more effective at finding corner-case timing violations across process variations.",
-        "It is primarily used for validating analog circuit behavior."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In modern CMOS digital circuits, which component of power dissipation scales quadratically with supply voltage (VDD) and linearly with operating frequency, primarily due to charging and discharging of parasitic capacitances?",
-      "options": [
-        "Static leakage power",
-        "Short-circuit power",
-        "Dynamic switching power",
-        "Standby power",
-        "Gate tunneling current power"
+        "Data Hazard",
+        "Control Hazard",
+        "Structural Hazard",
+        "Pipeline Stall",
+        "Instruction Fetch Hazard"
       ],
       "correct": 2
     },
     {
-      "question": "In a cache memory system, which mapping scheme allows a block of main memory to be placed in *any* available cache line, requiring all cache tags to be checked in parallel during a lookup?",
+      "question": "Following the floorplanning stage in the physical design flow of a digital IC, which critical step involves arranging the standard cells, macros, and I/O pins within the allocated core area to optimize for timing, power, and area, while considering routing congestion?",
       "options": [
-        "Direct-mapped cache",
-        "Set-associative cache",
-        "Fully associative cache",
-        "Victim cache",
-        "Write-through cache"
+        "Clock Tree Synthesis (CTS)",
+        "Routing",
+        "Placement",
+        "Static Timing Analysis (STA)",
+        "Design Rule Checking (DRC)"
       ],
       "correct": 2
+    },
+    {
+      "question": "In an out-of-order execution processor, which architectural component is primarily responsible for holding instructions after execution but before they are committed to the architectural state, ensuring that instructions are retired in program order and enabling precise exceptions?",
+      "options": [
+        "Reservation Stations",
+        "Branch Target Buffer (BTB)",
+        "Translation Lookaside Buffer (TLB)",
+        "Reorder Buffer (ROB)",
+        "Instruction Cache"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the digital IC design verification process, after the physical layout is completed and parasitic extraction has been performed, what is the primary purpose of running a \"post-layout simulation\" using the extracted netlist?",
+      "options": [
+        "To perform high-level architectural exploration and power estimation.",
+        "To verify the functional correctness of the RTL code without timing information.",
+        "To check for design rule violations (DRC) and layout versus schematic (LVS) errors.",
+        "To accurately verify the design's functionality and timing performance including parasitic effects.",
+        "To generate the initial gate-level netlist from the RTL description."
+      ],
+      "correct": 3
     }
   ]
 }

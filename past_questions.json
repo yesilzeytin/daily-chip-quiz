@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of a testbench in the digital IC design verification flow?",
-  "In the context of pipelined processor architectures, what typically defines a \"data hazard\"?",
-  "What is the primary function of a \"power grid\" in the physical layout of a complex Integrated Circuit (IC)?",
-  "In advanced digital IC design, particularly for achieving lower power consumption and managing thermal dissipation, what is \"voltage scaling\" primarily used for?",
-  "What is \"crosstalk\" in the context of digital IC interconnects, and why is it a significant concern at advanced technology nodes?",
   "In digital IC design, what is the primary purpose of incorporating \"scan chains\" into a circuit during the design-for-testability (DFT) phase?",
   "In the context of digital IC design, what does the term \"timing closure\" primarily refer to?",
   "In a multi-level cache hierarchy (e.g., L1, L2, L3), what does the term \"inclusion property\" imply for cache design?",
@@ -48,5 +43,10 @@
   "In a typical five-stage RISC pipeline (Fetch, Decode, Execute, Memory, Writeback), which stage is primarily responsible for calculating the effective address of an operand and performing the actual data load or store operation from/to memory?",
   "In digital IC verification, what is the key advantage of using \"Formal Verification\" techniques (e.g., Model Checking, Equivalence Checking) over traditional simulation-based verification for certain design aspects?",
   "In modern CMOS digital circuits, which component of power dissipation scales quadratically with supply voltage (VDD) and linearly with operating frequency, primarily due to charging and discharging of parasitic capacitances?",
-  "In a cache memory system, which mapping scheme allows a block of main memory to be placed in *any* available cache line, requiring all cache tags to be checked in parallel during a lookup?"
+  "In a cache memory system, which mapping scheme allows a block of main memory to be placed in *any* available cache line, requiring all cache tags to be checked in parallel during a lookup?",
+  "In a typical CPU, which type of memory offers the fastest access time and is directly integrated within the processor core to store temporary data and instructions during execution?",
+  "In a pipelined processor, what type of hazard occurs when two or more instructions require the same hardware resource (e.g., a specific functional unit or memory port) at the same time, leading to a conflict?",
+  "Following the floorplanning stage in the physical design flow of a digital IC, which critical step involves arranging the standard cells, macros, and I/O pins within the allocated core area to optimize for timing, power, and area, while considering routing congestion?",
+  "In an out-of-order execution processor, which architectural component is primarily responsible for holding instructions after execution but before they are committed to the architectural state, ensuring that instructions are retired in program order and enabling precise exceptions?",
+  "In the digital IC design verification process, after the physical layout is completed and parasitic extraction has been performed, what is the primary purpose of running a \"post-layout simulation\" using the extracted netlist?"
 ]
