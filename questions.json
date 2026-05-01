@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In a typical CPU, which type of memory offers the fastest access time and is directly integrated within the processor core to store temporary data and instructions during execution?",
+      "question": "What is the primary role of an Instruction Set Architecture (ISA) in computer systems?",
       "options": [
-        "Main Memory (RAM)",
-        "Hard Disk Drive (HDD)",
-        "Solid State Drive (SSD)",
-        "CPU Registers",
-        "L3 Cache"
+        "It defines the physical layout of transistors on a chip and their interconnections.",
+        "It specifies the set of instructions a processor can execute, its data types, registers, and memory model.",
+        "It primarily determines the clock frequency and power consumption characteristics of a Central Processing Unit (CPU).",
+        "It manages the operating system's interaction with peripheral devices and memory allocation.",
+        "It optimizes the compilation of high-level programming languages into machine-level code."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "In a pipelined processor, what type of hazard occurs when two or more instructions require the same hardware resource (e.g., a specific functional unit or memory port) at the same time, leading to a conflict?",
+      "question": "In digital IC design, what is the primary purpose of 'Clock Gating'?",
       "options": [
-        "Data Hazard",
-        "Control Hazard",
-        "Structural Hazard",
-        "Pipeline Stall",
-        "Instruction Fetch Hazard"
+        "To prevent clock skew across different parts of the design by balancing clock path delays.",
+        "To reduce dynamic power consumption by disabling the clock signal to inactive functional blocks or flip-flops.",
+        "To synthesize a clock tree network with minimal delay and latency from the clock source to all registers.",
+        "To ensure that all sequential elements (flip-flops) sample their data on a specific edge of the clock signal.",
+        "To generate multiple derived clock frequencies from a single input clock for different circuit sections."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of chip design verification, what does 'functional coverage' primarily aim to measure?",
+      "options": [
+        "The percentage of physical area utilized by the design on the silicon die.",
+        "The proportion of clock cycles during which the design operated without encountering any errors or assertions.",
+        "How thoroughly the design's specified features, behaviors, and corner cases have been exercised by the test suite.",
+        "The amount of memory used by the verification testbench and simulation environment.",
+        "The speed at which simulation tests can be executed and the overall simulation throughput."
       ],
       "correct": 2
     },
     {
-      "question": "Following the floorplanning stage in the physical design flow of a digital IC, which critical step involves arranging the standard cells, macros, and I/O pins within the allocated core area to optimize for timing, power, and area, while considering routing congestion?",
+      "question": "In modern multi-core processors, which cache write policy dictates that data is written simultaneously to both the cache and the main memory upon a write hit?",
       "options": [
-        "Clock Tree Synthesis (CTS)",
-        "Routing",
-        "Placement",
-        "Static Timing Analysis (STA)",
-        "Design Rule Checking (DRC)"
+        "Write-back",
+        "Write-allocate",
+        "No-write-allocate",
+        "Write-through",
+        "Dirty bit policy"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In advanced semiconductor manufacturing, what phenomenon refers to the gradual transport of material, typically metal atoms, in an integrated circuit due to momentum transfer from conducting electrons, leading to potential open circuits or short circuits over time?",
+      "options": [
+        "Hot Carrier Injection (HCI)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Electromigration",
+        "Dielectric Breakdown (DB)",
+        "Gate Oxide Leakage"
       ],
       "correct": 2
-    },
-    {
-      "question": "In an out-of-order execution processor, which architectural component is primarily responsible for holding instructions after execution but before they are committed to the architectural state, ensuring that instructions are retired in program order and enabling precise exceptions?",
-      "options": [
-        "Reservation Stations",
-        "Branch Target Buffer (BTB)",
-        "Translation Lookaside Buffer (TLB)",
-        "Reorder Buffer (ROB)",
-        "Instruction Cache"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the digital IC design verification process, after the physical layout is completed and parasitic extraction has been performed, what is the primary purpose of running a \"post-layout simulation\" using the extracted netlist?",
-      "options": [
-        "To perform high-level architectural exploration and power estimation.",
-        "To verify the functional correctness of the RTL code without timing information.",
-        "To check for design rule violations (DRC) and layout versus schematic (LVS) errors.",
-        "To accurately verify the design's functionality and timing performance including parasitic effects.",
-        "To generate the initial gate-level netlist from the RTL description."
-      ],
-      "correct": 3
     }
   ]
 }
