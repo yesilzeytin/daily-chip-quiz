@@ -1,9 +1,4 @@
 [
-  "What is the fundamental function of a logic inverter (NOT gate) in digital circuits?",
-  "In a CPU, what is the primary function of the Program Counter (PC)?",
-  "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
-  "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
-  "In the digital IC design flow, what is the process called that converts a high-level Hardware Description Language (HDL) description (e.g., Verilog RTL) into an optimized gate-level netlist?",
   "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
   "In the physical design phase of an Integrated Circuit (IC) development, what is the main objective of the \"Floorplanning\" stage?",
   "In modern superscalar processors employing out-of-order execution, what is the primary benefit achieved by \"Register Renaming\"?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary purpose of 'Clock Gating'?",
   "In the context of chip design verification, what does 'functional coverage' primarily aim to measure?",
   "In modern multi-core processors, which cache write policy dictates that data is written simultaneously to both the cache and the main memory upon a write hit?",
-  "In advanced semiconductor manufacturing, what phenomenon refers to the gradual transport of material, typically metal atoms, in an integrated circuit due to momentum transfer from conducting electrons, leading to potential open circuits or short circuits over time?"
+  "In advanced semiconductor manufacturing, what phenomenon refers to the gradual transport of material, typically metal atoms, in an integrated circuit due to momentum transfer from conducting electrons, leading to potential open circuits or short circuits over time?",
+  "In the physical verification phase of Integrated Circuit (IC) design, what is the primary purpose of Design Rule Checking (DRC)?",
+  "Which computer architecture concept describes a system where instructions and data are stored in separate memory spaces, allowing simultaneous access to both?",
+  "When transferring data between two asynchronous clock domains in a digital IC, which circuit type is primarily used to mitigate metastability issues and ensure reliable data transfer?",
+  "In Design-for-Testability (DFT) methodologies for digital ASICs, what is the primary purpose of converting sequential elements (flip-flops) into 'scan flip-flops' and connecting them to form scan chains?",
+  "In a multi-core processor system, what does a 'Release Consistency' memory model primarily allow compared to a 'Sequential Consistency' model?"
 ]

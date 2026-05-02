@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of an Instruction Set Architecture (ISA) in computer systems?",
+      "question": "In the physical verification phase of Integrated Circuit (IC) design, what is the primary purpose of Design Rule Checking (DRC)?",
       "options": [
-        "It defines the physical layout of transistors on a chip and their interconnections.",
-        "It specifies the set of instructions a processor can execute, its data types, registers, and memory model.",
-        "It primarily determines the clock frequency and power consumption characteristics of a Central Processing Unit (CPU).",
-        "It manages the operating system's interaction with peripheral devices and memory allocation.",
-        "It optimizes the compilation of high-level programming languages into machine-level code."
+        "To ensure that the physical layout adheres to manufacturing constraints and geometric rules.",
+        "To verify that the circuit's timing requirements are met under various operating conditions.",
+        "To confirm the functional equivalence between the Register-Transfer Level (RTL) and gate-level netlists.",
+        "To extract parasitic capacitances and resistances from the layout for post-layout simulation.",
+        "To optimize the power consumption of the design by identifying and removing redundant gates."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which computer architecture concept describes a system where instructions and data are stored in separate memory spaces, allowing simultaneous access to both?",
+      "options": [
+        "Von Neumann Architecture",
+        "Harvard Architecture",
+        "MIMD (Multiple Instruction, Multiple Data) Architecture",
+        "CISC (Complex Instruction Set Computer) Architecture",
+        "Superscalar Architecture"
       ],
       "correct": 1
     },
     {
-      "question": "In digital IC design, what is the primary purpose of 'Clock Gating'?",
+      "question": "When transferring data between two asynchronous clock domains in a digital IC, which circuit type is primarily used to mitigate metastability issues and ensure reliable data transfer?",
       "options": [
-        "To prevent clock skew across different parts of the design by balancing clock path delays.",
-        "To reduce dynamic power consumption by disabling the clock signal to inactive functional blocks or flip-flops.",
-        "To synthesize a clock tree network with minimal delay and latency from the clock source to all registers.",
-        "To ensure that all sequential elements (flip-flops) sample their data on a specific edge of the clock signal.",
-        "To generate multiple derived clock frequencies from a single input clock for different circuit sections."
+        "Transparent Latches",
+        "A First-In, First-Out (FIFO) Buffer",
+        "A Synchronizer (e.g., a two-flip-flop synchronizer)",
+        "A Parallel-In, Serial-Out (PISO) Shift Register",
+        "A Combinational Logic Decoder"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In Design-for-Testability (DFT) methodologies for digital ASICs, what is the primary purpose of converting sequential elements (flip-flops) into 'scan flip-flops' and connecting them to form scan chains?",
+      "options": [
+        "To reduce the dynamic power consumption of the chip during normal operation.",
+        "To enable the chip to operate at significantly higher clock frequencies.",
+        "To improve the test coverage by allowing internal states to be easily observed and controlled during manufacturing testing.",
+        "To implement a Built-In Self-Test (BIST) mechanism directly into the design.",
+        "To facilitate faster logic synthesis and place-and-route by simplifying sequential logic."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a multi-core processor system, what does a 'Release Consistency' memory model primarily allow compared to a 'Sequential Consistency' model?",
+      "options": [
+        "It strictly enforces that all memory operations appear to execute in program order across all cores, simplifying programmer reasoning.",
+        "It allows a limited reordering of memory operations (specifically writes related to 'release' fences) to improve performance, while still providing synchronization guarantees.",
+        "It ensures that only read operations are globally ordered, allowing write operations to be reordered freely without any synchronization primitives.",
+        "It uses a centralized arbiter to ensure that only one core can access a specific memory location at any given time, regardless of the operation type.",
+        "It enables a core to unilaterally update its private cache without notifying other cores until an explicit flush operation is performed."
       ],
       "correct": 1
-    },
-    {
-      "question": "In the context of chip design verification, what does 'functional coverage' primarily aim to measure?",
-      "options": [
-        "The percentage of physical area utilized by the design on the silicon die.",
-        "The proportion of clock cycles during which the design operated without encountering any errors or assertions.",
-        "How thoroughly the design's specified features, behaviors, and corner cases have been exercised by the test suite.",
-        "The amount of memory used by the verification testbench and simulation environment.",
-        "The speed at which simulation tests can be executed and the overall simulation throughput."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In modern multi-core processors, which cache write policy dictates that data is written simultaneously to both the cache and the main memory upon a write hit?",
-      "options": [
-        "Write-back",
-        "Write-allocate",
-        "No-write-allocate",
-        "Write-through",
-        "Dirty bit policy"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In advanced semiconductor manufacturing, what phenomenon refers to the gradual transport of material, typically metal atoms, in an integrated circuit due to momentum transfer from conducting electrons, leading to potential open circuits or short circuits over time?",
-      "options": [
-        "Hot Carrier Injection (HCI)",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Electromigration",
-        "Dielectric Breakdown (DB)",
-        "Gate Oxide Leakage"
-      ],
-      "correct": 2
     }
   ]
 }
