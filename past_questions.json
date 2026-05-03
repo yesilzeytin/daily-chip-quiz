@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
-  "In the physical design phase of an Integrated Circuit (IC) development, what is the main objective of the \"Floorplanning\" stage?",
-  "In modern superscalar processors employing out-of-order execution, what is the primary benefit achieved by \"Register Renaming\"?",
-  "At advanced technology nodes (e.g., 22nm and below), what is the primary architectural advantage of using FinFET transistors over traditional planar MOSFETs in Integrated Circuit (IC) design?",
-  "What is the primary purpose of a JTAG (Joint Test Action Group) interface, commonly referred to as a debug port, in modern System-on-Chip (SoC) designs?",
   "Which fundamental digital circuit component is primarily used to store a single bit of information and serves as the basic memory element in sequential logic circuits?",
   "In the context of computer architecture, what is the primary function of a 'microcode' engine within a CPU?",
   "In the ASIC design flow, what is the main objective of 'Library Characterization'?",
@@ -48,5 +43,10 @@
   "Which computer architecture concept describes a system where instructions and data are stored in separate memory spaces, allowing simultaneous access to both?",
   "When transferring data between two asynchronous clock domains in a digital IC, which circuit type is primarily used to mitigate metastability issues and ensure reliable data transfer?",
   "In Design-for-Testability (DFT) methodologies for digital ASICs, what is the primary purpose of converting sequential elements (flip-flops) into 'scan flip-flops' and connecting them to form scan chains?",
-  "In a multi-core processor system, what does a 'Release Consistency' memory model primarily allow compared to a 'Sequential Consistency' model?"
+  "In a multi-core processor system, what does a 'Release Consistency' memory model primarily allow compared to a 'Sequential Consistency' model?",
+  "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
+  "In a computer system, what is the primary role of the Memory Management Unit (MMU)?",
+  "In the typical ASIC design flow, which step is primarily responsible for transforming the Register-Transfer Level (RTL) design (e.g., Verilog or VHDL code) into an optimized gate-level netlist using a standard cell library?",
+  "In a multi-core processor system, the MESI protocol is a widely used cache coherence protocol. What do the 'M' and 'E' states primarily signify for a cache line in the MESI protocol?",
+  "In synchronous digital circuits, what is the primary purpose of ensuring that the 'setup time' requirement is met for a flip-flop?"
 ]

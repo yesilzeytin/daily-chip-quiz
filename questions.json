@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the physical verification phase of Integrated Circuit (IC) design, what is the primary purpose of Design Rule Checking (DRC)?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
       "options": [
-        "To ensure that the physical layout adheres to manufacturing constraints and geometric rules.",
-        "To verify that the circuit's timing requirements are met under various operating conditions.",
-        "To confirm the functional equivalence between the Register-Transfer Level (RTL) and gate-level netlists.",
-        "To extract parasitic capacitances and resistances from the layout for post-layout simulation.",
-        "To optimize the power consumption of the design by identifying and removing redundant gates."
+        "Combine multiple inputs into one output",
+        "Select one of many input signals to route to a single output",
+        "Generate multiple outputs from a single input",
+        "Store a single bit of data",
+        "Amplify an input signal"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In a computer system, what is the primary role of the Memory Management Unit (MMU)?",
+      "options": [
+        "Execute arithmetic and logic operations",
+        "Control I/O device access",
+        "Translate virtual memory addresses to physical memory addresses",
+        "Store program instructions permanently",
+        "Manage CPU scheduling and context switching"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the typical ASIC design flow, which step is primarily responsible for transforming the Register-Transfer Level (RTL) design (e.g., Verilog or VHDL code) into an optimized gate-level netlist using a standard cell library?",
+      "options": [
+        "Floorplanning",
+        "Place and Route",
+        "Logic Synthesis",
+        "Static Timing Analysis",
+        "Power Analysis"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a multi-core processor system, the MESI protocol is a widely used cache coherence protocol. What do the 'M' and 'E' states primarily signify for a cache line in the MESI protocol?",
+      "options": [
+        "'Modified' (exclusive, dirty) and 'Exclusive' (only copy, clean)",
+        "'Miss' (not in cache) and 'Empty' (invalid)",
+        "'Memory' (main memory copy) and 'Evicted' (removed from cache)",
+        "'Merged' (combined with other lines) and 'Enabled' (active)",
+        "'Master' (owner) and 'Execute' (being processed)"
       ],
       "correct": 0
     },
     {
-      "question": "Which computer architecture concept describes a system where instructions and data are stored in separate memory spaces, allowing simultaneous access to both?",
+      "question": "In synchronous digital circuits, what is the primary purpose of ensuring that the 'setup time' requirement is met for a flip-flop?",
       "options": [
-        "Von Neumann Architecture",
-        "Harvard Architecture",
-        "MIMD (Multiple Instruction, Multiple Data) Architecture",
-        "CISC (Complex Instruction Set Computer) Architecture",
-        "Superscalar Architecture"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "When transferring data between two asynchronous clock domains in a digital IC, which circuit type is primarily used to mitigate metastability issues and ensure reliable data transfer?",
-      "options": [
-        "Transparent Latches",
-        "A First-In, First-Out (FIFO) Buffer",
-        "A Synchronizer (e.g., a two-flip-flop synchronizer)",
-        "A Parallel-In, Serial-Out (PISO) Shift Register",
-        "A Combinational Logic Decoder"
+        "To ensure the input data is stable after the clock edge",
+        "To prevent internal hazards within the flip-flop",
+        "To ensure the input data is stable and available before the active clock edge",
+        "To guarantee minimal power consumption",
+        "To allow for faster clock frequencies"
       ],
       "correct": 2
-    },
-    {
-      "question": "In Design-for-Testability (DFT) methodologies for digital ASICs, what is the primary purpose of converting sequential elements (flip-flops) into 'scan flip-flops' and connecting them to form scan chains?",
-      "options": [
-        "To reduce the dynamic power consumption of the chip during normal operation.",
-        "To enable the chip to operate at significantly higher clock frequencies.",
-        "To improve the test coverage by allowing internal states to be easily observed and controlled during manufacturing testing.",
-        "To implement a Built-In Self-Test (BIST) mechanism directly into the design.",
-        "To facilitate faster logic synthesis and place-and-route by simplifying sequential logic."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a multi-core processor system, what does a 'Release Consistency' memory model primarily allow compared to a 'Sequential Consistency' model?",
-      "options": [
-        "It strictly enforces that all memory operations appear to execute in program order across all cores, simplifying programmer reasoning.",
-        "It allows a limited reordering of memory operations (specifically writes related to 'release' fences) to improve performance, while still providing synchronization guarantees.",
-        "It ensures that only read operations are globally ordered, allowing write operations to be reordered freely without any synchronization primitives.",
-        "It uses a centralized arbiter to ensure that only one core can access a specific memory location at any given time, regardless of the operation type.",
-        "It enables a core to unilaterally update its private cache without notifying other cores until an explicit flush operation is performed."
-      ],
-      "correct": 1
     }
   ]
 }
