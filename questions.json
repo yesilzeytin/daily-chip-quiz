@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
+      "question": "In computer architecture, Flynn's Taxonomy classifies computer systems based on the number of instruction streams and data streams. Which category describes a single processor executing a single instruction stream on multiple data streams simultaneously?",
       "options": [
-        "Combine multiple inputs into one output",
-        "Select one of many input signals to route to a single output",
-        "Generate multiple outputs from a single input",
-        "Store a single bit of data",
-        "Amplify an input signal"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a computer system, what is the primary role of the Memory Management Unit (MMU)?",
-      "options": [
-        "Execute arithmetic and logic operations",
-        "Control I/O device access",
-        "Translate virtual memory addresses to physical memory addresses",
-        "Store program instructions permanently",
-        "Manage CPU scheduling and context switching"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the typical ASIC design flow, which step is primarily responsible for transforming the Register-Transfer Level (RTL) design (e.g., Verilog or VHDL code) into an optimized gate-level netlist using a standard cell library?",
-      "options": [
-        "Floorplanning",
-        "Place and Route",
-        "Logic Synthesis",
-        "Static Timing Analysis",
-        "Power Analysis"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a multi-core processor system, the MESI protocol is a widely used cache coherence protocol. What do the 'M' and 'E' states primarily signify for a cache line in the MESI protocol?",
-      "options": [
-        "'Modified' (exclusive, dirty) and 'Exclusive' (only copy, clean)",
-        "'Miss' (not in cache) and 'Empty' (invalid)",
-        "'Memory' (main memory copy) and 'Evicted' (removed from cache)",
-        "'Merged' (combined with other lines) and 'Enabled' (active)",
-        "'Master' (owner) and 'Execute' (being processed)"
+        "SIMD (Single Instruction, Multiple Data)",
+        "SISD (Single Instruction, Single Data)",
+        "MIMD (Multiple Instruction, Multiple Data)",
+        "MISD (Multiple Instruction, Single Data)",
+        "SPMD (Single Program, Multiple Data)"
       ],
       "correct": 0
     },
     {
-      "question": "In synchronous digital circuits, what is the primary purpose of ensuring that the 'setup time' requirement is met for a flip-flop?",
+      "question": "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
       "options": [
-        "To ensure the input data is stable after the clock edge",
-        "To prevent internal hazards within the flip-flop",
-        "To ensure the input data is stable and available before the active clock edge",
-        "To guarantee minimal power consumption",
-        "To allow for faster clock frequencies"
+        "To verify the functional correctness of the design by simulating its behavior with test vectors.",
+        "To ensure all logical paths in the circuit meet their timing constraints without requiring test vectors.",
+        "To extract parasitic resistances and capacitances from the layout for post-layout simulation.",
+        "To optimize power consumption by identifying and gating unused clock signals.",
+        "To synthesize the Register-Transfer Level (RTL) design into a gate-level netlist."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "During the initial floorplanning phase of an ASIC design, what is a crucial consideration for macro placement and block partitioning, especially with respect to global timing closure?",
+      "options": [
+        "Minimizing the total number of standard cells to reduce die area.",
+        "Ensuring even distribution of power rails to prevent localized electromigration issues.",
+        "Reducing the maximum fan-out of high-drive cells in peripheral logic.",
+        "Optimizing the routing channels to minimize wirelength and critical path delays between major functional blocks.",
+        "Characterizing the standard cell library for power, timing, and area metrics."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In Verilog HDL, what is the fundamental difference in behavior between a blocking assignment (`=`) and a non-blocking assignment (`<=`) when used in a `always @(posedge clk)` block?",
+      "options": [
+        "Blocking assignments are primarily used for combinational logic, while non-blocking assignments are exclusively for sequential logic.",
+        "Blocking assignments evaluate and update variables immediately within the current procedural block, whereas non-blocking assignments schedule updates to occur at the end of the current time step.",
+        "Non-blocking assignments simulate faster than blocking assignments due to parallel execution.",
+        "Blocking assignments inherently prevent race conditions, while non-blocking assignments are more prone to them in sequential logic.",
+        "There is no functional difference between them; they are merely stylistic alternatives depending on design intent."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "As semiconductor manufacturing processes scale down to advanced nodes (e.g., 7nm, 5nm), transistor characteristics and interconnect properties exhibit increasing variability across a die and wafer. What is a common design technique employed to mitigate the impact of such 'process variations' on circuit timing and performance?",
+      "options": [
+        "Implementing a highly synchronous design style with a single global clock domain and no clock gating.",
+        "Utilizing only blocking assignments (`=`) in all Register-Transfer Level (RTL) code to ensure deterministic behavior.",
+        "Employing guard banding, designing for worst-case corners, or implementing adaptive body biasing (ABB).",
+        "Reducing the number of metal layers used in the physical layout to simplify manufacturing.",
+        "Increasing the supply voltage (VDD) indiscriminately across the entire chip to overcome threshold voltage variations."
       ],
       "correct": 2
     }

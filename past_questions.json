@@ -1,9 +1,4 @@
 [
-  "Which fundamental digital circuit component is primarily used to store a single bit of information and serves as the basic memory element in sequential logic circuits?",
-  "In the context of computer architecture, what is the primary function of a 'microcode' engine within a CPU?",
-  "In the ASIC design flow, what is the main objective of 'Library Characterization'?",
-  "What is the primary purpose of 'Voltage and Frequency Scaling (VFS)', often implemented through Dynamic Voltage and Frequency Scaling (DVFS), in modern System-on-Chip (SoC) designs?",
-  "In advanced semiconductor manufacturing, what does 'Yield' primarily refer to?",
   "What type of digital circuit combines combinational logic with memory elements (like flip-flops) to produce outputs that depend on both current inputs and past inputs (its internal state)?",
   "In a multi-processor or multi-core system, which mechanism ensures that all processors have a consistent view of shared memory, especially when one processor modifies data that might be cached by others?",
   "Which verification technique involves embedding specific properties or expected behaviors directly into the RTL design using assertions (e.g., SVA in Verilog or PSL in VHDL) to monitor and report violations during simulation or formal analysis?",
@@ -48,5 +43,10 @@
   "In a computer system, what is the primary role of the Memory Management Unit (MMU)?",
   "In the typical ASIC design flow, which step is primarily responsible for transforming the Register-Transfer Level (RTL) design (e.g., Verilog or VHDL code) into an optimized gate-level netlist using a standard cell library?",
   "In a multi-core processor system, the MESI protocol is a widely used cache coherence protocol. What do the 'M' and 'E' states primarily signify for a cache line in the MESI protocol?",
-  "In synchronous digital circuits, what is the primary purpose of ensuring that the 'setup time' requirement is met for a flip-flop?"
+  "In synchronous digital circuits, what is the primary purpose of ensuring that the 'setup time' requirement is met for a flip-flop?",
+  "In computer architecture, Flynn's Taxonomy classifies computer systems based on the number of instruction streams and data streams. Which category describes a single processor executing a single instruction stream on multiple data streams simultaneously?",
+  "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
+  "During the initial floorplanning phase of an ASIC design, what is a crucial consideration for macro placement and block partitioning, especially with respect to global timing closure?",
+  "In Verilog HDL, what is the fundamental difference in behavior between a blocking assignment (`=`) and a non-blocking assignment (`<=`) when used in a `always @(posedge clk)` block?",
+  "As semiconductor manufacturing processes scale down to advanced nodes (e.g., 7nm, 5nm), transistor characteristics and interconnect properties exhibit increasing variability across a die and wafer. What is a common design technique employed to mitigate the impact of such 'process variations' on circuit timing and performance?"
 ]
