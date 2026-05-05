@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In computer architecture, Flynn's Taxonomy classifies computer systems based on the number of instruction streams and data streams. Which category describes a single processor executing a single instruction stream on multiple data streams simultaneously?",
+      "question": "What is the primary function of a Look-Up Table (LUT) in a Field-Programmable Gate Array (FPGA)?",
       "options": [
-        "SIMD (Single Instruction, Multiple Data)",
-        "SISD (Single Instruction, Single Data)",
-        "MIMD (Multiple Instruction, Multiple Data)",
-        "MISD (Multiple Instruction, Single Data)",
-        "SPMD (Single Program, Multiple Data)"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
-      "options": [
-        "To verify the functional correctness of the design by simulating its behavior with test vectors.",
-        "To ensure all logical paths in the circuit meet their timing constraints without requiring test vectors.",
-        "To extract parasitic resistances and capacitances from the layout for post-layout simulation.",
-        "To optimize power consumption by identifying and gating unused clock signals.",
-        "To synthesize the Register-Transfer Level (RTL) design into a gate-level netlist."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "During the initial floorplanning phase of an ASIC design, what is a crucial consideration for macro placement and block partitioning, especially with respect to global timing closure?",
-      "options": [
-        "Minimizing the total number of standard cells to reduce die area.",
-        "Ensuring even distribution of power rails to prevent localized electromigration issues.",
-        "Reducing the maximum fan-out of high-drive cells in peripheral logic.",
-        "Optimizing the routing channels to minimize wirelength and critical path delays between major functional blocks.",
-        "Characterizing the standard cell library for power, timing, and area metrics."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In Verilog HDL, what is the fundamental difference in behavior between a blocking assignment (`=`) and a non-blocking assignment (`<=`) when used in a `always @(posedge clk)` block?",
-      "options": [
-        "Blocking assignments are primarily used for combinational logic, while non-blocking assignments are exclusively for sequential logic.",
-        "Blocking assignments evaluate and update variables immediately within the current procedural block, whereas non-blocking assignments schedule updates to occur at the end of the current time step.",
-        "Non-blocking assignments simulate faster than blocking assignments due to parallel execution.",
-        "Blocking assignments inherently prevent race conditions, while non-blocking assignments are more prone to them in sequential logic.",
-        "There is no functional difference between them; they are merely stylistic alternatives depending on design intent."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "As semiconductor manufacturing processes scale down to advanced nodes (e.g., 7nm, 5nm), transistor characteristics and interconnect properties exhibit increasing variability across a die and wafer. What is a common design technique employed to mitigate the impact of such 'process variations' on circuit timing and performance?",
-      "options": [
-        "Implementing a highly synchronous design style with a single global clock domain and no clock gating.",
-        "Utilizing only blocking assignments (`=`) in all Register-Transfer Level (RTL) code to ensure deterministic behavior.",
-        "Employing guard banding, designing for worst-case corners, or implementing adaptive body biasing (ABB).",
-        "Reducing the number of metal layers used in the physical layout to simplify manufacturing.",
-        "Increasing the supply voltage (VDD) indiscriminately across the entire chip to overcome threshold voltage variations."
+        "To store large blocks of static random-access memory (SRAM)",
+        "To provide high-speed serial communication interfaces",
+        "To implement configurable combinational logic functions based on input signals",
+        "To manage the clock signals and distribution across the FPGA fabric",
+        "To perform analog-to-digital conversion for external sensor inputs"
       ],
       "correct": 2
+    },
+    {
+      "question": "In the context of processor microarchitecture, what does 'speculative execution' primarily refer to?",
+      "options": [
+        "Executing instructions only after all preceding instructions have committed their results",
+        "Performing arithmetic and logic operations in a dedicated mathematical coprocessor",
+        "Executing instructions before the outcome of a preceding branch instruction is definitively known",
+        "Storing frequently accessed data in a small, fast memory directly within the CPU core",
+        "Prioritizing real-time operating system tasks over user applications"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the main purpose of 'Logic Equivalence Checking' (LEC) in the ASIC design flow?",
+      "options": [
+        "To verify that the physical layout meets all manufacturing design rules (DRC)",
+        "To compare two netlists (e.g., RTL vs. gate-level) to confirm they implement the identical logical function",
+        "To extract parasitic resistances and capacitances from the final physical layout",
+        "To ensure that all timing requirements (setup/hold) are met after routing",
+        "To determine the power consumption of the design under various operating conditions"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In a General-Purpose Graphics Processing Unit (GPGPU) architecture, what does the Single Instruction, Multiple Thread (SIMT) execution model primarily imply?",
+      "options": [
+        "A single CPU core controls multiple independent GPU cores, each running a distinct program",
+        "Each thread executes its own unique instruction stream on a private set of data elements",
+        "A single instruction stream is broadcast and executed concurrently by multiple processing elements, each operating on different data",
+        "All threads within a 'warp' or 'wavefront' execute entirely independently without any form of synchronization",
+        "The GPU is optimized for executing a single, very large data stream through a highly complex, variable-length instruction set"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "When designing a low-power digital IC, which technique involves partitioning the chip into separate power domains and using isolation cells to prevent current leakage and logic contention when specific domains are powered down?",
+      "options": [
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Adaptive Body Biasing (ABB)",
+        "Clock Gating",
+        "Power Gating",
+        "Multi-threshold CMOS (MTCMOS)"
+      ],
+      "correct": 3
     }
   ]
 }
