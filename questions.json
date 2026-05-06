@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a Look-Up Table (LUT) in a Field-Programmable Gate Array (FPGA)?",
+      "question": "What is the fundamental building block for sequential logic in digital circuits, capable of storing a single bit of information and changing its state based on a clock signal?",
       "options": [
-        "To store large blocks of static random-access memory (SRAM)",
-        "To provide high-speed serial communication interfaces",
-        "To implement configurable combinational logic functions based on input signals",
-        "To manage the clock signals and distribution across the FPGA fabric",
-        "To perform analog-to-digital conversion for external sensor inputs"
+        "AND gate",
+        "Multiplexer",
+        "Flip-flop",
+        "Decoder",
+        "Inverter"
       ],
       "correct": 2
     },
     {
-      "question": "In the context of processor microarchitecture, what does 'speculative execution' primarily refer to?",
+      "question": "In a computer system employing virtual memory, what is the primary purpose of a 'Translation Lookaside Buffer (TLB)'?",
       "options": [
-        "Executing instructions only after all preceding instructions have committed their results",
-        "Performing arithmetic and logic operations in a dedicated mathematical coprocessor",
-        "Executing instructions before the outcome of a preceding branch instruction is definitively known",
-        "Storing frequently accessed data in a small, fast memory directly within the CPU core",
-        "Prioritizing real-time operating system tasks over user applications"
+        "To store frequently used instructions for faster access by the CPU.",
+        "To convert physical addresses into virtual addresses during memory access.",
+        "To provide a high-speed cache for page table entries, accelerating virtual-to-physical address translation.",
+        "To manage the allocation and deallocation of physical memory pages.",
+        "To buffer data transfers between the CPU and I/O devices."
       ],
       "correct": 2
     },
     {
-      "question": "What is the main purpose of 'Logic Equivalence Checking' (LEC) in the ASIC design flow?",
+      "question": "In modern out-of-order execution processors, what is the primary architectural benefit of employing 'Register Renaming'?",
       "options": [
-        "To verify that the physical layout meets all manufacturing design rules (DRC)",
-        "To compare two netlists (e.g., RTL vs. gate-level) to confirm they implement the identical logical function",
-        "To extract parasitic resistances and capacitances from the final physical layout",
-        "To ensure that all timing requirements (setup/hold) are met after routing",
-        "To determine the power consumption of the design under various operating conditions"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a General-Purpose Graphics Processing Unit (GPGPU) architecture, what does the Single Instruction, Multiple Thread (SIMT) execution model primarily imply?",
-      "options": [
-        "A single CPU core controls multiple independent GPU cores, each running a distinct program",
-        "Each thread executes its own unique instruction stream on a private set of data elements",
-        "A single instruction stream is broadcast and executed concurrently by multiple processing elements, each operating on different data",
-        "All threads within a 'warp' or 'wavefront' execute entirely independently without any form of synchronization",
-        "The GPU is optimized for executing a single, very large data stream through a highly complex, variable-length instruction set"
+        "It reduces the total number of physical registers required in the processor.",
+        "It simplifies the instruction fetching and decoding stages of the pipeline.",
+        "It eliminates false data dependencies (WAR, WAW hazards) by providing multiple physical registers for the same architectural register, thereby enabling higher instruction-level parallelism.",
+        "It ensures that instructions commit to the architectural state in strict program order.",
+        "It allows multiple functional units to share a single common data bus without arbitration."
       ],
       "correct": 2
     },
     {
-      "question": "When designing a low-power digital IC, which technique involves partitioning the chip into separate power domains and using isolation cells to prevent current leakage and logic contention when specific domains are powered down?",
+      "question": "What is the main objective of 'Design for Testability (DFT)' techniques in the context of ASIC (Application-Specific Integrated Circuit) design?",
       "options": [
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Adaptive Body Biasing (ABB)",
-        "Clock Gating",
-        "Power Gating",
-        "Multi-threshold CMOS (MTCMOS)"
+        "To reduce the chip's power consumption during normal operation.",
+        "To minimize the physical area occupied by the logic gates on the die.",
+        "To improve the manufacturing yield by reducing process variations.",
+        "To enhance the ability to detect and locate manufacturing defects and ensure the functional correctness of the fabricated chip.",
+        "To accelerate the simulation speed during the pre-silicon verification phase."
       ],
       "correct": 3
+    },
+    {
+      "question": "In cache memory organization, what does the term 'set-associativity' refer to?",
+      "options": [
+        "A cache where any block from main memory can be placed in any cache line.",
+        "A cache where each main memory block maps to exactly one specific cache line.",
+        "A cache structure where each main memory block can be placed into a limited number of specific cache lines within a defined 'set', combining characteristics of direct-mapped and fully-associative caches.",
+        "The policy that determines which cache line to replace when a cache miss occurs.",
+        "The ability of a cache to store both instructions and data in the same memory space."
+      ],
+      "correct": 2
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "What is the primary reason for using two's complement representation for signed integers in most digital computers?",
-  "In the physical design phase of an Integrated Circuit (IC), what is the main objective of the \"Clock Tree Synthesis\" (CTS) step?",
-  "Which cache replacement policy removes the block that has not been used for the longest period of time from the cache, typically requiring a mechanism to track the 'age' of each block?",
-  "Which pair of logic gates is considered \"universal,\" meaning that any Boolean function can be implemented using only gates from that specific pair?",
-  "Negative Bias Temperature Instability (NBTI) is a critical reliability concern in modern CMOS circuits, primarily affecting PMOS transistors under specific stress conditions. What is its main manifestation?",
   "What does the acronym \"CMOS\" primarily refer to in digital integrated circuit design?",
   "In computer architecture, what is the primary role of a 'decoder' circuit?",
   "In a modern pipelined processor, what is the main purpose of a 'branch predictor' unit?",
@@ -48,5 +43,10 @@
   "In the context of processor microarchitecture, what does 'speculative execution' primarily refer to?",
   "What is the main purpose of 'Logic Equivalence Checking' (LEC) in the ASIC design flow?",
   "In a General-Purpose Graphics Processing Unit (GPGPU) architecture, what does the Single Instruction, Multiple Thread (SIMT) execution model primarily imply?",
-  "When designing a low-power digital IC, which technique involves partitioning the chip into separate power domains and using isolation cells to prevent current leakage and logic contention when specific domains are powered down?"
+  "When designing a low-power digital IC, which technique involves partitioning the chip into separate power domains and using isolation cells to prevent current leakage and logic contention when specific domains are powered down?",
+  "What is the fundamental building block for sequential logic in digital circuits, capable of storing a single bit of information and changing its state based on a clock signal?",
+  "In a computer system employing virtual memory, what is the primary purpose of a 'Translation Lookaside Buffer (TLB)'?",
+  "In modern out-of-order execution processors, what is the primary architectural benefit of employing 'Register Renaming'?",
+  "What is the main objective of 'Design for Testability (DFT)' techniques in the context of ASIC (Application-Specific Integrated Circuit) design?",
+  "In cache memory organization, what does the term 'set-associativity' refer to?"
 ]
