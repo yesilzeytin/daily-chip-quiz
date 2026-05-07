@@ -1,9 +1,4 @@
 [
-  "What does the acronym \"CMOS\" primarily refer to in digital integrated circuit design?",
-  "In computer architecture, what is the primary role of a 'decoder' circuit?",
-  "In a modern pipelined processor, what is the main purpose of a 'branch predictor' unit?",
-  "What is the primary benefit of employing a 'Content-Addressable Memory (CAM)' in systems like a Translation Lookaside Buffer (TLB) or cache tag comparison?",
-  "In processor architectures employing Tomasulo's Algorithm for out-of-order execution, what is the primary function of a 'Reservation Station'?",
   "What is the primary characteristic that distinguishes a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
   "In the digital IC design verification process, what is the primary role of 'Gate-Level Simulation' (GLS) compared to 'Register-Transfer Level (RTL) Simulation'?",
   "For high-performance or low-power chip designs, 'Globally Asynchronous, Locally Synchronous (GALS)' architectures are sometimes employed. What is the primary motivation for using a GALS approach?",
@@ -48,5 +43,10 @@
   "In a computer system employing virtual memory, what is the primary purpose of a 'Translation Lookaside Buffer (TLB)'?",
   "In modern out-of-order execution processors, what is the primary architectural benefit of employing 'Register Renaming'?",
   "What is the main objective of 'Design for Testability (DFT)' techniques in the context of ASIC (Application-Specific Integrated Circuit) design?",
-  "In cache memory organization, what does the term 'set-associativity' refer to?"
+  "In cache memory organization, what does the term 'set-associativity' refer to?",
+  "What is the fundamental logic function performed by a NAND gate?",
+  "In a general-purpose processor, what is the primary purpose of the Program Counter (PC)?",
+  "In the physical design flow of a digital integrated circuit, after initial placement and clock tree synthesis, what is the primary objective of the 'Routing' step?",
+  "In modern superscalar processors, which technique allows multiple independent instructions to be issued and executed in parallel within a single clock cycle by utilizing multiple execution units?",
+  "What is the primary purpose of using 'Assertions' (e.g., SystemVerilog Assertions - SVA) during the verification of a digital IC design?"
 ]
