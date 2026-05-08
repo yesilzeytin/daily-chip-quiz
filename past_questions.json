@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
-  "In the digital IC design verification process, what is the primary role of 'Gate-Level Simulation' (GLS) compared to 'Register-Transfer Level (RTL) Simulation'?",
-  "For high-performance or low-power chip designs, 'Globally Asynchronous, Locally Synchronous (GALS)' architectures are sometimes employed. What is the primary motivation for using a GALS approach?",
-  "In a computer system employing virtual memory with paging, what is the primary purpose of a 'Page Table'?",
-  "In digital logic, what does the term 'fan-out' primarily refer to?",
   "In computer architecture, what is the primary role of a 'cache' memory?",
   "In a typical five-stage RISC pipeline (Fetch, Decode, Execute, Memory, Writeback), which stage is primarily responsible for calculating the effective address of an operand and performing the actual data load or store operation from/to memory?",
   "In digital IC verification, what is the key advantage of using \"Formal Verification\" techniques (e.g., Model Checking, Equivalence Checking) over traditional simulation-based verification for certain design aspects?",
@@ -48,5 +43,10 @@
   "In a general-purpose processor, what is the primary purpose of the Program Counter (PC)?",
   "In the physical design flow of a digital integrated circuit, after initial placement and clock tree synthesis, what is the primary objective of the 'Routing' step?",
   "In modern superscalar processors, which technique allows multiple independent instructions to be issued and executed in parallel within a single clock cycle by utilizing multiple execution units?",
-  "What is the primary purpose of using 'Assertions' (e.g., SystemVerilog Assertions - SVA) during the verification of a digital IC design?"
+  "What is the primary purpose of using 'Assertions' (e.g., SystemVerilog Assertions - SVA) during the verification of a digital IC design?",
+  "What is the fundamental difference in operation between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
+  "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
+  "When designing custom digital logic using a Hardware Description Language (HDL) like Verilog or VHDL, which of the following is an example of 'combinational logic'?",
+  "In advanced processor microarchitectures employing out-of-order execution (like Tomasulo's algorithm), what is the primary function of a 'Reservation Station'?",
+  "In the physical design flow of a digital IC, after synthesis and initial placement, 'Clock Tree Synthesis (CTS)' is a critical step. What is its primary objective?"
 ]
