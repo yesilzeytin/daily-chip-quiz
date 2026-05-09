@@ -1,9 +1,4 @@
 [
-  "In computer architecture, what is the primary role of a 'cache' memory?",
-  "In a typical five-stage RISC pipeline (Fetch, Decode, Execute, Memory, Writeback), which stage is primarily responsible for calculating the effective address of an operand and performing the actual data load or store operation from/to memory?",
-  "In digital IC verification, what is the key advantage of using \"Formal Verification\" techniques (e.g., Model Checking, Equivalence Checking) over traditional simulation-based verification for certain design aspects?",
-  "In modern CMOS digital circuits, which component of power dissipation scales quadratically with supply voltage (VDD) and linearly with operating frequency, primarily due to charging and discharging of parasitic capacitances?",
-  "In a cache memory system, which mapping scheme allows a block of main memory to be placed in *any* available cache line, requiring all cache tags to be checked in parallel during a lookup?",
   "In a typical CPU, which type of memory offers the fastest access time and is directly integrated within the processor core to store temporary data and instructions during execution?",
   "In a pipelined processor, what type of hazard occurs when two or more instructions require the same hardware resource (e.g., a specific functional unit or memory port) at the same time, leading to a conflict?",
   "Following the floorplanning stage in the physical design flow of a digital IC, which critical step involves arranging the standard cells, macros, and I/O pins within the allocated core area to optimize for timing, power, and area, while considering routing congestion?",
@@ -48,5 +43,10 @@
   "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
   "When designing custom digital logic using a Hardware Description Language (HDL) like Verilog or VHDL, which of the following is an example of 'combinational logic'?",
   "In advanced processor microarchitectures employing out-of-order execution (like Tomasulo's algorithm), what is the primary function of a 'Reservation Station'?",
-  "In the physical design flow of a digital IC, after synthesis and initial placement, 'Clock Tree Synthesis (CTS)' is a critical step. What is its primary objective?"
+  "In the physical design flow of a digital IC, after synthesis and initial placement, 'Clock Tree Synthesis (CTS)' is a critical step. What is its primary objective?",
+  "What is the key difference in how a latch and a flip-flop respond to a clock signal?",
+  "In a pipelined processor, which type of hazard occurs when an instruction attempts to read a register that has not yet been written by a preceding instruction in the pipeline?",
+  "In the physical design of an Integrated Circuit (IC), what is the primary purpose of designing a robust \"power delivery network\" (PDN) or \"power grid\"?",
+  "In advanced multi-core System-on-Chip (SoC) designs, what is the primary motivation for employing a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
+  "In Verilog HDL, what is the fundamental difference between a `wire` data type and a `reg` data type?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental difference in operation between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
+      "question": "What is the key difference in how a latch and a flip-flop respond to a clock signal?",
       "options": [
-        "SRAM requires periodic refreshing of its stored data, whereas DRAM does not.",
-        "SRAM stores data using latches or flip-flops, while DRAM stores data using capacitors that require periodic refreshing.",
-        "SRAM is typically slower and consumes more power than DRAM for the same capacity.",
-        "DRAM is primarily used for CPU caches due to its speed, while SRAM is used for main system memory.",
-        "SRAM is non-volatile (retains data without power), while DRAM is volatile."
+        "A latch is level-sensitive, while a flip-flop is edge-triggered.",
+        "A latch stores multiple bits, while a flip-flop stores only one.",
+        "A latch has an asynchronous reset, while a flip-flop has a synchronous reset.",
+        "A latch uses a D input, while a flip-flop uses a JK input.",
+        "A latch is used for combinational logic, while a flip-flop is used for sequential logic."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
+      "question": "In a pipelined processor, which type of hazard occurs when an instruction attempts to read a register that has not yet been written by a preceding instruction in the pipeline?",
       "options": [
-        "To determine the precise target address of a jump instruction before it is fetched.",
-        "To speculate on the outcome of a conditional branch instruction (taken or not taken) and its target address before the branch condition is resolved.",
-        "To manage the allocation of hardware resources, such as execution units, for future instructions.",
-        "To ensure that instructions are always executed in their original program order, even in out-of-order processors.",
-        "To translate virtual addresses used by branch instructions into their corresponding physical memory addresses."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "When designing custom digital logic using a Hardware Description Language (HDL) like Verilog or VHDL, which of the following is an example of 'combinational logic'?",
-      "options": [
-        "A D-flip-flop with an asynchronous reset that stores a bit of data.",
-        "A register that updates its stored value only on the rising edge of a clock signal.",
-        "A finite state machine (FSM) whose next state depends on current state and inputs, defined in an always block triggered by a clock edge.",
-        "An Arithmetic Logic Unit (ALU) that calculates the sum of two inputs, where the output changes immediately when the inputs change.",
-        "A shift register that moves data bits cyclically from one stage to the next with each clock pulse."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In advanced processor microarchitectures employing out-of-order execution (like Tomasulo's algorithm), what is the primary function of a 'Reservation Station'?",
-      "options": [
-        "To buffer instructions that have finished execution but are waiting to be committed to the architectural state.",
-        "To hold the architectural state of registers for quick recovery in case of a mispredicted branch.",
-        "To manage the mapping between architectural registers and a larger pool of physical registers during register renaming.",
-        "To temporarily store operands and the operation type of an instruction until all required operands are available and a functional unit is free for execution.",
-        "To perform the translation of virtual memory addresses for data operands into physical memory addresses."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the physical design flow of a digital IC, after synthesis and initial placement, 'Clock Tree Synthesis (CTS)' is a critical step. What is its primary objective?",
-      "options": [
-        "To define the clock frequency and phase relationships between different synchronous blocks on the chip.",
-        "To identify and fix all clock domain crossing (CDC) issues by inserting appropriate synchronizers.",
-        "To build a robust and balanced clock distribution network that minimizes clock skew and latency across all sequential elements on the chip.",
-        "To reduce the overall power consumption of the clock network by implementing advanced clock gating techniques.",
-        "To ensure that all flip-flops meet their setup and hold time requirements relative to the incoming data signals."
+        "Structural Hazard",
+        "Control Hazard",
+        "Data Hazard (RAW - Read After Write)",
+        "Branch Hazard",
+        "Resource Hazard"
       ],
       "correct": 2
+    },
+    {
+      "question": "In the physical design of an Integrated Circuit (IC), what is the primary purpose of designing a robust \"power delivery network\" (PDN) or \"power grid\"?",
+      "options": [
+        "To minimize the total gate count of the design.",
+        "To ensure all clock signals arrive simultaneously at all sequential elements.",
+        "To provide stable and sufficient power (VDD and VSS) to all transistors across the chip, minimizing voltage drops (IR drop) and noise.",
+        "To optimize the placement of standard cells for minimal wire length.",
+        "To identify and fix all design rule checking (DRC) violations."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In advanced multi-core System-on-Chip (SoC) designs, what is the primary motivation for employing a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
+      "options": [
+        "To simplify the design verification process by reducing the number of interfaces.",
+        "To achieve lower power consumption by reducing overall switching activity.",
+        "To provide higher scalability, bandwidth, and lower latency communication for a large number of cores and intellectual property (IP) blocks.",
+        "To enable faster gate-level simulation for complex designs.",
+        "To eliminate the need for memory management units (MMUs) in each core."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In Verilog HDL, what is the fundamental difference between a `wire` data type and a `reg` data type?",
+      "options": [
+        "`wire` is used for storing combinational logic outputs, while `reg` is used for sequential logic outputs only.",
+        "`wire` represents physical connections and cannot store a value, while `reg` can store a value and is used for procedural assignments.",
+        "`wire` can only hold 0 or 1, while `reg` can hold X or Z states.",
+        "`wire` is synthesizable, but `reg` is only used for simulation.",
+        "`wire` is a 1-bit signal, while `reg` can be multi-bit."
+      ],
+      "correct": 1
     }
   ]
 }
