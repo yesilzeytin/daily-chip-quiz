@@ -1,9 +1,4 @@
 [
-  "In a typical CPU, which type of memory offers the fastest access time and is directly integrated within the processor core to store temporary data and instructions during execution?",
-  "In a pipelined processor, what type of hazard occurs when two or more instructions require the same hardware resource (e.g., a specific functional unit or memory port) at the same time, leading to a conflict?",
-  "Following the floorplanning stage in the physical design flow of a digital IC, which critical step involves arranging the standard cells, macros, and I/O pins within the allocated core area to optimize for timing, power, and area, while considering routing congestion?",
-  "In an out-of-order execution processor, which architectural component is primarily responsible for holding instructions after execution but before they are committed to the architectural state, ensuring that instructions are retired in program order and enabling precise exceptions?",
-  "In the digital IC design verification process, after the physical layout is completed and parasitic extraction has been performed, what is the primary purpose of running a \"post-layout simulation\" using the extracted netlist?",
   "What is the primary role of an Instruction Set Architecture (ISA) in computer systems?",
   "In digital IC design, what is the primary purpose of 'Clock Gating'?",
   "In the context of chip design verification, what does 'functional coverage' primarily aim to measure?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, which type of hazard occurs when an instruction attempts to read a register that has not yet been written by a preceding instruction in the pipeline?",
   "In the physical design of an Integrated Circuit (IC), what is the primary purpose of designing a robust \"power delivery network\" (PDN) or \"power grid\"?",
   "In advanced multi-core System-on-Chip (SoC) designs, what is the primary motivation for employing a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
-  "In Verilog HDL, what is the fundamental difference between a `wire` data type and a `reg` data type?"
+  "In Verilog HDL, what is the fundamental difference between a `wire` data type and a `reg` data type?",
+  "What is the primary advantage of CMOS (Complementary Metal-Oxide-Semiconductor) technology over older logic families like TTL (Transistor-Transistor Logic) or NMOS (N-type Metal-Oxide-Semiconductor), particularly regarding power consumption?",
+  "What is the fundamental difference in the post-manufacturing programmability of an FPGA (Field-Programmable Gate Array) compared to an ASIC (Application-Specific Integrated Circuit)?",
+  "In a computer system utilizing virtual memory, when a CPU generates a virtual address, and a Translation Lookaside Buffer (TLB) miss occurs, what is the correct conceptual sequence of steps involved in translating it to a physical address?",
+  "After initial logic synthesis, if a digital IC design fails to meet its timing requirements (e.g., maximum clock frequency or setup/hold times), which technique is often employed to shorten critical paths by moving sequential elements (like flip-flops) across combinational logic, potentially at the cost of increased area or power?",
+  "In the context of digital IC verification, what is the primary strength and defining characteristic of 'Formal Verification' methodologies (e.g., Model Checking or Equivalence Checking) compared to traditional simulation-based verification?"
 ]

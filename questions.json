@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the key difference in how a latch and a flip-flop respond to a clock signal?",
+      "question": "What is the primary advantage of CMOS (Complementary Metal-Oxide-Semiconductor) technology over older logic families like TTL (Transistor-Transistor Logic) or NMOS (N-type Metal-Oxide-Semiconductor), particularly regarding power consumption?",
       "options": [
-        "A latch is level-sensitive, while a flip-flop is edge-triggered.",
-        "A latch stores multiple bits, while a flip-flop stores only one.",
-        "A latch has an asynchronous reset, while a flip-flop has a synchronous reset.",
-        "A latch uses a D input, while a flip-flop uses a JK input.",
-        "A latch is used for combinational logic, while a flip-flop is used for sequential logic."
+        "Significantly lower static power dissipation.",
+        "Higher maximum operating frequency at the same voltage.",
+        "Simpler manufacturing process requiring fewer mask layers.",
+        "Increased current drive capability for larger loads.",
+        "Greater tolerance to voltage fluctuations and noise."
       ],
       "correct": 0
     },
     {
-      "question": "In a pipelined processor, which type of hazard occurs when an instruction attempts to read a register that has not yet been written by a preceding instruction in the pipeline?",
+      "question": "What is the fundamental difference in the post-manufacturing programmability of an FPGA (Field-Programmable Gate Array) compared to an ASIC (Application-Specific Integrated Circuit)?",
       "options": [
-        "Structural Hazard",
-        "Control Hazard",
-        "Data Hazard (RAW - Read After Write)",
-        "Branch Hazard",
-        "Resource Hazard"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical design of an Integrated Circuit (IC), what is the primary purpose of designing a robust \"power delivery network\" (PDN) or \"power grid\"?",
-      "options": [
-        "To minimize the total gate count of the design.",
-        "To ensure all clock signals arrive simultaneously at all sequential elements.",
-        "To provide stable and sufficient power (VDD and VSS) to all transistors across the chip, minimizing voltage drops (IR drop) and noise.",
-        "To optimize the placement of standard cells for minimal wire length.",
-        "To identify and fix all design rule checking (DRC) violations."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In advanced multi-core System-on-Chip (SoC) designs, what is the primary motivation for employing a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
-      "options": [
-        "To simplify the design verification process by reducing the number of interfaces.",
-        "To achieve lower power consumption by reducing overall switching activity.",
-        "To provide higher scalability, bandwidth, and lower latency communication for a large number of cores and intellectual property (IP) blocks.",
-        "To enable faster gate-level simulation for complex designs.",
-        "To eliminate the need for memory management units (MMUs) in each core."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In Verilog HDL, what is the fundamental difference between a `wire` data type and a `reg` data type?",
-      "options": [
-        "`wire` is used for storing combinational logic outputs, while `reg` is used for sequential logic outputs only.",
-        "`wire` represents physical connections and cannot store a value, while `reg` can store a value and is used for procedural assignments.",
-        "`wire` can only hold 0 or 1, while `reg` can hold X or Z states.",
-        "`wire` is synthesizable, but `reg` is only used for simulation.",
-        "`wire` is a 1-bit signal, while `reg` can be multi-bit."
+        "ASICs are programmed after manufacturing via custom mask sets, while FPGAs are fixed at the factory.",
+        "FPGAs can be reconfigured multiple times by the user after manufacturing, whereas ASICs implement a fixed function.",
+        "Both FPGAs and ASICs are entirely fixed after manufacturing, but FPGAs utilize a different type of memory.",
+        "ASICs are designed for general-purpose computing, while FPGAs are always used for specialized, non-programmable tasks.",
+        "FPGAs require a software compiler to define their logic, but ASICs are programmed directly in hardware."
       ],
       "correct": 1
+    },
+    {
+      "question": "In a computer system utilizing virtual memory, when a CPU generates a virtual address, and a Translation Lookaside Buffer (TLB) miss occurs, what is the correct conceptual sequence of steps involved in translating it to a physical address?",
+      "options": [
+        "Initiate a page fault handler -> Load data from disk into a physical page -> Update TLB.",
+        "Access the main memory directly with the virtual address -> Check for a cache hit -> Convert to physical address.",
+        "Search the page table located in main memory -> Update the TLB with the new mapping -> Access physical memory.",
+        "Generate an interrupt to the operating system -> OS recalculates the physical address -> Resume instruction execution.",
+        "Invalidate the entire TLB cache -> Reload all entries from the page table -> Retry the memory access."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "After initial logic synthesis, if a digital IC design fails to meet its timing requirements (e.g., maximum clock frequency or setup/hold times), which technique is often employed to shorten critical paths by moving sequential elements (like flip-flops) across combinational logic, potentially at the cost of increased area or power?",
+      "options": [
+        "Clock Gating",
+        "Scan Chain Insertion",
+        "Register Retiming",
+        "Power Gating",
+        "Design Rule Checking (DRC)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of digital IC verification, what is the primary strength and defining characteristic of 'Formal Verification' methodologies (e.g., Model Checking or Equivalence Checking) compared to traditional simulation-based verification?",
+      "options": [
+        "It can verify analog and mixed-signal designs more efficiently and accurately than simulation.",
+        "It automatically generates manufacturing test vectors with high fault coverage for all types of defects.",
+        "It provides a mathematical proof of correctness for all possible input sequences and internal states, guaranteeing the absence of certain bugs.",
+        "It significantly reduces the runtime for large testbenches by executing them on specialized hardware accelerators.",
+        "It primarily focuses on checking the physical layout for manufacturing rule violations and parasitic effects."
+      ],
+      "correct": 2
     }
   ]
 }
