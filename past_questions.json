@@ -1,9 +1,4 @@
 [
-  "In the physical verification phase of Integrated Circuit (IC) design, what is the primary purpose of Design Rule Checking (DRC)?",
-  "Which computer architecture concept describes a system where instructions and data are stored in separate memory spaces, allowing simultaneous access to both?",
-  "When transferring data between two asynchronous clock domains in a digital IC, which circuit type is primarily used to mitigate metastability issues and ensure reliable data transfer?",
-  "In Design-for-Testability (DFT) methodologies for digital ASICs, what is the primary purpose of converting sequential elements (flip-flops) into 'scan flip-flops' and connecting them to form scan chains?",
-  "In a multi-core processor system, what does a 'Release Consistency' memory model primarily allow compared to a 'Sequential Consistency' model?",
   "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
   "In a computer system, what is the primary role of the Memory Management Unit (MMU)?",
   "In the typical ASIC design flow, which step is primarily responsible for transforming the Register-Transfer Level (RTL) design (e.g., Verilog or VHDL code) into an optimized gate-level netlist using a standard cell library?",
@@ -48,5 +43,10 @@
   "In the context of timing analysis for digital ICs, what does 'slack' primarily represent?",
   "In a pipelined processor, the 'data forwarding' (or 'bypassing') technique is primarily employed to mitigate which type of hazard?",
   "In the context of digital IC verification, what is a key advantage that 'random constrained verification' offers over traditional directed testing?",
-  "What is the primary purpose of 'lithography' in the semiconductor manufacturing process?"
+  "What is the primary purpose of 'lithography' in the semiconductor manufacturing process?",
+  "What is the primary function of an inverter gate in digital circuits?",
+  "In computer architecture, what is the primary distinction between a 'write-through' and a 'write-back' cache policy?",
+  "During the logic synthesis process in digital IC design, what is the primary role of a 'standard cell library'?",
+  "What is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs at advanced semiconductor nodes (e.g., 16nm and below)?",
+  "While simulation-based verification checks design functionality for specific test cases, what is the *primary limitation* of formal verification methods, such as model checking, in practical ASIC design flows?"
 ]

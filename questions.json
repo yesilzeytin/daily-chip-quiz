@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental material used as a semiconductor in the vast majority of modern integrated circuits?",
+      "question": "What is the primary function of an inverter gate in digital circuits?",
       "options": [
-        "Copper",
-        "Aluminum",
-        "Gold",
-        "Silicon",
-        "Germanium"
+        "Inverting a logic signal",
+        "Amplifying an analog signal",
+        "Storing a single bit of information",
+        "Multiplexing multiple input signals",
+        "Performing arithmetic addition"
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "In the context of timing analysis for digital ICs, what does 'slack' primarily represent?",
+      "question": "In computer architecture, what is the primary distinction between a 'write-through' and a 'write-back' cache policy?",
       "options": [
-        "The total power consumed by a logic gate in a given clock cycle.",
-        "The delay introduced by interconnect wires between two logic gates.",
-        "The difference between a signal's required arrival time and its actual arrival time at a sequential element.",
-        "The maximum frequency at which a synchronous circuit can operate reliably.",
-        "The amount of unused silicon area on a chip after physical layout."
+        "Write-through updates main memory immediately on writes, while write-back delays updates until the cache line is evicted.",
+        "Write-back updates main memory immediately on writes, while write-through delays updates until the cache line is evicted.",
+        "Write-through is used exclusively for instruction caches, whereas write-back is for data caches.",
+        "Write-back typically uses less power than write-through policies.",
+        "Write-through always results in higher cache hit rates than write-back."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "During the logic synthesis process in digital IC design, what is the primary role of a 'standard cell library'?",
+      "options": [
+        "To define the physical layout of the entire chip, including block placement and routing.",
+        "To provide pre-characterized, basic logic gates (e.g., NAND, NOR, flip-flops) with known timing, power, and area characteristics.",
+        "To perform post-layout parasitic extraction and signal integrity analysis.",
+        "To simulate the Register-Transfer Level (RTL) behavior of the design.",
+        "To verify the functional equivalence between the RTL and gate-level netlists."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs at advanced semiconductor nodes (e.g., 16nm and below)?",
+      "options": [
+        "Significantly reduced manufacturing cost due to simpler fabrication steps.",
+        "Complete elimination of static power consumption, leading to zero leakage.",
+        "Improved gate control over the channel, resulting in better electrostatic integrity, reduced leakage currents, and enhanced switching performance.",
+        "The ability to dynamically reconfigure the transistor's function after manufacturing.",
+        "A higher breakdown voltage, making them ideal for high-power applications."
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, the 'data forwarding' (or 'bypassing') technique is primarily employed to mitigate which type of hazard?",
+      "question": "While simulation-based verification checks design functionality for specific test cases, what is the *primary limitation* of formal verification methods, such as model checking, in practical ASIC design flows?",
       "options": [
-        "Structural hazards, by ensuring no two instructions require the same hardware resource simultaneously.",
-        "Control hazards, by accurately predicting the outcome of conditional branches.",
-        "Instruction fetch stalls, by pre-fetching instructions into an instruction cache.",
-        "Data hazards, by providing results directly from pipeline registers to consuming instructions.",
-        "Memory access conflicts, by using a separate data cache for loads and stores."
+        "It can only verify combinational logic and is incapable of handling sequential circuits.",
+        "It typically requires extremely long run times and high computational resources even for small designs, making it impractical for complex, industrial-scale designs.",
+        "It cannot detect deadlocks or livelocks in multi-threaded processor architectures.",
+        "It is fundamentally incapable of proving the absence of bugs, only their presence.",
+        "It generates test vectors that are not reusable for silicon manufacturing tests."
       ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of digital IC verification, what is a key advantage that 'random constrained verification' offers over traditional directed testing?",
-      "options": [
-        "It eliminates the need for any human-written test cases, fully automating verification.",
-        "It provides a formal mathematical proof of design correctness across all possible states.",
-        "It focuses solely on verifying the physical layout against design rules, not functionality.",
-        "It significantly increases the likelihood of uncovering corner-case bugs and unexpected interactions by exploring a wider state space.",
-        "It reduces the overall simulation runtime by limiting the number of test vectors generated."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is the primary purpose of 'lithography' in the semiconductor manufacturing process?",
-      "options": [
-        "To deposit thin layers of conductive or insulating materials onto the wafer surface.",
-        "To electrically test the functionality and performance of individual dies.",
-        "To chemically etch away selected portions of material from the wafer.",
-        "To implant dopant atoms into the silicon to create N-type or P-type regions.",
-        "To transfer geometric patterns from a photomask onto the photoresist layer on the wafer."
-      ],
-      "correct": 4
+      "correct": 1
     }
   ]
 }
