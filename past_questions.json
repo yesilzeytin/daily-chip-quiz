@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital logic circuits?",
-  "In a computer system, what is the primary role of the Memory Management Unit (MMU)?",
-  "In the typical ASIC design flow, which step is primarily responsible for transforming the Register-Transfer Level (RTL) design (e.g., Verilog or VHDL code) into an optimized gate-level netlist using a standard cell library?",
-  "In a multi-core processor system, the MESI protocol is a widely used cache coherence protocol. What do the 'M' and 'E' states primarily signify for a cache line in the MESI protocol?",
-  "In synchronous digital circuits, what is the primary purpose of ensuring that the 'setup time' requirement is met for a flip-flop?",
   "In computer architecture, Flynn's Taxonomy classifies computer systems based on the number of instruction streams and data streams. Which category describes a single processor executing a single instruction stream on multiple data streams simultaneously?",
   "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
   "During the initial floorplanning phase of an ASIC design, what is a crucial consideration for macro placement and block partitioning, especially with respect to global timing closure?",
@@ -48,5 +43,10 @@
   "In computer architecture, what is the primary distinction between a 'write-through' and a 'write-back' cache policy?",
   "During the logic synthesis process in digital IC design, what is the primary role of a 'standard cell library'?",
   "What is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs at advanced semiconductor nodes (e.g., 16nm and below)?",
-  "While simulation-based verification checks design functionality for specific test cases, what is the *primary limitation* of formal verification methods, such as model checking, in practical ASIC design flows?"
+  "While simulation-based verification checks design functionality for specific test cases, what is the *primary limitation* of formal verification methods, such as model checking, in practical ASIC design flows?",
+  "In the context of low-power digital IC design, which technique is primarily used to reduce dynamic power consumption by disabling the clock signal to idle functional units or registers?",
+  "Which of the following best describes a fundamental design principle of a Reduced Instruction Set Computer (RISC) architecture?",
+  "In the context of System-on-Chip (SoC) design and verification, what is the primary advantage offered by Transaction-Level Modeling (TLM)?",
+  "Which of the following represents the primary user-configurable logic element that forms the core programmable fabric of a Field-Programmable Gate Array (FPGA)?",
+  "In the context of computer architecture and memory hierarchy, what is the primary objective of 'cache prefetching'?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of an inverter gate in digital circuits?",
+      "question": "In the context of low-power digital IC design, which technique is primarily used to reduce dynamic power consumption by disabling the clock signal to idle functional units or registers?",
       "options": [
-        "Inverting a logic signal",
-        "Amplifying an analog signal",
-        "Storing a single bit of information",
-        "Multiplexing multiple input signals",
-        "Performing arithmetic addition"
+        "Clock Gating",
+        "Power Gating",
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Fine-grained Memory Access",
+        "Operand Isolation"
       ],
       "correct": 0
     },
     {
-      "question": "In computer architecture, what is the primary distinction between a 'write-through' and a 'write-back' cache policy?",
+      "question": "Which of the following best describes a fundamental design principle of a Reduced Instruction Set Computer (RISC) architecture?",
       "options": [
-        "Write-through updates main memory immediately on writes, while write-back delays updates until the cache line is evicted.",
-        "Write-back updates main memory immediately on writes, while write-through delays updates until the cache line is evicted.",
-        "Write-through is used exclusively for instruction caches, whereas write-back is for data caches.",
-        "Write-back typically uses less power than write-through policies.",
-        "Write-through always results in higher cache hit rates than write-back."
+        "Instructions are typically microcoded and of variable length.",
+        "Most operations can directly manipulate operands in memory.",
+        "A large and complex set of specialized instructions is provided.",
+        "It employs a load/store architecture with fixed-length instructions.",
+        "It prioritizes maximizing instruction density over pipeline efficiency."
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "During the logic synthesis process in digital IC design, what is the primary role of a 'standard cell library'?",
+      "question": "In the context of System-on-Chip (SoC) design and verification, what is the primary advantage offered by Transaction-Level Modeling (TLM)?",
       "options": [
-        "To define the physical layout of the entire chip, including block placement and routing.",
-        "To provide pre-characterized, basic logic gates (e.g., NAND, NOR, flip-flops) with known timing, power, and area characteristics.",
-        "To perform post-layout parasitic extraction and signal integrity analysis.",
-        "To simulate the Register-Transfer Level (RTL) behavior of the design.",
-        "To verify the functional equivalence between the RTL and gate-level netlists."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs at advanced semiconductor nodes (e.g., 16nm and below)?",
-      "options": [
-        "Significantly reduced manufacturing cost due to simpler fabrication steps.",
-        "Complete elimination of static power consumption, leading to zero leakage.",
-        "Improved gate control over the channel, resulting in better electrostatic integrity, reduced leakage currents, and enhanced switching performance.",
-        "The ability to dynamically reconfigure the transistor's function after manufacturing.",
-        "A higher breakdown voltage, making them ideal for high-power applications."
+        "It enables precise cycle-accurate simulation for gate-level netlists.",
+        "It simplifies the process of creating physical floorplans and power grids.",
+        "It allows for early architectural exploration and fast simulation by abstracting away low-level timing and communication details.",
+        "It is primarily used for formal verification of security protocols at the instruction set level.",
+        "It helps in determining optimal placement and routing of standard cells."
       ],
       "correct": 2
     },
     {
-      "question": "While simulation-based verification checks design functionality for specific test cases, what is the *primary limitation* of formal verification methods, such as model checking, in practical ASIC design flows?",
+      "question": "Which of the following represents the primary user-configurable logic element that forms the core programmable fabric of a Field-Programmable Gate Array (FPGA)?",
       "options": [
-        "It can only verify combinational logic and is incapable of handling sequential circuits.",
-        "It typically requires extremely long run times and high computational resources even for small designs, making it impractical for complex, industrial-scale designs.",
-        "It cannot detect deadlocks or livelocks in multi-threaded processor architectures.",
-        "It is fundamentally incapable of proving the absence of bugs, only their presence.",
-        "It generates test vectors that are not reusable for silicon manufacturing tests."
+        "Application-Specific Integrated Circuits (ASICs)",
+        "Microprocessors (CPUs)",
+        "Look-Up Tables (LUTs)",
+        "Digital Signal Processors (DSPs)",
+        "Hardwired logic gates (AND, OR, NOT)"
       ],
-      "correct": 1
+      "correct": 2
+    },
+    {
+      "question": "In the context of computer architecture and memory hierarchy, what is the primary objective of 'cache prefetching'?",
+      "options": [
+        "To guarantee that all cache lines are kept coherent across multiple CPU cores.",
+        "To improve system security by encrypting data before it enters the cache.",
+        "To proactively fetch data into the cache that is anticipated to be used soon, thereby reducing future memory access latency.",
+        "To implement a least-recently-used (LRU) algorithm for cache line eviction.",
+        "To compress data stored in the cache to increase effective capacity."
+      ],
+      "correct": 2
     }
   ]
 }
