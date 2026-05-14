@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In the context of low-power digital IC design, which technique is primarily used to reduce dynamic power consumption by disabling the clock signal to idle functional units or registers?",
+      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
       "options": [
-        "Clock Gating",
-        "Power Gating",
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Fine-grained Memory Access",
-        "Operand Isolation"
+        "Performing arithmetic operations and bitwise logic operations on integer data.",
+        "Storing program instructions for sequential execution.",
+        "Managing memory access and virtual-to-physical address translation.",
+        "Controlling the flow of instructions and data within the processor.",
+        "Handling input/output operations with peripheral devices."
       ],
       "correct": 0
     },
     {
-      "question": "Which of the following best describes a fundamental design principle of a Reduced Instruction Set Computer (RISC) architecture?",
+      "question": "After the logic synthesis phase in a typical digital IC design flow, what is the primary output that describes the structural implementation of the design using standard cells and their interconnections?",
       "options": [
-        "Instructions are typically microcoded and of variable length.",
-        "Most operations can directly manipulate operands in memory.",
-        "A large and complex set of specialized instructions is provided.",
-        "It employs a load/store architecture with fixed-length instructions.",
-        "It prioritizes maximizing instruction density over pipeline efficiency."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of System-on-Chip (SoC) design and verification, what is the primary advantage offered by Transaction-Level Modeling (TLM)?",
-      "options": [
-        "It enables precise cycle-accurate simulation for gate-level netlists.",
-        "It simplifies the process of creating physical floorplans and power grids.",
-        "It allows for early architectural exploration and fast simulation by abstracting away low-level timing and communication details.",
-        "It is primarily used for formal verification of security protocols at the instruction set level.",
-        "It helps in determining optimal placement and routing of standard cells."
+        "The original Register-Transfer Level (RTL) Hardware Description Language (HDL) code.",
+        "A GDSII file representing the physical layout mask data.",
+        "A netlist (e.g., Verilog netlist, EDIF) detailing instantiated gates and their connectivity.",
+        "A comprehensive timing report (e.g., in Standard Delay Format - SDF).",
+        "A testbench for functional verification of the design."
       ],
       "correct": 2
     },
     {
-      "question": "Which of the following represents the primary user-configurable logic element that forms the core programmable fabric of a Field-Programmable Gate Array (FPGA)?",
+      "question": "In a multi-core processor, what is the fundamental purpose of a cache coherence protocol (e.g., MESI, MOESI)?",
       "options": [
-        "Application-Specific Integrated Circuits (ASICs)",
-        "Microprocessors (CPUs)",
-        "Look-Up Tables (LUTs)",
-        "Digital Signal Processors (DSPs)",
-        "Hardwired logic gates (AND, OR, NOT)"
+        "To ensure that all processor caches maintain a consistent view of shared memory blocks when multiple cores are accessing the same data.",
+        "To accelerate the translation of virtual addresses to physical addresses through a dedicated hardware lookup.",
+        "To predict future memory accesses and prefetch data into the cache hierarchy to reduce latency.",
+        "To dynamically assign memory blocks to different cache levels (L1, L2, L3) based on access patterns.",
+        "To prevent cache-related deadlocks during inter-processor communication."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In the context of computer architecture and memory hierarchy, what is the primary objective of 'cache prefetching'?",
+      "question": "In the context of Static Timing Analysis (STA) for a digital integrated circuit, what does the term 'critical path' primarily refer to?",
       "options": [
-        "To guarantee that all cache lines are kept coherent across multiple CPU cores.",
-        "To improve system security by encrypting data before it enters the cache.",
-        "To proactively fetch data into the cache that is anticipated to be used soon, thereby reducing future memory access latency.",
-        "To implement a least-recently-used (LRU) algorithm for cache line eviction.",
-        "To compress data stored in the cache to increase effective capacity."
+        "The sequence of logic gates and interconnects from an input (or launch flop) to an output (or capture flop) that has the longest propagation delay, thus determining the maximum achievable clock frequency of the circuit.",
+        "The path within the chip's power delivery network that experiences the highest current density, potentially leading to electromigration issues.",
+        "A specific data bus pathway identified as essential for high-bandwidth communication between major Intellectual Property (IP) blocks.",
+        "Any path that traverses only combinational logic without involving sequential elements.",
+        "The shortest possible path through the combinational logic from one flip-flop's output to another flip-flop's input."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which low-power design technique allows a processor to dynamically adjust its operating voltage and frequency to match the computational demands of the current workload, thereby conserving power during periods of low activity?",
+      "options": [
+        "Clock Gating",
+        "Power Gating",
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Multi-Threshold CMOS (MTCMOS)",
+        "Body Biasing"
       ],
       "correct": 2
     }

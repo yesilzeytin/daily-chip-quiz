@@ -1,9 +1,4 @@
 [
-  "In computer architecture, Flynn's Taxonomy classifies computer systems based on the number of instruction streams and data streams. Which category describes a single processor executing a single instruction stream on multiple data streams simultaneously?",
-  "In the digital IC design flow, what is the primary objective of Static Timing Analysis (STA)?",
-  "During the initial floorplanning phase of an ASIC design, what is a crucial consideration for macro placement and block partitioning, especially with respect to global timing closure?",
-  "In Verilog HDL, what is the fundamental difference in behavior between a blocking assignment (`=`) and a non-blocking assignment (`<=`) when used in a `always @(posedge clk)` block?",
-  "As semiconductor manufacturing processes scale down to advanced nodes (e.g., 7nm, 5nm), transistor characteristics and interconnect properties exhibit increasing variability across a die and wafer. What is a common design technique employed to mitigate the impact of such 'process variations' on circuit timing and performance?",
   "What is the primary function of a Look-Up Table (LUT) in a Field-Programmable Gate Array (FPGA)?",
   "In the context of processor microarchitecture, what does 'speculative execution' primarily refer to?",
   "What is the main purpose of 'Logic Equivalence Checking' (LEC) in the ASIC design flow?",
@@ -48,5 +43,10 @@
   "Which of the following best describes a fundamental design principle of a Reduced Instruction Set Computer (RISC) architecture?",
   "In the context of System-on-Chip (SoC) design and verification, what is the primary advantage offered by Transaction-Level Modeling (TLM)?",
   "Which of the following represents the primary user-configurable logic element that forms the core programmable fabric of a Field-Programmable Gate Array (FPGA)?",
-  "In the context of computer architecture and memory hierarchy, what is the primary objective of 'cache prefetching'?"
+  "In the context of computer architecture and memory hierarchy, what is the primary objective of 'cache prefetching'?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
+  "After the logic synthesis phase in a typical digital IC design flow, what is the primary output that describes the structural implementation of the design using standard cells and their interconnections?",
+  "In a multi-core processor, what is the fundamental purpose of a cache coherence protocol (e.g., MESI, MOESI)?",
+  "In the context of Static Timing Analysis (STA) for a digital integrated circuit, what does the term 'critical path' primarily refer to?",
+  "Which low-power design technique allows a processor to dynamically adjust its operating voltage and frequency to match the computational demands of the current workload, thereby conserving power during periods of low activity?"
 ]
