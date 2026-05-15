@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
+      "question": "In digital logic design, what is the primary function of a multiplexer (MUX)?",
       "options": [
-        "Performing arithmetic operations and bitwise logic operations on integer data.",
-        "Storing program instructions for sequential execution.",
-        "Managing memory access and virtual-to-physical address translation.",
-        "Controlling the flow of instructions and data within the processor.",
-        "Handling input/output operations with peripheral devices."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "After the logic synthesis phase in a typical digital IC design flow, what is the primary output that describes the structural implementation of the design using standard cells and their interconnections?",
-      "options": [
-        "The original Register-Transfer Level (RTL) Hardware Description Language (HDL) code.",
-        "A GDSII file representing the physical layout mask data.",
-        "A netlist (e.g., Verilog netlist, EDIF) detailing instantiated gates and their connectivity.",
-        "A comprehensive timing report (e.g., in Standard Delay Format - SDF).",
-        "A testbench for functional verification of the design."
+        "To store a single bit of data",
+        "To amplify an input signal",
+        "To select one of many input signals and route it to a single output",
+        "To combine multiple input signals into a single output",
+        "To generate a clock signal"
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-core processor, what is the fundamental purpose of a cache coherence protocol (e.g., MESI, MOESI)?",
+      "question": "In cache memory management, what is the primary role of a 'dirty bit' associated with a cache line?",
       "options": [
-        "To ensure that all processor caches maintain a consistent view of shared memory blocks when multiple cores are accessing the same data.",
-        "To accelerate the translation of virtual addresses to physical addresses through a dedicated hardware lookup.",
-        "To predict future memory accesses and prefetch data into the cache hierarchy to reduce latency.",
-        "To dynamically assign memory blocks to different cache levels (L1, L2, L3) based on access patterns.",
-        "To prevent cache-related deadlocks during inter-processor communication."
+        "Specifies the cache line's access permissions.",
+        "Denotes the priority of the cache line for eviction.",
+        "Signifies that the cache line contains an error.",
+        "Indicates if the data in the cache line has been modified but not yet written back to main memory.",
+        "Marks the cache line as invalid and ready for replacement."
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In the context of Static Timing Analysis (STA) for a digital integrated circuit, what does the term 'critical path' primarily refer to?",
+      "question": "In the context of Design for Testability (DFT) for digital integrated circuits, what is the primary function of 'scan chains'?",
       "options": [
-        "The sequence of logic gates and interconnects from an input (or launch flop) to an output (or capture flop) that has the longest propagation delay, thus determining the maximum achievable clock frequency of the circuit.",
-        "The path within the chip's power delivery network that experiences the highest current density, potentially leading to electromigration issues.",
-        "A specific data bus pathway identified as essential for high-bandwidth communication between major Intellectual Property (IP) blocks.",
-        "Any path that traverses only combinational logic without involving sequential elements.",
-        "The shortest possible path through the combinational logic from one flip-flop's output to another flip-flop's input."
+        "To accelerate the logic synthesis process by optimizing critical paths.",
+        "To convert all sequential elements into a shift register during test mode for easy observation and control.",
+        "To dynamically adjust the clock frequency based on system load.",
+        "To verify the functional correctness of the design under normal operating conditions.",
+        "To reduce static power consumption during standby mode."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "Which low-power design technique allows a processor to dynamically adjust its operating voltage and frequency to match the computational demands of the current workload, thereby conserving power during periods of low activity?",
+      "question": "In multi-core processor architectures, what is the primary purpose and characteristic of an 'atomic operation'?",
       "options": [
-        "Clock Gating",
-        "Power Gating",
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Multi-Threshold CMOS (MTCMOS)",
-        "Body Biasing"
+        "An operation that accesses data directly from main memory, bypassing all cache levels.",
+        "An operation primarily used for debugging purposes to halt processor execution.",
+        "An operation that uses specialized hardware to perform floating-point calculations at high speed.",
+        "An operation that is guaranteed to complete entirely without interruption by any other process or thread, or not at all.",
+        "An operation that allows multiple instructions to execute simultaneously on a single core."
       ],
-      "correct": 2
+      "correct": 3
+    },
+    {
+      "question": "In digital IC design flow, what does 'RTL' stand for, and what kind of design description does it primarily represent?",
+      "options": [
+        "Routing and Timing Layout, a physical design stage focused on interconnects.",
+        "Real-Time Logic, indicating synchronous operations with strict timing constraints.",
+        "Reduced Transaction Language, an abstract modeling language for system-level simulation.",
+        "Recursive Test Logic, a methodology for automated test pattern generation.",
+        "Register-Transfer Level, describing the circuit's behavior in terms of data flow between registers and combinational logic."
+      ],
+      "correct": 4
     }
   ]
 }

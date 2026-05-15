@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a Look-Up Table (LUT) in a Field-Programmable Gate Array (FPGA)?",
-  "In the context of processor microarchitecture, what does 'speculative execution' primarily refer to?",
-  "What is the main purpose of 'Logic Equivalence Checking' (LEC) in the ASIC design flow?",
-  "In a General-Purpose Graphics Processing Unit (GPGPU) architecture, what does the Single Instruction, Multiple Thread (SIMT) execution model primarily imply?",
-  "When designing a low-power digital IC, which technique involves partitioning the chip into separate power domains and using isolation cells to prevent current leakage and logic contention when specific domains are powered down?",
   "What is the fundamental building block for sequential logic in digital circuits, capable of storing a single bit of information and changing its state based on a clock signal?",
   "In a computer system employing virtual memory, what is the primary purpose of a 'Translation Lookaside Buffer (TLB)'?",
   "In modern out-of-order execution processors, what is the primary architectural benefit of employing 'Register Renaming'?",
@@ -48,5 +43,10 @@
   "After the logic synthesis phase in a typical digital IC design flow, what is the primary output that describes the structural implementation of the design using standard cells and their interconnections?",
   "In a multi-core processor, what is the fundamental purpose of a cache coherence protocol (e.g., MESI, MOESI)?",
   "In the context of Static Timing Analysis (STA) for a digital integrated circuit, what does the term 'critical path' primarily refer to?",
-  "Which low-power design technique allows a processor to dynamically adjust its operating voltage and frequency to match the computational demands of the current workload, thereby conserving power during periods of low activity?"
+  "Which low-power design technique allows a processor to dynamically adjust its operating voltage and frequency to match the computational demands of the current workload, thereby conserving power during periods of low activity?",
+  "In digital logic design, what is the primary function of a multiplexer (MUX)?",
+  "In cache memory management, what is the primary role of a 'dirty bit' associated with a cache line?",
+  "In the context of Design for Testability (DFT) for digital integrated circuits, what is the primary function of 'scan chains'?",
+  "In multi-core processor architectures, what is the primary purpose and characteristic of an 'atomic operation'?",
+  "In digital IC design flow, what does 'RTL' stand for, and what kind of design description does it primarily represent?"
 ]
