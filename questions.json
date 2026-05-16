@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital logic design, what is the primary function of a multiplexer (MUX)?",
+      "question": "In computer architecture, what primarily defines the interface between software and hardware, specifying the set of instructions a processor can execute and the state visible to software?",
       "options": [
-        "To store a single bit of data",
-        "To amplify an input signal",
-        "To select one of many input signals and route it to a single output",
-        "To combine multiple input signals into a single output",
-        "To generate a clock signal"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In cache memory management, what is the primary role of a 'dirty bit' associated with a cache line?",
-      "options": [
-        "Specifies the cache line's access permissions.",
-        "Denotes the priority of the cache line for eviction.",
-        "Signifies that the cache line contains an error.",
-        "Indicates if the data in the cache line has been modified but not yet written back to main memory.",
-        "Marks the cache line as invalid and ready for replacement."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of Design for Testability (DFT) for digital integrated circuits, what is the primary function of 'scan chains'?",
-      "options": [
-        "To accelerate the logic synthesis process by optimizing critical paths.",
-        "To convert all sequential elements into a shift register during test mode for easy observation and control.",
-        "To dynamically adjust the clock frequency based on system load.",
-        "To verify the functional correctness of the design under normal operating conditions.",
-        "To reduce static power consumption during standby mode."
+        "Microarchitecture",
+        "Instruction Set Architecture (ISA)",
+        "Operating System",
+        "Pipelining Stage",
+        "Cache Coherence Protocol"
       ],
       "correct": 1
     },
     {
-      "question": "In multi-core processor architectures, what is the primary purpose and characteristic of an 'atomic operation'?",
+      "question": "What is the primary characteristic that distinguishes synchronous digital logic design from asynchronous digital logic design?",
       "options": [
-        "An operation that accesses data directly from main memory, bypassing all cache levels.",
-        "An operation primarily used for debugging purposes to halt processor execution.",
-        "An operation that uses specialized hardware to perform floating-point calculations at high speed.",
-        "An operation that is guaranteed to complete entirely without interruption by any other process or thread, or not at all.",
-        "An operation that allows multiple instructions to execute simultaneously on a single core."
+        "Synchronous designs use only combinational logic, while asynchronous designs use sequential logic.",
+        "Asynchronous designs require a global clock signal to coordinate state changes, while synchronous designs do not.",
+        "Synchronous designs rely on a global clock signal to coordinate all state changes, ensuring predictable timing behavior.",
+        "Asynchronous designs are always faster and consume less power than synchronous designs.",
+        "Synchronous designs primarily use latches, whereas asynchronous designs primarily use flip-flops."
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "In digital IC design flow, what does 'RTL' stand for, and what kind of design description does it primarily represent?",
+      "question": "In a modern out-of-order execution processor, what is the primary function of the 'Reorder Buffer' (ROB)?",
       "options": [
-        "Routing and Timing Layout, a physical design stage focused on interconnects.",
-        "Real-Time Logic, indicating synchronous operations with strict timing constraints.",
-        "Reduced Transaction Language, an abstract modeling language for system-level simulation.",
-        "Recursive Test Logic, a methodology for automated test pattern generation.",
-        "Register-Transfer Level, describing the circuit's behavior in terms of data flow between registers and combinational logic."
+        "To store frequently accessed data for faster retrieval by the CPU.",
+        "To hold instructions after they are fetched but before they are decoded.",
+        "To ensure that instructions commit (update architectural state) in their original program order, facilitating precise exceptions.",
+        "To re-arrange instructions to optimize parallel execution on multiple functional units.",
+        "To buffer memory requests before sending them to the cache controller."
       ],
-      "correct": 4
+      "correct": 2
+    },
+    {
+      "question": "When designing a digital IC, what is the primary concern when a signal needs to pass between two different clock domains that are asynchronous to each other?",
+      "options": [
+        "Increased static power consumption in the receiving clock domain.",
+        "The risk of metastability, leading to unpredictable or incorrect signal states.",
+        "Automatic insertion of scan chains for testability.",
+        "Increased complexity of the power delivery network.",
+        "The need for a dedicated Arithmetic Logic Unit (ALU) to synchronize the signal."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of digital IC verification, what is the primary purpose of a 'testbench' written in a Hardware Description Language (HDL) like Verilog or VHDL?",
+      "options": [
+        "To synthesize the design into a gate-level netlist.",
+        "To define the physical layout and routing of the integrated circuit.",
+        "To simulate the behavior of the Design Under Test (DUT) by generating inputs and checking outputs.",
+        "To perform static timing analysis (STA) on the design.",
+        "To implement the power delivery network for the chip."
+      ],
+      "correct": 2
     }
   ]
 }
