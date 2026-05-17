@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In computer architecture, what primarily defines the interface between software and hardware, specifying the set of instructions a processor can execute and the state visible to software?",
+      "question": "What is the primary function of a clock signal in synchronous digital circuits?",
       "options": [
-        "Microarchitecture",
-        "Instruction Set Architecture (ISA)",
-        "Operating System",
-        "Pipelining Stage",
-        "Cache Coherence Protocol"
+        "To provide a universal reference for sequencing and synchronizing all operations.",
+        "To amplify the digital signals, ensuring they are strong enough for transmission.",
+        "To regulate the power supply voltage to various components within the circuit.",
+        "To store data temporarily in registers and latches during execution.",
+        "To generate random numbers used in self-testing and verification."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following best describes the primary application of a Finite State Machine (FSM) in digital IC design?",
+      "options": [
+        "Performing high-speed arithmetic operations like multiplication and division in the ALU.",
+        "Managing the sequential control flow of a system, transitioning between states based on current inputs and conditions.",
+        "Buffering large amounts of data between different memory modules to improve bandwidth.",
+        "Generating high-frequency carrier waves for wireless communication interfaces.",
+        "Converting analog signals into digital format (ADC) for processing."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary characteristic that distinguishes synchronous digital logic design from asynchronous digital logic design?",
+      "question": "In computer architecture, what is the primary benefit sought by employing Instruction Level Parallelism (ILP) techniques like pipelining and superscalar execution?",
       "options": [
-        "Synchronous designs use only combinational logic, while asynchronous designs use sequential logic.",
-        "Asynchronous designs require a global clock signal to coordinate state changes, while synchronous designs do not.",
-        "Synchronous designs rely on a global clock signal to coordinate all state changes, ensuring predictable timing behavior.",
-        "Asynchronous designs are always faster and consume less power than synchronous designs.",
-        "Synchronous designs primarily use latches, whereas asynchronous designs primarily use flip-flops."
+        "Reducing the overall power consumption of the processor by shutting down idle units.",
+        "Increasing the transistor count to enable more complex and specialized instructions.",
+        "Improving the fault tolerance and reliability of the system through redundancy.",
+        "Executing more instructions per unit of time, thereby increasing the processor's throughput and overall performance.",
+        "Simplifying the instruction set architecture (ISA) for easier compilation and software development."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "During the physical design phase of an Integrated Circuit (IC), what is the primary purpose of performing 'Design Rule Checking (DRC)'?",
+      "options": [
+        "To verify the logical correctness and functional behavior of the RTL design against its specification.",
+        "To extract parasitic capacitances and resistances from the layout for post-layout timing analysis.",
+        "To ensure that the physical layout adheres to the manufacturing process constraints and capabilities, preventing fabrication errors.",
+        "To simulate the electrical behavior of the circuit under various operating conditions and temperatures.",
+        "To optimize the power delivery network for minimal voltage drop and electromigration effects."
       ],
       "correct": 2
     },
     {
-      "question": "In a modern out-of-order execution processor, what is the primary function of the 'Reorder Buffer' (ROB)?",
+      "question": "What is the fundamental principle that distinguishes a 'set-associative cache' from both direct-mapped and fully associative caches in computer architecture?",
       "options": [
-        "To store frequently accessed data for faster retrieval by the CPU.",
-        "To hold instructions after they are fetched but before they are decoded.",
-        "To ensure that instructions commit (update architectural state) in their original program order, facilitating precise exceptions.",
-        "To re-arrange instructions to optimize parallel execution on multiple functional units.",
-        "To buffer memory requests before sending them to the cache controller."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "When designing a digital IC, what is the primary concern when a signal needs to pass between two different clock domains that are asynchronous to each other?",
-      "options": [
-        "Increased static power consumption in the receiving clock domain.",
-        "The risk of metastability, leading to unpredictable or incorrect signal states.",
-        "Automatic insertion of scan chains for testability.",
-        "Increased complexity of the power delivery network.",
-        "The need for a dedicated Arithmetic Logic Unit (ALU) to synchronize the signal."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the context of digital IC verification, what is the primary purpose of a 'testbench' written in a Hardware Description Language (HDL) like Verilog or VHDL?",
-      "options": [
-        "To synthesize the design into a gate-level netlist.",
-        "To define the physical layout and routing of the integrated circuit.",
-        "To simulate the behavior of the Design Under Test (DUT) by generating inputs and checking outputs.",
-        "To perform static timing analysis (STA) on the design.",
-        "To implement the power delivery network for the chip."
+        "Every memory block can be placed in any cache line, offering maximum flexibility and minimal conflict misses.",
+        "Each memory block maps to exactly one specific cache line, simplifying hardware implementation and speeding up tag comparison.",
+        "A memory block can be placed in any line within a specific, predefined 'set' of cache lines, balancing flexibility and complexity.",
+        "Cache lines are exclusively used for storing instruction code, not data, to reduce contention.",
+        "Data is always written directly to main memory simultaneously with being written to the cache (write-through policy)."
       ],
       "correct": 2
     }

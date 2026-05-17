@@ -1,9 +1,4 @@
 [
-  "What is the fundamental logic function performed by a NAND gate?",
-  "In a general-purpose processor, what is the primary purpose of the Program Counter (PC)?",
-  "In the physical design flow of a digital integrated circuit, after initial placement and clock tree synthesis, what is the primary objective of the 'Routing' step?",
-  "In modern superscalar processors, which technique allows multiple independent instructions to be issued and executed in parallel within a single clock cycle by utilizing multiple execution units?",
-  "What is the primary purpose of using 'Assertions' (e.g., SystemVerilog Assertions - SVA) during the verification of a digital IC design?",
   "What is the fundamental difference in operation between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
   "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
   "When designing custom digital logic using a Hardware Description Language (HDL) like Verilog or VHDL, which of the following is an example of 'combinational logic'?",
@@ -48,5 +43,10 @@
   "What is the primary characteristic that distinguishes synchronous digital logic design from asynchronous digital logic design?",
   "In a modern out-of-order execution processor, what is the primary function of the 'Reorder Buffer' (ROB)?",
   "When designing a digital IC, what is the primary concern when a signal needs to pass between two different clock domains that are asynchronous to each other?",
-  "In the context of digital IC verification, what is the primary purpose of a 'testbench' written in a Hardware Description Language (HDL) like Verilog or VHDL?"
+  "In the context of digital IC verification, what is the primary purpose of a 'testbench' written in a Hardware Description Language (HDL) like Verilog or VHDL?",
+  "What is the primary function of a clock signal in synchronous digital circuits?",
+  "Which of the following best describes the primary application of a Finite State Machine (FSM) in digital IC design?",
+  "In computer architecture, what is the primary benefit sought by employing Instruction Level Parallelism (ILP) techniques like pipelining and superscalar execution?",
+  "During the physical design phase of an Integrated Circuit (IC), what is the primary purpose of performing 'Design Rule Checking (DRC)'?",
+  "What is the fundamental principle that distinguishes a 'set-associative cache' from both direct-mapped and fully associative caches in computer architecture?"
 ]
