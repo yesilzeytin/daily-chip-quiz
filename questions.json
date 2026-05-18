@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a clock signal in synchronous digital circuits?",
+      "question": "Which of the following logic gates produces a HIGH output only when all of its inputs are HIGH?",
       "options": [
-        "To provide a universal reference for sequencing and synchronizing all operations.",
-        "To amplify the digital signals, ensuring they are strong enough for transmission.",
-        "To regulate the power supply voltage to various components within the circuit.",
-        "To store data temporarily in registers and latches during execution.",
-        "To generate random numbers used in self-testing and verification."
+        "OR gate",
+        "XOR gate",
+        "NAND gate",
+        "NOR gate",
+        "AND gate"
       ],
-      "correct": 0
+      "correct": 4
     },
     {
-      "question": "Which of the following best describes the primary application of a Finite State Machine (FSM) in digital IC design?",
+      "question": "In a CPU, what is the primary function of the Program Counter (PC)?",
       "options": [
-        "Performing high-speed arithmetic operations like multiplication and division in the ALU.",
-        "Managing the sequential control flow of a system, transitioning between states based on current inputs and conditions.",
-        "Buffering large amounts of data between different memory modules to improve bandwidth.",
-        "Generating high-frequency carrier waves for wireless communication interfaces.",
-        "Converting analog signals into digital format (ADC) for processing."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In computer architecture, what is the primary benefit sought by employing Instruction Level Parallelism (ILP) techniques like pipelining and superscalar execution?",
-      "options": [
-        "Reducing the overall power consumption of the processor by shutting down idle units.",
-        "Increasing the transistor count to enable more complex and specialized instructions.",
-        "Improving the fault tolerance and reliability of the system through redundancy.",
-        "Executing more instructions per unit of time, thereby increasing the processor's throughput and overall performance.",
-        "Simplifying the instruction set architecture (ISA) for easier compilation and software development."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "During the physical design phase of an Integrated Circuit (IC), what is the primary purpose of performing 'Design Rule Checking (DRC)'?",
-      "options": [
-        "To verify the logical correctness and functional behavior of the RTL design against its specification.",
-        "To extract parasitic capacitances and resistances from the layout for post-layout timing analysis.",
-        "To ensure that the physical layout adheres to the manufacturing process constraints and capabilities, preventing fabrication errors.",
-        "To simulate the electrical behavior of the circuit under various operating conditions and temperatures.",
-        "To optimize the power delivery network for minimal voltage drop and electromigration effects."
+        "Stores the result of the last arithmetic operation.",
+        "Holds the instruction currently being executed.",
+        "Points to the memory address of the next instruction to be fetched.",
+        "Manages the data flow between registers.",
+        "Acts as a temporary storage for function return addresses."
       ],
       "correct": 2
     },
     {
-      "question": "What is the fundamental principle that distinguishes a 'set-associative cache' from both direct-mapped and fully associative caches in computer architecture?",
+      "question": "In the digital IC design flow, what is the primary purpose of 'Logic Equivalence Checking (LEC)'?",
       "options": [
-        "Every memory block can be placed in any cache line, offering maximum flexibility and minimal conflict misses.",
-        "Each memory block maps to exactly one specific cache line, simplifying hardware implementation and speeding up tag comparison.",
-        "A memory block can be placed in any line within a specific, predefined 'set' of cache lines, balancing flexibility and complexity.",
-        "Cache lines are exclusively used for storing instruction code, not data, to reduce contention.",
-        "Data is always written directly to main memory simultaneously with being written to the cache (write-through policy)."
+        "To verify the functional correctness of a design against its specification using test vectors.",
+        "To ensure that the post-synthesis netlist is logically identical to the pre-synthesis RTL design.",
+        "To detect and correct timing violations in the clock paths.",
+        "To optimize the physical placement of standard cells for minimal area and power.",
+        "To simulate power consumption across different operating modes."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following factors is a primary reason for the increasing complexity and cost of manufacturing at advanced semiconductor technology nodes (e.g., 7nm, 5nm)?",
+      "options": [
+        "Decreased demand for integrated circuits.",
+        "Reduced need for specialized cleanroom environments.",
+        "The increasing difficulty and cost associated with advanced lithography techniques and defect control.",
+        "Shift from silicon to germanium as the primary substrate material.",
+        "Simplification of device physics at smaller dimensions."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In computer systems employing virtual memory, what is the primary function of the Memory Management Unit (MMU)?",
+      "options": [
+        "To control the flow of data between the CPU and I/O devices.",
+        "To store frequently accessed instructions for faster retrieval.",
+        "To translate virtual addresses generated by the CPU into physical addresses in main memory.",
+        "To manage the allocation and deallocation of processor registers.",
+        "To synchronize access to shared memory resources in multi-core systems."
       ],
       "correct": 2
     }

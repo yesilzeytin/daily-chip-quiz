@@ -1,9 +1,4 @@
 [
-  "What is the fundamental difference in operation between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
-  "In the context of computer architecture, what is the primary role of a 'Branch Predictor'?",
-  "When designing custom digital logic using a Hardware Description Language (HDL) like Verilog or VHDL, which of the following is an example of 'combinational logic'?",
-  "In advanced processor microarchitectures employing out-of-order execution (like Tomasulo's algorithm), what is the primary function of a 'Reservation Station'?",
-  "In the physical design flow of a digital IC, after synthesis and initial placement, 'Clock Tree Synthesis (CTS)' is a critical step. What is its primary objective?",
   "What is the key difference in how a latch and a flip-flop respond to a clock signal?",
   "In a pipelined processor, which type of hazard occurs when an instruction attempts to read a register that has not yet been written by a preceding instruction in the pipeline?",
   "In the physical design of an Integrated Circuit (IC), what is the primary purpose of designing a robust \"power delivery network\" (PDN) or \"power grid\"?",
@@ -48,5 +43,10 @@
   "Which of the following best describes the primary application of a Finite State Machine (FSM) in digital IC design?",
   "In computer architecture, what is the primary benefit sought by employing Instruction Level Parallelism (ILP) techniques like pipelining and superscalar execution?",
   "During the physical design phase of an Integrated Circuit (IC), what is the primary purpose of performing 'Design Rule Checking (DRC)'?",
-  "What is the fundamental principle that distinguishes a 'set-associative cache' from both direct-mapped and fully associative caches in computer architecture?"
+  "What is the fundamental principle that distinguishes a 'set-associative cache' from both direct-mapped and fully associative caches in computer architecture?",
+  "Which of the following logic gates produces a HIGH output only when all of its inputs are HIGH?",
+  "In a CPU, what is the primary function of the Program Counter (PC)?",
+  "In the digital IC design flow, what is the primary purpose of 'Logic Equivalence Checking (LEC)'?",
+  "Which of the following factors is a primary reason for the increasing complexity and cost of manufacturing at advanced semiconductor technology nodes (e.g., 7nm, 5nm)?",
+  "In computer systems employing virtual memory, what is the primary function of the Memory Management Unit (MMU)?"
 ]
