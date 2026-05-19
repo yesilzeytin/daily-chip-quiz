@@ -1,9 +1,4 @@
 [
-  "What is the key difference in how a latch and a flip-flop respond to a clock signal?",
-  "In a pipelined processor, which type of hazard occurs when an instruction attempts to read a register that has not yet been written by a preceding instruction in the pipeline?",
-  "In the physical design of an Integrated Circuit (IC), what is the primary purpose of designing a robust \"power delivery network\" (PDN) or \"power grid\"?",
-  "In advanced multi-core System-on-Chip (SoC) designs, what is the primary motivation for employing a Network-on-Chip (NoC) architecture instead of traditional bus-based interconnects?",
-  "In Verilog HDL, what is the fundamental difference between a `wire` data type and a `reg` data type?",
   "What is the primary advantage of CMOS (Complementary Metal-Oxide-Semiconductor) technology over older logic families like TTL (Transistor-Transistor Logic) or NMOS (N-type Metal-Oxide-Semiconductor), particularly regarding power consumption?",
   "What is the fundamental difference in the post-manufacturing programmability of an FPGA (Field-Programmable Gate Array) compared to an ASIC (Application-Specific Integrated Circuit)?",
   "In a computer system utilizing virtual memory, when a CPU generates a virtual address, and a Translation Lookaside Buffer (TLB) miss occurs, what is the correct conceptual sequence of steps involved in translating it to a physical address?",
@@ -48,5 +43,10 @@
   "In a CPU, what is the primary function of the Program Counter (PC)?",
   "In the digital IC design flow, what is the primary purpose of 'Logic Equivalence Checking (LEC)'?",
   "Which of the following factors is a primary reason for the increasing complexity and cost of manufacturing at advanced semiconductor technology nodes (e.g., 7nm, 5nm)?",
-  "In computer systems employing virtual memory, what is the primary function of the Memory Management Unit (MMU)?"
+  "In computer systems employing virtual memory, what is the primary function of the Memory Management Unit (MMU)?",
+  "What is metastability in digital circuits, particularly concerning clock domain crossings?",
+  "What is the primary distinction between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) regarding their data storage mechanism?",
+  "In the physical design flow of an Integrated Circuit (IC), what is the primary purpose of 'parasitic extraction'?",
+  "In modern pipelined processors, what is the fundamental role of a 'Branch Predictor'?",
+  "Which low-power design technique primarily aims to reduce static (leakage) power consumption by selectively disconnecting power supplies to idle blocks or portions of an Integrated Circuit?"
 ]
