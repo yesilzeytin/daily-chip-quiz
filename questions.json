@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is metastability in digital circuits, particularly concerning clock domain crossings?",
+      "question": "What is the primary function of a D flip-flop in digital circuits?",
       "options": [
-        "A state where a flip-flop's output oscillates indefinitely between logic 0 and 1, failing to settle to a valid logic level within a clock cycle.",
-        "The phenomenon where a digital signal propagates through a combinational logic gate with zero delay.",
-        "A condition where two independent clock signals are perfectly synchronized, eliminating the need for synchronizers.",
-        "An error in logic synthesis that results in redundant logic gates, increasing circuit area.",
-        "The process of converting an analog input signal into a digital output signal."
+        "Perform arithmetic operations.",
+        "Select one of many inputs to be routed to a single output.",
+        "Store a single bit of binary information.",
+        "Amplify an analog signal.",
+        "Generate clock signals."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "What is the primary distinction between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) regarding their data storage mechanism?",
+      "question": "What is the main concept behind 'out-of-order execution' in modern CPUs?",
       "options": [
-        "SRAM uses capacitors that require periodic refreshing to store data, while DRAM uses latches (flip-flops) and does not require refreshing.",
-        "SRAM uses latches (flip-flops) that hold data as long as power is supplied and does not require periodic refreshing, while DRAM uses capacitors that store data as charge and require periodic refreshing.",
-        "SRAM is a type of non-volatile memory, whereas DRAM is a type of volatile memory.",
-        "SRAM is typically used for the main system memory in computers, while DRAM is primarily used for CPU cache.",
-        "SRAM offers a much higher storage density at a significantly lower cost compared to DRAM."
+        "To process instructions from multiple threads simultaneously.",
+        "To execute instructions in an order different from their program order, exploiting instruction-level parallelism.",
+        "To pre-fetch data from main memory before it is needed.",
+        "To reduce power consumption by selectively disabling idle functional units.",
+        "To ensure all instructions complete execution in program order."
       ],
       "correct": 1
     },
     {
-      "question": "In the physical design flow of an Integrated Circuit (IC), what is the primary purpose of 'parasitic extraction'?",
+      "question": "In the physical design flow of a digital IC, what is the primary goal of Clock Tree Synthesis (CTS)?",
       "options": [
-        "To verify that all geometric shapes in the layout adhere to the manufacturing process's design rules (e.g., width, spacing).",
-        "To generate the gate-level netlist of the design from the Register Transfer Level (RTL) description.",
-        "To identify and quantify unwanted electrical effects such as resistances, capacitances, and inductances from the physical layout, which can impact timing and power.",
-        "To ensure proper distribution of power across the chip and identify areas with potential voltage drop issues.",
-        "To optimize the placement of standard cells on the silicon die for minimal area and routability."
+        "To reduce the overall power consumption of the chip.",
+        "To create a balanced clock distribution network to minimize clock skew and latency.",
+        "To place standard cells onto the silicon die.",
+        "To extract parasitic resistances and capacitances from the layout.",
+        "To verify the logical equivalence between RTL and gate-level netlists."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "In modern pipelined processors, what is the fundamental role of a 'Branch Predictor'?",
+      "question": "In a virtual memory system, what is the primary role of the 'page table'?",
       "options": [
-        "To accurately determine the target address for an unconditional jump instruction after it has completed execution.",
-        "To calculate the boolean condition for a conditional branch instruction before it reaches the execution stage.",
-        "To speculatively guess the outcome (taken or not taken) of a conditional branch instruction to avoid pipeline stalls and keep the pipeline full.",
-        "To manage the buffering and renaming of registers used by instructions that follow a predicted taken branch.",
-        "To resolve data hazards that arise when a branch instruction depends on the result of a preceding instruction."
+        "To store the contents of recently accessed data blocks.",
+        "To map virtual addresses to physical addresses.",
+        "To manage the allocation of CPU registers.",
+        "To store instructions awaiting execution.",
+        "To control access to I/O devices."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "Which low-power design technique primarily aims to reduce static (leakage) power consumption by selectively disconnecting power supplies to idle blocks or portions of an Integrated Circuit?",
+      "question": "In semiconductor manufacturing, what does 'yield' primarily refer to?",
       "options": [
-        "Dynamic Voltage and Frequency Scaling (DVFS), which adjusts operating voltage and clock speed based on workload.",
-        "Clock Gating, which disables the clock signal to idle registers and functional units.",
-        "Power Gating, which uses sleep transistors to cut off the power supply to inactive logic blocks.",
-        "Body Biasing, which involves adjusting the voltage of the transistor's body terminal to alter threshold voltage.",
-        "Multi-Vth (Multi-Threshold Voltage) design, which uses a mix of high and low threshold voltage transistors."
+        "The maximum operating frequency a chip can achieve.",
+        "The percentage of manufactured chips that meet all specified functional and performance requirements.",
+        "The total number of transistors integrated on a single die.",
+        "The power consumption of the chip during typical operation.",
+        "The time it takes to produce a batch of wafers."
       ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

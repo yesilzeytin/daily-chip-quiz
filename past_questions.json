@@ -1,9 +1,4 @@
 [
-  "What is the primary advantage of CMOS (Complementary Metal-Oxide-Semiconductor) technology over older logic families like TTL (Transistor-Transistor Logic) or NMOS (N-type Metal-Oxide-Semiconductor), particularly regarding power consumption?",
-  "What is the fundamental difference in the post-manufacturing programmability of an FPGA (Field-Programmable Gate Array) compared to an ASIC (Application-Specific Integrated Circuit)?",
-  "In a computer system utilizing virtual memory, when a CPU generates a virtual address, and a Translation Lookaside Buffer (TLB) miss occurs, what is the correct conceptual sequence of steps involved in translating it to a physical address?",
-  "After initial logic synthesis, if a digital IC design fails to meet its timing requirements (e.g., maximum clock frequency or setup/hold times), which technique is often employed to shorten critical paths by moving sequential elements (like flip-flops) across combinational logic, potentially at the cost of increased area or power?",
-  "In the context of digital IC verification, what is the primary strength and defining characteristic of 'Formal Verification' methodologies (e.g., Model Checking or Equivalence Checking) compared to traditional simulation-based verification?",
   "What is the fundamental material used as a semiconductor in the vast majority of modern integrated circuits?",
   "In the context of timing analysis for digital ICs, what does 'slack' primarily represent?",
   "In a pipelined processor, the 'data forwarding' (or 'bypassing') technique is primarily employed to mitigate which type of hazard?",
@@ -48,5 +43,10 @@
   "What is the primary distinction between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) regarding their data storage mechanism?",
   "In the physical design flow of an Integrated Circuit (IC), what is the primary purpose of 'parasitic extraction'?",
   "In modern pipelined processors, what is the fundamental role of a 'Branch Predictor'?",
-  "Which low-power design technique primarily aims to reduce static (leakage) power consumption by selectively disconnecting power supplies to idle blocks or portions of an Integrated Circuit?"
+  "Which low-power design technique primarily aims to reduce static (leakage) power consumption by selectively disconnecting power supplies to idle blocks or portions of an Integrated Circuit?",
+  "What is the primary function of a D flip-flop in digital circuits?",
+  "What is the main concept behind 'out-of-order execution' in modern CPUs?",
+  "In the physical design flow of a digital IC, what is the primary goal of Clock Tree Synthesis (CTS)?",
+  "In a virtual memory system, what is the primary role of the 'page table'?",
+  "In semiconductor manufacturing, what does 'yield' primarily refer to?"
 ]
