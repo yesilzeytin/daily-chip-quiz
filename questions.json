@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a D flip-flop in digital circuits?",
+      "question": "What is the main advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology that has made it the dominant fabrication technology for digital integrated circuits?",
       "options": [
-        "Perform arithmetic operations.",
-        "Select one of many inputs to be routed to a single output.",
-        "Store a single bit of binary information.",
-        "Amplify an analog signal.",
-        "Generate clock signals."
+        "Low static power consumption due to negligible current flow in steady state.",
+        "Extremely high operating voltage for robust signal integrity.",
+        "Ability to operate exclusively in the analog domain.",
+        "High switching speed limited only by wire resistance.",
+        "Simplified manufacturing process requiring fewer mask layers."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "What is the main concept behind 'out-of-order execution' in modern CPUs?",
+      "question": "In a computer system utilizing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "To process instructions from multiple threads simultaneously.",
-        "To execute instructions in an order different from their program order, exploiting instruction-level parallelism.",
-        "To pre-fetch data from main memory before it is needed.",
-        "To reduce power consumption by selectively disabling idle functional units.",
-        "To ensure all instructions complete execution in program order."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the physical design flow of a digital IC, what is the primary goal of Clock Tree Synthesis (CTS)?",
-      "options": [
-        "To reduce the overall power consumption of the chip.",
-        "To create a balanced clock distribution network to minimize clock skew and latency.",
-        "To place standard cells onto the silicon die.",
-        "To extract parasitic resistances and capacitances from the layout.",
-        "To verify the logical equivalence between RTL and gate-level netlists."
+        "To store frequently accessed data blocks from main memory for faster CPU access.",
+        "To provide a high-speed cache for recent virtual-to-physical address translations.",
+        "To manage the allocation and deallocation of memory pages for processes.",
+        "To protect memory regions from unauthorized access by different processes.",
+        "To act as a buffer for I/O operations between the CPU and peripheral devices."
       ],
       "correct": 1
     },
     {
-      "question": "In a virtual memory system, what is the primary role of the 'page table'?",
+      "question": "During the physical design flow of a digital integrated circuit, why is \"post-layout Static Timing Analysis (STA)\" considered critical, even if \"pre-layout STA\" showed no timing violations?",
       "options": [
-        "To store the contents of recently accessed data blocks.",
-        "To map virtual addresses to physical addresses.",
-        "To manage the allocation of CPU registers.",
-        "To store instructions awaiting execution.",
-        "To control access to I/O devices."
+        "Pre-layout STA only verifies functional correctness, not timing.",
+        "Post-layout STA incorporates actual wire lengths, routing congestion, and extracted parasitic capacitances and resistances.",
+        "Post-layout STA is performed at a higher clock frequency than pre-layout STA.",
+        "Pre-layout STA does not account for power supply noise and electromigration effects.",
+        "Post-layout STA is the only method that can detect setup and hold time violations."
       ],
       "correct": 1
     },
     {
-      "question": "In semiconductor manufacturing, what does 'yield' primarily refer to?",
+      "question": "In computer architecture, what does the term \"Memory Wall\" primarily refer to?",
       "options": [
-        "The maximum operating frequency a chip can achieve.",
-        "The percentage of manufactured chips that meet all specified functional and performance requirements.",
-        "The total number of transistors integrated on a single die.",
-        "The power consumption of the chip during typical operation.",
-        "The time it takes to produce a batch of wafers."
+        "The physical size limitations of embedding DRAM modules directly onto the CPU die.",
+        "The increasing performance gap between faster CPUs and slower main memory access times.",
+        "The maximum amount of physical RAM that a processor's address bus can support.",
+        "The security barrier preventing unauthorized access to memory by different processes.",
+        "The thermal limitations imposed by high-density memory arrays on a chip."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In advanced digital IC design, how does \"multi-threshold voltage (multi-Vt)\" design primarily contribute to power optimization?",
+      "options": [
+        "By allowing the processor to dynamically switch between different operating voltages for different tasks.",
+        "By employing transistors with different threshold voltages to optimize for both speed and static power consumption.",
+        "By enabling a single transistor to operate as both an NMOS and PMOS device, reducing transistor count.",
+        "By creating multiple isolated power domains on a single chip to completely shut down idle blocks.",
+        "By reducing the overall supply voltage across the entire chip to lower dynamic power proportionally."
       ],
       "correct": 1
     }

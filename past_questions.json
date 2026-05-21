@@ -1,9 +1,4 @@
 [
-  "What is the fundamental material used as a semiconductor in the vast majority of modern integrated circuits?",
-  "In the context of timing analysis for digital ICs, what does 'slack' primarily represent?",
-  "In a pipelined processor, the 'data forwarding' (or 'bypassing') technique is primarily employed to mitigate which type of hazard?",
-  "In the context of digital IC verification, what is a key advantage that 'random constrained verification' offers over traditional directed testing?",
-  "What is the primary purpose of 'lithography' in the semiconductor manufacturing process?",
   "What is the primary function of an inverter gate in digital circuits?",
   "In computer architecture, what is the primary distinction between a 'write-through' and a 'write-back' cache policy?",
   "During the logic synthesis process in digital IC design, what is the primary role of a 'standard cell library'?",
@@ -48,5 +43,10 @@
   "What is the main concept behind 'out-of-order execution' in modern CPUs?",
   "In the physical design flow of a digital IC, what is the primary goal of Clock Tree Synthesis (CTS)?",
   "In a virtual memory system, what is the primary role of the 'page table'?",
-  "In semiconductor manufacturing, what does 'yield' primarily refer to?"
+  "In semiconductor manufacturing, what does 'yield' primarily refer to?",
+  "What is the main advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology that has made it the dominant fabrication technology for digital integrated circuits?",
+  "In a computer system utilizing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+  "During the physical design flow of a digital integrated circuit, why is \"post-layout Static Timing Analysis (STA)\" considered critical, even if \"pre-layout STA\" showed no timing violations?",
+  "In computer architecture, what does the term \"Memory Wall\" primarily refer to?",
+  "In advanced digital IC design, how does \"multi-threshold voltage (multi-Vt)\" design primarily contribute to power optimization?"
 ]
