@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the main advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology that has made it the dominant fabrication technology for digital integrated circuits?",
+      "question": "What is a fundamental characteristic of a synchronous digital circuit?",
       "options": [
-        "Low static power consumption due to negligible current flow in steady state.",
-        "Extremely high operating voltage for robust signal integrity.",
-        "Ability to operate exclusively in the analog domain.",
-        "High switching speed limited only by wire resistance.",
-        "Simplified manufacturing process requiring fewer mask layers."
+        "All operations are triggered by a global clock signal.",
+        "Data paths are always independent of timing.",
+        "It exclusively uses combinational logic gates.",
+        "There are no feedback paths between logic elements.",
+        "Its power consumption is inherently lower than asynchronous circuits."
       ],
       "correct": 0
     },
     {
-      "question": "In a computer system utilizing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+      "question": "What is the primary purpose of floorplanning in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "To store frequently accessed data blocks from main memory for faster CPU access.",
-        "To provide a high-speed cache for recent virtual-to-physical address translations.",
-        "To manage the allocation and deallocation of memory pages for processes.",
-        "To protect memory regions from unauthorized access by different processes.",
-        "To act as a buffer for I/O operations between the CPU and peripheral devices."
+        "To perform detailed routing of standard cell connections.",
+        "To determine the initial placement of large macro-blocks, I/O pins, and power distribution networks.",
+        "To synthesize the Register Transfer Level (RTL) code into gate-level netlist.",
+        "To verify that all design rules (DRC) are met before tape-out.",
+        "To extract parasitic resistances and capacitances from the layout."
       ],
       "correct": 1
     },
     {
-      "question": "During the physical design flow of a digital integrated circuit, why is \"post-layout Static Timing Analysis (STA)\" considered critical, even if \"pre-layout STA\" showed no timing violations?",
+      "question": "What is the primary role of microcode in the design of a Complex Instruction Set Computer (CISC) processor?",
       "options": [
-        "Pre-layout STA only verifies functional correctness, not timing.",
-        "Post-layout STA incorporates actual wire lengths, routing congestion, and extracted parasitic capacitances and resistances.",
-        "Post-layout STA is performed at a higher clock frequency than pre-layout STA.",
-        "Pre-layout STA does not account for power supply noise and electromigration effects.",
-        "Post-layout STA is the only method that can detect setup and hold time violations."
+        "To store the operating system kernel for faster boot times.",
+        "To define the physical layout and interconnections of the CPU components.",
+        "To implement complex instructions as a sequence of simpler, internal micro-operations.",
+        "To manage cache coherence protocols across multiple cores.",
+        "To provide high-speed temporary storage for floating-point calculations."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In computer architecture, what does the term \"Memory Wall\" primarily refer to?",
+      "question": "In an out-of-order execution pipeline, what mechanism is primarily responsible for ensuring that instructions commit (retire) in their original program order, even if executed out of order?",
       "options": [
-        "The physical size limitations of embedding DRAM modules directly onto the CPU die.",
-        "The increasing performance gap between faster CPUs and slower main memory access times.",
-        "The maximum amount of physical RAM that a processor's address bus can support.",
-        "The security barrier preventing unauthorized access to memory by different processes.",
-        "The thermal limitations imposed by high-density memory arrays on a chip."
+        "The Branch Prediction Unit (BPU) to reduce pipeline stalls.",
+        "The Reservation Stations that hold operands for ready instructions.",
+        "The Instruction Cache (I-Cache) which fetches instructions efficiently.",
+        "The Reorder Buffer (ROB) which tracks instruction status and results.",
+        "The Memory Management Unit (MMU) for virtual to physical address translation."
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In advanced digital IC design, how does \"multi-threshold voltage (multi-Vt)\" design primarily contribute to power optimization?",
+      "question": "In Static Timing Analysis (STA), what does a 'setup time violation' primarily indicate for a flip-flop?",
       "options": [
-        "By allowing the processor to dynamically switch between different operating voltages for different tasks.",
-        "By employing transistors with different threshold voltages to optimize for both speed and static power consumption.",
-        "By enabling a single transistor to operate as both an NMOS and PMOS device, reducing transistor count.",
-        "By creating multiple isolated power domains on a single chip to completely shut down idle blocks.",
-        "By reducing the overall supply voltage across the entire chip to lower dynamic power proportionally."
+        "The data signal arrived too early and violated the hold time requirement after the clock edge.",
+        "The clock signal arrived too late at the flip-flop compared to other parts of the chip.",
+        "There is a combinatorial feedback loop in the logic path.",
+        "The data signal did not arrive and stabilize at the flip-flop's input early enough before the active clock edge.",
+        "The output of the flip-flop cannot drive the subsequent logic within one clock cycle."
       ],
-      "correct": 1
+      "correct": 3
     }
   ]
 }

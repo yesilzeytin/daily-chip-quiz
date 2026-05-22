@@ -1,9 +1,4 @@
 [
-  "What is the primary function of an inverter gate in digital circuits?",
-  "In computer architecture, what is the primary distinction between a 'write-through' and a 'write-back' cache policy?",
-  "During the logic synthesis process in digital IC design, what is the primary role of a 'standard cell library'?",
-  "What is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs at advanced semiconductor nodes (e.g., 16nm and below)?",
-  "While simulation-based verification checks design functionality for specific test cases, what is the *primary limitation* of formal verification methods, such as model checking, in practical ASIC design flows?",
   "In the context of low-power digital IC design, which technique is primarily used to reduce dynamic power consumption by disabling the clock signal to idle functional units or registers?",
   "Which of the following best describes a fundamental design principle of a Reduced Instruction Set Computer (RISC) architecture?",
   "In the context of System-on-Chip (SoC) design and verification, what is the primary advantage offered by Transaction-Level Modeling (TLM)?",
@@ -48,5 +43,10 @@
   "In a computer system utilizing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
   "During the physical design flow of a digital integrated circuit, why is \"post-layout Static Timing Analysis (STA)\" considered critical, even if \"pre-layout STA\" showed no timing violations?",
   "In computer architecture, what does the term \"Memory Wall\" primarily refer to?",
-  "In advanced digital IC design, how does \"multi-threshold voltage (multi-Vt)\" design primarily contribute to power optimization?"
+  "In advanced digital IC design, how does \"multi-threshold voltage (multi-Vt)\" design primarily contribute to power optimization?",
+  "What is a fundamental characteristic of a synchronous digital circuit?",
+  "What is the primary purpose of floorplanning in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
+  "What is the primary role of microcode in the design of a Complex Instruction Set Computer (CISC) processor?",
+  "In an out-of-order execution pipeline, what mechanism is primarily responsible for ensuring that instructions commit (retire) in their original program order, even if executed out of order?",
+  "In Static Timing Analysis (STA), what does a 'setup time violation' primarily indicate for a flip-flop?"
 ]
