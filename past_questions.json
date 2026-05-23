@@ -1,9 +1,4 @@
 [
-  "In the context of low-power digital IC design, which technique is primarily used to reduce dynamic power consumption by disabling the clock signal to idle functional units or registers?",
-  "Which of the following best describes a fundamental design principle of a Reduced Instruction Set Computer (RISC) architecture?",
-  "In the context of System-on-Chip (SoC) design and verification, what is the primary advantage offered by Transaction-Level Modeling (TLM)?",
-  "Which of the following represents the primary user-configurable logic element that forms the core programmable fabric of a Field-Programmable Gate Array (FPGA)?",
-  "In the context of computer architecture and memory hierarchy, what is the primary objective of 'cache prefetching'?",
   "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
   "After the logic synthesis phase in a typical digital IC design flow, what is the primary output that describes the structural implementation of the design using standard cells and their interconnections?",
   "In a multi-core processor, what is the fundamental purpose of a cache coherence protocol (e.g., MESI, MOESI)?",
@@ -48,5 +43,10 @@
   "What is the primary purpose of floorplanning in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
   "What is the primary role of microcode in the design of a Complex Instruction Set Computer (CISC) processor?",
   "In an out-of-order execution pipeline, what mechanism is primarily responsible for ensuring that instructions commit (retire) in their original program order, even if executed out of order?",
-  "In Static Timing Analysis (STA), what does a 'setup time violation' primarily indicate for a flip-flop?"
+  "In Static Timing Analysis (STA), what does a 'setup time violation' primarily indicate for a flip-flop?",
+  "What is the fundamental difference in functionality between combinational logic circuits and sequential logic circuits?",
+  "In an Application-Specific Integrated Circuit (ASIC) design flow, what is the primary goal of \"physical synthesis\"?",
+  "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture in computer systems?",
+  "In advanced deep submicron Integrated Circuit (IC) design, what is the primary challenge addressed by implementing \"On-Chip Variation (OCV)\" analysis during Static Timing Analysis (STA)?",
+  "In concurrent programming for multi-core processors, what is the primary purpose of a \"Memory Barrier\" (also known as a \"Memory Fence\") instruction?"
 ]

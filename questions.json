@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is a fundamental characteristic of a synchronous digital circuit?",
+      "question": "What is the fundamental difference in functionality between combinational logic circuits and sequential logic circuits?",
       "options": [
-        "All operations are triggered by a global clock signal.",
-        "Data paths are always independent of timing.",
-        "It exclusively uses combinational logic gates.",
-        "There are no feedback paths between logic elements.",
-        "Its power consumption is inherently lower than asynchronous circuits."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What is the primary purpose of floorplanning in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
-      "options": [
-        "To perform detailed routing of standard cell connections.",
-        "To determine the initial placement of large macro-blocks, I/O pins, and power distribution networks.",
-        "To synthesize the Register Transfer Level (RTL) code into gate-level netlist.",
-        "To verify that all design rules (DRC) are met before tape-out.",
-        "To extract parasitic resistances and capacitances from the layout."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary role of microcode in the design of a Complex Instruction Set Computer (CISC) processor?",
-      "options": [
-        "To store the operating system kernel for faster boot times.",
-        "To define the physical layout and interconnections of the CPU components.",
-        "To implement complex instructions as a sequence of simpler, internal micro-operations.",
-        "To manage cache coherence protocols across multiple cores.",
-        "To provide high-speed temporary storage for floating-point calculations."
+        "Combinational circuits use only AND gates, while sequential circuits use only OR gates.",
+        "Combinational circuits have memory elements and their output depends on current and past inputs, whereas sequential circuits' output depends only on current inputs.",
+        "Sequential circuits have memory elements and their output depends on current and past inputs, whereas combinational circuits' output depends only on current inputs.",
+        "Combinational circuits are synchronous, and sequential circuits are asynchronous.",
+        "Sequential circuits process data in parallel, while combinational circuits process data serially."
       ],
       "correct": 2
     },
     {
-      "question": "In an out-of-order execution pipeline, what mechanism is primarily responsible for ensuring that instructions commit (retire) in their original program order, even if executed out of order?",
+      "question": "In an Application-Specific Integrated Circuit (ASIC) design flow, what is the primary goal of \"physical synthesis\"?",
       "options": [
-        "The Branch Prediction Unit (BPU) to reduce pipeline stalls.",
-        "The Reservation Stations that hold operands for ready instructions.",
-        "The Instruction Cache (I-Cache) which fetches instructions efficiently.",
-        "The Reorder Buffer (ROB) which tracks instruction status and results.",
-        "The Memory Management Unit (MMU) for virtual to physical address translation."
+        "To convert RTL code into a gate-level netlist without considering physical layout.",
+        "To perform detailed routing of interconnections between standard cells after placement.",
+        "To optimize the gate-level netlist for timing, power, and area while simultaneously considering initial placement effects.",
+        "To verify the logical equivalence between the RTL design and the post-layout netlist.",
+        "To generate the mask layouts for fabrication from the placed and routed design."
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "In Static Timing Analysis (STA), what does a 'setup time violation' primarily indicate for a flip-flop?",
+      "question": "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture in computer systems?",
       "options": [
-        "The data signal arrived too early and violated the hold time requirement after the clock edge.",
-        "The clock signal arrived too late at the flip-flop compared to other parts of the chip.",
-        "There is a combinatorial feedback loop in the logic path.",
-        "The data signal did not arrive and stabilize at the flip-flop's input early enough before the active clock edge.",
-        "The output of the flip-flop cannot drive the subsequent logic within one clock cycle."
+        "Harvard architecture uses a single bus for both instructions and data, while Von Neumann uses separate buses.",
+        "Von Neumann architecture uses a single bus for both instructions and data, while Harvard architecture uses separate buses.",
+        "Harvard architecture primarily uses CISC instruction sets, whereas Von Neumann uses RISC.",
+        "Von Neumann architecture is exclusively used in embedded systems, while Harvard architecture is for general-purpose computing.",
+        "Harvard architecture relies on virtual memory, while Von Neumann architecture uses physical memory directly."
       ],
-      "correct": 3
+      "correct": 1
+    },
+    {
+      "question": "In advanced deep submicron Integrated Circuit (IC) design, what is the primary challenge addressed by implementing \"On-Chip Variation (OCV)\" analysis during Static Timing Analysis (STA)?",
+      "options": [
+        "Accounting for variations in supply voltage across different functional blocks on the chip.",
+        "Ensuring proper clock distribution and minimizing clock skew across the chip.",
+        "Predicting and mitigating timing violations caused by manufacturing process variations across the chip, which lead to varying delays for identical gates and wires.",
+        "Identifying critical power delivery networks that might suffer from excessive IR drop.",
+        "Optimizing the gate-level netlist for area reduction by identifying redundant logic."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In concurrent programming for multi-core processors, what is the primary purpose of a \"Memory Barrier\" (also known as a \"Memory Fence\") instruction?",
+      "options": [
+        "To ensure that all cache lines for a specific memory region are invalidated across all cores.",
+        "To enforce a specific ordering of memory operations (loads and stores) such that operations preceding the barrier are completed before operations following it become visible to other cores or devices.",
+        "To prevent a CPU core from accessing memory locations outside its assigned virtual address space.",
+        "To dynamically adjust the clock frequency of individual cores based on their workload.",
+        "To allow the operating system to swap pages between main memory and secondary storage."
+      ],
+      "correct": 1
     }
   ]
 }
