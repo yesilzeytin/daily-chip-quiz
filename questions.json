@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental difference in functionality between combinational logic circuits and sequential logic circuits?",
+      "question": "What is the primary role of a register file in a CPU?",
       "options": [
-        "Combinational circuits use only AND gates, while sequential circuits use only OR gates.",
-        "Combinational circuits have memory elements and their output depends on current and past inputs, whereas sequential circuits' output depends only on current inputs.",
-        "Sequential circuits have memory elements and their output depends on current and past inputs, whereas combinational circuits' output depends only on current inputs.",
-        "Combinational circuits are synchronous, and sequential circuits are asynchronous.",
-        "Sequential circuits process data in parallel, while combinational circuits process data serially."
+        "To store frequently used instructions for faster access",
+        "To hold temporary data during I/O operations",
+        "To store general-purpose registers that are directly accessible by instructions for data manipulation",
+        "To manage the hierarchy and coherence of cache memory",
+        "To convert analog signals from peripheral devices into digital data"
       ],
       "correct": 2
     },
     {
-      "question": "In an Application-Specific Integrated Circuit (ASIC) design flow, what is the primary goal of \"physical synthesis\"?",
+      "question": "In the context of chip manufacturing, what fundamental process does 'photolithography' primarily describe?",
       "options": [
-        "To convert RTL code into a gate-level netlist without considering physical layout.",
-        "To perform detailed routing of interconnections between standard cells after placement.",
-        "To optimize the gate-level netlist for timing, power, and area while simultaneously considering initial placement effects.",
-        "To verify the logical equivalence between the RTL design and the post-layout netlist.",
-        "To generate the mask layouts for fabrication from the placed and routed design."
+        "The process of electrically testing the silicon wafer for defects",
+        "The technique used to deposit thin layers of various materials onto the wafer surface",
+        "The method of etching away unwanted material from the wafer after patterning",
+        "The process of using light to transfer geometric patterns from a photomask onto a photosensitive material on the wafer",
+        "The final assembly and packaging of the silicon die into a functional chip"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture in computer systems?",
+      "question": "What is the primary purpose of a 'Guard Band' in analog mixed-signal Integrated Circuit (IC) layout?",
       "options": [
-        "Harvard architecture uses a single bus for both instructions and data, while Von Neumann uses separate buses.",
-        "Von Neumann architecture uses a single bus for both instructions and data, while Harvard architecture uses separate buses.",
-        "Harvard architecture primarily uses CISC instruction sets, whereas Von Neumann uses RISC.",
-        "Von Neumann architecture is exclusively used in embedded systems, while Harvard architecture is for general-purpose computing.",
-        "Harvard architecture relies on virtual memory, while Von Neumann architecture uses physical memory directly."
+        "To provide a safety margin against voltage overshoots in digital circuits",
+        "To physically protect sensitive analog circuits from electromagnetic interference (EMI) originating from adjacent digital blocks",
+        "To regulate the on-chip temperature distribution for improved performance",
+        "To prevent electrostatic discharge (ESD) events from damaging internal circuitry",
+        "To ensure proper power supply sequencing during chip startup"
       ],
       "correct": 1
     },
     {
-      "question": "In advanced deep submicron Integrated Circuit (IC) design, what is the primary challenge addressed by implementing \"On-Chip Variation (OCV)\" analysis during Static Timing Analysis (STA)?",
+      "question": "In the design of a highly pipelined processor, what type of hazard does a 'structural hazard' primarily represent?",
       "options": [
-        "Accounting for variations in supply voltage across different functional blocks on the chip.",
-        "Ensuring proper clock distribution and minimizing clock skew across the chip.",
-        "Predicting and mitigating timing violations caused by manufacturing process variations across the chip, which lead to varying delays for identical gates and wires.",
-        "Identifying critical power delivery networks that might suffer from excessive IR drop.",
-        "Optimizing the gate-level netlist for area reduction by identifying redundant logic."
+        "When an instruction requires data that has not yet been produced by a prior instruction in the pipeline",
+        "When a branch instruction alters the program flow, causing instructions fetched down the wrong path to be flushed",
+        "When two or more instructions simultaneously require the same physical hardware resource, leading to a conflict",
+        "When the instruction fetched from memory is corrupted or invalid",
+        "When the latency of memory access operations significantly delays pipeline progress"
       ],
       "correct": 2
     },
     {
-      "question": "In concurrent programming for multi-core processors, what is the primary purpose of a \"Memory Barrier\" (also known as a \"Memory Fence\") instruction?",
+      "question": "What is the main function of an 'endianness' convention (e.g., Big-Endian, Little-Endian) in computer architecture?",
       "options": [
-        "To ensure that all cache lines for a specific memory region are invalidated across all cores.",
-        "To enforce a specific ordering of memory operations (loads and stores) such that operations preceding the barrier are completed before operations following it become visible to other cores or devices.",
-        "To prevent a CPU core from accessing memory locations outside its assigned virtual address space.",
-        "To dynamically adjust the clock frequency of individual cores based on their workload.",
-        "To allow the operating system to swap pages between main memory and secondary storage."
+        "To define the order in which arithmetic operations are performed by the ALU",
+        "To specify the direction of data transfer across the system bus",
+        "To determine the bit-width of various data types (e.g., integer, float) in memory",
+        "To dictate the byte order in which multi-byte data (such as integers or addresses) are stored and retrieved from memory",
+        "To manage the priority levels of different interrupt requests from I/O devices"
       ],
-      "correct": 1
+      "correct": 3
     }
   ]
 }

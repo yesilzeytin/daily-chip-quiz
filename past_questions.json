@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
-  "After the logic synthesis phase in a typical digital IC design flow, what is the primary output that describes the structural implementation of the design using standard cells and their interconnections?",
-  "In a multi-core processor, what is the fundamental purpose of a cache coherence protocol (e.g., MESI, MOESI)?",
-  "In the context of Static Timing Analysis (STA) for a digital integrated circuit, what does the term 'critical path' primarily refer to?",
-  "Which low-power design technique allows a processor to dynamically adjust its operating voltage and frequency to match the computational demands of the current workload, thereby conserving power during periods of low activity?",
   "In digital logic design, what is the primary function of a multiplexer (MUX)?",
   "In cache memory management, what is the primary role of a 'dirty bit' associated with a cache line?",
   "In the context of Design for Testability (DFT) for digital integrated circuits, what is the primary function of 'scan chains'?",
@@ -48,5 +43,10 @@
   "In an Application-Specific Integrated Circuit (ASIC) design flow, what is the primary goal of \"physical synthesis\"?",
   "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture in computer systems?",
   "In advanced deep submicron Integrated Circuit (IC) design, what is the primary challenge addressed by implementing \"On-Chip Variation (OCV)\" analysis during Static Timing Analysis (STA)?",
-  "In concurrent programming for multi-core processors, what is the primary purpose of a \"Memory Barrier\" (also known as a \"Memory Fence\") instruction?"
+  "In concurrent programming for multi-core processors, what is the primary purpose of a \"Memory Barrier\" (also known as a \"Memory Fence\") instruction?",
+  "What is the primary role of a register file in a CPU?",
+  "In the context of chip manufacturing, what fundamental process does 'photolithography' primarily describe?",
+  "What is the primary purpose of a 'Guard Band' in analog mixed-signal Integrated Circuit (IC) layout?",
+  "In the design of a highly pipelined processor, what type of hazard does a 'structural hazard' primarily represent?",
+  "What is the main function of an 'endianness' convention (e.g., Big-Endian, Little-Endian) in computer architecture?"
 ]
