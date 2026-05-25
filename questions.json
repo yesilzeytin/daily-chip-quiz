@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of a register file in a CPU?",
+      "question": "What is the primary advantage of using Field-Programmable Gate Arrays (FPGAs) over Application-Specific Integrated Circuits (ASICs) for prototyping or low-volume production?",
       "options": [
-        "To store frequently used instructions for faster access",
-        "To hold temporary data during I/O operations",
-        "To store general-purpose registers that are directly accessible by instructions for data manipulation",
-        "To manage the hierarchy and coherence of cache memory",
-        "To convert analog signals from peripheral devices into digital data"
+        "Lower unit cost for high-volume production.",
+        "Higher clock frequencies due to fixed, optimized routing.",
+        "Flexibility and reconfigurability after manufacturing, allowing design changes.",
+        "Significantly lower static power consumption per functional unit.",
+        "Smaller silicon footprint for the same functional complexity."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of chip manufacturing, what fundamental process does 'photolithography' primarily describe?",
+      "question": "In the context of computer architecture, which of the following best describes the primary goal of a \"cache coherence protocol\" in a multi-processor system?",
       "options": [
-        "The process of electrically testing the silicon wafer for defects",
-        "The technique used to deposit thin layers of various materials onto the wafer surface",
-        "The method of etching away unwanted material from the wafer after patterning",
-        "The process of using light to transfer geometric patterns from a photomask onto a photosensitive material on the wafer",
-        "The final assembly and packaging of the silicon die into a functional chip"
+        "To ensure that all caches store identical data to the main memory at all times.",
+        "To prevent deadlocks when multiple processors attempt to acquire shared locks.",
+        "To maintain a consistent view of shared memory across multiple processors' private caches.",
+        "To optimize the paging process for virtual memory systems by reducing TLB misses.",
+        "To reduce the number of instructions executed per cycle by enabling speculative execution."
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "What is the primary purpose of a 'Guard Band' in analog mixed-signal Integrated Circuit (IC) layout?",
+      "question": "Which of the following statements accurately describes the fundamental difference between a \"Hard IP\" and a \"Soft IP\" core in ASIC design?",
       "options": [
-        "To provide a safety margin against voltage overshoots in digital circuits",
-        "To physically protect sensitive analog circuits from electromagnetic interference (EMI) originating from adjacent digital blocks",
-        "To regulate the on-chip temperature distribution for improved performance",
-        "To prevent electrostatic discharge (ESD) events from damaging internal circuitry",
-        "To ensure proper power supply sequencing during chip startup"
+        "Hard IP is exclusively used for analog functions, while Soft IP is only for digital logic.",
+        "Hard IP is delivered as a technology-specific, fully laid-out GDSII block, whereas Soft IP is delivered as synthesizable RTL code.",
+        "Soft IP requires a separate license for each individual chip produced, while Hard IP is typically a one-time purchase.",
+        "Hard IP is primarily designed for high-performance applications, while Soft IP is optimized for low-power consumption.",
+        "Soft IP typically includes embedded processors, whereas Hard IP mainly refers to memory blocks like SRAM or ROM."
       ],
       "correct": 1
     },
     {
-      "question": "In the design of a highly pipelined processor, what type of hazard does a 'structural hazard' primarily represent?",
+      "question": "During the physical verification stage of an Integrated Circuit (IC) design, what is the primary purpose of a \"Layout Versus Schematic (LVS)\" check?",
       "options": [
-        "When an instruction requires data that has not yet been produced by a prior instruction in the pipeline",
-        "When a branch instruction alters the program flow, causing instructions fetched down the wrong path to be flushed",
-        "When two or more instructions simultaneously require the same physical hardware resource, leading to a conflict",
-        "When the instruction fetched from memory is corrupted or invalid",
-        "When the latency of memory access operations significantly delays pipeline progress"
+        "To verify that all transistors are properly sized for optimal performance and power.",
+        "To ensure that the physical layout adheres strictly to the manufacturing process design rules (e.g., minimum widths and spacing).",
+        "To compare the extracted netlist from the physical layout against the original golden netlist (from RTL or gate-level schematic) to confirm topological and functional equivalence.",
+        "To identify and rectify dynamic timing violations caused by variations in signal propagation delays.",
+        "To automatically generate the final GDSII stream file that will be sent to the foundry for fabrication."
       ],
       "correct": 2
     },
     {
-      "question": "What is the main function of an 'endianness' convention (e.g., Big-Endian, Little-Endian) in computer architecture?",
+      "question": "In modern processor architectures, what is the primary role of a \"Hypervisor\" (also known as a Virtual Machine Monitor or VMM) in relation to the CPU?",
       "options": [
-        "To define the order in which arithmetic operations are performed by the ALU",
-        "To specify the direction of data transfer across the system bus",
-        "To determine the bit-width of various data types (e.g., integer, float) in memory",
-        "To dictate the byte order in which multi-byte data (such as integers or addresses) are stored and retrieved from memory",
-        "To manage the priority levels of different interrupt requests from I/O devices"
+        "To manage memory paging and virtual address translation for a single guest operating system.",
+        "To abstract and control the physical hardware resources, enabling multiple guest operating systems to run concurrently and isolated.",
+        "To accelerate specific floating-point arithmetic operations within the CPU's Arithmetic Logic Unit (ALU).",
+        "To handle interrupt requests and context switching between user-level applications within a single OS.",
+        "To optimize the instruction fetching and decoding stages in a deep pipelined processor."
       ],
-      "correct": 3
+      "correct": 1
     }
   ]
 }
