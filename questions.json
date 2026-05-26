@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary advantage of using Field-Programmable Gate Arrays (FPGAs) over Application-Specific Integrated Circuits (ASICs) for prototyping or low-volume production?",
+      "question": "In digital IC design, what does RTL primarily refer to?",
       "options": [
-        "Lower unit cost for high-volume production.",
-        "Higher clock frequencies due to fixed, optimized routing.",
-        "Flexibility and reconfigurability after manufacturing, allowing design changes.",
-        "Significantly lower static power consumption per functional unit.",
-        "Smaller silicon footprint for the same functional complexity."
+        "Register Transfer Logic",
+        "Real-Time Layout",
+        "Routing and Timing Library",
+        "Reduced Test Language",
+        "Resistor Transistor Logic"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In the context of computer architecture, which of the following best describes the primary goal of a \"cache coherence protocol\" in a multi-processor system?",
+      "question": "When a CPU writes data to a cache, which of the following policies dictates that data is written simultaneously to both the cache and main memory?",
       "options": [
-        "To ensure that all caches store identical data to the main memory at all times.",
-        "To prevent deadlocks when multiple processors attempt to acquire shared locks.",
-        "To maintain a consistent view of shared memory across multiple processors' private caches.",
-        "To optimize the paging process for virtual memory systems by reducing TLB misses.",
-        "To reduce the number of instructions executed per cycle by enabling speculative execution."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following statements accurately describes the fundamental difference between a \"Hard IP\" and a \"Soft IP\" core in ASIC design?",
-      "options": [
-        "Hard IP is exclusively used for analog functions, while Soft IP is only for digital logic.",
-        "Hard IP is delivered as a technology-specific, fully laid-out GDSII block, whereas Soft IP is delivered as synthesizable RTL code.",
-        "Soft IP requires a separate license for each individual chip produced, while Hard IP is typically a one-time purchase.",
-        "Hard IP is primarily designed for high-performance applications, while Soft IP is optimized for low-power consumption.",
-        "Soft IP typically includes embedded processors, whereas Hard IP mainly refers to memory blocks like SRAM or ROM."
+        "Write-back",
+        "Write-through",
+        "Write-allocate",
+        "No-write-allocate",
+        "Least Recently Used (LRU)"
       ],
       "correct": 1
     },
     {
-      "question": "During the physical verification stage of an Integrated Circuit (IC) design, what is the primary purpose of a \"Layout Versus Schematic (LVS)\" check?",
+      "question": "Which advanced verification methodology focuses on creating reusable, configurable, and randomized test environments using a standard library of verification components to improve verification efficiency and coverage for complex SoCs?",
       "options": [
-        "To verify that all transistors are properly sized for optimal performance and power.",
-        "To ensure that the physical layout adheres strictly to the manufacturing process design rules (e.g., minimum widths and spacing).",
-        "To compare the extracted netlist from the physical layout against the original golden netlist (from RTL or gate-level schematic) to confirm topological and functional equivalence.",
-        "To identify and rectify dynamic timing violations caused by variations in signal propagation delays.",
-        "To automatically generate the final GDSII stream file that will be sent to the foundry for fabrication."
+        "Design Rule Checking (DRC)",
+        "Layout Versus Schematic (LVS)",
+        "Universal Verification Methodology (UVM)",
+        "Static Timing Analysis (STA)",
+        "Logic Equivalence Checking (LEC)"
       ],
       "correct": 2
     },
     {
-      "question": "In modern processor architectures, what is the primary role of a \"Hypervisor\" (also known as a Virtual Machine Monitor or VMM) in relation to the CPU?",
+      "question": "Which advanced power management technique involves dynamically adjusting the operating voltage and frequency of a processor or specific IP blocks based on workload demands, aiming to optimize both power consumption and performance?",
       "options": [
-        "To manage memory paging and virtual address translation for a single guest operating system.",
-        "To abstract and control the physical hardware resources, enabling multiple guest operating systems to run concurrently and isolated.",
-        "To accelerate specific floating-point arithmetic operations within the CPU's Arithmetic Logic Unit (ALU).",
-        "To handle interrupt requests and context switching between user-level applications within a single OS.",
-        "To optimize the instruction fetching and decoding stages in a deep pipelined processor."
+        "Power Gating",
+        "Clock Gating",
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Multi-threshold voltage (Multi-Vt) design",
+        "Body Biasing"
       ],
-      "correct": 1
+      "correct": 2
+    },
+    {
+      "question": "In a multi-processor system, what concept defines the rules for how memory operations (reads and writes) from different processors appear to be ordered, ensuring a consistent view of shared memory across all cores?",
+      "options": [
+        "Cache Associativity",
+        "Paging",
+        "Memory Coherence Model",
+        "Virtual Addressing",
+        "Instruction Set Architecture (ISA)"
+      ],
+      "correct": 2
     }
   ]
 }

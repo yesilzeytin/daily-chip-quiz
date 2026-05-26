@@ -1,9 +1,4 @@
 [
-  "In computer architecture, what primarily defines the interface between software and hardware, specifying the set of instructions a processor can execute and the state visible to software?",
-  "What is the primary characteristic that distinguishes synchronous digital logic design from asynchronous digital logic design?",
-  "In a modern out-of-order execution processor, what is the primary function of the 'Reorder Buffer' (ROB)?",
-  "When designing a digital IC, what is the primary concern when a signal needs to pass between two different clock domains that are asynchronous to each other?",
-  "In the context of digital IC verification, what is the primary purpose of a 'testbench' written in a Hardware Description Language (HDL) like Verilog or VHDL?",
   "What is the primary function of a clock signal in synchronous digital circuits?",
   "Which of the following best describes the primary application of a Finite State Machine (FSM) in digital IC design?",
   "In computer architecture, what is the primary benefit sought by employing Instruction Level Parallelism (ILP) techniques like pipelining and superscalar execution?",
@@ -48,5 +43,10 @@
   "In the context of computer architecture, which of the following best describes the primary goal of a \"cache coherence protocol\" in a multi-processor system?",
   "Which of the following statements accurately describes the fundamental difference between a \"Hard IP\" and a \"Soft IP\" core in ASIC design?",
   "During the physical verification stage of an Integrated Circuit (IC) design, what is the primary purpose of a \"Layout Versus Schematic (LVS)\" check?",
-  "In modern processor architectures, what is the primary role of a \"Hypervisor\" (also known as a Virtual Machine Monitor or VMM) in relation to the CPU?"
+  "In modern processor architectures, what is the primary role of a \"Hypervisor\" (also known as a Virtual Machine Monitor or VMM) in relation to the CPU?",
+  "In digital IC design, what does RTL primarily refer to?",
+  "When a CPU writes data to a cache, which of the following policies dictates that data is written simultaneously to both the cache and main memory?",
+  "Which advanced verification methodology focuses on creating reusable, configurable, and randomized test environments using a standard library of verification components to improve verification efficiency and coverage for complex SoCs?",
+  "Which advanced power management technique involves dynamically adjusting the operating voltage and frequency of a processor or specific IP blocks based on workload demands, aiming to optimize both power consumption and performance?",
+  "In a multi-processor system, what concept defines the rules for how memory operations (reads and writes) from different processors appear to be ordered, ensuring a consistent view of shared memory across all cores?"
 ]
