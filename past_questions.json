@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a clock signal in synchronous digital circuits?",
-  "Which of the following best describes the primary application of a Finite State Machine (FSM) in digital IC design?",
-  "In computer architecture, what is the primary benefit sought by employing Instruction Level Parallelism (ILP) techniques like pipelining and superscalar execution?",
-  "During the physical design phase of an Integrated Circuit (IC), what is the primary purpose of performing 'Design Rule Checking (DRC)'?",
-  "What is the fundamental principle that distinguishes a 'set-associative cache' from both direct-mapped and fully associative caches in computer architecture?",
   "Which of the following logic gates produces a HIGH output only when all of its inputs are HIGH?",
   "In a CPU, what is the primary function of the Program Counter (PC)?",
   "In the digital IC design flow, what is the primary purpose of 'Logic Equivalence Checking (LEC)'?",
@@ -48,5 +43,10 @@
   "When a CPU writes data to a cache, which of the following policies dictates that data is written simultaneously to both the cache and main memory?",
   "Which advanced verification methodology focuses on creating reusable, configurable, and randomized test environments using a standard library of verification components to improve verification efficiency and coverage for complex SoCs?",
   "Which advanced power management technique involves dynamically adjusting the operating voltage and frequency of a processor or specific IP blocks based on workload demands, aiming to optimize both power consumption and performance?",
-  "In a multi-processor system, what concept defines the rules for how memory operations (reads and writes) from different processors appear to be ordered, ensuring a consistent view of shared memory across all cores?"
+  "In a multi-processor system, what concept defines the rules for how memory operations (reads and writes) from different processors appear to be ordered, ensuring a consistent view of shared memory across all cores?",
+  "What is the initial design step when creating a new Application-Specific Integrated Circuit (ASIC)?",
+  "In digital IC design, what is the primary purpose of integrating \"scan chains\" into a circuit?",
+  "In the MESI cache coherence protocol, what state does a cache block enter if a processor owns the most up-to-date copy of data, and that data has been modified by this processor but not yet written back to main memory, and no other processor has a copy?",
+  "Which of the following best describes the core principle of \"formal verification\" in digital IC design?",
+  "What is the primary material used as the semiconductor substrate in the vast majority of Integrated Circuits (ICs)?"
 ]

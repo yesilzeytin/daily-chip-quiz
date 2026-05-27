@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In digital IC design, what does RTL primarily refer to?",
+      "question": "What is the initial design step when creating a new Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "Register Transfer Logic",
-        "Real-Time Layout",
-        "Routing and Timing Library",
-        "Reduced Test Language",
-        "Resistor Transistor Logic"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "When a CPU writes data to a cache, which of the following policies dictates that data is written simultaneously to both the cache and main memory?",
-      "options": [
-        "Write-back",
-        "Write-through",
-        "Write-allocate",
-        "No-write-allocate",
-        "Least Recently Used (LRU)"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which advanced verification methodology focuses on creating reusable, configurable, and randomized test environments using a standard library of verification components to improve verification efficiency and coverage for complex SoCs?",
-      "options": [
+        "RTL coding",
+        "Physical layout",
         "Design Rule Checking (DRC)",
-        "Layout Versus Schematic (LVS)",
-        "Universal Verification Methodology (UVM)",
-        "Static Timing Analysis (STA)",
-        "Logic Equivalence Checking (LEC)"
+        "Specification and architectural definition",
+        "Gate-level netlist generation"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In digital IC design, what is the primary purpose of integrating \"scan chains\" into a circuit?",
+      "options": [
+        "To improve circuit performance by reducing propagation delays.",
+        "To lower static power consumption by enabling power gating.",
+        "To enable efficient testing of sequential logic elements (flip-flops) for manufacturing defects.",
+        "To simplify the routing of high-speed clock signals.",
+        "To facilitate the concurrent execution of multiple instructions."
       ],
       "correct": 2
     },
     {
-      "question": "Which advanced power management technique involves dynamically adjusting the operating voltage and frequency of a processor or specific IP blocks based on workload demands, aiming to optimize both power consumption and performance?",
+      "question": "In the MESI cache coherence protocol, what state does a cache block enter if a processor owns the most up-to-date copy of data, and that data has been modified by this processor but not yet written back to main memory, and no other processor has a copy?",
       "options": [
-        "Power Gating",
-        "Clock Gating",
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Multi-threshold voltage (Multi-Vt) design",
-        "Body Biasing"
+        "Shared (S)",
+        "Exclusive (E)",
+        "Invalid (I)",
+        "Modified (M)",
+        "Owned (O)"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following best describes the core principle of \"formal verification\" in digital IC design?",
+      "options": [
+        "Simulating the design with a large number of random test vectors to achieve high coverage.",
+        "Comparing the gate-level netlist against the RTL for functional equivalence using simulation.",
+        "Mathematically proving the correctness of a design against a specification across all possible input sequences.",
+        "Measuring power consumption and performance metrics under various operating conditions.",
+        "Generating physical layout directly from RTL code for rapid prototyping."
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-processor system, what concept defines the rules for how memory operations (reads and writes) from different processors appear to be ordered, ensuring a consistent view of shared memory across all cores?",
+      "question": "What is the primary material used as the semiconductor substrate in the vast majority of Integrated Circuits (ICs)?",
       "options": [
-        "Cache Associativity",
-        "Paging",
-        "Memory Coherence Model",
-        "Virtual Addressing",
-        "Instruction Set Architecture (ISA)"
+        "Copper",
+        "Gold",
+        "Silicon",
+        "Aluminum",
+        "Gallium Arsenide"
       ],
       "correct": 2
     }
