@@ -1,9 +1,4 @@
 [
-  "Which of the following logic gates produces a HIGH output only when all of its inputs are HIGH?",
-  "In a CPU, what is the primary function of the Program Counter (PC)?",
-  "In the digital IC design flow, what is the primary purpose of 'Logic Equivalence Checking (LEC)'?",
-  "Which of the following factors is a primary reason for the increasing complexity and cost of manufacturing at advanced semiconductor technology nodes (e.g., 7nm, 5nm)?",
-  "In computer systems employing virtual memory, what is the primary function of the Memory Management Unit (MMU)?",
   "What is metastability in digital circuits, particularly concerning clock domain crossings?",
   "What is the primary distinction between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) regarding their data storage mechanism?",
   "In the physical design flow of an Integrated Circuit (IC), what is the primary purpose of 'parasitic extraction'?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary purpose of integrating \"scan chains\" into a circuit?",
   "In the MESI cache coherence protocol, what state does a cache block enter if a processor owns the most up-to-date copy of data, and that data has been modified by this processor but not yet written back to main memory, and no other processor has a copy?",
   "Which of the following best describes the core principle of \"formal verification\" in digital IC design?",
-  "What is the primary material used as the semiconductor substrate in the vast majority of Integrated Circuits (ICs)?"
+  "What is the primary material used as the semiconductor substrate in the vast majority of Integrated Circuits (ICs)?",
+  "What is the primary material used for interconnects (wires) within modern Integrated Circuits?",
+  "In digital IC design, what is the primary purpose of \"Emulation\" as a verification technique?",
+  "Which characteristic is most representative of a Reduced Instruction Set Computer (RISC) architecture?",
+  "In digital IC design, what is the primary benefit of implementing \"Clock Gating\"?",
+  "In computer architecture, what is the primary goal of \"Cache Prefetching\"?"
 ]

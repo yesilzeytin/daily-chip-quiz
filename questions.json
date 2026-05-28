@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the initial design step when creating a new Application-Specific Integrated Circuit (ASIC)?",
+      "question": "What is the primary material used for interconnects (wires) within modern Integrated Circuits?",
       "options": [
-        "RTL coding",
-        "Physical layout",
-        "Design Rule Checking (DRC)",
-        "Specification and architectural definition",
-        "Gate-level netlist generation"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In digital IC design, what is the primary purpose of integrating \"scan chains\" into a circuit?",
-      "options": [
-        "To improve circuit performance by reducing propagation delays.",
-        "To lower static power consumption by enabling power gating.",
-        "To enable efficient testing of sequential logic elements (flip-flops) for manufacturing defects.",
-        "To simplify the routing of high-speed clock signals.",
-        "To facilitate the concurrent execution of multiple instructions."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the MESI cache coherence protocol, what state does a cache block enter if a processor owns the most up-to-date copy of data, and that data has been modified by this processor but not yet written back to main memory, and no other processor has a copy?",
-      "options": [
-        "Shared (S)",
-        "Exclusive (E)",
-        "Invalid (I)",
-        "Modified (M)",
-        "Owned (O)"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Which of the following best describes the core principle of \"formal verification\" in digital IC design?",
-      "options": [
-        "Simulating the design with a large number of random test vectors to achieve high coverage.",
-        "Comparing the gate-level netlist against the RTL for functional equivalence using simulation.",
-        "Mathematically proving the correctness of a design against a specification across all possible input sequences.",
-        "Measuring power consumption and performance metrics under various operating conditions.",
-        "Generating physical layout directly from RTL code for rapid prototyping."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary material used as the semiconductor substrate in the vast majority of Integrated Circuits (ICs)?",
-      "options": [
-        "Copper",
-        "Gold",
         "Silicon",
+        "Germanium",
+        "Copper",
         "Aluminum",
-        "Gallium Arsenide"
+        "Polysilicon"
       ],
       "correct": 2
+    },
+    {
+      "question": "In digital IC design, what is the primary purpose of \"Emulation\" as a verification technique?",
+      "options": [
+        "To formally prove the correctness of a design against a specification.",
+        "To check for electrical rule violations (ERC) in the layout.",
+        "To simulate the design's behavior at very high speeds, often using an FPGA-based platform, for pre-silicon validation of complex SoCs.",
+        "To perform static timing analysis on the finished layout.",
+        "To extract parasitic resistances and capacitances from the layout."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which characteristic is most representative of a Reduced Instruction Set Computer (RISC) architecture?",
+      "options": [
+        "Complex, variable-length instructions and numerous addressing modes.",
+        "Extensive use of microcode to implement complex instructions.",
+        "A small, uniform instruction set with fixed-length instructions, often executed in a single clock cycle or a few cycles.",
+        "Direct manipulation of memory operands without requiring load/store instructions.",
+        "Emphasis on high-level language support through specialized instructions."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In digital IC design, what is the primary benefit of implementing \"Clock Gating\"?",
+      "options": [
+        "To reduce leakage current by disconnecting power supplies to idle blocks.",
+        "To improve signal integrity by reducing crosstalk between adjacent wires.",
+        "To dynamically adjust the processor's operating frequency based on workload.",
+        "To reduce dynamic power consumption by disabling the clock signal to idle sequential elements and combinational logic.",
+        "To increase the operating frequency of critical paths."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In computer architecture, what is the primary goal of \"Cache Prefetching\"?",
+      "options": [
+        "To ensure data consistency across multiple caches in a multi-processor system.",
+        "To reduce the latency of cache misses by speculatively loading data into the cache before it is explicitly requested by the CPU.",
+        "To manage the mapping between virtual and physical memory addresses.",
+        "To determine which cache block to evict when the cache is full and a new block needs to be loaded.",
+        "To prevent unauthorized access to memory regions by different processes."
+      ],
+      "correct": 1
     }
   ]
 }
