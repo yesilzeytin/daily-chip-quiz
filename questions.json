@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary material used for interconnects (wires) within modern Integrated Circuits?",
+      "question": "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a 'standard cell'?",
       "options": [
-        "Silicon",
-        "Germanium",
-        "Copper",
-        "Aluminum",
-        "Polysilicon"
+        "A pre-designed and pre-characterized basic logic building block (e.g., NAND gate, D flip-flop) available in a library.",
+        "A specialized analog circuit used for power delivery to critical components.",
+        "A memory module with configurable size and access time, typically used for caches.",
+        "A high-speed communication interface block for off-chip data transfer.",
+        "A diagnostic circuit for monitoring the operating temperature of the chip."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In digital IC design, what is the primary purpose of \"Emulation\" as a verification technique?",
+      "question": "Which cache replacement policy selects the cache block for eviction that has not been referenced for the longest period of time?",
       "options": [
-        "To formally prove the correctness of a design against a specification.",
-        "To check for electrical rule violations (ERC) in the layout.",
-        "To simulate the design's behavior at very high speeds, often using an FPGA-based platform, for pre-silicon validation of complex SoCs.",
-        "To perform static timing analysis on the finished layout.",
-        "To extract parasitic resistances and capacitances from the layout."
+        "Least Recently Used (LRU)",
+        "First-In, First-Out (FIFO)",
+        "Random Replacement (RR)",
+        "Least Frequently Used (LFU)",
+        "Most Recently Used (MRU)"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "Which characteristic is most representative of a Reduced Instruction Set Computer (RISC) architecture?",
+      "question": "In Static Timing Analysis (STA) for a flip-flop, what does a 'hold time violation' primarily indicate?",
       "options": [
-        "Complex, variable-length instructions and numerous addressing modes.",
-        "Extensive use of microcode to implement complex instructions.",
-        "A small, uniform instruction set with fixed-length instructions, often executed in a single clock cycle or a few cycles.",
-        "Direct manipulation of memory operands without requiring load/store instructions.",
-        "Emphasis on high-level language support through specialized instructions."
+        "The data input to the flip-flop changed too soon after the active clock edge, failing to hold the previous data stable long enough.",
+        "The data input arrived too late before the active clock edge, failing to meet the setup requirement.",
+        "The clock signal itself is unstable or has excessive jitter.",
+        "The output of the flip-flop cannot propagate to the next sequential element within the clock period.",
+        "The reset signal was not de-asserted in time before the clock edge."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In digital IC design, what is the primary benefit of implementing \"Clock Gating\"?",
+      "question": "In Design for Testability (DFT) for digital ICs, what is the primary purpose of Automatic Test Pattern Generation (ATPG)?",
       "options": [
-        "To reduce leakage current by disconnecting power supplies to idle blocks.",
-        "To improve signal integrity by reducing crosstalk between adjacent wires.",
-        "To dynamically adjust the processor's operating frequency based on workload.",
-        "To reduce dynamic power consumption by disabling the clock signal to idle sequential elements and combinational logic.",
-        "To increase the operating frequency of critical paths."
+        "To automatically generate the Register Transfer Level (RTL) code from high-level specifications.",
+        "To create a set of input stimuli (test vectors) that can detect a high percentage of potential manufacturing defects in the circuit.",
+        "To verify the functional correctness of the design against its behavioral model.",
+        "To synthesize the gate-level netlist from the RTL code, optimizing for area and performance.",
+        "To estimate the power consumption of the chip under various operational scenarios."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "In computer architecture, what is the primary goal of \"Cache Prefetching\"?",
+      "question": "In multi-processor computer systems, what is the primary role of an 'atomic operation' (e.g., atomic increment, compare-and-swap)?",
       "options": [
-        "To ensure data consistency across multiple caches in a multi-processor system.",
-        "To reduce the latency of cache misses by speculatively loading data into the cache before it is explicitly requested by the CPU.",
-        "To manage the mapping between virtual and physical memory addresses.",
-        "To determine which cache block to evict when the cache is full and a new block needs to be loaded.",
-        "To prevent unauthorized access to memory regions by different processes."
+        "To enhance the performance of single-threaded applications by bypassing cache memory.",
+        "To ensure that an operation on shared memory appears to be instantaneous and indivisible to all other processors, preventing data corruption from concurrent access.",
+        "To optimize the instruction fetch and decode stages of the CPU pipeline.",
+        "To reduce the number of instructions required to perform complex mathematical computations.",
+        "To manage the allocation and deallocation of virtual memory pages."
       ],
       "correct": 1
     }

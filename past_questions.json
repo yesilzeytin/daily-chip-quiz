@@ -1,9 +1,4 @@
 [
-  "What is metastability in digital circuits, particularly concerning clock domain crossings?",
-  "What is the primary distinction between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) regarding their data storage mechanism?",
-  "In the physical design flow of an Integrated Circuit (IC), what is the primary purpose of 'parasitic extraction'?",
-  "In modern pipelined processors, what is the fundamental role of a 'Branch Predictor'?",
-  "Which low-power design technique primarily aims to reduce static (leakage) power consumption by selectively disconnecting power supplies to idle blocks or portions of an Integrated Circuit?",
   "What is the primary function of a D flip-flop in digital circuits?",
   "What is the main concept behind 'out-of-order execution' in modern CPUs?",
   "In the physical design flow of a digital IC, what is the primary goal of Clock Tree Synthesis (CTS)?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary purpose of \"Emulation\" as a verification technique?",
   "Which characteristic is most representative of a Reduced Instruction Set Computer (RISC) architecture?",
   "In digital IC design, what is the primary benefit of implementing \"Clock Gating\"?",
-  "In computer architecture, what is the primary goal of \"Cache Prefetching\"?"
+  "In computer architecture, what is the primary goal of \"Cache Prefetching\"?",
+  "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a 'standard cell'?",
+  "Which cache replacement policy selects the cache block for eviction that has not been referenced for the longest period of time?",
+  "In Static Timing Analysis (STA) for a flip-flop, what does a 'hold time violation' primarily indicate?",
+  "In Design for Testability (DFT) for digital ICs, what is the primary purpose of Automatic Test Pattern Generation (ATPG)?",
+  "In multi-processor computer systems, what is the primary role of an 'atomic operation' (e.g., atomic increment, compare-and-swap)?"
 ]
