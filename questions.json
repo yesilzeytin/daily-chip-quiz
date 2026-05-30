@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a 'standard cell'?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital logic?",
       "options": [
-        "A pre-designed and pre-characterized basic logic building block (e.g., NAND gate, D flip-flop) available in a library.",
-        "A specialized analog circuit used for power delivery to critical components.",
-        "A memory module with configurable size and access time, typically used for caches.",
-        "A high-speed communication interface block for off-chip data transfer.",
-        "A diagnostic circuit for monitoring the operating temperature of the chip."
+        "To store a single bit of information.",
+        "To perform arithmetic operations like addition or subtraction.",
+        "To select one of several input signals and route it to a single output.",
+        "To convert analog signals into digital signals.",
+        "To generate a stable clock signal for synchronous circuits."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "Which cache replacement policy selects the cache block for eviction that has not been referenced for the longest period of time?",
+      "question": "In the context of computer architecture, what is the primary purpose of a \"branch predictor\"?",
       "options": [
-        "Least Recently Used (LRU)",
-        "First-In, First-Out (FIFO)",
-        "Random Replacement (RR)",
-        "Least Frequently Used (LFU)",
-        "Most Recently Used (MRU)"
+        "To ensure data consistency across multiple CPU caches in a multi-processor system.",
+        "To translate virtual memory addresses into physical memory addresses.",
+        "To anticipate the outcome of conditional branch instructions to minimize pipeline stalls.",
+        "To manage the allocation and deallocation of memory segments for running programs.",
+        "To determine the endianness of data stored in memory."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In Static Timing Analysis (STA) for a flip-flop, what does a 'hold time violation' primarily indicate?",
+      "question": "What is the primary role of \"Design Rule Checking (DRC)\" in the physical verification stage of Integrated Circuit (IC) design?",
       "options": [
-        "The data input to the flip-flop changed too soon after the active clock edge, failing to hold the previous data stable long enough.",
-        "The data input arrived too late before the active clock edge, failing to meet the setup requirement.",
-        "The clock signal itself is unstable or has excessive jitter.",
-        "The output of the flip-flop cannot propagate to the next sequential element within the clock period.",
-        "The reset signal was not de-asserted in time before the clock edge."
+        "To compare the layout against the RTL code to verify functional equivalence.",
+        "To ensure that all power and ground connections are properly routed to every transistor.",
+        "To identify manufacturing violations by checking the physical layout against foundry-specific geometric constraints (e.g., minimum width, spacing, overlap).",
+        "To extract parasitic capacitances and resistances from the layout for post-layout timing analysis.",
+        "To generate a netlist from the layout for comparison with the schematic netlist."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In Design for Testability (DFT) for digital ICs, what is the primary purpose of Automatic Test Pattern Generation (ATPG)?",
+      "question": "In asynchronous digital design, which concept or element is primarily used to ensure proper sequencing of events and reliable data transfer between communicating modules without relying on a global clock signal?",
       "options": [
-        "To automatically generate the Register Transfer Level (RTL) code from high-level specifications.",
-        "To create a set of input stimuli (test vectors) that can detect a high percentage of potential manufacturing defects in the circuit.",
-        "To verify the functional correctness of the design against its behavioral model.",
-        "To synthesize the gate-level netlist from the RTL code, optimizing for area and performance.",
-        "To estimate the power consumption of the chip under various operational scenarios."
+        "D Flip-flops",
+        "Global Clock Tree",
+        "Handshake protocols and asynchronous controllers (e.g., C-elements)",
+        "Level-sensitive Latches",
+        "Combinational Logic Gates"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In multi-processor computer systems, what is the primary role of an 'atomic operation' (e.g., atomic increment, compare-and-swap)?",
+      "question": "In digital IC design, what does the term \"Fan-out\" primarily refer to?",
       "options": [
-        "To enhance the performance of single-threaded applications by bypassing cache memory.",
-        "To ensure that an operation on shared memory appears to be instantaneous and indivisible to all other processors, preventing data corruption from concurrent access.",
-        "To optimize the instruction fetch and decode stages of the CPU pipeline.",
-        "To reduce the number of instructions required to perform complex mathematical computations.",
-        "To manage the allocation and deallocation of virtual memory pages."
+        "The total number of input pins on a logic gate.",
+        "The maximum frequency at which a logic gate can reliably operate.",
+        "The number of logic gates that a single output can drive while maintaining specified voltage levels and timing.",
+        "The amount of power consumed by a logic gate under typical operating conditions.",
+        "The propagation delay from an input to an output of a logic gate."
       ],
-      "correct": 1
+      "correct": 2
     }
   ]
 }
