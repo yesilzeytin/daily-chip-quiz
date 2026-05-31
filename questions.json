@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital logic?",
+      "question": "What is the primary function of an Arithmetic Logic Unit (ALU) within a CPU?",
       "options": [
-        "To store a single bit of information.",
-        "To perform arithmetic operations like addition or subtraction.",
-        "To select one of several input signals and route it to a single output.",
-        "To convert analog signals into digital signals.",
-        "To generate a stable clock signal for synchronous circuits."
+        "Manages memory access for all operations.",
+        "Executes arithmetic and bitwise logical operations.",
+        "Stores program instructions for execution.",
+        "Controls the flow of data between CPU and I/O devices.",
+        "Performs prefetching of instructions from main memory."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the typical digital IC design flow, what is the primary output of the 'logic synthesis' step?",
+      "options": [
+        "A Register Transfer Level (RTL) description in Verilog or VHDL.",
+        "A GDSII file ready for manufacturing.",
+        "A gate-level netlist optimized for target technology.",
+        "A detailed floorplan with power grid and I/O placements.",
+        "A set of test patterns for functional verification."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of computer architecture, what is the primary purpose of a \"branch predictor\"?",
+      "question": "In a pipelined processor, what is the primary technique used to mitigate 'data hazards' (RAW dependencies) without stalling the pipeline, by directly providing the result of an earlier instruction to a later instruction that needs it, before the result is written back to the register file?",
       "options": [
-        "To ensure data consistency across multiple CPU caches in a multi-processor system.",
-        "To translate virtual memory addresses into physical memory addresses.",
-        "To anticipate the outcome of conditional branch instructions to minimize pipeline stalls.",
-        "To manage the allocation and deallocation of memory segments for running programs.",
-        "To determine the endianness of data stored in memory."
+        "Branch prediction.",
+        "Memory prefetching.",
+        "Register renaming.",
+        "Operand forwarding (or bypassing).",
+        "Instruction-level parallelism."
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "What is the primary role of \"Design Rule Checking (DRC)\" in the physical verification stage of Integrated Circuit (IC) design?",
+      "question": "In advanced System-on-Chip (SoC) design, what is the primary purpose of defining multiple 'power domains' and using standards like the Unified Power Format (UPF)?",
       "options": [
-        "To compare the layout against the RTL code to verify functional equivalence.",
-        "To ensure that all power and ground connections are properly routed to every transistor.",
-        "To identify manufacturing violations by checking the physical layout against foundry-specific geometric constraints (e.g., minimum width, spacing, overlap).",
-        "To extract parasitic capacitances and resistances from the layout for post-layout timing analysis.",
-        "To generate a netlist from the layout for comparison with the schematic netlist."
+        "To simplify the routing of high-speed clock signals across the chip.",
+        "To enable fine-grained power management, such as power gating or dynamic voltage and frequency scaling (DVFS), for different parts of the chip.",
+        "To establish a consistent memory coherence protocol for multi-core processors.",
+        "To optimize the physical placement of standard cells for minimal area.",
+        "To ensure proper synchronization between asynchronous clock domains."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "In asynchronous digital design, which concept or element is primarily used to ensure proper sequencing of events and reliable data transfer between communicating modules without relying on a global clock signal?",
+      "question": "In semiconductor manufacturing, what is the primary role of 'doping' the silicon substrate with impurities like Boron or Phosphorus?",
       "options": [
-        "D Flip-flops",
-        "Global Clock Tree",
-        "Handshake protocols and asynchronous controllers (e.g., C-elements)",
-        "Level-sensitive Latches",
-        "Combinational Logic Gates"
+        "To increase the physical strength and durability of the silicon wafer.",
+        "To make the silicon substrate electrically conductive and create n-type or p-type regions.",
+        "To prevent electromagnetic interference between adjacent circuit components.",
+        "To enhance the optical properties of silicon for sensor applications.",
+        "To serve as a dielectric material for capacitors."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In digital IC design, what does the term \"Fan-out\" primarily refer to?",
-      "options": [
-        "The total number of input pins on a logic gate.",
-        "The maximum frequency at which a logic gate can reliably operate.",
-        "The number of logic gates that a single output can drive while maintaining specified voltage levels and timing.",
-        "The amount of power consumed by a logic gate under typical operating conditions.",
-        "The propagation delay from an input to an output of a logic gate."
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
