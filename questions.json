@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of an Arithmetic Logic Unit (ALU) within a CPU?",
+      "question": "What does HDL primarily stand for in the context of digital circuit design?",
       "options": [
-        "Manages memory access for all operations.",
-        "Executes arithmetic and bitwise logical operations.",
-        "Stores program instructions for execution.",
-        "Controls the flow of data between CPU and I/O devices.",
-        "Performs prefetching of instructions from main memory."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the typical digital IC design flow, what is the primary output of the 'logic synthesis' step?",
-      "options": [
-        "A Register Transfer Level (RTL) description in Verilog or VHDL.",
-        "A GDSII file ready for manufacturing.",
-        "A gate-level netlist optimized for target technology.",
-        "A detailed floorplan with power grid and I/O placements.",
-        "A set of test patterns for functional verification."
+        "Hardware Design Language",
+        "High-level Development Logic",
+        "Hardware Description Language",
+        "Hierarchical Digital Layer",
+        "Hard Drive Logic"
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what is the primary technique used to mitigate 'data hazards' (RAW dependencies) without stalling the pipeline, by directly providing the result of an earlier instruction to a later instruction that needs it, before the result is written back to the register file?",
+      "question": "In digital IC design, which phase involves mapping the Register Transfer Level (RTL) design to a gate-level netlist using a specific technology library of standard cells?",
       "options": [
-        "Branch prediction.",
-        "Memory prefetching.",
-        "Register renaming.",
-        "Operand forwarding (or bypassing).",
-        "Instruction-level parallelism."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In advanced System-on-Chip (SoC) design, what is the primary purpose of defining multiple 'power domains' and using standards like the Unified Power Format (UPF)?",
-      "options": [
-        "To simplify the routing of high-speed clock signals across the chip.",
-        "To enable fine-grained power management, such as power gating or dynamic voltage and frequency scaling (DVFS), for different parts of the chip.",
-        "To establish a consistent memory coherence protocol for multi-core processors.",
-        "To optimize the physical placement of standard cells for minimal area.",
-        "To ensure proper synchronization between asynchronous clock domains."
+        "Physical Verification",
+        "Logic Synthesis",
+        "Static Timing Analysis",
+        "Place and Route",
+        "Functional Simulation"
       ],
       "correct": 1
     },
     {
-      "question": "In semiconductor manufacturing, what is the primary role of 'doping' the silicon substrate with impurities like Boron or Phosphorus?",
+      "question": "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
       "options": [
-        "To increase the physical strength and durability of the silicon wafer.",
-        "To make the silicon substrate electrically conductive and create n-type or p-type regions.",
-        "To prevent electromagnetic interference between adjacent circuit components.",
-        "To enhance the optical properties of silicon for sensor applications.",
-        "To serve as a dielectric material for capacitors."
+        "To store recently executed instructions for faster re-execution",
+        "To accelerate the translation of virtual memory addresses to physical memory addresses",
+        "To manage the order of instruction execution in an out-of-order processor",
+        "To provide temporary storage for CPU registers during context switching",
+        "To buffer I/O requests before they are sent to peripheral devices"
       ],
       "correct": 1
+    },
+    {
+      "question": "In high-performance Integrated Circuit (IC) design, what primary issue does \"IR drop\" analysis aim to identify and mitigate?",
+      "options": [
+        "Excessive temperature rise due to localized power dissipation in the silicon",
+        "Variability in transistor threshold voltages across the entire chip due to manufacturing process fluctuations",
+        "Voltage fluctuations on the on-chip power supply network caused by current flow through resistive interconnects",
+        "Signal integrity issues such as crosstalk between adjacent routing wires",
+        "Manufacturing defects related to lithography masks causing short circuits or opens"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In modern processor architectures, what is the primary benefit achieved by implementing Simultaneous Multithreading (SMT), often marketed as Hyper-Threading by Intel?",
+      "options": [
+        "Reducing the number of pipeline stages to achieve higher clock frequencies",
+        "Allowing multiple independent processors to share a single main memory module without contention",
+        "Improving processor utilization by executing instructions from multiple independent threads concurrently on a single physical execution core",
+        "Enabling dynamic adjustment of the processor's operating voltage and frequency for power efficiency",
+        "Providing hardware-level isolation and security between different virtual machines running on the same host"
+      ],
+      "correct": 2
     }
   ]
 }

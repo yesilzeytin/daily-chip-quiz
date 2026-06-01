@@ -1,9 +1,4 @@
 [
-  "What is a fundamental characteristic of a synchronous digital circuit?",
-  "What is the primary purpose of floorplanning in the physical design phase of an Application-Specific Integrated Circuit (ASIC)?",
-  "What is the primary role of microcode in the design of a Complex Instruction Set Computer (CISC) processor?",
-  "In an out-of-order execution pipeline, what mechanism is primarily responsible for ensuring that instructions commit (retire) in their original program order, even if executed out of order?",
-  "In Static Timing Analysis (STA), what does a 'setup time violation' primarily indicate for a flip-flop?",
   "What is the fundamental difference in functionality between combinational logic circuits and sequential logic circuits?",
   "In an Application-Specific Integrated Circuit (ASIC) design flow, what is the primary goal of \"physical synthesis\"?",
   "What is the primary characteristic that differentiates a Harvard architecture from a Von Neumann architecture in computer systems?",
@@ -48,5 +43,10 @@
   "In the typical digital IC design flow, what is the primary output of the 'logic synthesis' step?",
   "In a pipelined processor, what is the primary technique used to mitigate 'data hazards' (RAW dependencies) without stalling the pipeline, by directly providing the result of an earlier instruction to a later instruction that needs it, before the result is written back to the register file?",
   "In advanced System-on-Chip (SoC) design, what is the primary purpose of defining multiple 'power domains' and using standards like the Unified Power Format (UPF)?",
-  "In semiconductor manufacturing, what is the primary role of 'doping' the silicon substrate with impurities like Boron or Phosphorus?"
+  "In semiconductor manufacturing, what is the primary role of 'doping' the silicon substrate with impurities like Boron or Phosphorus?",
+  "What does HDL primarily stand for in the context of digital circuit design?",
+  "In digital IC design, which phase involves mapping the Register Transfer Level (RTL) design to a gate-level netlist using a specific technology library of standard cells?",
+  "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
+  "In high-performance Integrated Circuit (IC) design, what primary issue does \"IR drop\" analysis aim to identify and mitigate?",
+  "In modern processor architectures, what is the primary benefit achieved by implementing Simultaneous Multithreading (SMT), often marketed as Hyper-Threading by Intel?"
 ]
