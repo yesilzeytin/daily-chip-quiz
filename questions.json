@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What does HDL primarily stand for in the context of digital circuit design?",
+      "question": "What is the primary function of the Program Counter (PC) in a CPU?",
       "options": [
-        "Hardware Design Language",
-        "High-level Development Logic",
-        "Hardware Description Language",
-        "Hierarchical Digital Layer",
-        "Hard Drive Logic"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In digital IC design, which phase involves mapping the Register Transfer Level (RTL) design to a gate-level netlist using a specific technology library of standard cells?",
-      "options": [
-        "Physical Verification",
-        "Logic Synthesis",
-        "Static Timing Analysis",
-        "Place and Route",
-        "Functional Simulation"
+        "Stores the result of arithmetic operations.",
+        "Holds the memory address of the next instruction to be fetched.",
+        "Manages the data transfer between CPU and I/O devices.",
+        "Keeps track of the current privilege level of the executing program.",
+        "Temporarily stores data being read from or written to main memory."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
+      "question": "In the physical design phase of an Integrated Circuit (IC), what is the primary goal of Clock Tree Synthesis (CTS)?",
       "options": [
-        "To store recently executed instructions for faster re-execution",
-        "To accelerate the translation of virtual memory addresses to physical memory addresses",
-        "To manage the order of instruction execution in an out-of-order processor",
-        "To provide temporary storage for CPU registers during context switching",
-        "To buffer I/O requests before they are sent to peripheral devices"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In high-performance Integrated Circuit (IC) design, what primary issue does \"IR drop\" analysis aim to identify and mitigate?",
-      "options": [
-        "Excessive temperature rise due to localized power dissipation in the silicon",
-        "Variability in transistor threshold voltages across the entire chip due to manufacturing process fluctuations",
-        "Voltage fluctuations on the on-chip power supply network caused by current flow through resistive interconnects",
-        "Signal integrity issues such as crosstalk between adjacent routing wires",
-        "Manufacturing defects related to lithography masks causing short circuits or opens"
+        "To verify the logical equivalence between RTL and gate-level netlists.",
+        "To place and route all standard cells and macros efficiently.",
+        "To minimize clock skew and clock latency across all sequential elements.",
+        "To generate test patterns for manufacturing defect detection.",
+        "To determine the optimal power grid structure for minimal IR drop."
       ],
       "correct": 2
     },
     {
-      "question": "In modern processor architectures, what is the primary benefit achieved by implementing Simultaneous Multithreading (SMT), often marketed as Hyper-Threading by Intel?",
+      "question": "In an out-of-order execution processor, what is the primary role of a 'Reorder Buffer' (ROB)?",
       "options": [
-        "Reducing the number of pipeline stages to achieve higher clock frequencies",
-        "Allowing multiple independent processors to share a single main memory module without contention",
-        "Improving processor utilization by executing instructions from multiple independent threads concurrently on a single physical execution core",
-        "Enabling dynamic adjustment of the processor's operating voltage and frequency for power efficiency",
-        "Providing hardware-level isolation and security between different virtual machines running on the same host"
+        "To store micro-operations (uOps) that are ready to be dispatched to execution units.",
+        "To manage the translation of virtual addresses to physical addresses.",
+        "To ensure that instructions commit in their original program order, even if executed out-of-order.",
+        "To buffer predicted branch targets to reduce misprediction penalties.",
+        "To hold the most recently used data blocks for fast access by the CPU."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What characteristic of a MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) primarily determines the voltage at which the transistor begins to conduct current between its source and drain terminals?",
+      "options": [
+        "Channel Length",
+        "Gate Capacitance",
+        "Threshold Voltage",
+        "Transconductance",
+        "Breakdown Voltage"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a computer system with virtual memory, what is the primary purpose of a 'virtual address' as opposed to a 'physical address'?",
+      "options": [
+        "To uniquely identify a specific memory module on the motherboard.",
+        "To directly access data stored in a CPU's internal registers.",
+        "To provide each program with a private, contiguous address space, isolating it from other programs and the actual hardware memory layout.",
+        "To specify the exact location of a data block within the CPU's L1 cache.",
+        "To control the flow of data between the CPU and peripheral devices."
       ],
       "correct": 2
     }
