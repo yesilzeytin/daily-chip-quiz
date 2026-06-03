@@ -1,9 +1,4 @@
 [
-  "What is the primary role of a register file in a CPU?",
-  "In the context of chip manufacturing, what fundamental process does 'photolithography' primarily describe?",
-  "What is the primary purpose of a 'Guard Band' in analog mixed-signal Integrated Circuit (IC) layout?",
-  "In the design of a highly pipelined processor, what type of hazard does a 'structural hazard' primarily represent?",
-  "What is the main function of an 'endianness' convention (e.g., Big-Endian, Little-Endian) in computer architecture?",
   "What is the primary advantage of using Field-Programmable Gate Arrays (FPGAs) over Application-Specific Integrated Circuits (ASICs) for prototyping or low-volume production?",
   "In the context of computer architecture, which of the following best describes the primary goal of a \"cache coherence protocol\" in a multi-processor system?",
   "Which of the following statements accurately describes the fundamental difference between a \"Hard IP\" and a \"Soft IP\" core in ASIC design?",
@@ -48,5 +43,10 @@
   "In the physical design phase of an Integrated Circuit (IC), what is the primary goal of Clock Tree Synthesis (CTS)?",
   "In an out-of-order execution processor, what is the primary role of a 'Reorder Buffer' (ROB)?",
   "What characteristic of a MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) primarily determines the voltage at which the transistor begins to conduct current between its source and drain terminals?",
-  "In a computer system with virtual memory, what is the primary purpose of a 'virtual address' as opposed to a 'physical address'?"
+  "In a computer system with virtual memory, what is the primary purpose of a 'virtual address' as opposed to a 'physical address'?",
+  "What is the fundamental building block of sequential digital logic circuits, primarily used for storing a single bit of information?",
+  "In a computer system employing virtual memory, what is the primary purpose of a 'page table'?",
+  "What is the primary role of 'parasitic extraction' in the backend of the digital IC design flow?",
+  "In modern out-of-order execution processors, what is the fundamental principle behind 'Register Renaming'?",
+  "What is the primary advantage of a Harvard architecture over a Von Neumann architecture?"
 ]
