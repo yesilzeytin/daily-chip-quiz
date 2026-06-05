@@ -1,9 +1,4 @@
 [
-  "In digital IC design, what does RTL primarily refer to?",
-  "When a CPU writes data to a cache, which of the following policies dictates that data is written simultaneously to both the cache and main memory?",
-  "Which advanced verification methodology focuses on creating reusable, configurable, and randomized test environments using a standard library of verification components to improve verification efficiency and coverage for complex SoCs?",
-  "Which advanced power management technique involves dynamically adjusting the operating voltage and frequency of a processor or specific IP blocks based on workload demands, aiming to optimize both power consumption and performance?",
-  "In a multi-processor system, what concept defines the rules for how memory operations (reads and writes) from different processors appear to be ordered, ensuring a consistent view of shared memory across all cores?",
   "What is the initial design step when creating a new Application-Specific Integrated Circuit (ASIC)?",
   "In digital IC design, what is the primary purpose of integrating \"scan chains\" into a circuit?",
   "In the MESI cache coherence protocol, what state does a cache block enter if a processor owns the most up-to-date copy of data, and that data has been modified by this processor but not yet written back to main memory, and no other processor has a copy?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary function of a \"Phase-Locked Loop (PLL)\"?",
   "Which statement best describes a \"load-store architecture\" commonly found in RISC processors?",
   "In CMOS integrated circuits, what phenomenon is commonly referred to as \"latch-up\"?",
-  "What is the primary architectural feature that allows a modern CPU to achieve \"superscalar\" performance?"
+  "What is the primary architectural feature that allows a modern CPU to achieve \"superscalar\" performance?",
+  "What is the primary advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology over older NMOS or PMOS technologies for designing digital logic circuits?",
+  "In a pipelined processor, which type of hazard is primarily addressed by inserting a 'bubble' (or NOP instruction) into the pipeline when a branch instruction is taken, to prevent incorrect instructions from being fetched and executed before the correct target address is known?",
+  "After the logic synthesis phase transforms the Register Transfer Level (RTL) design into a gate-level netlist, which specific formal verification technique is typically employed to mathematically prove that this synthesized gate-level netlist is functionally identical to the original RTL design?",
+  "What is the primary reason that Dynamic Random-Access Memory (DRAM) is overwhelmingly preferred for main system memory (RAM) in computers, despite being slower and requiring periodic refresh cycles compared to Static Random-Access Memory (SRAM)?",
+  "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), after the standard cells have been placed onto the silicon area, what is the primary objective of the 'routing' step?"
 ]

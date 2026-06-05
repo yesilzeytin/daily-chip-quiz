@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In semiconductor manufacturing, what is the primary role of \"photolithography\"?",
+      "question": "What is the primary advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology over older NMOS or PMOS technologies for designing digital logic circuits?",
       "options": [
-        "Depositing thin layers of metal for interconnects.",
-        "Transferring a geometric pattern from a mask to a wafer using light.",
-        "Removing unwanted material through chemical etching.",
-        "Implanting ions to change semiconductor conductivity.",
-        "Growing a protective oxide layer on the silicon surface."
+        "CMOS enables significantly higher maximum clock frequencies due to faster transistor switching speeds.",
+        "CMOS offers substantially lower static power consumption because one transistor in a complementary pair is always off in a stable state.",
+        "CMOS requires a much simpler and less expensive manufacturing process compared to single-transistor logic families.",
+        "CMOS allows for much smaller individual transistor sizes, leading to higher integration density.",
+        "CMOS circuits are inherently more resistant to electromagnetic interference (EMI)."
       ],
       "correct": 1
     },
     {
-      "question": "In digital IC design, what is the primary function of a \"Phase-Locked Loop (PLL)\"?",
+      "question": "In a pipelined processor, which type of hazard is primarily addressed by inserting a 'bubble' (or NOP instruction) into the pipeline when a branch instruction is taken, to prevent incorrect instructions from being fetched and executed before the correct target address is known?",
       "options": [
-        "To perform high-speed analog-to-digital conversion.",
-        "To regulate the power supply voltage to different blocks.",
-        "To generate and synchronize clock signals at various frequencies and phases.",
-        "To provide electrostatic discharge (ESD) protection for I/O pins.",
-        "To buffer and amplify data signals between different logic gates."
+        "Data Hazard",
+        "Structural Hazard",
+        "Control Hazard",
+        "Resource Hazard",
+        "Memory Hazard"
       ],
       "correct": 2
     },
     {
-      "question": "Which statement best describes a \"load-store architecture\" commonly found in RISC processors?",
+      "question": "After the logic synthesis phase transforms the Register Transfer Level (RTL) design into a gate-level netlist, which specific formal verification technique is typically employed to mathematically prove that this synthesized gate-level netlist is functionally identical to the original RTL design?",
       "options": [
-        "All instructions can operate directly on memory operands.",
-        "The CPU can execute multiple memory access operations in a single clock cycle.",
-        "Instructions are always fetched from a separate instruction memory and data from a separate data memory.",
-        "Only load and store instructions can access memory; arithmetic/logic operations work exclusively on registers.",
-        "The architecture supports variable-length instructions with complex addressing modes."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In CMOS integrated circuits, what phenomenon is commonly referred to as \"latch-up\"?",
-      "options": [
-        "A temporary short circuit between power and ground rails due to simultaneous switching noise.",
-        "The degradation of transistor threshold voltage over time due to hot carrier injection.",
-        "The unintended triggering of parasitic bipolar transistors, leading to a high-current path and potential device damage.",
-        "An error in the clock synchronization that causes a flip-flop to enter an unstable state.",
-        "The complete breakdown of a gate oxide layer due to excessive voltage stress."
+        "Gate-Level Simulation (GLS)",
+        "Automatic Test Pattern Generation (ATPG)",
+        "Formal Equivalence Checking (LEC)",
+        "Static Timing Analysis (STA)",
+        "Design Rule Checking (DRC)"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary architectural feature that allows a modern CPU to achieve \"superscalar\" performance?",
+      "question": "What is the primary reason that Dynamic Random-Access Memory (DRAM) is overwhelmingly preferred for main system memory (RAM) in computers, despite being slower and requiring periodic refresh cycles compared to Static Random-Access Memory (SRAM)?",
       "options": [
-        "Employing a very deep instruction pipeline (e.g., 20+ stages).",
-        "Integrating a powerful Graphics Processing Unit (GPU) on the same die.",
-        "Executing multiple instructions in parallel using multiple independent execution units.",
-        "Having a dedicated cache for each processing core.",
-        "Using a larger register file to hold more intermediate results."
+        "DRAM offers significantly lower manufacturing costs per chip.",
+        "DRAM provides non-volatile storage, retaining data even without power.",
+        "DRAM cells are much simpler, requiring fewer transistors per bit, leading to significantly higher storage density.",
+        "DRAM has an intrinsically faster random access time than SRAM.",
+        "DRAM is more resistant to single-event upsets (SEUs) from cosmic rays."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), after the standard cells have been placed onto the silicon area, what is the primary objective of the 'routing' step?",
+      "options": [
+        "To minimize the total power consumption of the chip by optimizing cell placement.",
+        "To perform a comprehensive check for any violations of semiconductor manufacturing rules.",
+        "To connect the input and output pins of the placed standard cells according to the netlist using metal interconnects.",
+        "To generate and optimize the global clock distribution network to ensure minimal clock skew.",
+        "To create the hierarchical floorplan for the entire chip, defining the boundaries of major IP blocks."
       ],
       "correct": 2
     }
