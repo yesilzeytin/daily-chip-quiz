@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology over older NMOS or PMOS technologies for designing digital logic circuits?",
+      "question": "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
       "options": [
-        "CMOS enables significantly higher maximum clock frequencies due to faster transistor switching speeds.",
-        "CMOS offers substantially lower static power consumption because one transistor in a complementary pair is always off in a stable state.",
-        "CMOS requires a much simpler and less expensive manufacturing process compared to single-transistor logic families.",
-        "CMOS allows for much smaller individual transistor sizes, leading to higher integration density.",
-        "CMOS circuits are inherently more resistant to electromagnetic interference (EMI)."
+        "FPGAs are manufactured using a different semiconductor substrate material than ASICs.",
+        "FPGAs can be reconfigured after manufacturing to implement different logic functions, whereas ASICs are fixed.",
+        "FPGAs inherently offer better performance and lower power consumption for any given task compared to ASICs.",
+        "FPGAs are designed exclusively for analog signal processing, while ASICs are for digital.",
+        "FPGAs always require custom mask sets for their fabrication, unlike ASICs."
       ],
       "correct": 1
     },
     {
-      "question": "In a pipelined processor, which type of hazard is primarily addressed by inserting a 'bubble' (or NOP instruction) into the pipeline when a branch instruction is taken, to prevent incorrect instructions from being fetched and executed before the correct target address is known?",
+      "question": "What is the primary advantage of a 'write-back' cache policy over a 'write-through' cache policy in a computer's memory hierarchy?",
       "options": [
-        "Data Hazard",
-        "Structural Hazard",
-        "Control Hazard",
-        "Resource Hazard",
-        "Memory Hazard"
+        "It guarantees immediate data consistency across all cache levels and main memory.",
+        "It reduces the frequency of write operations to main memory, thereby improving system performance and reducing bus contention.",
+        "It requires less complex hardware for its implementation compared to write-through.",
+        "It is more energy-efficient for workloads that are primarily read-intensive.",
+        "It supports larger cache block sizes without any performance penalties."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "After the logic synthesis phase transforms the Register Transfer Level (RTL) design into a gate-level netlist, which specific formal verification technique is typically employed to mathematically prove that this synthesized gate-level netlist is functionally identical to the original RTL design?",
+      "question": "In digital IC design, what is the primary issue that 'Clock Domain Crossing (CDC)' analysis aims to prevent?",
       "options": [
-        "Gate-Level Simulation (GLS)",
-        "Automatic Test Pattern Generation (ATPG)",
-        "Formal Equivalence Checking (LEC)",
-        "Static Timing Analysis (STA)",
-        "Design Rule Checking (DRC)"
+        "Excessive static power dissipation due to leakage currents in deeply scaled technologies.",
+        "Data corruption or metastability that can occur when signals transfer between different clock domains with asynchronous or unrelated clock phases.",
+        "Violations of setup and hold time requirements within a synchronous clock domain.",
+        "The inefficient routing and distribution of clock signals across the integrated circuit layout.",
+        "Short circuits and electro-migration issues in the on-chip power delivery network."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "What is the primary reason that Dynamic Random-Access Memory (DRAM) is overwhelmingly preferred for main system memory (RAM) in computers, despite being slower and requiring periodic refresh cycles compared to Static Random-Access Memory (SRAM)?",
+      "question": "Which of the following best describes the primary goal or benefit of High-Level Synthesis (HLS) in the context of chip design?",
       "options": [
-        "DRAM offers significantly lower manufacturing costs per chip.",
-        "DRAM provides non-volatile storage, retaining data even without power.",
-        "DRAM cells are much simpler, requiring fewer transistors per bit, leading to significantly higher storage density.",
-        "DRAM has an intrinsically faster random access time than SRAM.",
-        "DRAM is more resistant to single-event upsets (SEUs) from cosmic rays."
+        "To optimize the physical placement and routing of standard cells for minimal area and delay.",
+        "To automatically generate Register Transfer Level (RTL) code (like Verilog/VHDL) from high-level behavioral descriptions written in languages such as C, C++, or SystemC, thereby accelerating design and verification.",
+        "To perform static timing analysis (STA) on the final gate-level netlist to ensure all timing constraints are met.",
+        "To convert analog input signals into digital representations for processing by the core logic.",
+        "To formally verify the functional equivalence between a Register Transfer Level (RTL) design and its synthesized gate-level implementation."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), after the standard cells have been placed onto the silicon area, what is the primary objective of the 'routing' step?",
+      "question": "What is the primary function of the 'Control Unit' within a Central Processing Unit (CPU)?",
       "options": [
-        "To minimize the total power consumption of the chip by optimizing cell placement.",
-        "To perform a comprehensive check for any violations of semiconductor manufacturing rules.",
-        "To connect the input and output pins of the placed standard cells according to the netlist using metal interconnects.",
-        "To generate and optimize the global clock distribution network to ensure minimal clock skew.",
-        "To create the hierarchical floorplan for the entire chip, defining the boundaries of major IP blocks."
+        "To execute all arithmetic and logical operations requested by instructions.",
+        "To temporarily store data and instructions that are frequently accessed by the ALU.",
+        "To fetch instructions from memory, decode them, and generate the necessary control signals to manage and coordinate all operations of the CPU's components.",
+        "To provide the interface for communication between the CPU and external input/output devices.",
+        "To perform the translation of virtual memory addresses into physical memory addresses."
       ],
       "correct": 2
     }

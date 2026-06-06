@@ -1,9 +1,4 @@
 [
-  "What is the initial design step when creating a new Application-Specific Integrated Circuit (ASIC)?",
-  "In digital IC design, what is the primary purpose of integrating \"scan chains\" into a circuit?",
-  "In the MESI cache coherence protocol, what state does a cache block enter if a processor owns the most up-to-date copy of data, and that data has been modified by this processor but not yet written back to main memory, and no other processor has a copy?",
-  "Which of the following best describes the core principle of \"formal verification\" in digital IC design?",
-  "What is the primary material used as the semiconductor substrate in the vast majority of Integrated Circuits (ICs)?",
   "What is the primary material used for interconnects (wires) within modern Integrated Circuits?",
   "In digital IC design, what is the primary purpose of \"Emulation\" as a verification technique?",
   "Which characteristic is most representative of a Reduced Instruction Set Computer (RISC) architecture?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, which type of hazard is primarily addressed by inserting a 'bubble' (or NOP instruction) into the pipeline when a branch instruction is taken, to prevent incorrect instructions from being fetched and executed before the correct target address is known?",
   "After the logic synthesis phase transforms the Register Transfer Level (RTL) design into a gate-level netlist, which specific formal verification technique is typically employed to mathematically prove that this synthesized gate-level netlist is functionally identical to the original RTL design?",
   "What is the primary reason that Dynamic Random-Access Memory (DRAM) is overwhelmingly preferred for main system memory (RAM) in computers, despite being slower and requiring periodic refresh cycles compared to Static Random-Access Memory (SRAM)?",
-  "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), after the standard cells have been placed onto the silicon area, what is the primary objective of the 'routing' step?"
+  "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), after the standard cells have been placed onto the silicon area, what is the primary objective of the 'routing' step?",
+  "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
+  "What is the primary advantage of a 'write-back' cache policy over a 'write-through' cache policy in a computer's memory hierarchy?",
+  "In digital IC design, what is the primary issue that 'Clock Domain Crossing (CDC)' analysis aims to prevent?",
+  "Which of the following best describes the primary goal or benefit of High-Level Synthesis (HLS) in the context of chip design?",
+  "What is the primary function of the 'Control Unit' within a Central Processing Unit (CPU)?"
 ]
