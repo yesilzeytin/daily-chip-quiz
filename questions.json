@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
+      "question": "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
       "options": [
-        "FPGAs are manufactured using a different semiconductor substrate material than ASICs.",
-        "FPGAs can be reconfigured after manufacturing to implement different logic functions, whereas ASICs are fixed.",
-        "FPGAs inherently offer better performance and lower power consumption for any given task compared to ASICs.",
-        "FPGAs are designed exclusively for analog signal processing, while ASICs are for digital.",
-        "FPGAs always require custom mask sets for their fabrication, unlike ASICs."
+        "Combinational circuits generate output signals that depend only on the current input signals.",
+        "Sequential circuits always include a clock signal, while combinational circuits never do.",
+        "Combinational circuits are built using only NAND gates, whereas sequential circuits use NOR gates.",
+        "Sequential circuits have faster propagation delays than combinational circuits.",
+        "Combinational circuits can store data, while sequential circuits cannot."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "What is the primary advantage of a 'write-back' cache policy over a 'write-through' cache policy in a computer's memory hierarchy?",
+      "question": "In the digital IC design flow, what is the primary purpose of performing \"post-layout simulation\"?",
       "options": [
-        "It guarantees immediate data consistency across all cache levels and main memory.",
-        "It reduces the frequency of write operations to main memory, thereby improving system performance and reducing bus contention.",
-        "It requires less complex hardware for its implementation compared to write-through.",
-        "It is more energy-efficient for workloads that are primarily read-intensive.",
-        "It supports larger cache block sizes without any performance penalties."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In digital IC design, what is the primary issue that 'Clock Domain Crossing (CDC)' analysis aims to prevent?",
-      "options": [
-        "Excessive static power dissipation due to leakage currents in deeply scaled technologies.",
-        "Data corruption or metastability that can occur when signals transfer between different clock domains with asynchronous or unrelated clock phases.",
-        "Violations of setup and hold time requirements within a synchronous clock domain.",
-        "The inefficient routing and distribution of clock signals across the integrated circuit layout.",
-        "Short circuits and electro-migration issues in the on-chip power delivery network."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which of the following best describes the primary goal or benefit of High-Level Synthesis (HLS) in the context of chip design?",
-      "options": [
-        "To optimize the physical placement and routing of standard cells for minimal area and delay.",
-        "To automatically generate Register Transfer Level (RTL) code (like Verilog/VHDL) from high-level behavioral descriptions written in languages such as C, C++, or SystemC, thereby accelerating design and verification.",
-        "To perform static timing analysis (STA) on the final gate-level netlist to ensure all timing constraints are met.",
-        "To convert analog input signals into digital representations for processing by the core logic.",
-        "To formally verify the functional equivalence between a Register Transfer Level (RTL) design and its synthesized gate-level implementation."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary function of the 'Control Unit' within a Central Processing Unit (CPU)?",
-      "options": [
-        "To execute all arithmetic and logical operations requested by instructions.",
-        "To temporarily store data and instructions that are frequently accessed by the ALU.",
-        "To fetch instructions from memory, decode them, and generate the necessary control signals to manage and coordinate all operations of the CPU's components.",
-        "To provide the interface for communication between the CPU and external input/output devices.",
-        "To perform the translation of virtual memory addresses into physical memory addresses."
+        "To generate the initial Register Transfer Level (RTL) code from high-level specifications.",
+        "To optimize the power delivery network before transistor placement.",
+        "To verify the functional correctness of the design by incorporating extracted parasitic effects from the physical layout.",
+        "To convert the gate-level netlist into a hardware description language (HDL).",
+        "To determine the optimal placement of standard cells to minimize chip area."
       ],
       "correct": 2
+    },
+    {
+      "question": "What is the overarching goal of techniques like pipelining, superscalar execution, and out-of-order execution in modern CPU architectures?",
+      "options": [
+        "To reduce the thermal design power (TDP) of the processor.",
+        "To decrease the clock frequency while maintaining the same performance.",
+        "To increase Instruction Level Parallelism (ILP) by executing multiple instructions concurrently or overlapping their execution stages.",
+        "To enhance the accuracy of branch prediction algorithms.",
+        "To simplify the instruction set architecture (ISA) for easier compiler development."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Beyond the Design Under Test (DUT), which of the following components is most critical for a comprehensive functional verification testbench in digital IC design?",
+      "options": [
+        "A simple text file listing all input signals and their expected values.",
+        "A power management unit (PMU) for dynamic voltage scaling.",
+        "A scoreboard or checker module to compare actual outputs with expected outputs.",
+        "A custom hardware accelerator for faster simulation.",
+        "A dedicated physical design rule checker."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary benefit of implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a computer processor?",
+      "options": [
+        "To eliminate the need for main system memory (DRAM).",
+        "To improve overall memory access speed by providing increasingly larger and slower caches further from the CPU.",
+        "To reduce the complexity of the CPU's instruction decoder.",
+        "To allow for direct memory access (DMA) without CPU intervention.",
+        "To completely prevent cache coherence issues in multi-core systems."
+      ],
+      "correct": 1
     }
   ]
 }

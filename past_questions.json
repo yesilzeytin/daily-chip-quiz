@@ -1,9 +1,4 @@
 [
-  "What is the primary material used for interconnects (wires) within modern Integrated Circuits?",
-  "In digital IC design, what is the primary purpose of \"Emulation\" as a verification technique?",
-  "Which characteristic is most representative of a Reduced Instruction Set Computer (RISC) architecture?",
-  "In digital IC design, what is the primary benefit of implementing \"Clock Gating\"?",
-  "In computer architecture, what is the primary goal of \"Cache Prefetching\"?",
   "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a 'standard cell'?",
   "Which cache replacement policy selects the cache block for eviction that has not been referenced for the longest period of time?",
   "In Static Timing Analysis (STA) for a flip-flop, what does a 'hold time violation' primarily indicate?",
@@ -48,5 +43,10 @@
   "What is the primary advantage of a 'write-back' cache policy over a 'write-through' cache policy in a computer's memory hierarchy?",
   "In digital IC design, what is the primary issue that 'Clock Domain Crossing (CDC)' analysis aims to prevent?",
   "Which of the following best describes the primary goal or benefit of High-Level Synthesis (HLS) in the context of chip design?",
-  "What is the primary function of the 'Control Unit' within a Central Processing Unit (CPU)?"
+  "What is the primary function of the 'Control Unit' within a Central Processing Unit (CPU)?",
+  "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
+  "In the digital IC design flow, what is the primary purpose of performing \"post-layout simulation\"?",
+  "What is the overarching goal of techniques like pipelining, superscalar execution, and out-of-order execution in modern CPU architectures?",
+  "Beyond the Design Under Test (DUT), which of the following components is most critical for a comprehensive functional verification testbench in digital IC design?",
+  "What is the primary benefit of implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a computer processor?"
 ]
