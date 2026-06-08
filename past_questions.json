@@ -1,9 +1,4 @@
 [
-  "In the context of Application-Specific Integrated Circuit (ASIC) design, what is a 'standard cell'?",
-  "Which cache replacement policy selects the cache block for eviction that has not been referenced for the longest period of time?",
-  "In Static Timing Analysis (STA) for a flip-flop, what does a 'hold time violation' primarily indicate?",
-  "In Design for Testability (DFT) for digital ICs, what is the primary purpose of Automatic Test Pattern Generation (ATPG)?",
-  "In multi-processor computer systems, what is the primary role of an 'atomic operation' (e.g., atomic increment, compare-and-swap)?",
   "What is the primary function of a multiplexer (MUX) in digital logic?",
   "In the context of computer architecture, what is the primary purpose of a \"branch predictor\"?",
   "What is the primary role of \"Design Rule Checking (DRC)\" in the physical verification stage of Integrated Circuit (IC) design?",
@@ -48,5 +43,10 @@
   "In the digital IC design flow, what is the primary purpose of performing \"post-layout simulation\"?",
   "What is the overarching goal of techniques like pipelining, superscalar execution, and out-of-order execution in modern CPU architectures?",
   "Beyond the Design Under Test (DUT), which of the following components is most critical for a comprehensive functional verification testbench in digital IC design?",
-  "What is the primary benefit of implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a computer processor?"
+  "What is the primary benefit of implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a computer processor?",
+  "What defines the set of instructions that a particular processor can execute, along with the format of these instructions, the accessible registers, and memory addressing modes?",
+  "In the physical implementation phase of digital IC design, what is the term for the iterative process of optimizing placement and routing, adjusting buffers, and resizing gates to ensure all timing requirements (setup and hold) are met across all operating conditions?",
+  "In a multi-core processor system with private caches, which protocol or mechanism is primarily responsible for maintaining data consistency across all caches and main memory, ensuring that all processors see the most up-to-date value for a shared memory location?",
+  "Before physical implementation begins, which formal verification technique is commonly used to mathematically prove that a Register Transfer Level (RTL) design meets specific design properties or safety requirements, such as absence of deadlocks, reachability of certain states, or correctness of arbitration logic?",
+  "Which empirical observation states that the number of transistors on an integrated circuit doubles approximately every two years, leading to exponential growth in computing power and reduction in cost?"
 ]

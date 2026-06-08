@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
+      "question": "What defines the set of instructions that a particular processor can execute, along with the format of these instructions, the accessible registers, and memory addressing modes?",
       "options": [
-        "Combinational circuits generate output signals that depend only on the current input signals.",
-        "Sequential circuits always include a clock signal, while combinational circuits never do.",
-        "Combinational circuits are built using only NAND gates, whereas sequential circuits use NOR gates.",
-        "Sequential circuits have faster propagation delays than combinational circuits.",
-        "Combinational circuits can store data, while sequential circuits cannot."
+        "Instruction Set Architecture (ISA)",
+        "Microarchitecture",
+        "Operating System",
+        "Application Binary Interface (ABI)",
+        "Register Transfer Level (RTL)"
       ],
       "correct": 0
     },
     {
-      "question": "In the digital IC design flow, what is the primary purpose of performing \"post-layout simulation\"?",
+      "question": "In the physical implementation phase of digital IC design, what is the term for the iterative process of optimizing placement and routing, adjusting buffers, and resizing gates to ensure all timing requirements (setup and hold) are met across all operating conditions?",
       "options": [
-        "To generate the initial Register Transfer Level (RTL) code from high-level specifications.",
-        "To optimize the power delivery network before transistor placement.",
-        "To verify the functional correctness of the design by incorporating extracted parasitic effects from the physical layout.",
-        "To convert the gate-level netlist into a hardware description language (HDL).",
-        "To determine the optimal placement of standard cells to minimize chip area."
+        "Timing Closure",
+        "Logic Synthesis",
+        "Functional Verification",
+        "Design Rule Checking (DRC)",
+        "Power Analysis"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "What is the overarching goal of techniques like pipelining, superscalar execution, and out-of-order execution in modern CPU architectures?",
+      "question": "In a multi-core processor system with private caches, which protocol or mechanism is primarily responsible for maintaining data consistency across all caches and main memory, ensuring that all processors see the most up-to-date value for a shared memory location?",
       "options": [
-        "To reduce the thermal design power (TDP) of the processor.",
-        "To decrease the clock frequency while maintaining the same performance.",
-        "To increase Instruction Level Parallelism (ILP) by executing multiple instructions concurrently or overlapping their execution stages.",
-        "To enhance the accuracy of branch prediction algorithms.",
-        "To simplify the instruction set architecture (ISA) for easier compiler development."
+        "Cache Coherence Protocol (e.g., MESI)",
+        "Virtual Memory Management",
+        "Branch Prediction",
+        "Pipelining",
+        "Instruction Level Parallelism (ILP)"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "Beyond the Design Under Test (DUT), which of the following components is most critical for a comprehensive functional verification testbench in digital IC design?",
+      "question": "Before physical implementation begins, which formal verification technique is commonly used to mathematically prove that a Register Transfer Level (RTL) design meets specific design properties or safety requirements, such as absence of deadlocks, reachability of certain states, or correctness of arbitration logic?",
       "options": [
-        "A simple text file listing all input signals and their expected values.",
-        "A power management unit (PMU) for dynamic voltage scaling.",
-        "A scoreboard or checker module to compare actual outputs with expected outputs.",
-        "A custom hardware accelerator for faster simulation.",
-        "A dedicated physical design rule checker."
+        "Formal Property Verification (FPV) / Model Checking",
+        "Equivalence Checking",
+        "Gate-Level Simulation",
+        "Design Rule Checking (DRC)",
+        "Static Timing Analysis (STA)"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "What is the primary benefit of implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a computer processor?",
+      "question": "Which empirical observation states that the number of transistors on an integrated circuit doubles approximately every two years, leading to exponential growth in computing power and reduction in cost?",
       "options": [
-        "To eliminate the need for main system memory (DRAM).",
-        "To improve overall memory access speed by providing increasingly larger and slower caches further from the CPU.",
-        "To reduce the complexity of the CPU's instruction decoder.",
-        "To allow for direct memory access (DMA) without CPU intervention.",
-        "To completely prevent cache coherence issues in multi-core systems."
+        "Moore's Law",
+        "Amdahl's Law",
+        "Metcalfe's Law",
+        "Bell's Law",
+        "Kryder's Law"
       ],
-      "correct": 1
+      "correct": 0
     }
   ]
 }
