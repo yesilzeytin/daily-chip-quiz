@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital logic?",
-  "In the context of computer architecture, what is the primary purpose of a \"branch predictor\"?",
-  "What is the primary role of \"Design Rule Checking (DRC)\" in the physical verification stage of Integrated Circuit (IC) design?",
-  "In asynchronous digital design, which concept or element is primarily used to ensure proper sequencing of events and reliable data transfer between communicating modules without relying on a global clock signal?",
-  "In digital IC design, what does the term \"Fan-out\" primarily refer to?",
   "What is the primary function of an Arithmetic Logic Unit (ALU) within a CPU?",
   "In the typical digital IC design flow, what is the primary output of the 'logic synthesis' step?",
   "In a pipelined processor, what is the primary technique used to mitigate 'data hazards' (RAW dependencies) without stalling the pipeline, by directly providing the result of an earlier instruction to a later instruction that needs it, before the result is written back to the register file?",
@@ -48,5 +43,10 @@
   "In the physical implementation phase of digital IC design, what is the term for the iterative process of optimizing placement and routing, adjusting buffers, and resizing gates to ensure all timing requirements (setup and hold) are met across all operating conditions?",
   "In a multi-core processor system with private caches, which protocol or mechanism is primarily responsible for maintaining data consistency across all caches and main memory, ensuring that all processors see the most up-to-date value for a shared memory location?",
   "Before physical implementation begins, which formal verification technique is commonly used to mathematically prove that a Register Transfer Level (RTL) design meets specific design properties or safety requirements, such as absence of deadlocks, reachability of certain states, or correctness of arbitration logic?",
-  "Which empirical observation states that the number of transistors on an integrated circuit doubles approximately every two years, leading to exponential growth in computing power and reduction in cost?"
+  "Which empirical observation states that the number of transistors on an integrated circuit doubles approximately every two years, leading to exponential growth in computing power and reduction in cost?",
+  "In digital IC design, what is a \"netlist\"?",
+  "What is the primary goal of Static Timing Analysis (STA) in digital IC design?",
+  "In modern CPU architectures, what is the primary benefit of using 'micro-operations' (μops) to represent complex instructions?",
+  "In advanced CMOS technology nodes (e.g., 28nm and below), what is the primary challenge associated with 'leakage current'?",
+  "What is the primary function of a 'register file' within a CPU?"
 ]
