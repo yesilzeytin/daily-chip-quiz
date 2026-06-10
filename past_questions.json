@@ -1,9 +1,4 @@
 [
-  "What is the primary function of an Arithmetic Logic Unit (ALU) within a CPU?",
-  "In the typical digital IC design flow, what is the primary output of the 'logic synthesis' step?",
-  "In a pipelined processor, what is the primary technique used to mitigate 'data hazards' (RAW dependencies) without stalling the pipeline, by directly providing the result of an earlier instruction to a later instruction that needs it, before the result is written back to the register file?",
-  "In advanced System-on-Chip (SoC) design, what is the primary purpose of defining multiple 'power domains' and using standards like the Unified Power Format (UPF)?",
-  "In semiconductor manufacturing, what is the primary role of 'doping' the silicon substrate with impurities like Boron or Phosphorus?",
   "What does HDL primarily stand for in the context of digital circuit design?",
   "In digital IC design, which phase involves mapping the Register Transfer Level (RTL) design to a gate-level netlist using a specific technology library of standard cells?",
   "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
@@ -48,5 +43,10 @@
   "What is the primary goal of Static Timing Analysis (STA) in digital IC design?",
   "In modern CPU architectures, what is the primary benefit of using 'micro-operations' (μops) to represent complex instructions?",
   "In advanced CMOS technology nodes (e.g., 28nm and below), what is the primary challenge associated with 'leakage current'?",
-  "What is the primary function of a 'register file' within a CPU?"
+  "What is the primary function of a 'register file' within a CPU?",
+  "Which of the following describes the output behavior of a NAND gate?",
+  "In a CPU cache, when a cache miss occurs and all cache lines in the relevant set (for set-associative) or the entire cache (for fully associative) are occupied, a replacement policy is used to choose a line to evict. Which of the following is a commonly employed cache replacement policy?",
+  "In digital IC design, which technique involves adding extra logic and scan chains to a design primarily to improve the observability and controllability of internal nodes, making it easier to detect manufacturing defects during post-fabrication testing?",
+  "To mitigate the performance impact of control hazards (branches) in deeply pipelined processors, a common technique is to speculatively fetch and execute instructions from a predicted path. What specialized hardware structure is primarily responsible for storing the history of recent branch outcomes and predicting the direction and target of future branches?",
+  "In the context of digital IC design, what does a \"standard cell library\" primarily contain?"
 ]

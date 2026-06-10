@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital IC design, what is a \"netlist\"?",
+      "question": "Which of the following describes the output behavior of a NAND gate?",
       "options": [
-        "A graphical representation of the final chip layout, showing all polygons and layers.",
-        "A textual description of a circuit's connectivity, specifying instances and their interconnections.",
-        "A software tool used for simulating circuit behavior.",
-        "The physical silicon wafer before any fabrication steps.",
-        "A comprehensive document detailing power consumption figures."
+        "The output is high if and only if all inputs are high.",
+        "The output is low if and only if all inputs are high.",
+        "The output is high if any input is high.",
+        "The output is low if all inputs are low.",
+        "The output is the inverse of one of its inputs."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary goal of Static Timing Analysis (STA) in digital IC design?",
+      "question": "In a CPU cache, when a cache miss occurs and all cache lines in the relevant set (for set-associative) or the entire cache (for fully associative) are occupied, a replacement policy is used to choose a line to evict. Which of the following is a commonly employed cache replacement policy?",
       "options": [
-        "To verify the functional correctness of the RTL code against specifications.",
-        "To check for manufacturing design rule violations like minimum spacing and width.",
-        "To predict and verify that all timing constraints (setup and hold times) are met across the entire circuit under various operating conditions.",
-        "To generate the physical layout (placement and routing) of the standard cells.",
-        "To identify and reduce the overall power consumption of the design."
+        "Least Recently Used (LRU)",
+        "Instruction Fetching",
+        "Data Forwarding",
+        "Out-of-Order Execution",
+        "Register Renaming"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In digital IC design, which technique involves adding extra logic and scan chains to a design primarily to improve the observability and controllability of internal nodes, making it easier to detect manufacturing defects during post-fabrication testing?",
+      "options": [
+        "High-Level Synthesis (HLS)",
+        "Clock Gating",
+        "Scan Design (or Scan Chain Insertion)",
+        "Power Gating",
+        "Virtual Prototyping"
       ],
       "correct": 2
     },
     {
-      "question": "In modern CPU architectures, what is the primary benefit of using 'micro-operations' (μops) to represent complex instructions?",
+      "question": "To mitigate the performance impact of control hazards (branches) in deeply pipelined processors, a common technique is to speculatively fetch and execute instructions from a predicted path. What specialized hardware structure is primarily responsible for storing the history of recent branch outcomes and predicting the direction and target of future branches?",
       "options": [
-        "To simplify the instruction set architecture (ISA) presented to programmers.",
-        "To allow complex variable-length instructions to be broken down into simpler, fixed-length operations that can be more easily pipelined and executed out-of-order.",
-        "To directly reduce the total number of transistors required for the control unit.",
-        "To enable faster data transfer between the CPU and main memory.",
-        "To enhance the accuracy of branch prediction algorithms."
+        "Data Cache",
+        "Instruction Register",
+        "Branch Target Buffer (BTB)",
+        "Memory Management Unit (MMU)",
+        "Arithmetic Logic Unit (ALU)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of digital IC design, what does a \"standard cell library\" primarily contain?",
+      "options": [
+        "High-Level Synthesis (HLS) scripts and directives.",
+        "Pre-designed and pre-characterized basic logic gates (e.g., inverters, NANDs, NORs) and flip-flops.",
+        "Power consumption profiles for various CPU cores.",
+        "Software drivers for peripheral devices.",
+        "Abstract mathematical models for formal verification."
       ],
       "correct": 1
-    },
-    {
-      "question": "In advanced CMOS technology nodes (e.g., 28nm and below), what is the primary challenge associated with 'leakage current'?",
-      "options": [
-        "It causes significant performance degradation by slowing down transistor switching speeds.",
-        "It requires larger transistors, thereby increasing the die area and cost.",
-        "It leads to substantial static power consumption even when the circuit is idle, posing a major hurdle for low-power designs.",
-        "It makes the transistors more susceptible to physical damage during manufacturing.",
-        "It interferes with the clock signal integrity, leading to timing violations."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary function of a 'register file' within a CPU?",
-      "options": [
-        "To store the complete program instructions for execution.",
-        "To manage virtual memory addresses and their mapping to physical addresses.",
-        "To provide a small, fast storage area for frequently accessed data and intermediate results that the ALU operates on.",
-        "To control the flow of data between the CPU and peripheral devices.",
-        "To store the microcode for complex instructions."
-      ],
-      "correct": 2
     }
   ]
 }
