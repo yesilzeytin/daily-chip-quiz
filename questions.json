@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "Which of the following describes the output behavior of a NAND gate?",
+      "question": "Which type of power dissipation in CMOS circuits occurs primarily when the circuit is idle, due to leakage currents through transistors that are nominally off?",
       "options": [
-        "The output is high if and only if all inputs are high.",
-        "The output is low if and only if all inputs are high.",
-        "The output is high if any input is high.",
-        "The output is low if all inputs are low.",
-        "The output is the inverse of one of its inputs."
+        "Dynamic power dissipation",
+        "Short-circuit power dissipation",
+        "Static power dissipation",
+        "Switching power dissipation",
+        "Active power dissipation"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In a CPU cache, when a cache miss occurs and all cache lines in the relevant set (for set-associative) or the entire cache (for fully associative) are occupied, a replacement policy is used to choose a line to evict. Which of the following is a commonly employed cache replacement policy?",
+      "question": "What is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
       "options": [
-        "Least Recently Used (LRU)",
-        "Instruction Fetching",
-        "Data Forwarding",
-        "Out-of-Order Execution",
-        "Register Renaming"
+        "Instructions typically execute in a single clock cycle.",
+        "Supports a large number of complex, variable-length instructions.",
+        "Relies heavily on microcode for instruction execution.",
+        "Features many specialized addressing modes.",
+        "Primarily uses a stack-based operand access model."
       ],
       "correct": 0
     },
     {
-      "question": "In digital IC design, which technique involves adding extra logic and scan chains to a design primarily to improve the observability and controllability of internal nodes, making it easier to detect manufacturing defects during post-fabrication testing?",
+      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'floorplanning' stage?",
       "options": [
-        "High-Level Synthesis (HLS)",
-        "Clock Gating",
-        "Scan Design (or Scan Chain Insertion)",
-        "Power Gating",
-        "Virtual Prototyping"
+        "To determine the optimal placement of standard cells for all logic gates.",
+        "To synthesize the Register Transfer Level (RTL) code into a gate-level netlist.",
+        "To define the overall size, shape, and approximate location of major blocks (e.g., CPU cores, memory, I/O) and power distribution.",
+        "To perform detailed routing of interconnections between all logic gates.",
+        "To run Static Timing Analysis (STA) on the final layout to verify timing constraints."
       ],
       "correct": 2
     },
     {
-      "question": "To mitigate the performance impact of control hazards (branches) in deeply pipelined processors, a common technique is to speculatively fetch and execute instructions from a predicted path. What specialized hardware structure is primarily responsible for storing the history of recent branch outcomes and predicting the direction and target of future branches?",
+      "question": "In a pipelined processor, which technique is primarily employed to resolve 'data hazards' by forwarding the result of an instruction directly from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
       "options": [
-        "Data Cache",
-        "Instruction Register",
-        "Branch Target Buffer (BTB)",
-        "Memory Management Unit (MMU)",
-        "Arithmetic Logic Unit (ALU)"
+        "Branch prediction",
+        "Register renaming",
+        "Forwarding (or Bypassing)",
+        "Instruction reordering",
+        "Cache prefetching"
       ],
       "correct": 2
     },
     {
-      "question": "In the context of digital IC design, what does a \"standard cell library\" primarily contain?",
+      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
       "options": [
-        "High-Level Synthesis (HLS) scripts and directives.",
-        "Pre-designed and pre-characterized basic logic gates (e.g., inverters, NANDs, NORs) and flip-flops.",
-        "Power consumption profiles for various CPU cores.",
-        "Software drivers for peripheral devices.",
-        "Abstract mathematical models for formal verification."
+        "To store temporary data and program instructions.",
+        "To execute arithmetic operations (like addition, subtraction) and logical operations (like AND, OR, NOT).",
+        "To manage the flow of data between the CPU and main memory.",
+        "To control the sequencing and execution of instructions.",
+        "To fetch instructions from memory."
       ],
       "correct": 1
     }

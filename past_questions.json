@@ -1,9 +1,4 @@
 [
-  "What does HDL primarily stand for in the context of digital circuit design?",
-  "In digital IC design, which phase involves mapping the Register Transfer Level (RTL) design to a gate-level netlist using a specific technology library of standard cells?",
-  "What is the primary function of a Translation Lookaside Buffer (TLB) in a computer system?",
-  "In high-performance Integrated Circuit (IC) design, what primary issue does \"IR drop\" analysis aim to identify and mitigate?",
-  "In modern processor architectures, what is the primary benefit achieved by implementing Simultaneous Multithreading (SMT), often marketed as Hyper-Threading by Intel?",
   "What is the primary function of the Program Counter (PC) in a CPU?",
   "In the physical design phase of an Integrated Circuit (IC), what is the primary goal of Clock Tree Synthesis (CTS)?",
   "In an out-of-order execution processor, what is the primary role of a 'Reorder Buffer' (ROB)?",
@@ -48,5 +43,10 @@
   "In a CPU cache, when a cache miss occurs and all cache lines in the relevant set (for set-associative) or the entire cache (for fully associative) are occupied, a replacement policy is used to choose a line to evict. Which of the following is a commonly employed cache replacement policy?",
   "In digital IC design, which technique involves adding extra logic and scan chains to a design primarily to improve the observability and controllability of internal nodes, making it easier to detect manufacturing defects during post-fabrication testing?",
   "To mitigate the performance impact of control hazards (branches) in deeply pipelined processors, a common technique is to speculatively fetch and execute instructions from a predicted path. What specialized hardware structure is primarily responsible for storing the history of recent branch outcomes and predicting the direction and target of future branches?",
-  "In the context of digital IC design, what does a \"standard cell library\" primarily contain?"
+  "In the context of digital IC design, what does a \"standard cell library\" primarily contain?",
+  "Which type of power dissipation in CMOS circuits occurs primarily when the circuit is idle, due to leakage currents through transistors that are nominally off?",
+  "What is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
+  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'floorplanning' stage?",
+  "In a pipelined processor, which technique is primarily employed to resolve 'data hazards' by forwarding the result of an instruction directly from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?"
 ]
