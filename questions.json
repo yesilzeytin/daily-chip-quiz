@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which type of power dissipation in CMOS circuits occurs primarily when the circuit is idle, due to leakage currents through transistors that are nominally off?",
+      "question": "What does VHDL stand for in the context of digital circuit design?",
       "options": [
-        "Dynamic power dissipation",
-        "Short-circuit power dissipation",
-        "Static power dissipation",
-        "Switching power dissipation",
-        "Active power dissipation"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
-      "options": [
-        "Instructions typically execute in a single clock cycle.",
-        "Supports a large number of complex, variable-length instructions.",
-        "Relies heavily on microcode for instruction execution.",
-        "Features many specialized addressing modes.",
-        "Primarily uses a stack-based operand access model."
+        "Very High-speed Integrated Circuit Hardware Description Language",
+        "Virtual Hardware Design Language",
+        "Vectorized High-Level Digital Logic",
+        "Volatile Hardware Description Library",
+        "Versatile Hierarchical Design Language"
       ],
       "correct": 0
     },
     {
-      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'floorplanning' stage?",
+      "question": "In the physical verification phase of IC design, what is the primary purpose of Design Rule Checking (DRC)?",
       "options": [
-        "To determine the optimal placement of standard cells for all logic gates.",
-        "To synthesize the Register Transfer Level (RTL) code into a gate-level netlist.",
-        "To define the overall size, shape, and approximate location of major blocks (e.g., CPU cores, memory, I/O) and power distribution.",
-        "To perform detailed routing of interconnections between all logic gates.",
-        "To run Static Timing Analysis (STA) on the final layout to verify timing constraints."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a pipelined processor, which technique is primarily employed to resolve 'data hazards' by forwarding the result of an instruction directly from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
-      "options": [
-        "Branch prediction",
-        "Register renaming",
-        "Forwarding (or Bypassing)",
-        "Instruction reordering",
-        "Cache prefetching"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
-      "options": [
-        "To store temporary data and program instructions.",
-        "To execute arithmetic operations (like addition, subtraction) and logical operations (like AND, OR, NOT).",
-        "To manage the flow of data between the CPU and main memory.",
-        "To control the sequencing and execution of instructions.",
-        "To fetch instructions from memory."
+        "To verify that the synthesized gate-level netlist matches the RTL design.",
+        "To ensure the layout adheres to manufacturing constraints and rules for reliability and yield.",
+        "To calculate the timing delays of paths in the circuit.",
+        "To extract parasitic resistance and capacitance from the layout.",
+        "To optimize the placement of standard cells for better performance."
       ],
       "correct": 1
+    },
+    {
+      "question": "What is the primary advantage of using Direct Memory Access (DMA) in a computer system?",
+      "options": [
+        "It allows the CPU to directly access I/O devices without needing an I/O controller.",
+        "It reduces the number of general-purpose registers required by the CPU.",
+        "It enables I/O devices to transfer data to and from memory without continuous CPU intervention.",
+        "It provides a dedicated high-speed cache for I/O operations.",
+        "It simplifies the instruction set architecture by eliminating I/O instructions."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In modern System-on-Chip (SoC) design, which technique is primarily employed to dynamically adjust the operating frequency and voltage of different functional blocks to optimize power consumption while meeting performance requirements?",
+      "options": [
+        "Clock Tree Synthesis (CTS)",
+        "Static Timing Analysis (STA)",
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Logic Synthesis (LS)",
+        "Register Renaming"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
+      "options": [
+        "The maximum amount of physical memory that can be addressed by the CPU.",
+        "The set of instructions available for memory access operations.",
+        "The rules for when a memory write performed by one processor becomes visible to other processors.",
+        "The hierarchy and organization of cache levels within each processor.",
+        "The physical layout and interconnects between processors and memory."
+      ],
+      "correct": 2
     }
   ]
 }

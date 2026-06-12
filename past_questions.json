@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Program Counter (PC) in a CPU?",
-  "In the physical design phase of an Integrated Circuit (IC), what is the primary goal of Clock Tree Synthesis (CTS)?",
-  "In an out-of-order execution processor, what is the primary role of a 'Reorder Buffer' (ROB)?",
-  "What characteristic of a MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) primarily determines the voltage at which the transistor begins to conduct current between its source and drain terminals?",
-  "In a computer system with virtual memory, what is the primary purpose of a 'virtual address' as opposed to a 'physical address'?",
   "What is the fundamental building block of sequential digital logic circuits, primarily used for storing a single bit of information?",
   "In a computer system employing virtual memory, what is the primary purpose of a 'page table'?",
   "What is the primary role of 'parasitic extraction' in the backend of the digital IC design flow?",
@@ -48,5 +43,10 @@
   "What is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
   "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'floorplanning' stage?",
   "In a pipelined processor, which technique is primarily employed to resolve 'data hazards' by forwarding the result of an instruction directly from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
-  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?"
+  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+  "What does VHDL stand for in the context of digital circuit design?",
+  "In the physical verification phase of IC design, what is the primary purpose of Design Rule Checking (DRC)?",
+  "What is the primary advantage of using Direct Memory Access (DMA) in a computer system?",
+  "In modern System-on-Chip (SoC) design, which technique is primarily employed to dynamically adjust the operating frequency and voltage of different functional blocks to optimize power consumption while meeting performance requirements?",
+  "In a multi-processor system, what does a \"memory consistency model\" primarily define?"
 ]
