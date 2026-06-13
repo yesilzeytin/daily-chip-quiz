@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of sequential digital logic circuits, primarily used for storing a single bit of information?",
-  "In a computer system employing virtual memory, what is the primary purpose of a 'page table'?",
-  "What is the primary role of 'parasitic extraction' in the backend of the digital IC design flow?",
-  "In modern out-of-order execution processors, what is the fundamental principle behind 'Register Renaming'?",
-  "What is the primary advantage of a Harvard architecture over a Von Neumann architecture?",
   "In semiconductor manufacturing, what is the primary role of \"photolithography\"?",
   "In digital IC design, what is the primary function of a \"Phase-Locked Loop (PLL)\"?",
   "Which statement best describes a \"load-store architecture\" commonly found in RISC processors?",
@@ -48,5 +43,10 @@
   "In the physical verification phase of IC design, what is the primary purpose of Design Rule Checking (DRC)?",
   "What is the primary advantage of using Direct Memory Access (DMA) in a computer system?",
   "In modern System-on-Chip (SoC) design, which technique is primarily employed to dynamically adjust the operating frequency and voltage of different functional blocks to optimize power consumption while meeting performance requirements?",
-  "In a multi-processor system, what does a \"memory consistency model\" primarily define?"
+  "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
+  "What is the fundamental purpose of an 'opcode' within a CPU instruction?",
+  "In the physical design phase of an IC, what is the primary purpose of inserting 'buffers' or 'inverters' into long signal nets?",
+  "What is the primary advantage of employing 'FinFET' (Fin Field-Effect Transistor) technology over traditional planar MOSFETs in advanced semiconductor nodes?",
+  "Which of the following best describes the function of 'power gating' in low-power IC design?",
+  "In the context of CPU operation, what is the primary role of the 'Instruction Pointer' (also known as Program Counter)?"
 ]

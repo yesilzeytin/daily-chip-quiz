@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does VHDL stand for in the context of digital circuit design?",
+      "question": "What is the fundamental purpose of an 'opcode' within a CPU instruction?",
       "options": [
-        "Very High-speed Integrated Circuit Hardware Description Language",
-        "Virtual Hardware Design Language",
-        "Vectorized High-Level Digital Logic",
-        "Volatile Hardware Description Library",
-        "Versatile Hierarchical Design Language"
+        "To specify the memory address of the next instruction.",
+        "To identify the specific register to be used in the operation.",
+        "To define the type of operation (e.g., ADD, SUB, LOAD) the CPU should perform.",
+        "To indicate the priority level of the instruction for execution.",
+        "To control external peripheral devices connected to the CPU."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In the physical verification phase of IC design, what is the primary purpose of Design Rule Checking (DRC)?",
+      "question": "In the physical design phase of an IC, what is the primary purpose of inserting 'buffers' or 'inverters' into long signal nets?",
       "options": [
-        "To verify that the synthesized gate-level netlist matches the RTL design.",
-        "To ensure the layout adheres to manufacturing constraints and rules for reliability and yield.",
-        "To calculate the timing delays of paths in the circuit.",
-        "To extract parasitic resistance and capacitance from the layout.",
-        "To optimize the placement of standard cells for better performance."
+        "To increase the overall power consumption of the chip.",
+        "To implement complex sequential logic functions.",
+        "To reduce signal propagation delay and restore signal integrity.",
+        "To decrease the drive strength of the signal, preventing overshoot.",
+        "To solely convert a signal from a high-voltage to a low-voltage domain."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary advantage of employing 'FinFET' (Fin Field-Effect Transistor) technology over traditional planar MOSFETs in advanced semiconductor nodes?",
+      "options": [
+        "It significantly simplifies the manufacturing process, reducing fabrication cost.",
+        "It allows for larger transistor sizes while maintaining the same performance.",
+        "It offers better control over short-channel effects and significantly reduces leakage current.",
+        "It eliminates the need for any form of doping in the semiconductor material.",
+        "It increases the operating temperature range by making devices more susceptible to thermal runaway."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following best describes the function of 'power gating' in low-power IC design?",
+      "options": [
+        "Dynamically adjusting the operating frequency and voltage of active circuit blocks.",
+        "Shutting off the power supply to inactive or idle functional blocks to reduce static power consumption.",
+        "Utilizing specialized ultra-low leakage transistors across the entire chip.",
+        "Implementing a specific type of cache memory that consumes less power during writes.",
+        "Only enabling clock signals to active components, leaving power rails always on."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary advantage of using Direct Memory Access (DMA) in a computer system?",
+      "question": "In the context of CPU operation, what is the primary role of the 'Instruction Pointer' (also known as Program Counter)?",
       "options": [
-        "It allows the CPU to directly access I/O devices without needing an I/O controller.",
-        "It reduces the number of general-purpose registers required by the CPU.",
-        "It enables I/O devices to transfer data to and from memory without continuous CPU intervention.",
-        "It provides a dedicated high-speed cache for I/O operations.",
-        "It simplifies the instruction set architecture by eliminating I/O instructions."
+        "To store the result of the most recently executed arithmetic operation.",
+        "To hold the base address of the current data segment in memory.",
+        "To maintain the history of recently executed branch instructions for prediction.",
+        "To point to the memory address of the next instruction to be fetched and executed.",
+        "To manage the translation of virtual memory addresses to physical memory addresses."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In modern System-on-Chip (SoC) design, which technique is primarily employed to dynamically adjust the operating frequency and voltage of different functional blocks to optimize power consumption while meeting performance requirements?",
-      "options": [
-        "Clock Tree Synthesis (CTS)",
-        "Static Timing Analysis (STA)",
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Logic Synthesis (LS)",
-        "Register Renaming"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
-      "options": [
-        "The maximum amount of physical memory that can be addressed by the CPU.",
-        "The set of instructions available for memory access operations.",
-        "The rules for when a memory write performed by one processor becomes visible to other processors.",
-        "The hierarchy and organization of cache levels within each processor.",
-        "The physical layout and interconnects between processors and memory."
-      ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }
