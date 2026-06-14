@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental purpose of an 'opcode' within a CPU instruction?",
+      "question": "What is the primary function of a flip-flop in digital circuits?",
       "options": [
-        "To specify the memory address of the next instruction.",
-        "To identify the specific register to be used in the operation.",
-        "To define the type of operation (e.g., ADD, SUB, LOAD) the CPU should perform.",
-        "To indicate the priority level of the instruction for execution.",
-        "To control external peripheral devices connected to the CPU."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical design phase of an IC, what is the primary purpose of inserting 'buffers' or 'inverters' into long signal nets?",
-      "options": [
-        "To increase the overall power consumption of the chip.",
-        "To implement complex sequential logic functions.",
-        "To reduce signal propagation delay and restore signal integrity.",
-        "To decrease the drive strength of the signal, preventing overshoot.",
-        "To solely convert a signal from a high-voltage to a low-voltage domain."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary advantage of employing 'FinFET' (Fin Field-Effect Transistor) technology over traditional planar MOSFETs in advanced semiconductor nodes?",
-      "options": [
-        "It significantly simplifies the manufacturing process, reducing fabrication cost.",
-        "It allows for larger transistor sizes while maintaining the same performance.",
-        "It offers better control over short-channel effects and significantly reduces leakage current.",
-        "It eliminates the need for any form of doping in the semiconductor material.",
-        "It increases the operating temperature range by making devices more susceptible to thermal runaway."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following best describes the function of 'power gating' in low-power IC design?",
-      "options": [
-        "Dynamically adjusting the operating frequency and voltage of active circuit blocks.",
-        "Shutting off the power supply to inactive or idle functional blocks to reduce static power consumption.",
-        "Utilizing specialized ultra-low leakage transistors across the entire chip.",
-        "Implementing a specific type of cache memory that consumes less power during writes.",
-        "Only enabling clock signals to active components, leaving power rails always on."
+        "Perform arithmetic and logic operations.",
+        "Store a single bit of information for one clock cycle.",
+        "Convert analog signals to digital.",
+        "Generate clock signals for synchronization.",
+        "Amplify weak digital signals."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of CPU operation, what is the primary role of the 'Instruction Pointer' (also known as Program Counter)?",
+      "question": "What is the primary purpose of Virtual Memory in a computer system?",
       "options": [
-        "To store the result of the most recently executed arithmetic operation.",
-        "To hold the base address of the current data segment in memory.",
-        "To maintain the history of recently executed branch instructions for prediction.",
-        "To point to the memory address of the next instruction to be fetched and executed.",
-        "To manage the translation of virtual memory addresses to physical memory addresses."
+        "To physically expand the amount of available RAM.",
+        "To directly increase the CPU's clock speed.",
+        "To provide an abstraction of memory to processes, allowing each to operate in its own private, contiguous address space larger than physical RAM.",
+        "To reduce the electrical power consumption of memory modules.",
+        "To manage cache coherence between multiple CPU cores."
       ],
-      "correct": 3
+      "correct": 2
+    },
+    {
+      "question": "In advanced IC manufacturing, what phenomenon is characterized by the gradual transport of metal atoms in a conductor due to momentum transfer from electrons, potentially leading to open circuits or short circuits over time?",
+      "options": [
+        "Latch-up",
+        "Electrostatic Discharge (ESD)",
+        "Electromigration",
+        "Thermal runaway",
+        "Dielectric breakdown"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In out-of-order execution processors, what architectural component is primarily responsible for storing pending instructions, managing their dependencies, and dispatching them to execution units as operands become available, even if previous instructions haven't completed?",
+      "options": [
+        "Branch Target Buffer (BTB)",
+        "Cache Controller",
+        "Reorder Buffer (ROB)",
+        "Memory Management Unit (MMU)",
+        "Interrupt Controller"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following describes the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in chip design?",
+      "options": [
+        "Performing static timing analysis on a synthesized netlist.",
+        "Physically laying out transistors and routing interconnects on silicon.",
+        "Describing the behavior and structure of digital circuits at an abstract level for simulation and synthesis.",
+        "Generating the photographic masks used in semiconductor manufacturing.",
+        "Managing the power delivery network for an entire System-on-Chip."
+      ],
+      "correct": 2
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "In semiconductor manufacturing, what is the primary role of \"photolithography\"?",
-  "In digital IC design, what is the primary function of a \"Phase-Locked Loop (PLL)\"?",
-  "Which statement best describes a \"load-store architecture\" commonly found in RISC processors?",
-  "In CMOS integrated circuits, what phenomenon is commonly referred to as \"latch-up\"?",
-  "What is the primary architectural feature that allows a modern CPU to achieve \"superscalar\" performance?",
   "What is the primary advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology over older NMOS or PMOS technologies for designing digital logic circuits?",
   "In a pipelined processor, which type of hazard is primarily addressed by inserting a 'bubble' (or NOP instruction) into the pipeline when a branch instruction is taken, to prevent incorrect instructions from being fetched and executed before the correct target address is known?",
   "After the logic synthesis phase transforms the Register Transfer Level (RTL) design into a gate-level netlist, which specific formal verification technique is typically employed to mathematically prove that this synthesized gate-level netlist is functionally identical to the original RTL design?",
@@ -48,5 +43,10 @@
   "In the physical design phase of an IC, what is the primary purpose of inserting 'buffers' or 'inverters' into long signal nets?",
   "What is the primary advantage of employing 'FinFET' (Fin Field-Effect Transistor) technology over traditional planar MOSFETs in advanced semiconductor nodes?",
   "Which of the following best describes the function of 'power gating' in low-power IC design?",
-  "In the context of CPU operation, what is the primary role of the 'Instruction Pointer' (also known as Program Counter)?"
+  "In the context of CPU operation, what is the primary role of the 'Instruction Pointer' (also known as Program Counter)?",
+  "What is the primary function of a flip-flop in digital circuits?",
+  "What is the primary purpose of Virtual Memory in a computer system?",
+  "In advanced IC manufacturing, what phenomenon is characterized by the gradual transport of metal atoms in a conductor due to momentum transfer from electrons, potentially leading to open circuits or short circuits over time?",
+  "In out-of-order execution processors, what architectural component is primarily responsible for storing pending instructions, managing their dependencies, and dispatching them to execution units as operands become available, even if previous instructions haven't completed?",
+  "Which of the following describes the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in chip design?"
 ]
