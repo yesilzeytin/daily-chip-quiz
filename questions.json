@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a flip-flop in digital circuits?",
+      "question": "What is the primary purpose of photolithography in semiconductor manufacturing?",
       "options": [
-        "Perform arithmetic and logic operations.",
-        "Store a single bit of information for one clock cycle.",
-        "Convert analog signals to digital.",
-        "Generate clock signals for synchronization.",
-        "Amplify weak digital signals."
+        "To introduce dopants into the silicon substrate.",
+        "To create metallic interconnections between different layers.",
+        "To selectively remove material from the wafer surface.",
+        "To transfer geometric patterns from a photomask onto a wafer surface.",
+        "To grow epitaxial layers for active device regions."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In synchronous digital circuit design, what condition leads to a 'setup time violation'?",
+      "options": [
+        "The data input to a sequential element changes too soon after the active clock edge.",
+        "The data input to a sequential element does not become stable early enough before the active clock edge.",
+        "The clock signal experiences an unexpected delay, leading to clock skew.",
+        "The reset signal is asserted asynchronously, causing unpredictable state.",
+        "The power supply voltage drops below the minimum operating threshold."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary purpose of Virtual Memory in a computer system?",
+      "question": "What is the primary function of a Translation Lookaside Buffer (TLB) within a CPU's Memory Management Unit (MMU)?",
       "options": [
-        "To physically expand the amount of available RAM.",
-        "To directly increase the CPU's clock speed.",
-        "To provide an abstraction of memory to processes, allowing each to operate in its own private, contiguous address space larger than physical RAM.",
-        "To reduce the electrical power consumption of memory modules.",
-        "To manage cache coherence between multiple CPU cores."
+        "To store frequently accessed instructions to reduce instruction fetch latency.",
+        "To cache recent virtual-to-physical address translations for faster memory access.",
+        "To manage the allocation and deallocation of memory on the heap.",
+        "To convert data between big-endian and little-endian formats during memory operations.",
+        "To buffer data transfers between the CPU and I/O devices."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In advanced semiconductor manufacturing and design, what does 'Design-Technology Co-Optimization' (DTCO) primarily involve?",
+      "options": [
+        "Automating the entire physical design flow (placement, routing, clock tree synthesis) using AI algorithms.",
+        "The isolated development of new process technologies and circuit designs, followed by integration.",
+        "The concurrent and iterative optimization of process technology, device architecture, and circuit design to achieve optimal PPA (Power, Performance, Area) at new technology nodes.",
+        "A specific method for verifying the functional correctness of complex System-on-Chip (SoC) designs.",
+        "The use of specialized software to simulate electromagnetic interference (EMI) effects in high-frequency circuits."
       ],
       "correct": 2
     },
     {
-      "question": "In advanced IC manufacturing, what phenomenon is characterized by the gradual transport of metal atoms in a conductor due to momentum transfer from electrons, potentially leading to open circuits or short circuits over time?",
+      "question": "What is the primary purpose of functional simulation in the digital IC design flow?",
       "options": [
-        "Latch-up",
-        "Electrostatic Discharge (ESD)",
-        "Electromigration",
-        "Thermal runaway",
-        "Dielectric breakdown"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In out-of-order execution processors, what architectural component is primarily responsible for storing pending instructions, managing their dependencies, and dispatching them to execution units as operands become available, even if previous instructions haven't completed?",
-      "options": [
-        "Branch Target Buffer (BTB)",
-        "Cache Controller",
-        "Reorder Buffer (ROB)",
-        "Memory Management Unit (MMU)",
-        "Interrupt Controller"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following describes the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in chip design?",
-      "options": [
-        "Performing static timing analysis on a synthesized netlist.",
-        "Physically laying out transistors and routing interconnects on silicon.",
-        "Describing the behavior and structure of digital circuits at an abstract level for simulation and synthesis.",
-        "Generating the photographic masks used in semiconductor manufacturing.",
-        "Managing the power delivery network for an entire System-on-Chip."
+        "To perform detailed power analysis and optimize power consumption.",
+        "To generate the final manufacturing mask data (GDSII).",
+        "To verify that the design behaves as intended by applying test inputs and observing outputs.",
+        "To perform static timing analysis (STA) to ensure all timing constraints are met.",
+        "To automatically convert high-level behavioral code into a gate-level netlist."
       ],
       "correct": 2
     }
