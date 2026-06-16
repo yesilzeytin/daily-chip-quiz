@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes a Field-Programmable Gate Array (FPGA) from an Application-Specific Integrated Circuit (ASIC)?",
-  "What is the primary advantage of a 'write-back' cache policy over a 'write-through' cache policy in a computer's memory hierarchy?",
-  "In digital IC design, what is the primary issue that 'Clock Domain Crossing (CDC)' analysis aims to prevent?",
-  "Which of the following best describes the primary goal or benefit of High-Level Synthesis (HLS) in the context of chip design?",
-  "What is the primary function of the 'Control Unit' within a Central Processing Unit (CPU)?",
   "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
   "In the digital IC design flow, what is the primary purpose of performing \"post-layout simulation\"?",
   "What is the overarching goal of techniques like pipelining, superscalar execution, and out-of-order execution in modern CPU architectures?",
@@ -48,5 +43,10 @@
   "In synchronous digital circuit design, what condition leads to a 'setup time violation'?",
   "What is the primary function of a Translation Lookaside Buffer (TLB) within a CPU's Memory Management Unit (MMU)?",
   "In advanced semiconductor manufacturing and design, what does 'Design-Technology Co-Optimization' (DTCO) primarily involve?",
-  "What is the primary purpose of functional simulation in the digital IC design flow?"
+  "What is the primary purpose of functional simulation in the digital IC design flow?",
+  "What does CMOS primarily refer to in the context of integrated circuit technology?",
+  "In the physical design phase of digital ICs, what is the primary objective of Clock Tree Synthesis (CTS)?",
+  "Amdahl's Law is a fundamental principle in computer architecture. What does it primarily describe?",
+  "In advanced semiconductor manufacturing, variations in manufacturing processes can lead to significant differences in device characteristics. To ensure robust operation across these inherent physical variations, along with fluctuations in voltage and temperature, IC designers primarily rely on which verification strategy?",
+  "Which of the following digital logic components selects one of several input data lines and routes it to a single output line, based on the value of its select input lines?"
 ]
