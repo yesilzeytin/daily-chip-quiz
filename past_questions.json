@@ -1,9 +1,4 @@
 [
-  "What is the primary characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
-  "In the digital IC design flow, what is the primary purpose of performing \"post-layout simulation\"?",
-  "What is the overarching goal of techniques like pipelining, superscalar execution, and out-of-order execution in modern CPU architectures?",
-  "Beyond the Design Under Test (DUT), which of the following components is most critical for a comprehensive functional verification testbench in digital IC design?",
-  "What is the primary benefit of implementing a multi-level cache hierarchy (e.g., L1, L2, L3) in a computer processor?",
   "What defines the set of instructions that a particular processor can execute, along with the format of these instructions, the accessible registers, and memory addressing modes?",
   "In the physical implementation phase of digital IC design, what is the term for the iterative process of optimizing placement and routing, adjusting buffers, and resizing gates to ensure all timing requirements (setup and hold) are met across all operating conditions?",
   "In a multi-core processor system with private caches, which protocol or mechanism is primarily responsible for maintaining data consistency across all caches and main memory, ensuring that all processors see the most up-to-date value for a shared memory location?",
@@ -48,5 +43,10 @@
   "In the physical design phase of digital ICs, what is the primary objective of Clock Tree Synthesis (CTS)?",
   "Amdahl's Law is a fundamental principle in computer architecture. What does it primarily describe?",
   "In advanced semiconductor manufacturing, variations in manufacturing processes can lead to significant differences in device characteristics. To ensure robust operation across these inherent physical variations, along with fluctuations in voltage and temperature, IC designers primarily rely on which verification strategy?",
-  "Which of the following digital logic components selects one of several input data lines and routes it to a single output line, based on the value of its select input lines?"
+  "Which of the following digital logic components selects one of several input data lines and routes it to a single output line, based on the value of its select input lines?",
+  "When choosing between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA) for a digital design, what is generally considered the primary advantage of using an FPGA?",
+  "Which of the following best describes the fundamental difference in how Static RAM (SRAM) and Dynamic RAM (DRAM) store a single bit of information?",
+  "In digital IC design, when transferring data between two asynchronous clock domains, what is the primary purpose of employing a synchronizer circuit (e.g., a two-flop synchronizer)?",
+  "In a multi-core processor system with relaxed memory consistency models, what is the primary role of a 'memory barrier' (also known as a memory fence) instruction?",
+  "What is the primary goal of High-Level Synthesis (HLS) in the digital IC design flow?"
 ]
