@@ -1,9 +1,4 @@
 [
-  "What defines the set of instructions that a particular processor can execute, along with the format of these instructions, the accessible registers, and memory addressing modes?",
-  "In the physical implementation phase of digital IC design, what is the term for the iterative process of optimizing placement and routing, adjusting buffers, and resizing gates to ensure all timing requirements (setup and hold) are met across all operating conditions?",
-  "In a multi-core processor system with private caches, which protocol or mechanism is primarily responsible for maintaining data consistency across all caches and main memory, ensuring that all processors see the most up-to-date value for a shared memory location?",
-  "Before physical implementation begins, which formal verification technique is commonly used to mathematically prove that a Register Transfer Level (RTL) design meets specific design properties or safety requirements, such as absence of deadlocks, reachability of certain states, or correctness of arbitration logic?",
-  "Which empirical observation states that the number of transistors on an integrated circuit doubles approximately every two years, leading to exponential growth in computing power and reduction in cost?",
   "In digital IC design, what is a \"netlist\"?",
   "What is the primary goal of Static Timing Analysis (STA) in digital IC design?",
   "In modern CPU architectures, what is the primary benefit of using 'micro-operations' (μops) to represent complex instructions?",
@@ -48,5 +43,10 @@
   "Which of the following best describes the fundamental difference in how Static RAM (SRAM) and Dynamic RAM (DRAM) store a single bit of information?",
   "In digital IC design, when transferring data between two asynchronous clock domains, what is the primary purpose of employing a synchronizer circuit (e.g., a two-flop synchronizer)?",
   "In a multi-core processor system with relaxed memory consistency models, what is the primary role of a 'memory barrier' (also known as a memory fence) instruction?",
-  "What is the primary goal of High-Level Synthesis (HLS) in the digital IC design flow?"
+  "What is the primary goal of High-Level Synthesis (HLS) in the digital IC design flow?",
+  "Which fundamental digital logic gate produces a HIGH output (1) only when all of its inputs are HIGH (1)?",
+  "What is the primary benefit of employing pipelining in a CPU architecture?",
+  "In modern out-of-order execution processors, what is the primary purpose of 'register renaming'?",
+  "Which standard protocol is widely used in digital ICs and PCBs for debugging, in-circuit programming, and boundary scan testing of internal logic via a serial interface?",
+  "In low-power digital IC design, what is the primary technique used to reduce dynamic power consumption by disabling the clock signal to inactive functional blocks?"
 ]

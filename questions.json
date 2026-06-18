@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "When choosing between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA) for a digital design, what is generally considered the primary advantage of using an FPGA?",
+      "question": "Which fundamental digital logic gate produces a HIGH output (1) only when all of its inputs are HIGH (1)?",
       "options": [
-        "Lower unit cost for high-volume production.",
-        "Higher clock frequencies and lower power consumption.",
-        "Faster time-to-market and reconfigurability.",
-        "Greater integration density and smaller physical size.",
-        "Eliminates the need for any verification."
+        "NOR gate",
+        "XOR gate",
+        "AND gate",
+        "OR gate",
+        "NOT gate"
       ],
       "correct": 2
     },
     {
-      "question": "Which of the following best describes the fundamental difference in how Static RAM (SRAM) and Dynamic RAM (DRAM) store a single bit of information?",
+      "question": "What is the primary benefit of employing pipelining in a CPU architecture?",
       "options": [
-        "SRAM stores data using a capacitor that requires periodic refreshing, while DRAM uses a latch formed by cross-coupled inverters.",
-        "SRAM uses a latch formed by cross-coupled inverters and does not require refreshing, while DRAM stores data in a capacitor that requires periodic refreshing.",
-        "SRAM is non-volatile, retaining data without power, while DRAM is volatile.",
-        "SRAM can only be written to sequentially, whereas DRAM allows random access.",
-        "DRAM is integrated into the CPU die as cache memory, while SRAM is used only for main system memory."
+        "To reduce the total power consumption of the processor.",
+        "To simplify the instruction set architecture (ISA).",
+        "To increase the instruction throughput (number of instructions completed per unit time).",
+        "To eliminate the need for a cache memory hierarchy.",
+        "To reduce the physical die area required for the CPU."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In modern out-of-order execution processors, what is the primary purpose of 'register renaming'?",
+      "options": [
+        "To reduce the latency of memory accesses by storing frequently used register values closer to the execution units.",
+        "To eliminate false data dependencies (Write-After-Write and Read-After-Write hazards) and enable more instruction-level parallelism.",
+        "To simplify the instruction decoding process by mapping logical registers to a fixed set of physical registers.",
+        "To improve the accuracy of branch prediction by providing more registers for speculative execution.",
+        "To reduce the physical die area required for the register file."
       ],
       "correct": 1
     },
     {
-      "question": "In digital IC design, when transferring data between two asynchronous clock domains, what is the primary purpose of employing a synchronizer circuit (e.g., a two-flop synchronizer)?",
+      "question": "Which standard protocol is widely used in digital ICs and PCBs for debugging, in-circuit programming, and boundary scan testing of internal logic via a serial interface?",
       "options": [
-        "To eliminate clock skew within each domain.",
-        "To increase the data transfer bandwidth.",
-        "To prevent metastability in the receiving clock domain.",
-        "To ensure identical clock frequencies between the domains.",
-        "To reduce power consumption during data transfer."
+        "UART (Universal Asynchronous Receiver-Transmitter)",
+        "CAN (Controller Area Network)",
+        "I2C (Inter-Integrated Circuit)",
+        "JTAG (Joint Test Action Group)",
+        "SPI (Serial Peripheral Interface)"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In a multi-core processor system with relaxed memory consistency models, what is the primary role of a 'memory barrier' (also known as a memory fence) instruction?",
+      "question": "In low-power digital IC design, what is the primary technique used to reduce dynamic power consumption by disabling the clock signal to inactive functional blocks?",
       "options": [
-        "To prevent cache misses by prefetching data into the cache.",
-        "To enforce a specific ordering of memory operations (loads and stores) across different processor cores.",
-        "To physically block access to a shared memory region, like a mutex.",
-        "To translate virtual memory addresses to physical memory addresses.",
-        "To halt the execution of a thread until a specific event occurs."
+        "Voltage scaling",
+        "Clock gating",
+        "Power gating",
+        "Body biasing",
+        "Frequency scaling"
       ],
       "correct": 1
-    },
-    {
-      "question": "What is the primary goal of High-Level Synthesis (HLS) in the digital IC design flow?",
-      "options": [
-        "To perform static timing analysis on the final gate-level netlist.",
-        "To generate a layout (physical design) from an RTL description.",
-        "To automatically convert an algorithmic description (e.g., C/C++/SystemC) into Register Transfer Level (RTL) code.",
-        "To simulate the functional correctness of the design using test vectors.",
-        "To optimize the power delivery network for the entire chip."
-      ],
-      "correct": 2
     }
   ]
 }
