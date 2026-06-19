@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which fundamental digital logic gate produces a HIGH output (1) only when all of its inputs are HIGH (1)?",
+      "question": "Which logic gate outputs HIGH (1) only when its inputs are different?",
       "options": [
-        "NOR gate",
-        "XOR gate",
         "AND gate",
         "OR gate",
-        "NOT gate"
+        "XOR gate",
+        "NOR gate",
+        "XNOR gate"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary benefit of employing pipelining in a CPU architecture?",
+      "question": "In the typical digital IC design flow, which major stage involves converting the Register Transfer Level (RTL) description into a gate-level netlist using standard cells from a library?",
       "options": [
-        "To reduce the total power consumption of the processor.",
-        "To simplify the instruction set architecture (ISA).",
-        "To increase the instruction throughput (number of instructions completed per unit time).",
-        "To eliminate the need for a cache memory hierarchy.",
-        "To reduce the physical die area required for the CPU."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In modern out-of-order execution processors, what is the primary purpose of 'register renaming'?",
-      "options": [
-        "To reduce the latency of memory accesses by storing frequently used register values closer to the execution units.",
-        "To eliminate false data dependencies (Write-After-Write and Read-After-Write hazards) and enable more instruction-level parallelism.",
-        "To simplify the instruction decoding process by mapping logical registers to a fixed set of physical registers.",
-        "To improve the accuracy of branch prediction by providing more registers for speculative execution.",
-        "To reduce the physical die area required for the register file."
+        "Functional Verification",
+        "Logic Synthesis",
+        "Physical Layout",
+        "Post-Layout Simulation",
+        "Design Rule Checking (DRC)"
       ],
       "correct": 1
     },
     {
-      "question": "Which standard protocol is widely used in digital ICs and PCBs for debugging, in-circuit programming, and boundary scan testing of internal logic via a serial interface?",
+      "question": "In a multi-core processor system, what mechanism is primarily responsible for ensuring that all processors see a consistent view of data stored in shared memory, particularly when multiple caches might hold copies of the same data block?",
       "options": [
-        "UART (Universal Asynchronous Receiver-Transmitter)",
-        "CAN (Controller Area Network)",
-        "I2C (Inter-Integrated Circuit)",
-        "JTAG (Joint Test Action Group)",
-        "SPI (Serial Peripheral Interface)"
+        "Virtual Memory Management",
+        "Direct Memory Access (DMA)",
+        "Cache Coherence Protocol",
+        "Instruction Set Architecture (ISA)",
+        "Translation Lookaside Buffer (TLB)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which reliability degradation mechanism in CMOS devices is primarily caused by prolonged stress under negative gate-to-source voltage and elevated temperatures, leading to an increase in threshold voltage and reduction in drain current over time, especially significant for p-type MOSFETs?",
+      "options": [
+        "Electromigration",
+        "Hot Carrier Injection (HCI)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Time-Dependent Dielectric Breakdown (TDDB)",
+        "Latch-up"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Within the Central Processing Unit (CPU), which component is responsible for interpreting instructions, coordinating the flow of data, and generating control signals to other components like the ALU, registers, and memory?",
+      "options": [
+        "Arithmetic Logic Unit (ALU)",
+        "Memory Management Unit (MMU)",
+        "Floating Point Unit (FPU)",
+        "Control Unit (CU)",
+        "Cache Controller"
       ],
       "correct": 3
-    },
-    {
-      "question": "In low-power digital IC design, what is the primary technique used to reduce dynamic power consumption by disabling the clock signal to inactive functional blocks?",
-      "options": [
-        "Voltage scaling",
-        "Clock gating",
-        "Power gating",
-        "Body biasing",
-        "Frequency scaling"
-      ],
-      "correct": 1
     }
   ]
 }
