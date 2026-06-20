@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which logic gate outputs HIGH (1) only when its inputs are different?",
+      "question": "What are the three fundamental stages of the CPU instruction cycle, in their correct sequential order?",
       "options": [
-        "AND gate",
-        "OR gate",
-        "XOR gate",
-        "NOR gate",
-        "XNOR gate"
+        "Fetch, Decode, Execute",
+        "Decode, Fetch, Execute",
+        "Execute, Fetch, Decode",
+        "Fetch, Write-back, Decode",
+        "Load, Store, Process"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In the typical digital IC design flow, which major stage involves converting the Register Transfer Level (RTL) description into a gate-level netlist using standard cells from a library?",
+      "question": "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
       "options": [
-        "Functional Verification",
-        "Logic Synthesis",
-        "Physical Layout",
-        "Post-Layout Simulation",
-        "Design Rule Checking (DRC)"
+        "To verify the functional correctness of the design by simulating all possible input combinations.",
+        "To calculate and verify that all timing requirements (e.g., clock frequency, setup, hold times) are met without requiring test vectors.",
+        "To synthesize the RTL code into a gate-level netlist.",
+        "To optimize the power consumption of the circuit by identifying leakage paths.",
+        "To generate the physical layout (mask data) of the integrated circuit."
       ],
       "correct": 1
     },
     {
-      "question": "In a multi-core processor system, what mechanism is primarily responsible for ensuring that all processors see a consistent view of data stored in shared memory, particularly when multiple caches might hold copies of the same data block?",
+      "question": "When data is written to a cache, how the update is propagated to main memory is determined by the cache's write policy. Which policy immediately writes data to both the cache and main memory upon a write operation?",
       "options": [
-        "Virtual Memory Management",
-        "Direct Memory Access (DMA)",
-        "Cache Coherence Protocol",
-        "Instruction Set Architecture (ISA)",
-        "Translation Lookaside Buffer (TLB)"
+        "Write-back",
+        "Write-through",
+        "Write-allocate",
+        "No-write-allocate",
+        "Least Recently Used (LRU)"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "Which reliability degradation mechanism in CMOS devices is primarily caused by prolonged stress under negative gate-to-source voltage and elevated temperatures, leading to an increase in threshold voltage and reduction in drain current over time, especially significant for p-type MOSFETs?",
+      "question": "In advanced digital IC verification, what is 'Formal Verification' primarily used for, as distinct from simulation?",
       "options": [
-        "Electromigration",
-        "Hot Carrier Injection (HCI)",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Time-Dependent Dielectric Breakdown (TDDB)",
-        "Latch-up"
+        "To simulate the design with a comprehensive set of test vectors to check functionality.",
+        "To mathematically prove or disprove the correctness of a design with respect to a given specification, covering all possible input sequences and states.",
+        "To verify the physical layout rules (DRC) and electrical connectivity (LVS).",
+        "To measure the power consumption of the circuit under various operating conditions.",
+        "To generate the test patterns for manufacturing defect testing."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "Within the Central Processing Unit (CPU), which component is responsible for interpreting instructions, coordinating the flow of data, and generating control signals to other components like the ALU, registers, and memory?",
+      "question": "What is the primary motivation behind the growing adoption of 'chiplet' architectures in modern high-performance computing and SoC designs?",
       "options": [
-        "Arithmetic Logic Unit (ALU)",
-        "Memory Management Unit (MMU)",
-        "Floating Point Unit (FPU)",
-        "Control Unit (CU)",
-        "Cache Controller"
+        "To reduce the overall power consumption by using smaller, less complex dies.",
+        "To enable the integration of diverse functionalities (e.g., CPU, GPU, memory controller, I/O) manufactured on different process technologies into a single package, improving yield and scalability.",
+        "To simplify the design verification process by breaking down the system into smaller, independently verifiable units.",
+        "To eliminate the need for inter-die communication protocols.",
+        "To primarily improve the operating frequency of the individual processing cores."
       ],
-      "correct": 3
+      "correct": 1
     }
   ]
 }
