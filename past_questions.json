@@ -1,9 +1,4 @@
 [
-  "Which type of power dissipation in CMOS circuits occurs primarily when the circuit is idle, due to leakage currents through transistors that are nominally off?",
-  "What is a primary characteristic distinguishing a Reduced Instruction Set Computer (RISC) architecture from a Complex Instruction Set Computer (CISC) architecture?",
-  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of the 'floorplanning' stage?",
-  "In a pipelined processor, which technique is primarily employed to resolve 'data hazards' by forwarding the result of an instruction directly from an earlier pipeline stage to a later stage that needs it, without waiting for the result to be written back to the register file?",
-  "What is the primary function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
   "What does VHDL stand for in the context of digital circuit design?",
   "In the physical verification phase of IC design, what is the primary purpose of Design Rule Checking (DRC)?",
   "What is the primary advantage of using Direct Memory Access (DMA) in a computer system?",
@@ -48,5 +43,10 @@
   "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
   "When data is written to a cache, how the update is propagated to main memory is determined by the cache's write policy. Which policy immediately writes data to both the cache and main memory upon a write operation?",
   "In advanced digital IC verification, what is 'Formal Verification' primarily used for, as distinct from simulation?",
-  "What is the primary motivation behind the growing adoption of 'chiplet' architectures in modern high-performance computing and SoC designs?"
+  "What is the primary motivation behind the growing adoption of 'chiplet' architectures in modern high-performance computing and SoC designs?",
+  "What is the fundamental building block of combinational logic circuits?",
+  "In the context of a cache memory system, what does a 'cache hit' signify?",
+  "Which architectural technique allows a processor to begin executing multiple instructions in parallel within a single clock cycle, even if they are independent, by having multiple execution units?",
+  "In the post-silicon validation phase of an IC design, what is the primary purpose of 'Shmoo Plots'?",
+  "In synchronous digital circuit design, what is the primary purpose of adding 'hold buffers' or 'delay cells' to a data path?"
 ]

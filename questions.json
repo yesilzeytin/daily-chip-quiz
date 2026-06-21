@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What are the three fundamental stages of the CPU instruction cycle, in their correct sequential order?",
+      "question": "What is the fundamental building block of combinational logic circuits?",
       "options": [
-        "Fetch, Decode, Execute",
-        "Decode, Fetch, Execute",
-        "Execute, Fetch, Decode",
-        "Fetch, Write-back, Decode",
-        "Load, Store, Process"
+        "Flip-flop",
+        "Register",
+        "Latch",
+        "Logic Gate",
+        "Memory Cell"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
+      "question": "In the context of a cache memory system, what does a 'cache hit' signify?",
       "options": [
-        "To verify the functional correctness of the design by simulating all possible input combinations.",
-        "To calculate and verify that all timing requirements (e.g., clock frequency, setup, hold times) are met without requiring test vectors.",
-        "To synthesize the RTL code into a gate-level netlist.",
-        "To optimize the power consumption of the circuit by identifying leakage paths.",
-        "To generate the physical layout (mask data) of the integrated circuit."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "When data is written to a cache, how the update is propagated to main memory is determined by the cache's write policy. Which policy immediately writes data to both the cache and main memory upon a write operation?",
-      "options": [
-        "Write-back",
-        "Write-through",
-        "Write-allocate",
-        "No-write-allocate",
-        "Least Recently Used (LRU)"
+        "The requested data is not found in the cache and must be fetched from main memory.",
+        "The requested data is found in the cache, allowing for fast access.",
+        "The cache needs to be flushed due to updated data in main memory.",
+        "A specific memory address has been accessed for the first time.",
+        "The cache controller has detected an error in data integrity."
       ],
       "correct": 1
     },
     {
-      "question": "In advanced digital IC verification, what is 'Formal Verification' primarily used for, as distinct from simulation?",
+      "question": "Which architectural technique allows a processor to begin executing multiple instructions in parallel within a single clock cycle, even if they are independent, by having multiple execution units?",
       "options": [
-        "To simulate the design with a comprehensive set of test vectors to check functionality.",
-        "To mathematically prove or disprove the correctness of a design with respect to a given specification, covering all possible input sequences and states.",
-        "To verify the physical layout rules (DRC) and electrical connectivity (LVS).",
-        "To measure the power consumption of the circuit under various operating conditions.",
-        "To generate the test patterns for manufacturing defect testing."
+        "Direct Memory Access (DMA)",
+        "Symmetric Multiprocessing (SMP)",
+        "Superscalar Execution",
+        "Memory Paging",
+        "Virtualization"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "What is the primary motivation behind the growing adoption of 'chiplet' architectures in modern high-performance computing and SoC designs?",
+      "question": "In the post-silicon validation phase of an IC design, what is the primary purpose of 'Shmoo Plots'?",
       "options": [
-        "To reduce the overall power consumption by using smaller, less complex dies.",
-        "To enable the integration of diverse functionalities (e.g., CPU, GPU, memory controller, I/O) manufactured on different process technologies into a single package, improving yield and scalability.",
-        "To simplify the design verification process by breaking down the system into smaller, independently verifiable units.",
-        "To eliminate the need for inter-die communication protocols.",
-        "To primarily improve the operating frequency of the individual processing cores."
+        "To graphically represent the timing relationships between different clock domains.",
+        "To visualize the distribution of manufacturing defects across a wafer.",
+        "To characterize the operational boundaries of a chip across varying supply voltage and operating frequency.",
+        "To simulate the thermal profile and hotspots within the package.",
+        "To analyze the correlation between gate-level netlist and RTL code."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In synchronous digital circuit design, what is the primary purpose of adding 'hold buffers' or 'delay cells' to a data path?",
+      "options": [
+        "To reduce dynamic power consumption by inserting sleep states.",
+        "To prevent race conditions by ensuring data arrives after the clock edge, thus satisfying the hold time requirement.",
+        "To improve signal integrity by filtering high-frequency noise.",
+        "To meet the setup time requirement of sequential elements.",
+        "To increase the overall operating frequency of the circuit."
       ],
       "correct": 1
     }
