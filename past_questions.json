@@ -1,9 +1,4 @@
 [
-  "What does VHDL stand for in the context of digital circuit design?",
-  "In the physical verification phase of IC design, what is the primary purpose of Design Rule Checking (DRC)?",
-  "What is the primary advantage of using Direct Memory Access (DMA) in a computer system?",
-  "In modern System-on-Chip (SoC) design, which technique is primarily employed to dynamically adjust the operating frequency and voltage of different functional blocks to optimize power consumption while meeting performance requirements?",
-  "In a multi-processor system, what does a \"memory consistency model\" primarily define?",
   "What is the fundamental purpose of an 'opcode' within a CPU instruction?",
   "In the physical design phase of an IC, what is the primary purpose of inserting 'buffers' or 'inverters' into long signal nets?",
   "What is the primary advantage of employing 'FinFET' (Fin Field-Effect Transistor) technology over traditional planar MOSFETs in advanced semiconductor nodes?",
@@ -48,5 +43,10 @@
   "In the context of a cache memory system, what does a 'cache hit' signify?",
   "Which architectural technique allows a processor to begin executing multiple instructions in parallel within a single clock cycle, even if they are independent, by having multiple execution units?",
   "In the post-silicon validation phase of an IC design, what is the primary purpose of 'Shmoo Plots'?",
-  "In synchronous digital circuit design, what is the primary purpose of adding 'hold buffers' or 'delay cells' to a data path?"
+  "In synchronous digital circuit design, what is the primary purpose of adding 'hold buffers' or 'delay cells' to a data path?",
+  "What does a Register Transfer Level (RTL) description primarily represent in the digital IC design flow?",
+  "In the context of a CPU's pipeline, what is a `hazard`?",
+  "What is the main function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+  "What is the primary purpose of inserting `scan chains` into a digital IC during the Design-for-Testability (DFT) phase?",
+  "In a cache memory system, what does the term `write-back` policy primarily imply about how data is updated in main memory?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block of combinational logic circuits?",
+      "question": "What does a Register Transfer Level (RTL) description primarily represent in the digital IC design flow?",
       "options": [
-        "Flip-flop",
-        "Register",
-        "Latch",
-        "Logic Gate",
-        "Memory Cell"
+        "The physical placement and routing of all transistors on the chip.",
+        "The specific manufacturing process steps required to produce the chip.",
+        "The power consumption profile and thermal characteristics of the design.",
+        "The abstract behavioral and structural description of data flow between registers and combinational logic.",
+        "A gate-level netlist of standard cells."
       ],
       "correct": 3
     },
     {
-      "question": "In the context of a cache memory system, what does a 'cache hit' signify?",
+      "question": "In the context of a CPU's pipeline, what is a `hazard`?",
       "options": [
-        "The requested data is not found in the cache and must be fetched from main memory.",
-        "The requested data is found in the cache, allowing for fast access.",
-        "The cache needs to be flushed due to updated data in main memory.",
-        "A specific memory address has been accessed for the first time.",
-        "The cache controller has detected an error in data integrity."
+        "A manufacturing defect that leads to incorrect logic operation.",
+        "A situation where an instruction requires data that has not yet been produced by a prior instruction in the pipeline.",
+        "A critical error that causes the CPU to halt execution.",
+        "An unexpected voltage fluctuation causing circuit instability.",
+        "A software bug that results in an infinite loop."
       ],
       "correct": 1
     },
     {
-      "question": "Which architectural technique allows a processor to begin executing multiple instructions in parallel within a single clock cycle, even if they are independent, by having multiple execution units?",
+      "question": "What is the main function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
       "options": [
-        "Direct Memory Access (DMA)",
-        "Symmetric Multiprocessing (SMP)",
-        "Superscalar Execution",
-        "Memory Paging",
-        "Virtualization"
+        "To decode program instructions into micro-operations.",
+        "To store frequently accessed data for faster retrieval.",
+        "To perform mathematical operations and bitwise logical comparisons.",
+        "To manage communication with external peripheral devices.",
+        "To control the flow of data between memory and registers."
       ],
       "correct": 2
     },
     {
-      "question": "In the post-silicon validation phase of an IC design, what is the primary purpose of 'Shmoo Plots'?",
+      "question": "What is the primary purpose of inserting `scan chains` into a digital IC during the Design-for-Testability (DFT) phase?",
       "options": [
-        "To graphically represent the timing relationships between different clock domains.",
-        "To visualize the distribution of manufacturing defects across a wafer.",
-        "To characterize the operational boundaries of a chip across varying supply voltage and operating frequency.",
-        "To simulate the thermal profile and hotspots within the package.",
-        "To analyze the correlation between gate-level netlist and RTL code."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In synchronous digital circuit design, what is the primary purpose of adding 'hold buffers' or 'delay cells' to a data path?",
-      "options": [
-        "To reduce dynamic power consumption by inserting sleep states.",
-        "To prevent race conditions by ensuring data arrives after the clock edge, thus satisfying the hold time requirement.",
-        "To improve signal integrity by filtering high-frequency noise.",
-        "To meet the setup time requirement of sequential elements.",
-        "To increase the overall operating frequency of the circuit."
+        "To reduce the overall gate count and silicon area of the design.",
+        "To enable sequential logic (flip-flops) to be configured into shift registers, making their states controllable and observable for manufacturing defect testing.",
+        "To provide a mechanism for dynamic voltage and frequency scaling (DVFS).",
+        "To enhance the chip's security against reverse engineering attempts.",
+        "To implement on-chip error correction codes for data integrity."
       ],
       "correct": 1
+    },
+    {
+      "question": "In a cache memory system, what does the term `write-back` policy primarily imply about how data is updated in main memory?",
+      "options": [
+        "Data is immediately written to both the cache and main memory upon a write operation.",
+        "The CPU polls main memory periodically to synchronize data.",
+        "Write operations are delayed until the entire program finishes execution.",
+        "All write operations bypass the cache and go directly to main memory.",
+        "Data is only written to main memory when the modified cache block is replaced or evicted from the cache."
+      ],
+      "correct": 4
     }
   ]
 }
