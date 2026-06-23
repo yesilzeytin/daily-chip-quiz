@@ -1,9 +1,4 @@
 [
-  "What is the fundamental purpose of an 'opcode' within a CPU instruction?",
-  "In the physical design phase of an IC, what is the primary purpose of inserting 'buffers' or 'inverters' into long signal nets?",
-  "What is the primary advantage of employing 'FinFET' (Fin Field-Effect Transistor) technology over traditional planar MOSFETs in advanced semiconductor nodes?",
-  "Which of the following best describes the function of 'power gating' in low-power IC design?",
-  "In the context of CPU operation, what is the primary role of the 'Instruction Pointer' (also known as Program Counter)?",
   "What is the primary function of a flip-flop in digital circuits?",
   "What is the primary purpose of Virtual Memory in a computer system?",
   "In advanced IC manufacturing, what phenomenon is characterized by the gradual transport of metal atoms in a conductor due to momentum transfer from electrons, potentially leading to open circuits or short circuits over time?",
@@ -48,5 +43,10 @@
   "In the context of a CPU's pipeline, what is a `hazard`?",
   "What is the main function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
   "What is the primary purpose of inserting `scan chains` into a digital IC during the Design-for-Testability (DFT) phase?",
-  "In a cache memory system, what does the term `write-back` policy primarily imply about how data is updated in main memory?"
+  "In a cache memory system, what does the term `write-back` policy primarily imply about how data is updated in main memory?",
+  "In digital IC design, what is the primary purpose of a 'standard cell library'?",
+  "What is the primary distinction between a CPU's Instruction Set Architecture (ISA) and its microarchitecture?",
+  "In deep sub-micron and nanometer IC technologies, which phenomenon primarily refers to the unintentional coupling of signals between adjacent wires, potentially causing false switching or increased delay?",
+  "In a pipelined processor, what is the primary purpose of a 'branch predictor'?",
+  "What is the key characteristic that distinguishes sequential logic circuits from combinational logic circuits?"
 ]

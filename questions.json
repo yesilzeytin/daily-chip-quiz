@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does a Register Transfer Level (RTL) description primarily represent in the digital IC design flow?",
+      "question": "In digital IC design, what is the primary purpose of a 'standard cell library'?",
       "options": [
-        "The physical placement and routing of all transistors on the chip.",
-        "The specific manufacturing process steps required to produce the chip.",
-        "The power consumption profile and thermal characteristics of the design.",
-        "The abstract behavioral and structural description of data flow between registers and combinational logic.",
-        "A gate-level netlist of standard cells."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of a CPU's pipeline, what is a `hazard`?",
-      "options": [
-        "A manufacturing defect that leads to incorrect logic operation.",
-        "A situation where an instruction requires data that has not yet been produced by a prior instruction in the pipeline.",
-        "A critical error that causes the CPU to halt execution.",
-        "An unexpected voltage fluctuation causing circuit instability.",
-        "A software bug that results in an infinite loop."
+        "To define the physical dimensions and materials for the manufacturing process.",
+        "To provide a collection of pre-designed, pre-characterized, and reusable logic gates and flip-flops.",
+        "To simulate the analog behavior of mixed-signal circuits.",
+        "To establish communication protocols between different chip components.",
+        "To generate the test patterns for design-for-testability (DFT) insertion."
       ],
       "correct": 1
     },
     {
-      "question": "What is the main function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
+      "question": "What is the primary distinction between a CPU's Instruction Set Architecture (ISA) and its microarchitecture?",
       "options": [
-        "To decode program instructions into micro-operations.",
-        "To store frequently accessed data for faster retrieval.",
-        "To perform mathematical operations and bitwise logical comparisons.",
-        "To manage communication with external peripheral devices.",
-        "To control the flow of data between memory and registers."
+        "ISA defines the physical layout of the processor, while microarchitecture defines its power consumption.",
+        "ISA specifies the instructions and programmer-visible state, while microarchitecture describes the internal implementation details.",
+        "ISA deals with high-level language compilation, while microarchitecture handles assembly language.",
+        "ISA is concerned with memory addressing modes, while microarchitecture focuses on cache policies.",
+        "ISA is a proprietary standard, while microarchitecture is always open-source."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In deep sub-micron and nanometer IC technologies, which phenomenon primarily refers to the unintentional coupling of signals between adjacent wires, potentially causing false switching or increased delay?",
+      "options": [
+        "Electromigration",
+        "Thermal runaway",
+        "Crosstalk",
+        "Latch-up",
+        "Process variation"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary purpose of inserting `scan chains` into a digital IC during the Design-for-Testability (DFT) phase?",
+      "question": "In a pipelined processor, what is the primary purpose of a 'branch predictor'?",
       "options": [
-        "To reduce the overall gate count and silicon area of the design.",
-        "To enable sequential logic (flip-flops) to be configured into shift registers, making their states controllable and observable for manufacturing defect testing.",
-        "To provide a mechanism for dynamic voltage and frequency scaling (DVFS).",
-        "To enhance the chip's security against reverse engineering attempts.",
-        "To implement on-chip error correction codes for data integrity."
+        "To execute multiple instructions simultaneously.",
+        "To reduce the number of memory accesses by storing frequently used data.",
+        "To speculate on the outcome of conditional branch instructions to avoid pipeline stalls.",
+        "To translate virtual addresses into physical addresses.",
+        "To determine the optimal clock frequency for the processor."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In a cache memory system, what does the term `write-back` policy primarily imply about how data is updated in main memory?",
+      "question": "What is the key characteristic that distinguishes sequential logic circuits from combinational logic circuits?",
       "options": [
-        "Data is immediately written to both the cache and main memory upon a write operation.",
-        "The CPU polls main memory periodically to synchronize data.",
-        "Write operations are delayed until the entire program finishes execution.",
-        "All write operations bypass the cache and go directly to main memory.",
-        "Data is only written to main memory when the modified cache block is replaced or evicted from the cache."
+        "Sequential logic circuits are always faster than combinational logic circuits.",
+        "Combinational logic circuits have memory, while sequential logic circuits do not.",
+        "Sequential logic circuits' output depends on both current inputs and previous states, while combinational logic's output depends only on current inputs.",
+        "Combinational logic circuits require a clock signal, while sequential logic circuits do not.",
+        "Sequential logic circuits use only AND and OR gates, while combinational logic circuits use all types of gates."
       ],
-      "correct": 4
+      "correct": 2
     }
   ]
 }
