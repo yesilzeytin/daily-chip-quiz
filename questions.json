@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In digital IC design, what is the primary purpose of a 'standard cell library'?",
+      "question": "What principle states that programs tend to access data and instructions that are near recently accessed ones, both in time and space, enabling efficient use of cache memories?",
       "options": [
-        "To define the physical dimensions and materials for the manufacturing process.",
-        "To provide a collection of pre-designed, pre-characterized, and reusable logic gates and flip-flops.",
-        "To simulate the analog behavior of mixed-signal circuits.",
-        "To establish communication protocols between different chip components.",
-        "To generate the test patterns for design-for-testability (DFT) insertion."
+        "Principle of Locality",
+        "Moore's Law",
+        "Amdahl's Law",
+        "Nyquist Theorem",
+        "Von Neumann Bottleneck"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "What is the primary distinction between a CPU's Instruction Set Architecture (ISA) and its microarchitecture?",
+      "question": "In low-power digital IC design, which technique is primarily employed to reduce static (leakage) power consumption by completely cutting off the power supply to inactive blocks of circuitry during idle periods?",
       "options": [
-        "ISA defines the physical layout of the processor, while microarchitecture defines its power consumption.",
-        "ISA specifies the instructions and programmer-visible state, while microarchitecture describes the internal implementation details.",
-        "ISA deals with high-level language compilation, while microarchitecture handles assembly language.",
-        "ISA is concerned with memory addressing modes, while microarchitecture focuses on cache policies.",
-        "ISA is a proprietary standard, while microarchitecture is always open-source."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In deep sub-micron and nanometer IC technologies, which phenomenon primarily refers to the unintentional coupling of signals between adjacent wires, potentially causing false switching or increased delay?",
-      "options": [
-        "Electromigration",
-        "Thermal runaway",
-        "Crosstalk",
-        "Latch-up",
-        "Process variation"
+        "Clock Gating",
+        "Dynamic Voltage Scaling",
+        "Power Gating",
+        "Frequency Scaling",
+        "Body Biasing"
       ],
       "correct": 2
     },
     {
-      "question": "In a pipelined processor, what is the primary purpose of a 'branch predictor'?",
+      "question": "In computer architecture, what metric is used to quantify the average number of clock cycles required to execute a single instruction in a processor, often used to evaluate processor performance?",
       "options": [
-        "To execute multiple instructions simultaneously.",
-        "To reduce the number of memory accesses by storing frequently used data.",
-        "To speculate on the outcome of conditional branch instructions to avoid pipeline stalls.",
-        "To translate virtual addresses into physical addresses.",
-        "To determine the optimal clock frequency for the processor."
+        "FLOPS (Floating Point Operations Per Second)",
+        "MIPS (Millions of Instructions Per Second)",
+        "CPI (Cycles Per Instruction)",
+        "GHz (Gigahertz)",
+        "IPC (Instructions Per Cycle)"
       ],
       "correct": 2
     },
     {
-      "question": "What is the key characteristic that distinguishes sequential logic circuits from combinational logic circuits?",
+      "question": "To protect integrated circuits from sudden, high-voltage events during manufacturing, handling, or operation, which specialized circuitry is typically integrated at the input/output pads of the chip?",
       "options": [
-        "Sequential logic circuits are always faster than combinational logic circuits.",
-        "Combinational logic circuits have memory, while sequential logic circuits do not.",
-        "Sequential logic circuits' output depends on both current inputs and previous states, while combinational logic's output depends only on current inputs.",
-        "Combinational logic circuits require a clock signal, while sequential logic circuits do not.",
-        "Sequential logic circuits use only AND and OR gates, while combinational logic circuits use all types of gates."
+        "Phase-Locked Loop (PLL)",
+        "Power Management Unit (PMU)",
+        "Electrostatic Discharge (ESD) Protection Circuitry",
+        "Voltage Controlled Oscillator (VCO)",
+        "Memory Management Unit (MMU)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In advanced semiconductor manufacturing, as traditional planar MOSFETs faced challenges with short channel effects and leakage current at smaller technology nodes, what innovative transistor architecture was developed that features a gate wrapped around multiple fins of silicon, allowing for better control over the channel?",
+      "options": [
+        "Bipolar Junction Transistor (BJT)",
+        "Junction Field-Effect Transistor (JFET)",
+        "Fin Field-Effect Transistor (FinFET)",
+        "Metal-Semiconductor Field-Effect Transistor (MESFET)",
+        "Vacuum Tube Transistor"
       ],
       "correct": 2
     }

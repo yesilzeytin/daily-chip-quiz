@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a flip-flop in digital circuits?",
-  "What is the primary purpose of Virtual Memory in a computer system?",
-  "In advanced IC manufacturing, what phenomenon is characterized by the gradual transport of metal atoms in a conductor due to momentum transfer from electrons, potentially leading to open circuits or short circuits over time?",
-  "In out-of-order execution processors, what architectural component is primarily responsible for storing pending instructions, managing their dependencies, and dispatching them to execution units as operands become available, even if previous instructions haven't completed?",
-  "Which of the following describes the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in chip design?",
   "What is the primary purpose of photolithography in semiconductor manufacturing?",
   "In synchronous digital circuit design, what condition leads to a 'setup time violation'?",
   "What is the primary function of a Translation Lookaside Buffer (TLB) within a CPU's Memory Management Unit (MMU)?",
@@ -48,5 +43,10 @@
   "What is the primary distinction between a CPU's Instruction Set Architecture (ISA) and its microarchitecture?",
   "In deep sub-micron and nanometer IC technologies, which phenomenon primarily refers to the unintentional coupling of signals between adjacent wires, potentially causing false switching or increased delay?",
   "In a pipelined processor, what is the primary purpose of a 'branch predictor'?",
-  "What is the key characteristic that distinguishes sequential logic circuits from combinational logic circuits?"
+  "What is the key characteristic that distinguishes sequential logic circuits from combinational logic circuits?",
+  "What principle states that programs tend to access data and instructions that are near recently accessed ones, both in time and space, enabling efficient use of cache memories?",
+  "In low-power digital IC design, which technique is primarily employed to reduce static (leakage) power consumption by completely cutting off the power supply to inactive blocks of circuitry during idle periods?",
+  "In computer architecture, what metric is used to quantify the average number of clock cycles required to execute a single instruction in a processor, often used to evaluate processor performance?",
+  "To protect integrated circuits from sudden, high-voltage events during manufacturing, handling, or operation, which specialized circuitry is typically integrated at the input/output pads of the chip?",
+  "In advanced semiconductor manufacturing, as traditional planar MOSFETs faced challenges with short channel effects and leakage current at smaller technology nodes, what innovative transistor architecture was developed that features a gate wrapped around multiple fins of silicon, allowing for better control over the channel?"
 ]
