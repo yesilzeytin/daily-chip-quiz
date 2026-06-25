@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What principle states that programs tend to access data and instructions that are near recently accessed ones, both in time and space, enabling efficient use of cache memories?",
+      "question": "What is the primary function of a flip-flop in digital circuits?",
       "options": [
-        "Principle of Locality",
-        "Moore's Law",
-        "Amdahl's Law",
-        "Nyquist Theorem",
-        "Von Neumann Bottleneck"
+        "To store a single bit of binary information (state).",
+        "To perform arithmetic and logical operations.",
+        "To convert analog signals to digital signals.",
+        "To select one of multiple input signals.",
+        "To generate a clock signal."
       ],
       "correct": 0
     },
     {
-      "question": "In low-power digital IC design, which technique is primarily employed to reduce static (leakage) power consumption by completely cutting off the power supply to inactive blocks of circuitry during idle periods?",
+      "question": "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the \"Place and Route\" process?",
       "options": [
-        "Clock Gating",
-        "Dynamic Voltage Scaling",
-        "Power Gating",
-        "Frequency Scaling",
-        "Body Biasing"
+        "To convert the Register Transfer Level (RTL) code into a gate-level netlist.",
+        "To verify the logical correctness of the design using simulation.",
+        "To determine the optimal physical locations for standard cells and then connect them with wires.",
+        "To synthesize the clock distribution network for minimal skew.",
+        "To generate test vectors for manufacturing defect detection."
       ],
       "correct": 2
     },
     {
-      "question": "In computer architecture, what metric is used to quantify the average number of clock cycles required to execute a single instruction in a processor, often used to evaluate processor performance?",
+      "question": "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?",
       "options": [
-        "FLOPS (Floating Point Operations Per Second)",
-        "MIPS (Millions of Instructions Per Second)",
-        "CPI (Cycles Per Instruction)",
-        "GHz (Gigahertz)",
-        "IPC (Instructions Per Cycle)"
+        "To store micro-operations (μops) that are ready for execution.",
+        "To predict the outcome of branch instructions to avoid pipeline stalls.",
+        "To buffer instructions that have completed execution but are waiting to update architectural state in program order.",
+        "To temporarily hold data fetched from main memory before it's written to cache.",
+        "To manage the allocation and deallocation of physical registers for register renaming."
       ],
       "correct": 2
     },
     {
-      "question": "To protect integrated circuits from sudden, high-voltage events during manufacturing, handling, or operation, which specialized circuitry is typically integrated at the input/output pads of the chip?",
+      "question": "What is the primary characteristic of \"memory-mapped I/O\" in computer architecture?",
       "options": [
-        "Phase-Locked Loop (PLL)",
-        "Power Management Unit (PMU)",
-        "Electrostatic Discharge (ESD) Protection Circuitry",
-        "Voltage Controlled Oscillator (VCO)",
-        "Memory Management Unit (MMU)"
+        "I/O devices communicate with the CPU exclusively through dedicated I/O instructions.",
+        "I/O devices are assigned unique memory addresses, allowing the CPU to access them using regular load/store instructions.",
+        "A separate bus is used for all I/O transactions, independent of the main memory bus.",
+        "I/O operations are always handled by a Direct Memory Access (DMA) controller without CPU involvement.",
+        "It requires a dedicated I/O controller with its own instruction set."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "In advanced semiconductor manufacturing, as traditional planar MOSFETs faced challenges with short channel effects and leakage current at smaller technology nodes, what innovative transistor architecture was developed that features a gate wrapped around multiple fins of silicon, allowing for better control over the channel?",
+      "question": "Compared to a fully synchronous digital design, what is the primary advantage of employing asynchronous (clockless) design principles for certain parts of a complex integrated circuit?",
       "options": [
-        "Bipolar Junction Transistor (BJT)",
-        "Junction Field-Effect Transistor (JFET)",
-        "Fin Field-Effect Transistor (FinFET)",
-        "Metal-Semiconductor Field-Effect Transistor (MESFET)",
-        "Vacuum Tube Transistor"
+        "Simplified timing verification due to the absence of clock-related issues.",
+        "Guaranteed higher maximum operating frequency for the entire chip.",
+        "Potentially lower power consumption and better resilience to process variations and voltage fluctuations.",
+        "Elimination of all power integrity issues across the design.",
+        "Significantly reduced design complexity and faster time-to-market."
       ],
       "correct": 2
     }
