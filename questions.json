@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a flip-flop in digital circuits?",
+      "question": "In the context of semiconductor manufacturing, what is a 'die'?",
       "options": [
-        "To store a single bit of binary information (state).",
-        "To perform arithmetic and logical operations.",
-        "To convert analog signals to digital signals.",
-        "To select one of multiple input signals.",
-        "To generate a clock signal."
+        "The completed and packaged integrated circuit ready for use.",
+        "A special tool used for etching patterns onto silicon wafers.",
+        "The individual rectangular piece of silicon, cut from a wafer, that contains a single integrated circuit.",
+        "A type of interconnect material used to connect different layers of the chip.",
+        "The insulating layer between the gate and the channel in a MOSFET."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary role of an 'arbiter' in a digital system design?",
+      "options": [
+        "To synchronize data transfers between two different clock domains.",
+        "To perform complex arithmetic and logical operations.",
+        "To store program instructions during execution.",
+        "To resolve contention among multiple requestors trying to access a single shared resource.",
+        "To convert parallel data into a serial stream for communication."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following best describes 'speculative execution' in modern CPU architectures?",
+      "options": [
+        "A technique where the CPU predicts which branch will be taken and executes instructions along that predicted path, discarding results if the prediction was wrong.",
+        "A method of increasing memory bandwidth by prefetching data that is likely to be accessed soon.",
+        "The process of allocating memory regions to different programs based on their estimated future needs.",
+        "Executing multiple instructions simultaneously by mapping them to different processing cores.",
+        "A design strategy where the processor executes instructions strictly in the order they appear in the program code, regardless of data dependencies."
       ],
       "correct": 0
     },
     {
-      "question": "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the \"Place and Route\" process?",
+      "question": "In the digital IC design flow, what is the primary purpose of a 'timing constraint file' (e.g., an SDC file)?",
       "options": [
-        "To convert the Register Transfer Level (RTL) code into a gate-level netlist.",
-        "To verify the logical correctness of the design using simulation.",
-        "To determine the optimal physical locations for standard cells and then connect them with wires.",
-        "To synthesize the clock distribution network for minimal skew.",
-        "To generate test vectors for manufacturing defect detection."
+        "To define the physical layout dimensions and routing rules for the chip's fabrication.",
+        "To describe the functional behavior of the circuit using a hardware description language.",
+        "To specify all required clock frequencies, input/output delays, false paths, and multi-cycle paths for static timing analysis.",
+        "To detail the power consumption targets and voltage scaling strategies for low-power optimization.",
+        "To manage the version control and revision history of the design files."
       ],
       "correct": 2
     },
     {
-      "question": "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?",
+      "question": "Within a Central Processing Unit (CPU), which dedicated register holds the memory address of the next instruction to be fetched and executed?",
       "options": [
-        "To store micro-operations (μops) that are ready for execution.",
-        "To predict the outcome of branch instructions to avoid pipeline stalls.",
-        "To buffer instructions that have completed execution but are waiting to update architectural state in program order.",
-        "To temporarily hold data fetched from main memory before it's written to cache.",
-        "To manage the allocation and deallocation of physical registers for register renaming."
+        "Instruction Register (IR)",
+        "Accumulator (ACC)",
+        "Status Register (SR)",
+        "Program Counter (PC)",
+        "Memory Address Register (MAR)"
       ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary characteristic of \"memory-mapped I/O\" in computer architecture?",
-      "options": [
-        "I/O devices communicate with the CPU exclusively through dedicated I/O instructions.",
-        "I/O devices are assigned unique memory addresses, allowing the CPU to access them using regular load/store instructions.",
-        "A separate bus is used for all I/O transactions, independent of the main memory bus.",
-        "I/O operations are always handled by a Direct Memory Access (DMA) controller without CPU involvement.",
-        "It requires a dedicated I/O controller with its own instruction set."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Compared to a fully synchronous digital design, what is the primary advantage of employing asynchronous (clockless) design principles for certain parts of a complex integrated circuit?",
-      "options": [
-        "Simplified timing verification due to the absence of clock-related issues.",
-        "Guaranteed higher maximum operating frequency for the entire chip.",
-        "Potentially lower power consumption and better resilience to process variations and voltage fluctuations.",
-        "Elimination of all power integrity issues across the design.",
-        "Significantly reduced design complexity and faster time-to-market."
-      ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }

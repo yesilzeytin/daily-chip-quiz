@@ -1,9 +1,4 @@
 [
-  "What does CMOS primarily refer to in the context of integrated circuit technology?",
-  "In the physical design phase of digital ICs, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "Amdahl's Law is a fundamental principle in computer architecture. What does it primarily describe?",
-  "In advanced semiconductor manufacturing, variations in manufacturing processes can lead to significant differences in device characteristics. To ensure robust operation across these inherent physical variations, along with fluctuations in voltage and temperature, IC designers primarily rely on which verification strategy?",
-  "Which of the following digital logic components selects one of several input data lines and routes it to a single output line, based on the value of its select input lines?",
   "When choosing between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA) for a digital design, what is generally considered the primary advantage of using an FPGA?",
   "Which of the following best describes the fundamental difference in how Static RAM (SRAM) and Dynamic RAM (DRAM) store a single bit of information?",
   "In digital IC design, when transferring data between two asynchronous clock domains, what is the primary purpose of employing a synchronizer circuit (e.g., a two-flop synchronizer)?",
@@ -48,5 +43,10 @@
   "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the \"Place and Route\" process?",
   "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?",
   "What is the primary characteristic of \"memory-mapped I/O\" in computer architecture?",
-  "Compared to a fully synchronous digital design, what is the primary advantage of employing asynchronous (clockless) design principles for certain parts of a complex integrated circuit?"
+  "Compared to a fully synchronous digital design, what is the primary advantage of employing asynchronous (clockless) design principles for certain parts of a complex integrated circuit?",
+  "In the context of semiconductor manufacturing, what is a 'die'?",
+  "What is the primary role of an 'arbiter' in a digital system design?",
+  "Which of the following best describes 'speculative execution' in modern CPU architectures?",
+  "In the digital IC design flow, what is the primary purpose of a 'timing constraint file' (e.g., an SDC file)?",
+  "Within a Central Processing Unit (CPU), which dedicated register holds the memory address of the next instruction to be fetched and executed?"
 ]
