@@ -1,9 +1,4 @@
 [
-  "When choosing between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA) for a digital design, what is generally considered the primary advantage of using an FPGA?",
-  "Which of the following best describes the fundamental difference in how Static RAM (SRAM) and Dynamic RAM (DRAM) store a single bit of information?",
-  "In digital IC design, when transferring data between two asynchronous clock domains, what is the primary purpose of employing a synchronizer circuit (e.g., a two-flop synchronizer)?",
-  "In a multi-core processor system with relaxed memory consistency models, what is the primary role of a 'memory barrier' (also known as a memory fence) instruction?",
-  "What is the primary goal of High-Level Synthesis (HLS) in the digital IC design flow?",
   "Which fundamental digital logic gate produces a HIGH output (1) only when all of its inputs are HIGH (1)?",
   "What is the primary benefit of employing pipelining in a CPU architecture?",
   "In modern out-of-order execution processors, what is the primary purpose of 'register renaming'?",
@@ -48,5 +43,10 @@
   "What is the primary role of an 'arbiter' in a digital system design?",
   "Which of the following best describes 'speculative execution' in modern CPU architectures?",
   "In the digital IC design flow, what is the primary purpose of a 'timing constraint file' (e.g., an SDC file)?",
-  "Within a Central Processing Unit (CPU), which dedicated register holds the memory address of the next instruction to be fetched and executed?"
+  "Within a Central Processing Unit (CPU), which dedicated register holds the memory address of the next instruction to be fetched and executed?",
+  "What is the primary semiconductor material used for fabricating the vast majority of modern integrated circuits?",
+  "In a set-associative cache, when a cache set is full and a new block needs to be brought in, which cache replacement policy evicts the block that has not been used for the longest period of time?",
+  "In digital circuit timing analysis, what is the term for the minimum delay through any path from an input to an output, often critical for verifying that a circuit does not produce an incorrect output too quickly (i.e., for hold time checks)?",
+  "In the digital IC design verification flow, which formal verification technique is primarily used to mathematically prove that two different representations of a design (e.g., RTL and gate-level netlist) implement the exact same functionality?",
+  "In modern many-core processors and System-on-Chip (SoC) designs, what phenomenon refers to the increasing inability to simultaneously power on and utilize all available transistors on a chip due to power density and thermal constraints, leading to a significant portion of the silicon remaining unpowered or \"dark\" at any given time?"
 ]

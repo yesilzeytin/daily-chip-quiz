@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the context of semiconductor manufacturing, what is a 'die'?",
+      "question": "What is the primary semiconductor material used for fabricating the vast majority of modern integrated circuits?",
       "options": [
-        "The completed and packaged integrated circuit ready for use.",
-        "A special tool used for etching patterns onto silicon wafers.",
-        "The individual rectangular piece of silicon, cut from a wafer, that contains a single integrated circuit.",
-        "A type of interconnect material used to connect different layers of the chip.",
-        "The insulating layer between the gate and the channel in a MOSFET."
+        "Gallium Arsenide",
+        "Germanium",
+        "Silicon",
+        "Copper",
+        "Aluminum"
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary role of an 'arbiter' in a digital system design?",
+      "question": "In a set-associative cache, when a cache set is full and a new block needs to be brought in, which cache replacement policy evicts the block that has not been used for the longest period of time?",
       "options": [
-        "To synchronize data transfers between two different clock domains.",
-        "To perform complex arithmetic and logical operations.",
-        "To store program instructions during execution.",
-        "To resolve contention among multiple requestors trying to access a single shared resource.",
-        "To convert parallel data into a serial stream for communication."
+        "First-In, First-Out (FIFO)",
+        "Least Recently Used (LRU)",
+        "Most Recently Used (MRU)",
+        "Random Replacement",
+        "Least Frequently Used (LFU)"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In digital circuit timing analysis, what is the term for the minimum delay through any path from an input to an output, often critical for verifying that a circuit does not produce an incorrect output too quickly (i.e., for hold time checks)?",
+      "options": [
+        "Setup Time",
+        "Contamination Delay (T_cd)",
+        "Propagation Delay (T_pd)",
+        "Clock-to-Q Delay",
+        "Hold Time"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the digital IC design verification flow, which formal verification technique is primarily used to mathematically prove that two different representations of a design (e.g., RTL and gate-level netlist) implement the exact same functionality?",
+      "options": [
+        "Assertion-Based Verification (ABV)",
+        "Dynamic Simulation",
+        "Static Timing Analysis (STA)",
+        "Equivalence Checking (EC)",
+        "Linting"
       ],
       "correct": 3
     },
     {
-      "question": "Which of the following best describes 'speculative execution' in modern CPU architectures?",
+      "question": "In modern many-core processors and System-on-Chip (SoC) designs, what phenomenon refers to the increasing inability to simultaneously power on and utilize all available transistors on a chip due to power density and thermal constraints, leading to a significant portion of the silicon remaining unpowered or \"dark\" at any given time?",
       "options": [
-        "A technique where the CPU predicts which branch will be taken and executes instructions along that predicted path, discarding results if the prediction was wrong.",
-        "A method of increasing memory bandwidth by prefetching data that is likely to be accessed soon.",
-        "The process of allocating memory regions to different programs based on their estimated future needs.",
-        "Executing multiple instructions simultaneously by mapping them to different processing cores.",
-        "A design strategy where the processor executes instructions strictly in the order they appear in the program code, regardless of data dependencies."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In the digital IC design flow, what is the primary purpose of a 'timing constraint file' (e.g., an SDC file)?",
-      "options": [
-        "To define the physical layout dimensions and routing rules for the chip's fabrication.",
-        "To describe the functional behavior of the circuit using a hardware description language.",
-        "To specify all required clock frequencies, input/output delays, false paths, and multi-cycle paths for static timing analysis.",
-        "To detail the power consumption targets and voltage scaling strategies for low-power optimization.",
-        "To manage the version control and revision history of the design files."
+        "Voltage Scaling Limitation",
+        "Interconnect Bottleneck",
+        "Dark Silicon Problem",
+        "Memory Wall Effect",
+        "Quantum Tunneling"
       ],
       "correct": 2
-    },
-    {
-      "question": "Within a Central Processing Unit (CPU), which dedicated register holds the memory address of the next instruction to be fetched and executed?",
-      "options": [
-        "Instruction Register (IR)",
-        "Accumulator (ACC)",
-        "Status Register (SR)",
-        "Program Counter (PC)",
-        "Memory Address Register (MAR)"
-      ],
-      "correct": 3
     }
   ]
 }
