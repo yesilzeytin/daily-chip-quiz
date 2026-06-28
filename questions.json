@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary semiconductor material used for fabricating the vast majority of modern integrated circuits?",
+      "question": "What is the primary purpose of a clock signal in a synchronous digital circuit?",
       "options": [
-        "Gallium Arsenide",
-        "Germanium",
-        "Silicon",
-        "Copper",
-        "Aluminum"
+        "To provide power to the circuit components.",
+        "To synchronize operations and regulate the flow of data and control signals.",
+        "To store data permanently within memory elements.",
+        "To amplify analog signals for better reception.",
+        "To generate random numbers for security features."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the Floorplanning stage?",
+      "options": [
+        "To convert the Register Transfer Level (RTL) description into a gate-level netlist.",
+        "To perform detailed routing of all interconnects between standard cells.",
+        "To determine the coarse placement of major functional blocks, I/O pins, and define global power/ground networks.",
+        "To verify the functional correctness of the design using extensive simulations.",
+        "To generate manufacturing masks for the lithography process."
       ],
       "correct": 2
     },
     {
-      "question": "In a set-associative cache, when a cache set is full and a new block needs to be brought in, which cache replacement policy evicts the block that has not been used for the longest period of time?",
+      "question": "What primary challenge is addressed by implementing Dynamic Voltage and Frequency Scaling (DVFS) in modern processors and SoCs?",
       "options": [
-        "First-In, First-Out (FIFO)",
-        "Least Recently Used (LRU)",
-        "Most Recently Used (MRU)",
-        "Random Replacement",
-        "Least Frequently Used (LFU)"
+        "Ensuring data consistency and cache coherence across multiple processor cores.",
+        "Managing the trade-off between power consumption and performance dynamically based on workload.",
+        "Preventing structural hazards and data dependencies in deep instruction pipelines.",
+        "Reducing the impact of process variation on manufacturing yield and reliability.",
+        "Facilitating out-of-order instruction execution and speculative processing."
       ],
       "correct": 1
     },
     {
-      "question": "In digital circuit timing analysis, what is the term for the minimum delay through any path from an input to an output, often critical for verifying that a circuit does not produce an incorrect output too quickly (i.e., for hold time checks)?",
+      "question": "What is the main purpose of 'Design Rule Checking (DRC)' in the physical verification stage of IC design?",
       "options": [
-        "Setup Time",
-        "Contamination Delay (T_cd)",
-        "Propagation Delay (T_pd)",
-        "Clock-to-Q Delay",
-        "Hold Time"
+        "To verify that the gate-level netlist matches the Register Transfer Level (RTL) description.",
+        "To simulate the circuit's behavior under various input stimuli to ensure functional correctness.",
+        "To ensure that all polygons and layers in the layout adhere to the foundry's geometric and electrical manufacturing specifications.",
+        "To analyze the propagation delays of signals through the circuit and identify timing violations.",
+        "To generate the final test vectors for manufacturing defect detection."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In the digital IC design verification flow, which formal verification technique is primarily used to mathematically prove that two different representations of a design (e.g., RTL and gate-level netlist) implement the exact same functionality?",
+      "question": "What is the main function of a Memory Management Unit (MMU) in a computer system?",
       "options": [
-        "Assertion-Based Verification (ABV)",
-        "Dynamic Simulation",
-        "Static Timing Analysis (STA)",
-        "Equivalence Checking (EC)",
-        "Linting"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In modern many-core processors and System-on-Chip (SoC) designs, what phenomenon refers to the increasing inability to simultaneously power on and utilize all available transistors on a chip due to power density and thermal constraints, leading to a significant portion of the silicon remaining unpowered or \"dark\" at any given time?",
-      "options": [
-        "Voltage Scaling Limitation",
-        "Interconnect Bottleneck",
-        "Dark Silicon Problem",
-        "Memory Wall Effect",
-        "Quantum Tunneling"
+        "To perform arithmetic and logical operations on data in the CPU.",
+        "To manage the flow of instructions between the CPU and I/O devices.",
+        "To translate virtual memory addresses into physical memory addresses and enforce memory protection and permissions.",
+        "To store temporary data and program instructions for quick access by the CPU.",
+        "To synchronize the operations of multiple processor cores to prevent race conditions."
       ],
       "correct": 2
     }
