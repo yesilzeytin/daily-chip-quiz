@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of a clock signal in a synchronous digital circuit?",
+      "question": "What is the fundamental difference in programmability and performance between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
       "options": [
-        "To provide power to the circuit components.",
-        "To synchronize operations and regulate the flow of data and control signals.",
-        "To store data permanently within memory elements.",
-        "To amplify analog signals for better reception.",
-        "To generate random numbers for security features."
+        "ASICs are reprogrammable after manufacturing, while FPGAs have their functionality fixed during manufacturing.",
+        "ASICs are designed for specific tasks, offering high performance and efficiency, while FPGAs are reconfigurable and offer flexibility.",
+        "FPGAs require custom mask sets for fabrication, whereas ASICs are built using generic configurable logic blocks.",
+        "ASICs are typically cheaper to produce in small quantities, while FPGAs are more cost-effective for mass production.",
+        "FPGAs are exclusively used for control logic, and ASICs are used for data path operations."
       ],
       "correct": 1
     },
     {
-      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the Floorplanning stage?",
+      "question": "In a system employing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "To convert the Register Transfer Level (RTL) description into a gate-level netlist.",
-        "To perform detailed routing of all interconnects between standard cells.",
-        "To determine the coarse placement of major functional blocks, I/O pins, and define global power/ground networks.",
-        "To verify the functional correctness of the design using extensive simulations.",
-        "To generate manufacturing masks for the lithography process."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What primary challenge is addressed by implementing Dynamic Voltage and Frequency Scaling (DVFS) in modern processors and SoCs?",
-      "options": [
-        "Ensuring data consistency and cache coherence across multiple processor cores.",
-        "Managing the trade-off between power consumption and performance dynamically based on workload.",
-        "Preventing structural hazards and data dependencies in deep instruction pipelines.",
-        "Reducing the impact of process variation on manufacturing yield and reliability.",
-        "Facilitating out-of-order instruction execution and speculative processing."
+        "To store frequently used CPU instructions for faster access.",
+        "To act as a small, fast cache for recent virtual-to-physical address translations.",
+        "To manage the allocation and deallocation of physical memory pages.",
+        "To serve as a temporary storage for data being transferred between the CPU and I/O devices.",
+        "To determine which process has access to a particular memory region."
       ],
       "correct": 1
     },
     {
-      "question": "What is the main purpose of 'Design Rule Checking (DRC)' in the physical verification stage of IC design?",
+      "question": "In the context of digital IC Design-for-Testability (DFT), what is the primary goal of Automatic Test Pattern Generation (ATPG)?",
       "options": [
-        "To verify that the gate-level netlist matches the Register Transfer Level (RTL) description.",
-        "To simulate the circuit's behavior under various input stimuli to ensure functional correctness.",
-        "To ensure that all polygons and layers in the layout adhere to the foundry's geometric and electrical manufacturing specifications.",
-        "To analyze the propagation delays of signals through the circuit and identify timing violations.",
-        "To generate the final test vectors for manufacturing defect detection."
+        "To simulate the circuit's behavior under various operational conditions.",
+        "To reduce the power consumption of the chip during test mode.",
+        "To generate a set of test vectors that can detect a high percentage of manufacturing defects based on defined fault models.",
+        "To optimize the physical placement of test points to minimize area overhead.",
+        "To convert the RTL design into a gate-level netlist for synthesis."
       ],
       "correct": 2
     },
     {
-      "question": "What is the main function of a Memory Management Unit (MMU) in a computer system?",
+      "question": "As semiconductor technology scales down, interconnect resistance and capacitance become increasingly significant. What is the primary impact of these interconnect parasitics on the performance of a digital IC?",
       "options": [
-        "To perform arithmetic and logical operations on data in the CPU.",
-        "To manage the flow of instructions between the CPU and I/O devices.",
-        "To translate virtual memory addresses into physical memory addresses and enforce memory protection and permissions.",
-        "To store temporary data and program instructions for quick access by the CPU.",
-        "To synchronize the operations of multiple processor cores to prevent race conditions."
+        "They increase the overall transistor count, leading to higher manufacturing costs.",
+        "They cause an increase in the chip's static (leakage) power consumption.",
+        "They primarily affect the integrity of the power delivery network, causing voltage drops.",
+        "They introduce significant signal propagation delays and can lead to crosstalk between adjacent wires.",
+        "They make it more difficult to achieve high clock frequencies due to increased setup time requirements for flip-flops."
       ],
-      "correct": 2
+      "correct": 3
+    },
+    {
+      "question": "What is the primary function of an Instruction Set Architecture (ISA) in computer systems?",
+      "options": [
+        "To define the physical layout and fabrication process of the CPU.",
+        "To specify the micro-architectural implementation details, such as pipeline stages and cache sizes.",
+        "To provide a high-level programming language interface for software developers.",
+        "To define the set of instructions, registers, data types, and memory addressing modes that a CPU can execute.",
+        "To manage the operating system's interaction with peripheral devices."
+      ],
+      "correct": 3
     }
   ]
 }
