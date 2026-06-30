@@ -1,9 +1,4 @@
 [
-  "What are the three fundamental stages of the CPU instruction cycle, in their correct sequential order?",
-  "In digital IC design, what is the primary purpose of Static Timing Analysis (STA)?",
-  "When data is written to a cache, how the update is propagated to main memory is determined by the cache's write policy. Which policy immediately writes data to both the cache and main memory upon a write operation?",
-  "In advanced digital IC verification, what is 'Formal Verification' primarily used for, as distinct from simulation?",
-  "What is the primary motivation behind the growing adoption of 'chiplet' architectures in modern high-performance computing and SoC designs?",
   "What is the fundamental building block of combinational logic circuits?",
   "In the context of a cache memory system, what does a 'cache hit' signify?",
   "Which architectural technique allows a processor to begin executing multiple instructions in parallel within a single clock cycle, even if they are independent, by having multiple execution units?",
@@ -48,5 +43,10 @@
   "In a system employing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
   "In the context of digital IC Design-for-Testability (DFT), what is the primary goal of Automatic Test Pattern Generation (ATPG)?",
   "As semiconductor technology scales down, interconnect resistance and capacitance become increasingly significant. What is the primary impact of these interconnect parasitics on the performance of a digital IC?",
-  "What is the primary function of an Instruction Set Architecture (ISA) in computer systems?"
+  "What is the primary function of an Instruction Set Architecture (ISA) in computer systems?",
+  "What is the primary function of a multiplexer (MUX) in a digital circuit?",
+  "In a multi-processor system with shared memory, what is the primary challenge addressed by 'cache coherence protocols'?",
+  "In the physical design flow of a synchronous digital IC, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
+  "High-Level Synthesis (HLS) is increasingly used in modern chip design flows. What is its primary function?",
+  "In advanced semiconductor technologies, what reliability phenomenon refers to the transport of material caused by the gradual movement of the ions in a conductor due to momentum transfer from conducting electrons, leading to potential open circuits or short circuits over time?"
 ]

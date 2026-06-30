@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental difference in programmability and performance between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
+      "question": "What is the primary function of a multiplexer (MUX) in a digital circuit?",
       "options": [
-        "ASICs are reprogrammable after manufacturing, while FPGAs have their functionality fixed during manufacturing.",
-        "ASICs are designed for specific tasks, offering high performance and efficiency, while FPGAs are reconfigurable and offer flexibility.",
-        "FPGAs require custom mask sets for fabrication, whereas ASICs are built using generic configurable logic blocks.",
-        "ASICs are typically cheaper to produce in small quantities, while FPGAs are more cost-effective for mass production.",
-        "FPGAs are exclusively used for control logic, and ASICs are used for data path operations."
+        "To store a single bit of data.",
+        "To select one of several input signals and route it to a single output.",
+        "To combine multiple input signals into a single output using a logical AND operation.",
+        "To divide a clock signal's frequency.",
+        "To generate clock pulses."
       ],
       "correct": 1
     },
     {
-      "question": "In a system employing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+      "question": "In a multi-processor system with shared memory, what is the primary challenge addressed by 'cache coherence protocols'?",
       "options": [
-        "To store frequently used CPU instructions for faster access.",
-        "To act as a small, fast cache for recent virtual-to-physical address translations.",
-        "To manage the allocation and deallocation of physical memory pages.",
-        "To serve as a temporary storage for data being transferred between the CPU and I/O devices.",
-        "To determine which process has access to a particular memory region."
+        "Minimizing the latency of memory accesses by processors.",
+        "Ensuring that all processors have a consistent view of data in shared memory, even when cached locally.",
+        "Reducing the total power consumption of the memory subsystem.",
+        "Preventing illegal memory accesses and protecting operating system resources.",
+        "Increasing the overall bandwidth between the CPU and main memory."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of digital IC Design-for-Testability (DFT), what is the primary goal of Automatic Test Pattern Generation (ATPG)?",
+      "question": "In the physical design flow of a synchronous digital IC, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
       "options": [
-        "To simulate the circuit's behavior under various operational conditions.",
-        "To reduce the power consumption of the chip during test mode.",
-        "To generate a set of test vectors that can detect a high percentage of manufacturing defects based on defined fault models.",
-        "To optimize the physical placement of test points to minimize area overhead.",
-        "To convert the RTL design into a gate-level netlist for synthesis."
+        "To arrange standard cells into rows and connect them with power and ground rails.",
+        "To generate and distribute the clock signal throughout the chip with minimal skew and jitter.",
+        "To verify that all design rules (DRC) are met on the layout.",
+        "To extract parasitic resistances and capacitances from the layout.",
+        "To assign specific logic functions to available routing channels."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "High-Level Synthesis (HLS) is increasingly used in modern chip design flows. What is its primary function?",
+      "options": [
+        "To perform detailed gate-level simulations to verify functional correctness.",
+        "To mathematically prove the equivalence between an RTL design and its specification.",
+        "To automatically generate a Register Transfer Level (RTL) description from an algorithmic description (e.g., C/C++).",
+        "To optimize the physical layout for power, performance, and area after placement.",
+        "To insert dedicated test structures for design-for-testability (DFT) purposes."
       ],
       "correct": 2
     },
     {
-      "question": "As semiconductor technology scales down, interconnect resistance and capacitance become increasingly significant. What is the primary impact of these interconnect parasitics on the performance of a digital IC?",
+      "question": "In advanced semiconductor technologies, what reliability phenomenon refers to the transport of material caused by the gradual movement of the ions in a conductor due to momentum transfer from conducting electrons, leading to potential open circuits or short circuits over time?",
       "options": [
-        "They increase the overall transistor count, leading to higher manufacturing costs.",
-        "They cause an increase in the chip's static (leakage) power consumption.",
-        "They primarily affect the integrity of the power delivery network, causing voltage drops.",
-        "They introduce significant signal propagation delays and can lead to crosstalk between adjacent wires.",
-        "They make it more difficult to achieve high clock frequencies due to increased setup time requirements for flip-flops."
+        "Negative Bias Temperature Instability (NBTI)",
+        "Hot Carrier Injection (HCI)",
+        "Electromigration (EM)",
+        "Time Dependent Dielectric Breakdown (TDDB)",
+        "Latch-up"
       ],
-      "correct": 3
-    },
-    {
-      "question": "What is the primary function of an Instruction Set Architecture (ISA) in computer systems?",
-      "options": [
-        "To define the physical layout and fabrication process of the CPU.",
-        "To specify the micro-architectural implementation details, such as pipeline stages and cache sizes.",
-        "To provide a high-level programming language interface for software developers.",
-        "To define the set of instructions, registers, data types, and memory addressing modes that a CPU can execute.",
-        "To manage the operating system's interaction with peripheral devices."
-      ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }
