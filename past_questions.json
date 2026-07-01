@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of combinational logic circuits?",
-  "In the context of a cache memory system, what does a 'cache hit' signify?",
-  "Which architectural technique allows a processor to begin executing multiple instructions in parallel within a single clock cycle, even if they are independent, by having multiple execution units?",
-  "In the post-silicon validation phase of an IC design, what is the primary purpose of 'Shmoo Plots'?",
-  "In synchronous digital circuit design, what is the primary purpose of adding 'hold buffers' or 'delay cells' to a data path?",
   "What does a Register Transfer Level (RTL) description primarily represent in the digital IC design flow?",
   "In the context of a CPU's pipeline, what is a `hazard`?",
   "What is the main function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
@@ -48,5 +43,10 @@
   "In a multi-processor system with shared memory, what is the primary challenge addressed by 'cache coherence protocols'?",
   "In the physical design flow of a synchronous digital IC, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
   "High-Level Synthesis (HLS) is increasingly used in modern chip design flows. What is its primary function?",
-  "In advanced semiconductor technologies, what reliability phenomenon refers to the transport of material caused by the gradual movement of the ions in a conductor due to momentum transfer from conducting electrons, leading to potential open circuits or short circuits over time?"
+  "In advanced semiconductor technologies, what reliability phenomenon refers to the transport of material caused by the gradual movement of the ions in a conductor due to momentum transfer from conducting electrons, leading to potential open circuits or short circuits over time?",
+  "In synchronous digital circuit design, what is the 'setup time' requirement for a flip-flop?",
+  "Which type of memory is typically used for CPU caches due to its high speed, but is more expensive and less dense than other volatile memory types?",
+  "In the digital IC design flow, what is the primary function of a logic synthesis tool?",
+  "When designing a System-on-Chip (SoC) with multiple clock domains, which technique is commonly used to safely transfer single-bit control signals between two asynchronous clock domains without violating setup or hold times, or incurring metastability issues?",
+  "What is the primary architectural principle behind the design of a Reduced Instruction Set Computer (RISC) processor, contrasting it with Complex Instruction Set Computer (CISC) architectures?"
 ]
