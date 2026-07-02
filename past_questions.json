@@ -1,9 +1,4 @@
 [
-  "What does a Register Transfer Level (RTL) description primarily represent in the digital IC design flow?",
-  "In the context of a CPU's pipeline, what is a `hazard`?",
-  "What is the main function of the Arithmetic Logic Unit (ALU) within a Central Processing Unit (CPU)?",
-  "What is the primary purpose of inserting `scan chains` into a digital IC during the Design-for-Testability (DFT) phase?",
-  "In a cache memory system, what does the term `write-back` policy primarily imply about how data is updated in main memory?",
   "In digital IC design, what is the primary purpose of a 'standard cell library'?",
   "What is the primary distinction between a CPU's Instruction Set Architecture (ISA) and its microarchitecture?",
   "In deep sub-micron and nanometer IC technologies, which phenomenon primarily refers to the unintentional coupling of signals between adjacent wires, potentially causing false switching or increased delay?",
@@ -48,5 +43,10 @@
   "Which type of memory is typically used for CPU caches due to its high speed, but is more expensive and less dense than other volatile memory types?",
   "In the digital IC design flow, what is the primary function of a logic synthesis tool?",
   "When designing a System-on-Chip (SoC) with multiple clock domains, which technique is commonly used to safely transfer single-bit control signals between two asynchronous clock domains without violating setup or hold times, or incurring metastability issues?",
-  "What is the primary architectural principle behind the design of a Reduced Instruction Set Computer (RISC) processor, contrasting it with Complex Instruction Set Computer (CISC) architectures?"
+  "What is the primary architectural principle behind the design of a Reduced Instruction Set Computer (RISC) processor, contrasting it with Complex Instruction Set Computer (CISC) architectures?",
+  "What is the primary role of a Phase-Locked Loop (PLL) in a digital integrated circuit?",
+  "What is the main characteristic that distinguishes Static Timing Analysis (STA) from dynamic timing simulation in IC design verification?",
+  "In the context of IC physical design and manufacturing, what is the primary goal of Design for Manufacturability (DFM)?",
+  "In a modern out-of-order superscalar processor, what is the primary purpose of 'register renaming'?",
+  "In computer architecture, what does the 'memory wall' problem primarily refer to?"
 ]

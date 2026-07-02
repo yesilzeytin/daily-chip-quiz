@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In synchronous digital circuit design, what is the 'setup time' requirement for a flip-flop?",
+      "question": "What is the primary role of a Phase-Locked Loop (PLL) in a digital integrated circuit?",
       "options": [
-        "The minimum time the input data must be stable AFTER the active clock edge.",
-        "The maximum time the input data can change BEFORE the active clock edge.",
-        "The minimum time the input data must be stable BEFORE the active clock edge.",
-        "The total propagation delay from the data input to the output.",
-        "The time required for the clock signal to transition from low to high."
+        "To generate a stable clock signal at a precise frequency, often multiplying or dividing an input reference frequency.",
+        "To execute arithmetic and logical operations within the Central Processing Unit (CPU).",
+        "To store configuration data for Field-Programmable Gate Arrays (FPGAs).",
+        "To manage virtual memory translations between logical and physical addresses.",
+        "To convert analog signals to digital signals and vice-versa for I/O operations."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "Which type of memory is typically used for CPU caches due to its high speed, but is more expensive and less dense than other volatile memory types?",
+      "question": "What is the main characteristic that distinguishes Static Timing Analysis (STA) from dynamic timing simulation in IC design verification?",
       "options": [
-        "Dynamic Random Access Memory (DRAM)",
-        "Static Random Access Memory (SRAM)",
-        "Read-Only Memory (ROM)",
-        "Flash Memory",
-        "Magnetic Core Memory"
+        "STA is primarily used for verifying power consumption, while dynamic simulation focuses on critical path delays.",
+        "STA analyzes timing without requiring specific input test vectors, whereas dynamic simulation requires them for functional execution.",
+        "STA is performed only on analog circuits, while dynamic simulation is exclusively for digital circuits.",
+        "STA verifies the functional correctness of the design, while dynamic simulation checks for design rule violations.",
+        "STA runs much slower than dynamic simulation due to its exhaustive path analysis."
       ],
       "correct": 1
     },
     {
-      "question": "In the digital IC design flow, what is the primary function of a logic synthesis tool?",
+      "question": "In the context of IC physical design and manufacturing, what is the primary goal of Design for Manufacturability (DFM)?",
       "options": [
-        "To convert a gate-level netlist into a physical layout (mask data).",
-        "To simulate the behavioral description of the RTL design using testbenches.",
-        "To translate an RTL (Register Transfer Level) description into an optimized gate-level netlist using a technology library.",
-        "To verify the physical layout against the schematic (Layout Versus Schematic).",
-        "To assign specific locations for each standard cell on the silicon die (placement)."
+        "To ensure that the circuit meets its specified performance targets (e.g., frequency) after fabrication.",
+        "To optimize the design to increase manufacturing yield and reduce production costs by making it easier to fabricate.",
+        "To reduce the overall power consumption of the chip during operation.",
+        "To verify that the logical functionality of the circuit matches its RTL description.",
+        "To integrate various intellectual property (IP) blocks onto a single System-on-Chip (SoC) more efficiently."
       ],
       "correct": 2
     },
     {
-      "question": "When designing a System-on-Chip (SoC) with multiple clock domains, which technique is commonly used to safely transfer single-bit control signals between two asynchronous clock domains without violating setup or hold times, or incurring metastability issues?",
+      "question": "In a modern out-of-order superscalar processor, what is the primary purpose of 'register renaming'?",
       "options": [
-        "Using a global asynchronous reset signal.",
-        "Inserting a single synchronizer flip-flop.",
-        "Implementing a simple combinational buffer.",
-        "Employing a two-flop synchronizer (or 'double flip-flop synchronizer').",
-        "Bypassing the clock signal through a phase-locked loop (PLL)."
+        "To assign unique identification tags to instructions as they enter the pipeline.",
+        "To reduce the number of physical registers required by sharing them among logical registers.",
+        "To eliminate Write-After-Write (WAW) and Write-After-Read (WAR) hazards by providing unique physical registers for each value.",
+        "To convert complex instructions into a sequence of simpler micro-operations.",
+        "To determine the correct program counter value for the next instruction to be fetched."
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "What is the primary architectural principle behind the design of a Reduced Instruction Set Computer (RISC) processor, contrasting it with Complex Instruction Set Computer (CISC) architectures?",
+      "question": "In computer architecture, what does the 'memory wall' problem primarily refer to?",
       "options": [
-        "To minimize the number of general-purpose registers available to the programmer.",
-        "To execute complex instructions that can perform multiple memory-to-register operations in a single cycle.",
-        "To provide a very large number of addressing modes for memory access.",
-        "To use a simpler, fixed-length instruction format for easier decoding and pipelining.",
-        "To primarily rely on microcode for all instruction execution."
+        "The physical limitations on how much memory can be addressed by a CPU's instruction set.",
+        "The increasing difficulty of integrating different types of memory technologies onto a single motherboard.",
+        "The growing disparity between the rapid increase in CPU processing speeds and the slower improvement in memory access latencies.",
+        "The thermal dissipation limits of high-density memory modules.",
+        "The high financial cost of high-bandwidth, low-latency memory chips."
       ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }
