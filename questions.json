@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of a Phase-Locked Loop (PLL) in a digital integrated circuit?",
+      "question": "In semiconductor manufacturing, what is the primary purpose of 'doping' silicon?",
       "options": [
-        "To generate a stable clock signal at a precise frequency, often multiplying or dividing an input reference frequency.",
-        "To execute arithmetic and logical operations within the Central Processing Unit (CPU).",
-        "To store configuration data for Field-Programmable Gate Arrays (FPGAs).",
-        "To manage virtual memory translations between logical and physical addresses.",
-        "To convert analog signals to digital signals and vice-versa for I/O operations."
+        "To increase the mechanical strength of the silicon wafer.",
+        "To make the silicon an electrical insulator.",
+        "To control its electrical conductivity by introducing impurities.",
+        "To prevent oxidation during processing.",
+        "To enhance its optical properties for display applications."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "What is the main characteristic that distinguishes Static Timing Analysis (STA) from dynamic timing simulation in IC design verification?",
+      "question": "In a CPU pipeline, what type of hazard occurs when an instruction attempts to read a register that a previous instruction is in the process of writing, but has not yet completed?",
       "options": [
-        "STA is primarily used for verifying power consumption, while dynamic simulation focuses on critical path delays.",
-        "STA analyzes timing without requiring specific input test vectors, whereas dynamic simulation requires them for functional execution.",
-        "STA is performed only on analog circuits, while dynamic simulation is exclusively for digital circuits.",
-        "STA verifies the functional correctness of the design, while dynamic simulation checks for design rule violations.",
-        "STA runs much slower than dynamic simulation due to its exhaustive path analysis."
+        "Structural Hazard",
+        "Control Hazard",
+        "Data Hazard (RAW - Read After Write)",
+        "Memory Hazard",
+        "I/O Hazard"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "When a flip-flop's setup or hold time requirements are violated, its output may enter an unstable, indeterminate state for an unpredictable amount of time before settling to a valid logic level. What is this phenomenon called?",
+      "options": [
+        "Glitching",
+        "Skew",
+        "Metastability",
+        "Jitter",
+        "Latching"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the physical design and verification of high-performance integrated circuits, what is 'IR drop' primarily concerned with?",
+      "options": [
+        "The voltage drop across signal interconnects due to resistance, leading to signal degradation.",
+        "The voltage drop in the power supply network due to current flow and metal resistance, affecting circuit functionality and performance.",
+        "The increase in resistance of wires at cryogenic temperatures.",
+        "The degradation of transistor gate oxide due to high electric fields.",
+        "The reduction in chip performance caused by cosmic radiation."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of IC physical design and manufacturing, what is the primary goal of Design for Manufacturability (DFM)?",
+      "question": "In a multi-level cache hierarchy, what is the primary characteristic of a 'write-back' cache policy?",
       "options": [
-        "To ensure that the circuit meets its specified performance targets (e.g., frequency) after fabrication.",
-        "To optimize the design to increase manufacturing yield and reduce production costs by making it easier to fabricate.",
-        "To reduce the overall power consumption of the chip during operation.",
-        "To verify that the logical functionality of the circuit matches its RTL description.",
-        "To integrate various intellectual property (IP) blocks onto a single System-on-Chip (SoC) more efficiently."
+        "All write operations are immediately propagated to the main memory.",
+        "Data is written to main memory only when the corresponding cache block is evicted or explicitly flushed.",
+        "Write operations are only allowed if the data is already present in the cache.",
+        "Writes are always deferred until a read request for the same address occurs.",
+        "It exclusively uses a least recently used (LRU) replacement policy for writes."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In a modern out-of-order superscalar processor, what is the primary purpose of 'register renaming'?",
-      "options": [
-        "To assign unique identification tags to instructions as they enter the pipeline.",
-        "To reduce the number of physical registers required by sharing them among logical registers.",
-        "To eliminate Write-After-Write (WAW) and Write-After-Read (WAR) hazards by providing unique physical registers for each value.",
-        "To convert complex instructions into a sequence of simpler micro-operations.",
-        "To determine the correct program counter value for the next instruction to be fetched."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In computer architecture, what does the 'memory wall' problem primarily refer to?",
-      "options": [
-        "The physical limitations on how much memory can be addressed by a CPU's instruction set.",
-        "The increasing difficulty of integrating different types of memory technologies onto a single motherboard.",
-        "The growing disparity between the rapid increase in CPU processing speeds and the slower improvement in memory access latencies.",
-        "The thermal dissipation limits of high-density memory modules.",
-        "The high financial cost of high-bandwidth, low-latency memory chips."
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
