@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In semiconductor manufacturing, what is the primary purpose of 'doping' silicon?",
+      "question": "What is the primary advantage of CMOS technology over older transistor technologies like NMOS or PMOS in digital integrated circuits?",
       "options": [
-        "To increase the mechanical strength of the silicon wafer.",
-        "To make the silicon an electrical insulator.",
-        "To control its electrical conductivity by introducing impurities.",
-        "To prevent oxidation during processing.",
-        "To enhance its optical properties for display applications."
+        "Significantly reduced static (leakage) power consumption.",
+        "Higher switching speed at all power levels.",
+        "Simpler manufacturing process and fewer fabrication steps.",
+        "Ability to operate at much higher supply voltages.",
+        "Greater immunity to radiation effects."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In formal verification of digital ICs, what is Model Checking primarily used for?",
+      "options": [
+        "To simulate the circuit's behavior under various input stimuli.",
+        "To extract parasitic resistances and capacitances from layout.",
+        "To mathematically verify that a design satisfies specified temporal properties.",
+        "To generate test vectors for manufacturing fault detection.",
+        "To determine the optimal placement of standard cells."
       ],
       "correct": 2
     },
     {
-      "question": "In a CPU pipeline, what type of hazard occurs when an instruction attempts to read a register that a previous instruction is in the process of writing, but has not yet completed?",
+      "question": "In modern pipelined processors, what is the primary role of a Branch Predictor?",
       "options": [
-        "Structural Hazard",
-        "Control Hazard",
-        "Data Hazard (RAW - Read After Write)",
-        "Memory Hazard",
-        "I/O Hazard"
+        "To manage cache coherence among multiple processor cores.",
+        "To convert virtual memory addresses into physical memory addresses.",
+        "To guess the outcome of conditional branches to avoid pipeline stalls.",
+        "To allocate physical registers for register renaming.",
+        "To schedule instructions for out-of-order execution."
       ],
       "correct": 2
     },
     {
-      "question": "When a flip-flop's setup or hold time requirements are violated, its output may enter an unstable, indeterminate state for an unpredictable amount of time before settling to a valid logic level. What is this phenomenon called?",
+      "question": "As semiconductor technology nodes continue to shrink, manufacturing variations become more significant. What is the primary purpose of performing Statistical Static Timing Analysis (SSTA) in IC design?",
       "options": [
-        "Glitching",
-        "Skew",
-        "Metastability",
-        "Jitter",
-        "Latching"
+        "To accurately simulate the functional behavior of the circuit under all possible input combinations.",
+        "To verify the correctness of the layout against design rules (DRC).",
+        "To analyze the impact of process variations on circuit timing and ensure yield targets are met.",
+        "To optimize the power delivery network for minimal IR drop.",
+        "To generate formal proofs of equivalence between RTL and gate-level netlists."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design and verification of high-performance integrated circuits, what is 'IR drop' primarily concerned with?",
+      "question": "In computer architectures with multiple processors, what does Non-Uniform Memory Access (NUMA) primarily imply about memory access times?",
       "options": [
-        "The voltage drop across signal interconnects due to resistance, leading to signal degradation.",
-        "The voltage drop in the power supply network due to current flow and metal resistance, affecting circuit functionality and performance.",
-        "The increase in resistance of wires at cryogenic temperatures.",
-        "The degradation of transistor gate oxide due to high electric fields.",
-        "The reduction in chip performance caused by cosmic radiation."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a multi-level cache hierarchy, what is the primary characteristic of a 'write-back' cache policy?",
-      "options": [
-        "All write operations are immediately propagated to the main memory.",
-        "Data is written to main memory only when the corresponding cache block is evicted or explicitly flushed.",
-        "Write operations are only allowed if the data is already present in the cache.",
-        "Writes are always deferred until a read request for the same address occurs.",
-        "It exclusively uses a least recently used (LRU) replacement policy for writes."
+        "All processors have uniform and identical access times to all memory locations.",
+        "Accessing memory physically connected to a processor's local node is faster than accessing memory on a remote node.",
+        "Memory access times are entirely determined by the cache hierarchy, not physical location.",
+        "All memory accesses require a translation through a Memory Management Unit (MMU).",
+        "Memory access patterns are optimized for sequential reads only."
       ],
       "correct": 1
     }

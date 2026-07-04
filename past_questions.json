@@ -1,9 +1,4 @@
 [
-  "What principle states that programs tend to access data and instructions that are near recently accessed ones, both in time and space, enabling efficient use of cache memories?",
-  "In low-power digital IC design, which technique is primarily employed to reduce static (leakage) power consumption by completely cutting off the power supply to inactive blocks of circuitry during idle periods?",
-  "In computer architecture, what metric is used to quantify the average number of clock cycles required to execute a single instruction in a processor, often used to evaluate processor performance?",
-  "To protect integrated circuits from sudden, high-voltage events during manufacturing, handling, or operation, which specialized circuitry is typically integrated at the input/output pads of the chip?",
-  "In advanced semiconductor manufacturing, as traditional planar MOSFETs faced challenges with short channel effects and leakage current at smaller technology nodes, what innovative transistor architecture was developed that features a gate wrapped around multiple fins of silicon, allowing for better control over the channel?",
   "What is the primary function of a flip-flop in digital circuits?",
   "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the \"Place and Route\" process?",
   "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?",
@@ -48,5 +43,10 @@
   "In a CPU pipeline, what type of hazard occurs when an instruction attempts to read a register that a previous instruction is in the process of writing, but has not yet completed?",
   "When a flip-flop's setup or hold time requirements are violated, its output may enter an unstable, indeterminate state for an unpredictable amount of time before settling to a valid logic level. What is this phenomenon called?",
   "In the physical design and verification of high-performance integrated circuits, what is 'IR drop' primarily concerned with?",
-  "In a multi-level cache hierarchy, what is the primary characteristic of a 'write-back' cache policy?"
+  "In a multi-level cache hierarchy, what is the primary characteristic of a 'write-back' cache policy?",
+  "What is the primary advantage of CMOS technology over older transistor technologies like NMOS or PMOS in digital integrated circuits?",
+  "In formal verification of digital ICs, what is Model Checking primarily used for?",
+  "In modern pipelined processors, what is the primary role of a Branch Predictor?",
+  "As semiconductor technology nodes continue to shrink, manufacturing variations become more significant. What is the primary purpose of performing Statistical Static Timing Analysis (SSTA) in IC design?",
+  "In computer architectures with multiple processors, what does Non-Uniform Memory Access (NUMA) primarily imply about memory access times?"
 ]
