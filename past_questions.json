@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a flip-flop in digital circuits?",
-  "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the \"Place and Route\" process?",
-  "In an out-of-order execution processor, what is the primary function of the Reorder Buffer (ROB)?",
-  "What is the primary characteristic of \"memory-mapped I/O\" in computer architecture?",
-  "Compared to a fully synchronous digital design, what is the primary advantage of employing asynchronous (clockless) design principles for certain parts of a complex integrated circuit?",
   "In the context of semiconductor manufacturing, what is a 'die'?",
   "What is the primary role of an 'arbiter' in a digital system design?",
   "Which of the following best describes 'speculative execution' in modern CPU architectures?",
@@ -48,5 +43,10 @@
   "In formal verification of digital ICs, what is Model Checking primarily used for?",
   "In modern pipelined processors, what is the primary role of a Branch Predictor?",
   "As semiconductor technology nodes continue to shrink, manufacturing variations become more significant. What is the primary purpose of performing Statistical Static Timing Analysis (SSTA) in IC design?",
-  "In computer architectures with multiple processors, what does Non-Uniform Memory Access (NUMA) primarily imply about memory access times?"
+  "In computer architectures with multiple processors, what does Non-Uniform Memory Access (NUMA) primarily imply about memory access times?",
+  "What distinguishes a combinational logic circuit from a sequential logic circuit?",
+  "In a virtual memory system, what event typically triggers a 'page fault'?",
+  "In the context of digital IC design using standard cell libraries, what is the primary purpose of 'library characterization'?",
+  "In a pipelined or out-of-order processor, which type of data dependency exists when one instruction writes a value to a register, and a subsequent instruction reads from that same register?",
+  "In digital IC verification, what is the primary role of an 'assertion'?"
 ]
