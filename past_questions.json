@@ -1,9 +1,4 @@
 [
-  "In the context of semiconductor manufacturing, what is a 'die'?",
-  "What is the primary role of an 'arbiter' in a digital system design?",
-  "Which of the following best describes 'speculative execution' in modern CPU architectures?",
-  "In the digital IC design flow, what is the primary purpose of a 'timing constraint file' (e.g., an SDC file)?",
-  "Within a Central Processing Unit (CPU), which dedicated register holds the memory address of the next instruction to be fetched and executed?",
   "What is the primary semiconductor material used for fabricating the vast majority of modern integrated circuits?",
   "In a set-associative cache, when a cache set is full and a new block needs to be brought in, which cache replacement policy evicts the block that has not been used for the longest period of time?",
   "In digital circuit timing analysis, what is the term for the minimum delay through any path from an input to an output, often critical for verifying that a circuit does not produce an incorrect output too quickly (i.e., for hold time checks)?",
@@ -48,5 +43,10 @@
   "In a virtual memory system, what event typically triggers a 'page fault'?",
   "In the context of digital IC design using standard cell libraries, what is the primary purpose of 'library characterization'?",
   "In a pipelined or out-of-order processor, which type of data dependency exists when one instruction writes a value to a register, and a subsequent instruction reads from that same register?",
-  "In digital IC verification, what is the primary role of an 'assertion'?"
+  "In digital IC verification, what is the primary role of an 'assertion'?",
+  "In the context of digital IC design, what is a 'netlist'?",
+  "In computer architecture, what is the defining characteristic of a 'fully associative cache'?",
+  "In the physical design and verification of high-performance integrated circuits, what phenomenon is 'crosstalk' primarily concerned with?",
+  "In modern out-of-order execution processors, what is the primary function of a 'Reorder Buffer' (ROB)?",
+  "In digital synchronous circuits, what is the primary function of a 'register'?"
 ]

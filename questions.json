@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What distinguishes a combinational logic circuit from a sequential logic circuit?",
+      "question": "In the context of digital IC design, what is a 'netlist'?",
       "options": [
-        "Its output depends solely on its current inputs.",
-        "It contains memory elements like flip-flops.",
-        "Its output depends on both current inputs and past inputs.",
-        "It requires a clock signal to operate.",
-        "It is always faster than a sequential circuit."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a virtual memory system, what event typically triggers a 'page fault'?",
-      "options": [
-        "The CPU attempts to access data in a cache block that is not present.",
-        "The operating system needs to load a new program into physical memory.",
-        "An instruction tries to write to a read-only memory region, causing a protection fault.",
-        "The CPU attempts to access a virtual memory page that is not currently mapped to a physical memory frame or is not present in main memory.",
-        "A hardware error occurs during a memory write operation."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of digital IC design using standard cell libraries, what is the primary purpose of 'library characterization'?",
-      "options": [
-        "To optimize the power grid network across the chip.",
-        "To physically arrange standard cells onto the silicon die.",
-        "To determine and model the timing, power, and noise characteristics of each standard cell (e.g., gates, flip-flops) under various operating conditions.",
-        "To verify the functional correctness of the RTL design through simulation.",
-        "To generate the mask layouts for semiconductor manufacturing."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a pipelined or out-of-order processor, which type of data dependency exists when one instruction writes a value to a register, and a subsequent instruction reads from that same register?",
-      "options": [
-        "Write-After-Write (WAW) dependency",
-        "Read-After-Write (RAW) dependency",
-        "Write-After-Read (WAR) dependency",
-        "Control dependency",
-        "Structural dependency"
+        "A file describing the physical placement of components on a chip.",
+        "A textual representation of the logical connectivity between components (e.g., gates, flip-flops, etc.) and their pins.",
+        "A document detailing the power consumption requirements of an integrated circuit.",
+        "A schematic diagram showing only the analog portions of a mixed-signal IC.",
+        "A list of network protocols supported by an embedded processor."
       ],
       "correct": 1
     },
     {
-      "question": "In digital IC verification, what is the primary role of an 'assertion'?",
+      "question": "In computer architecture, what is the defining characteristic of a 'fully associative cache'?",
       "options": [
-        "To synthesize high-level C/C++ code into RTL.",
-        "To formally prove the equivalence of two design representations (e.g., RTL and gate-level).",
-        "To automatically generate test vectors for a design.",
-        "To define properties or behaviors that the design is expected to satisfy, often checked concurrently during simulation or formally proven.",
-        "To optimize the physical layout of the chip for power consumption."
+        "Each memory block has a unique, fixed location in the cache.",
+        "Any memory block from main memory can be placed in any cache line.",
+        "Cache lines are grouped into sets, and a memory block can be placed in any line within its assigned set.",
+        "Data is written simultaneously to both the cache and main memory on every write operation.",
+        "It only stores the most recently accessed data blocks."
       ],
-      "correct": 3
+      "correct": 1
+    },
+    {
+      "question": "In the physical design and verification of high-performance integrated circuits, what phenomenon is 'crosstalk' primarily concerned with?",
+      "options": [
+        "The unintentional leakage of current between power and ground rails.",
+        "The increase in resistance of metal interconnects at higher temperatures.",
+        "The coupling of electrical signals between adjacent interconnect wires, leading to noise and potential functional errors.",
+        "The degradation of transistor performance due to manufacturing process variations.",
+        "The effect of cosmic rays on stored data bits, causing single-event upsets."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In modern out-of-order execution processors, what is the primary function of a 'Reorder Buffer' (ROB)?",
+      "options": [
+        "To store predicted branch targets and improve control flow prediction accuracy.",
+        "To track the status of in-flight instructions and commit them to architectural state in their original program order.",
+        "To temporarily hold the contents of general-purpose registers during context switches.",
+        "To prefetch data from main memory into the cache before it is explicitly requested by an instruction.",
+        "To manage the virtual-to-physical address translation process for memory accesses."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In digital synchronous circuits, what is the primary function of a 'register'?",
+      "options": [
+        "To combine multiple input signals into a single output signal based on a selector.",
+        "To amplify weak digital signals to drive larger loads.",
+        "To store a group of related bits (often called a 'word' or a 'vector') for one or more clock cycles.",
+        "To perform arithmetic operations such as addition and subtraction.",
+        "To convert parallel data into serial data."
+      ],
+      "correct": 2
     }
   ]
 }
