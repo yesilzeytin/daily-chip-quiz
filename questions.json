@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the context of digital IC design, what is a 'netlist'?",
+      "question": "What is the primary function of a 'register file' in a CPU?",
       "options": [
-        "A file describing the physical placement of components on a chip.",
-        "A textual representation of the logical connectivity between components (e.g., gates, flip-flops, etc.) and their pins.",
-        "A document detailing the power consumption requirements of an integrated circuit.",
-        "A schematic diagram showing only the analog portions of a mixed-signal IC.",
-        "A list of network protocols supported by an embedded processor."
+        "To store general-purpose CPU registers for quick access by the Arithmetic Logic Unit (ALU).",
+        "To manage the translation of virtual addresses to physical addresses.",
+        "To cache frequently used instructions from main memory.",
+        "To control the flow of data between different peripheral devices.",
+        "To perform arithmetic and logic operations on data."
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In computer architecture, what is the defining characteristic of a 'fully associative cache'?",
+      "question": "What is the primary advantage of using a Harvard architecture over a Von Neumann architecture in CPU design?",
       "options": [
-        "Each memory block has a unique, fixed location in the cache.",
-        "Any memory block from main memory can be placed in any cache line.",
-        "Cache lines are grouped into sets, and a memory block can be placed in any line within its assigned set.",
-        "Data is written simultaneously to both the cache and main memory on every write operation.",
-        "It only stores the most recently accessed data blocks."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the physical design and verification of high-performance integrated circuits, what phenomenon is 'crosstalk' primarily concerned with?",
-      "options": [
-        "The unintentional leakage of current between power and ground rails.",
-        "The increase in resistance of metal interconnects at higher temperatures.",
-        "The coupling of electrical signals between adjacent interconnect wires, leading to noise and potential functional errors.",
-        "The degradation of transistor performance due to manufacturing process variations.",
-        "The effect of cosmic rays on stored data bits, causing single-event upsets."
+        "Simplified memory management unit (MMU) design.",
+        "Reduced power consumption due to shared bus resources.",
+        "Ability to fetch instructions and data simultaneously.",
+        "Larger addressable memory space for programs.",
+        "Automatic cache coherence across multiple cores."
       ],
       "correct": 2
     },
     {
-      "question": "In modern out-of-order execution processors, what is the primary function of a 'Reorder Buffer' (ROB)?",
+      "question": "What is the primary purpose of 'scan chains' in Design-for-Testability (DFT) for digital integrated circuits?",
       "options": [
-        "To store predicted branch targets and improve control flow prediction accuracy.",
-        "To track the status of in-flight instructions and commit them to architectural state in their original program order.",
-        "To temporarily hold the contents of general-purpose registers during context switches.",
-        "To prefetch data from main memory into the cache before it is explicitly requested by an instruction.",
-        "To manage the virtual-to-physical address translation process for memory accesses."
+        "To simplify the process of routing power and ground networks across the chip.",
+        "To provide a mechanism for easily shifting test patterns in and out of sequential elements (flip-flops) for testing.",
+        "To optimize the clock distribution network for minimal skew and jitter.",
+        "To enable dynamic voltage and frequency scaling (DVFS) for power management.",
+        "To formally verify the logical equivalence between RTL and gate-level netlists."
       ],
       "correct": 1
     },
     {
-      "question": "In digital synchronous circuits, what is the primary function of a 'register'?",
+      "question": "What is the primary challenge addressed by 'heterogeneous computing' architectures in modern System-on-Chips (SoCs)?",
       "options": [
-        "To combine multiple input signals into a single output signal based on a selector.",
-        "To amplify weak digital signals to drive larger loads.",
-        "To store a group of related bits (often called a 'word' or a 'vector') for one or more clock cycles.",
-        "To perform arithmetic operations such as addition and subtraction.",
-        "To convert parallel data into serial data."
+        "Overcoming the 'memory wall' by providing faster access to main memory.",
+        "Improving system security by isolating critical functions on dedicated hardware.",
+        "Optimizing performance and power efficiency for diverse workloads by using specialized processing units alongside general-purpose cores.",
+        "Reducing manufacturing costs by enabling the use of older, larger semiconductor process nodes.",
+        "Simplifying software development by standardizing on a single instruction set architecture across all processing elements."
       ],
       "correct": 2
+    },
+    {
+      "question": "What is the primary role of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
+      "options": [
+        "To control the overall sequence of operations and instruction execution within the CPU.",
+        "To perform mathematical operations (e.g., addition, subtraction) and logical operations (e.g., AND, OR, NOT) on data.",
+        "To store program instructions and data temporarily during execution.",
+        "To manage external input/output devices and communicate with peripherals.",
+        "To translate high-level programming language code into machine instructions."
+      ],
+      "correct": 1
     }
   ]
 }

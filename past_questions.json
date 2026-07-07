@@ -1,9 +1,4 @@
 [
-  "What is the primary semiconductor material used for fabricating the vast majority of modern integrated circuits?",
-  "In a set-associative cache, when a cache set is full and a new block needs to be brought in, which cache replacement policy evicts the block that has not been used for the longest period of time?",
-  "In digital circuit timing analysis, what is the term for the minimum delay through any path from an input to an output, often critical for verifying that a circuit does not produce an incorrect output too quickly (i.e., for hold time checks)?",
-  "In the digital IC design verification flow, which formal verification technique is primarily used to mathematically prove that two different representations of a design (e.g., RTL and gate-level netlist) implement the exact same functionality?",
-  "In modern many-core processors and System-on-Chip (SoC) designs, what phenomenon refers to the increasing inability to simultaneously power on and utilize all available transistors on a chip due to power density and thermal constraints, leading to a significant portion of the silicon remaining unpowered or \"dark\" at any given time?",
   "What is the primary purpose of a clock signal in a synchronous digital circuit?",
   "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the Floorplanning stage?",
   "What primary challenge is addressed by implementing Dynamic Voltage and Frequency Scaling (DVFS) in modern processors and SoCs?",
@@ -48,5 +43,10 @@
   "In computer architecture, what is the defining characteristic of a 'fully associative cache'?",
   "In the physical design and verification of high-performance integrated circuits, what phenomenon is 'crosstalk' primarily concerned with?",
   "In modern out-of-order execution processors, what is the primary function of a 'Reorder Buffer' (ROB)?",
-  "In digital synchronous circuits, what is the primary function of a 'register'?"
+  "In digital synchronous circuits, what is the primary function of a 'register'?",
+  "What is the primary function of a 'register file' in a CPU?",
+  "What is the primary advantage of using a Harvard architecture over a Von Neumann architecture in CPU design?",
+  "What is the primary purpose of 'scan chains' in Design-for-Testability (DFT) for digital integrated circuits?",
+  "What is the primary challenge addressed by 'heterogeneous computing' architectures in modern System-on-Chips (SoCs)?",
+  "What is the primary role of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?"
 ]
