@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a 'register file' in a CPU?",
+      "question": "In the basic CPU instruction cycle, what is the stage where the processor retrieves an instruction from memory?",
       "options": [
-        "To store general-purpose CPU registers for quick access by the Arithmetic Logic Unit (ALU).",
-        "To manage the translation of virtual addresses to physical addresses.",
-        "To cache frequently used instructions from main memory.",
-        "To control the flow of data between different peripheral devices.",
-        "To perform arithmetic and logic operations on data."
+        "Fetch",
+        "Decode",
+        "Execute",
+        "Write-back",
+        "Store"
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary advantage of using a Harvard architecture over a Von Neumann architecture in CPU design?",
+      "question": "Which cache replacement policy removes the block from the cache that has not been accessed for the longest period of time?",
       "options": [
-        "Simplified memory management unit (MMU) design.",
-        "Reduced power consumption due to shared bus resources.",
-        "Ability to fetch instructions and data simultaneously.",
-        "Larger addressable memory space for programs.",
-        "Automatic cache coherence across multiple cores."
+        "Least Recently Used (LRU)",
+        "First-In, First-Out (FIFO)",
+        "Random Replacement",
+        "Most Recently Used (MRU)",
+        "Least Frequently Used (LFU)"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "What is the primary purpose of 'scan chains' in Design-for-Testability (DFT) for digital integrated circuits?",
+      "question": "In digital IC design, which technique is primarily employed to reduce dynamic power consumption by selectively disabling the clock signal to idle functional units?",
       "options": [
-        "To simplify the process of routing power and ground networks across the chip.",
-        "To provide a mechanism for easily shifting test patterns in and out of sequential elements (flip-flops) for testing.",
-        "To optimize the clock distribution network for minimal skew and jitter.",
-        "To enable dynamic voltage and frequency scaling (DVFS) for power management.",
-        "To formally verify the logical equivalence between RTL and gate-level netlists."
+        "Clock Gating",
+        "Power Gating",
+        "Voltage Scaling",
+        "Frequency Scaling",
+        "Body Biasing"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "What is the primary challenge addressed by 'heterogeneous computing' architectures in modern System-on-Chips (SoCs)?",
+      "question": "What is the primary purpose of 'lithography' in the semiconductor manufacturing process?",
       "options": [
-        "Overcoming the 'memory wall' by providing faster access to main memory.",
-        "Improving system security by isolating critical functions on dedicated hardware.",
-        "Optimizing performance and power efficiency for diverse workloads by using specialized processing units alongside general-purpose cores.",
-        "Reducing manufacturing costs by enabling the use of older, larger semiconductor process nodes.",
-        "Simplifying software development by standardizing on a single instruction set architecture across all processing elements."
+        "To precisely transfer a circuit pattern from a photomask onto the wafer surface",
+        "To introduce impurities into the silicon to change its electrical properties",
+        "To chemically or physically remove unwanted material layers from the wafer",
+        "To deposit thin films of various materials (e.g., metals, dielectrics) onto the wafer",
+        "To encapsulate the fabricated chip for protection and electrical connection"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "What is the primary role of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
+      "question": "In a modern out-of-order execution processor that implements Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?",
       "options": [
-        "To control the overall sequence of operations and instruction execution within the CPU.",
-        "To perform mathematical operations (e.g., addition, subtraction) and logical operations (e.g., AND, OR, NOT) on data.",
-        "To store program instructions and data temporarily during execution.",
-        "To manage external input/output devices and communicate with peripherals.",
-        "To translate high-level programming language code into machine instructions."
+        "To hold operands for an instruction and await the availability of a functional unit before execution",
+        "To reorder instructions to ensure in-order completion for precise exceptions",
+        "To buffer incoming instructions from the instruction cache before decoding",
+        "To manage virtual-to-physical address translation for memory accesses",
+        "To store register values temporarily during context switching"
       ],
-      "correct": 1
+      "correct": 0
     }
   ]
 }
