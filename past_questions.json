@@ -1,9 +1,4 @@
 [
-  "What is the fundamental difference in programmability and performance between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
-  "In a system employing virtual memory, what is the primary purpose of a Translation Lookaside Buffer (TLB)?",
-  "In the context of digital IC Design-for-Testability (DFT), what is the primary goal of Automatic Test Pattern Generation (ATPG)?",
-  "As semiconductor technology scales down, interconnect resistance and capacitance become increasingly significant. What is the primary impact of these interconnect parasitics on the performance of a digital IC?",
-  "What is the primary function of an Instruction Set Architecture (ISA) in computer systems?",
   "What is the primary function of a multiplexer (MUX) in a digital circuit?",
   "In a multi-processor system with shared memory, what is the primary challenge addressed by 'cache coherence protocols'?",
   "In the physical design flow of a synchronous digital IC, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
@@ -48,5 +43,10 @@
   "Which cache replacement policy removes the block from the cache that has not been accessed for the longest period of time?",
   "In digital IC design, which technique is primarily employed to reduce dynamic power consumption by selectively disabling the clock signal to idle functional units?",
   "What is the primary purpose of 'lithography' in the semiconductor manufacturing process?",
-  "In a modern out-of-order execution processor that implements Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?"
+  "In a modern out-of-order execution processor that implements Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?",
+  "In digital circuit timing analysis, what does the 'critical path' primarily refer to?",
+  "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the chip design process?",
+  "In the semiconductor industry, what is the primary purpose of the GDSII file format?",
+  "In the context of CPU design, what is 'microcode' primarily used for?",
+  "What is a 'standard cell' in the context of ASIC (Application-Specific Integrated Circuit) design?"
 ]

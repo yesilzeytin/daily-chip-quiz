@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the basic CPU instruction cycle, what is the stage where the processor retrieves an instruction from memory?",
+      "question": "In digital circuit timing analysis, what does the 'critical path' primarily refer to?",
       "options": [
-        "Fetch",
-        "Decode",
-        "Execute",
-        "Write-back",
-        "Store"
+        "The longest combinational path in the circuit, which determines the maximum clock frequency.",
+        "The path with the highest power consumption across the entire chip.",
+        "The most frequently activated data path during typical program execution.",
+        "The shortest path from any input pin to any output pin.",
+        "A path designated by the designer for critical data transmission, regardless of delay."
       ],
       "correct": 0
     },
     {
-      "question": "Which cache replacement policy removes the block from the cache that has not been accessed for the longest period of time?",
+      "question": "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the chip design process?",
       "options": [
-        "Least Recently Used (LRU)",
-        "First-In, First-Out (FIFO)",
-        "Random Replacement",
-        "Most Recently Used (MRU)",
-        "Least Frequently Used (LFU)"
+        "To simulate the analog behavior of transistors and passive components at the circuit level.",
+        "To describe the functional behavior and structural connectivity of digital circuits at an abstract level.",
+        "To perform the physical layout and routing of the integrated circuit on a silicon die.",
+        "To generate manufacturing test patterns for post-fabrication validation of the IC.",
+        "To manage project documentation, version control, and team collaboration."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In digital IC design, which technique is primarily employed to reduce dynamic power consumption by selectively disabling the clock signal to idle functional units?",
+      "question": "In the semiconductor industry, what is the primary purpose of the GDSII file format?",
       "options": [
-        "Clock Gating",
-        "Power Gating",
-        "Voltage Scaling",
-        "Frequency Scaling",
-        "Body Biasing"
+        "To define the instruction set architecture (ISA) for a custom processor core.",
+        "To store the results of behavioral simulations for an entire System-on-Chip (SoC).",
+        "To provide a standard format for transferring integrated circuit layout data (geometrical shapes, layers, etc.) between design tools and manufacturing (mask-making) facilities.",
+        "To manage the power intent specifications (e.g., UPF or CPF) for multi-voltage designs.",
+        "To characterize the timing and power performance of standard cell libraries."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "What is the primary purpose of 'lithography' in the semiconductor manufacturing process?",
+      "question": "In the context of CPU design, what is 'microcode' primarily used for?",
       "options": [
-        "To precisely transfer a circuit pattern from a photomask onto the wafer surface",
-        "To introduce impurities into the silicon to change its electrical properties",
-        "To chemically or physically remove unwanted material layers from the wafer",
-        "To deposit thin films of various materials (e.g., metals, dielectrics) onto the wafer",
-        "To encapsulate the fabricated chip for protection and electrical connection"
+        "To define the low-level firmware that initializes the CPU upon boot-up.",
+        "To manage the virtual memory mapping between logical and physical addresses.",
+        "To implement complex or multi-cycle instructions as a sequence of simpler, internal micro-operations within the control unit.",
+        "To store frequently accessed data for faster retrieval by the CPU's execution units.",
+        "To provide a communication protocol for inter-processor communication in multi-core systems."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In a modern out-of-order execution processor that implements Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?",
+      "question": "What is a 'standard cell' in the context of ASIC (Application-Specific Integrated Circuit) design?",
       "options": [
-        "To hold operands for an instruction and await the availability of a functional unit before execution",
-        "To reorder instructions to ensure in-order completion for precise exceptions",
-        "To buffer incoming instructions from the instruction cache before decoding",
-        "To manage virtual-to-physical address translation for memory accesses",
-        "To store register values temporarily during context switching"
+        "A large, custom-designed intellectual property (IP) block such as a processor core or a high-speed memory controller.",
+        "A dedicated test structure integrated into the chip for manufacturing process monitoring.",
+        "A software module used for high-level synthesis (HLS) from C/C++ to RTL.",
+        "A pre-designed and pre-characterized basic logic gate (e.g., AND, OR, XOR) or flip-flop with a fixed height and varying width, used as a building block for larger digital circuits.",
+        "A specific manufacturing process step that defines the minimum feature size on a wafer."
       ],
-      "correct": 0
+      "correct": 3
     }
   ]
 }
