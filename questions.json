@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital circuit timing analysis, what does the 'critical path' primarily refer to?",
+      "question": "In digital IC design, what is the primary purpose of a 'testbench'?",
       "options": [
-        "The longest combinational path in the circuit, which determines the maximum clock frequency.",
-        "The path with the highest power consumption across the entire chip.",
-        "The most frequently activated data path during typical program execution.",
-        "The shortest path from any input pin to any output pin.",
-        "A path designated by the designer for critical data transmission, regardless of delay."
+        "To characterize the electrical properties of individual transistors.",
+        "To synthesize a behavioral HDL description into a gate-level netlist.",
+        "To verify the functional correctness of a designed circuit by applying stimuli and checking outputs.",
+        "To physically place and route standard cells on the silicon die.",
+        "To generate the GDSII file for manufacturing."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the chip design process?",
+      "question": "What is the primary characteristic of Single Instruction, Multiple Data (SIMD) architecture in computer architecture?",
       "options": [
-        "To simulate the analog behavior of transistors and passive components at the circuit level.",
-        "To describe the functional behavior and structural connectivity of digital circuits at an abstract level.",
-        "To perform the physical layout and routing of the integrated circuit on a silicon die.",
-        "To generate manufacturing test patterns for post-fabrication validation of the IC.",
-        "To manage project documentation, version control, and team collaboration."
+        "Executes multiple distinct instructions simultaneously on a single data stream.",
+        "Processes a single instruction on multiple independent data elements concurrently.",
+        "Utilizes multiple independent processors, each executing its own instruction stream on its own data.",
+        "Allows a single processor to execute instructions from multiple program threads in an interleaved fashion.",
+        "Employs specialized hardware to accelerate I/O operations independently of the main CPU."
       ],
       "correct": 1
     },
     {
-      "question": "In the semiconductor industry, what is the primary purpose of the GDSII file format?",
+      "question": "In the physical design flow of an Integrated Circuit, what is the primary goal of 'floorplanning'?",
       "options": [
-        "To define the instruction set architecture (ISA) for a custom processor core.",
-        "To store the results of behavioral simulations for an entire System-on-Chip (SoC).",
-        "To provide a standard format for transferring integrated circuit layout data (geometrical shapes, layers, etc.) between design tools and manufacturing (mask-making) facilities.",
-        "To manage the power intent specifications (e.g., UPF or CPF) for multi-voltage designs.",
-        "To characterize the timing and power performance of standard cell libraries."
+        "To convert the logical gate-level netlist into a physical layout using standard cells.",
+        "To optimize the power delivery network for minimal voltage drop across the chip.",
+        "To determine the overall chip dimensions, placement of major functional blocks (IP cores), and I/O pins to optimize area, timing, and power.",
+        "To generate the final manufacturing masks for etching the silicon layers.",
+        "To verify that all timing constraints are met across all operating conditions."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of CPU design, what is 'microcode' primarily used for?",
+      "question": "In a virtual memory system, what is the primary purpose of the Translation Lookaside Buffer (TLB)?",
       "options": [
-        "To define the low-level firmware that initializes the CPU upon boot-up.",
-        "To manage the virtual memory mapping between logical and physical addresses.",
-        "To implement complex or multi-cycle instructions as a sequence of simpler, internal micro-operations within the control unit.",
-        "To store frequently accessed data for faster retrieval by the CPU's execution units.",
-        "To provide a communication protocol for inter-processor communication in multi-core systems."
+        "To serve as the highest level (L1) of the data cache for frequently accessed instructions.",
+        "To store recently used virtual-to-physical address translations to speed up memory access.",
+        "To manage the allocation and deallocation of physical memory pages for different processes.",
+        "To provide a hardware interface for performing Direct Memory Access (DMA) operations.",
+        "To prefetch instructions from main memory into the instruction cache before they are needed."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "What is a 'standard cell' in the context of ASIC (Application-Specific Integrated Circuit) design?",
+      "question": "What is the primary advantage of FinFET (Fin Field-Effect Transistor) architecture over traditional planar MOSFETs in advanced semiconductor nodes?",
       "options": [
-        "A large, custom-designed intellectual property (IP) block such as a processor core or a high-speed memory controller.",
-        "A dedicated test structure integrated into the chip for manufacturing process monitoring.",
-        "A software module used for high-level synthesis (HLS) from C/C++ to RTL.",
-        "A pre-designed and pre-characterized basic logic gate (e.g., AND, OR, XOR) or flip-flop with a fixed height and varying width, used as a building block for larger digital circuits.",
-        "A specific manufacturing process step that defines the minimum feature size on a wafer."
+        "It eliminates the need for a silicon substrate, allowing for fully transparent circuits.",
+        "It offers superior control over the channel, significantly reducing short-channel effects and leakage current.",
+        "It simplifies the manufacturing process by reducing the number of lithography steps required.",
+        "It operates exclusively on optical signals, enabling much faster data transmission within the chip.",
+        "It increases the gate capacitance significantly to improve signal integrity at higher frequencies."
       ],
-      "correct": 3
+      "correct": 1
     }
   ]
 }

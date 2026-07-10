@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in a digital circuit?",
-  "In a multi-processor system with shared memory, what is the primary challenge addressed by 'cache coherence protocols'?",
-  "In the physical design flow of a synchronous digital IC, what is the primary objective of the Clock Tree Synthesis (CTS) stage?",
-  "High-Level Synthesis (HLS) is increasingly used in modern chip design flows. What is its primary function?",
-  "In advanced semiconductor technologies, what reliability phenomenon refers to the transport of material caused by the gradual movement of the ions in a conductor due to momentum transfer from conducting electrons, leading to potential open circuits or short circuits over time?",
   "In synchronous digital circuit design, what is the 'setup time' requirement for a flip-flop?",
   "Which type of memory is typically used for CPU caches due to its high speed, but is more expensive and less dense than other volatile memory types?",
   "In the digital IC design flow, what is the primary function of a logic synthesis tool?",
@@ -48,5 +43,10 @@
   "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the chip design process?",
   "In the semiconductor industry, what is the primary purpose of the GDSII file format?",
   "In the context of CPU design, what is 'microcode' primarily used for?",
-  "What is a 'standard cell' in the context of ASIC (Application-Specific Integrated Circuit) design?"
+  "What is a 'standard cell' in the context of ASIC (Application-Specific Integrated Circuit) design?",
+  "In digital IC design, what is the primary purpose of a 'testbench'?",
+  "What is the primary characteristic of Single Instruction, Multiple Data (SIMD) architecture in computer architecture?",
+  "In the physical design flow of an Integrated Circuit, what is the primary goal of 'floorplanning'?",
+  "In a virtual memory system, what is the primary purpose of the Translation Lookaside Buffer (TLB)?",
+  "What is the primary advantage of FinFET (Fin Field-Effect Transistor) architecture over traditional planar MOSFETs in advanced semiconductor nodes?"
 ]
