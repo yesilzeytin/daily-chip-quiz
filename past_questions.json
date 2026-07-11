@@ -1,9 +1,4 @@
 [
-  "In synchronous digital circuit design, what is the 'setup time' requirement for a flip-flop?",
-  "Which type of memory is typically used for CPU caches due to its high speed, but is more expensive and less dense than other volatile memory types?",
-  "In the digital IC design flow, what is the primary function of a logic synthesis tool?",
-  "When designing a System-on-Chip (SoC) with multiple clock domains, which technique is commonly used to safely transfer single-bit control signals between two asynchronous clock domains without violating setup or hold times, or incurring metastability issues?",
-  "What is the primary architectural principle behind the design of a Reduced Instruction Set Computer (RISC) processor, contrasting it with Complex Instruction Set Computer (CISC) architectures?",
   "What is the primary role of a Phase-Locked Loop (PLL) in a digital integrated circuit?",
   "What is the main characteristic that distinguishes Static Timing Analysis (STA) from dynamic timing simulation in IC design verification?",
   "In the context of IC physical design and manufacturing, what is the primary goal of Design for Manufacturability (DFM)?",
@@ -48,5 +43,10 @@
   "What is the primary characteristic of Single Instruction, Multiple Data (SIMD) architecture in computer architecture?",
   "In the physical design flow of an Integrated Circuit, what is the primary goal of 'floorplanning'?",
   "In a virtual memory system, what is the primary purpose of the Translation Lookaside Buffer (TLB)?",
-  "What is the primary advantage of FinFET (Fin Field-Effect Transistor) architecture over traditional planar MOSFETs in advanced semiconductor nodes?"
+  "What is the primary advantage of FinFET (Fin Field-Effect Transistor) architecture over traditional planar MOSFETs in advanced semiconductor nodes?",
+  "What is the fundamental building block of most modern digital integrated circuits?",
+  "What architectural feature allows a processor to execute multiple instructions in a single clock cycle, assuming data dependencies permit?",
+  "When designing a custom standard cell library, what critical information is typically extracted from the physical layout of each cell (e.g., an inverter or NAND gate) to allow timing analysis tools to accurately predict its delay under various operating conditions?",
+  "In the context of processor memory consistency models, what phenomenon does a 'store buffer' primarily address to improve performance, while requiring careful handling to maintain correctness?",
+  "What is the purpose of 'clock tree synthesis' (CTS) in the physical design flow of an Integrated Circuit?"
 ]
