@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block of most modern digital integrated circuits?",
+      "question": "What type of logic gate has an output that is HIGH only when all its inputs are HIGH?",
       "options": [
-        "Resistor",
-        "Inductor",
-        "Capacitor",
-        "Transistor",
-        "Diode"
+        "NAND",
+        "XOR",
+        "AND",
+        "OR",
+        "NOR"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol like MESI?",
+      "options": [
+        "To manage the physical layout of cache blocks on the silicon die.",
+        "To facilitate dynamic voltage and frequency scaling (DVFS) for power saving.",
+        "To increase the hit rate of individual processor caches.",
+        "To ensure that all processors see a consistent view of memory, even if data is cached locally.",
+        "To prioritize I/O requests over CPU memory accesses."
       ],
       "correct": 3
     },
     {
-      "question": "What architectural feature allows a processor to execute multiple instructions in a single clock cycle, assuming data dependencies permit?",
+      "question": "Besides IR drop, which other power integrity concern relates to sudden, large current changes causing voltage fluctuations on the power distribution network, potentially affecting circuit operation?",
       "options": [
-        "Pipelining",
-        "Superscalar architecture",
-        "Multithreading",
-        "Vector processing",
-        "Cache memory"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "When designing a custom standard cell library, what critical information is typically extracted from the physical layout of each cell (e.g., an inverter or NAND gate) to allow timing analysis tools to accurately predict its delay under various operating conditions?",
-      "options": [
-        "Power consumption data",
-        "Timing arcs (delay models)",
-        "Placement coordinates",
-        "Gate count",
-        "Routing layers"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the context of processor memory consistency models, what phenomenon does a 'store buffer' primarily address to improve performance, while requiring careful handling to maintain correctness?",
-      "options": [
-        "Cache coherence",
-        "Data hazards",
-        "Memory latency hiding",
-        "Instruction-level parallelism",
-        "Atomic operations"
+        "Electrostatic Discharge (ESD)",
+        "Thermal runaway",
+        "Ground bounce / SSN (Simultaneous Switching Noise)",
+        "Electromigration (EM)",
+        "Process Variation (PVT)"
       ],
       "correct": 2
     },
     {
-      "question": "What is the purpose of 'clock tree synthesis' (CTS) in the physical design flow of an Integrated Circuit?",
+      "question": "In parallel programming and high-performance computing, what does 'data locality' primarily refer to, and why is it crucial for performance?",
       "options": [
-        "To place and route standard cells",
-        "To generate a detailed list of design errors",
-        "To create a balanced distribution network for the clock signal",
-        "To optimize power consumption of sequential elements",
-        "To convert RTL to a gate-level netlist"
+        "The process of converting virtual addresses to physical addresses.",
+        "The physical location of memory modules on the motherboard.",
+        "Ensuring that data is encrypted and secure during transfer between memory and CPU.",
+        "Keeping frequently accessed data items close to the processing unit (e.g., in cache) to minimize memory access latency.",
+        "Storing all data on the main system RAM instead of using disk storage."
       ],
-      "correct": 2
+      "correct": 3
+    },
+    {
+      "question": "In digital IC verification, what is 'coverage' primarily used to measure?",
+      "options": [
+        "The extent to which the design specification has been implemented in the RTL code.",
+        "The physical area occupied by the integrated circuit on the silicon die.",
+        "The amount of power consumed by the design during verification.",
+        "The percentage of the design's logic that has been exercised by the test suite.",
+        "The number of engineers involved in the verification process."
+      ],
+      "correct": 3
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "What is the primary role of a Phase-Locked Loop (PLL) in a digital integrated circuit?",
-  "What is the main characteristic that distinguishes Static Timing Analysis (STA) from dynamic timing simulation in IC design verification?",
-  "In the context of IC physical design and manufacturing, what is the primary goal of Design for Manufacturability (DFM)?",
-  "In a modern out-of-order superscalar processor, what is the primary purpose of 'register renaming'?",
-  "In computer architecture, what does the 'memory wall' problem primarily refer to?",
   "In semiconductor manufacturing, what is the primary purpose of 'doping' silicon?",
   "In a CPU pipeline, what type of hazard occurs when an instruction attempts to read a register that a previous instruction is in the process of writing, but has not yet completed?",
   "When a flip-flop's setup or hold time requirements are violated, its output may enter an unstable, indeterminate state for an unpredictable amount of time before settling to a valid logic level. What is this phenomenon called?",
@@ -48,5 +43,10 @@
   "What architectural feature allows a processor to execute multiple instructions in a single clock cycle, assuming data dependencies permit?",
   "When designing a custom standard cell library, what critical information is typically extracted from the physical layout of each cell (e.g., an inverter or NAND gate) to allow timing analysis tools to accurately predict its delay under various operating conditions?",
   "In the context of processor memory consistency models, what phenomenon does a 'store buffer' primarily address to improve performance, while requiring careful handling to maintain correctness?",
-  "What is the purpose of 'clock tree synthesis' (CTS) in the physical design flow of an Integrated Circuit?"
+  "What is the purpose of 'clock tree synthesis' (CTS) in the physical design flow of an Integrated Circuit?",
+  "What type of logic gate has an output that is HIGH only when all its inputs are HIGH?",
+  "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol like MESI?",
+  "Besides IR drop, which other power integrity concern relates to sudden, large current changes causing voltage fluctuations on the power distribution network, potentially affecting circuit operation?",
+  "In parallel programming and high-performance computing, what does 'data locality' primarily refer to, and why is it crucial for performance?",
+  "In digital IC verification, what is 'coverage' primarily used to measure?"
 ]
