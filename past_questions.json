@@ -1,9 +1,4 @@
 [
-  "In semiconductor manufacturing, what is the primary purpose of 'doping' silicon?",
-  "In a CPU pipeline, what type of hazard occurs when an instruction attempts to read a register that a previous instruction is in the process of writing, but has not yet completed?",
-  "When a flip-flop's setup or hold time requirements are violated, its output may enter an unstable, indeterminate state for an unpredictable amount of time before settling to a valid logic level. What is this phenomenon called?",
-  "In the physical design and verification of high-performance integrated circuits, what is 'IR drop' primarily concerned with?",
-  "In a multi-level cache hierarchy, what is the primary characteristic of a 'write-back' cache policy?",
   "What is the primary advantage of CMOS technology over older transistor technologies like NMOS or PMOS in digital integrated circuits?",
   "In formal verification of digital ICs, what is Model Checking primarily used for?",
   "In modern pipelined processors, what is the primary role of a Branch Predictor?",
@@ -48,5 +43,10 @@
   "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol like MESI?",
   "Besides IR drop, which other power integrity concern relates to sudden, large current changes causing voltage fluctuations on the power distribution network, potentially affecting circuit operation?",
   "In parallel programming and high-performance computing, what does 'data locality' primarily refer to, and why is it crucial for performance?",
-  "In digital IC verification, what is 'coverage' primarily used to measure?"
+  "In digital IC verification, what is 'coverage' primarily used to measure?",
+  "Which fundamental type of logic circuit has outputs that depend solely on its current inputs, with no memory of past inputs?",
+  "What is the primary purpose of a 'Reservation Station' in a processor implementing Tomasulo's algorithm for out-of-order execution?",
+  "In the context of physical design for an Integrated Circuit, what is 'routing' primarily concerned with?",
+  "Which type of memory exhibits both non-volatility (retains data without power) and allows for individual byte-level modification (read/write) in modern embedded systems and storage, albeit typically slower than RAM?",
+  "In advanced processor architectures, what is 'speculative execution' primarily intended to achieve?"
 ]

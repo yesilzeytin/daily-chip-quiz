@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What type of logic gate has an output that is HIGH only when all its inputs are HIGH?",
+      "question": "Which fundamental type of logic circuit has outputs that depend solely on its current inputs, with no memory of past inputs?",
       "options": [
-        "NAND",
-        "XOR",
-        "AND",
-        "OR",
-        "NOR"
+        "Sequential logic circuit",
+        "Asynchronous logic circuit",
+        "Combinational logic circuit",
+        "Synchronous logic circuit",
+        "Finite state machine"
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol like MESI?",
+      "question": "What is the primary purpose of a 'Reservation Station' in a processor implementing Tomasulo's algorithm for out-of-order execution?",
       "options": [
-        "To manage the physical layout of cache blocks on the silicon die.",
-        "To facilitate dynamic voltage and frequency scaling (DVFS) for power saving.",
-        "To increase the hit rate of individual processor caches.",
-        "To ensure that all processors see a consistent view of memory, even if data is cached locally.",
-        "To prioritize I/O requests over CPU memory accesses."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Besides IR drop, which other power integrity concern relates to sudden, large current changes causing voltage fluctuations on the power distribution network, potentially affecting circuit operation?",
-      "options": [
-        "Electrostatic Discharge (ESD)",
-        "Thermal runaway",
-        "Ground bounce / SSN (Simultaneous Switching Noise)",
-        "Electromigration (EM)",
-        "Process Variation (PVT)"
+        "To store the results of completed instructions before writing them back to the register file.",
+        "To buffer instructions that have finished execution but cannot yet commit.",
+        "To hold operands and the operation to be performed for instructions awaiting execution in a functional unit.",
+        "To predict the outcome of conditional branches.",
+        "To convert virtual addresses to physical addresses."
       ],
       "correct": 2
     },
     {
-      "question": "In parallel programming and high-performance computing, what does 'data locality' primarily refer to, and why is it crucial for performance?",
+      "question": "In the context of physical design for an Integrated Circuit, what is 'routing' primarily concerned with?",
       "options": [
-        "The process of converting virtual addresses to physical addresses.",
-        "The physical location of memory modules on the motherboard.",
-        "Ensuring that data is encrypted and secure during transfer between memory and CPU.",
-        "Keeping frequently accessed data items close to the processing unit (e.g., in cache) to minimize memory access latency.",
-        "Storing all data on the main system RAM instead of using disk storage."
+        "Placing standard cells onto the silicon die.",
+        "Connecting the logical pins of cells with physical wires on the silicon layers.",
+        "Determining the optimal aspect ratio of the chip.",
+        "Generating the power and ground distribution network.",
+        "Verifying the logical equivalence of the netlist against the RTL."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which type of memory exhibits both non-volatility (retains data without power) and allows for individual byte-level modification (read/write) in modern embedded systems and storage, albeit typically slower than RAM?",
+      "options": [
+        "SRAM (Static Random Access Memory)",
+        "DRAM (Dynamic Random Access Memory)",
+        "NVRAM (Non-Volatile Random Access Memory)",
+        "Flash Memory",
+        "Cache Memory"
       ],
       "correct": 3
     },
     {
-      "question": "In digital IC verification, what is 'coverage' primarily used to measure?",
+      "question": "In advanced processor architectures, what is 'speculative execution' primarily intended to achieve?",
       "options": [
-        "The extent to which the design specification has been implemented in the RTL code.",
-        "The physical area occupied by the integrated circuit on the silicon die.",
-        "The amount of power consumed by the design during verification.",
-        "The percentage of the design's logic that has been exercised by the test suite.",
-        "The number of engineers involved in the verification process."
+        "Reduce static power consumption by powering down idle units.",
+        "Ensure all instructions complete in program order to simplify recovery.",
+        "Improve performance by executing instructions before their control dependencies are resolved, reverting if incorrect.",
+        "Dynamically adjust the clock frequency based on workload.",
+        "Provide a secure execution environment for sensitive applications."
       ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }
