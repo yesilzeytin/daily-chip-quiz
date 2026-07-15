@@ -1,9 +1,4 @@
 [
-  "What distinguishes a combinational logic circuit from a sequential logic circuit?",
-  "In a virtual memory system, what event typically triggers a 'page fault'?",
-  "In the context of digital IC design using standard cell libraries, what is the primary purpose of 'library characterization'?",
-  "In a pipelined or out-of-order processor, which type of data dependency exists when one instruction writes a value to a register, and a subsequent instruction reads from that same register?",
-  "In digital IC verification, what is the primary role of an 'assertion'?",
   "In the context of digital IC design, what is a 'netlist'?",
   "In computer architecture, what is the defining characteristic of a 'fully associative cache'?",
   "In the physical design and verification of high-performance integrated circuits, what phenomenon is 'crosstalk' primarily concerned with?",
@@ -48,5 +43,10 @@
   "In the physical design flow of an Integrated Circuit, what is the primary objective of the 'placement' step?",
   "Which of the following best describes the fundamental principle behind Dynamic Voltage and Frequency Scaling (DVFS) in modern processors and SoCs?",
   "In modern multi-core processors, what is the primary role of a Memory Management Unit (MMU) in conjunction with a virtual memory system?",
-  "What is the critical challenge that a Synchronizer circuit is primarily designed to address when transferring signals between two asynchronous clock domains?"
+  "What is the critical challenge that a Synchronizer circuit is primarily designed to address when transferring signals between two asynchronous clock domains?",
+  "What is the primary function of a D-type flip-flop in digital circuits?",
+  "In the physical verification stage of Integrated Circuit (IC) design, what is the main purpose of 'Design Rule Checking' (DRC)?",
+  "In modern computer architecture, what is the primary benefit of implementing a 'Multi-level Cache Hierarchy' (e.g., L1, L2, L3 caches) between the CPU and main memory?",
+  "Which technique in processor pipelining is primarily designed to mitigate 'data hazards' (specifically Read After Write - RAW dependencies) by forwarding the result of an instruction directly from an internal pipeline stage to a subsequent instruction that needs it?",
+  "What is the primary characteristic that differentiates a 'Complex Instruction Set Computer' (CISC) architecture from a 'Reduced Instruction Set Computer' (RISC) architecture?"
 ]
