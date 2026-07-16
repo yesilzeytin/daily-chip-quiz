@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a D-type flip-flop in digital circuits?",
+      "question": "What is the fundamental purpose of a multiplexer (MUX) in digital logic?",
       "options": [
-        "To perform arithmetic operations such as addition and subtraction.",
-        "To store a single bit of information and hold its state until a new clock pulse arrives.",
-        "To generate a continuous clock signal for synchronous circuits.",
-        "To convert an analog signal into a digital signal.",
-        "To amplify a weak input signal to a stronger output."
+        "To select one of several input signals and route it to a single output line.",
+        "To store a single bit of data for one clock cycle.",
+        "To perform arithmetic operations like addition or subtraction.",
+        "To generate a clock signal from an external reference.",
+        "To amplify a weak digital signal."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the context of static timing analysis (STA) for a synchronous digital circuit, what does 'setup time' primarily refer to?",
+      "options": [
+        "The minimum time an input signal must be stable *before* the active clock edge for a flip-flop to reliably capture the data.",
+        "The minimum time an input signal must be stable *after* the active clock edge (and before the next clock edge) for a flip-flop to reliably capture the data.",
+        "The maximum propagation delay from the input of a combinational logic block to its output.",
+        "The minimum clock period required for the entire circuit to operate correctly.",
+        "The time it takes for a flip-flop's output to change after the active clock edge."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which type of memory typically offers the fastest access times and is used for CPU caches, but requires continuous power to retain data and is more expensive per bit than DRAM?",
+      "options": [
+        "SRAM (Static Random-Access Memory)",
+        "DRAM (Dynamic Random-Access Memory)",
+        "Flash Memory",
+        "ROM (Read-Only Memory)",
+        "NVRAM (Non-Volatile Random-Access Memory)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary role of 'Formal Verification'?",
+      "options": [
+        "To simulate the circuit's behavior using test vectors and observe the outputs.",
+        "To mathematically prove the correctness of a design's functionality against its specification without requiring simulation.",
+        "To synthesize the high-level description language (HDL) code into a gate-level netlist.",
+        "To verify that the physical layout of the circuit adheres to semiconductor manufacturing rules.",
+        "To estimate the power consumption and timing delays of the circuit before physical implementation."
       ],
       "correct": 1
     },
     {
-      "question": "In the physical verification stage of Integrated Circuit (IC) design, what is the main purpose of 'Design Rule Checking' (DRC)?",
+      "question": "What is the primary purpose of 'branch prediction' in modern pipelined processors?",
       "options": [
-        "To verify the logical correctness of the circuit against its functional specification.",
-        "To simulate the timing performance of the design under various operating conditions.",
-        "To ensure that the physical layout of the chip conforms to the fabrication process capabilities and constraints.",
-        "To generate the final GDSII file for manufacturing.",
-        "To identify and fix power integrity issues like IR drop and electromigration."
+        "To reduce the latency of memory accesses by prefetching data into caches.",
+        "To determine the most likely next instruction to fetch and execute before the outcome of a conditional branch instruction is actually known.",
+        "To dynamically adjust the operating voltage and frequency of the processor for power savings.",
+        "To prevent data hazards by forwarding results directly from one pipeline stage to another.",
+        "To ensure that all CPU cores maintain a consistent view of shared memory in a multi-processor system."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In modern computer architecture, what is the primary benefit of implementing a 'Multi-level Cache Hierarchy' (e.g., L1, L2, L3 caches) between the CPU and main memory?",
-      "options": [
-        "To reduce the overall power consumption of the entire memory system.",
-        "To decrease the total amount of physical RAM required in the system.",
-        "To improve the average memory access time by providing faster, smaller memory closer to the CPU.",
-        "To simplify the instruction set architecture of the processor.",
-        "To eliminate the need for virtual memory management."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which technique in processor pipelining is primarily designed to mitigate 'data hazards' (specifically Read After Write - RAW dependencies) by forwarding the result of an instruction directly from an internal pipeline stage to a subsequent instruction that needs it?",
-      "options": [
-        "Branch prediction",
-        "Out-of-order execution",
-        "Memory paging",
-        "Bypassing (or Forwarding)",
-        "Instruction prefetching"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is the primary characteristic that differentiates a 'Complex Instruction Set Computer' (CISC) architecture from a 'Reduced Instruction Set Computer' (RISC) architecture?",
-      "options": [
-        "CISC processors primarily use a large number of general-purpose registers, while RISC processors have very few.",
-        "CISC instructions are typically fixed-length and execute in a single clock cycle, whereas RISC instructions are variable-length and can take multiple cycles.",
-        "CISC architectures have a small, simple instruction set with operations performed directly on registers, while RISC architectures have a large, complex instruction set with memory-to-memory operations.",
-        "CISC processors emphasize microcoded, complex instructions that perform multiple operations, often directly on memory, while RISC processors emphasize simple, single-cycle instructions performed on registers.",
-        "CISC architectures always implement a deeper pipeline compared to RISC architectures."
-      ],
-      "correct": 3
+      "correct": 1
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "In the context of digital IC design, what is a 'netlist'?",
-  "In computer architecture, what is the defining characteristic of a 'fully associative cache'?",
-  "In the physical design and verification of high-performance integrated circuits, what phenomenon is 'crosstalk' primarily concerned with?",
-  "In modern out-of-order execution processors, what is the primary function of a 'Reorder Buffer' (ROB)?",
-  "In digital synchronous circuits, what is the primary function of a 'register'?",
   "What is the primary function of a 'register file' in a CPU?",
   "What is the primary advantage of using a Harvard architecture over a Von Neumann architecture in CPU design?",
   "What is the primary purpose of 'scan chains' in Design-for-Testability (DFT) for digital integrated circuits?",
@@ -48,5 +43,10 @@
   "In the physical verification stage of Integrated Circuit (IC) design, what is the main purpose of 'Design Rule Checking' (DRC)?",
   "In modern computer architecture, what is the primary benefit of implementing a 'Multi-level Cache Hierarchy' (e.g., L1, L2, L3 caches) between the CPU and main memory?",
   "Which technique in processor pipelining is primarily designed to mitigate 'data hazards' (specifically Read After Write - RAW dependencies) by forwarding the result of an instruction directly from an internal pipeline stage to a subsequent instruction that needs it?",
-  "What is the primary characteristic that differentiates a 'Complex Instruction Set Computer' (CISC) architecture from a 'Reduced Instruction Set Computer' (RISC) architecture?"
+  "What is the primary characteristic that differentiates a 'Complex Instruction Set Computer' (CISC) architecture from a 'Reduced Instruction Set Computer' (RISC) architecture?",
+  "What is the fundamental purpose of a multiplexer (MUX) in digital logic?",
+  "In the context of static timing analysis (STA) for a synchronous digital circuit, what does 'setup time' primarily refer to?",
+  "Which type of memory typically offers the fastest access times and is used for CPU caches, but requires continuous power to retain data and is more expensive per bit than DRAM?",
+  "In the design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary role of 'Formal Verification'?",
+  "What is the primary purpose of 'branch prediction' in modern pipelined processors?"
 ]
