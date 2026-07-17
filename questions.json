@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental purpose of a multiplexer (MUX) in digital logic?",
+      "question": "In synchronous digital circuit design, what is the primary purpose of a global clock signal?",
       "options": [
-        "To select one of several input signals and route it to a single output line.",
-        "To store a single bit of data for one clock cycle.",
-        "To perform arithmetic operations like addition or subtraction.",
-        "To generate a clock signal from an external reference.",
-        "To amplify a weak digital signal."
+        "To regulate the timing and ordering of data transfers between sequential elements.",
+        "To provide power distribution to all logic gates across the chip.",
+        "To reset all flip-flops simultaneously at the start of operation.",
+        "To enable asynchronous communication between different functional blocks.",
+        "To generate random test patterns for fault detection."
       ],
       "correct": 0
     },
     {
-      "question": "In the context of static timing analysis (STA) for a synchronous digital circuit, what does 'setup time' primarily refer to?",
+      "question": "Which of the following is a primary contributor to static (leakage) power consumption in modern deep-submicron CMOS integrated circuits?",
       "options": [
-        "The minimum time an input signal must be stable *before* the active clock edge for a flip-flop to reliably capture the data.",
-        "The minimum time an input signal must be stable *after* the active clock edge (and before the next clock edge) for a flip-flop to reliably capture the data.",
-        "The maximum propagation delay from the input of a combinational logic block to its output.",
-        "The minimum clock period required for the entire circuit to operate correctly.",
-        "The time it takes for a flip-flop's output to change after the active clock edge."
+        "The switching activity of logic gates.",
+        "The charging and discharging of load capacitances.",
+        "Short-circuit current during the transition of an inverter.",
+        "Subthreshold current flowing through transistors that are nominally OFF.",
+        "The frequency at which the clock signal toggles."
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "Which type of memory typically offers the fastest access times and is used for CPU caches, but requires continuous power to retain data and is more expensive per bit than DRAM?",
+      "question": "In distributed shared memory (DSM) systems or highly parallel multi-core processors, which memory consistency model offers the strongest guarantee, requiring all memory operations to appear as if they execute in a single, global, total order, and all processors observe this order identically?",
       "options": [
-        "SRAM (Static Random-Access Memory)",
-        "DRAM (Dynamic Random-Access Memory)",
-        "Flash Memory",
-        "ROM (Read-Only Memory)",
-        "NVRAM (Non-Volatile Random-Access Memory)"
+        "Weak Consistency",
+        "Release Consistency",
+        "Sequential Consistency",
+        "Processor Consistency",
+        "Entry Consistency"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In the design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary role of 'Formal Verification'?",
+      "question": "What is the primary advantage of using Assertion-Based Verification (ABV) with properties specified in SystemVerilog Assertions (SVA) over traditional simulation alone in digital IC design?",
       "options": [
-        "To simulate the circuit's behavior using test vectors and observe the outputs.",
-        "To mathematically prove the correctness of a design's functionality against its specification without requiring simulation.",
-        "To synthesize the high-level description language (HDL) code into a gate-level netlist.",
-        "To verify that the physical layout of the circuit adheres to semiconductor manufacturing rules.",
-        "To estimate the power consumption and timing delays of the circuit before physical implementation."
+        "It completely eliminates the need for any form of testbench or stimulus generation.",
+        "It guarantees 100% functional coverage for all possible design states without running any simulation.",
+        "It allows for continuous monitoring of design behavior against specified temporal properties during simulation, catching unexpected states or sequences that might be missed by simple output checks.",
+        "It automatically corrects design errors identified during the verification process.",
+        "It is exclusively used for verifying analog circuit blocks, not digital logic."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "What is the primary purpose of 'branch prediction' in modern pipelined processors?",
+      "question": "Which type of parallelism involves executing multiple instructions concurrently *within a single program thread* by overlapping their execution, often using techniques like pipelining and superscalar execution?",
       "options": [
-        "To reduce the latency of memory accesses by prefetching data into caches.",
-        "To determine the most likely next instruction to fetch and execute before the outcome of a conditional branch instruction is actually known.",
-        "To dynamically adjust the operating voltage and frequency of the processor for power savings.",
-        "To prevent data hazards by forwarding results directly from one pipeline stage to another.",
-        "To ensure that all CPU cores maintain a consistent view of shared memory in a multi-processor system."
+        "Thread-Level Parallelism (TLP)",
+        "Data-Level Parallelism (DLP)",
+        "Instruction-Level Parallelism (ILP)",
+        "Bit-Level Parallelism (BLP)",
+        "Request-Level Parallelism (RLP)"
       ],
-      "correct": 1
+      "correct": 2
     }
   ]
 }

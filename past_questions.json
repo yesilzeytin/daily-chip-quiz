@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a 'register file' in a CPU?",
-  "What is the primary advantage of using a Harvard architecture over a Von Neumann architecture in CPU design?",
-  "What is the primary purpose of 'scan chains' in Design-for-Testability (DFT) for digital integrated circuits?",
-  "What is the primary challenge addressed by 'heterogeneous computing' architectures in modern System-on-Chips (SoCs)?",
-  "What is the primary role of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
   "In the basic CPU instruction cycle, what is the stage where the processor retrieves an instruction from memory?",
   "Which cache replacement policy removes the block from the cache that has not been accessed for the longest period of time?",
   "In digital IC design, which technique is primarily employed to reduce dynamic power consumption by selectively disabling the clock signal to idle functional units?",
@@ -48,5 +43,10 @@
   "In the context of static timing analysis (STA) for a synchronous digital circuit, what does 'setup time' primarily refer to?",
   "Which type of memory typically offers the fastest access times and is used for CPU caches, but requires continuous power to retain data and is more expensive per bit than DRAM?",
   "In the design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary role of 'Formal Verification'?",
-  "What is the primary purpose of 'branch prediction' in modern pipelined processors?"
+  "What is the primary purpose of 'branch prediction' in modern pipelined processors?",
+  "In synchronous digital circuit design, what is the primary purpose of a global clock signal?",
+  "Which of the following is a primary contributor to static (leakage) power consumption in modern deep-submicron CMOS integrated circuits?",
+  "In distributed shared memory (DSM) systems or highly parallel multi-core processors, which memory consistency model offers the strongest guarantee, requiring all memory operations to appear as if they execute in a single, global, total order, and all processors observe this order identically?",
+  "What is the primary advantage of using Assertion-Based Verification (ABV) with properties specified in SystemVerilog Assertions (SVA) over traditional simulation alone in digital IC design?",
+  "Which type of parallelism involves executing multiple instructions concurrently *within a single program thread* by overlapping their execution, often using techniques like pipelining and superscalar execution?"
 ]
