@@ -1,9 +1,4 @@
 [
-  "In the basic CPU instruction cycle, what is the stage where the processor retrieves an instruction from memory?",
-  "Which cache replacement policy removes the block from the cache that has not been accessed for the longest period of time?",
-  "In digital IC design, which technique is primarily employed to reduce dynamic power consumption by selectively disabling the clock signal to idle functional units?",
-  "What is the primary purpose of 'lithography' in the semiconductor manufacturing process?",
-  "In a modern out-of-order execution processor that implements Tomasulo's algorithm, what is the primary function of a 'Reservation Station'?",
   "In digital circuit timing analysis, what does the 'critical path' primarily refer to?",
   "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the chip design process?",
   "In the semiconductor industry, what is the primary purpose of the GDSII file format?",
@@ -48,5 +43,10 @@
   "Which of the following is a primary contributor to static (leakage) power consumption in modern deep-submicron CMOS integrated circuits?",
   "In distributed shared memory (DSM) systems or highly parallel multi-core processors, which memory consistency model offers the strongest guarantee, requiring all memory operations to appear as if they execute in a single, global, total order, and all processors observe this order identically?",
   "What is the primary advantage of using Assertion-Based Verification (ABV) with properties specified in SystemVerilog Assertions (SVA) over traditional simulation alone in digital IC design?",
-  "Which type of parallelism involves executing multiple instructions concurrently *within a single program thread* by overlapping their execution, often using techniques like pipelining and superscalar execution?"
+  "Which type of parallelism involves executing multiple instructions concurrently *within a single program thread* by overlapping their execution, often using techniques like pipelining and superscalar execution?",
+  "What is the main characteristic of a 'Full Custom' IC design methodology?",
+  "What is the primary difference in how instruction-level parallelism (ILP) is exposed and managed between a Superscalar processor and a Very Long Instruction Word (VLIW) processor?",
+  "In digital IC design, what is the primary purpose of inserting 'Scan Chains' into a design during the Design For Testability (DFT) phase?",
+  "In a multi-processor system with shared memory, what is the fundamental distinction between 'cache coherence' and 'memory consistency'?",
+  "In the final physical verification stages of an Integrated Circuit, what is the primary role of an 'Electrical Rule Check' (ERC)?"
 ]

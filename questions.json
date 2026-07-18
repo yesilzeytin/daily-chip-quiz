@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In synchronous digital circuit design, what is the primary purpose of a global clock signal?",
+      "question": "What is the main characteristic of a 'Full Custom' IC design methodology?",
       "options": [
-        "To regulate the timing and ordering of data transfers between sequential elements.",
-        "To provide power distribution to all logic gates across the chip.",
-        "To reset all flip-flops simultaneously at the start of operation.",
-        "To enable asynchronous communication between different functional blocks.",
-        "To generate random test patterns for fault detection."
+        "Every transistor and interconnect is manually designed and optimized.",
+        "It relies exclusively on pre-designed standard cells for all logic.",
+        "It primarily uses pre-verified IP blocks without modification to accelerate design.",
+        "It involves designing only the high-level architecture using Hardware Description Languages.",
+        "It exclusively uses Field-Programmable Gate Arrays (FPGAs) for rapid prototyping."
       ],
       "correct": 0
     },
     {
-      "question": "Which of the following is a primary contributor to static (leakage) power consumption in modern deep-submicron CMOS integrated circuits?",
+      "question": "What is the primary difference in how instruction-level parallelism (ILP) is exposed and managed between a Superscalar processor and a Very Long Instruction Word (VLIW) processor?",
       "options": [
-        "The switching activity of logic gates.",
-        "The charging and discharging of load capacitances.",
-        "Short-circuit current during the transition of an inverter.",
-        "Subthreshold current flowing through transistors that are nominally OFF.",
-        "The frequency at which the clock signal toggles."
+        "Superscalar processors dynamically detect parallelism at runtime, while VLIW processors rely on the compiler to statically bundle independent operations.",
+        "VLIW processors are designed for a single instruction stream, whereas Superscalar processors support multiple instruction streams concurrently.",
+        "Superscalar processors require explicit programmer annotations for parallel execution, unlike VLIW processors.",
+        "VLIW processors execute only one instruction per clock cycle, whereas Superscalar processors execute many.",
+        "Superscalar processors feature simpler instruction decoders compared to VLIW processors due to fixed instruction formats."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "In distributed shared memory (DSM) systems or highly parallel multi-core processors, which memory consistency model offers the strongest guarantee, requiring all memory operations to appear as if they execute in a single, global, total order, and all processors observe this order identically?",
+      "question": "In digital IC design, what is the primary purpose of inserting 'Scan Chains' into a design during the Design For Testability (DFT) phase?",
       "options": [
-        "Weak Consistency",
-        "Release Consistency",
-        "Sequential Consistency",
-        "Processor Consistency",
-        "Entry Consistency"
+        "To allow for structural testing of internal sequential logic elements by shifting test patterns in and out.",
+        "To reduce the overall area overhead of the silicon die by optimizing placement.",
+        "To improve the functional performance and operating frequency of the circuit.",
+        "To enable dynamic voltage and frequency scaling (DVFS) for power management.",
+        "To synchronize data transfers between asynchronous clock domains."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "What is the primary advantage of using Assertion-Based Verification (ABV) with properties specified in SystemVerilog Assertions (SVA) over traditional simulation alone in digital IC design?",
+      "question": "In a multi-processor system with shared memory, what is the fundamental distinction between 'cache coherence' and 'memory consistency'?",
       "options": [
-        "It completely eliminates the need for any form of testbench or stimulus generation.",
-        "It guarantees 100% functional coverage for all possible design states without running any simulation.",
-        "It allows for continuous monitoring of design behavior against specified temporal properties during simulation, catching unexpected states or sequences that might be missed by simple output checks.",
-        "It automatically corrects design errors identified during the verification process.",
-        "It is exclusively used for verifying analog circuit blocks, not digital logic."
+        "Cache coherence ensures that all processors see a consistent view of a *single memory block*, while memory consistency defines the *order* in which memory operations from different processors are observed by all processors.",
+        "Memory consistency applies only to on-chip caches (L1/L2), whereas cache coherence applies to the main memory (DRAM).",
+        "Cache coherence protocols are implemented in software, while memory consistency models are purely hardware-driven.",
+        "Memory consistency is concerned with data locality, while cache coherence focuses on overall system throughput.",
+        "There is no functional distinction; they are two terms for the exact same concept of ensuring correct data across processors."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "Which type of parallelism involves executing multiple instructions concurrently *within a single program thread* by overlapping their execution, often using techniques like pipelining and superscalar execution?",
+      "question": "In the final physical verification stages of an Integrated Circuit, what is the primary role of an 'Electrical Rule Check' (ERC)?",
       "options": [
-        "Thread-Level Parallelism (TLP)",
-        "Data-Level Parallelism (DLP)",
-        "Instruction-Level Parallelism (ILP)",
-        "Bit-Level Parallelism (BLP)",
-        "Request-Level Parallelism (RLP)"
+        "To identify electrical issues in the design, such as floating nets, power/ground shorts, or improper connection of power domains.",
+        "To verify that the physical layout adheres to manufacturing process geometric constraints and tolerances.",
+        "To compare the extracted physical layout against the original logical schematic to ensure functional equivalence.",
+        "To predict the timing performance of critical paths and verify setup/hold times.",
+        "To perform functional simulation of the entire chip under various test scenarios."
       ],
-      "correct": 2
+      "correct": 0
     }
   ]
 }
