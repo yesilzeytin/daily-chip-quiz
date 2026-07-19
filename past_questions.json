@@ -1,9 +1,4 @@
 [
-  "In digital circuit timing analysis, what does the 'critical path' primarily refer to?",
-  "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in the chip design process?",
-  "In the semiconductor industry, what is the primary purpose of the GDSII file format?",
-  "In the context of CPU design, what is 'microcode' primarily used for?",
-  "What is a 'standard cell' in the context of ASIC (Application-Specific Integrated Circuit) design?",
   "In digital IC design, what is the primary purpose of a 'testbench'?",
   "What is the primary characteristic of Single Instruction, Multiple Data (SIMD) architecture in computer architecture?",
   "In the physical design flow of an Integrated Circuit, what is the primary goal of 'floorplanning'?",
@@ -48,5 +43,10 @@
   "What is the primary difference in how instruction-level parallelism (ILP) is exposed and managed between a Superscalar processor and a Very Long Instruction Word (VLIW) processor?",
   "In digital IC design, what is the primary purpose of inserting 'Scan Chains' into a design during the Design For Testability (DFT) phase?",
   "In a multi-processor system with shared memory, what is the fundamental distinction between 'cache coherence' and 'memory consistency'?",
-  "In the final physical verification stages of an Integrated Circuit, what is the primary role of an 'Electrical Rule Check' (ERC)?"
+  "In the final physical verification stages of an Integrated Circuit, what is the primary role of an 'Electrical Rule Check' (ERC)?",
+  "What is the primary advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology over older logic families like NMOS or PMOS?",
+  "In a pipelined processor, what is the primary role of the \"pipeline registers\" (or inter-stage buffers) placed between adjacent pipeline stages?",
+  "What is the primary purpose of Error-Correcting Code (ECC) memory in computer systems?",
+  "In the chip design flow, what is the primary goal of High-Level Synthesis (HLS), also known as behavioral synthesis?",
+  "In a multi-core processor system with a cache coherence protocol, what is \"false sharing\" and how is it primarily addressed?"
 ]

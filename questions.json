@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the main characteristic of a 'Full Custom' IC design methodology?",
+      "question": "What is the primary advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology over older logic families like NMOS or PMOS?",
       "options": [
-        "Every transistor and interconnect is manually designed and optimized.",
-        "It relies exclusively on pre-designed standard cells for all logic.",
-        "It primarily uses pre-verified IP blocks without modification to accelerate design.",
-        "It involves designing only the high-level architecture using Hardware Description Languages.",
-        "It exclusively uses Field-Programmable Gate Arrays (FPGAs) for rapid prototyping."
+        "Significantly lower static power consumption and higher noise margin.",
+        "Higher speed at higher power consumption.",
+        "Simpler fabrication process, leading to lower cost.",
+        "Capability to operate at much higher supply voltages.",
+        "Intrinsic resistance to electromagnetic interference."
       ],
       "correct": 0
     },
     {
-      "question": "What is the primary difference in how instruction-level parallelism (ILP) is exposed and managed between a Superscalar processor and a Very Long Instruction Word (VLIW) processor?",
+      "question": "In a pipelined processor, what is the primary role of the \"pipeline registers\" (or inter-stage buffers) placed between adjacent pipeline stages?",
       "options": [
-        "Superscalar processors dynamically detect parallelism at runtime, while VLIW processors rely on the compiler to statically bundle independent operations.",
-        "VLIW processors are designed for a single instruction stream, whereas Superscalar processors support multiple instruction streams concurrently.",
-        "Superscalar processors require explicit programmer annotations for parallel execution, unlike VLIW processors.",
-        "VLIW processors execute only one instruction per clock cycle, whereas Superscalar processors execute many.",
-        "Superscalar processors feature simpler instruction decoders compared to VLIW processors due to fixed instruction formats."
+        "To store the entire program's instructions before execution.",
+        "To manage cache coherence between multiple processor cores.",
+        "To isolate the stages and pass data/control signals from one stage to the next in a synchronized manner, preventing data flow in reverse.",
+        "To hold the results of arithmetic logic unit (ALU) operations for external output.",
+        "To perform complex branch prediction algorithms."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In digital IC design, what is the primary purpose of inserting 'Scan Chains' into a design during the Design For Testability (DFT) phase?",
+      "question": "What is the primary purpose of Error-Correcting Code (ECC) memory in computer systems?",
       "options": [
-        "To allow for structural testing of internal sequential logic elements by shifting test patterns in and out.",
-        "To reduce the overall area overhead of the silicon die by optimizing placement.",
-        "To improve the functional performance and operating frequency of the circuit.",
-        "To enable dynamic voltage and frequency scaling (DVFS) for power management.",
-        "To synchronize data transfers between asynchronous clock domains."
+        "To compress data for more efficient storage, increasing effective memory capacity.",
+        "To detect and correct single-bit memory errors and detect multi-bit errors, improving system reliability.",
+        "To provide a faster cache level between the CPU and main memory.",
+        "To encrypt sensitive data stored in memory for security purposes.",
+        "To allow memory to function as a non-volatile storage medium."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In a multi-processor system with shared memory, what is the fundamental distinction between 'cache coherence' and 'memory consistency'?",
+      "question": "In the chip design flow, what is the primary goal of High-Level Synthesis (HLS), also known as behavioral synthesis?",
       "options": [
-        "Cache coherence ensures that all processors see a consistent view of a *single memory block*, while memory consistency defines the *order* in which memory operations from different processors are observed by all processors.",
-        "Memory consistency applies only to on-chip caches (L1/L2), whereas cache coherence applies to the main memory (DRAM).",
-        "Cache coherence protocols are implemented in software, while memory consistency models are purely hardware-driven.",
-        "Memory consistency is concerned with data locality, while cache coherence focuses on overall system throughput.",
-        "There is no functional distinction; they are two terms for the exact same concept of ensuring correct data across processors."
+        "To translate a register-transfer level (RTL) description into a gate-level netlist.",
+        "To generate the physical layout (mask data) from a gate-level netlist.",
+        "To automatically create an RTL description (e.g., Verilog/VHDL) from an algorithm described in a high-level programming language like C, C++, or SystemC.",
+        "To perform static timing analysis on the final routed design.",
+        "To verify the functional correctness of the design against its specification using formal methods."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In the final physical verification stages of an Integrated Circuit, what is the primary role of an 'Electrical Rule Check' (ERC)?",
+      "question": "In a multi-core processor system with a cache coherence protocol, what is \"false sharing\" and how is it primarily addressed?",
       "options": [
-        "To identify electrical issues in the design, such as floating nets, power/ground shorts, or improper connection of power domains.",
-        "To verify that the physical layout adheres to manufacturing process geometric constraints and tolerances.",
-        "To compare the extracted physical layout against the original logical schematic to ensure functional equivalence.",
-        "To predict the timing performance of critical paths and verify setup/hold times.",
-        "To perform functional simulation of the entire chip under various test scenarios."
+        "It refers to different processors trying to access the same memory block simultaneously; it's addressed by implementing mutexes.",
+        "It's when unrelated data items, accessed by different processors, happen to reside in the same cache line, causing unnecessary cache line invalidations and performance degradation; it's often addressed by padding data structures.",
+        "It's a security vulnerability where a processor can snoop on another processor's private cache data; it's addressed by memory encryption.",
+        "It's a situation where a processor writes outdated data to memory because its cache line is stale; it's addressed by enforcing a strong memory consistency model.",
+        "It describes the inability of a cache to store all necessary data due to limited size; it's addressed by increasing cache capacity."
       ],
-      "correct": 0
+      "correct": 1
     }
   ]
 }
