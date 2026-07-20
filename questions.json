@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology over older logic families like NMOS or PMOS?",
+      "question": "In the typical ASIC design flow, which step translates a Register Transfer Level (RTL) description (e.g., in Verilog or VHDL) into a gate-level netlist using standard cell libraries?",
       "options": [
-        "Significantly lower static power consumption and higher noise margin.",
-        "Higher speed at higher power consumption.",
-        "Simpler fabrication process, leading to lower cost.",
-        "Capability to operate at much higher supply voltages.",
-        "Intrinsic resistance to electromagnetic interference."
+        "Logic Synthesis",
+        "Place and Route",
+        "Static Timing Analysis",
+        "Design Rule Checking",
+        "Functional Verification"
       ],
       "correct": 0
     },
     {
-      "question": "In a pipelined processor, what is the primary role of the \"pipeline registers\" (or inter-stage buffers) placed between adjacent pipeline stages?",
+      "question": "Which addressing mode directly specifies the operand's value within the instruction itself, requiring no memory access to fetch the operand?",
       "options": [
-        "To store the entire program's instructions before execution.",
-        "To manage cache coherence between multiple processor cores.",
-        "To isolate the stages and pass data/control signals from one stage to the next in a synchronized manner, preventing data flow in reverse.",
-        "To hold the results of arithmetic logic unit (ALU) operations for external output.",
-        "To perform complex branch prediction algorithms."
+        "Immediate Addressing",
+        "Register Addressing",
+        "Direct Addressing",
+        "Indirect Addressing",
+        "Indexed Addressing"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the primary purpose of 'Post-Layout Simulation' in the digital IC design flow?",
+      "options": [
+        "To verify the functional correctness of the RTL code before synthesis.",
+        "To check for design rule violations (DRC) after routing.",
+        "To verify timing and functionality using actual extracted parasitic information from the physical layout.",
+        "To generate test vectors for manufacturing test.",
+        "To optimize power consumption by identifying switching activity."
       ],
       "correct": 2
     },
     {
-      "question": "What is the primary purpose of Error-Correcting Code (ECC) memory in computer systems?",
+      "question": "In advanced pipelined processors, what is the primary role of a \"Reorder Buffer\" (ROB) when implementing precise exceptions and committed state in an out-of-order execution engine?",
       "options": [
-        "To compress data for more efficient storage, increasing effective memory capacity.",
-        "To detect and correct single-bit memory errors and detect multi-bit errors, improving system reliability.",
-        "To provide a faster cache level between the CPU and main memory.",
-        "To encrypt sensitive data stored in memory for security purposes.",
-        "To allow memory to function as a non-volatile storage medium."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the chip design flow, what is the primary goal of High-Level Synthesis (HLS), also known as behavioral synthesis?",
-      "options": [
-        "To translate a register-transfer level (RTL) description into a gate-level netlist.",
-        "To generate the physical layout (mask data) from a gate-level netlist.",
-        "To automatically create an RTL description (e.g., Verilog/VHDL) from an algorithm described in a high-level programming language like C, C++, or SystemC.",
-        "To perform static timing analysis on the final routed design.",
-        "To verify the functional correctness of the design against its specification using formal methods."
+        "To store micro-operations before they are dispatched to execution units.",
+        "To buffer instructions for speculative execution based on branch predictions.",
+        "To maintain the sequential order of instruction completion for architectural state updates, regardless of out-of-order execution.",
+        "To translate virtual addresses to physical addresses for memory accesses.",
+        "To manage the allocation and deallocation of physical registers."
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-core processor system with a cache coherence protocol, what is \"false sharing\" and how is it primarily addressed?",
+      "question": "During the Design For Testability (DFT) phase, besides scan chains, which technique is commonly used to test internal memory blocks (e.g., SRAMs, register files) within a System-on-Chip (SoC) for manufacturing defects?",
       "options": [
-        "It refers to different processors trying to access the same memory block simultaneously; it's addressed by implementing mutexes.",
-        "It's when unrelated data items, accessed by different processors, happen to reside in the same cache line, causing unnecessary cache line invalidations and performance degradation; it's often addressed by padding data structures.",
-        "It's a security vulnerability where a processor can snoop on another processor's private cache data; it's addressed by memory encryption.",
-        "It's a situation where a processor writes outdated data to memory because its cache line is stale; it's addressed by enforcing a strong memory consistency model.",
-        "It describes the inability of a cache to store all necessary data due to limited size; it's addressed by increasing cache capacity."
+        "Built-In Self-Test (BIST)",
+        "Static Timing Analysis (STA)",
+        "Formal Verification (FV)",
+        "Emulation",
+        "Power Integrity (PI) analysis"
       ],
-      "correct": 1
+      "correct": 0
     }
   ]
 }

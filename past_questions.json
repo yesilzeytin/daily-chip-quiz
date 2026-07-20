@@ -1,9 +1,4 @@
 [
-  "In digital IC design, what is the primary purpose of a 'testbench'?",
-  "What is the primary characteristic of Single Instruction, Multiple Data (SIMD) architecture in computer architecture?",
-  "In the physical design flow of an Integrated Circuit, what is the primary goal of 'floorplanning'?",
-  "In a virtual memory system, what is the primary purpose of the Translation Lookaside Buffer (TLB)?",
-  "What is the primary advantage of FinFET (Fin Field-Effect Transistor) architecture over traditional planar MOSFETs in advanced semiconductor nodes?",
   "What is the fundamental building block of most modern digital integrated circuits?",
   "What architectural feature allows a processor to execute multiple instructions in a single clock cycle, assuming data dependencies permit?",
   "When designing a custom standard cell library, what critical information is typically extracted from the physical layout of each cell (e.g., an inverter or NAND gate) to allow timing analysis tools to accurately predict its delay under various operating conditions?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, what is the primary role of the \"pipeline registers\" (or inter-stage buffers) placed between adjacent pipeline stages?",
   "What is the primary purpose of Error-Correcting Code (ECC) memory in computer systems?",
   "In the chip design flow, what is the primary goal of High-Level Synthesis (HLS), also known as behavioral synthesis?",
-  "In a multi-core processor system with a cache coherence protocol, what is \"false sharing\" and how is it primarily addressed?"
+  "In a multi-core processor system with a cache coherence protocol, what is \"false sharing\" and how is it primarily addressed?",
+  "In the typical ASIC design flow, which step translates a Register Transfer Level (RTL) description (e.g., in Verilog or VHDL) into a gate-level netlist using standard cell libraries?",
+  "Which addressing mode directly specifies the operand's value within the instruction itself, requiring no memory access to fetch the operand?",
+  "What is the primary purpose of 'Post-Layout Simulation' in the digital IC design flow?",
+  "In advanced pipelined processors, what is the primary role of a \"Reorder Buffer\" (ROB) when implementing precise exceptions and committed state in an out-of-order execution engine?",
+  "During the Design For Testability (DFT) phase, besides scan chains, which technique is commonly used to test internal memory blocks (e.g., SRAMs, register files) within a System-on-Chip (SoC) for manufacturing defects?"
 ]
