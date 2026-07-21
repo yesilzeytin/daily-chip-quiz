@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In the typical ASIC design flow, which step translates a Register Transfer Level (RTL) description (e.g., in Verilog or VHDL) into a gate-level netlist using standard cell libraries?",
+      "question": "What is the primary role of the Program Counter (PC) in a CPU?",
       "options": [
-        "Logic Synthesis",
-        "Place and Route",
-        "Static Timing Analysis",
-        "Design Rule Checking",
-        "Functional Verification"
+        "Stores the data being currently processed.",
+        "Holds the address of the next instruction to be fetched.",
+        "Manages the flow of data between CPU and memory.",
+        "Registers for general-purpose calculations.",
+        "Controls peripheral devices connected to the system."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "Which addressing mode directly specifies the operand's value within the instruction itself, requiring no memory access to fetch the operand?",
+      "question": "In modern digital IC design, what is the primary objective of implementing 'power gating' techniques?",
       "options": [
-        "Immediate Addressing",
-        "Register Addressing",
-        "Direct Addressing",
-        "Indirect Addressing",
-        "Indexed Addressing"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What is the primary purpose of 'Post-Layout Simulation' in the digital IC design flow?",
-      "options": [
-        "To verify the functional correctness of the RTL code before synthesis.",
-        "To check for design rule violations (DRC) after routing.",
-        "To verify timing and functionality using actual extracted parasitic information from the physical layout.",
-        "To generate test vectors for manufacturing test.",
-        "To optimize power consumption by identifying switching activity."
+        "To dynamically adjust the clock frequency of active blocks.",
+        "To reduce dynamic power consumption by minimizing switching activity.",
+        "To selectively turn off power to inactive circuit blocks, reducing static (leakage) power.",
+        "To provide a stable reference voltage for analog circuits.",
+        "To speed up the manufacturing test process."
       ],
       "correct": 2
     },
     {
-      "question": "In advanced pipelined processors, what is the primary role of a \"Reorder Buffer\" (ROB) when implementing precise exceptions and committed state in an out-of-order execution engine?",
+      "question": "In a virtual memory system, what is the main purpose of a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "To store micro-operations before they are dispatched to execution units.",
-        "To buffer instructions for speculative execution based on branch predictions.",
-        "To maintain the sequential order of instruction completion for architectural state updates, regardless of out-of-order execution.",
-        "To translate virtual addresses to physical addresses for memory accesses.",
-        "To manage the allocation and deallocation of physical registers."
+        "To store recently used data blocks for faster CPU access.",
+        "To cache recent virtual-to-physical address translations.",
+        "To manage the allocation and deallocation of physical memory pages.",
+        "To enforce memory consistency between multiple processors.",
+        "To buffer instructions before they are decoded and executed."
       ],
-      "correct": 2
+      "correct": 1
     },
     {
-      "question": "During the Design For Testability (DFT) phase, besides scan chains, which technique is commonly used to test internal memory blocks (e.g., SRAMs, register files) within a System-on-Chip (SoC) for manufacturing defects?",
+      "question": "In digital IC verification, what is the primary characteristic of a 'self-checking testbench'?",
       "options": [
-        "Built-In Self-Test (BIST)",
-        "Static Timing Analysis (STA)",
-        "Formal Verification (FV)",
-        "Emulation",
-        "Power Integrity (PI) analysis"
+        "It automatically generates random input stimulus without human intervention.",
+        "It can identify if the Design Under Test (DUT) is behaving correctly by comparing actual outputs against expected results.",
+        "It's capable of synthesizing the RTL into a gate-level netlist.",
+        "It runs indefinitely, continuously monitoring for unexpected behavior.",
+        "It automatically fixes bugs found in the RTL code."
       ],
-      "correct": 0
+      "correct": 1
+    },
+    {
+      "question": "As feature sizes in integrated circuits continue to shrink into the nanometer regime, which phenomenon related to lithography becomes a significant challenge, causing discrepancies between the designed layout and the actual manufactured silicon patterns?",
+      "options": [
+        "Electromigration, leading to premature wire failure.",
+        "Thermal runaway, causing excessive heat generation.",
+        "Process Variation and Optical Proximity Effects (OPEs), impacting pattern fidelity.",
+        "Cosmic ray induced soft errors.",
+        "Quantum tunneling, enabling faster transistor switching."
+      ],
+      "correct": 2
     }
   ]
 }

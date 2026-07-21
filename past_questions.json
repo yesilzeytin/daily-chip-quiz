@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of most modern digital integrated circuits?",
-  "What architectural feature allows a processor to execute multiple instructions in a single clock cycle, assuming data dependencies permit?",
-  "When designing a custom standard cell library, what critical information is typically extracted from the physical layout of each cell (e.g., an inverter or NAND gate) to allow timing analysis tools to accurately predict its delay under various operating conditions?",
-  "In the context of processor memory consistency models, what phenomenon does a 'store buffer' primarily address to improve performance, while requiring careful handling to maintain correctness?",
-  "What is the purpose of 'clock tree synthesis' (CTS) in the physical design flow of an Integrated Circuit?",
   "What type of logic gate has an output that is HIGH only when all its inputs are HIGH?",
   "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol like MESI?",
   "Besides IR drop, which other power integrity concern relates to sudden, large current changes causing voltage fluctuations on the power distribution network, potentially affecting circuit operation?",
@@ -48,5 +43,10 @@
   "Which addressing mode directly specifies the operand's value within the instruction itself, requiring no memory access to fetch the operand?",
   "What is the primary purpose of 'Post-Layout Simulation' in the digital IC design flow?",
   "In advanced pipelined processors, what is the primary role of a \"Reorder Buffer\" (ROB) when implementing precise exceptions and committed state in an out-of-order execution engine?",
-  "During the Design For Testability (DFT) phase, besides scan chains, which technique is commonly used to test internal memory blocks (e.g., SRAMs, register files) within a System-on-Chip (SoC) for manufacturing defects?"
+  "During the Design For Testability (DFT) phase, besides scan chains, which technique is commonly used to test internal memory blocks (e.g., SRAMs, register files) within a System-on-Chip (SoC) for manufacturing defects?",
+  "What is the primary role of the Program Counter (PC) in a CPU?",
+  "In modern digital IC design, what is the primary objective of implementing 'power gating' techniques?",
+  "In a virtual memory system, what is the main purpose of a Translation Lookaside Buffer (TLB)?",
+  "In digital IC verification, what is the primary characteristic of a 'self-checking testbench'?",
+  "As feature sizes in integrated circuits continue to shrink into the nanometer regime, which phenomenon related to lithography becomes a significant challenge, causing discrepancies between the designed layout and the actual manufactured silicon patterns?"
 ]
