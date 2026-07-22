@@ -1,9 +1,4 @@
 [
-  "What type of logic gate has an output that is HIGH only when all its inputs are HIGH?",
-  "In a multi-processor system with shared memory, what is the primary purpose of a cache coherence protocol like MESI?",
-  "Besides IR drop, which other power integrity concern relates to sudden, large current changes causing voltage fluctuations on the power distribution network, potentially affecting circuit operation?",
-  "In parallel programming and high-performance computing, what does 'data locality' primarily refer to, and why is it crucial for performance?",
-  "In digital IC verification, what is 'coverage' primarily used to measure?",
   "Which fundamental type of logic circuit has outputs that depend solely on its current inputs, with no memory of past inputs?",
   "What is the primary purpose of a 'Reservation Station' in a processor implementing Tomasulo's algorithm for out-of-order execution?",
   "In the context of physical design for an Integrated Circuit, what is 'routing' primarily concerned with?",
@@ -48,5 +43,10 @@
   "In modern digital IC design, what is the primary objective of implementing 'power gating' techniques?",
   "In a virtual memory system, what is the main purpose of a Translation Lookaside Buffer (TLB)?",
   "In digital IC verification, what is the primary characteristic of a 'self-checking testbench'?",
-  "As feature sizes in integrated circuits continue to shrink into the nanometer regime, which phenomenon related to lithography becomes a significant challenge, causing discrepancies between the designed layout and the actual manufactured silicon patterns?"
+  "As feature sizes in integrated circuits continue to shrink into the nanometer regime, which phenomenon related to lithography becomes a significant challenge, causing discrepancies between the designed layout and the actual manufactured silicon patterns?",
+  "In digital IC design, what does a 'netlist' primarily represent?",
+  "In computer architecture, what is the primary function of the 'address bus'?",
+  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis' (CTS)?",
+  "In the context of a pipelined processor, what is a 'structural hazard'?",
+  "In advanced semiconductor manufacturing, what is the primary benefit of using FinFET (Fin Field-Effect Transistor) technology compared to traditional planar CMOS transistors?"
 ]

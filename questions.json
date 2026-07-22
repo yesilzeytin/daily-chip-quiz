@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of the Program Counter (PC) in a CPU?",
+      "question": "In digital IC design, what does a 'netlist' primarily represent?",
       "options": [
-        "Stores the data being currently processed.",
-        "Holds the address of the next instruction to be fetched.",
-        "Manages the flow of data between CPU and memory.",
-        "Registers for general-purpose calculations.",
-        "Controls peripheral devices connected to the system."
+        "The physical layout of the chip, including polygons and layers.",
+        "A textual description of the interconnections between logical components (e.g., gates, flip-flops) and their instances.",
+        "The high-level behavioral description of the system using languages like C++ or SystemC.",
+        "A waveform file showing the timing characteristics and signal values during simulation.",
+        "The power consumption report of the circuit under various operating conditions."
       ],
       "correct": 1
     },
     {
-      "question": "In modern digital IC design, what is the primary objective of implementing 'power gating' techniques?",
+      "question": "In computer architecture, what is the primary function of the 'address bus'?",
       "options": [
-        "To dynamically adjust the clock frequency of active blocks.",
-        "To reduce dynamic power consumption by minimizing switching activity.",
-        "To selectively turn off power to inactive circuit blocks, reducing static (leakage) power.",
-        "To provide a stable reference voltage for analog circuits.",
-        "To speed up the manufacturing test process."
+        "To carry data between the CPU and memory or I/O devices for read/write operations.",
+        "To transmit control signals that coordinate operations, such as read/write enables or interrupt requests.",
+        "To specify the unique memory location or I/O port that the CPU intends to access for data transfer.",
+        "To provide power and ground connections to the various components of the system board.",
+        "To synchronize the clock signals across different modules within the processor."
       ],
       "correct": 2
     },
     {
-      "question": "In a virtual memory system, what is the main purpose of a Translation Lookaside Buffer (TLB)?",
+      "question": "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis' (CTS)?",
       "options": [
-        "To store recently used data blocks for faster CPU access.",
-        "To cache recent virtual-to-physical address translations.",
-        "To manage the allocation and deallocation of physical memory pages.",
-        "To enforce memory consistency between multiple processors.",
-        "To buffer instructions before they are decoded and executed."
+        "To optimize the placement of standard cells to minimize the overall chip area.",
+        "To generate a robust and balanced clock distribution network that ensures minimal clock skew and proper timing to all sequential elements.",
+        "To route all the signal nets between placed cells according to design rules and timing constraints.",
+        "To perform static timing analysis on the entire design to identify critical paths and timing violations.",
+        "To convert the gate-level netlist into a manufacturable layout by adding detailed polygons."
       ],
       "correct": 1
     },
     {
-      "question": "In digital IC verification, what is the primary characteristic of a 'self-checking testbench'?",
+      "question": "In the context of a pipelined processor, what is a 'structural hazard'?",
       "options": [
-        "It automatically generates random input stimulus without human intervention.",
-        "It can identify if the Design Under Test (DUT) is behaving correctly by comparing actual outputs against expected results.",
-        "It's capable of synthesizing the RTL into a gate-level netlist.",
-        "It runs indefinitely, continuously monitoring for unexpected behavior.",
-        "It automatically fixes bugs found in the RTL code."
+        "When an instruction attempts to read data that a previous instruction has not yet written to a register or memory location.",
+        "When the execution path of an instruction depends on the outcome of a previous conditional branch instruction.",
+        "When two or more instructions require the same hardware resource (e.g., an ALU, a memory port) at the same time, leading to a conflict.",
+        "When the instruction fetch unit encounters an invalid or unsupported instruction opcode.",
+        "When a data cache miss occurs, requiring the processor to stall while data is fetched from a slower memory level."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "As feature sizes in integrated circuits continue to shrink into the nanometer regime, which phenomenon related to lithography becomes a significant challenge, causing discrepancies between the designed layout and the actual manufactured silicon patterns?",
+      "question": "In advanced semiconductor manufacturing, what is the primary benefit of using FinFET (Fin Field-Effect Transistor) technology compared to traditional planar CMOS transistors?",
       "options": [
-        "Electromigration, leading to premature wire failure.",
-        "Thermal runaway, causing excessive heat generation.",
-        "Process Variation and Optical Proximity Effects (OPEs), impacting pattern fidelity.",
-        "Cosmic ray induced soft errors.",
-        "Quantum tunneling, enabling faster transistor switching."
+        "Significantly reduced manufacturing cost due to simpler lithography processes and fewer masking steps.",
+        "Increased leakage current, which enables faster switching speeds at lower operating voltages.",
+        "Improved electrostatic control over the transistor channel due to its 3D gate structure, leading to better power efficiency and performance at smaller geometries.",
+        "Elimination of the need for an isolation region between adjacent transistors, allowing for higher integration density.",
+        "Enhanced immunity to soft errors caused by cosmic rays, making them ideal for space applications."
       ],
       "correct": 2
     }
