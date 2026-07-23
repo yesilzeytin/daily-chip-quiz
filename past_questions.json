@@ -1,9 +1,4 @@
 [
-  "Which fundamental type of logic circuit has outputs that depend solely on its current inputs, with no memory of past inputs?",
-  "What is the primary purpose of a 'Reservation Station' in a processor implementing Tomasulo's algorithm for out-of-order execution?",
-  "In the context of physical design for an Integrated Circuit, what is 'routing' primarily concerned with?",
-  "Which type of memory exhibits both non-volatility (retains data without power) and allows for individual byte-level modification (read/write) in modern embedded systems and storage, albeit typically slower than RAM?",
-  "In advanced processor architectures, what is 'speculative execution' primarily intended to achieve?",
   "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
   "In the physical design flow of an Integrated Circuit, what is the primary objective of the 'placement' step?",
   "Which of the following best describes the fundamental principle behind Dynamic Voltage and Frequency Scaling (DVFS) in modern processors and SoCs?",
@@ -48,5 +43,10 @@
   "In computer architecture, what is the primary function of the 'address bus'?",
   "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis' (CTS)?",
   "In the context of a pipelined processor, what is a 'structural hazard'?",
-  "In advanced semiconductor manufacturing, what is the primary benefit of using FinFET (Fin Field-Effect Transistor) technology compared to traditional planar CMOS transistors?"
+  "In advanced semiconductor manufacturing, what is the primary benefit of using FinFET (Fin Field-Effect Transistor) technology compared to traditional planar CMOS transistors?",
+  "In computer architecture, what does the term 'Instruction Set Architecture (ISA)' primarily define?",
+  "In the digital IC design flow, what is the primary purpose of 'Formal Equivalence Checking' (FEC)?",
+  "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does a cache line being in the 'Modified' state primarily signify?",
+  "In the context of digital IC physical design, what is a 'standard cell' primarily used for?",
+  "In the context of Design For Testability (DFT) for digital integrated circuits, what does a 'stuck-at-0' fault specifically refer to?"
 ]

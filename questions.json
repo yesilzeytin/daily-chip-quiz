@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital IC design, what does a 'netlist' primarily represent?",
+      "question": "In computer architecture, what does the term 'Instruction Set Architecture (ISA)' primarily define?",
       "options": [
-        "The physical layout of the chip, including polygons and layers.",
-        "A textual description of the interconnections between logical components (e.g., gates, flip-flops) and their instances.",
-        "The high-level behavioral description of the system using languages like C++ or SystemC.",
-        "A waveform file showing the timing characteristics and signal values during simulation.",
-        "The power consumption report of the circuit under various operating conditions."
+        "The communication protocol between CPU and peripherals.",
+        "The set of instructions a CPU can understand and execute, along with their format and behavior.",
+        "The physical layout and placement of components on a processor chip.",
+        "The method by which data is transferred between different cache levels.",
+        "The technique used for power management and dynamic frequency scaling."
       ],
       "correct": 1
     },
     {
-      "question": "In computer architecture, what is the primary function of the 'address bus'?",
+      "question": "In the digital IC design flow, what is the primary purpose of 'Formal Equivalence Checking' (FEC)?",
       "options": [
-        "To carry data between the CPU and memory or I/O devices for read/write operations.",
-        "To transmit control signals that coordinate operations, such as read/write enables or interrupt requests.",
-        "To specify the unique memory location or I/O port that the CPU intends to access for data transfer.",
-        "To provide power and ground connections to the various components of the system board.",
-        "To synchronize the clock signals across different modules within the processor."
+        "To verify that the circuit meets its specified timing constraints across all operating conditions.",
+        "To automatically generate test vectors for manufacturing defect detection.",
+        "To mathematically prove that two different representations of a design (e.g., RTL and gate-level netlist) implement the exact same functionality.",
+        "To simulate the circuit's behavior with real-world input stimuli and analyze output waveforms.",
+        "To identify potential power integrity issues like IR drop and electromigration."
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis' (CTS)?",
+      "question": "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does a cache line being in the 'Modified' state primarily signify?",
       "options": [
-        "To optimize the placement of standard cells to minimize the overall chip area.",
-        "To generate a robust and balanced clock distribution network that ensures minimal clock skew and proper timing to all sequential elements.",
-        "To route all the signal nets between placed cells according to design rules and timing constraints.",
-        "To perform static timing analysis on the entire design to identify critical paths and timing violations.",
-        "To convert the gate-level netlist into a manufacturable layout by adding detailed polygons."
+        "The cache line contains data that is identical to main memory and other caches.",
+        "The cache line is currently being updated by the local processor and is invalid in other caches.",
+        "The cache line contains the only copy of the data, which is different from main memory and has been modified by the local processor.",
+        "The cache line is shared with other caches but has not been modified by the local processor.",
+        "The cache line is invalid and must be reloaded from main memory before use."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of digital IC physical design, what is a 'standard cell' primarily used for?",
+      "options": [
+        "To define the overall chip dimensions and major block placements.",
+        "Pre-designed, pre-characterized logic gates (e.g., AND, OR, FLIP-FLOP) and other simple functional blocks with fixed height and varying width.",
+        "A specific type of memory block, such as an SRAM or DRAM module.",
+        "An input/output buffer used for communication with external pins.",
+        "A high-level behavioral model used in architectural simulation."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of a pipelined processor, what is a 'structural hazard'?",
+      "question": "In the context of Design For Testability (DFT) for digital integrated circuits, what does a 'stuck-at-0' fault specifically refer to?",
       "options": [
-        "When an instruction attempts to read data that a previous instruction has not yet written to a register or memory location.",
-        "When the execution path of an instruction depends on the outcome of a previous conditional branch instruction.",
-        "When two or more instructions require the same hardware resource (e.g., an ALU, a memory port) at the same time, leading to a conflict.",
-        "When the instruction fetch unit encounters an invalid or unsupported instruction opcode.",
-        "When a data cache miss occurs, requiring the processor to stall while data is fetched from a slower memory level."
+        "A manufacturing defect where a logic gate's output is permanently fixed to a logical '0', regardless of its inputs.",
+        "A timing violation where a signal fails to meet its setup time requirement, causing a '0' to be latched incorrectly.",
+        "A condition where a processor's instruction pipeline stalls due to a data dependency, effectively 'sticking' at a '0' state.",
+        "An error in a memory cell where it always reads back a '0', even after writing a '1'.",
+        "A software bug causing an infinite loop, making the program counter 'stuck' at a specific memory address."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In advanced semiconductor manufacturing, what is the primary benefit of using FinFET (Fin Field-Effect Transistor) technology compared to traditional planar CMOS transistors?",
-      "options": [
-        "Significantly reduced manufacturing cost due to simpler lithography processes and fewer masking steps.",
-        "Increased leakage current, which enables faster switching speeds at lower operating voltages.",
-        "Improved electrostatic control over the transistor channel due to its 3D gate structure, leading to better power efficiency and performance at smaller geometries.",
-        "Elimination of the need for an isolation region between adjacent transistors, allowing for higher integration density.",
-        "Enhanced immunity to soft errors caused by cosmic rays, making them ideal for space applications."
-      ],
-      "correct": 2
+      "correct": 0
     }
   ]
 }
