@@ -1,9 +1,4 @@
 [
-  "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
-  "In the physical design flow of an Integrated Circuit, what is the primary objective of the 'placement' step?",
-  "Which of the following best describes the fundamental principle behind Dynamic Voltage and Frequency Scaling (DVFS) in modern processors and SoCs?",
-  "In modern multi-core processors, what is the primary role of a Memory Management Unit (MMU) in conjunction with a virtual memory system?",
-  "What is the critical challenge that a Synchronizer circuit is primarily designed to address when transferring signals between two asynchronous clock domains?",
   "What is the primary function of a D-type flip-flop in digital circuits?",
   "In the physical verification stage of Integrated Circuit (IC) design, what is the main purpose of 'Design Rule Checking' (DRC)?",
   "In modern computer architecture, what is the primary benefit of implementing a 'Multi-level Cache Hierarchy' (e.g., L1, L2, L3 caches) between the CPU and main memory?",
@@ -48,5 +43,10 @@
   "In the digital IC design flow, what is the primary purpose of 'Formal Equivalence Checking' (FEC)?",
   "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does a cache line being in the 'Modified' state primarily signify?",
   "In the context of digital IC physical design, what is a 'standard cell' primarily used for?",
-  "In the context of Design For Testability (DFT) for digital integrated circuits, what does a 'stuck-at-0' fault specifically refer to?"
+  "In the context of Design For Testability (DFT) for digital integrated circuits, what does a 'stuck-at-0' fault specifically refer to?",
+  "Which of the following is a purely combinational logic circuit, meaning its output depends only on its current inputs and has no memory or feedback elements?",
+  "In a Complex Instruction Set Computer (CISC) architecture, what is the primary role of 'microcode'?",
+  "What is the primary purpose of 'clock gating' in digital IC design?",
+  "In an out-of-order execution processor, what is the primary architectural technique used to eliminate Write-After-Write (WAW) and Write-After-Read (WAR) data hazards, often by mapping architectural registers to a larger set of physical registers?",
+  "As integrated circuit process technology scales down to advanced nodes (e.g., 7nm, 5nm), manufacturing variations across a die and across wafers become more significant. Which advanced timing analysis technique is primarily employed to accurately predict circuit timing under these statistical variations, rather than relying solely on worst-case corner analysis?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In computer architecture, what does the term 'Instruction Set Architecture (ISA)' primarily define?",
+      "question": "Which of the following is a purely combinational logic circuit, meaning its output depends only on its current inputs and has no memory or feedback elements?",
       "options": [
-        "The communication protocol between CPU and peripherals.",
-        "The set of instructions a CPU can understand and execute, along with their format and behavior.",
-        "The physical layout and placement of components on a processor chip.",
-        "The method by which data is transferred between different cache levels.",
-        "The technique used for power management and dynamic frequency scaling."
+        "D-type Flip-Flop",
+        "Counter",
+        "Shift Register",
+        "Decoder",
+        "Latch"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In a Complex Instruction Set Computer (CISC) architecture, what is the primary role of 'microcode'?",
+      "options": [
+        "To store frequently accessed data for faster retrieval by the CPU.",
+        "To translate complex instructions into a sequence of simpler, atomic micro-operations that the hardware can execute.",
+        "To manage virtual memory address translations between logical and physical addresses.",
+        "To accelerate floating-point arithmetic calculations through dedicated hardware units.",
+        "To synchronize data transfer between different clock domains within the processor."
       ],
       "correct": 1
     },
     {
-      "question": "In the digital IC design flow, what is the primary purpose of 'Formal Equivalence Checking' (FEC)?",
+      "question": "What is the primary purpose of 'clock gating' in digital IC design?",
       "options": [
-        "To verify that the circuit meets its specified timing constraints across all operating conditions.",
-        "To automatically generate test vectors for manufacturing defect detection.",
-        "To mathematically prove that two different representations of a design (e.g., RTL and gate-level netlist) implement the exact same functionality.",
-        "To simulate the circuit's behavior with real-world input stimuli and analyze output waveforms.",
-        "To identify potential power integrity issues like IR drop and electromigration."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does a cache line being in the 'Modified' state primarily signify?",
-      "options": [
-        "The cache line contains data that is identical to main memory and other caches.",
-        "The cache line is currently being updated by the local processor and is invalid in other caches.",
-        "The cache line contains the only copy of the data, which is different from main memory and has been modified by the local processor.",
-        "The cache line is shared with other caches but has not been modified by the local processor.",
-        "The cache line is invalid and must be reloaded from main memory before use."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of digital IC physical design, what is a 'standard cell' primarily used for?",
-      "options": [
-        "To define the overall chip dimensions and major block placements.",
-        "Pre-designed, pre-characterized logic gates (e.g., AND, OR, FLIP-FLOP) and other simple functional blocks with fixed height and varying width.",
-        "A specific type of memory block, such as an SRAM or DRAM module.",
-        "An input/output buffer used for communication with external pins.",
-        "A high-level behavioral model used in architectural simulation."
+        "To synchronize data transfer between asynchronous clock domains.",
+        "To reduce dynamic power consumption by selectively disabling the clock signal to idle functional blocks or registers.",
+        "To ensure all flip-flops within a synchronous domain receive the clock signal at precisely the same time, minimizing clock skew.",
+        "To generate multiple clock frequencies from a single input clock for different parts of an SoC.",
+        "To prevent clock signal noise from affecting sensitive analog circuits on the same chip."
       ],
       "correct": 1
     },
     {
-      "question": "In the context of Design For Testability (DFT) for digital integrated circuits, what does a 'stuck-at-0' fault specifically refer to?",
+      "question": "In an out-of-order execution processor, what is the primary architectural technique used to eliminate Write-After-Write (WAW) and Write-After-Read (WAR) data hazards, often by mapping architectural registers to a larger set of physical registers?",
       "options": [
-        "A manufacturing defect where a logic gate's output is permanently fixed to a logical '0', regardless of its inputs.",
-        "A timing violation where a signal fails to meet its setup time requirement, causing a '0' to be latched incorrectly.",
-        "A condition where a processor's instruction pipeline stalls due to a data dependency, effectively 'sticking' at a '0' state.",
-        "An error in a memory cell where it always reads back a '0', even after writing a '1'.",
-        "A software bug causing an infinite loop, making the program counter 'stuck' at a specific memory address."
+        "Scoreboarding",
+        "Branch Prediction",
+        "Register Renaming",
+        "Data Forwarding (Bypassing)",
+        "Delayed Branching"
       ],
-      "correct": 0
+      "correct": 2
+    },
+    {
+      "question": "As integrated circuit process technology scales down to advanced nodes (e.g., 7nm, 5nm), manufacturing variations across a die and across wafers become more significant. Which advanced timing analysis technique is primarily employed to accurately predict circuit timing under these statistical variations, rather than relying solely on worst-case corner analysis?",
+      "options": [
+        "Gate-Level Simulation (GLS)",
+        "Formal Equivalence Checking (FEC)",
+        "Statistical Static Timing Analysis (SSTA)",
+        "Design Rule Checking (DRC)",
+        "Power-Aware Simulation (PAS)"
+      ],
+      "correct": 2
     }
   ]
 }
