@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "Which of the following is a purely combinational logic circuit, meaning its output depends only on its current inputs and has no memory or feedback elements?",
+      "question": "What is the primary function of an AND gate in digital logic?",
       "options": [
-        "D-type Flip-Flop",
-        "Counter",
-        "Shift Register",
-        "Decoder",
-        "Latch"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a Complex Instruction Set Computer (CISC) architecture, what is the primary role of 'microcode'?",
-      "options": [
-        "To store frequently accessed data for faster retrieval by the CPU.",
-        "To translate complex instructions into a sequence of simpler, atomic micro-operations that the hardware can execute.",
-        "To manage virtual memory address translations between logical and physical addresses.",
-        "To accelerate floating-point arithmetic calculations through dedicated hardware units.",
-        "To synchronize data transfer between different clock domains within the processor."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the primary purpose of 'clock gating' in digital IC design?",
-      "options": [
-        "To synchronize data transfer between asynchronous clock domains.",
-        "To reduce dynamic power consumption by selectively disabling the clock signal to idle functional blocks or registers.",
-        "To ensure all flip-flops within a synchronous domain receive the clock signal at precisely the same time, minimizing clock skew.",
-        "To generate multiple clock frequencies from a single input clock for different parts of an SoC.",
-        "To prevent clock signal noise from affecting sensitive analog circuits on the same chip."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In an out-of-order execution processor, what is the primary architectural technique used to eliminate Write-After-Write (WAW) and Write-After-Read (WAR) data hazards, often by mapping architectural registers to a larger set of physical registers?",
-      "options": [
-        "Scoreboarding",
-        "Branch Prediction",
-        "Register Renaming",
-        "Data Forwarding (Bypassing)",
-        "Delayed Branching"
+        "Its output is true if at least one of its inputs is true.",
+        "Its output is the inverse of its single input.",
+        "Its output is true only if all of its inputs are true.",
+        "Its output is true if its inputs are different.",
+        "Its output is true if its inputs are the same."
       ],
       "correct": 2
     },
     {
-      "question": "As integrated circuit process technology scales down to advanced nodes (e.g., 7nm, 5nm), manufacturing variations across a die and across wafers become more significant. Which advanced timing analysis technique is primarily employed to accurately predict circuit timing under these statistical variations, rather than relying solely on worst-case corner analysis?",
+      "question": "In a typical Central Processing Unit (CPU) datapath, what is the primary function of the Arithmetic Logic Unit (ALU)?",
       "options": [
-        "Gate-Level Simulation (GLS)",
-        "Formal Equivalence Checking (FEC)",
-        "Statistical Static Timing Analysis (SSTA)",
-        "Design Rule Checking (DRC)",
-        "Power-Aware Simulation (PAS)"
+        "To fetch instructions from the main memory.",
+        "To store program instructions and data temporarily.",
+        "To control the sequence of operations within the CPU.",
+        "To perform arithmetic operations (e.g., addition, subtraction) and logical operations (e.g., AND, OR).",
+        "To manage communication between the CPU and I/O devices."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the 'Placement' step?",
+      "options": [
+        "To create a high-level behavioral description of the circuit.",
+        "To verify the logical correctness of the design using formal methods.",
+        "To convert the Register Transfer Level (RTL) code into a gate-level netlist.",
+        "To determine the optimal physical locations for all standard cells and macro blocks on the silicon die.",
+        "To connect the various components of the circuit with metal wires according to the netlist."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the primary distinction between a 'write-through' and a 'write-back' cache policy regarding memory updates?",
+      "options": [
+        "Write-through updates main memory immediately upon a write hit, while write-back delays updating main memory until the cache block is evicted or explicitly flushed.",
+        "Write-back updates main memory immediately upon a write hit, while write-through delays updating main memory until the cache block is evicted or explicitly flushed.",
+        "Write-through caches are only used for instruction memory, whereas write-back caches are only used for data memory.",
+        "Write-back caches are simpler to implement and consume less power than write-through caches.",
+        "Write-through policies inherently provide better performance for frequently modified data than write-back policies."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In complex System-on-Chip (SoC) designs, especially those with many heterogeneous processing elements, what is the primary advantage of employing a Network-on-Chip (NoC) architecture over a traditional shared bus interconnect?",
+      "options": [
+        "NoCs inherently simplify the debugging process for hardware and software interfaces.",
+        "NoCs primarily reduce the overall static power consumption of the SoC.",
+        "NoCs provide significantly better scalability in terms of bandwidth and latency as the number of communicating intellectual property (IP) blocks increases.",
+        "NoCs allow for dynamic reconfiguration of IP blocks at runtime, which is impossible with bus-based systems.",
+        "NoCs are exclusively used for off-chip communication between multiple interconnected SoCs."
       ],
       "correct": 2
     }

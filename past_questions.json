@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a D-type flip-flop in digital circuits?",
-  "In the physical verification stage of Integrated Circuit (IC) design, what is the main purpose of 'Design Rule Checking' (DRC)?",
-  "In modern computer architecture, what is the primary benefit of implementing a 'Multi-level Cache Hierarchy' (e.g., L1, L2, L3 caches) between the CPU and main memory?",
-  "Which technique in processor pipelining is primarily designed to mitigate 'data hazards' (specifically Read After Write - RAW dependencies) by forwarding the result of an instruction directly from an internal pipeline stage to a subsequent instruction that needs it?",
-  "What is the primary characteristic that differentiates a 'Complex Instruction Set Computer' (CISC) architecture from a 'Reduced Instruction Set Computer' (RISC) architecture?",
   "What is the fundamental purpose of a multiplexer (MUX) in digital logic?",
   "In the context of static timing analysis (STA) for a synchronous digital circuit, what does 'setup time' primarily refer to?",
   "Which type of memory typically offers the fastest access times and is used for CPU caches, but requires continuous power to retain data and is more expensive per bit than DRAM?",
@@ -48,5 +43,10 @@
   "In a Complex Instruction Set Computer (CISC) architecture, what is the primary role of 'microcode'?",
   "What is the primary purpose of 'clock gating' in digital IC design?",
   "In an out-of-order execution processor, what is the primary architectural technique used to eliminate Write-After-Write (WAW) and Write-After-Read (WAR) data hazards, often by mapping architectural registers to a larger set of physical registers?",
-  "As integrated circuit process technology scales down to advanced nodes (e.g., 7nm, 5nm), manufacturing variations across a die and across wafers become more significant. Which advanced timing analysis technique is primarily employed to accurately predict circuit timing under these statistical variations, rather than relying solely on worst-case corner analysis?"
+  "As integrated circuit process technology scales down to advanced nodes (e.g., 7nm, 5nm), manufacturing variations across a die and across wafers become more significant. Which advanced timing analysis technique is primarily employed to accurately predict circuit timing under these statistical variations, rather than relying solely on worst-case corner analysis?",
+  "What is the primary function of an AND gate in digital logic?",
+  "In a typical Central Processing Unit (CPU) datapath, what is the primary function of the Arithmetic Logic Unit (ALU)?",
+  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the 'Placement' step?",
+  "What is the primary distinction between a 'write-through' and a 'write-back' cache policy regarding memory updates?",
+  "In complex System-on-Chip (SoC) designs, especially those with many heterogeneous processing elements, what is the primary advantage of employing a Network-on-Chip (NoC) architecture over a traditional shared bus interconnect?"
 ]
