@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of an AND gate in digital logic?",
+      "question": "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
       "options": [
-        "Its output is true if at least one of its inputs is true.",
-        "Its output is the inverse of its single input.",
-        "Its output is true only if all of its inputs are true.",
-        "Its output is true if its inputs are different.",
-        "Its output is true if its inputs are the same."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a typical Central Processing Unit (CPU) datapath, what is the primary function of the Arithmetic Logic Unit (ALU)?",
-      "options": [
-        "To fetch instructions from the main memory.",
-        "To store program instructions and data temporarily.",
-        "To control the sequence of operations within the CPU.",
-        "To perform arithmetic operations (e.g., addition, subtraction) and logical operations (e.g., AND, OR).",
-        "To manage communication between the CPU and I/O devices."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the 'Placement' step?",
-      "options": [
-        "To create a high-level behavioral description of the circuit.",
-        "To verify the logical correctness of the design using formal methods.",
-        "To convert the Register Transfer Level (RTL) code into a gate-level netlist.",
-        "To determine the optimal physical locations for all standard cells and macro blocks on the silicon die.",
-        "To connect the various components of the circuit with metal wires according to the netlist."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What is the primary distinction between a 'write-through' and a 'write-back' cache policy regarding memory updates?",
-      "options": [
-        "Write-through updates main memory immediately upon a write hit, while write-back delays updating main memory until the cache block is evicted or explicitly flushed.",
-        "Write-back updates main memory immediately upon a write hit, while write-through delays updating main memory until the cache block is evicted or explicitly flushed.",
-        "Write-through caches are only used for instruction memory, whereas write-back caches are only used for data memory.",
-        "Write-back caches are simpler to implement and consume less power than write-through caches.",
-        "Write-through policies inherently provide better performance for frequently modified data than write-back policies."
+        "To describe the behavior and structure of digital circuits at an abstract level.",
+        "To program the firmware that runs on the embedded processor within the IC.",
+        "To perform post-silicon validation and debugging.",
+        "To manage the physical layout and routing of interconnects on the chip.",
+        "To simulate the analog characteristics of mixed-signal components."
       ],
       "correct": 0
     },
     {
-      "question": "In complex System-on-Chip (SoC) designs, especially those with many heterogeneous processing elements, what is the primary advantage of employing a Network-on-Chip (NoC) architecture over a traditional shared bus interconnect?",
+      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of a 'Floorplan'?",
       "options": [
-        "NoCs inherently simplify the debugging process for hardware and software interfaces.",
-        "NoCs primarily reduce the overall static power consumption of the SoC.",
-        "NoCs provide significantly better scalability in terms of bandwidth and latency as the number of communicating intellectual property (IP) blocks increases.",
-        "NoCs allow for dynamic reconfiguration of IP blocks at runtime, which is impossible with bus-based systems.",
-        "NoCs are exclusively used for off-chip communication between multiple interconnected SoCs."
+        "To verify that the manufactured chip matches the design netlist.",
+        "To identify and fix timing violations in critical paths.",
+        "To define the overall chip area, placement of large blocks (macros), I/O pins, and initial power/ground distribution.",
+        "To convert the gate-level netlist into a set of manufacturing masks.",
+        "To automatically route all the signal connections between standard cells."
       ],
       "correct": 2
+    },
+    {
+      "question": "Which type of cache replacement policy aims to evict the cache line that will not be used for the longest period of time in the future, although it is practically impossible to implement perfectly and serves as an optimal theoretical benchmark?",
+      "options": [
+        "Least Recently Used (LRU)",
+        "First-In, First-Out (FIFO)",
+        "Least Frequently Used (LFU)",
+        "Random",
+        "Optimal (OPT or MIN)"
+      ],
+      "correct": 4
+    },
+    {
+      "question": "What is the main reason for performing 'Design Rule Check' (DRC) during the physical verification stage of an Integrated Circuit?",
+      "options": [
+        "To ensure that the circuit meets its specified timing requirements.",
+        "To verify that the circuit's functional behavior matches its RTL description.",
+        "To ensure that the layout adheres to the foundry's manufacturing process rules for reliable fabrication.",
+        "To confirm the equivalence between the gate-level netlist and the schematic diagram.",
+        "To identify and correct electrical connectivity issues such as floating nodes or power shorts."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which architectural approach primarily aims to maximize the number of instructions executed per clock cycle by fetching and executing multiple independent instructions simultaneously using multiple execution units?",
+      "options": [
+        "Reduced Instruction Set Computer (RISC)",
+        "Very Long Instruction Word (VLIW)",
+        "Complex Instruction Set Computer (CISC)",
+        "Superscalar",
+        "Single Instruction, Multiple Data (SIMD)"
+      ],
+      "correct": 3
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "What is the fundamental purpose of a multiplexer (MUX) in digital logic?",
-  "In the context of static timing analysis (STA) for a synchronous digital circuit, what does 'setup time' primarily refer to?",
-  "Which type of memory typically offers the fastest access times and is used for CPU caches, but requires continuous power to retain data and is more expensive per bit than DRAM?",
-  "In the design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary role of 'Formal Verification'?",
-  "What is the primary purpose of 'branch prediction' in modern pipelined processors?",
   "In synchronous digital circuit design, what is the primary purpose of a global clock signal?",
   "Which of the following is a primary contributor to static (leakage) power consumption in modern deep-submicron CMOS integrated circuits?",
   "In distributed shared memory (DSM) systems or highly parallel multi-core processors, which memory consistency model offers the strongest guarantee, requiring all memory operations to appear as if they execute in a single, global, total order, and all processors observe this order identically?",
@@ -48,5 +43,10 @@
   "In a typical Central Processing Unit (CPU) datapath, what is the primary function of the Arithmetic Logic Unit (ALU)?",
   "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the 'Placement' step?",
   "What is the primary distinction between a 'write-through' and a 'write-back' cache policy regarding memory updates?",
-  "In complex System-on-Chip (SoC) designs, especially those with many heterogeneous processing elements, what is the primary advantage of employing a Network-on-Chip (NoC) architecture over a traditional shared bus interconnect?"
+  "In complex System-on-Chip (SoC) designs, especially those with many heterogeneous processing elements, what is the primary advantage of employing a Network-on-Chip (NoC) architecture over a traditional shared bus interconnect?",
+  "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
+  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of a 'Floorplan'?",
+  "Which type of cache replacement policy aims to evict the cache line that will not be used for the longest period of time in the future, although it is practically impossible to implement perfectly and serves as an optimal theoretical benchmark?",
+  "What is the main reason for performing 'Design Rule Check' (DRC) during the physical verification stage of an Integrated Circuit?",
+  "Which architectural approach primarily aims to maximize the number of instructions executed per clock cycle by fetching and executing multiple independent instructions simultaneously using multiple execution units?"
 ]
