@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary role of a Hardware Description Language (HDL) like Verilog or VHDL in digital IC design?",
+      "question": "What is the fundamental building block of nearly all modern digital integrated circuits?",
       "options": [
-        "To describe the behavior and structure of digital circuits at an abstract level.",
-        "To program the firmware that runs on the embedded processor within the IC.",
-        "To perform post-silicon validation and debugging.",
-        "To manage the physical layout and routing of interconnects on the chip.",
-        "To simulate the analog characteristics of mixed-signal components."
+        "Transistor",
+        "Resistor",
+        "Capacitor",
+        "Inductor",
+        "Diode"
       ],
       "correct": 0
     },
     {
-      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of a 'Floorplan'?",
+      "question": "In the context of a pipelined processor, what is primarily meant by a 'data hazard'?",
       "options": [
-        "To verify that the manufactured chip matches the design netlist.",
-        "To identify and fix timing violations in critical paths.",
-        "To define the overall chip area, placement of large blocks (macros), I/O pins, and initial power/ground distribution.",
-        "To convert the gate-level netlist into a set of manufacturing masks.",
-        "To automatically route all the signal connections between standard cells."
+        "When an instruction depends on the result of a previous instruction that has not yet completed its execution.",
+        "When two instructions try to access the same hardware resource (e.g., an ALU) simultaneously.",
+        "When the control unit cannot determine the next instruction to fetch due to a branch instruction.",
+        "When the processor needs to fetch an instruction or data from a slower memory hierarchy level.",
+        "When there is not enough memory to store all the data required by an instruction."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "Which type of cache replacement policy aims to evict the cache line that will not be used for the longest period of time in the future, although it is practically impossible to implement perfectly and serves as an optimal theoretical benchmark?",
+      "question": "What is the primary purpose of 'power integrity' analysis in the physical design phase of an Integrated Circuit?",
       "options": [
-        "Least Recently Used (LRU)",
-        "First-In, First-Out (FIFO)",
-        "Least Frequently Used (LFU)",
-        "Random",
-        "Optimal (OPT or MIN)"
+        "To ensure that the power and ground distribution networks can deliver stable and sufficient voltage levels to all gates and functional blocks across the entire chip.",
+        "To minimize the total dynamic power consumption of the chip by identifying and optimizing switching activities.",
+        "To verify that all clock signals arrive at their destination flip-flops simultaneously, preventing clock skew.",
+        "To check for short circuits between power and ground rails that could lead to chip failure.",
+        "To optimize the placement and sizing of decoupling capacitors to improve signal integrity on high-speed data paths."
       ],
-      "correct": 4
+      "correct": 0
     },
     {
-      "question": "What is the main reason for performing 'Design Rule Check' (DRC) during the physical verification stage of an Integrated Circuit?",
+      "question": "In computer architecture, what does the 'locality of reference' principle primarily state regarding memory access patterns?",
       "options": [
-        "To ensure that the circuit meets its specified timing requirements.",
-        "To verify that the circuit's functional behavior matches its RTL description.",
-        "To ensure that the layout adheres to the foundry's manufacturing process rules for reliable fabrication.",
-        "To confirm the equivalence between the gate-level netlist and the schematic diagram.",
-        "To identify and correct electrical connectivity issues such as floating nodes or power shorts."
+        "Programs tend to access data and instructions that are spatially or temporally close to those they have recently accessed.",
+        "The principle that all data must reside in the CPU's local cache before it can be processed.",
+        "A method for determining which cache block to evict based on its distance from the CPU in the memory hierarchy.",
+        "The idea that increasing the size of a cache always leads to a proportional improvement in performance.",
+        "A technique employed by compilers to ensure all frequently used variables are allocated in registers."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "Which architectural approach primarily aims to maximize the number of instructions executed per clock cycle by fetching and executing multiple independent instructions simultaneously using multiple execution units?",
+      "question": "In the context of cache memory organization, what does 'cache associativity' refer to?",
       "options": [
-        "Reduced Instruction Set Computer (RISC)",
-        "Very Long Instruction Word (VLIW)",
-        "Complex Instruction Set Computer (CISC)",
-        "Superscalar",
-        "Single Instruction, Multiple Data (SIMD)"
+        "The number of cache lines that a particular memory block can be mapped to within a cache set.",
+        "The total number of cache blocks available in the entire cache memory.",
+        "The speed at which data can be transferred between the cache and main memory.",
+        "The time it takes for the CPU to access data stored in the cache.",
+        "The policy used to decide which cache line to replace when a cache miss occurs."
       ],
-      "correct": 3
+      "correct": 0
     }
   ]
 }

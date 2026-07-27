@@ -1,9 +1,4 @@
 [
-  "In synchronous digital circuit design, what is the primary purpose of a global clock signal?",
-  "Which of the following is a primary contributor to static (leakage) power consumption in modern deep-submicron CMOS integrated circuits?",
-  "In distributed shared memory (DSM) systems or highly parallel multi-core processors, which memory consistency model offers the strongest guarantee, requiring all memory operations to appear as if they execute in a single, global, total order, and all processors observe this order identically?",
-  "What is the primary advantage of using Assertion-Based Verification (ABV) with properties specified in SystemVerilog Assertions (SVA) over traditional simulation alone in digital IC design?",
-  "Which type of parallelism involves executing multiple instructions concurrently *within a single program thread* by overlapping their execution, often using techniques like pipelining and superscalar execution?",
   "What is the main characteristic of a 'Full Custom' IC design methodology?",
   "What is the primary difference in how instruction-level parallelism (ILP) is exposed and managed between a Superscalar processor and a Very Long Instruction Word (VLIW) processor?",
   "In digital IC design, what is the primary purpose of inserting 'Scan Chains' into a design during the Design For Testability (DFT) phase?",
@@ -48,5 +43,10 @@
   "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary purpose of a 'Floorplan'?",
   "Which type of cache replacement policy aims to evict the cache line that will not be used for the longest period of time in the future, although it is practically impossible to implement perfectly and serves as an optimal theoretical benchmark?",
   "What is the main reason for performing 'Design Rule Check' (DRC) during the physical verification stage of an Integrated Circuit?",
-  "Which architectural approach primarily aims to maximize the number of instructions executed per clock cycle by fetching and executing multiple independent instructions simultaneously using multiple execution units?"
+  "Which architectural approach primarily aims to maximize the number of instructions executed per clock cycle by fetching and executing multiple independent instructions simultaneously using multiple execution units?",
+  "What is the fundamental building block of nearly all modern digital integrated circuits?",
+  "In the context of a pipelined processor, what is primarily meant by a 'data hazard'?",
+  "What is the primary purpose of 'power integrity' analysis in the physical design phase of an Integrated Circuit?",
+  "In computer architecture, what does the 'locality of reference' principle primarily state regarding memory access patterns?",
+  "In the context of cache memory organization, what does 'cache associativity' refer to?"
 ]
