@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block of nearly all modern digital integrated circuits?",
+      "question": "In digital synchronous circuits, what is the primary purpose of a clock signal?",
       "options": [
-        "Transistor",
-        "Resistor",
-        "Capacitor",
-        "Inductor",
-        "Diode"
+        "To supply power to the circuit.",
+        "To convert analog signals to digital.",
+        "To synchronize the operations of different components.",
+        "To amplify the input signals.",
+        "To store data temporarily."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In the context of a pipelined processor, what is primarily meant by a 'data hazard'?",
+      "question": "What is a key characteristic that distinguishes a Harvard architecture from a Von Neumann architecture in computer design?",
       "options": [
-        "When an instruction depends on the result of a previous instruction that has not yet completed its execution.",
-        "When two instructions try to access the same hardware resource (e.g., an ALU) simultaneously.",
-        "When the control unit cannot determine the next instruction to fetch due to a branch instruction.",
-        "When the processor needs to fetch an instruction or data from a slower memory hierarchy level.",
-        "When there is not enough memory to store all the data required by an instruction."
+        "Both architectures utilize a unified cache for instructions and data.",
+        "Harvard architecture uses a single address space for both program instructions and data.",
+        "Von Neumann architecture employs physically separate memory and buses for instructions and data.",
+        "Harvard architecture features distinct memory spaces and buses for instructions and data, allowing concurrent access.",
+        "Von Neumann architecture is typically found only in microcontrollers, while Harvard is for general-purpose CPUs."
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "What is the primary purpose of 'power integrity' analysis in the physical design phase of an Integrated Circuit?",
+      "question": "In digital IC design, what is the primary goal of Static Timing Analysis (STA)?",
       "options": [
-        "To ensure that the power and ground distribution networks can deliver stable and sufficient voltage levels to all gates and functional blocks across the entire chip.",
-        "To minimize the total dynamic power consumption of the chip by identifying and optimizing switching activities.",
-        "To verify that all clock signals arrive at their destination flip-flops simultaneously, preventing clock skew.",
-        "To check for short circuits between power and ground rails that could lead to chip failure.",
-        "To optimize the placement and sizing of decoupling capacitors to improve signal integrity on high-speed data paths."
+        "To simulate the functional behavior of the circuit with actual input patterns.",
+        "To synthesize the RTL code into a gate-level netlist.",
+        "To dynamically adjust the clock frequency based on workload.",
+        "To measure the power consumption of the circuit under various operating conditions.",
+        "To verify that the circuit meets all setup and hold time requirements without requiring actual test vectors."
       ],
-      "correct": 0
+      "correct": 4
     },
     {
-      "question": "In computer architecture, what does the 'locality of reference' principle primarily state regarding memory access patterns?",
+      "question": "In modern pipelined processors, what is the primary role of a Branch Predictor?",
       "options": [
-        "Programs tend to access data and instructions that are spatially or temporally close to those they have recently accessed.",
-        "The principle that all data must reside in the CPU's local cache before it can be processed.",
-        "A method for determining which cache block to evict based on its distance from the CPU in the memory hierarchy.",
-        "The idea that increasing the size of a cache always leads to a proportional improvement in performance.",
-        "A technique employed by compilers to ensure all frequently used variables are allocated in registers."
+        "To resolve data hazards by forwarding results between pipeline stages.",
+        "To manage cache coherence among multiple processor cores.",
+        "To store temporary results of arithmetic and logical operations.",
+        "To determine the next instruction to fetch after a conditional branch instruction, often before the branch condition is resolved.",
+        "To convert complex instructions into simpler micro-operations for execution."
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "In the context of cache memory organization, what does 'cache associativity' refer to?",
+      "question": "In the context of Integrated Circuit reliability, what is Electromigration (EM)?",
       "options": [
-        "The number of cache lines that a particular memory block can be mapped to within a cache set.",
-        "The total number of cache blocks available in the entire cache memory.",
-        "The speed at which data can be transferred between the cache and main memory.",
-        "The time it takes for the CPU to access data stored in the cache.",
-        "The policy used to decide which cache line to replace when a cache miss occurs."
+        "The undesired leakage of current through the gate oxide of a transistor.",
+        "The electrostatic discharge that can damage circuit components.",
+        "The movement of metal atoms in an interconnect line due to momentum transfer from electrons, leading to potential open circuits or shorts.",
+        "The phenomenon where an increase in temperature causes a decrease in transistor performance.",
+        "The effect of cosmic rays causing soft errors in memory cells."
       ],
-      "correct": 0
+      "correct": 2
     }
   ]
 }

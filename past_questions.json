@@ -1,9 +1,4 @@
 [
-  "What is the main characteristic of a 'Full Custom' IC design methodology?",
-  "What is the primary difference in how instruction-level parallelism (ILP) is exposed and managed between a Superscalar processor and a Very Long Instruction Word (VLIW) processor?",
-  "In digital IC design, what is the primary purpose of inserting 'Scan Chains' into a design during the Design For Testability (DFT) phase?",
-  "In a multi-processor system with shared memory, what is the fundamental distinction between 'cache coherence' and 'memory consistency'?",
-  "In the final physical verification stages of an Integrated Circuit, what is the primary role of an 'Electrical Rule Check' (ERC)?",
   "What is the primary advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology over older logic families like NMOS or PMOS?",
   "In a pipelined processor, what is the primary role of the \"pipeline registers\" (or inter-stage buffers) placed between adjacent pipeline stages?",
   "What is the primary purpose of Error-Correcting Code (ECC) memory in computer systems?",
@@ -48,5 +43,10 @@
   "In the context of a pipelined processor, what is primarily meant by a 'data hazard'?",
   "What is the primary purpose of 'power integrity' analysis in the physical design phase of an Integrated Circuit?",
   "In computer architecture, what does the 'locality of reference' principle primarily state regarding memory access patterns?",
-  "In the context of cache memory organization, what does 'cache associativity' refer to?"
+  "In the context of cache memory organization, what does 'cache associativity' refer to?",
+  "In digital synchronous circuits, what is the primary purpose of a clock signal?",
+  "What is a key characteristic that distinguishes a Harvard architecture from a Von Neumann architecture in computer design?",
+  "In digital IC design, what is the primary goal of Static Timing Analysis (STA)?",
+  "In modern pipelined processors, what is the primary role of a Branch Predictor?",
+  "In the context of Integrated Circuit reliability, what is Electromigration (EM)?"
 ]
