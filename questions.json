@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital synchronous circuits, what is the primary purpose of a clock signal?",
+      "question": "What is the primary function of a D-type flip-flop in a synchronous digital circuit?",
       "options": [
-        "To supply power to the circuit.",
+        "To perform arithmetic operations.",
+        "To store a single bit of information for one clock cycle.",
+        "To generate a clock signal.",
         "To convert analog signals to digital.",
-        "To synchronize the operations of different components.",
-        "To amplify the input signals.",
-        "To store data temporarily."
+        "To manage memory addresses."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following techniques allows a peripheral device to directly read from or write to main memory without involving the CPU, thereby freeing up the CPU for other tasks?",
+      "options": [
+        "Interrupt-driven I/O",
+        "Programmed I/O",
+        "Direct Memory Access (DMA)",
+        "Memory-mapped I/O",
+        "Polling"
       ],
       "correct": 2
     },
     {
-      "question": "What is a key characteristic that distinguishes a Harvard architecture from a Von Neumann architecture in computer design?",
+      "question": "In the context of synchronous digital design, what is 'setup time' for a flip-flop?",
       "options": [
-        "Both architectures utilize a unified cache for instructions and data.",
-        "Harvard architecture uses a single address space for both program instructions and data.",
-        "Von Neumann architecture employs physically separate memory and buses for instructions and data.",
-        "Harvard architecture features distinct memory spaces and buses for instructions and data, allowing concurrent access.",
-        "Von Neumann architecture is typically found only in microcontrollers, while Harvard is for general-purpose CPUs."
+        "The minimum time the data input must be stable *before* the active clock edge.",
+        "The minimum time the data input must be stable *after* the active clock edge.",
+        "The propagation delay from clock to output.",
+        "The maximum frequency at which the flip-flop can operate.",
+        "The time required to power up the flip-flop."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which architectural paradigm involves fetching, decoding, and executing multiple instructions *from a single instruction stream* in parallel using multiple execution units, often relying on dynamic instruction scheduling?",
+      "options": [
+        "Very Long Instruction Word (VLIW)",
+        "Single Instruction, Multiple Data (SIMD)",
+        "Reduced Instruction Set Computer (RISC)",
+        "Superscalar architecture",
+        "Multithreading"
       ],
       "correct": 3
     },
     {
-      "question": "In digital IC design, what is the primary goal of Static Timing Analysis (STA)?",
+      "question": "During the physical verification stage of IC design, besides Design Rule Check (DRC) and Layout Versus Schematic (LVS), which analysis is crucial for ensuring that the actual layout meets electrical performance requirements by checking for excessive voltage drops in power delivery networks?",
       "options": [
-        "To simulate the functional behavior of the circuit with actual input patterns.",
-        "To synthesize the RTL code into a gate-level netlist.",
-        "To dynamically adjust the clock frequency based on workload.",
-        "To measure the power consumption of the circuit under various operating conditions.",
-        "To verify that the circuit meets all setup and hold time requirements without requiring actual test vectors."
-      ],
-      "correct": 4
-    },
-    {
-      "question": "In modern pipelined processors, what is the primary role of a Branch Predictor?",
-      "options": [
-        "To resolve data hazards by forwarding results between pipeline stages.",
-        "To manage cache coherence among multiple processor cores.",
-        "To store temporary results of arithmetic and logical operations.",
-        "To determine the next instruction to fetch after a conditional branch instruction, often before the branch condition is resolved.",
-        "To convert complex instructions into simpler micro-operations for execution."
+        "Static Timing Analysis (STA)",
+        "Signal Integrity (SI) analysis",
+        "Power Rail Electromigration (EM) analysis",
+        "IR Drop analysis",
+        "Clock Tree Synthesis (CTS)"
       ],
       "correct": 3
-    },
-    {
-      "question": "In the context of Integrated Circuit reliability, what is Electromigration (EM)?",
-      "options": [
-        "The undesired leakage of current through the gate oxide of a transistor.",
-        "The electrostatic discharge that can damage circuit components.",
-        "The movement of metal atoms in an interconnect line due to momentum transfer from electrons, leading to potential open circuits or shorts.",
-        "The phenomenon where an increase in temperature causes a decrease in transistor performance.",
-        "The effect of cosmic rays causing soft errors in memory cells."
-      ],
-      "correct": 2
     }
   ]
 }

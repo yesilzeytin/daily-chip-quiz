@@ -1,9 +1,4 @@
 [
-  "What is the primary advantage of Complementary Metal-Oxide-Semiconductor (CMOS) technology over older logic families like NMOS or PMOS?",
-  "In a pipelined processor, what is the primary role of the \"pipeline registers\" (or inter-stage buffers) placed between adjacent pipeline stages?",
-  "What is the primary purpose of Error-Correcting Code (ECC) memory in computer systems?",
-  "In the chip design flow, what is the primary goal of High-Level Synthesis (HLS), also known as behavioral synthesis?",
-  "In a multi-core processor system with a cache coherence protocol, what is \"false sharing\" and how is it primarily addressed?",
   "In the typical ASIC design flow, which step translates a Register Transfer Level (RTL) description (e.g., in Verilog or VHDL) into a gate-level netlist using standard cell libraries?",
   "Which addressing mode directly specifies the operand's value within the instruction itself, requiring no memory access to fetch the operand?",
   "What is the primary purpose of 'Post-Layout Simulation' in the digital IC design flow?",
@@ -48,5 +43,10 @@
   "What is a key characteristic that distinguishes a Harvard architecture from a Von Neumann architecture in computer design?",
   "In digital IC design, what is the primary goal of Static Timing Analysis (STA)?",
   "In modern pipelined processors, what is the primary role of a Branch Predictor?",
-  "In the context of Integrated Circuit reliability, what is Electromigration (EM)?"
+  "In the context of Integrated Circuit reliability, what is Electromigration (EM)?",
+  "What is the primary function of a D-type flip-flop in a synchronous digital circuit?",
+  "Which of the following techniques allows a peripheral device to directly read from or write to main memory without involving the CPU, thereby freeing up the CPU for other tasks?",
+  "In the context of synchronous digital design, what is 'setup time' for a flip-flop?",
+  "Which architectural paradigm involves fetching, decoding, and executing multiple instructions *from a single instruction stream* in parallel using multiple execution units, often relying on dynamic instruction scheduling?",
+  "During the physical verification stage of IC design, besides Design Rule Check (DRC) and Layout Versus Schematic (LVS), which analysis is crucial for ensuring that the actual layout meets electrical performance requirements by checking for excessive voltage drops in power delivery networks?"
 ]
