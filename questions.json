@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a D-type flip-flop in a synchronous digital circuit?",
+      "question": "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
       "options": [
-        "To perform arithmetic operations.",
-        "To store a single bit of information for one clock cycle.",
-        "To generate a clock signal.",
-        "To convert analog signals to digital.",
-        "To manage memory addresses."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which of the following techniques allows a peripheral device to directly read from or write to main memory without involving the CPU, thereby freeing up the CPU for other tasks?",
-      "options": [
-        "Interrupt-driven I/O",
-        "Programmed I/O",
-        "Direct Memory Access (DMA)",
-        "Memory-mapped I/O",
-        "Polling"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of synchronous digital design, what is 'setup time' for a flip-flop?",
-      "options": [
-        "The minimum time the data input must be stable *before* the active clock edge.",
-        "The minimum time the data input must be stable *after* the active clock edge.",
-        "The propagation delay from clock to output.",
-        "The maximum frequency at which the flip-flop can operate.",
-        "The time required to power up the flip-flop."
+        "ASICs are designed for a specific function and are customized during manufacturing, while FPGAs are configurable by the user post-manufacturing.",
+        "FPGAs offer higher performance and lower power consumption than ASICs for high-volume production.",
+        "ASICs can only implement combinational logic, whereas FPGAs can implement sequential logic.",
+        "ASICs are programmed after manufacturing, FPGAs are fixed during manufacturing.",
+        "FPGAs typically have higher non-recurring engineering (NRE) costs compared to ASICs."
       ],
       "correct": 0
     },
     {
-      "question": "Which architectural paradigm involves fetching, decoding, and executing multiple instructions *from a single instruction stream* in parallel using multiple execution units, often relying on dynamic instruction scheduling?",
+      "question": "In a computer system with a write-back cache, what is the primary purpose of a \"write buffer\"?",
       "options": [
-        "Very Long Instruction Word (VLIW)",
-        "Single Instruction, Multiple Data (SIMD)",
-        "Reduced Instruction Set Computer (RISC)",
-        "Superscalar architecture",
-        "Multithreading"
+        "To store data that has been evicted from the cache to main memory.",
+        "To ensure cache coherence between multiple processors.",
+        "To hold data written by the CPU that needs to be written to main memory, allowing the CPU to proceed without waiting for the slower memory write to complete.",
+        "To serve as a secondary cache for frequently accessed read data.",
+        "To translate virtual addresses to physical addresses during a cache miss."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of using hardware emulation over traditional RTL simulation?",
+      "options": [
+        "Hardware emulation provides absolute timing accuracy down to the nanosecond level.",
+        "It allows for faster execution of verification tests, enabling the running of extensive software workloads on the design pre-silicon.",
+        "Emulation systems are significantly cheaper and easier to set up than software simulators.",
+        "It can automatically generate test vectors for all possible corner cases.",
+        "Hardware emulation is primarily used for analog circuit verification."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "As semiconductor technology scales down to advanced nodes (e.g., 7nm and below), the relative contribution of interconnect delay to overall circuit delay significantly increases compared to gate delay. What is the primary reason for this phenomenon?",
+      "options": [
+        "The resistance of metal wires decreases proportionally more than their capacitance with scaling.",
+        "Transistor gate delays are increasingly dominated by quantum tunneling effects, making them less sensitive to physical dimensions.",
+        "Interconnects are increasingly being replaced by optical links, which have higher latency.",
+        "While transistor switching speeds improve with scaling, the aspect ratio of wires (height-to-width) tends to increase, leading to higher resistance and capacitance per unit length, and thus increased RC delay.",
+        "The length of interconnects scales down at a faster rate than the transistors, reducing their impact."
       ],
       "correct": 3
     },
     {
-      "question": "During the physical verification stage of IC design, besides Design Rule Check (DRC) and Layout Versus Schematic (LVS), which analysis is crucial for ensuring that the actual layout meets electrical performance requirements by checking for excessive voltage drops in power delivery networks?",
+      "question": "In modern CPU architectures, what is the primary benefit of Simultaneous Multi-Threading (SMT), often referred to as Hyper-Threading by Intel?",
       "options": [
-        "Static Timing Analysis (STA)",
-        "Signal Integrity (SI) analysis",
-        "Power Rail Electromigration (EM) analysis",
-        "IR Drop analysis",
-        "Clock Tree Synthesis (CTS)"
+        "It duplicates the entire execution pipeline, essentially creating two physical cores on a single die.",
+        "It enables a single physical CPU core to execute instructions from multiple independent program threads concurrently by sharing the core's functional units.",
+        "It allows multiple CPU cores to share a single physical memory module more efficiently.",
+        "It provides a mechanism for dynamic voltage and frequency scaling based on workload demands.",
+        "It reduces power consumption by disabling unused functional units when only one thread is active."
       ],
-      "correct": 3
+      "correct": 1
     }
   ]
 }

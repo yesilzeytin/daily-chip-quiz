@@ -1,9 +1,4 @@
 [
-  "In the typical ASIC design flow, which step translates a Register Transfer Level (RTL) description (e.g., in Verilog or VHDL) into a gate-level netlist using standard cell libraries?",
-  "Which addressing mode directly specifies the operand's value within the instruction itself, requiring no memory access to fetch the operand?",
-  "What is the primary purpose of 'Post-Layout Simulation' in the digital IC design flow?",
-  "In advanced pipelined processors, what is the primary role of a \"Reorder Buffer\" (ROB) when implementing precise exceptions and committed state in an out-of-order execution engine?",
-  "During the Design For Testability (DFT) phase, besides scan chains, which technique is commonly used to test internal memory blocks (e.g., SRAMs, register files) within a System-on-Chip (SoC) for manufacturing defects?",
   "What is the primary role of the Program Counter (PC) in a CPU?",
   "In modern digital IC design, what is the primary objective of implementing 'power gating' techniques?",
   "In a virtual memory system, what is the main purpose of a Translation Lookaside Buffer (TLB)?",
@@ -48,5 +43,10 @@
   "Which of the following techniques allows a peripheral device to directly read from or write to main memory without involving the CPU, thereby freeing up the CPU for other tasks?",
   "In the context of synchronous digital design, what is 'setup time' for a flip-flop?",
   "Which architectural paradigm involves fetching, decoding, and executing multiple instructions *from a single instruction stream* in parallel using multiple execution units, often relying on dynamic instruction scheduling?",
-  "During the physical verification stage of IC design, besides Design Rule Check (DRC) and Layout Versus Schematic (LVS), which analysis is crucial for ensuring that the actual layout meets electrical performance requirements by checking for excessive voltage drops in power delivery networks?"
+  "During the physical verification stage of IC design, besides Design Rule Check (DRC) and Layout Versus Schematic (LVS), which analysis is crucial for ensuring that the actual layout meets electrical performance requirements by checking for excessive voltage drops in power delivery networks?",
+  "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
+  "In a computer system with a write-back cache, what is the primary purpose of a \"write buffer\"?",
+  "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of using hardware emulation over traditional RTL simulation?",
+  "As semiconductor technology scales down to advanced nodes (e.g., 7nm and below), the relative contribution of interconnect delay to overall circuit delay significantly increases compared to gate delay. What is the primary reason for this phenomenon?",
+  "In modern CPU architectures, what is the primary benefit of Simultaneous Multi-Threading (SMT), often referred to as Hyper-Threading by Intel?"
 ]
