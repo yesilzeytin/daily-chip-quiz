@@ -1,9 +1,4 @@
 [
-  "What is the primary role of the Program Counter (PC) in a CPU?",
-  "In modern digital IC design, what is the primary objective of implementing 'power gating' techniques?",
-  "In a virtual memory system, what is the main purpose of a Translation Lookaside Buffer (TLB)?",
-  "In digital IC verification, what is the primary characteristic of a 'self-checking testbench'?",
-  "As feature sizes in integrated circuits continue to shrink into the nanometer regime, which phenomenon related to lithography becomes a significant challenge, causing discrepancies between the designed layout and the actual manufactured silicon patterns?",
   "In digital IC design, what does a 'netlist' primarily represent?",
   "In computer architecture, what is the primary function of the 'address bus'?",
   "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis' (CTS)?",
@@ -48,5 +43,10 @@
   "In a computer system with a write-back cache, what is the primary purpose of a \"write buffer\"?",
   "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of using hardware emulation over traditional RTL simulation?",
   "As semiconductor technology scales down to advanced nodes (e.g., 7nm and below), the relative contribution of interconnect delay to overall circuit delay significantly increases compared to gate delay. What is the primary reason for this phenomenon?",
-  "In modern CPU architectures, what is the primary benefit of Simultaneous Multi-Threading (SMT), often referred to as Hyper-Threading by Intel?"
+  "In modern CPU architectures, what is the primary benefit of Simultaneous Multi-Threading (SMT), often referred to as Hyper-Threading by Intel?",
+  "What is the purpose of a Look-Up Table (LUT) in a Field-Programmable Gate Array (FPGA)?",
+  "In a typical CPU pipeline, what is the primary role of the 'Decode' stage?",
+  "In Design For Testability (DFT), what is the main benefit of incorporating 'scan chains' into a digital IC?",
+  "Which dynamic branch prediction scheme employs a global or local history register (BHR) to index into a Pattern History Table (PHT), where each entry typically contains a saturating counter (e.g., 2-bit) to predict the branch's outcome based on past patterns?",
+  "In the context of formal verification for digital ICs, what is the primary advantage of Model Checking over Formal Equivalence Checking (FEC)?"
 ]

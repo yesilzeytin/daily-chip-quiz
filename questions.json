@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
+      "question": "What is the purpose of a Look-Up Table (LUT) in a Field-Programmable Gate Array (FPGA)?",
       "options": [
-        "ASICs are designed for a specific function and are customized during manufacturing, while FPGAs are configurable by the user post-manufacturing.",
-        "FPGAs offer higher performance and lower power consumption than ASICs for high-volume production.",
-        "ASICs can only implement combinational logic, whereas FPGAs can implement sequential logic.",
-        "ASICs are programmed after manufacturing, FPGAs are fixed during manufacturing.",
-        "FPGAs typically have higher non-recurring engineering (NRE) costs compared to ASICs."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a computer system with a write-back cache, what is the primary purpose of a \"write buffer\"?",
-      "options": [
-        "To store data that has been evicted from the cache to main memory.",
-        "To ensure cache coherence between multiple processors.",
-        "To hold data written by the CPU that needs to be written to main memory, allowing the CPU to proceed without waiting for the slower memory write to complete.",
-        "To serve as a secondary cache for frequently accessed read data.",
-        "To translate virtual addresses to physical addresses during a cache miss."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of using hardware emulation over traditional RTL simulation?",
-      "options": [
-        "Hardware emulation provides absolute timing accuracy down to the nanosecond level.",
-        "It allows for faster execution of verification tests, enabling the running of extensive software workloads on the design pre-silicon.",
-        "Emulation systems are significantly cheaper and easier to set up than software simulators.",
-        "It can automatically generate test vectors for all possible corner cases.",
-        "Hardware emulation is primarily used for analog circuit verification."
+        "To store large blocks of volatile memory for data caching.",
+        "To implement any arbitrary Boolean function by configuring its internal truth table.",
+        "To manage external input/output operations and device communication.",
+        "To provide a dedicated Arithmetic Logic Unit (ALU) for integer computations.",
+        "To route clock signals uniformly across the entire chip."
       ],
       "correct": 1
     },
     {
-      "question": "As semiconductor technology scales down to advanced nodes (e.g., 7nm and below), the relative contribution of interconnect delay to overall circuit delay significantly increases compared to gate delay. What is the primary reason for this phenomenon?",
+      "question": "In a typical CPU pipeline, what is the primary role of the 'Decode' stage?",
       "options": [
-        "The resistance of metal wires decreases proportionally more than their capacitance with scaling.",
-        "Transistor gate delays are increasingly dominated by quantum tunneling effects, making them less sensitive to physical dimensions.",
-        "Interconnects are increasingly being replaced by optical links, which have higher latency.",
-        "While transistor switching speeds improve with scaling, the aspect ratio of wires (height-to-width) tends to increase, leading to higher resistance and capacitance per unit length, and thus increased RC delay.",
-        "The length of interconnects scales down at a faster rate than the transistors, reducing their impact."
+        "To execute arithmetic and logical operations on operands.",
+        "To fetch the next instruction from the Instruction Cache or main memory.",
+        "To write the results of an operation back to a register or memory location.",
+        "To determine the instruction type, identify operands, and retrieve their values (if from registers).",
+        "To access data from the Data Cache or main memory based on memory addresses."
       ],
       "correct": 3
     },
     {
-      "question": "In modern CPU architectures, what is the primary benefit of Simultaneous Multi-Threading (SMT), often referred to as Hyper-Threading by Intel?",
+      "question": "In Design For Testability (DFT), what is the main benefit of incorporating 'scan chains' into a digital IC?",
       "options": [
-        "It duplicates the entire execution pipeline, essentially creating two physical cores on a single die.",
-        "It enables a single physical CPU core to execute instructions from multiple independent program threads concurrently by sharing the core's functional units.",
-        "It allows multiple CPU cores to share a single physical memory module more efficiently.",
-        "It provides a mechanism for dynamic voltage and frequency scaling based on workload demands.",
-        "It reduces power consumption by disabling unused functional units when only one thread is active."
+        "To reduce the dynamic power consumption during normal operation.",
+        "To improve the chip's immunity to electromagnetic interference (EMI).",
+        "To facilitate deterministic testing of sequential logic elements (flip-flops and latches).",
+        "To increase the overall processing speed of the integrated circuit.",
+        "To enable on-chip voltage regulation for various power domains."
       ],
-      "correct": 1
+      "correct": 2
+    },
+    {
+      "question": "Which dynamic branch prediction scheme employs a global or local history register (BHR) to index into a Pattern History Table (PHT), where each entry typically contains a saturating counter (e.g., 2-bit) to predict the branch's outcome based on past patterns?",
+      "options": [
+        "Static Branch Prediction (Always Taken/Not Taken)",
+        "Bimodal Predictor",
+        "Gshare Predictor",
+        "Tournament Predictor",
+        "Profile-Guided Prediction"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In the context of formal verification for digital ICs, what is the primary advantage of Model Checking over Formal Equivalence Checking (FEC)?",
+      "options": [
+        "Model Checking can automatically generate comprehensive test vectors for gate-level simulation.",
+        "Model Checking is primarily used for comparing two different implementations of the same design (e.g., RTL vs. gate-level).",
+        "Model Checking can mathematically prove or disprove specific temporal properties (e.g., safety, liveness) about a single design.",
+        "Model Checking operates at significantly faster speeds, enabling real-time verification of complex System-on-Chips (SoCs).",
+        "Model Checking eliminates the need for any simulation-based verification entirely."
+      ],
+      "correct": 2
     }
   ]
 }
