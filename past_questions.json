@@ -1,9 +1,4 @@
 [
-  "In digital IC design, what does a 'netlist' primarily represent?",
-  "In computer architecture, what is the primary function of the 'address bus'?",
-  "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis' (CTS)?",
-  "In the context of a pipelined processor, what is a 'structural hazard'?",
-  "In advanced semiconductor manufacturing, what is the primary benefit of using FinFET (Fin Field-Effect Transistor) technology compared to traditional planar CMOS transistors?",
   "In computer architecture, what does the term 'Instruction Set Architecture (ISA)' primarily define?",
   "In the digital IC design flow, what is the primary purpose of 'Formal Equivalence Checking' (FEC)?",
   "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does a cache line being in the 'Modified' state primarily signify?",
@@ -48,5 +43,10 @@
   "In a typical CPU pipeline, what is the primary role of the 'Decode' stage?",
   "In Design For Testability (DFT), what is the main benefit of incorporating 'scan chains' into a digital IC?",
   "Which dynamic branch prediction scheme employs a global or local history register (BHR) to index into a Pattern History Table (PHT), where each entry typically contains a saturating counter (e.g., 2-bit) to predict the branch's outcome based on past patterns?",
-  "In the context of formal verification for digital ICs, what is the primary advantage of Model Checking over Formal Equivalence Checking (FEC)?"
+  "In the context of formal verification for digital ICs, what is the primary advantage of Model Checking over Formal Equivalence Checking (FEC)?",
+  "What is the primary purpose of a silicon wafer in the manufacturing process of integrated circuits?",
+  "In the digital IC design flow, particularly within the physical design stage, what is the primary objective of 'physical synthesis'?",
+  "In an out-of-order execution processor, especially one employing principles similar to Tomasulo's algorithm, what is the primary role of a 'Reservation Station'?",
+  "What is the fundamental difference in the data retention mechanism between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM)?",
+  "In the context of System-on-Chip (SoC) verification and early architectural exploration, what is the primary advantage and purpose of Transaction Level Modeling (TLM)?"
 ]
