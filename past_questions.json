@@ -1,9 +1,4 @@
 [
-  "In computer architecture, what does the term 'Instruction Set Architecture (ISA)' primarily define?",
-  "In the digital IC design flow, what is the primary purpose of 'Formal Equivalence Checking' (FEC)?",
-  "In a cache coherence protocol like MESI (Modified, Exclusive, Shared, Invalid), what does a cache line being in the 'Modified' state primarily signify?",
-  "In the context of digital IC physical design, what is a 'standard cell' primarily used for?",
-  "In the context of Design For Testability (DFT) for digital integrated circuits, what does a 'stuck-at-0' fault specifically refer to?",
   "Which of the following is a purely combinational logic circuit, meaning its output depends only on its current inputs and has no memory or feedback elements?",
   "In a Complex Instruction Set Computer (CISC) architecture, what is the primary role of 'microcode'?",
   "What is the primary purpose of 'clock gating' in digital IC design?",
@@ -48,5 +43,10 @@
   "In the digital IC design flow, particularly within the physical design stage, what is the primary objective of 'physical synthesis'?",
   "In an out-of-order execution processor, especially one employing principles similar to Tomasulo's algorithm, what is the primary role of a 'Reservation Station'?",
   "What is the fundamental difference in the data retention mechanism between Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM)?",
-  "In the context of System-on-Chip (SoC) verification and early architectural exploration, what is the primary advantage and purpose of Transaction Level Modeling (TLM)?"
+  "In the context of System-on-Chip (SoC) verification and early architectural exploration, what is the primary advantage and purpose of Transaction Level Modeling (TLM)?",
+  "What does the acronym CMOS primarily refer to in the context of digital circuits?",
+  "In a processor's memory management unit (MMU), what is the primary function of a Translation Lookaside Buffer (TLB)?",
+  "Which technique allows a processor to execute instructions *before* it is certain whether they will be needed, particularly useful for optimizing performance around conditional branches?",
+  "In the physical design and verification of high-speed integrated circuits, what is the primary concern addressed by 'Signal Integrity (SI)' analysis?",
+  "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of employing a coverage-driven verification (CDV) methodology?"
 ]
