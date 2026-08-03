@@ -1,9 +1,4 @@
 [
-  "Which of the following is a purely combinational logic circuit, meaning its output depends only on its current inputs and has no memory or feedback elements?",
-  "In a Complex Instruction Set Computer (CISC) architecture, what is the primary role of 'microcode'?",
-  "What is the primary purpose of 'clock gating' in digital IC design?",
-  "In an out-of-order execution processor, what is the primary architectural technique used to eliminate Write-After-Write (WAW) and Write-After-Read (WAR) data hazards, often by mapping architectural registers to a larger set of physical registers?",
-  "As integrated circuit process technology scales down to advanced nodes (e.g., 7nm, 5nm), manufacturing variations across a die and across wafers become more significant. Which advanced timing analysis technique is primarily employed to accurately predict circuit timing under these statistical variations, rather than relying solely on worst-case corner analysis?",
   "What is the primary function of an AND gate in digital logic?",
   "In a typical Central Processing Unit (CPU) datapath, what is the primary function of the Arithmetic Logic Unit (ALU)?",
   "In the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the 'Placement' step?",
@@ -48,5 +43,10 @@
   "In a processor's memory management unit (MMU), what is the primary function of a Translation Lookaside Buffer (TLB)?",
   "Which technique allows a processor to execute instructions *before* it is certain whether they will be needed, particularly useful for optimizing performance around conditional branches?",
   "In the physical design and verification of high-speed integrated circuits, what is the primary concern addressed by 'Signal Integrity (SI)' analysis?",
-  "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of employing a coverage-driven verification (CDV) methodology?"
+  "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of employing a coverage-driven verification (CDV) methodology?",
+  "What is the general trend described by Moore's Law in the context of integrated circuits?",
+  "In the digital IC design flow, after the Register Transfer Level (RTL) design is completed, what is the primary objective of the 'synthesis' step?",
+  "In the context of memory hierarchies in computer architecture, which of the following best describes the principle of 'cache coherence'?",
+  "For an out-of-order execution processor, which component is primarily responsible for tracking the state of in-flight instructions, managing their commitment (writing results to architectural state) in program order, and handling precise exceptions?",
+  "In the manufacturing process of integrated circuits, what is the primary purpose of 'photolithography'?"
 ]
