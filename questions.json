@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the general trend described by Moore's Law in the context of integrated circuits?",
+      "question": "What is the main characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
       "options": [
-        "The number of transistors on an integrated circuit doubles approximately every two years.",
-        "The cost of manufacturing chips decreases exponentially every decade.",
-        "The speed of processors doubles every 18 months.",
-        "The power consumption of chips halves with each new process node.",
-        "The physical size of a silicon wafer doubles annually."
+        "Combinational circuits always use feedback loops, sequential circuits never do.",
+        "Sequential circuits have memory elements, combinational circuits do not.",
+        "Combinational circuits require a clock signal, sequential circuits do not.",
+        "Sequential circuits are generally faster than combinational circuits.",
+        "Combinational circuits can implement state machines, sequential circuits cannot."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In the digital IC design flow, after the Register Transfer Level (RTL) design is completed, what is the primary objective of the 'synthesis' step?",
+      "question": "In a pipelined processor, what is a 'structural hazard'?",
       "options": [
-        "To verify the functional correctness of the RTL code using simulation.",
-        "To generate a physical layout (mask patterns) for manufacturing the chip.",
-        "To convert the RTL description into a gate-level netlist using a standard cell library.",
-        "To perform static timing analysis on the designed circuit.",
-        "To create a comprehensive testbench for design verification."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the context of memory hierarchies in computer architecture, which of the following best describes the principle of 'cache coherence'?",
-      "options": [
-        "Ensuring that multiple processors or cores have access to the same physical main memory addresses.",
-        "The mechanism by which data is moved between different levels of the cache hierarchy (e.g., L1 to L2).",
-        "Maintaining a consistent view of shared data across multiple caches in a multiprocessor system.",
-        "The policy used to decide which data block to evict from the cache when a new block needs to be loaded.",
-        "Optimizing the cache line size for improved performance in specific applications."
+        "An instruction depends on the result of a previous instruction that is still in the pipeline.",
+        "A branch instruction changes the program flow, invalidating prefetched instructions.",
+        "Two or more instructions attempt to use the same hardware resource at the same time.",
+        "The processor runs out of registers to store intermediate results.",
+        "A memory access takes longer than a single clock cycle to complete."
       ],
       "correct": 2
     },
     {
-      "question": "For an out-of-order execution processor, which component is primarily responsible for tracking the state of in-flight instructions, managing their commitment (writing results to architectural state) in program order, and handling precise exceptions?",
+      "question": "What is the primary reason for applying chemical mechanical planarization (CMP) during the fabrication of modern integrated circuits?",
       "options": [
-        "The Reservation Station",
-        "The Translation Lookaside Buffer (TLB)",
-        "The Reorder Buffer (ROB)",
-        "The Branch Target Buffer (BTB)",
-        "The Arithmetic Logic Unit (ALU)"
+        "To dope silicon with impurities for creating p-n junctions.",
+        "To remove photoresist after exposure and development.",
+        "To deposit thin layers of insulating or conducting materials.",
+        "To create a highly planar surface for subsequent lithography steps.",
+        "To etch patterns into the deposited layers."
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In the manufacturing process of integrated circuits, what is the primary purpose of 'photolithography'?",
+      "question": "In a multiprocessor system, which memory consistency model guarantees that the result of any execution is the same as if all operations had executed in some sequential order, and the operations of each individual processor appear in that sequence in the order specified by its program?",
       "options": [
-        "To chemically etch away unwanted material from the silicon wafer.",
-        "To deposit thin films of various materials (e.g., metals, dielectrics) onto the wafer surface.",
-        "To accurately transfer circuit patterns from a photomask onto the silicon wafer using light-sensitive resist.",
-        "To dope specific regions of the silicon with impurities (e.g., boron, phosphorus) to create transistors.",
-        "To test the electrical functionality of individual dies on the wafer before packaging."
+        "Release Consistency",
+        "Weak Consistency",
+        "Entry Consistency",
+        "Sequential Consistency",
+        "Processor Consistency"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the context of digital ICs, what is a 'glitch' or 'hazard' in a combinational circuit?",
+      "options": [
+        "A permanent short circuit between two signal lines.",
+        "A functional error caused by incorrect logical design.",
+        "A temporary, undesired output pulse due to uneven propagation delays.",
+        "A sudden drop in power supply voltage across the chip.",
+        "A condition where a flip-flop enters an undefined state."
       ],
       "correct": 2
     }
