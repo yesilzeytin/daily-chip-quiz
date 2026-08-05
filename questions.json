@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the main characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
+      "question": "What is the primary purpose of 'clock gating' in synchronous digital IC design?",
       "options": [
-        "Combinational circuits always use feedback loops, sequential circuits never do.",
-        "Sequential circuits have memory elements, combinational circuits do not.",
-        "Combinational circuits require a clock signal, sequential circuits do not.",
-        "Sequential circuits are generally faster than combinational circuits.",
-        "Combinational circuits can implement state machines, sequential circuits cannot."
+        "To reduce dynamic power consumption by disabling the clock to inactive blocks.",
+        "To synchronize data transfer between asynchronous clock domains.",
+        "To prevent clock skew by inserting buffers.",
+        "To generate multiple clock phases from a single input clock.",
+        "To implement a reset mechanism for sequential elements."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In computer architecture, what is the primary objective of Dynamic Voltage and Frequency Scaling (DVFS)?",
+      "options": [
+        "To reduce clock jitter by adjusting the phase-locked loop (PLL) settings.",
+        "To dynamically adjust processor voltage and frequency to balance power consumption and performance.",
+        "To increase the overall memory bandwidth by changing memory bus speeds.",
+        "To allow a single processor to execute multiple instruction streams simultaneously.",
+        "To prevent data corruption caused by power supply noise."
       ],
       "correct": 1
     },
     {
-      "question": "In a pipelined processor, what is a 'structural hazard'?",
+      "question": "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
       "options": [
-        "An instruction depends on the result of a previous instruction that is still in the pipeline.",
-        "A branch instruction changes the program flow, invalidating prefetched instructions.",
-        "Two or more instructions attempt to use the same hardware resource at the same time.",
-        "The processor runs out of registers to store intermediate results.",
-        "A memory access takes longer than a single clock cycle to complete."
+        "To provide a collection of pre-designed, pre-characterized logic gates and functional blocks (e.g., inverters, NANDs, flip-flops).",
+        "To store executable code for the embedded processor core.",
+        "To define the routing channels and metal layers for interconnects.",
+        "To perform formal verification on the Register Transfer Level (RTL) design.",
+        "To manage the cache coherence protocol in a multi-core system."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "What is the primary reason for applying chemical mechanical planarization (CMP) during the fabrication of modern integrated circuits?",
+      "question": "What is the primary architectural distinction between a Central Processing Unit (CPU) and a Graphics Processing Unit (GPU) regarding their approach to parallel computation?",
       "options": [
-        "To dope silicon with impurities for creating p-n junctions.",
-        "To remove photoresist after exposure and development.",
-        "To deposit thin layers of insulating or conducting materials.",
-        "To create a highly planar surface for subsequent lithography steps.",
-        "To etch patterns into the deposited layers."
+        "CPUs are primarily designed for Single Instruction, Multiple Data (SIMD) operations, while GPUs focus on Single Instruction, Single Data (SISD).",
+        "CPUs typically have fewer, more complex cores optimized for sequential task performance, whereas GPUs have many simpler cores optimized for massive data parallelism.",
+        "GPUs utilize a Harvard architecture with separate instruction and data caches, while CPUs exclusively use a Von Neumann architecture.",
+        "CPUs employ an in-order execution model, while GPUs rely heavily on out-of-order execution and branch prediction.",
+        "CPUs are entirely combinational logic, while GPUs are entirely sequential logic."
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "In a multiprocessor system, which memory consistency model guarantees that the result of any execution is the same as if all operations had executed in some sequential order, and the operations of each individual processor appear in that sequence in the order specified by its program?",
+      "question": "In advanced semiconductor manufacturing, what is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs?",
       "options": [
-        "Release Consistency",
-        "Weak Consistency",
-        "Entry Consistency",
-        "Sequential Consistency",
-        "Processor Consistency"
+        "FinFETs enable significantly higher gate leakage current, improving switching speed.",
+        "FinFETs provide better electrostatic control over the channel, leading to reduced leakage current and improved performance at smaller nodes.",
+        "FinFETs allow for a simpler manufacturing process, reducing overall fabrication costs.",
+        "FinFETs completely eliminate the need for doping in the transistor channel.",
+        "FinFETs are immune to electromigration effects, enhancing long-term reliability."
       ],
-      "correct": 3
-    },
-    {
-      "question": "In the context of digital ICs, what is a 'glitch' or 'hazard' in a combinational circuit?",
-      "options": [
-        "A permanent short circuit between two signal lines.",
-        "A functional error caused by incorrect logical design.",
-        "A temporary, undesired output pulse due to uneven propagation delays.",
-        "A sudden drop in power supply voltage across the chip.",
-        "A condition where a flip-flop enters an undefined state."
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
