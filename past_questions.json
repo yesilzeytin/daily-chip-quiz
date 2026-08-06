@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of nearly all modern digital integrated circuits?",
-  "In the context of a pipelined processor, what is primarily meant by a 'data hazard'?",
-  "What is the primary purpose of 'power integrity' analysis in the physical design phase of an Integrated Circuit?",
-  "In computer architecture, what does the 'locality of reference' principle primarily state regarding memory access patterns?",
-  "In the context of cache memory organization, what does 'cache associativity' refer to?",
   "In digital synchronous circuits, what is the primary purpose of a clock signal?",
   "What is a key characteristic that distinguishes a Harvard architecture from a Von Neumann architecture in computer design?",
   "In digital IC design, what is the primary goal of Static Timing Analysis (STA)?",
@@ -48,5 +43,10 @@
   "In computer architecture, what is the primary objective of Dynamic Voltage and Frequency Scaling (DVFS)?",
   "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
   "What is the primary architectural distinction between a Central Processing Unit (CPU) and a Graphics Processing Unit (GPU) regarding their approach to parallel computation?",
-  "In advanced semiconductor manufacturing, what is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs?"
+  "In advanced semiconductor manufacturing, what is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
+  "In a typical CPU pipeline, what is the primary role of the 'Instruction Fetch (IF)' stage?",
+  "In an out-of-order execution processor, what is the primary purpose of 'Register Renaming'?",
+  "In the context of Clock Domain Crossing (CDC) in digital IC design, what is the primary role of a synchronizer circuit?",
+  "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the main goal of the 'placement' step?"
 ]

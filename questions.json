@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of 'clock gating' in synchronous digital IC design?",
+      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
       "options": [
-        "To reduce dynamic power consumption by disabling the clock to inactive blocks.",
-        "To synchronize data transfer between asynchronous clock domains.",
-        "To prevent clock skew by inserting buffers.",
-        "To generate multiple clock phases from a single input clock.",
-        "To implement a reset mechanism for sequential elements."
+        "Storing program instructions and data.",
+        "Managing input/output operations.",
+        "Performing arithmetic and logical operations.",
+        "Controlling the overall execution sequence of instructions.",
+        "Translating virtual addresses to physical addresses."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In computer architecture, what is the primary objective of Dynamic Voltage and Frequency Scaling (DVFS)?",
+      "question": "In a typical CPU pipeline, what is the primary role of the 'Instruction Fetch (IF)' stage?",
       "options": [
-        "To reduce clock jitter by adjusting the phase-locked loop (PLL) settings.",
-        "To dynamically adjust processor voltage and frequency to balance power consumption and performance.",
-        "To increase the overall memory bandwidth by changing memory bus speeds.",
-        "To allow a single processor to execute multiple instruction streams simultaneously.",
-        "To prevent data corruption caused by power supply noise."
+        "Decoding the fetched instruction to determine its operation.",
+        "Executing the arithmetic and logical operations.",
+        "Accessing data from memory.",
+        "Retrieving the next instruction from memory or instruction cache.",
+        "Writing the result of an operation back to a register."
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
+      "question": "In an out-of-order execution processor, what is the primary purpose of 'Register Renaming'?",
       "options": [
-        "To provide a collection of pre-designed, pre-characterized logic gates and functional blocks (e.g., inverters, NANDs, flip-flops).",
-        "To store executable code for the embedded processor core.",
-        "To define the routing channels and metal layers for interconnects.",
-        "To perform formal verification on the Register Transfer Level (RTL) design.",
-        "To manage the cache coherence protocol in a multi-core system."
+        "To reduce the number of physical registers required.",
+        "To simplify the instruction decoding process.",
+        "To eliminate Write-After-Write (WAW) and Write-After-Read (WAR) hazards by providing unique physical registers for each instruction's output.",
+        "To ensure that instructions commit in program order.",
+        "To prefetch data from memory into caches."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "What is the primary architectural distinction between a Central Processing Unit (CPU) and a Graphics Processing Unit (GPU) regarding their approach to parallel computation?",
+      "question": "In the context of Clock Domain Crossing (CDC) in digital IC design, what is the primary role of a synchronizer circuit?",
       "options": [
-        "CPUs are primarily designed for Single Instruction, Multiple Data (SIMD) operations, while GPUs focus on Single Instruction, Single Data (SISD).",
-        "CPUs typically have fewer, more complex cores optimized for sequential task performance, whereas GPUs have many simpler cores optimized for massive data parallelism.",
-        "GPUs utilize a Harvard architecture with separate instruction and data caches, while CPUs exclusively use a Von Neumann architecture.",
-        "CPUs employ an in-order execution model, while GPUs rely heavily on out-of-order execution and branch prediction.",
-        "CPUs are entirely combinational logic, while GPUs are entirely sequential logic."
+        "To increase the clock frequency of a faster clock domain.",
+        "To convert parallel data to serial data for transmission between domains.",
+        "To safely transfer signals between two clock domains operating at different frequencies or phases, mitigating metastability.",
+        "To reduce power consumption by temporarily stopping clocks.",
+        "To combine multiple clock signals into a single, unified clock."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "In advanced semiconductor manufacturing, what is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs?",
+      "question": "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the main goal of the 'placement' step?",
       "options": [
-        "FinFETs enable significantly higher gate leakage current, improving switching speed.",
-        "FinFETs provide better electrostatic control over the channel, leading to reduced leakage current and improved performance at smaller nodes.",
-        "FinFETs allow for a simpler manufacturing process, reducing overall fabrication costs.",
-        "FinFETs completely eliminate the need for doping in the transistor channel.",
-        "FinFETs are immune to electromigration effects, enhancing long-term reliability."
+        "Converting the Register Transfer Level (RTL) code into a gate-level netlist.",
+        "Assigning physical locations on the chip for all standard cells and macros while optimizing for timing, power, and area.",
+        "Connecting all the placed components with metal traces.",
+        "Verifying the logical equivalence between RTL and the post-layout netlist.",
+        "Performing static timing analysis to check for timing violations."
       ],
       "correct": 1
     }
