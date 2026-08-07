@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
+      "question": "What is the primary purpose of an Instruction Set Architecture (ISA) in computer architecture?",
       "options": [
-        "Storing program instructions and data.",
-        "Managing input/output operations.",
-        "Performing arithmetic and logical operations.",
-        "Controlling the overall execution sequence of instructions.",
-        "Translating virtual addresses to physical addresses."
+        "To define the physical layout and pinout of the CPU package.",
+        "To specify the power supply requirements and voltage levels for the processor.",
+        "To provide a standard interface between software and hardware, defining the instructions a processor can execute and how it accesses memory.",
+        "To dictate the manufacturing process and materials used in fabricating the integrated circuit.",
+        "To describe the methodology for testing the CPU's functional correctness."
       ],
       "correct": 2
     },
     {
-      "question": "In a typical CPU pipeline, what is the primary role of the 'Instruction Fetch (IF)' stage?",
+      "question": "In digital IC design, particularly for multi-voltage designs, what is the primary role of a 'level shifter' circuit?",
       "options": [
-        "Decoding the fetched instruction to determine its operation.",
-        "Executing the arithmetic and logical operations.",
-        "Accessing data from memory.",
-        "Retrieving the next instruction from memory or instruction cache.",
-        "Writing the result of an operation back to a register."
+        "To convert an analog input signal into a digital output signal.",
+        "To amplify a weak digital signal to drive a large load.",
+        "To synchronize signals crossing different clock domains.",
+        "To translate a digital signal from one voltage domain to another (e.g., from 0.8V to 1.2V).",
+        "To buffer high-frequency signals to reduce reflection and noise."
       ],
       "correct": 3
     },
     {
-      "question": "In an out-of-order execution processor, what is the primary purpose of 'Register Renaming'?",
+      "question": "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis (CTS)'?",
       "options": [
-        "To reduce the number of physical registers required.",
-        "To simplify the instruction decoding process.",
-        "To eliminate Write-After-Write (WAW) and Write-After-Read (WAR) hazards by providing unique physical registers for each instruction's output.",
-        "To ensure that instructions commit in program order.",
-        "To prefetch data from memory into caches."
+        "To minimize the power consumption of all combinational logic gates in the design.",
+        "To optimize the routing density of signal interconnects across the chip.",
+        "To ensure that the clock signal reaches all synchronous elements (e.g., flip-flops) with minimal skew and delay.",
+        "To reduce the overall area consumed by the core logic of the design.",
+        "To verify the functional correctness of the clock generator circuit."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of Clock Domain Crossing (CDC) in digital IC design, what is the primary role of a synchronizer circuit?",
+      "question": "Which of the following best describes the fundamental principle of 'Transactional Memory' as a concurrency control mechanism in multi-core systems?",
       "options": [
-        "To increase the clock frequency of a faster clock domain.",
-        "To convert parallel data to serial data for transmission between domains.",
-        "To safely transfer signals between two clock domains operating at different frequencies or phases, mitigating metastability.",
-        "To reduce power consumption by temporarily stopping clocks.",
-        "To combine multiple clock signals into a single, unified clock."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the main goal of the 'placement' step?",
-      "options": [
-        "Converting the Register Transfer Level (RTL) code into a gate-level netlist.",
-        "Assigning physical locations on the chip for all standard cells and macros while optimizing for timing, power, and area.",
-        "Connecting all the placed components with metal traces.",
-        "Verifying the logical equivalence between RTL and the post-layout netlist.",
-        "Performing static timing analysis to check for timing violations."
+        "It ensures that all memory operations are executed strictly in the program order across all cores.",
+        "It provides a mechanism to group a sequence of memory operations into an atomic transaction, which either completes successfully or aborts, restoring the original state.",
+        "It is a hardware-only mechanism for virtual memory translation, replacing the traditional Translation Lookaside Buffer (TLB).",
+        "It optimizes cache coherence protocols by always writing modified data directly to main memory.",
+        "It allows multiple threads to access shared data structures simultaneously without any form of synchronization."
       ],
       "correct": 1
+    },
+    {
+      "question": "In the early stages of the physical design flow for a complex System-on-Chip (SoC), what is the primary goal of 'Floorplanning'?",
+      "options": [
+        "To generate detailed transistor-level schematics for all logic gates.",
+        "To perform Static Timing Analysis (STA) to identify critical timing paths.",
+        "To determine the approximate size, shape, and relative placement of major functional blocks (e.g., CPU cores, memory blocks, I/O peripherals) on the chip.",
+        "To connect power and ground rails to all standard cells and macros.",
+        "To verify that the layout adheres to all design rule checks (DRC) for manufacturing."
+      ],
+      "correct": 2
     }
   ]
 }
