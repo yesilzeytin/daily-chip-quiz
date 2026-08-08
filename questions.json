@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of an Instruction Set Architecture (ISA) in computer architecture?",
+      "question": "Which Boolean operation is represented by a circuit whose output is HIGH only when *all* its inputs are HIGH?",
       "options": [
-        "To define the physical layout and pinout of the CPU package.",
-        "To specify the power supply requirements and voltage levels for the processor.",
-        "To provide a standard interface between software and hardware, defining the instructions a processor can execute and how it accesses memory.",
-        "To dictate the manufacturing process and materials used in fabricating the integrated circuit.",
-        "To describe the methodology for testing the CPU's functional correctness."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In digital IC design, particularly for multi-voltage designs, what is the primary role of a 'level shifter' circuit?",
-      "options": [
-        "To convert an analog input signal into a digital output signal.",
-        "To amplify a weak digital signal to drive a large load.",
-        "To synchronize signals crossing different clock domains.",
-        "To translate a digital signal from one voltage domain to another (e.g., from 0.8V to 1.2V).",
-        "To buffer high-frequency signals to reduce reflection and noise."
+        "OR gate",
+        "XOR gate",
+        "NAND gate",
+        "AND gate",
+        "NOR gate"
       ],
       "correct": 3
     },
     {
-      "question": "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis (CTS)'?",
+      "question": "When a cache needs to evict a block to make space for a new one, which replacement policy chooses the block that has not been accessed for the longest period of time?",
       "options": [
-        "To minimize the power consumption of all combinational logic gates in the design.",
-        "To optimize the routing density of signal interconnects across the chip.",
-        "To ensure that the clock signal reaches all synchronous elements (e.g., flip-flops) with minimal skew and delay.",
-        "To reduce the overall area consumed by the core logic of the design.",
-        "To verify the functional correctness of the clock generator circuit."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following best describes the fundamental principle of 'Transactional Memory' as a concurrency control mechanism in multi-core systems?",
-      "options": [
-        "It ensures that all memory operations are executed strictly in the program order across all cores.",
-        "It provides a mechanism to group a sequence of memory operations into an atomic transaction, which either completes successfully or aborts, restoring the original state.",
-        "It is a hardware-only mechanism for virtual memory translation, replacing the traditional Translation Lookaside Buffer (TLB).",
-        "It optimizes cache coherence protocols by always writing modified data directly to main memory.",
-        "It allows multiple threads to access shared data structures simultaneously without any form of synchronization."
+        "First-In, First-Out (FIFO)",
+        "Least Recently Used (LRU)",
+        "Most Recently Used (MRU)",
+        "Random Replacement",
+        "Optimal Replacement (OPT)"
       ],
       "correct": 1
     },
     {
-      "question": "In the early stages of the physical design flow for a complex System-on-Chip (SoC), what is the primary goal of 'Floorplanning'?",
+      "question": "In the modern ASIC/FPGA design flow, what is the primary benefit of High-Level Synthesis (HLS) compared to traditional Register Transfer Level (RTL) design?",
       "options": [
-        "To generate detailed transistor-level schematics for all logic gates.",
-        "To perform Static Timing Analysis (STA) to identify critical timing paths.",
-        "To determine the approximate size, shape, and relative placement of major functional blocks (e.g., CPU cores, memory blocks, I/O peripherals) on the chip.",
-        "To connect power and ground rails to all standard cells and macros.",
-        "To verify that the layout adheres to all design rule checks (DRC) for manufacturing."
+        "HLS generates more compact and power-efficient gate-level netlists automatically.",
+        "HLS allows designers to specify hardware behavior using higher-level languages (e.g., C/C++/SystemC), accelerating design exploration and verification.",
+        "HLS automatically performs detailed physical layout and routing, eliminating manual intervention.",
+        "HLS guarantees formal verification of all design properties without additional effort.",
+        "HLS optimizes for custom analog circuit blocks within a digital design."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which architectural philosophy typically features a small, highly optimized instruction set, fixed-length instructions, and a large number of general-purpose registers to facilitate pipelining and faster execution?",
+      "options": [
+        "Complex Instruction Set Computer (CISC)",
+        "Very Long Instruction Word (VLIW)",
+        "Reduced Instruction Set Computer (RISC)",
+        "Graphics Processing Unit (GPU) architecture",
+        "Array Processor architecture"
       ],
       "correct": 2
+    },
+    {
+      "question": "In deep submicron integrated circuit design, which reliability concern arises from the momentum transfer from conducting electrons to metal ions, causing the gradual displacement of metal atoms in interconnects and eventually leading to opens or shorts?",
+      "options": [
+        "Latch-up",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Hot Carrier Injection (HCI)",
+        "Electromigration (EM)",
+        "Process Variation (PV)"
+      ],
+      "correct": 3
     }
   ]
 }

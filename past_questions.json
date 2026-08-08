@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a D-type flip-flop in a synchronous digital circuit?",
-  "Which of the following techniques allows a peripheral device to directly read from or write to main memory without involving the CPU, thereby freeing up the CPU for other tasks?",
-  "In the context of synchronous digital design, what is 'setup time' for a flip-flop?",
-  "Which architectural paradigm involves fetching, decoding, and executing multiple instructions *from a single instruction stream* in parallel using multiple execution units, often relying on dynamic instruction scheduling?",
-  "During the physical verification stage of IC design, besides Design Rule Check (DRC) and Layout Versus Schematic (LVS), which analysis is crucial for ensuring that the actual layout meets electrical performance requirements by checking for excessive voltage drops in power delivery networks?",
   "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
   "In a computer system with a write-back cache, what is the primary purpose of a \"write buffer\"?",
   "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of using hardware emulation over traditional RTL simulation?",
@@ -48,5 +43,10 @@
   "In digital IC design, particularly for multi-voltage designs, what is the primary role of a 'level shifter' circuit?",
   "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis (CTS)'?",
   "Which of the following best describes the fundamental principle of 'Transactional Memory' as a concurrency control mechanism in multi-core systems?",
-  "In the early stages of the physical design flow for a complex System-on-Chip (SoC), what is the primary goal of 'Floorplanning'?"
+  "In the early stages of the physical design flow for a complex System-on-Chip (SoC), what is the primary goal of 'Floorplanning'?",
+  "Which Boolean operation is represented by a circuit whose output is HIGH only when *all* its inputs are HIGH?",
+  "When a cache needs to evict a block to make space for a new one, which replacement policy chooses the block that has not been accessed for the longest period of time?",
+  "In the modern ASIC/FPGA design flow, what is the primary benefit of High-Level Synthesis (HLS) compared to traditional Register Transfer Level (RTL) design?",
+  "Which architectural philosophy typically features a small, highly optimized instruction set, fixed-length instructions, and a large number of general-purpose registers to facilitate pipelining and faster execution?",
+  "In deep submicron integrated circuit design, which reliability concern arises from the momentum transfer from conducting electrons to metal ions, causing the gradual displacement of metal atoms in interconnects and eventually leading to opens or shorts?"
 ]
