@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which Boolean operation is represented by a circuit whose output is HIGH only when *all* its inputs are HIGH?",
+      "question": "What is the primary function of a multiplexer (MUX) in digital circuits?",
       "options": [
-        "OR gate",
-        "XOR gate",
-        "NAND gate",
-        "AND gate",
-        "NOR gate"
+        "To store a single bit of data.",
+        "To convert analog signals to digital signals.",
+        "To perform arithmetic operations.",
+        "To select one of several input signals and route it to a single output.",
+        "To amplify an input signal."
       ],
       "correct": 3
     },
     {
-      "question": "When a cache needs to evict a block to make space for a new one, which replacement policy chooses the block that has not been accessed for the longest period of time?",
+      "question": "In cache memory design, what is the primary advantage of a 2-way set-associative cache compared to a direct-mapped cache of the same total capacity?",
       "options": [
-        "First-In, First-Out (FIFO)",
-        "Least Recently Used (LRU)",
-        "Most Recently Used (MRU)",
-        "Random Replacement",
-        "Optimal Replacement (OPT)"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the modern ASIC/FPGA design flow, what is the primary benefit of High-Level Synthesis (HLS) compared to traditional Register Transfer Level (RTL) design?",
-      "options": [
-        "HLS generates more compact and power-efficient gate-level netlists automatically.",
-        "HLS allows designers to specify hardware behavior using higher-level languages (e.g., C/C++/SystemC), accelerating design exploration and verification.",
-        "HLS automatically performs detailed physical layout and routing, eliminating manual intervention.",
-        "HLS guarantees formal verification of all design properties without additional effort.",
-        "HLS optimizes for custom analog circuit blocks within a digital design."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which architectural philosophy typically features a small, highly optimized instruction set, fixed-length instructions, and a large number of general-purpose registers to facilitate pipelining and faster execution?",
-      "options": [
-        "Complex Instruction Set Computer (CISC)",
-        "Very Long Instruction Word (VLIW)",
-        "Reduced Instruction Set Computer (RISC)",
-        "Graphics Processing Unit (GPU) architecture",
-        "Array Processor architecture"
+        "It always achieves a 100% hit rate.",
+        "It consumes significantly less power.",
+        "It reduces the likelihood of conflict misses by allowing more flexibility in block placement.",
+        "It completely eliminates the need for a cache coherence protocol in multi-core systems.",
+        "It has a simpler addressing mechanism, leading to faster lookups."
       ],
       "correct": 2
     },
     {
-      "question": "In deep submicron integrated circuit design, which reliability concern arises from the momentum transfer from conducting electrons to metal ions, causing the gradual displacement of metal atoms in interconnects and eventually leading to opens or shorts?",
+      "question": "In the digital IC design flow, what is the fundamental objective of Static Timing Analysis (STA)?",
       "options": [
-        "Latch-up",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Hot Carrier Injection (HCI)",
-        "Electromigration (EM)",
-        "Process Variation (PV)"
+        "To formally prove the logical equivalence between two design representations.",
+        "To simulate the functional behavior of the design across all possible input vectors.",
+        "To automatically generate the physical layout from the Register Transfer Level (RTL) description.",
+        "To verify that all timing constraints (e.g., setup and hold times) are met across all process, voltage, and temperature corners without requiring functional simulation.",
+        "To optimize the power consumption of the design by identifying and removing redundant logic."
       ],
       "correct": 3
+    },
+    {
+      "question": "In a pipelined processor, 'data forwarding' or 'bypassing' is a technique primarily used to mitigate which type of hazard?",
+      "options": [
+        "Structural hazards, by providing additional hardware resources.",
+        "Control hazards, by predicting branch outcomes.",
+        "Data hazards, by routing the result of an instruction directly from an internal pipeline stage to a subsequent instruction that needs it, before it's written to the register file.",
+        "Interrupt hazards, by deferring interrupt processing until the pipeline is flushed.",
+        "Memory hazards, by reordering memory access operations."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary purpose of packaging an integrated circuit (IC) die?",
+      "options": [
+        "To significantly reduce the power consumption of the chip during operation.",
+        "To enable direct connection of the silicon die to the user's software.",
+        "To increase the clock frequency of the IC.",
+        "To solely provide aesthetic appeal to the end product.",
+        "To protect the delicate silicon die from physical damage and provide electrical connections for external circuits."
+      ],
+      "correct": 4
     }
   ]
 }

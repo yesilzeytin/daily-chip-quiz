@@ -1,9 +1,4 @@
 [
-  "What is the primary distinction between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
-  "In a computer system with a write-back cache, what is the primary purpose of a \"write buffer\"?",
-  "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of using hardware emulation over traditional RTL simulation?",
-  "As semiconductor technology scales down to advanced nodes (e.g., 7nm and below), the relative contribution of interconnect delay to overall circuit delay significantly increases compared to gate delay. What is the primary reason for this phenomenon?",
-  "In modern CPU architectures, what is the primary benefit of Simultaneous Multi-Threading (SMT), often referred to as Hyper-Threading by Intel?",
   "What is the purpose of a Look-Up Table (LUT) in a Field-Programmable Gate Array (FPGA)?",
   "In a typical CPU pipeline, what is the primary role of the 'Decode' stage?",
   "In Design For Testability (DFT), what is the main benefit of incorporating 'scan chains' into a digital IC?",
@@ -48,5 +43,10 @@
   "When a cache needs to evict a block to make space for a new one, which replacement policy chooses the block that has not been accessed for the longest period of time?",
   "In the modern ASIC/FPGA design flow, what is the primary benefit of High-Level Synthesis (HLS) compared to traditional Register Transfer Level (RTL) design?",
   "Which architectural philosophy typically features a small, highly optimized instruction set, fixed-length instructions, and a large number of general-purpose registers to facilitate pipelining and faster execution?",
-  "In deep submicron integrated circuit design, which reliability concern arises from the momentum transfer from conducting electrons to metal ions, causing the gradual displacement of metal atoms in interconnects and eventually leading to opens or shorts?"
+  "In deep submicron integrated circuit design, which reliability concern arises from the momentum transfer from conducting electrons to metal ions, causing the gradual displacement of metal atoms in interconnects and eventually leading to opens or shorts?",
+  "What is the primary function of a multiplexer (MUX) in digital circuits?",
+  "In cache memory design, what is the primary advantage of a 2-way set-associative cache compared to a direct-mapped cache of the same total capacity?",
+  "In the digital IC design flow, what is the fundamental objective of Static Timing Analysis (STA)?",
+  "In a pipelined processor, 'data forwarding' or 'bypassing' is a technique primarily used to mitigate which type of hazard?",
+  "What is the primary purpose of packaging an integrated circuit (IC) die?"
 ]
