@@ -1,9 +1,4 @@
 [
-  "What does the acronym CMOS primarily refer to in the context of digital circuits?",
-  "In a processor's memory management unit (MMU), what is the primary function of a Translation Lookaside Buffer (TLB)?",
-  "Which technique allows a processor to execute instructions *before* it is certain whether they will be needed, particularly useful for optimizing performance around conditional branches?",
-  "In the physical design and verification of high-speed integrated circuits, what is the primary concern addressed by 'Signal Integrity (SI)' analysis?",
-  "In the context of verifying complex System-on-Chip (SoC) designs, what is the primary advantage of employing a coverage-driven verification (CDV) methodology?",
   "What is the general trend described by Moore's Law in the context of integrated circuits?",
   "In the digital IC design flow, after the Register Transfer Level (RTL) design is completed, what is the primary objective of the 'synthesis' step?",
   "In the context of memory hierarchies in computer architecture, which of the following best describes the principle of 'cache coherence'?",
@@ -48,5 +43,10 @@
   "In high-speed digital integrated circuit design, what is the primary function of on-die or package-level decoupling capacitors?",
   "In the context of digital IC verification, what is the primary advantage of employing **Formal Verification** techniques compared to traditional simulation-based verification?",
   "In a Central Processing Unit (CPU), which component is primarily responsible for interpreting instructions and generating the control signals to orchestrate the operations of other CPU components (like the ALU, registers, and memory)?",
-  "What is the fundamental semiconductor device that acts as an electronically controlled switch and is the basic building block of all modern digital integrated circuits?"
+  "What is the fundamental semiconductor device that acts as an electronically controlled switch and is the basic building block of all modern digital integrated circuits?",
+  "Which type of memory loses its stored information when the power supply is removed?",
+  "Which of the following describes a processor architecture where a single instruction can perform multiple operations, such as memory access, arithmetic operations, and register modifications, often with varying instruction lengths?",
+  "In the verification of complex System-on-Chip (SoC) designs, which methodology involves mapping the RTL design onto a reconfigurable hardware platform (like an FPGA) to achieve near real-time execution speeds for extensive software and system-level testing?",
+  "What is the primary purpose of Error-Correcting Code (ECC) memory in a computer system?",
+  "In advanced semiconductor technology, which technique involves applying a voltage to the bulk (substrate) terminal of a MOSFET to adjust its threshold voltage (Vt) and thereby control leakage current or performance characteristics?"
 ]
