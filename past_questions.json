@@ -1,9 +1,4 @@
 [
-  "What is the general trend described by Moore's Law in the context of integrated circuits?",
-  "In the digital IC design flow, after the Register Transfer Level (RTL) design is completed, what is the primary objective of the 'synthesis' step?",
-  "In the context of memory hierarchies in computer architecture, which of the following best describes the principle of 'cache coherence'?",
-  "For an out-of-order execution processor, which component is primarily responsible for tracking the state of in-flight instructions, managing their commitment (writing results to architectural state) in program order, and handling precise exceptions?",
-  "In the manufacturing process of integrated circuits, what is the primary purpose of 'photolithography'?",
   "What is the main characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
   "In a pipelined processor, what is a 'structural hazard'?",
   "What is the primary reason for applying chemical mechanical planarization (CMP) during the fabrication of modern integrated circuits?",
@@ -48,5 +43,10 @@
   "Which of the following describes a processor architecture where a single instruction can perform multiple operations, such as memory access, arithmetic operations, and register modifications, often with varying instruction lengths?",
   "In the verification of complex System-on-Chip (SoC) designs, which methodology involves mapping the RTL design onto a reconfigurable hardware platform (like an FPGA) to achieve near real-time execution speeds for extensive software and system-level testing?",
   "What is the primary purpose of Error-Correcting Code (ECC) memory in a computer system?",
-  "In advanced semiconductor technology, which technique involves applying a voltage to the bulk (substrate) terminal of a MOSFET to adjust its threshold voltage (Vt) and thereby control leakage current or performance characteristics?"
+  "In advanced semiconductor technology, which technique involves applying a voltage to the bulk (substrate) terminal of a MOSFET to adjust its threshold voltage (Vt) and thereby control leakage current or performance characteristics?",
+  "In digital electronics, what does the acronym FPGA stand for?",
+  "In a modern pipelined CPU architecture, what is the primary role of a Branch Predictor?",
+  "In the context of digital IC design, what is the primary goal of implementing Design for Testability (DFT) techniques?",
+  "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) store a single bit of information?",
+  "In the design of high-speed arithmetic logic units (ALUs), what is the primary advantage of a Carry-Lookahead Adder (CLA) compared to a Ripple-Carry Adder (RCA)?"
 ]
