@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital electronics, what does the acronym FPGA stand for?",
+      "question": "What is the primary function of a D-type flip-flop in a synchronous digital circuit?",
       "options": [
-        "Field-Programmable Gate Array",
-        "Fast Processing Global Architecture",
-        "Frequency-Phase Gate Alliance",
-        "Flexible Peripheral Gated Array",
-        "Fundamental Programmed Gate Algorithm"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a modern pipelined CPU architecture, what is the primary role of a Branch Predictor?",
-      "options": [
-        "To accelerate floating-point arithmetic operations",
-        "To manage cache memory coherence between multiple cores",
-        "To estimate the likely outcome of a conditional branch instruction before it is fully evaluated",
-        "To perform dynamic voltage and frequency scaling",
-        "To ensure data integrity during memory transactions"
+        "Amplify input signals for stronger drive.",
+        "Generate clock signals for the system.",
+        "Store a single bit of data and synchronize it to a clock edge.",
+        "Perform complex arithmetic operations such as multiplication.",
+        "Convert analog signals into digital values."
       ],
       "correct": 2
     },
     {
-      "question": "In the context of digital IC design, what is the primary goal of implementing Design for Testability (DFT) techniques?",
+      "question": "In computer architecture, which principle states that if a particular memory location is accessed, it is likely that nearby memory locations will be accessed soon?",
       "options": [
-        "To minimize the total power consumption of the chip",
-        "To improve the performance of critical timing paths",
-        "To facilitate the testing of manufactured chips for defects",
-        "To reduce the physical area occupied by the logic gates",
-        "To automatically synthesize the RTL code into a gate-level netlist"
+        "Temporal Locality",
+        "Memory Consistency",
+        "Data Forwarding",
+        "Spatial Locality",
+        "Instruction-Level Parallelism"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) store a single bit of information?",
+      "question": "In the context of Static Timing Analysis (STA) for digital ICs, what is a 'false path'?",
       "options": [
-        "SRAM uses a capacitor to store charge, while DRAM uses a flip-flop",
-        "SRAM uses a flip-flop, while DRAM uses a capacitor to store charge",
-        "SRAM uses a magnetic domain, while DRAM uses an electrical current",
-        "SRAM stores data permanently, while DRAM is volatile",
-        "SRAM is read-only, while DRAM is read-write"
+        "A path that has a variable delay based on operating temperature.",
+        "A path in the circuit that can never be sensitized by any valid input sequence, and therefore does not need to be timed.",
+        "A critical path identified by the tool that cannot meet timing requirements under any circumstances.",
+        "A path intentionally designed to take multiple clock cycles for data propagation.",
+        "A path used exclusively for test and debug purposes, not normal operation."
       ],
       "correct": 1
     },
     {
-      "question": "In the design of high-speed arithmetic logic units (ALUs), what is the primary advantage of a Carry-Lookahead Adder (CLA) compared to a Ripple-Carry Adder (RCA)?",
+      "question": "As semiconductor manufacturing processes scale to smaller technology nodes (e.g., 7nm, 5nm), which phenomenon becomes increasingly challenging, leading to significant variations in transistor characteristics (e.g., threshold voltage, drive current) across a chip and between different chips?",
       "options": [
-        "It consumes significantly less power due to fewer transistors",
-        "It requires fewer input pins for large number additions",
-        "It reduces the worst-case propagation delay by computing carry bits in parallel",
-        "It is simpler to implement in hardware due to its sequential structure",
-        "It can only perform subtraction operations efficiently"
+        "Electromigration",
+        "Dielectric Breakdown",
+        "Process Variability",
+        "Alpha Particle Soft Errors",
+        "Latch-up"
       ],
       "correct": 2
+    },
+    {
+      "question": "What is the primary purpose of a 'bus' in a computer system or an integrated circuit?",
+      "options": [
+        "To temporarily store large amounts of data for the CPU.",
+        "To convert analog signals to digital signals.",
+        "To generate the main clock frequency for the system.",
+        "To provide a shared communication pathway for data, addresses, and control signals between multiple components.",
+        "To regulate power supply to various components."
+      ],
+      "correct": 3
     }
   ]
 }

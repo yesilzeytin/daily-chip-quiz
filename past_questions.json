@@ -1,9 +1,4 @@
 [
-  "What is the main characteristic that distinguishes a combinational logic circuit from a sequential logic circuit?",
-  "In a pipelined processor, what is a 'structural hazard'?",
-  "What is the primary reason for applying chemical mechanical planarization (CMP) during the fabrication of modern integrated circuits?",
-  "In a multiprocessor system, which memory consistency model guarantees that the result of any execution is the same as if all operations had executed in some sequential order, and the operations of each individual processor appear in that sequence in the order specified by its program?",
-  "In the context of digital ICs, what is a 'glitch' or 'hazard' in a combinational circuit?",
   "What is the primary purpose of 'clock gating' in synchronous digital IC design?",
   "In computer architecture, what is the primary objective of Dynamic Voltage and Frequency Scaling (DVFS)?",
   "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
@@ -48,5 +43,10 @@
   "In a modern pipelined CPU architecture, what is the primary role of a Branch Predictor?",
   "In the context of digital IC design, what is the primary goal of implementing Design for Testability (DFT) techniques?",
   "What is the fundamental difference in how Static Random-Access Memory (SRAM) and Dynamic Random-Access Memory (DRAM) store a single bit of information?",
-  "In the design of high-speed arithmetic logic units (ALUs), what is the primary advantage of a Carry-Lookahead Adder (CLA) compared to a Ripple-Carry Adder (RCA)?"
+  "In the design of high-speed arithmetic logic units (ALUs), what is the primary advantage of a Carry-Lookahead Adder (CLA) compared to a Ripple-Carry Adder (RCA)?",
+  "What is the primary function of a D-type flip-flop in a synchronous digital circuit?",
+  "In computer architecture, which principle states that if a particular memory location is accessed, it is likely that nearby memory locations will be accessed soon?",
+  "In the context of Static Timing Analysis (STA) for digital ICs, what is a 'false path'?",
+  "As semiconductor manufacturing processes scale to smaller technology nodes (e.g., 7nm, 5nm), which phenomenon becomes increasingly challenging, leading to significant variations in transistor characteristics (e.g., threshold voltage, drive current) across a chip and between different chips?",
+  "What is the primary purpose of a 'bus' in a computer system or an integrated circuit?"
 ]
