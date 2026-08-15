@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of 'clock gating' in synchronous digital IC design?",
-  "In computer architecture, what is the primary objective of Dynamic Voltage and Frequency Scaling (DVFS)?",
-  "In the context of Application-Specific Integrated Circuit (ASIC) design, what is the primary role of a 'standard cell library'?",
-  "What is the primary architectural distinction between a Central Processing Unit (CPU) and a Graphics Processing Unit (GPU) regarding their approach to parallel computation?",
-  "In advanced semiconductor manufacturing, what is the primary advantage of FinFET (Fin Field-Effect Transistor) technology over traditional planar MOSFETs?",
   "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
   "In a typical CPU pipeline, what is the primary role of the 'Instruction Fetch (IF)' stage?",
   "In an out-of-order execution processor, what is the primary purpose of 'Register Renaming'?",
@@ -48,5 +43,10 @@
   "In computer architecture, which principle states that if a particular memory location is accessed, it is likely that nearby memory locations will be accessed soon?",
   "In the context of Static Timing Analysis (STA) for digital ICs, what is a 'false path'?",
   "As semiconductor manufacturing processes scale to smaller technology nodes (e.g., 7nm, 5nm), which phenomenon becomes increasingly challenging, leading to significant variations in transistor characteristics (e.g., threshold voltage, drive current) across a chip and between different chips?",
-  "What is the primary purpose of a 'bus' in a computer system or an integrated circuit?"
+  "What is the primary purpose of a 'bus' in a computer system or an integrated circuit?",
+  "In computer architecture, what defines the interface between software and hardware, specifying the set of instructions a processor can execute, its registers, and memory models, without detailing its internal implementation?",
+  "In a pipelined processor, which type of hazard occurs when two or more instructions require the same hardware resource at the same time, such as two instructions trying to use the same memory port or functional unit in the same clock cycle?",
+  "During the post-silicon validation phase of an integrated circuit, what is the primary purpose of 'Shmoo Plotting'?",
+  "In the physical verification stage of digital IC design, what is the primary objective of 'Layout Versus Schematic' (LVS) checking?",
+  "In digital circuits, what is the primary function of a decoder?"
 ]
