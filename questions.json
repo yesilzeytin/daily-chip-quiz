@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In computer architecture, what defines the interface between software and hardware, specifying the set of instructions a processor can execute, its registers, and memory models, without detailing its internal implementation?",
+      "question": "What does CMOS stand for in digital integrated circuits?",
       "options": [
-        "Microarchitecture",
-        "Physical Design",
-        "Instruction Set Architecture (ISA)",
-        "Register Transfer Level (RTL)",
-        "System-on-Chip (SoC)"
+        "Complementary Metal-Oxide-Semiconductor",
+        "Central Memory Operating System",
+        "Current Mode Output Source",
+        "Charged Micro-Optical System",
+        "Common Mode Offset Signal"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "In a pipelined processor, which type of hazard occurs when two or more instructions require the same hardware resource at the same time, such as two instructions trying to use the same memory port or functional unit in the same clock cycle?",
+      "question": "In the digital IC design flow, what is the primary objective of the 'synthesis' step at the Register Transfer Level (RTL)?",
       "options": [
-        "Data Hazard",
-        "Control Hazard",
-        "Structural Hazard",
-        "Memory Hazard",
-        "Latency Hazard"
+        "To convert the logical design (RTL) into a gate-level netlist.",
+        "To verify the functional correctness of the design using simulation.",
+        "To perform physical placement and routing of standard cells.",
+        "To optimize the power supply network across the chip.",
+        "To generate test vectors for post-silicon validation."
       ],
-      "correct": 2
+      "correct": 0
     },
     {
-      "question": "During the post-silicon validation phase of an integrated circuit, what is the primary purpose of 'Shmoo Plotting'?",
+      "question": "Which memory consistency model ensures that all memory operations appear to execute in the program order specified by each individual processor, and all processors observe the same global order of writes, even across different processors?",
       "options": [
-        "To generate the final GDSII layout for tape-out.",
-        "To identify and characterize the operating voltage and frequency limits of the chip.",
-        "To perform Static Timing Analysis (STA) on the fabricated silicon.",
-        "To verify the correctness of the logical design against the RTL specification.",
-        "To simulate parasitic capacitance and resistance post-layout extraction."
+        "Sequential Consistency",
+        "Weak Consistency",
+        "Release Consistency",
+        "Processor Consistency",
+        "Casual Consistency"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "In the physical verification stage of digital IC design, what is the primary objective of 'Layout Versus Schematic' (LVS) checking?",
+      "question": "In CMOS integrated circuits, which phenomenon describes a parasitic SCR (Silicon Controlled Rectifier) structure being accidentally triggered, leading to a low-resistance path between power and ground rails and potentially causing permanent device damage?",
       "options": [
-        "To verify that all transistors meet the minimum size requirements specified by design rules.",
-        "To ensure that the physical layout accurately represents the intended logical netlist.",
-        "To identify manufacturing defects on the fabricated silicon die.",
-        "To analyze the power consumption of the entire chip layout.",
-        "To optimize the placement of standard cells for better timing."
+        "Electromigration",
+        "Hot Carrier Injection (HCI)",
+        "Negative Bias Temperature Instability (NBTI)",
+        "Latch-up",
+        "Time Dependent Dielectric Breakdown (TDDB)"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In digital circuits, what is the primary function of a decoder?",
+      "question": "Which mechanism allows a peripheral device to directly transfer data to or from main memory without involving the CPU, thereby freeing up the CPU for other tasks?",
       "options": [
-        "To convert multiple input lines into a single output line, based on a select signal.",
-        "To convert a binary input code into a unique active output line.",
-        "To store a single bit of information and maintain its state.",
-        "To combine multiple input signals into a single output using a logical AND operation.",
-        "To amplify an analog signal for digital processing."
+        "Programmed I/O (PIO)",
+        "Direct Memory Access (DMA)",
+        "Memory-mapped I/O (MMIO)",
+        "Interrupt-driven I/O",
+        "Polling"
       ],
       "correct": 1
     }

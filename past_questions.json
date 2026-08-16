@@ -1,9 +1,4 @@
 [
-  "What is the primary function of the Arithmetic Logic Unit (ALU) in a Central Processing Unit (CPU)?",
-  "In a typical CPU pipeline, what is the primary role of the 'Instruction Fetch (IF)' stage?",
-  "In an out-of-order execution processor, what is the primary purpose of 'Register Renaming'?",
-  "In the context of Clock Domain Crossing (CDC) in digital IC design, what is the primary role of a synchronizer circuit?",
-  "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the main goal of the 'placement' step?",
   "What is the primary purpose of an Instruction Set Architecture (ISA) in computer architecture?",
   "In digital IC design, particularly for multi-voltage designs, what is the primary role of a 'level shifter' circuit?",
   "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis (CTS)'?",
@@ -48,5 +43,10 @@
   "In a pipelined processor, which type of hazard occurs when two or more instructions require the same hardware resource at the same time, such as two instructions trying to use the same memory port or functional unit in the same clock cycle?",
   "During the post-silicon validation phase of an integrated circuit, what is the primary purpose of 'Shmoo Plotting'?",
   "In the physical verification stage of digital IC design, what is the primary objective of 'Layout Versus Schematic' (LVS) checking?",
-  "In digital circuits, what is the primary function of a decoder?"
+  "In digital circuits, what is the primary function of a decoder?",
+  "What does CMOS stand for in digital integrated circuits?",
+  "In the digital IC design flow, what is the primary objective of the 'synthesis' step at the Register Transfer Level (RTL)?",
+  "Which memory consistency model ensures that all memory operations appear to execute in the program order specified by each individual processor, and all processors observe the same global order of writes, even across different processors?",
+  "In CMOS integrated circuits, which phenomenon describes a parasitic SCR (Silicon Controlled Rectifier) structure being accidentally triggered, leading to a low-resistance path between power and ground rails and potentially causing permanent device damage?",
+  "Which mechanism allows a peripheral device to directly transfer data to or from main memory without involving the CPU, thereby freeing up the CPU for other tasks?"
 ]
