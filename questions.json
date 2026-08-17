@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What does CMOS stand for in digital integrated circuits?",
+      "question": "In digital IC design, what is the primary purpose of a 'clock gating cell'?",
       "options": [
-        "Complementary Metal-Oxide-Semiconductor",
-        "Central Memory Operating System",
-        "Current Mode Output Source",
-        "Charged Micro-Optical System",
-        "Common Mode Offset Signal"
+        "To reduce dynamic power consumption by disabling clocks to inactive circuit blocks.",
+        "To synchronize asynchronous input signals to a clock domain.",
+        "To generate multiple clock phases from a single input clock.",
+        "To ensure proper timing closure by buffering high-fanout clock nets.",
+        "To provide a global reset signal for all sequential elements."
       ],
       "correct": 0
     },
     {
-      "question": "In the digital IC design flow, what is the primary objective of the 'synthesis' step at the Register Transfer Level (RTL)?",
+      "question": "In a CPU's memory management unit (MMU), what is the primary role of the Translation Lookaside Buffer (TLB)?",
       "options": [
-        "To convert the logical design (RTL) into a gate-level netlist.",
-        "To verify the functional correctness of the design using simulation.",
-        "To perform physical placement and routing of standard cells.",
-        "To optimize the power supply network across the chip.",
-        "To generate test vectors for post-silicon validation."
+        "To cache recently used virtual-to-physical address translations.",
+        "To buffer data being written to main memory.",
+        "To store frequently executed instructions for faster retrieval.",
+        "To translate instruction opcodes into micro-operations.",
+        "To manage cache coherency across multiple cores."
       ],
       "correct": 0
     },
     {
-      "question": "Which memory consistency model ensures that all memory operations appear to execute in the program order specified by each individual processor, and all processors observe the same global order of writes, even across different processors?",
+      "question": "Which of the following best describes the function of a 'scan chain' in the context of Design for Testability (DFT) for digital integrated circuits?",
       "options": [
-        "Sequential Consistency",
-        "Weak Consistency",
-        "Release Consistency",
-        "Processor Consistency",
-        "Casual Consistency"
+        "It provides a serial path to access and control the state of all sequential elements (flip-flops) during test mode.",
+        "It is a high-speed interface for communicating with external diagnostic equipment.",
+        "It synthesizes complex combinational logic into simpler gates.",
+        "It distributes clock signals to all parts of the chip with minimal skew.",
+        "It acts as a redundant backup path for critical data signals to improve reliability."
       ],
       "correct": 0
     },
     {
-      "question": "In CMOS integrated circuits, which phenomenon describes a parasitic SCR (Silicon Controlled Rectifier) structure being accidentally triggered, leading to a low-resistance path between power and ground rails and potentially causing permanent device damage?",
+      "question": "In advanced Static Timing Analysis (STA) for deep submicron technologies, what is the primary challenge addressed by applying 'On-Chip Variation (OCV)' or 'timing derates'?",
       "options": [
-        "Electromigration",
-        "Hot Carrier Injection (HCI)",
-        "Negative Bias Temperature Instability (NBTI)",
-        "Latch-up",
-        "Time Dependent Dielectric Breakdown (TDDB)"
+        "Accounting for variations in transistor performance and interconnect delays due to process, voltage, and temperature (PVT) fluctuations across the chip.",
+        "Reducing the number of clock domains to simplify synchronization issues.",
+        "Minimizing the power consumption of the clock distribution network.",
+        "Preventing the generation of spurious clock signals due to noise.",
+        "Ensuring that all logic gates operate at their maximum possible frequency."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "Which mechanism allows a peripheral device to directly transfer data to or from main memory without involving the CPU, thereby freeing up the CPU for other tasks?",
+      "question": "What is the primary characteristic that distinguishes 'Non-Volatile Memory' (NVM) from 'Volatile Memory'?",
       "options": [
-        "Programmed I/O (PIO)",
-        "Direct Memory Access (DMA)",
-        "Memory-mapped I/O (MMIO)",
-        "Interrupt-driven I/O",
-        "Polling"
+        "Non-Volatile Memory retains its stored information even when power is removed.",
+        "Non-Volatile Memory is significantly faster than Volatile Memory for read operations.",
+        "Non-Volatile Memory is typically used as the CPU's primary cache.",
+        "Non-Volatile Memory requires constant electrical refreshing to maintain data.",
+        "Non-Volatile Memory has a much smaller storage capacity compared to Volatile Memory."
       ],
-      "correct": 1
+      "correct": 0
     }
   ]
 }

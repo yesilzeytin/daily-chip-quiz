@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of an Instruction Set Architecture (ISA) in computer architecture?",
-  "In digital IC design, particularly for multi-voltage designs, what is the primary role of a 'level shifter' circuit?",
-  "During the physical design phase of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of 'Clock Tree Synthesis (CTS)'?",
-  "Which of the following best describes the fundamental principle of 'Transactional Memory' as a concurrency control mechanism in multi-core systems?",
-  "In the early stages of the physical design flow for a complex System-on-Chip (SoC), what is the primary goal of 'Floorplanning'?",
   "Which Boolean operation is represented by a circuit whose output is HIGH only when *all* its inputs are HIGH?",
   "When a cache needs to evict a block to make space for a new one, which replacement policy chooses the block that has not been accessed for the longest period of time?",
   "In the modern ASIC/FPGA design flow, what is the primary benefit of High-Level Synthesis (HLS) compared to traditional Register Transfer Level (RTL) design?",
@@ -48,5 +43,10 @@
   "In the digital IC design flow, what is the primary objective of the 'synthesis' step at the Register Transfer Level (RTL)?",
   "Which memory consistency model ensures that all memory operations appear to execute in the program order specified by each individual processor, and all processors observe the same global order of writes, even across different processors?",
   "In CMOS integrated circuits, which phenomenon describes a parasitic SCR (Silicon Controlled Rectifier) structure being accidentally triggered, leading to a low-resistance path between power and ground rails and potentially causing permanent device damage?",
-  "Which mechanism allows a peripheral device to directly transfer data to or from main memory without involving the CPU, thereby freeing up the CPU for other tasks?"
+  "Which mechanism allows a peripheral device to directly transfer data to or from main memory without involving the CPU, thereby freeing up the CPU for other tasks?",
+  "In digital IC design, what is the primary purpose of a 'clock gating cell'?",
+  "In a CPU's memory management unit (MMU), what is the primary role of the Translation Lookaside Buffer (TLB)?",
+  "Which of the following best describes the function of a 'scan chain' in the context of Design for Testability (DFT) for digital integrated circuits?",
+  "In advanced Static Timing Analysis (STA) for deep submicron technologies, what is the primary challenge addressed by applying 'On-Chip Variation (OCV)' or 'timing derates'?",
+  "What is the primary characteristic that distinguishes 'Non-Volatile Memory' (NVM) from 'Volatile Memory'?"
 ]
