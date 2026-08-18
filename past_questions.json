@@ -1,9 +1,4 @@
 [
-  "Which Boolean operation is represented by a circuit whose output is HIGH only when *all* its inputs are HIGH?",
-  "When a cache needs to evict a block to make space for a new one, which replacement policy chooses the block that has not been accessed for the longest period of time?",
-  "In the modern ASIC/FPGA design flow, what is the primary benefit of High-Level Synthesis (HLS) compared to traditional Register Transfer Level (RTL) design?",
-  "Which architectural philosophy typically features a small, highly optimized instruction set, fixed-length instructions, and a large number of general-purpose registers to facilitate pipelining and faster execution?",
-  "In deep submicron integrated circuit design, which reliability concern arises from the momentum transfer from conducting electrons to metal ions, causing the gradual displacement of metal atoms in interconnects and eventually leading to opens or shorts?",
   "What is the primary function of a multiplexer (MUX) in digital circuits?",
   "In cache memory design, what is the primary advantage of a 2-way set-associative cache compared to a direct-mapped cache of the same total capacity?",
   "In the digital IC design flow, what is the fundamental objective of Static Timing Analysis (STA)?",
@@ -48,5 +43,10 @@
   "In a CPU's memory management unit (MMU), what is the primary role of the Translation Lookaside Buffer (TLB)?",
   "Which of the following best describes the function of a 'scan chain' in the context of Design for Testability (DFT) for digital integrated circuits?",
   "In advanced Static Timing Analysis (STA) for deep submicron technologies, what is the primary challenge addressed by applying 'On-Chip Variation (OCV)' or 'timing derates'?",
-  "What is the primary characteristic that distinguishes 'Non-Volatile Memory' (NVM) from 'Volatile Memory'?"
+  "What is the primary characteristic that distinguishes 'Non-Volatile Memory' (NVM) from 'Volatile Memory'?",
+  "In Dynamic Random-Access Memory (DRAM), which two primary components are used to store a single bit of data?",
+  "What is the primary benefit of a computer system implementing *virtual memory*?",
+  "In synchronous digital IC design, what is the primary goal of synthesizing a Clock Distribution Network (CDN), often referred to as a \"clock tree\"?",
+  "In a multi-core processor system, what is the primary function of a *cache coherence protocol* (e.g., MESI)?",
+  "After the logical synthesis of a digital circuit (converting RTL to a gate-level netlist), what is the typical next major step in the ASIC design flow before physical layout begins?"
 ]

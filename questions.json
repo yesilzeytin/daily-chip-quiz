@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital IC design, what is the primary purpose of a 'clock gating cell'?",
+      "question": "In Dynamic Random-Access Memory (DRAM), which two primary components are used to store a single bit of data?",
       "options": [
-        "To reduce dynamic power consumption by disabling clocks to inactive circuit blocks.",
-        "To synchronize asynchronous input signals to a clock domain.",
-        "To generate multiple clock phases from a single input clock.",
-        "To ensure proper timing closure by buffering high-fanout clock nets.",
-        "To provide a global reset signal for all sequential elements."
+        "A flip-flop and an inverter",
+        "A transistor and a capacitor",
+        "A resistor and an inductor",
+        "A NAND gate and a NOR gate",
+        "A multiplexer and a demultiplexer"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "In a CPU's memory management unit (MMU), what is the primary role of the Translation Lookaside Buffer (TLB)?",
+      "question": "What is the primary benefit of a computer system implementing *virtual memory*?",
       "options": [
-        "To cache recently used virtual-to-physical address translations.",
-        "To buffer data being written to main memory.",
-        "To store frequently executed instructions for faster retrieval.",
-        "To translate instruction opcodes into micro-operations.",
-        "To manage cache coherency across multiple cores."
+        "To increase the physical speed of RAM access.",
+        "To allow multiple processes to share the same physical memory securely and efficiently, providing each with its own private address space.",
+        "To reduce the power consumption of the CPU.",
+        "To enable faster execution of arithmetic logic unit (ALU) operations.",
+        "To provide a direct interface for graphics processing units (GPUs) to access system memory."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "Which of the following best describes the function of a 'scan chain' in the context of Design for Testability (DFT) for digital integrated circuits?",
+      "question": "In synchronous digital IC design, what is the primary goal of synthesizing a Clock Distribution Network (CDN), often referred to as a \"clock tree\"?",
       "options": [
-        "It provides a serial path to access and control the state of all sequential elements (flip-flops) during test mode.",
-        "It is a high-speed interface for communicating with external diagnostic equipment.",
-        "It synthesizes complex combinational logic into simpler gates.",
-        "It distributes clock signals to all parts of the chip with minimal skew.",
-        "It acts as a redundant backup path for critical data signals to improve reliability."
+        "To minimize the total power consumption of the logic gates.",
+        "To optimize the timing of asynchronous communication between different clock domains.",
+        "To ensure all flip-flops receive the clock signal at approximately the same time, minimizing clock skew and maintaining setup/hold times.",
+        "To reduce the number of transistors required for the clock generation circuitry.",
+        "To allow the CPU to dynamically adjust its operating frequency based on workload."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "question": "In advanced Static Timing Analysis (STA) for deep submicron technologies, what is the primary challenge addressed by applying 'On-Chip Variation (OCV)' or 'timing derates'?",
+      "question": "In a multi-core processor system, what is the primary function of a *cache coherence protocol* (e.g., MESI)?",
       "options": [
-        "Accounting for variations in transistor performance and interconnect delays due to process, voltage, and temperature (PVT) fluctuations across the chip.",
-        "Reducing the number of clock domains to simplify synchronization issues.",
-        "Minimizing the power consumption of the clock distribution network.",
-        "Preventing the generation of spurious clock signals due to noise.",
-        "Ensuring that all logic gates operate at their maximum possible frequency."
+        "To ensure that all memory requests are routed through a single, centralized cache controller for arbitration.",
+        "To maintain a consistent view of shared memory data across all local caches in the system.",
+        "To predict future memory accesses and prefetch data into the caches to reduce latency.",
+        "To provide an isolated and secure memory space for each individual processor core.",
+        "To convert virtual memory addresses into physical memory addresses for cache lookups."
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "question": "What is the primary characteristic that distinguishes 'Non-Volatile Memory' (NVM) from 'Volatile Memory'?",
+      "question": "After the logical synthesis of a digital circuit (converting RTL to a gate-level netlist), what is the typical next major step in the ASIC design flow before physical layout begins?",
       "options": [
-        "Non-Volatile Memory retains its stored information even when power is removed.",
-        "Non-Volatile Memory is significantly faster than Volatile Memory for read operations.",
-        "Non-Volatile Memory is typically used as the CPU's primary cache.",
-        "Non-Volatile Memory requires constant electrical refreshing to maintain data.",
-        "Non-Volatile Memory has a much smaller storage capacity compared to Volatile Memory."
+        "Post-silicon validation and characterization.",
+        "Design for Testability (DFT) insertion and verification.",
+        "High-Level Synthesis (HLS) from C/C++.",
+        "Fabrication of the integrated circuit.",
+        "Software application development for the target chip."
       ],
-      "correct": 0
+      "correct": 1
     }
   ]
 }
