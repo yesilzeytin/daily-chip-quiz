@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital circuits?",
-  "In cache memory design, what is the primary advantage of a 2-way set-associative cache compared to a direct-mapped cache of the same total capacity?",
-  "In the digital IC design flow, what is the fundamental objective of Static Timing Analysis (STA)?",
-  "In a pipelined processor, 'data forwarding' or 'bypassing' is a technique primarily used to mitigate which type of hazard?",
-  "What is the primary purpose of packaging an integrated circuit (IC) die?",
   "Which fundamental digital logic gate produces a HIGH (1) output only when *both* of its inputs are LOW (0)?",
   "In the physical verification stage of IC design, what is the primary purpose of Design Rule Checking (DRC)?",
   "In a computer system employing virtual memory, what is the primary function of a \"page table\"?",
@@ -48,5 +43,10 @@
   "What is the primary benefit of a computer system implementing *virtual memory*?",
   "In synchronous digital IC design, what is the primary goal of synthesizing a Clock Distribution Network (CDN), often referred to as a \"clock tree\"?",
   "In a multi-core processor system, what is the primary function of a *cache coherence protocol* (e.g., MESI)?",
-  "After the logical synthesis of a digital circuit (converting RTL to a gate-level netlist), what is the typical next major step in the ASIC design flow before physical layout begins?"
+  "After the logical synthesis of a digital circuit (converting RTL to a gate-level netlist), what is the typical next major step in the ASIC design flow before physical layout begins?",
+  "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
+  "Which of the following is a characteristic typically associated with a Reduced Instruction Set Computer (RISC) architecture?",
+  "In synchronous digital IC design, what is the primary challenge addressed by Clock Domain Crossing (CDC) techniques?",
+  "Which phenomenon in integrated circuit interconnects describes the mass transport of metal atoms under the influence of an electric current, leading to voids or hillocks and potentially causing open or short circuits over time?",
+  "What is the fundamental purpose of using a Hardware Description Language (HDL) like VHDL or Verilog in digital IC design?"
 ]

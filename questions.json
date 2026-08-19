@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In Dynamic Random-Access Memory (DRAM), which two primary components are used to store a single bit of data?",
+      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
       "options": [
-        "A flip-flop and an inverter",
-        "A transistor and a capacitor",
-        "A resistor and an inductor",
-        "A NAND gate and a NOR gate",
-        "A multiplexer and a demultiplexer"
+        "Performing arithmetic and logical operations.",
+        "Managing virtual memory pages.",
+        "Storing program instructions.",
+        "Generating clock signals.",
+        "Controlling data flow between peripheral devices."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a characteristic typically associated with a Reduced Instruction Set Computer (RISC) architecture?",
+      "options": [
+        "Complex instructions that perform multiple operations.",
+        "Variable-length instruction formats.",
+        "A large number of addressing modes.",
+        "A relatively small, uniform set of instructions, often single-cycle.",
+        "Extensive microprogramming for instruction decoding."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In synchronous digital IC design, what is the primary challenge addressed by Clock Domain Crossing (CDC) techniques?",
+      "options": [
+        "Minimizing power consumption in clock networks.",
+        "Ensuring proper data synchronization between circuits operating at different clock frequencies or phases.",
+        "Reducing the physical area occupied by clock buffers.",
+        "Preventing latch-up conditions in mixed-signal designs.",
+        "Optimizing the fan-out of clock signals for timing closure."
       ],
       "correct": 1
     },
     {
-      "question": "What is the primary benefit of a computer system implementing *virtual memory*?",
+      "question": "Which phenomenon in integrated circuit interconnects describes the mass transport of metal atoms under the influence of an electric current, leading to voids or hillocks and potentially causing open or short circuits over time?",
       "options": [
-        "To increase the physical speed of RAM access.",
-        "To allow multiple processes to share the same physical memory securely and efficiently, providing each with its own private address space.",
-        "To reduce the power consumption of the CPU.",
-        "To enable faster execution of arithmetic logic unit (ALU) operations.",
-        "To provide a direct interface for graphics processing units (GPUs) to access system memory."
+        "Process variation",
+        "Electromigration",
+        "Hot carrier injection",
+        "Negative bias temperature instability (NBTI)",
+        "Dielectric breakdown"
       ],
       "correct": 1
     },
     {
-      "question": "In synchronous digital IC design, what is the primary goal of synthesizing a Clock Distribution Network (CDN), often referred to as a \"clock tree\"?",
+      "question": "What is the fundamental purpose of using a Hardware Description Language (HDL) like VHDL or Verilog in digital IC design?",
       "options": [
-        "To minimize the total power consumption of the logic gates.",
-        "To optimize the timing of asynchronous communication between different clock domains.",
-        "To ensure all flip-flops receive the clock signal at approximately the same time, minimizing clock skew and maintaining setup/hold times.",
-        "To reduce the number of transistors required for the clock generation circuitry.",
-        "To allow the CPU to dynamically adjust its operating frequency based on workload."
+        "To write device drivers for operating systems.",
+        "To simulate power consumption in analog circuits.",
+        "To describe the behavior and structure of digital electronic circuits.",
+        "To compile high-level programming languages into machine code.",
+        "To design graphical user interfaces for embedded systems."
       ],
       "correct": 2
-    },
-    {
-      "question": "In a multi-core processor system, what is the primary function of a *cache coherence protocol* (e.g., MESI)?",
-      "options": [
-        "To ensure that all memory requests are routed through a single, centralized cache controller for arbitration.",
-        "To maintain a consistent view of shared memory data across all local caches in the system.",
-        "To predict future memory accesses and prefetch data into the caches to reduce latency.",
-        "To provide an isolated and secure memory space for each individual processor core.",
-        "To convert virtual memory addresses into physical memory addresses for cache lookups."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "After the logical synthesis of a digital circuit (converting RTL to a gate-level netlist), what is the typical next major step in the ASIC design flow before physical layout begins?",
-      "options": [
-        "Post-silicon validation and characterization.",
-        "Design for Testability (DFT) insertion and verification.",
-        "High-Level Synthesis (HLS) from C/C++.",
-        "Fabrication of the integrated circuit.",
-        "Software application development for the target chip."
-      ],
-      "correct": 1
     }
   ]
 }
