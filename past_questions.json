@@ -1,9 +1,4 @@
 [
-  "Which fundamental digital logic gate produces a HIGH (1) output only when *both* of its inputs are LOW (0)?",
-  "In the physical verification stage of IC design, what is the primary purpose of Design Rule Checking (DRC)?",
-  "In a computer system employing virtual memory, what is the primary function of a \"page table\"?",
-  "In an out-of-order execution processor, which optimization technique addresses a specific data dependency where a load instruction needs data that has just been written by a preceding store instruction to the *same* memory address, by allowing the load to directly retrieve the data from the store buffer rather than waiting for it to be committed to the cache?",
-  "In modern low-power digital IC design, what is the primary purpose of \"power gating\"?",
   "Which Hardware Description Language (HDL) is most commonly used for Register Transfer Level (RTL) design and verification in digital integrated circuits?",
   "In high-speed digital integrated circuit design, what is the primary function of on-die or package-level decoupling capacitors?",
   "In the context of digital IC verification, what is the primary advantage of employing **Formal Verification** techniques compared to traditional simulation-based verification?",
@@ -48,5 +43,10 @@
   "Which of the following is a characteristic typically associated with a Reduced Instruction Set Computer (RISC) architecture?",
   "In synchronous digital IC design, what is the primary challenge addressed by Clock Domain Crossing (CDC) techniques?",
   "Which phenomenon in integrated circuit interconnects describes the mass transport of metal atoms under the influence of an electric current, leading to voids or hillocks and potentially causing open or short circuits over time?",
-  "What is the fundamental purpose of using a Hardware Description Language (HDL) like VHDL or Verilog in digital IC design?"
+  "What is the fundamental purpose of using a Hardware Description Language (HDL) like VHDL or Verilog in digital IC design?",
+  "In the ASIC design flow, what is the significance of the 'tape-out' stage?",
+  "In a typical computer system's memory hierarchy, which level is characterized by the fastest access speed and smallest capacity, usually integrated directly into the CPU?",
+  "In synchronous digital circuit design, what does the 'setup time' constraint for a flip-flop primarily ensure?",
+  "In the fabrication of modern integrated circuits, what is the primary purpose of Chemical Mechanical Planarization (CMP)?",
+  "In computer architecture, which design approach allows a single processor core to execute multiple independent instructions concurrently from a *single instruction stream* by utilizing multiple execution units?"
 ]

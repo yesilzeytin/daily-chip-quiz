@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of the Arithmetic Logic Unit (ALU) within a CPU?",
+      "question": "In the ASIC design flow, what is the significance of the 'tape-out' stage?",
       "options": [
-        "Performing arithmetic and logical operations.",
-        "Managing virtual memory pages.",
-        "Storing program instructions.",
-        "Generating clock signals.",
-        "Controlling data flow between peripheral devices."
+        "The completion of the physical layout, ready for mask generation and fabrication.",
+        "The final stage of Register Transfer Level (RTL) coding.",
+        "The beginning of functional verification using testbenches.",
+        "The process of converting analog signals to digital.",
+        "The optimization of power consumption through clock gating."
       ],
       "correct": 0
     },
     {
-      "question": "Which of the following is a characteristic typically associated with a Reduced Instruction Set Computer (RISC) architecture?",
+      "question": "In a typical computer system's memory hierarchy, which level is characterized by the fastest access speed and smallest capacity, usually integrated directly into the CPU?",
       "options": [
-        "Complex instructions that perform multiple operations.",
-        "Variable-length instruction formats.",
-        "A large number of addressing modes.",
-        "A relatively small, uniform set of instructions, often single-cycle.",
-        "Extensive microprogramming for instruction decoding."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In synchronous digital IC design, what is the primary challenge addressed by Clock Domain Crossing (CDC) techniques?",
-      "options": [
-        "Minimizing power consumption in clock networks.",
-        "Ensuring proper data synchronization between circuits operating at different clock frequencies or phases.",
-        "Reducing the physical area occupied by clock buffers.",
-        "Preventing latch-up conditions in mixed-signal designs.",
-        "Optimizing the fan-out of clock signals for timing closure."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which phenomenon in integrated circuit interconnects describes the mass transport of metal atoms under the influence of an electric current, leading to voids or hillocks and potentially causing open or short circuits over time?",
-      "options": [
-        "Process variation",
-        "Electromigration",
-        "Hot carrier injection",
-        "Negative bias temperature instability (NBTI)",
-        "Dielectric breakdown"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the fundamental purpose of using a Hardware Description Language (HDL) like VHDL or Verilog in digital IC design?",
-      "options": [
-        "To write device drivers for operating systems.",
-        "To simulate power consumption in analog circuits.",
-        "To describe the behavior and structure of digital electronic circuits.",
-        "To compile high-level programming languages into machine code.",
-        "To design graphical user interfaces for embedded systems."
+        "Main Memory (RAM)",
+        "Hard Disk Drive (HDD)",
+        "Level 1 (L1) Cache",
+        "Solid State Drive (SSD)",
+        "Virtual Memory"
       ],
       "correct": 2
+    },
+    {
+      "question": "In synchronous digital circuit design, what does the 'setup time' constraint for a flip-flop primarily ensure?",
+      "options": [
+        "The data input must be stable for a minimum duration *before* the active clock edge.",
+        "The data input must remain stable for a minimum duration *after* the active clock edge.",
+        "The clock signal has a sufficiently fast rise time.",
+        "The output changes state within a specified propagation delay.",
+        "The power supply voltage remains constant during operation."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In the fabrication of modern integrated circuits, what is the primary purpose of Chemical Mechanical Planarization (CMP)?",
+      "options": [
+        "To selectively remove photoresist after lithography.",
+        "To deposit thin layers of dielectric material.",
+        "To create extremely flat surfaces across the wafer for subsequent lithography steps.",
+        "To dope the semiconductor material to create N-type or P-type regions.",
+        "To etch away unwanted material from the wafer surface."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In computer architecture, which design approach allows a single processor core to execute multiple independent instructions concurrently from a *single instruction stream* by utilizing multiple execution units?",
+      "options": [
+        "Vector Processor",
+        "Symmetric Multiprocessing (SMP)",
+        "Simultaneous Multithreading (SMT)",
+        "Superscalar Architecture",
+        "Massively Parallel Processing (MPP)"
+      ],
+      "correct": 3
     }
   ]
 }
