@@ -1,9 +1,4 @@
 [
-  "Which Hardware Description Language (HDL) is most commonly used for Register Transfer Level (RTL) design and verification in digital integrated circuits?",
-  "In high-speed digital integrated circuit design, what is the primary function of on-die or package-level decoupling capacitors?",
-  "In the context of digital IC verification, what is the primary advantage of employing **Formal Verification** techniques compared to traditional simulation-based verification?",
-  "In a Central Processing Unit (CPU), which component is primarily responsible for interpreting instructions and generating the control signals to orchestrate the operations of other CPU components (like the ALU, registers, and memory)?",
-  "What is the fundamental semiconductor device that acts as an electronically controlled switch and is the basic building block of all modern digital integrated circuits?",
   "Which type of memory loses its stored information when the power supply is removed?",
   "Which of the following describes a processor architecture where a single instruction can perform multiple operations, such as memory access, arithmetic operations, and register modifications, often with varying instruction lengths?",
   "In the verification of complex System-on-Chip (SoC) designs, which methodology involves mapping the RTL design onto a reconfigurable hardware platform (like an FPGA) to achieve near real-time execution speeds for extensive software and system-level testing?",
@@ -48,5 +43,10 @@
   "In a typical computer system's memory hierarchy, which level is characterized by the fastest access speed and smallest capacity, usually integrated directly into the CPU?",
   "In synchronous digital circuit design, what does the 'setup time' constraint for a flip-flop primarily ensure?",
   "In the fabrication of modern integrated circuits, what is the primary purpose of Chemical Mechanical Planarization (CMP)?",
-  "In computer architecture, which design approach allows a single processor core to execute multiple independent instructions concurrently from a *single instruction stream* by utilizing multiple execution units?"
+  "In computer architecture, which design approach allows a single processor core to execute multiple independent instructions concurrently from a *single instruction stream* by utilizing multiple execution units?",
+  "What is the primary purpose of **photolithography** in semiconductor manufacturing?",
+  "In a deeply pipelined processor with out-of-order execution capabilities, what is the primary function of a **reorder buffer** (also known as an instruction window)?",
+  "Which phenomenon describes the increase in the delay of a logic gate due to the unwanted electrical interaction (e.g., capacitive coupling) between its interconnects and those of neighboring switching signals, especially prevalent in deep submicron technologies?",
+  "In System-on-Chip (SoC) design verification, what is the primary purpose of an **Assertion-Based Verification (ABV)** methodology?",
+  "In low-power digital IC design, what is the primary technique that involves inserting special switch cells to completely cut off the power supply (Vdd) to inactive circuit blocks, thereby reducing static and dynamic power consumption?"
 ]
