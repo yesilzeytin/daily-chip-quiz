@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary purpose of **photolithography** in semiconductor manufacturing?",
+      "question": "In digital IC design, what is the primary role of a 'testbench'?",
       "options": [
-        "Depositing thin film layers on the wafer.",
-        "Removing unwanted material from the wafer surface.",
-        "Transferring a geometric pattern from a mask to the wafer using light.",
-        "Doping the semiconductor material to create N-type or P-type regions.",
-        "Packaging the individual dies into a final product."
+        "To convert the Register Transfer Level (RTL) design into a gate-level netlist.",
+        "To perform power analysis and optimization across the chip.",
+        "To provide controlled stimulus to the Design Under Test (DUT) and verify its functional correctness.",
+        "To generate the physical layout and routing of the chip's components.",
+        "To analyze the static timing characteristics of the circuit."
       ],
       "correct": 2
     },
     {
-      "question": "In a deeply pipelined processor with out-of-order execution capabilities, what is the primary function of a **reorder buffer** (also known as an instruction window)?",
+      "question": "In the physical design phase of an integrated circuit, what does Design Rule Checking (DRC) primarily ensure?",
       "options": [
-        "To store instructions that have been fetched but not yet decoded.",
-        "To hold the results of speculative execution until instructions are ready to be committed in program order.",
-        "To buffer data being transferred between the CPU and main memory.",
-        "To predict the outcome of conditional branches to avoid pipeline stalls.",
-        "To manage the allocation of functional units to instructions."
+        "That the circuit's timing requirements are met across all operating conditions.",
+        "That the power consumption of the chip is within specified limits.",
+        "That the physical layout conforms to the foundry's manufacturing capabilities and prevents fabrication errors.",
+        "That the gate-level netlist matches the original RTL description.",
+        "That the chip can be easily tested after manufacturing using scan chains."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which cache mapping policy allows any block from main memory to be placed into any cache line, offering the greatest flexibility but requiring the most complex hardware for tag comparison?",
+      "options": [
+        "Direct-mapped cache",
+        "Set-associative cache",
+        "Fully associative cache",
+        "Write-through cache",
+        "Write-back cache"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In an out-of-order execution processor, what is the primary purpose of 'register renaming'?",
+      "options": [
+        "To reorder instructions in the instruction queue to improve pipeline efficiency.",
+        "To map architectural registers to a larger pool of physical registers to eliminate Write-After-Read (WAR) and Write-After-Write (WAW) hazards.",
+        "To translate virtual memory addresses into physical memory addresses.",
+        "To predict the outcome of conditional branch instructions before they are executed.",
+        "To ensure that data written to the cache is also simultaneously written to main memory."
       ],
       "correct": 1
     },
     {
-      "question": "Which phenomenon describes the increase in the delay of a logic gate due to the unwanted electrical interaction (e.g., capacitive coupling) between its interconnects and those of neighboring switching signals, especially prevalent in deep submicron technologies?",
+      "question": "What is the main benefit of adopting a hierarchical design approach in the development of complex System-on-Chip (SoC) designs?",
       "options": [
-        "Electromigration",
-        "Thermal runaway",
-        "Crosstalk",
-        "Latch-up",
-        "Negative Bias Temperature Instability (NBTI)"
+        "It eliminates the need for detailed physical verification steps like Layout Versus Schematic (LVS).",
+        "It simplifies debugging, verification, and reuse by breaking down the design into smaller, manageable, and independent modules.",
+        "It guarantees optimal power consumption reduction by automatically identifying inactive circuit blocks.",
+        "It completely automates the timing closure process, removing the need for manual intervention.",
+        "It restricts the design to only include standard library cells, precluding custom block integration."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In System-on-Chip (SoC) design verification, what is the primary purpose of an **Assertion-Based Verification (ABV)** methodology?",
-      "options": [
-        "To generate random test vectors for functional coverage analysis.",
-        "To formally prove the absence of specific design bugs across all possible input sequences using mathematical proofs.",
-        "To define and check expected design behaviors and properties directly within the HDL code using specialized statements (e.g., SVA, PSL).",
-        "To create a comprehensive testbench that mimics the environment of the SoC for simulation.",
-        "To debug post-silicon failures by observing internal signals using on-chip debuggers."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In low-power digital IC design, what is the primary technique that involves inserting special switch cells to completely cut off the power supply (Vdd) to inactive circuit blocks, thereby reducing static and dynamic power consumption?",
-      "options": [
-        "Dynamic Voltage and Frequency Scaling (DVFS)",
-        "Clock Gating",
-        "Power Gating",
-        "Operand Isolation",
-        "Body Biasing"
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "Which type of memory loses its stored information when the power supply is removed?",
-  "Which of the following describes a processor architecture where a single instruction can perform multiple operations, such as memory access, arithmetic operations, and register modifications, often with varying instruction lengths?",
-  "In the verification of complex System-on-Chip (SoC) designs, which methodology involves mapping the RTL design onto a reconfigurable hardware platform (like an FPGA) to achieve near real-time execution speeds for extensive software and system-level testing?",
-  "What is the primary purpose of Error-Correcting Code (ECC) memory in a computer system?",
-  "In advanced semiconductor technology, which technique involves applying a voltage to the bulk (substrate) terminal of a MOSFET to adjust its threshold voltage (Vt) and thereby control leakage current or performance characteristics?",
   "In digital electronics, what does the acronym FPGA stand for?",
   "In a modern pipelined CPU architecture, what is the primary role of a Branch Predictor?",
   "In the context of digital IC design, what is the primary goal of implementing Design for Testability (DFT) techniques?",
@@ -48,5 +43,10 @@
   "In a deeply pipelined processor with out-of-order execution capabilities, what is the primary function of a **reorder buffer** (also known as an instruction window)?",
   "Which phenomenon describes the increase in the delay of a logic gate due to the unwanted electrical interaction (e.g., capacitive coupling) between its interconnects and those of neighboring switching signals, especially prevalent in deep submicron technologies?",
   "In System-on-Chip (SoC) design verification, what is the primary purpose of an **Assertion-Based Verification (ABV)** methodology?",
-  "In low-power digital IC design, what is the primary technique that involves inserting special switch cells to completely cut off the power supply (Vdd) to inactive circuit blocks, thereby reducing static and dynamic power consumption?"
+  "In low-power digital IC design, what is the primary technique that involves inserting special switch cells to completely cut off the power supply (Vdd) to inactive circuit blocks, thereby reducing static and dynamic power consumption?",
+  "In digital IC design, what is the primary role of a 'testbench'?",
+  "In the physical design phase of an integrated circuit, what does Design Rule Checking (DRC) primarily ensure?",
+  "Which cache mapping policy allows any block from main memory to be placed into any cache line, offering the greatest flexibility but requiring the most complex hardware for tag comparison?",
+  "In an out-of-order execution processor, what is the primary purpose of 'register renaming'?",
+  "What is the main benefit of adopting a hierarchical design approach in the development of complex System-on-Chip (SoC) designs?"
 ]
