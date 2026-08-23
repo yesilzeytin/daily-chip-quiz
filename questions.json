@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital IC design, what is the primary role of a 'testbench'?",
+      "question": "What phenomenon in integrated circuit technology is famously predicted to double the number of transistors on a microchip approximately every two years?",
       "options": [
-        "To convert the Register Transfer Level (RTL) design into a gate-level netlist.",
-        "To perform power analysis and optimization across the chip.",
-        "To provide controlled stimulus to the Design Under Test (DUT) and verify its functional correctness.",
-        "To generate the physical layout and routing of the chip's components.",
-        "To analyze the static timing characteristics of the circuit."
+        "Ohm's Law",
+        "Parkinson's Law",
+        "Moore's Law",
+        "Murphy's Law",
+        "Bell's Law"
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design phase of an integrated circuit, what does Design Rule Checking (DRC) primarily ensure?",
+      "question": "In synchronous digital IC design, what does the 'hold time' constraint for a flip-flop primarily ensure?",
       "options": [
-        "That the circuit's timing requirements are met across all operating conditions.",
-        "That the power consumption of the chip is within specified limits.",
-        "That the physical layout conforms to the foundry's manufacturing capabilities and prevents fabrication errors.",
-        "That the gate-level netlist matches the original RTL description.",
-        "That the chip can be easily tested after manufacturing using scan chains."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which cache mapping policy allows any block from main memory to be placed into any cache line, offering the greatest flexibility but requiring the most complex hardware for tag comparison?",
-      "options": [
-        "Direct-mapped cache",
-        "Set-associative cache",
-        "Fully associative cache",
-        "Write-through cache",
-        "Write-back cache"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In an out-of-order execution processor, what is the primary purpose of 'register renaming'?",
-      "options": [
-        "To reorder instructions in the instruction queue to improve pipeline efficiency.",
-        "To map architectural registers to a larger pool of physical registers to eliminate Write-After-Read (WAR) and Write-After-Write (WAW) hazards.",
-        "To translate virtual memory addresses into physical memory addresses.",
-        "To predict the outcome of conditional branch instructions before they are executed.",
-        "To ensure that data written to the cache is also simultaneously written to main memory."
+        "That the data input is stable before the rising edge of the clock arrives.",
+        "That the data input remains stable for a minimum duration *after* the active clock edge.",
+        "That the clock signal is perfectly aligned across all flip-flops in the circuit.",
+        "That the output of the flip-flop can propagate to the next stage before the next clock edge.",
+        "That the reset signal is applied for a sufficient period during power-up."
       ],
       "correct": 1
     },
     {
-      "question": "What is the main benefit of adopting a hierarchical design approach in the development of complex System-on-Chip (SoC) designs?",
+      "question": "Which cache write policy immediately updates both the cache and main memory upon a write operation, ensuring consistency but potentially incurring higher latency for writes?",
       "options": [
-        "It eliminates the need for detailed physical verification steps like Layout Versus Schematic (LVS).",
-        "It simplifies debugging, verification, and reuse by breaking down the design into smaller, manageable, and independent modules.",
-        "It guarantees optimal power consumption reduction by automatically identifying inactive circuit blocks.",
-        "It completely automates the timing closure process, removing the need for manual intervention.",
-        "It restricts the design to only include standard library cells, precluding custom block integration."
+        "Write-back",
+        "Write-allocate",
+        "No-write-allocate",
+        "Write-through",
+        "Least Recently Used (LRU)"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the context of digital IC verification, what is the primary advantage of **Formal Verification** methods (e.g., Model Checking, Equivalence Checking) over traditional simulation-based verification?",
+      "options": [
+        "It can simulate complex real-world scenarios much faster than traditional simulators.",
+        "It can prove the functional correctness of a design for *all possible* input sequences and states.",
+        "It allows for early detection of basic syntax errors in Hardware Description Languages (HDLs).",
+        "It requires significantly less computational resources and time compared to extensive regression simulations.",
+        "It provides detailed power consumption reports during the design phase."
       ],
       "correct": 1
+    },
+    {
+      "question": "In complex System-on-Chip (SoC) designs, what is the primary motivation for employing a **Network-on-Chip (NoC)** architecture instead of a traditional bus-based interconnect?",
+      "options": [
+        "To reduce the overall gate count of the SoC.",
+        "To simplify the clock distribution network and eliminate clock skew.",
+        "To provide higher bandwidth, lower latency, and better scalability for communication between numerous IP blocks.",
+        "To primarily reduce static power consumption by enabling fine-grained power gating.",
+        "To implement a faster external memory interface (e.g., DDR)."
+      ],
+      "correct": 2
     }
   ]
 }
