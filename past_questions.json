@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a D-type flip-flop in a synchronous digital circuit?",
-  "In computer architecture, which principle states that if a particular memory location is accessed, it is likely that nearby memory locations will be accessed soon?",
-  "In the context of Static Timing Analysis (STA) for digital ICs, what is a 'false path'?",
-  "As semiconductor manufacturing processes scale to smaller technology nodes (e.g., 7nm, 5nm), which phenomenon becomes increasingly challenging, leading to significant variations in transistor characteristics (e.g., threshold voltage, drive current) across a chip and between different chips?",
-  "What is the primary purpose of a 'bus' in a computer system or an integrated circuit?",
   "In computer architecture, what defines the interface between software and hardware, specifying the set of instructions a processor can execute, its registers, and memory models, without detailing its internal implementation?",
   "In a pipelined processor, which type of hazard occurs when two or more instructions require the same hardware resource at the same time, such as two instructions trying to use the same memory port or functional unit in the same clock cycle?",
   "During the post-silicon validation phase of an integrated circuit, what is the primary purpose of 'Shmoo Plotting'?",
@@ -48,5 +43,10 @@
   "In synchronous digital IC design, what does the 'hold time' constraint for a flip-flop primarily ensure?",
   "Which cache write policy immediately updates both the cache and main memory upon a write operation, ensuring consistency but potentially incurring higher latency for writes?",
   "In the context of digital IC verification, what is the primary advantage of **Formal Verification** methods (e.g., Model Checking, Equivalence Checking) over traditional simulation-based verification?",
-  "In complex System-on-Chip (SoC) designs, what is the primary motivation for employing a **Network-on-Chip (NoC)** architecture instead of a traditional bus-based interconnect?"
+  "In complex System-on-Chip (SoC) designs, what is the primary motivation for employing a **Network-on-Chip (NoC)** architecture instead of a traditional bus-based interconnect?",
+  "What is the defining characteristic of a NAND gate?",
+  "In a modern pipelined processor, what is the primary purpose of a branch predictor?",
+  "In the context of digital IC verification using simulation, which type of coverage specifically measures whether all specified states, transitions, and sequences of a Finite State Machine (FSM) have been exercised during simulation?",
+  "In an out-of-order execution processor, what is the primary role of a 'reservation station' (also known as a scoreboard or instruction queue)?",
+  "What is the primary advantage of designing an Integrated Circuit (IC) as a Field-Programmable Gate Array (FPGA) compared to a Full Custom Application-Specific Integrated Circuit (ASIC) for prototyping and low-volume production?"
 ]

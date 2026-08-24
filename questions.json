@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What phenomenon in integrated circuit technology is famously predicted to double the number of transistors on a microchip approximately every two years?",
+      "question": "What is the defining characteristic of a NAND gate?",
       "options": [
-        "Ohm's Law",
-        "Parkinson's Law",
-        "Moore's Law",
-        "Murphy's Law",
-        "Bell's Law"
+        "It outputs HIGH only when all its inputs are HIGH.",
+        "It outputs LOW only when all its inputs are LOW.",
+        "It outputs LOW only when all its inputs are HIGH.",
+        "It outputs HIGH if any of its inputs are HIGH.",
+        "It outputs HIGH if its inputs are different."
       ],
       "correct": 2
     },
     {
-      "question": "In synchronous digital IC design, what does the 'hold time' constraint for a flip-flop primarily ensure?",
+      "question": "In a modern pipelined processor, what is the primary purpose of a branch predictor?",
       "options": [
-        "That the data input is stable before the rising edge of the clock arrives.",
-        "That the data input remains stable for a minimum duration *after* the active clock edge.",
-        "That the clock signal is perfectly aligned across all flip-flops in the circuit.",
-        "That the output of the flip-flop can propagate to the next stage before the next clock edge.",
-        "That the reset signal is applied for a sufficient period during power-up."
+        "To accelerate the fetching of data from main memory by predicting cache misses.",
+        "To determine the target address of an indirect jump instruction.",
+        "To speculatively guess the outcome of conditional branch instructions to avoid pipeline stalls.",
+        "To optimize the allocation of execution units for parallel instruction processing.",
+        "To manage the flow of data between different levels of the memory hierarchy."
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "question": "Which cache write policy immediately updates both the cache and main memory upon a write operation, ensuring consistency but potentially incurring higher latency for writes?",
+      "question": "In the context of digital IC verification using simulation, which type of coverage specifically measures whether all specified states, transitions, and sequences of a Finite State Machine (FSM) have been exercised during simulation?",
       "options": [
-        "Write-back",
-        "Write-allocate",
-        "No-write-allocate",
-        "Write-through",
-        "Least Recently Used (LRU)"
+        "Line Coverage",
+        "Toggle Coverage",
+        "Path Coverage",
+        "FSM Coverage",
+        "Code Coverage"
       ],
       "correct": 3
     },
     {
-      "question": "In the context of digital IC verification, what is the primary advantage of **Formal Verification** methods (e.g., Model Checking, Equivalence Checking) over traditional simulation-based verification?",
+      "question": "In an out-of-order execution processor, what is the primary role of a 'reservation station' (also known as a scoreboard or instruction queue)?",
       "options": [
-        "It can simulate complex real-world scenarios much faster than traditional simulators.",
-        "It can prove the functional correctness of a design for *all possible* input sequences and states.",
-        "It allows for early detection of basic syntax errors in Hardware Description Languages (HDLs).",
-        "It requires significantly less computational resources and time compared to extensive regression simulations.",
-        "It provides detailed power consumption reports during the design phase."
+        "To store completed instructions before they are committed to architectural state.",
+        "To track the availability of functional units and operand readiness for instructions awaiting execution.",
+        "To predict the outcome of conditional branches to reduce pipeline stalls.",
+        "To manage cache coherence among multiple processor cores.",
+        "To translate virtual memory addresses to physical memory addresses."
       ],
       "correct": 1
     },
     {
-      "question": "In complex System-on-Chip (SoC) designs, what is the primary motivation for employing a **Network-on-Chip (NoC)** architecture instead of a traditional bus-based interconnect?",
+      "question": "What is the primary advantage of designing an Integrated Circuit (IC) as a Field-Programmable Gate Array (FPGA) compared to a Full Custom Application-Specific Integrated Circuit (ASIC) for prototyping and low-volume production?",
       "options": [
-        "To reduce the overall gate count of the SoC.",
-        "To simplify the clock distribution network and eliminate clock skew.",
-        "To provide higher bandwidth, lower latency, and better scalability for communication between numerous IP blocks.",
-        "To primarily reduce static power consumption by enabling fine-grained power gating.",
-        "To implement a faster external memory interface (e.g., DDR)."
+        "FPGAs typically offer significantly higher clock frequencies and lower static power consumption.",
+        "FPGAs have much lower Non-Recurring Engineering (NRE) costs due to their reconfigurability and lack of custom mask sets.",
+        "FPGAs provide a denser and more optimized logic implementation, leading to smaller silicon area.",
+        "FPGAs are immune to process variations, ensuring consistent performance across all manufactured units.",
+        "FPGAs enable greater analog integration capabilities and specialized mixed-signal functions."
       ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
