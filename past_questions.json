@@ -1,9 +1,4 @@
 [
-  "In computer architecture, what defines the interface between software and hardware, specifying the set of instructions a processor can execute, its registers, and memory models, without detailing its internal implementation?",
-  "In a pipelined processor, which type of hazard occurs when two or more instructions require the same hardware resource at the same time, such as two instructions trying to use the same memory port or functional unit in the same clock cycle?",
-  "During the post-silicon validation phase of an integrated circuit, what is the primary purpose of 'Shmoo Plotting'?",
-  "In the physical verification stage of digital IC design, what is the primary objective of 'Layout Versus Schematic' (LVS) checking?",
-  "In digital circuits, what is the primary function of a decoder?",
   "What does CMOS stand for in digital integrated circuits?",
   "In the digital IC design flow, what is the primary objective of the 'synthesis' step at the Register Transfer Level (RTL)?",
   "Which memory consistency model ensures that all memory operations appear to execute in the program order specified by each individual processor, and all processors observe the same global order of writes, even across different processors?",
@@ -48,5 +43,10 @@
   "In a modern pipelined processor, what is the primary purpose of a branch predictor?",
   "In the context of digital IC verification using simulation, which type of coverage specifically measures whether all specified states, transitions, and sequences of a Finite State Machine (FSM) have been exercised during simulation?",
   "In an out-of-order execution processor, what is the primary role of a 'reservation station' (also known as a scoreboard or instruction queue)?",
-  "What is the primary advantage of designing an Integrated Circuit (IC) as a Field-Programmable Gate Array (FPGA) compared to a Full Custom Application-Specific Integrated Circuit (ASIC) for prototyping and low-volume production?"
+  "What is the primary advantage of designing an Integrated Circuit (IC) as a Field-Programmable Gate Array (FPGA) compared to a Full Custom Application-Specific Integrated Circuit (ASIC) for prototyping and low-volume production?",
+  "Which of the following is a fundamental characteristic that differentiates Static Random-Access Memory (SRAM) from Dynamic Random-Access Memory (DRAM)?",
+  "A designer observes that a critical path in their digital circuit is failing timing due to excessive delay from a particular logic gate. Which of the following is a common cause related to the gate's fan-out?",
+  "Which of the following statements accurately differentiates a processor's Instruction Set Architecture (ISA) from its microarchitecture?",
+  "What is the primary objective of employing **Equivalence Checking** in the semiconductor design process?",
+  "In modern multi-core processor design, what problem does **Hardware Transactional Memory (HTM)** primarily aim to solve?"
 ]
