@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "Which of the following is a fundamental characteristic that differentiates Static Random-Access Memory (SRAM) from Dynamic Random-Access Memory (DRAM)?",
+      "question": "What is the primary objective of implementing instruction pipelining in a CPU?",
       "options": [
-        "SRAM stores data using latches and does not require periodic refreshing, whereas DRAM stores data using capacitors and transistors, requiring periodic refreshing.",
-        "DRAM is typically faster and more expensive per bit than SRAM.",
-        "SRAM is primarily used for main system memory, while DRAM is preferred for CPU cache.",
-        "DRAM is a non-volatile memory, retaining its data even without power, unlike SRAM.",
-        "SRAM cells are simpler and smaller, allowing for much higher densities than DRAM."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "A designer observes that a critical path in their digital circuit is failing timing due to excessive delay from a particular logic gate. Which of the following is a common cause related to the gate's fan-out?",
-      "options": [
-        "The gate has too low a fan-out, making its output signal too strong.",
-        "The gate is driving too many inputs (high fan-out), leading to a large capacitive load and increased propagation delay.",
-        "The gate's fan-out is perfectly matched, which causes signal reflection.",
-        "The gate's fan-out is zero, indicating an unconnected output.",
-        "High fan-out primarily reduces the static power consumption, not delay."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which of the following statements accurately differentiates a processor's Instruction Set Architecture (ISA) from its microarchitecture?",
-      "options": [
-        "The ISA defines the internal data paths and control logic of the processor, while the microarchitecture specifies the software-visible instruction set.",
-        "The microarchitecture is a standardized specification applicable across all processor vendors, whereas the ISA is proprietary to a single vendor.",
-        "The ISA dictates the process technology (e.g., 7nm, 5nm) used for fabrication, while the microarchitecture describes the physical pinout of the chip.",
-        "The microarchitecture is concerned with the memory addressing modes and data types supported, while the ISA focuses on cache replacement policies.",
-        "The ISA defines the functional contract between hardware and software (e.g., instructions, registers), while the microarchitecture is the specific hardware implementation of that contract (e.g., pipeline depth, execution units)."
-      ],
-      "correct": 4
-    },
-    {
-      "question": "What is the primary objective of employing **Equivalence Checking** in the semiconductor design process?",
-      "options": [
-        "To measure the power consumption of a design at various clock frequencies.",
-        "To create optimized place-and-route solutions for physical implementation.",
-        "To formally verify that two different abstract representations of a digital circuit, such as an RTL design and its synthesized gate-level netlist, are functionally identical.",
-        "To simulate rare corner cases and potential functional bugs that might be missed by conventional testbenches.",
-        "To analyze the timing closure of a circuit, ensuring all setup and hold times are met."
+        "To increase the clock frequency of the processor.",
+        "To reduce the overall power consumption of the CPU.",
+        "To execute multiple instructions concurrently, thereby improving throughput.",
+        "To enable out-of-order execution for dependent instructions.",
+        "To minimize the memory access latency."
       ],
       "correct": 2
     },
     {
-      "question": "In modern multi-core processor design, what problem does **Hardware Transactional Memory (HTM)** primarily aim to solve?",
+      "question": "In modern digital integrated circuits, total power consumption is typically divided into two main categories: static power and dynamic power. Which of the following is the primary contributor to dynamic power consumption?",
       "options": [
-        "Reducing the latency of memory access for frequently used data by employing larger L1 caches.",
-        "Eliminating the need for a cache coherence protocol by allowing each core to have private memory.",
-        "Simplifying the management of thread synchronization and concurrency by providing atomic execution blocks without explicit locks, thereby potentially improving performance and programmer productivity.",
-        "Enabling the processor to execute instructions from multiple independent programs simultaneously on a single core.",
-        "Optimizing power delivery to the CPU by dynamically adjusting voltage levels based on workload."
+        "Leakage currents through transistors when they are theoretically \"off\".",
+        "Short-circuit current during transistor switching.",
+        "Subthreshold leakage current.",
+        "Capacitive charging and discharging during logic transitions.",
+        "Punch-through currents in short-channel devices."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the \"Placement and Routing\" (P&R) phase?",
+      "options": [
+        "To verify the functional correctness of the RTL design against specifications.",
+        "To synthesize the RTL code into a gate-level netlist.",
+        "To physically arrange standard cells and macros on the chip area and connect them with interconnect wires.",
+        "To perform detailed timing analysis and generate timing reports.",
+        "To convert the gate-level netlist into a manufacturing mask database (GDSII)."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which principle of computer architecture states that programs tend to access data and instructions that are spatially or temporally close to those they have recently accessed? This principle is fundamental to the effectiveness of caching.",
+      "options": [
+        "Amdahl's Law",
+        "Principle of Spatial Locality",
+        "Principle of Temporal Locality",
+        "Principle of Least Recently Used (LRU)",
+        "Both Principle of Spatial Locality and Principle of Temporal Locality"
+      ],
+      "correct": 4
+    },
+    {
+      "question": "In Hardware Description Languages (HDLs) like Verilog or VHDL, which design style primarily describes the circuit's operation by specifying its functionality using high-level constructs (e.g., if-else, case statements, arithmetic operations) without explicitly instantiating gates or modules?",
+      "options": [
+        "Gate-level modeling",
+        "Dataflow modeling",
+        "Behavioral modeling",
+        "Structural modeling",
+        "Switch-level modeling"
       ],
       "correct": 2
     }

@@ -1,9 +1,4 @@
 [
-  "What does CMOS stand for in digital integrated circuits?",
-  "In the digital IC design flow, what is the primary objective of the 'synthesis' step at the Register Transfer Level (RTL)?",
-  "Which memory consistency model ensures that all memory operations appear to execute in the program order specified by each individual processor, and all processors observe the same global order of writes, even across different processors?",
-  "In CMOS integrated circuits, which phenomenon describes a parasitic SCR (Silicon Controlled Rectifier) structure being accidentally triggered, leading to a low-resistance path between power and ground rails and potentially causing permanent device damage?",
-  "Which mechanism allows a peripheral device to directly transfer data to or from main memory without involving the CPU, thereby freeing up the CPU for other tasks?",
   "In digital IC design, what is the primary purpose of a 'clock gating cell'?",
   "In a CPU's memory management unit (MMU), what is the primary role of the Translation Lookaside Buffer (TLB)?",
   "Which of the following best describes the function of a 'scan chain' in the context of Design for Testability (DFT) for digital integrated circuits?",
@@ -48,5 +43,10 @@
   "A designer observes that a critical path in their digital circuit is failing timing due to excessive delay from a particular logic gate. Which of the following is a common cause related to the gate's fan-out?",
   "Which of the following statements accurately differentiates a processor's Instruction Set Architecture (ISA) from its microarchitecture?",
   "What is the primary objective of employing **Equivalence Checking** in the semiconductor design process?",
-  "In modern multi-core processor design, what problem does **Hardware Transactional Memory (HTM)** primarily aim to solve?"
+  "In modern multi-core processor design, what problem does **Hardware Transactional Memory (HTM)** primarily aim to solve?",
+  "What is the primary objective of implementing instruction pipelining in a CPU?",
+  "In modern digital integrated circuits, total power consumption is typically divided into two main categories: static power and dynamic power. Which of the following is the primary contributor to dynamic power consumption?",
+  "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the \"Placement and Routing\" (P&R) phase?",
+  "Which principle of computer architecture states that programs tend to access data and instructions that are spatially or temporally close to those they have recently accessed? This principle is fundamental to the effectiveness of caching.",
+  "In Hardware Description Languages (HDLs) like Verilog or VHDL, which design style primarily describes the circuit's operation by specifying its functionality using high-level constructs (e.g., if-else, case statements, arithmetic operations) without explicitly instantiating gates or modules?"
 ]
