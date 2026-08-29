@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "Which semiconductor device acts as a fundamental electronic switch and amplifier, forming the basis of modern digital integrated circuits?",
+      "question": "What is the primary function of a flip-flop in digital circuits?",
       "options": [
-        "Resistor",
-        "Capacitor",
-        "Diode",
-        "Transistor",
-        "Inductor"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In a typical five-stage CPU pipeline (Fetch, Decode, Execute, Memory, Write-back), what is the primary operation performed during the 'Execute' stage?",
-      "options": [
-        "Storing results back to registers.",
-        "Retrieving instructions from memory.",
-        "Performing arithmetic and logical operations.",
-        "Accessing data from the data cache or main memory.",
-        "Translating instruction opcode into control signals."
+        "To perform arithmetic operations.",
+        "To amplify analog signals.",
+        "To store a single bit of binary information.",
+        "To convert analog signals to digital.",
+        "To generate clock signals."
       ],
       "correct": 2
     },
     {
-      "question": "In deep submicron digital IC design, designers must extensively analyze circuit behavior across various corners defined by Process, Voltage, and Temperature (PVT) variations. What is the primary reason for this comprehensive analysis?",
+      "question": "In a multi-core processor system, what is the primary purpose of a cache coherence protocol (e.g., MESI)?",
       "options": [
-        "To ensure the physical layout perfectly matches the schematic.",
-        "To optimize the size of the final silicon die for cost reduction.",
-        "To predict and guarantee reliable circuit operation and timing closure under all anticipated manufacturing and environmental conditions.",
-        "To identify and fix logical bugs in the RTL code before synthesis.",
-        "To reduce the number of test vectors required for post-silicon validation."
+        "To manage virtual memory page table lookups.",
+        "To ensure that all processors have a consistent view of shared memory data.",
+        "To improve the clock frequency of individual cores.",
+        "To reduce the power consumption of the cache memory.",
+        "To convert instruction addresses to data addresses."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of hardware verification, what is the primary advantage of using FPGA-based emulation compared to software-based simulation for a large System-on-Chip (SoC) design?",
+      "options": [
+        "Emulation provides exhaustive mathematical proof of correctness.",
+        "Emulation is significantly faster, allowing for more real-world test cases.",
+        "Emulation requires less setup effort and specialized hardware.",
+        "Emulation typically consumes less power during the verification process.",
+        "Emulation guarantees complete functional coverage automatically."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Beyond simple branch prediction, what is a common technique employed in deeply pipelined processors to mitigate the performance impact of control hazards when the target of a branch instruction is known late?",
+      "options": [
+        "Increasing the cache line size.",
+        "Implementing a wider Arithmetic Logic Unit (ALU).",
+        "Utilizing delayed branching or branch target buffers (BTBs).",
+        "Reducing the number of pipeline stages.",
+        "Disabling instruction-level parallelism."
       ],
       "correct": 2
     },
     {
-      "question": "Which formal verification technique is used to mathematically prove or disprove whether a finite-state model of a system satisfies a given set of temporal logic properties, exploring all possible system states exhaustively?",
+      "question": "Which advanced power management technique dynamically adjusts both the operating voltage and clock frequency of a processor or SoC block to optimize performance and power consumption based on workload demands?",
       "options": [
-        "Static Timing Analysis (STA)",
-        "Regression Testing",
-        "Model Checking",
-        "Gate-Level Simulation",
-        "Fault Simulation"
+        "Thermal throttling.",
+        "Dynamic Voltage and Frequency Scaling (DVFS).",
+        "Static timing analysis.",
+        "Register-Transfer Level (RTL) synthesis.",
+        "Test pattern generation."
       ],
-      "correct": 2
-    },
-    {
-      "question": "In modern computer systems, what is the primary function of the Translation Lookaside Buffer (TLB)?",
-      "options": [
-        "To store frequently used instructions for faster execution by the CPU.",
-        "To buffer write operations to main memory to improve performance.",
-        "To accelerate the translation of virtual memory addresses to physical memory addresses.",
-        "To maintain coherence between multiple CPU caches.",
-        "To manage the allocation and deallocation of heap memory."
-      ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }
