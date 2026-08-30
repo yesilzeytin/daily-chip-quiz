@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a flip-flop in digital circuits?",
+      "question": "What is the primary input to the logic synthesis process in a typical ASIC design flow?",
       "options": [
-        "To perform arithmetic operations.",
-        "To amplify analog signals.",
-        "To store a single bit of binary information.",
-        "To convert analog signals to digital.",
-        "To generate clock signals."
+        "A detailed physical layout (GDSII file)",
+        "The RTL (Register Transfer Level) description of the design in an HDL",
+        "The netlist of standard cells",
+        "The design's power intent (UPF/CPF) file",
+        "Test vectors for functional verification"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In a multi-core processor employing the MESI cache coherence protocol, what state indicates that a cache block is clean (matches main memory) and is present in at least one other cache, allowing multiple cores to have read-only copies?",
+      "options": [
+        "Modified (M)",
+        "Exclusive (E)",
+        "Shared (S)",
+        "Invalid (I)",
+        "Write-Back (WB)"
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-core processor system, what is the primary purpose of a cache coherence protocol (e.g., MESI)?",
+      "question": "After the routing phase in ASIC physical design, which physical verification step primarily checks for electrical connectivity issues, such as open circuits or shorts, by comparing the extracted netlist from the layout against the original logical netlist?",
       "options": [
-        "To manage virtual memory page table lookups.",
-        "To ensure that all processors have a consistent view of shared memory data.",
-        "To improve the clock frequency of individual cores.",
-        "To reduce the power consumption of the cache memory.",
-        "To convert instruction addresses to data addresses."
+        "Design Rule Checking (DRC)",
+        "Layout Versus Schematic (LVS)",
+        "Electrical Rule Checking (ERC)",
+        "Power Integrity Analysis (PIA)",
+        "Static Timing Analysis (STA)"
       ],
       "correct": 1
     },
     {
-      "question": "In the context of hardware verification, what is the primary advantage of using FPGA-based emulation compared to software-based simulation for a large System-on-Chip (SoC) design?",
+      "question": "Which advanced technique in memory management aims to reduce the effective memory access latency by prefetching data into the cache *before* it is explicitly requested by the CPU, often based on predicted access patterns?",
       "options": [
-        "Emulation provides exhaustive mathematical proof of correctness.",
-        "Emulation is significantly faster, allowing for more real-world test cases.",
-        "Emulation requires less setup effort and specialized hardware.",
-        "Emulation typically consumes less power during the verification process.",
-        "Emulation guarantees complete functional coverage automatically."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Beyond simple branch prediction, what is a common technique employed in deeply pipelined processors to mitigate the performance impact of control hazards when the target of a branch instruction is known late?",
-      "options": [
-        "Increasing the cache line size.",
-        "Implementing a wider Arithmetic Logic Unit (ALU).",
-        "Utilizing delayed branching or branch target buffers (BTBs).",
-        "Reducing the number of pipeline stages.",
-        "Disabling instruction-level parallelism."
+        "Cache Coherence Protocol enforcement",
+        "Virtual Memory paging",
+        "Speculative prefetching",
+        "Translation Lookaside Buffer (TLB) bypassing",
+        "Memory scrambling"
       ],
       "correct": 2
     },
     {
-      "question": "Which advanced power management technique dynamically adjusts both the operating voltage and clock frequency of a processor or SoC block to optimize performance and power consumption based on workload demands?",
+      "question": "In digital IC design, what is the primary purpose of adding **scan chains** to a circuit?",
       "options": [
-        "Thermal throttling.",
-        "Dynamic Voltage and Frequency Scaling (DVFS).",
-        "Static timing analysis.",
-        "Register-Transfer Level (RTL) synthesis.",
-        "Test pattern generation."
+        "To reduce dynamic power consumption during normal operation.",
+        "To improve the circuit's performance by reducing critical path delays.",
+        "To enable efficient testing of internal logic for manufacturing defects.",
+        "To facilitate secure communication between different IP blocks.",
+        "To automatically correct single-bit errors in memory elements."
       ],
-      "correct": 1
+      "correct": 2
     }
   ]
 }

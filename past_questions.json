@@ -1,9 +1,4 @@
 [
-  "In the ASIC design flow, what is the significance of the 'tape-out' stage?",
-  "In a typical computer system's memory hierarchy, which level is characterized by the fastest access speed and smallest capacity, usually integrated directly into the CPU?",
-  "In synchronous digital circuit design, what does the 'setup time' constraint for a flip-flop primarily ensure?",
-  "In the fabrication of modern integrated circuits, what is the primary purpose of Chemical Mechanical Planarization (CMP)?",
-  "In computer architecture, which design approach allows a single processor core to execute multiple independent instructions concurrently from a *single instruction stream* by utilizing multiple execution units?",
   "What is the primary purpose of **photolithography** in semiconductor manufacturing?",
   "In a deeply pipelined processor with out-of-order execution capabilities, what is the primary function of a **reorder buffer** (also known as an instruction window)?",
   "Which phenomenon describes the increase in the delay of a logic gate due to the unwanted electrical interaction (e.g., capacitive coupling) between its interconnects and those of neighboring switching signals, especially prevalent in deep submicron technologies?",
@@ -48,5 +43,10 @@
   "In a multi-core processor system, what is the primary purpose of a cache coherence protocol (e.g., MESI)?",
   "In the context of hardware verification, what is the primary advantage of using FPGA-based emulation compared to software-based simulation for a large System-on-Chip (SoC) design?",
   "Beyond simple branch prediction, what is a common technique employed in deeply pipelined processors to mitigate the performance impact of control hazards when the target of a branch instruction is known late?",
-  "Which advanced power management technique dynamically adjusts both the operating voltage and clock frequency of a processor or SoC block to optimize performance and power consumption based on workload demands?"
+  "Which advanced power management technique dynamically adjusts both the operating voltage and clock frequency of a processor or SoC block to optimize performance and power consumption based on workload demands?",
+  "What is the primary input to the logic synthesis process in a typical ASIC design flow?",
+  "In a multi-core processor employing the MESI cache coherence protocol, what state indicates that a cache block is clean (matches main memory) and is present in at least one other cache, allowing multiple cores to have read-only copies?",
+  "After the routing phase in ASIC physical design, which physical verification step primarily checks for electrical connectivity issues, such as open circuits or shorts, by comparing the extracted netlist from the layout against the original logical netlist?",
+  "Which advanced technique in memory management aims to reduce the effective memory access latency by prefetching data into the cache *before* it is explicitly requested by the CPU, often based on predicted access patterns?",
+  "In digital IC design, what is the primary purpose of adding **scan chains** to a circuit?"
 ]
