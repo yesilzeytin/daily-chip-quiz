@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary input to the logic synthesis process in a typical ASIC design flow?",
+      "question": "What is the fundamental purpose of a clock signal in synchronous digital circuits?",
       "options": [
-        "A detailed physical layout (GDSII file)",
-        "The RTL (Register Transfer Level) description of the design in an HDL",
-        "The netlist of standard cells",
-        "The design's power intent (UPF/CPF) file",
-        "Test vectors for functional verification"
+        "To provide a constant power supply to all logic gates.",
+        "To synchronize the operations of all sequential elements (e.g., flip-flops and registers).",
+        "To amplify digital signals to higher voltage levels.",
+        "To control the flow of data between memory and CPU only.",
+        "To reset all circuit elements to a known state upon power-up."
       ],
       "correct": 1
     },
     {
-      "question": "In a multi-core processor employing the MESI cache coherence protocol, what state indicates that a cache block is clean (matches main memory) and is present in at least one other cache, allowing multiple cores to have read-only copies?",
+      "question": "What is the primary purpose of **virtual memory** in computer architecture?",
       "options": [
-        "Modified (M)",
-        "Exclusive (E)",
-        "Shared (S)",
-        "Invalid (I)",
-        "Write-Back (WB)"
+        "To directly execute instructions from secondary storage without loading them into RAM.",
+        "To increase the physical clock speed of the CPU by reducing memory access times.",
+        "To allow programs to address a memory space larger than the physically available RAM, using disk space as an extension.",
+        "To provide a high-speed buffer between the CPU and the main memory (RAM).",
+        "To ensure data consistency across multiple CPU cores sharing a common memory."
       ],
       "correct": 2
     },
     {
-      "question": "After the routing phase in ASIC physical design, which physical verification step primarily checks for electrical connectivity issues, such as open circuits or shorts, by comparing the extracted netlist from the layout against the original logical netlist?",
+      "question": "In modern ASIC/SoC design verification, what is the primary advantage of employing **constrained random verification (CRV)**?",
       "options": [
-        "Design Rule Checking (DRC)",
-        "Layout Versus Schematic (LVS)",
-        "Electrical Rule Checking (ERC)",
-        "Power Integrity Analysis (PIA)",
-        "Static Timing Analysis (STA)"
+        "It guarantees mathematical proof of correctness for all possible input sequences.",
+        "It uses pre-written, specific test vectors to thoroughly check known corner cases.",
+        "It exhaustively simulates every possible state of the design to find bugs.",
+        "It efficiently covers a wide range of scenarios and corner cases by generating varied inputs within specified valid ranges, often finding unforeseen bugs.",
+        "It automatically translates high-level specifications into hardware description language code."
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "Which advanced technique in memory management aims to reduce the effective memory access latency by prefetching data into the cache *before* it is explicitly requested by the CPU, often based on predicted access patterns?",
+      "question": "In advanced semiconductor process nodes (e.g., 28nm and below), which type of power consumption becomes increasingly dominant, even when a digital circuit is in an idle or standby state, and often requires techniques like multiple threshold voltages (multi-Vt) for mitigation?",
       "options": [
-        "Cache Coherence Protocol enforcement",
-        "Virtual Memory paging",
-        "Speculative prefetching",
-        "Translation Lookaside Buffer (TLB) bypassing",
-        "Memory scrambling"
+        "Dynamic power due to switching activity.",
+        "Short-circuit power during signal transitions.",
+        "Power consumed by the clock distribution network.",
+        "Leakage power (static power) due to subthreshold conduction and gate oxide tunneling.",
+        "Power associated with I/O pad drivers and receivers."
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "question": "In digital IC design, what is the primary purpose of adding **scan chains** to a circuit?",
+      "question": "In modern CPU architectures, what is the primary purpose of implementing distinct **privilege levels** (or modes, e.g., kernel mode, user mode)?",
       "options": [
-        "To reduce dynamic power consumption during normal operation.",
-        "To improve the circuit's performance by reducing critical path delays.",
-        "To enable efficient testing of internal logic for manufacturing defects.",
-        "To facilitate secure communication between different IP blocks.",
-        "To automatically correct single-bit errors in memory elements."
+        "To enable the CPU to execute multiple instructions simultaneously in parallel.",
+        "To differentiate between memory accesses from the cache and those from main memory.",
+        "To protect critical operating system resources and hardware from unauthorized access or malicious modification by user-level programs.",
+        "To optimize the power consumption of the processor based on workload demands.",
+        "To allow the CPU to dynamically switch between different instruction set architectures (ISAs)."
       ],
       "correct": 2
     }

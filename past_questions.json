@@ -1,9 +1,4 @@
 [
-  "What is the primary purpose of **photolithography** in semiconductor manufacturing?",
-  "In a deeply pipelined processor with out-of-order execution capabilities, what is the primary function of a **reorder buffer** (also known as an instruction window)?",
-  "Which phenomenon describes the increase in the delay of a logic gate due to the unwanted electrical interaction (e.g., capacitive coupling) between its interconnects and those of neighboring switching signals, especially prevalent in deep submicron technologies?",
-  "In System-on-Chip (SoC) design verification, what is the primary purpose of an **Assertion-Based Verification (ABV)** methodology?",
-  "In low-power digital IC design, what is the primary technique that involves inserting special switch cells to completely cut off the power supply (Vdd) to inactive circuit blocks, thereby reducing static and dynamic power consumption?",
   "In digital IC design, what is the primary role of a 'testbench'?",
   "In the physical design phase of an integrated circuit, what does Design Rule Checking (DRC) primarily ensure?",
   "Which cache mapping policy allows any block from main memory to be placed into any cache line, offering the greatest flexibility but requiring the most complex hardware for tag comparison?",
@@ -48,5 +43,10 @@
   "In a multi-core processor employing the MESI cache coherence protocol, what state indicates that a cache block is clean (matches main memory) and is present in at least one other cache, allowing multiple cores to have read-only copies?",
   "After the routing phase in ASIC physical design, which physical verification step primarily checks for electrical connectivity issues, such as open circuits or shorts, by comparing the extracted netlist from the layout against the original logical netlist?",
   "Which advanced technique in memory management aims to reduce the effective memory access latency by prefetching data into the cache *before* it is explicitly requested by the CPU, often based on predicted access patterns?",
-  "In digital IC design, what is the primary purpose of adding **scan chains** to a circuit?"
+  "In digital IC design, what is the primary purpose of adding **scan chains** to a circuit?",
+  "What is the fundamental purpose of a clock signal in synchronous digital circuits?",
+  "What is the primary purpose of **virtual memory** in computer architecture?",
+  "In modern ASIC/SoC design verification, what is the primary advantage of employing **constrained random verification (CRV)**?",
+  "In advanced semiconductor process nodes (e.g., 28nm and below), which type of power consumption becomes increasingly dominant, even when a digital circuit is in an idle or standby state, and often requires techniques like multiple threshold voltages (multi-Vt) for mitigation?",
+  "In modern CPU architectures, what is the primary purpose of implementing distinct **privilege levels** (or modes, e.g., kernel mode, user mode)?"
 ]
