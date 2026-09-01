@@ -1,9 +1,4 @@
 [
-  "In digital IC design, what is the primary role of a 'testbench'?",
-  "In the physical design phase of an integrated circuit, what does Design Rule Checking (DRC) primarily ensure?",
-  "Which cache mapping policy allows any block from main memory to be placed into any cache line, offering the greatest flexibility but requiring the most complex hardware for tag comparison?",
-  "In an out-of-order execution processor, what is the primary purpose of 'register renaming'?",
-  "What is the main benefit of adopting a hierarchical design approach in the development of complex System-on-Chip (SoC) designs?",
   "What phenomenon in integrated circuit technology is famously predicted to double the number of transistors on a microchip approximately every two years?",
   "In synchronous digital IC design, what does the 'hold time' constraint for a flip-flop primarily ensure?",
   "Which cache write policy immediately updates both the cache and main memory upon a write operation, ensuring consistency but potentially incurring higher latency for writes?",
@@ -48,5 +43,10 @@
   "What is the primary purpose of **virtual memory** in computer architecture?",
   "In modern ASIC/SoC design verification, what is the primary advantage of employing **constrained random verification (CRV)**?",
   "In advanced semiconductor process nodes (e.g., 28nm and below), which type of power consumption becomes increasingly dominant, even when a digital circuit is in an idle or standby state, and often requires techniques like multiple threshold voltages (multi-Vt) for mitigation?",
-  "In modern CPU architectures, what is the primary purpose of implementing distinct **privilege levels** (or modes, e.g., kernel mode, user mode)?"
+  "In modern CPU architectures, what is the primary purpose of implementing distinct **privilege levels** (or modes, e.g., kernel mode, user mode)?",
+  "What is the primary function of a multiplexer (MUX) in digital circuits?",
+  "Which architectural design approach allows a processor to execute multiple instructions simultaneously from a single instruction stream by fetching and dispatching them to multiple execution units in the same clock cycle?",
+  "In advanced semiconductor manufacturing, what is the primary purpose of **Optical Proximity Correction (OPC)** during the lithography mask preparation phase?",
+  "In a typical multi-level cache hierarchy (L1, L2, L3), what is the primary characteristic that differentiates the L1 cache from the L2 and L3 caches in terms of design goals?",
+  "Which power optimization technique involves disabling the clock signal to inactive functional blocks or registers within an IC, thereby significantly reducing dynamic power consumption without affecting functionality?"
 ]
