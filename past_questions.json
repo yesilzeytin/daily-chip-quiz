@@ -1,9 +1,4 @@
 [
-  "What phenomenon in integrated circuit technology is famously predicted to double the number of transistors on a microchip approximately every two years?",
-  "In synchronous digital IC design, what does the 'hold time' constraint for a flip-flop primarily ensure?",
-  "Which cache write policy immediately updates both the cache and main memory upon a write operation, ensuring consistency but potentially incurring higher latency for writes?",
-  "In the context of digital IC verification, what is the primary advantage of **Formal Verification** methods (e.g., Model Checking, Equivalence Checking) over traditional simulation-based verification?",
-  "In complex System-on-Chip (SoC) designs, what is the primary motivation for employing a **Network-on-Chip (NoC)** architecture instead of a traditional bus-based interconnect?",
   "What is the defining characteristic of a NAND gate?",
   "In a modern pipelined processor, what is the primary purpose of a branch predictor?",
   "In the context of digital IC verification using simulation, which type of coverage specifically measures whether all specified states, transitions, and sequences of a Finite State Machine (FSM) have been exercised during simulation?",
@@ -48,5 +43,10 @@
   "Which architectural design approach allows a processor to execute multiple instructions simultaneously from a single instruction stream by fetching and dispatching them to multiple execution units in the same clock cycle?",
   "In advanced semiconductor manufacturing, what is the primary purpose of **Optical Proximity Correction (OPC)** during the lithography mask preparation phase?",
   "In a typical multi-level cache hierarchy (L1, L2, L3), what is the primary characteristic that differentiates the L1 cache from the L2 and L3 caches in terms of design goals?",
-  "Which power optimization technique involves disabling the clock signal to inactive functional blocks or registers within an IC, thereby significantly reducing dynamic power consumption without affecting functionality?"
+  "Which power optimization technique involves disabling the clock signal to inactive functional blocks or registers within an IC, thereby significantly reducing dynamic power consumption without affecting functionality?",
+  "What is the primary output file format generated at the end of the physical design (layout) phase of an Application-Specific Integrated Circuit (ASIC), which is then sent to the fabrication plant for manufacturing?",
+  "Which fundamental characteristic differentiates a Harvard architecture from a Von Neumann architecture in computer architecture?",
+  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the **floorplanning** stage?",
+  "When designing a digital integrated circuit with multiple clock domains, what is the primary challenge associated with transferring signals between these asynchronous clock domains?",
+  "In a modern pipelined processor, what is the primary function of a **Branch Target Buffer (BTB)**?"
 ]

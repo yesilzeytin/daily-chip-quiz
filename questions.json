@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the primary function of a multiplexer (MUX) in digital circuits?",
+      "question": "What is the primary output file format generated at the end of the physical design (layout) phase of an Application-Specific Integrated Circuit (ASIC), which is then sent to the fabrication plant for manufacturing?",
       "options": [
-        "To store a single bit of data",
-        "To perform arithmetic addition on two binary numbers",
-        "To select one of several input signals and route it to a single output",
-        "To convert a binary number into its decimal equivalent",
-        "To generate a stable, periodic clock signal for synchronous operations"
+        "Verilog RTL (Register Transfer Level) code",
+        "SPICE Netlist (Simulation Program with Integrated Circuit Emphasis)",
+        "Liberty (.lib) timing file",
+        "GDSII (Graphic Data System II)",
+        "Standard Delay Format (SDF) file"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which fundamental characteristic differentiates a Harvard architecture from a Von Neumann architecture in computer architecture?",
+      "options": [
+        "Harvard architectures support only Reduced Instruction Set Computer (RISC) processors, while Von Neumann supports Complex Instruction Set Computer (CISC).",
+        "Harvard architectures use a unified address space for both instructions and data, whereas Von Neumann architectures use separate address spaces.",
+        "Harvard architectures employ a single bus for all data transfers, while Von Neumann architectures use multiple buses.",
+        "Harvard architectures have separate storage and signal pathways for instructions and data, allowing simultaneous access to both.",
+        "Von Neumann architectures are primarily used in embedded systems, while Harvard architectures are common in general-purpose computing."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the **floorplanning** stage?",
+      "options": [
+        "To generate the initial Register Transfer Level (RTL) code from the high-level design specification.",
+        "To perform detailed transistor-level simulations to verify circuit functionality and power consumption.",
+        "To determine the optimal placement, approximate dimensions, and relative locations of major functional blocks (e.g., CPU, memory, I/O peripherals) on the chip die.",
+        "To verify the logical equivalence between the synthesized gate-level netlist and the original RTL design.",
+        "To synthesize the high-level design into a gate-level netlist using standard cells from a technology library."
       ],
       "correct": 2
     },
     {
-      "question": "Which architectural design approach allows a processor to execute multiple instructions simultaneously from a single instruction stream by fetching and dispatching them to multiple execution units in the same clock cycle?",
+      "question": "When designing a digital integrated circuit with multiple clock domains, what is the primary challenge associated with transferring signals between these asynchronous clock domains?",
       "options": [
-        "Pipelined architecture",
-        "Reduced Instruction Set Computing (RISC) architecture",
-        "Superscalar architecture",
-        "Very Long Instruction Word (VLIW) architecture",
-        "Multithreaded architecture"
+        "Ensuring all flip-flops have sufficient setup time margins within their respective clock domains.",
+        "Minimizing dynamic power consumption by disabling inactive logic blocks.",
+        "Preventing **metastability**, a state where a flip-flop's output is neither a solid logic high nor low, which can lead to unpredictable behavior.",
+        "Achieving the maximum operating frequency for the fastest clock domain.",
+        "Eliminating static timing analysis violations for critical paths within a single, synchronous clock domain."
       ],
       "correct": 2
     },
     {
-      "question": "In advanced semiconductor manufacturing, what is the primary purpose of **Optical Proximity Correction (OPC)** during the lithography mask preparation phase?",
+      "question": "In a modern pipelined processor, what is the primary function of a **Branch Target Buffer (BTB)**?",
       "options": [
-        "To reduce the number of manufacturing defects by eliminating dust particles from the cleanroom environment.",
-        "To optically inspect the finished silicon wafer for imperfections and deviations from the design.",
-        "To pre-distort the design patterns on the photomask to compensate for pattern distortions and resolution limits introduced by the lithography process.",
-        "To optimize the doping concentrations of transistors for better performance and lower leakage.",
-        "To measure the electrical properties of individual gates and interconnects on a test chip."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a typical multi-level cache hierarchy (L1, L2, L3), what is the primary characteristic that differentiates the L1 cache from the L2 and L3 caches in terms of design goals?",
-      "options": [
-        "L1 cache is typically non-inclusive, while L2 and L3 are strictly inclusive.",
-        "L1 cache prioritizes extremely low latency (fastest access) over size and associativity to minimize CPU stalls.",
-        "L1 cache is almost always write-through, while L2 and L3 are predominantly write-back.",
-        "L1 cache is typically implemented using Dynamic Random-Access Memory (DRAM), while L2 and L3 use Static Random-Access Memory (SRAM).",
-        "L1 cache is always shared among multiple processing cores, unlike L2 and L3 caches which are always private."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which power optimization technique involves disabling the clock signal to inactive functional blocks or registers within an IC, thereby significantly reducing dynamic power consumption without affecting functionality?",
-      "options": [
-        "Voltage Scaling (e.g., Dynamic Voltage and Frequency Scaling - DVFS)",
-        "Frequency Gating",
-        "Power Gating",
-        "Clock Gating",
-        "Transistor Stacking"
+        "To store recently accessed data for faster retrieval by the CPU, acting as a small data cache.",
+        "To predict whether a conditional branch instruction will be taken or not taken based on past history.",
+        "To resolve data hazards between instructions in the pipeline by forwarding results or stalling.",
+        "To store the predicted target address of a taken branch instruction, allowing the fetch unit to prefetch instructions from the predicted path.",
+        "To buffer instructions before they enter the decode stage, allowing multiple instructions to be fetched simultaneously."
       ],
       "correct": 3
     }
