@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "What is the primary output file format generated at the end of the physical design (layout) phase of an Application-Specific Integrated Circuit (ASIC), which is then sent to the fabrication plant for manufacturing?",
+      "question": "Which of the following describes a combinational logic circuit?",
       "options": [
-        "Verilog RTL (Register Transfer Level) code",
-        "SPICE Netlist (Simulation Program with Integrated Circuit Emphasis)",
-        "Liberty (.lib) timing file",
-        "GDSII (Graphic Data System II)",
-        "Standard Delay Format (SDF) file"
+        "Its output depends only on its current inputs.",
+        "It stores past input values in memory elements.",
+        "It requires a clock signal to operate.",
+        "It can generate sequential outputs without any input changes.",
+        "It is primarily used for implementing state machines."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the main goal of **Design For Testability (DFT)** techniques in digital IC design?",
+      "options": [
+        "To improve the circuit's performance by optimizing critical paths.",
+        "To reduce the overall power consumption of the chip.",
+        "To enhance the manufacturability and yield of the silicon.",
+        "To simplify the process of detecting and localizing manufacturing defects during post-fabrication testing.",
+        "To ensure that the design meets its functional specifications before physical implementation."
       ],
       "correct": 3
     },
     {
-      "question": "Which fundamental characteristic differentiates a Harvard architecture from a Von Neumann architecture in computer architecture?",
+      "question": "With the increasing prevalence of machine learning workloads, specialized hardware accelerators like GPUs and NPUs (Neural Processing Units) are becoming common. What is the fundamental architectural advantage these accelerators typically offer over general-purpose CPUs for such workloads?",
       "options": [
-        "Harvard architectures support only Reduced Instruction Set Computer (RISC) processors, while Von Neumann supports Complex Instruction Set Computer (CISC).",
-        "Harvard architectures use a unified address space for both instructions and data, whereas Von Neumann architectures use separate address spaces.",
-        "Harvard architectures employ a single bus for all data transfers, while Von Neumann architectures use multiple buses.",
-        "Harvard architectures have separate storage and signal pathways for instructions and data, allowing simultaneous access to both.",
-        "Von Neumann architectures are primarily used in embedded systems, while Harvard architectures are common in general-purpose computing."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the **floorplanning** stage?",
-      "options": [
-        "To generate the initial Register Transfer Level (RTL) code from the high-level design specification.",
-        "To perform detailed transistor-level simulations to verify circuit functionality and power consumption.",
-        "To determine the optimal placement, approximate dimensions, and relative locations of major functional blocks (e.g., CPU, memory, I/O peripherals) on the chip die.",
-        "To verify the logical equivalence between the synthesized gate-level netlist and the original RTL design.",
-        "To synthesize the high-level design into a gate-level netlist using standard cells from a technology library."
+        "Deeper pipelines for higher single-thread performance.",
+        "Lower power consumption for individual processing units.",
+        "High levels of parallelism, optimized for massive data-parallel operations (e.g., matrix multiplications).",
+        "Larger and more complex instruction set architectures (ISAs).",
+        "Faster access to main memory due to larger cache sizes."
       ],
       "correct": 2
     },
     {
-      "question": "When designing a digital integrated circuit with multiple clock domains, what is the primary challenge associated with transferring signals between these asynchronous clock domains?",
+      "question": "In deep sub-micron IC designs, which phenomenon refers to the unintended coupling of electrical signals between adjacent interconnects (wires), potentially leading to functional failures or timing violations?",
       "options": [
-        "Ensuring all flip-flops have sufficient setup time margins within their respective clock domains.",
-        "Minimizing dynamic power consumption by disabling inactive logic blocks.",
-        "Preventing **metastability**, a state where a flip-flop's output is neither a solid logic high nor low, which can lead to unpredictable behavior.",
-        "Achieving the maximum operating frequency for the fastest clock domain.",
-        "Eliminating static timing analysis violations for critical paths within a single, synchronous clock domain."
+        "Electromigration",
+        "IR Drop",
+        "Crosstalk",
+        "Thermal Runaway",
+        "Antenna Effect"
       ],
       "correct": 2
     },
     {
-      "question": "In a modern pipelined processor, what is the primary function of a **Branch Target Buffer (BTB)**?",
+      "question": "In a multi-processor system, what is a \"False Sharing\" issue in the context of cache coherence?",
       "options": [
-        "To store recently accessed data for faster retrieval by the CPU, acting as a small data cache.",
-        "To predict whether a conditional branch instruction will be taken or not taken based on past history.",
-        "To resolve data hazards between instructions in the pipeline by forwarding results or stalling.",
-        "To store the predicted target address of a taken branch instruction, allowing the fetch unit to prefetch instructions from the predicted path.",
-        "To buffer instructions before they enter the decode stage, allowing multiple instructions to be fetched simultaneously."
+        "When multiple processors try to write to the same cache line simultaneously.",
+        "When a processor accesses data that is not present in its cache, causing a miss.",
+        "When two or more processors access *different*, independent data items that happen to reside within the *same* cache line, leading to unnecessary cache line invalidations and coherence traffic.",
+        "When a processor's cache becomes incoherent with main memory due to a bug.",
+        "When a processor attempts to execute an instruction that is not allowed by its privilege level."
       ],
-      "correct": 3
+      "correct": 2
     }
   ]
 }

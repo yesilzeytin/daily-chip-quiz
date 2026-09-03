@@ -1,9 +1,4 @@
 [
-  "What is the defining characteristic of a NAND gate?",
-  "In a modern pipelined processor, what is the primary purpose of a branch predictor?",
-  "In the context of digital IC verification using simulation, which type of coverage specifically measures whether all specified states, transitions, and sequences of a Finite State Machine (FSM) have been exercised during simulation?",
-  "In an out-of-order execution processor, what is the primary role of a 'reservation station' (also known as a scoreboard or instruction queue)?",
-  "What is the primary advantage of designing an Integrated Circuit (IC) as a Field-Programmable Gate Array (FPGA) compared to a Full Custom Application-Specific Integrated Circuit (ASIC) for prototyping and low-volume production?",
   "Which of the following is a fundamental characteristic that differentiates Static Random-Access Memory (SRAM) from Dynamic Random-Access Memory (DRAM)?",
   "A designer observes that a critical path in their digital circuit is failing timing due to excessive delay from a particular logic gate. Which of the following is a common cause related to the gate's fan-out?",
   "Which of the following statements accurately differentiates a processor's Instruction Set Architecture (ISA) from its microarchitecture?",
@@ -48,5 +43,10 @@
   "Which fundamental characteristic differentiates a Harvard architecture from a Von Neumann architecture in computer architecture?",
   "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the **floorplanning** stage?",
   "When designing a digital integrated circuit with multiple clock domains, what is the primary challenge associated with transferring signals between these asynchronous clock domains?",
-  "In a modern pipelined processor, what is the primary function of a **Branch Target Buffer (BTB)**?"
+  "In a modern pipelined processor, what is the primary function of a **Branch Target Buffer (BTB)**?",
+  "Which of the following describes a combinational logic circuit?",
+  "What is the main goal of **Design For Testability (DFT)** techniques in digital IC design?",
+  "With the increasing prevalence of machine learning workloads, specialized hardware accelerators like GPUs and NPUs (Neural Processing Units) are becoming common. What is the fundamental architectural advantage these accelerators typically offer over general-purpose CPUs for such workloads?",
+  "In deep sub-micron IC designs, which phenomenon refers to the unintended coupling of electrical signals between adjacent interconnects (wires), potentially leading to functional failures or timing violations?",
+  "In a multi-processor system, what is a \"False Sharing\" issue in the context of cache coherence?"
 ]
