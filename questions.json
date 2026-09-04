@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "Which of the following describes a combinational logic circuit?",
+      "question": "What is the fundamental building block of a digital circuit, acting primarily as an electronic switch?",
       "options": [
-        "Its output depends only on its current inputs.",
-        "It stores past input values in memory elements.",
-        "It requires a clock signal to operate.",
-        "It can generate sequential outputs without any input changes.",
-        "It is primarily used for implementing state machines."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What is the main goal of **Design For Testability (DFT)** techniques in digital IC design?",
-      "options": [
-        "To improve the circuit's performance by optimizing critical paths.",
-        "To reduce the overall power consumption of the chip.",
-        "To enhance the manufacturability and yield of the silicon.",
-        "To simplify the process of detecting and localizing manufacturing defects during post-fabrication testing.",
-        "To ensure that the design meets its functional specifications before physical implementation."
+        "Resistor",
+        "Capacitor",
+        "Inductor",
+        "Transistor",
+        "Diode"
       ],
       "correct": 3
     },
     {
-      "question": "With the increasing prevalence of machine learning workloads, specialized hardware accelerators like GPUs and NPUs (Neural Processing Units) are becoming common. What is the fundamental architectural advantage these accelerators typically offer over general-purpose CPUs for such workloads?",
+      "question": "In the context of a CPU's internal architecture, what is the primary purpose of a 'register file'?",
       "options": [
-        "Deeper pipelines for higher single-thread performance.",
-        "Lower power consumption for individual processing units.",
-        "High levels of parallelism, optimized for massive data-parallel operations (e.g., matrix multiplications).",
-        "Larger and more complex instruction set architectures (ISAs).",
-        "Faster access to main memory due to larger cache sizes."
+        "To store frequently accessed data blocks from main memory for faster retrieval.",
+        "To hold the entire set of program instructions for an executing task.",
+        "To provide a small, fast memory unit for storing operands and intermediate results for the ALU.",
+        "To manage the flow of data between the CPU and I/O devices.",
+        "To maintain a record of executed instructions for debugging purposes."
       ],
       "correct": 2
     },
     {
-      "question": "In deep sub-micron IC designs, which phenomenon refers to the unintended coupling of electrical signals between adjacent interconnects (wires), potentially leading to functional failures or timing violations?",
+      "question": "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what does **DRC (Design Rule Checking)** primarily verify?",
       "options": [
-        "Electromigration",
-        "IR Drop",
-        "Crosstalk",
-        "Thermal Runaway",
-        "Antenna Effect"
+        "The logical equivalence between the RTL code and the generated gate-level netlist.",
+        "Whether the layout adheres to manufacturing process constraints (e.g., minimum line width, spacing, via sizes).",
+        "The timing performance of critical paths to ensure the circuit meets its clock frequency target.",
+        "The power consumption of the entire chip under various operating conditions.",
+        "The correct electrical connectivity and absence of floating nodes in the layout."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the context of digital IC verification, what is **Formal Verification** primarily used for, as distinct from simulation?",
+      "options": [
+        "To generate highly optimized test vectors for post-fabrication testing and diagnostics.",
+        "To model the circuit's behavior under various environmental stresses like temperature fluctuations.",
+        "To mathematically prove or disprove the correctness of a design against its specification, exploring all possible states or behaviors.",
+        "To create a virtual prototype of the hardware for software development prior to silicon availability.",
+        "To analyze and visualize transient circuit phenomena like glitches and signal integrity issues using waveforms."
       ],
       "correct": 2
     },
     {
-      "question": "In a multi-processor system, what is a \"False Sharing\" issue in the context of cache coherence?",
+      "question": "What is the primary architectural concept behind a **SIMD (Single Instruction, Multiple Data)** processing unit?",
       "options": [
-        "When multiple processors try to write to the same cache line simultaneously.",
-        "When a processor accesses data that is not present in its cache, causing a miss.",
-        "When two or more processors access *different*, independent data items that happen to reside within the *same* cache line, leading to unnecessary cache line invalidations and coherence traffic.",
-        "When a processor's cache becomes incoherent with main memory due to a bug.",
-        "When a processor attempts to execute an instruction that is not allowed by its privilege level."
+        "Allowing multiple, independent programs to execute concurrently on different cores.",
+        "Executing different instructions on different data streams simultaneously.",
+        "Applying the same instruction to multiple data elements in parallel using a single control unit.",
+        "Dynamically reordering instructions from a single thread to optimize pipeline utilization.",
+        "Using a large, unified cache hierarchy to store both instructions and data."
       ],
       "correct": 2
     }

@@ -1,9 +1,4 @@
 [
-  "Which of the following is a fundamental characteristic that differentiates Static Random-Access Memory (SRAM) from Dynamic Random-Access Memory (DRAM)?",
-  "A designer observes that a critical path in their digital circuit is failing timing due to excessive delay from a particular logic gate. Which of the following is a common cause related to the gate's fan-out?",
-  "Which of the following statements accurately differentiates a processor's Instruction Set Architecture (ISA) from its microarchitecture?",
-  "What is the primary objective of employing **Equivalence Checking** in the semiconductor design process?",
-  "In modern multi-core processor design, what problem does **Hardware Transactional Memory (HTM)** primarily aim to solve?",
   "What is the primary objective of implementing instruction pipelining in a CPU?",
   "In modern digital integrated circuits, total power consumption is typically divided into two main categories: static power and dynamic power. Which of the following is the primary contributor to dynamic power consumption?",
   "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what is the primary goal of the \"Placement and Routing\" (P&R) phase?",
@@ -48,5 +43,10 @@
   "What is the main goal of **Design For Testability (DFT)** techniques in digital IC design?",
   "With the increasing prevalence of machine learning workloads, specialized hardware accelerators like GPUs and NPUs (Neural Processing Units) are becoming common. What is the fundamental architectural advantage these accelerators typically offer over general-purpose CPUs for such workloads?",
   "In deep sub-micron IC designs, which phenomenon refers to the unintended coupling of electrical signals between adjacent interconnects (wires), potentially leading to functional failures or timing violations?",
-  "In a multi-processor system, what is a \"False Sharing\" issue in the context of cache coherence?"
+  "In a multi-processor system, what is a \"False Sharing\" issue in the context of cache coherence?",
+  "What is the fundamental building block of a digital circuit, acting primarily as an electronic switch?",
+  "In the context of a CPU's internal architecture, what is the primary purpose of a 'register file'?",
+  "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what does **DRC (Design Rule Checking)** primarily verify?",
+  "In the context of digital IC verification, what is **Formal Verification** primarily used for, as distinct from simulation?",
+  "What is the primary architectural concept behind a **SIMD (Single Instruction, Multiple Data)** processing unit?"
 ]
