@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "What is the fundamental building block of a digital circuit, acting primarily as an electronic switch?",
+      "question": "In synchronous digital circuits, which fundamental component is used to store a single bit of information?",
       "options": [
-        "Resistor",
-        "Capacitor",
-        "Inductor",
-        "Transistor",
-        "Diode"
+        "AND gate",
+        "Multiplexer",
+        "Flip-flop",
+        "Decoder",
+        "Comparator"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following statements accurately describes a key difference between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
+      "options": [
+        "SRAM is typically used for main memory (RAM) due to its high density, while DRAM is used for CPU caches due to its speed.",
+        "SRAM requires periodic refreshing to maintain data, whereas DRAM retains data as long as power is supplied.",
+        "DRAM cells are typically larger and more complex, using 6 transistors per bit, while SRAM cells are simpler, using a capacitor and a transistor.",
+        "SRAM is faster and more expensive per bit than DRAM, making it suitable for CPU caches.",
+        "DRAM is volatile memory, losing its data when power is removed, but SRAM is non-volatile."
       ],
       "correct": 3
     },
     {
-      "question": "In the context of a CPU's internal architecture, what is the primary purpose of a 'register file'?",
+      "question": "In the digital IC design flow, what is the primary purpose of **Static Timing Analysis (STA)**?",
       "options": [
-        "To store frequently accessed data blocks from main memory for faster retrieval.",
-        "To hold the entire set of program instructions for an executing task.",
-        "To provide a small, fast memory unit for storing operands and intermediate results for the ALU.",
-        "To manage the flow of data between the CPU and I/O devices.",
-        "To maintain a record of executed instructions for debugging purposes."
+        "To generate the physical layout (GDSII) of the circuit after routing.",
+        "To verify the functional correctness of the design by simulating its behavior with test vectors.",
+        "To mathematically prove or disprove temporal logic properties of the design, ensuring correctness without simulation.",
+        "To check for and ensure that all timing constraints (e.g., setup time, hold time, clock frequency) are met across all operating conditions without running dynamic simulations.",
+        "To identify and fix design rule violations (DRC) and layout versus schematic (LVS) mismatches."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In an out-of-order execution processor, what is the primary architectural technique used to eliminate \"write-after-write\" (WAW) and \"write-after-read\" (WAR) data hazards, thereby allowing more instructions to execute speculatively and in parallel?",
+      "options": [
+        "Instruction pipelining",
+        "Branch prediction",
+        "Register renaming",
+        "Data forwarding (bypassing)",
+        "Cache prefetching"
       ],
       "correct": 2
     },
     {
-      "question": "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what does **DRC (Design Rule Checking)** primarily verify?",
+      "question": "In advanced semiconductor manufacturing, as feature sizes shrink to deep sub-micron and nanometer scales, the precise fabrication of desired circuit patterns becomes increasingly challenging due to wave-like properties of light during lithography. Which phenomenon specifically describes the degradation of printed feature fidelity (e.g., line width variations, corner rounding) compared to the ideal mask pattern, even with ideal focus and exposure?",
       "options": [
-        "The logical equivalence between the RTL code and the generated gate-level netlist.",
-        "Whether the layout adheres to manufacturing process constraints (e.g., minimum line width, spacing, via sizes).",
-        "The timing performance of critical paths to ensure the circuit meets its clock frequency target.",
-        "The power consumption of the entire chip under various operating conditions.",
-        "The correct electrical connectivity and absence of floating nodes in the layout."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In the context of digital IC verification, what is **Formal Verification** primarily used for, as distinct from simulation?",
-      "options": [
-        "To generate highly optimized test vectors for post-fabrication testing and diagnostics.",
-        "To model the circuit's behavior under various environmental stresses like temperature fluctuations.",
-        "To mathematically prove or disprove the correctness of a design against its specification, exploring all possible states or behaviors.",
-        "To create a virtual prototype of the hardware for software development prior to silicon availability.",
-        "To analyze and visualize transient circuit phenomena like glitches and signal integrity issues using waveforms."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What is the primary architectural concept behind a **SIMD (Single Instruction, Multiple Data)** processing unit?",
-      "options": [
-        "Allowing multiple, independent programs to execute concurrently on different cores.",
-        "Executing different instructions on different data streams simultaneously.",
-        "Applying the same instruction to multiple data elements in parallel using a single control unit.",
-        "Dynamically reordering instructions from a single thread to optimize pipeline utilization.",
-        "Using a large, unified cache hierarchy to store both instructions and data."
+        "Electromigration",
+        "Random dopant fluctuation (RDF)",
+        "Diffraction limited resolution",
+        "Hot carrier injection",
+        "Negative bias temperature instability (NBTI)"
       ],
       "correct": 2
     }
