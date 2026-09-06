@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In synchronous digital circuits, which fundamental component is used to store a single bit of information?",
+      "question": "In the context of digital IC design, what is the primary advantage of a **full custom design methodology** over a standard cell-based ASIC design flow for specific critical blocks like high-performance processors or analog circuits?",
       "options": [
-        "AND gate",
-        "Multiplexer",
-        "Flip-flop",
-        "Decoder",
-        "Comparator"
+        "Significantly faster design turnaround time.",
+        "Reduced manufacturing costs for low-volume production.",
+        "Greater optimization of area, power, and performance at the transistor level.",
+        "Easier portability to different process technologies.",
+        "Simplifies the overall verification process."
       ],
       "correct": 2
     },
     {
-      "question": "Which of the following statements accurately describes a key difference between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
+      "question": "Which of the following best describes the primary role of an **Instruction Set Architecture (ISA)** in computer architecture?",
       "options": [
-        "SRAM is typically used for main memory (RAM) due to its high density, while DRAM is used for CPU caches due to its speed.",
-        "SRAM requires periodic refreshing to maintain data, whereas DRAM retains data as long as power is supplied.",
-        "DRAM cells are typically larger and more complex, using 6 transistors per bit, while SRAM cells are simpler, using a capacitor and a transistor.",
-        "SRAM is faster and more expensive per bit than DRAM, making it suitable for CPU caches.",
-        "DRAM is volatile memory, losing its data when power is removed, but SRAM is non-volatile."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the digital IC design flow, what is the primary purpose of **Static Timing Analysis (STA)**?",
-      "options": [
-        "To generate the physical layout (GDSII) of the circuit after routing.",
-        "To verify the functional correctness of the design by simulating its behavior with test vectors.",
-        "To mathematically prove or disprove temporal logic properties of the design, ensuring correctness without simulation.",
-        "To check for and ensure that all timing constraints (e.g., setup time, hold time, clock frequency) are met across all operating conditions without running dynamic simulations.",
-        "To identify and fix design rule violations (DRC) and layout versus schematic (LVS) mismatches."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In an out-of-order execution processor, what is the primary architectural technique used to eliminate \"write-after-write\" (WAW) and \"write-after-read\" (WAR) data hazards, thereby allowing more instructions to execute speculatively and in parallel?",
-      "options": [
-        "Instruction pipelining",
-        "Branch prediction",
-        "Register renaming",
-        "Data forwarding (bypassing)",
-        "Cache prefetching"
+        "To define the microarchitectural implementation details of a processor's pipeline.",
+        "To specify the physical layout and fabrication process of the CPU chip.",
+        "To provide a standardized interface between software and hardware, specifying instructions, registers, and memory addressing modes.",
+        "To manage the allocation and deallocation of memory to different processes.",
+        "To regulate the power consumption and clock frequency of the processor dynamically."
       ],
       "correct": 2
     },
     {
-      "question": "In advanced semiconductor manufacturing, as feature sizes shrink to deep sub-micron and nanometer scales, the precise fabrication of desired circuit patterns becomes increasingly challenging due to wave-like properties of light during lithography. Which phenomenon specifically describes the degradation of printed feature fidelity (e.g., line width variations, corner rounding) compared to the ideal mask pattern, even with ideal focus and exposure?",
+      "question": "In the physical design phase of digital integrated circuits, what is the primary objective of **Clock Tree Synthesis (CTS)**?",
       "options": [
-        "Electromigration",
-        "Random dopant fluctuation (RDF)",
-        "Diffraction limited resolution",
-        "Hot carrier injection",
-        "Negative bias temperature instability (NBTI)"
+        "To optimize the placement of standard cells to minimize routing congestion.",
+        "To generate a layout of power and ground networks across the chip.",
+        "To create a balanced distribution network for the clock signal, minimizing skew and insertion delay to all sequential elements.",
+        "To perform Design Rule Checking (DRC) to ensure manufacturability.",
+        "To convert the Register Transfer Level (RTL) design into a gate-level netlist."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In a multi-processor system, what is the primary purpose of a **Memory Consistency Model** (e.g., Sequential Consistency, Release Consistency)?",
+      "options": [
+        "To ensure that all caches maintain identical copies of shared data at all times.",
+        "To define the ordering guarantees for memory operations (reads and writes) across multiple processors.",
+        "To provide a high-bandwidth, low-latency communication channel between CPU cores.",
+        "To detect and correct single-bit or multi-bit errors in main memory.",
+        "To translate virtual memory addresses into physical memory addresses."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In the design of complex System-on-Chips (SoCs) with numerous intellectual property (IP) blocks and diverse functional units, what is the primary advantage of employing a **Network-on-Chip (NoC)** architecture over a traditional bus-based interconnect system?",
+      "options": [
+        "Significantly reduces the total silicon area required for the SoC.",
+        "Simplifies the process of integrating analog mixed-signal IP blocks.",
+        "Offers improved scalability, higher bandwidth, and better isolation of communication paths, crucial for performance in multi-core/multi-IP designs.",
+        "Eliminates the need for any form of cache coherence protocol.",
+        "Primarily reduces static power consumption during idle periods."
       ],
       "correct": 2
     }
