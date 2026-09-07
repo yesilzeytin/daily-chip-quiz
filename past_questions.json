@@ -1,9 +1,4 @@
 [
-  "Which semiconductor device acts as a fundamental electronic switch and amplifier, forming the basis of modern digital integrated circuits?",
-  "In a typical five-stage CPU pipeline (Fetch, Decode, Execute, Memory, Write-back), what is the primary operation performed during the 'Execute' stage?",
-  "In deep submicron digital IC design, designers must extensively analyze circuit behavior across various corners defined by Process, Voltage, and Temperature (PVT) variations. What is the primary reason for this comprehensive analysis?",
-  "Which formal verification technique is used to mathematically prove or disprove whether a finite-state model of a system satisfies a given set of temporal logic properties, exploring all possible system states exhaustively?",
-  "In modern computer systems, what is the primary function of the Translation Lookaside Buffer (TLB)?",
   "What is the primary function of a flip-flop in digital circuits?",
   "In a multi-core processor system, what is the primary purpose of a cache coherence protocol (e.g., MESI)?",
   "In the context of hardware verification, what is the primary advantage of using FPGA-based emulation compared to software-based simulation for a large System-on-Chip (SoC) design?",
@@ -48,5 +43,10 @@
   "Which of the following best describes the primary role of an **Instruction Set Architecture (ISA)** in computer architecture?",
   "In the physical design phase of digital integrated circuits, what is the primary objective of **Clock Tree Synthesis (CTS)**?",
   "In a multi-processor system, what is the primary purpose of a **Memory Consistency Model** (e.g., Sequential Consistency, Release Consistency)?",
-  "In the design of complex System-on-Chips (SoCs) with numerous intellectual property (IP) blocks and diverse functional units, what is the primary advantage of employing a **Network-on-Chip (NoC)** architecture over a traditional bus-based interconnect system?"
+  "In the design of complex System-on-Chips (SoCs) with numerous intellectual property (IP) blocks and diverse functional units, what is the primary advantage of employing a **Network-on-Chip (NoC)** architecture over a traditional bus-based interconnect system?",
+  "In a Central Processing Unit (CPU), what is the primary function of the Arithmetic Logic Unit (ALU)?",
+  "In digital IC design, what does a 'netlist' primarily represent?",
+  "Which of the following best describes a key difference between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
+  "Which power management technique involves selectively cutting off the power supply to inactive functional blocks within an IC to significantly reduce static (leakage) power consumption?",
+  "Which architectural concept allows a single CPU core to execute multiple independent threads concurrently by rapidly switching between them, often used to hide memory latency or I/O stalls?"
 ]

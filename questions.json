@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In the context of digital IC design, what is the primary advantage of a **full custom design methodology** over a standard cell-based ASIC design flow for specific critical blocks like high-performance processors or analog circuits?",
+      "question": "In a Central Processing Unit (CPU), what is the primary function of the Arithmetic Logic Unit (ALU)?",
       "options": [
-        "Significantly faster design turnaround time.",
-        "Reduced manufacturing costs for low-volume production.",
-        "Greater optimization of area, power, and performance at the transistor level.",
-        "Easier portability to different process technologies.",
-        "Simplifies the overall verification process."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which of the following best describes the primary role of an **Instruction Set Architecture (ISA)** in computer architecture?",
-      "options": [
-        "To define the microarchitectural implementation details of a processor's pipeline.",
-        "To specify the physical layout and fabrication process of the CPU chip.",
-        "To provide a standardized interface between software and hardware, specifying instructions, registers, and memory addressing modes.",
-        "To manage the allocation and deallocation of memory to different processes.",
-        "To regulate the power consumption and clock frequency of the processor dynamically."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the physical design phase of digital integrated circuits, what is the primary objective of **Clock Tree Synthesis (CTS)**?",
-      "options": [
-        "To optimize the placement of standard cells to minimize routing congestion.",
-        "To generate a layout of power and ground networks across the chip.",
-        "To create a balanced distribution network for the clock signal, minimizing skew and insertion delay to all sequential elements.",
-        "To perform Design Rule Checking (DRC) to ensure manufacturability.",
-        "To convert the Register Transfer Level (RTL) design into a gate-level netlist."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In a multi-processor system, what is the primary purpose of a **Memory Consistency Model** (e.g., Sequential Consistency, Release Consistency)?",
-      "options": [
-        "To ensure that all caches maintain identical copies of shared data at all times.",
-        "To define the ordering guarantees for memory operations (reads and writes) across multiple processors.",
-        "To provide a high-bandwidth, low-latency communication channel between CPU cores.",
-        "To detect and correct single-bit or multi-bit errors in main memory.",
-        "To translate virtual memory addresses into physical memory addresses."
+        "To fetch instructions from memory",
+        "To perform arithmetic operations (e.g., addition, subtraction) and logical operations (e.g., AND, OR)",
+        "To store data temporarily in registers",
+        "To manage communication with input/output devices",
+        "To decode instructions and control other CPU components"
       ],
       "correct": 1
     },
     {
-      "question": "In the design of complex System-on-Chips (SoCs) with numerous intellectual property (IP) blocks and diverse functional units, what is the primary advantage of employing a **Network-on-Chip (NoC)** architecture over a traditional bus-based interconnect system?",
+      "question": "In digital IC design, what does a 'netlist' primarily represent?",
       "options": [
-        "Significantly reduces the total silicon area required for the SoC.",
-        "Simplifies the process of integrating analog mixed-signal IP blocks.",
-        "Offers improved scalability, higher bandwidth, and better isolation of communication paths, crucial for performance in multi-core/multi-IP designs.",
-        "Eliminates the need for any form of cache coherence protocol.",
-        "Primarily reduces static power consumption during idle periods."
+        "A graphical layout of the silicon masks used for fabrication",
+        "A textual description of the connectivity between logical components and their instances (gates, flip-flops, etc.)",
+        "A specification for the operating voltage and clock frequency of the circuit",
+        "A high-level behavioral description of the circuit written in a Hardware Description Language (HDL)",
+        "The compiled binary code that a processor executes"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following best describes a key difference between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
+      "options": [
+        "ASICs are programmable by the user after manufacturing, while FPGAs are not.",
+        "FPGAs offer higher performance and lower power consumption for specific tasks compared to ASICs.",
+        "ASICs are typically designed for low-volume prototyping, while FPGAs are for mass production.",
+        "FPGAs can be reconfigured to implement different logic functions after fabrication, whereas ASICs are fixed.",
+        "ASICs do not require a clock signal for operation, while FPGAs rely heavily on it."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which power management technique involves selectively cutting off the power supply to inactive functional blocks within an IC to significantly reduce static (leakage) power consumption?",
+      "options": [
+        "Clock Gating",
+        "Dynamic Voltage and Frequency Scaling (DVFS)",
+        "Pipeline Flushing",
+        "Power Gating",
+        "Architectural Throttling"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which architectural concept allows a single CPU core to execute multiple independent threads concurrently by rapidly switching between them, often used to hide memory latency or I/O stalls?",
+      "options": [
+        "Single Instruction, Multiple Data (SIMD)",
+        "Out-of-Order Execution",
+        "Hardware Multithreading (e.g., SMT/Hyperthreading)",
+        "Vector Processing",
+        "Distributed Shared Memory"
       ],
       "correct": 2
     }
