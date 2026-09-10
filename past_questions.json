@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a flip-flop in digital circuits?",
-  "In a multi-core processor system, what is the primary purpose of a cache coherence protocol (e.g., MESI)?",
-  "In the context of hardware verification, what is the primary advantage of using FPGA-based emulation compared to software-based simulation for a large System-on-Chip (SoC) design?",
-  "Beyond simple branch prediction, what is a common technique employed in deeply pipelined processors to mitigate the performance impact of control hazards when the target of a branch instruction is known late?",
-  "Which advanced power management technique dynamically adjusts both the operating voltage and clock frequency of a processor or SoC block to optimize performance and power consumption based on workload demands?",
   "What is the primary input to the logic synthesis process in a typical ASIC design flow?",
   "In a multi-core processor employing the MESI cache coherence protocol, what state indicates that a cache block is clean (matches main memory) and is present in at least one other cache, allowing multiple cores to have read-only copies?",
   "After the routing phase in ASIC physical design, which physical verification step primarily checks for electrical connectivity issues, such as open circuits or shorts, by comparing the extracted netlist from the layout against the original logical netlist?",
@@ -48,5 +43,10 @@
   "In digital IC design, what does a 'netlist' primarily represent?",
   "Which of the following best describes a key difference between an Application-Specific Integrated Circuit (ASIC) and a Field-Programmable Gate Array (FPGA)?",
   "Which power management technique involves selectively cutting off the power supply to inactive functional blocks within an IC to significantly reduce static (leakage) power consumption?",
-  "Which architectural concept allows a single CPU core to execute multiple independent threads concurrently by rapidly switching between them, often used to hide memory latency or I/O stalls?"
+  "Which architectural concept allows a single CPU core to execute multiple independent threads concurrently by rapidly switching between them, often used to hide memory latency or I/O stalls?",
+  "In synchronous digital sequential logic, what does the term 'setup time' (t_setup) of a flip-flop specifically define?",
+  "In deep sub-micron integrated circuit reliability, what is the primary physical cause of electromigration in on-chip metal interconnects?",
+  "In a processor's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
+  "In dynamically scheduled out-of-order superscalar processors, what is the primary architectural purpose of the Reorder Buffer (ROB)?",
+  "When designing an asynchronous FIFO buffer spanning two unsynchronized clock domains, why are the read and write pointer values converted to Gray code before being passed across the clock domains?"
 ]
