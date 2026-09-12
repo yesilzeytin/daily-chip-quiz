@@ -1,9 +1,4 @@
 [
-  "What is the primary input to the logic synthesis process in a typical ASIC design flow?",
-  "In a multi-core processor employing the MESI cache coherence protocol, what state indicates that a cache block is clean (matches main memory) and is present in at least one other cache, allowing multiple cores to have read-only copies?",
-  "After the routing phase in ASIC physical design, which physical verification step primarily checks for electrical connectivity issues, such as open circuits or shorts, by comparing the extracted netlist from the layout against the original logical netlist?",
-  "Which advanced technique in memory management aims to reduce the effective memory access latency by prefetching data into the cache *before* it is explicitly requested by the CPU, often based on predicted access patterns?",
-  "In digital IC design, what is the primary purpose of adding **scan chains** to a circuit?",
   "What is the fundamental purpose of a clock signal in synchronous digital circuits?",
   "What is the primary purpose of **virtual memory** in computer architecture?",
   "In modern ASIC/SoC design verification, what is the primary advantage of employing **constrained random verification (CRV)**?",
@@ -48,5 +43,10 @@
   "In deep sub-micron integrated circuit reliability, what is the primary physical cause of electromigration in on-chip metal interconnects?",
   "In a processor's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
   "In dynamically scheduled out-of-order superscalar processors, what is the primary architectural purpose of the Reorder Buffer (ROB)?",
-  "When designing an asynchronous FIFO buffer spanning two unsynchronized clock domains, why are the read and write pointer values converted to Gray code before being passed across the clock domains?"
+  "When designing an asynchronous FIFO buffer spanning two unsynchronized clock domains, why are the read and write pointer values converted to Gray code before being passed across the clock domains?",
+  "In modern out-of-order processor microarchitectures, what is the primary function of 'store-to-load forwarding' implemented within the Load-Store Queue (LSQ)?",
+  "Unlike setup timing violations, why are hold timing violations in synchronous digital circuits considered particularly critical and fatal to an ASIC's post-silicon viability?",
+  "In a cache memory implementing a write-back policy, what is the primary role of associating a 'dirty bit' with each cache block?",
+  "In computer architecture, which term describes a memory storage convention where the least significant byte (LSB) of a multi-byte word is placed at the lowest numeric memory address?",
+  "During the backend-of-line (BEOL) fabrication phase of an integrated circuit, what physical mechanism causes the 'antenna effect' (plasma-induced gate damage)?"
 ]

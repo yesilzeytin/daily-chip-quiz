@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In synchronous digital sequential logic, what does the term 'setup time' (t_setup) of a flip-flop specifically define?",
+      "question": "In modern out-of-order processor microarchitectures, what is the primary function of 'store-to-load forwarding' implemented within the Load-Store Queue (LSQ)?",
       "options": [
-        "The minimum duration that the data input must remain stable before the active clock edge arrives",
-        "The minimum time that the clock pulse must remain continuously in either the high or low state",
-        "The propagation delay between the arrival of the clock edge and the output transition of the register",
-        "The minimum duration that the data input must hold its value after the active clock edge has transitioned",
-        "The maximum allowable difference in clock arrival times between adjacent flip-flops across the chip"
+        "Allowing a younger load instruction to retrieve its required data directly from an older, uncommitted store to the same memory address without accessing the cache",
+        "Ensuring all store operations commit to the L1 data cache strictly in program order before any subsequent load can issue",
+        "Converting atomic read-modify-write memory operations into non-blocking register-to-register moves",
+        "Automatically updating page table entries in the TLB whenever a store instruction writes to virtual memory",
+        "Reordering independent store instructions ahead of branch instructions to minimize branch misprediction penalties"
       ],
       "correct": 0
     },
     {
-      "question": "In deep sub-micron integrated circuit reliability, what is the primary physical cause of electromigration in on-chip metal interconnects?",
+      "question": "Unlike setup timing violations, why are hold timing violations in synchronous digital circuits considered particularly critical and fatal to an ASIC's post-silicon viability?",
       "options": [
-        "Capacitive crosstalk between closely routed parallel signal traces switching at high frequencies",
-        "The physical displacement of conductor metal atoms caused by momentum transfer from high-density drifting electrons",
-        "The dielectric breakdown of thin silicon dioxide under prolonged exposure to high electric fields",
-        "The gradual threshold voltage shift in MOSFETs caused by charge trapping at the gate dielectric interface",
-        "The generation of electron-hole pairs along silicon diffusion regions induced by alpha particle radiation"
+        "They cause excessive static leakage current that permanently damages metal interconnects",
+        "They cannot be mitigated post-fabrication by simply lowering the operational clock frequency",
+        "They can only occur across multiple asynchronous clock domains rather than within a single domain",
+        "They degrade the gate oxide layer of transistors via plasma-induced Fowler-Nordheim tunneling",
+        "They automatically force synthesis tools to re-execute the floorplanning stage"
       ],
       "correct": 1
     },
     {
-      "question": "In a processor's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
+      "question": "In a cache memory implementing a write-back policy, what is the primary role of associating a 'dirty bit' with each cache block?",
       "options": [
-        "To temporarily buffer modified cache lines before they are written back to main memory",
-        "To arbitrate memory access requests among competing threads in a simultaneous multithreading core",
-        "To serve as a specialized high-speed cache for recently resolved virtual-to-physical address translations",
-        "To hold pre-decoded instructions fetched ahead of the current program counter value",
-        "To maintain serialized atomic transaction ordering across high-speed point-to-point processor links"
+        "To identify cache blocks that have parity or ECC errors requiring scrubbing",
+        "To denote that a cache line has been invalidated by a snoop hit from another processor core",
+        "To track whether the cache block has been modified relative to lower memory levels, indicating it must be written back upon eviction",
+        "To track the chronological age of the cache line for the Least Recently Used (LRU) replacement policy",
+        "To prevent speculative load instructions from accessing data prior to address translation completion"
       ],
       "correct": 2
     },
     {
-      "question": "In dynamically scheduled out-of-order superscalar processors, what is the primary architectural purpose of the Reorder Buffer (ROB)?",
+      "question": "In computer architecture, which term describes a memory storage convention where the least significant byte (LSB) of a multi-byte word is placed at the lowest numeric memory address?",
       "options": [
-        "To dispatch ready micro-operations from the reservation stations to execution functional units",
-        "To eliminate write-after-read (WAR) dependencies through physical register identifier mapping",
-        "To dynamically predict branch outcome directions using global and local branch history registers",
-        "To commit completed instructions strictly in original program order to maintain precise architectural state and exceptions",
-        "To coalesce sequential DRAM accesses into wider burst transactions to optimize memory bus bandwidth"
+        "Big-endian",
+        "Bi-endian",
+        "Middle-endian",
+        "Little-endian",
+        "Sign-extended"
       ],
       "correct": 3
     },
     {
-      "question": "When designing an asynchronous FIFO buffer spanning two unsynchronized clock domains, why are the read and write pointer values converted to Gray code before being passed across the clock domains?",
+      "question": "During the backend-of-line (BEOL) fabrication phase of an integrated circuit, what physical mechanism causes the 'antenna effect' (plasma-induced gate damage)?",
       "options": [
-        "Gray code drastically simplifies the combinational logic required to perform pointer addition and subtraction",
-        "Gray code eliminates the need to use multi-stage flip-flop synchronizers in the receiving clock domain",
-        "Gray code prevents write pointer overflows by dynamically compressing pointer values into fewer bits",
-        "Gray code reduces power consumption by suppressing clock switching across inactive regions of the FIFO",
-        "Gray code changes only one bit per state transition, preventing multi-bit transition skew and corrupted pointer values"
+        "High electromagnetic interference (EMI) radiation emitted from adjacent wirebonds during packaging",
+        "Parasitic inductive cross-coupling between high-speed parallel clock routes operating at microwave frequencies",
+        "Mechanical stress fractures produced at standard cell boundaries due to chemical-mechanical planarization (CMP)",
+        "Thermal expansion mismatches occurring between low-k dielectric inter-layer materials and copper vias",
+        "Accumulation of electrostatic charges on long, unconnected metal interconnects during reactive-ion etching, which discharge through thin transistor gate oxides"
       ],
       "correct": 4
     }
