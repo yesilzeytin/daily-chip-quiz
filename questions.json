@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In modern out-of-order processor microarchitectures, what is the primary function of 'store-to-load forwarding' implemented within the Load-Store Queue (LSQ)?",
+      "question": "In digital integrated circuit design and Static Timing Analysis (STA), what does the term 'critical path' refer to?",
       "options": [
-        "Allowing a younger load instruction to retrieve its required data directly from an older, uncommitted store to the same memory address without accessing the cache",
-        "Ensuring all store operations commit to the L1 data cache strictly in program order before any subsequent load can issue",
-        "Converting atomic read-modify-write memory operations into non-blocking register-to-register moves",
-        "Automatically updating page table entries in the TLB whenever a store instruction writes to virtual memory",
-        "Reordering independent store instructions ahead of branch instructions to minimize branch misprediction penalties"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Unlike setup timing violations, why are hold timing violations in synchronous digital circuits considered particularly critical and fatal to an ASIC's post-silicon viability?",
-      "options": [
-        "They cause excessive static leakage current that permanently damages metal interconnects",
-        "They cannot be mitigated post-fabrication by simply lowering the operational clock frequency",
-        "They can only occur across multiple asynchronous clock domains rather than within a single domain",
-        "They degrade the gate oxide layer of transistors via plasma-induced Fowler-Nordheim tunneling",
-        "They automatically force synthesis tools to re-execute the floorplanning stage"
+        "The power delivery line carrying the highest current density across the chip.",
+        "The longest combinational path between two synchronous storage elements, which sets the upper bound on the maximum clock frequency.",
+        "The clock distribution network branch exhibiting the largest capacitive load.",
+        "The shortest delay path between an input and output pin that can cause hold time violations.",
+        "The test sequence scan path with the largest total number of scan flip-flops."
       ],
       "correct": 1
     },
     {
-      "question": "In a cache memory implementing a write-back policy, what is the primary role of associating a 'dirty bit' with each cache block?",
+      "question": "In a classic in-order pipelined processor, what is the primary purpose of data forwarding (also called operand bypassing)?",
       "options": [
-        "To identify cache blocks that have parity or ECC errors requiring scrubbing",
-        "To denote that a cache line has been invalidated by a snoop hit from another processor core",
-        "To track whether the cache block has been modified relative to lower memory levels, indicating it must be written back upon eviction",
-        "To track the chronological age of the cache line for the Least Recently Used (LRU) replacement policy",
-        "To prevent speculative load instructions from accessing data prior to address translation completion"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In computer architecture, which term describes a memory storage convention where the least significant byte (LSB) of a multi-byte word is placed at the lowest numeric memory address?",
-      "options": [
-        "Big-endian",
-        "Bi-endian",
-        "Middle-endian",
-        "Little-endian",
-        "Sign-extended"
+        "To resolve Write-After-Write (WAW) hazards by dynamically remapping architectural registers.",
+        "To allow out-of-order retirement of instructions while preserving precise exception handling.",
+        "To bypass cache misses by fetching instruction operands directly from main memory.",
+        "To route an execution result directly to a dependent instruction in an earlier pipeline stage, eliminating stalls caused by Read-After-Write (RAW) hazards.",
+        "To pass branch target addresses directly to the fetch unit before instruction decode completes."
       ],
       "correct": 3
     },
     {
-      "question": "During the backend-of-line (BEOL) fabrication phase of an integrated circuit, what physical mechanism causes the 'antenna effect' (plasma-induced gate damage)?",
+      "question": "In the physical design and power integrity analysis of an integrated circuit, what is 'IR drop' and why is it problematic?",
       "options": [
-        "High electromagnetic interference (EMI) radiation emitted from adjacent wirebonds during packaging",
-        "Parasitic inductive cross-coupling between high-speed parallel clock routes operating at microwave frequencies",
-        "Mechanical stress fractures produced at standard cell boundaries due to chemical-mechanical planarization (CMP)",
-        "Thermal expansion mismatches occurring between low-k dielectric inter-layer materials and copper vias",
-        "Accumulation of electrostatic charges on long, unconnected metal interconnects during reactive-ion etching, which discharge through thin transistor gate oxides"
+        "Unintended high-frequency electromagnetic radiation causing substrate noise in adjacent analog blocks.",
+        "A degradation of gate oxide breakdown voltage caused by hot carrier injection over extended operational lifetimes.",
+        "A reduction in effective supply voltage along the on-chip power distribution network caused by wire resistance and current draw, leading to increased cell delays and possible timing violations.",
+        "Parasitic capacitive coupling between adjacent high-speed signal lines that induces clock skew.",
+        "An exponential increase in subthreshold leakage current caused by local temperature hotspots."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Why are directory-based cache coherence protocols preferred over snooping-based protocols in systems with large numbers of processor cores?",
+      "options": [
+        "Directory-based protocols avoid broadcasting coherence requests over a shared interconnect by tracking sharing status point-to-point, preventing network bandwidth bottlenecks as core count scales.",
+        "Directory-based protocols eliminate the need for coherence state bits (such as valid and dirty bits) inside private L1/L2 caches.",
+        "Snooping-based protocols are fundamentally unable to handle non-blocking memory access requests across shared caches.",
+        "Directory-based protocols move coherence management entirely into the operating system software, reducing on-chip transistor counts.",
+        "Snooping-based protocols can only support write-through caches, whereas directory-based protocols allow write-back caches."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In bulk CMOS integrated circuits, what is the underlying physical mechanism of 'latch-up'?",
+      "options": [
+        "Excessive quantum tunneling through thin gate dielectrics that permanently locks the PMOS transistor into a conducting state.",
+        "Electrostatic breakdown in shallow trench isolation that creates trapped charges and inverts channel polarity.",
+        "Avalanche breakdown occurring at drain-bulk pn junctions when transient supply voltages exceed breakdown thresholds.",
+        "Void formation in high-density metal lines due to directional atomic transport under high current gradients.",
+        "The triggering of parasitic cross-coupled NPN and PNP bipolar transistors forming a silicon-controlled rectifier (SCR) structure, creating a high-current, low-impedance short circuit between VDD and GND."
       ],
       "correct": 4
     }

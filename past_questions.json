@@ -1,9 +1,4 @@
 [
-  "What is the fundamental purpose of a clock signal in synchronous digital circuits?",
-  "What is the primary purpose of **virtual memory** in computer architecture?",
-  "In modern ASIC/SoC design verification, what is the primary advantage of employing **constrained random verification (CRV)**?",
-  "In advanced semiconductor process nodes (e.g., 28nm and below), which type of power consumption becomes increasingly dominant, even when a digital circuit is in an idle or standby state, and often requires techniques like multiple threshold voltages (multi-Vt) for mitigation?",
-  "In modern CPU architectures, what is the primary purpose of implementing distinct **privilege levels** (or modes, e.g., kernel mode, user mode)?",
   "What is the primary function of a multiplexer (MUX) in digital circuits?",
   "Which architectural design approach allows a processor to execute multiple instructions simultaneously from a single instruction stream by fetching and dispatching them to multiple execution units in the same clock cycle?",
   "In advanced semiconductor manufacturing, what is the primary purpose of **Optical Proximity Correction (OPC)** during the lithography mask preparation phase?",
@@ -48,5 +43,10 @@
   "Unlike setup timing violations, why are hold timing violations in synchronous digital circuits considered particularly critical and fatal to an ASIC's post-silicon viability?",
   "In a cache memory implementing a write-back policy, what is the primary role of associating a 'dirty bit' with each cache block?",
   "In computer architecture, which term describes a memory storage convention where the least significant byte (LSB) of a multi-byte word is placed at the lowest numeric memory address?",
-  "During the backend-of-line (BEOL) fabrication phase of an integrated circuit, what physical mechanism causes the 'antenna effect' (plasma-induced gate damage)?"
+  "During the backend-of-line (BEOL) fabrication phase of an integrated circuit, what physical mechanism causes the 'antenna effect' (plasma-induced gate damage)?",
+  "In digital integrated circuit design and Static Timing Analysis (STA), what does the term 'critical path' refer to?",
+  "In a classic in-order pipelined processor, what is the primary purpose of data forwarding (also called operand bypassing)?",
+  "In the physical design and power integrity analysis of an integrated circuit, what is 'IR drop' and why is it problematic?",
+  "Why are directory-based cache coherence protocols preferred over snooping-based protocols in systems with large numbers of processor cores?",
+  "In bulk CMOS integrated circuits, what is the underlying physical mechanism of 'latch-up'?"
 ]
