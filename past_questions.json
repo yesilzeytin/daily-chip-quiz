@@ -1,9 +1,4 @@
 [
-  "What is the primary function of a multiplexer (MUX) in digital circuits?",
-  "Which architectural design approach allows a processor to execute multiple instructions simultaneously from a single instruction stream by fetching and dispatching them to multiple execution units in the same clock cycle?",
-  "In advanced semiconductor manufacturing, what is the primary purpose of **Optical Proximity Correction (OPC)** during the lithography mask preparation phase?",
-  "In a typical multi-level cache hierarchy (L1, L2, L3), what is the primary characteristic that differentiates the L1 cache from the L2 and L3 caches in terms of design goals?",
-  "Which power optimization technique involves disabling the clock signal to inactive functional blocks or registers within an IC, thereby significantly reducing dynamic power consumption without affecting functionality?",
   "What is the primary output file format generated at the end of the physical design (layout) phase of an Application-Specific Integrated Circuit (ASIC), which is then sent to the fabrication plant for manufacturing?",
   "Which fundamental characteristic differentiates a Harvard architecture from a Von Neumann architecture in computer architecture?",
   "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the **floorplanning** stage?",
@@ -48,5 +43,10 @@
   "In a classic in-order pipelined processor, what is the primary purpose of data forwarding (also called operand bypassing)?",
   "In the physical design and power integrity analysis of an integrated circuit, what is 'IR drop' and why is it problematic?",
   "Why are directory-based cache coherence protocols preferred over snooping-based protocols in systems with large numbers of processor cores?",
-  "In bulk CMOS integrated circuits, what is the underlying physical mechanism of 'latch-up'?"
+  "In bulk CMOS integrated circuits, what is the underlying physical mechanism of 'latch-up'?",
+  "In digital circuit design, what does the \"fan-out\" of a logic gate specifically refer to?",
+  "In synchronous digital systems, what is the fundamental difference between clock skew and clock jitter?",
+  "In modern microprocessor microarchitectures, what is the primary role of a dedicated Return Address Stack (RAS)?",
+  "Why have advanced semiconductor manufacturing nodes (such as 3nm and below) transitioned from FinFET to Gate-All-Around (GAA) nanosheet transistor architectures?",
+  "In high-performance processor design, why is a Virtually Indexed, Physically Tagged (VIPT) scheme commonly selected for L1 data and instruction caches?"
 ]

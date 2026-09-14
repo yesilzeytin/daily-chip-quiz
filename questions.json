@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In digital integrated circuit design and Static Timing Analysis (STA), what does the term 'critical path' refer to?",
+      "question": "In digital circuit design, what does the \"fan-out\" of a logic gate specifically refer to?",
       "options": [
-        "The power delivery line carrying the highest current density across the chip.",
-        "The longest combinational path between two synchronous storage elements, which sets the upper bound on the maximum clock frequency.",
-        "The clock distribution network branch exhibiting the largest capacitive load.",
-        "The shortest delay path between an input and output pin that can cause hold time violations.",
-        "The test sequence scan path with the largest total number of scan flip-flops."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In a classic in-order pipelined processor, what is the primary purpose of data forwarding (also called operand bypassing)?",
-      "options": [
-        "To resolve Write-After-Write (WAW) hazards by dynamically remapping architectural registers.",
-        "To allow out-of-order retirement of instructions while preserving precise exception handling.",
-        "To bypass cache misses by fetching instruction operands directly from main memory.",
-        "To route an execution result directly to a dependent instruction in an earlier pipeline stage, eliminating stalls caused by Read-After-Write (RAW) hazards.",
-        "To pass branch target addresses directly to the fetch unit before instruction decode completes."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In the physical design and power integrity analysis of an integrated circuit, what is 'IR drop' and why is it problematic?",
-      "options": [
-        "Unintended high-frequency electromagnetic radiation causing substrate noise in adjacent analog blocks.",
-        "A degradation of gate oxide breakdown voltage caused by hot carrier injection over extended operational lifetimes.",
-        "A reduction in effective supply voltage along the on-chip power distribution network caused by wire resistance and current draw, leading to increased cell delays and possible timing violations.",
-        "Parasitic capacitive coupling between adjacent high-speed signal lines that induces clock skew.",
-        "An exponential increase in subthreshold leakage current caused by local temperature hotspots."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Why are directory-based cache coherence protocols preferred over snooping-based protocols in systems with large numbers of processor cores?",
-      "options": [
-        "Directory-based protocols avoid broadcasting coherence requests over a shared interconnect by tracking sharing status point-to-point, preventing network bandwidth bottlenecks as core count scales.",
-        "Directory-based protocols eliminate the need for coherence state bits (such as valid and dirty bits) inside private L1/L2 caches.",
-        "Snooping-based protocols are fundamentally unable to handle non-blocking memory access requests across shared caches.",
-        "Directory-based protocols move coherence management entirely into the operating system software, reducing on-chip transistor counts.",
-        "Snooping-based protocols can only support write-through caches, whereas directory-based protocols allow write-back caches."
+        "The number of standard load inputs connected to and driven by the gate's output.",
+        "The maximum propagation delay measured across all internal transistor paths.",
+        "The ratio of dynamic power dissipation to static leakage power in the gate.",
+        "The physical layout area occupied by a cell relative to standard cell routing tracks.",
+        "The number of distinct clock domains a gate's output signal can simultaneously drive."
       ],
       "correct": 0
     },
     {
-      "question": "In bulk CMOS integrated circuits, what is the underlying physical mechanism of 'latch-up'?",
+      "question": "In synchronous digital systems, what is the fundamental difference between clock skew and clock jitter?",
       "options": [
-        "Excessive quantum tunneling through thin gate dielectrics that permanently locks the PMOS transistor into a conducting state.",
-        "Electrostatic breakdown in shallow trench isolation that creates trapped charges and inverts channel polarity.",
-        "Avalanche breakdown occurring at drain-bulk pn junctions when transient supply voltages exceed breakdown thresholds.",
-        "Void formation in high-density metal lines due to directional atomic transport under high current gradients.",
-        "The triggering of parasitic cross-coupled NPN and PNP bipolar transistors forming a silicon-controlled rectifier (SCR) structure, creating a high-current, low-impedance short circuit between VDD and GND."
+        "Clock skew is the cycle-to-cycle variation in the clock period at a single point, while clock jitter is the spatial difference in arrival times between two registers.",
+        "Clock skew represents the spatial variation in clock edge arrival times across different locations, whereas clock jitter represents the temporal variation of clock edges over time at a given location.",
+        "Clock skew only affects hold timing constraints, whereas clock jitter exclusively impacts setup timing constraints.",
+        "Clock skew is caused solely by thermal noise in transistor channels, while clock jitter is caused exclusively by mismatched interconnect wire lengths.",
+        "Clock skew occurs only in dynamic logic styles, while clock jitter is restricted to static CMOS circuits."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In modern microprocessor microarchitectures, what is the primary role of a dedicated Return Address Stack (RAS)?",
+      "options": [
+        "To allocate stack frames in main memory for deeply nested recursive function calls.",
+        "To save general-purpose registers to on-chip SRAM during interrupt service routines.",
+        "To accurately predict the target addresses of subroutine return instructions (e.g., RET) in deeply pipelined execution.",
+        "To monitor hardware call stacks to detect and prevent buffer overflow exploits in software.",
+        "To store evicted dirty cache lines from the L1 instruction cache before writeback to L2."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Why have advanced semiconductor manufacturing nodes (such as 3nm and below) transitioned from FinFET to Gate-All-Around (GAA) nanosheet transistor architectures?",
+      "options": [
+        "To eliminate the need for chemical-mechanical planarization (CMP) in the middle-of-line (MOL) process.",
+        "To allow operation at significantly higher supply voltages (VDD > 1.8 V) for RF integration.",
+        "To replace copper interconnect layers with monolithic carbon nanotubes at lower metal layers.",
+        "To achieve superior electrostatic gate control over the channel, mitigating short-channel effects and reducing off-state leakage.",
+        "To reduce the total number of lithography masks required during extreme ultraviolet (EUV) exposure."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In high-performance processor design, why is a Virtually Indexed, Physically Tagged (VIPT) scheme commonly selected for L1 data and instruction caches?",
+      "options": [
+        "It completely prevents cache aliasing (synonyms) without requiring restrictions on cache line size, page size, or associativity.",
+        "It eliminates the need to verify physical address tags, thereby halving cache read power consumption.",
+        "It allows operating systems to manage cache replacement policies without maintaining physical page tables.",
+        "It avoids the need to invalidate cache lines when switching between distinct process address spaces.",
+        "It allows the cache index lookup and the TLB address translation to proceed in parallel, reducing L1 access latency."
       ],
       "correct": 4
     }
