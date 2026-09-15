@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital circuit design, what does the \"fan-out\" of a logic gate specifically refer to?",
+      "question": "In digital arithmetic circuits, what is the primary architectural advantage of a Carry-Lookahead Adder (CLA) compared to a standard Ripple-Carry Adder (RCA)?",
       "options": [
-        "The number of standard load inputs connected to and driven by the gate's output.",
-        "The maximum propagation delay measured across all internal transistor paths.",
-        "The ratio of dynamic power dissipation to static leakage power in the gate.",
-        "The physical layout area occupied by a cell relative to standard cell routing tracks.",
-        "The number of distinct clock domains a gate's output signal can simultaneously drive."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In synchronous digital systems, what is the fundamental difference between clock skew and clock jitter?",
-      "options": [
-        "Clock skew is the cycle-to-cycle variation in the clock period at a single point, while clock jitter is the spatial difference in arrival times between two registers.",
-        "Clock skew represents the spatial variation in clock edge arrival times across different locations, whereas clock jitter represents the temporal variation of clock edges over time at a given location.",
-        "Clock skew only affects hold timing constraints, whereas clock jitter exclusively impacts setup timing constraints.",
-        "Clock skew is caused solely by thermal noise in transistor channels, while clock jitter is caused exclusively by mismatched interconnect wire lengths.",
-        "Clock skew occurs only in dynamic logic styles, while clock jitter is restricted to static CMOS circuits."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In modern microprocessor microarchitectures, what is the primary role of a dedicated Return Address Stack (RAS)?",
-      "options": [
-        "To allocate stack frames in main memory for deeply nested recursive function calls.",
-        "To save general-purpose registers to on-chip SRAM during interrupt service routines.",
-        "To accurately predict the target addresses of subroutine return instructions (e.g., RET) in deeply pipelined execution.",
-        "To monitor hardware call stacks to detect and prevent buffer overflow exploits in software.",
-        "To store evicted dirty cache lines from the L1 instruction cache before writeback to L2."
+        "It uses significantly fewer transistors and smaller silicon area than an RCA for wide bit-widths.",
+        "It eliminates all glitches and dynamic switching hazards across the sum outputs.",
+        "It reduces propagation delay from linear O(n) to logarithmic O(log n) by precomputing carry signals in parallel using generate and propagate logic.",
+        "It operates completely asynchronously without requiring any reference clock or intermediate state registers.",
+        "It allows the addition of two floating-point mantissas in a single clock cycle without normalization."
       ],
       "correct": 2
     },
     {
-      "question": "Why have advanced semiconductor manufacturing nodes (such as 3nm and below) transitioned from FinFET to Gate-All-Around (GAA) nanosheet transistor architectures?",
+      "question": "In microarchitecture, why is a 2-bit saturating counter (bimodal branch predictor) generally preferred over a 1-bit predictor for handling loops?",
       "options": [
-        "To eliminate the need for chemical-mechanical planarization (CMP) in the middle-of-line (MOL) process.",
-        "To allow operation at significantly higher supply voltages (VDD > 1.8 V) for RF integration.",
-        "To replace copper interconnect layers with monolithic carbon nanotubes at lower metal layers.",
-        "To achieve superior electrostatic gate control over the channel, mitigating short-channel effects and reducing off-state leakage.",
-        "To reduce the total number of lithography masks required during extreme ultraviolet (EUV) exposure."
+        "It prevents a single anomalous branch outcome (such as the final loop exit) from permanently flipping the prediction for the subsequent loop invocation.",
+        "It stores both the branch condition and the full 64-bit target address directly in the counter state.",
+        "It completely eliminates the need to flush the processor pipeline upon detecting a branch misprediction.",
+        "It allows the branch prediction logic to run at double the core clock frequency using dual-edge triggering.",
+        "It calculates the target branch address dynamically using an integrated arithmetic adder."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "During digital logic synthesis and optimization, what does the technique known as retiming fundamentally accomplish?",
+      "options": [
+        "Dynamically modulating the clock frequency at runtime based on real-time temperature fluctuations.",
+        "Replacing static CMOS gates with dynamic domino logic to increase switching speed along critical paths.",
+        "Inserting delay buffers along the shortest paths to fix post-layout hold timing violations.",
+        "Relocating sequential storage elements (registers/flip-flops) across combinational logic boundaries to balance path delays without changing external circuit latency or functionality.",
+        "Converting synchronous flip-flops into level-sensitive transparent latches to enable cycle borrowing."
       ],
       "correct": 3
     },
     {
-      "question": "In high-performance processor design, why is a Virtually Indexed, Physically Tagged (VIPT) scheme commonly selected for L1 data and instruction caches?",
+      "question": "In modern DRAM memory subsystem architectures, what is the primary operational consequence of a \"Row Buffer Conflict\" (or \"Row Buffer Miss\") during a memory read?",
       "options": [
-        "It completely prevents cache aliasing (synonyms) without requiring restrictions on cache line size, page size, or associativity.",
-        "It eliminates the need to verify physical address tags, thereby halving cache read power consumption.",
-        "It allows operating systems to manage cache replacement policies without maintaining physical page tables.",
-        "It avoids the need to invalidate cache lines when switching between distinct process address spaces.",
-        "It allows the cache index lookup and the TLB address translation to proceed in parallel, reducing L1 access latency."
+        "The memory controller must immediately trigger a refresh cycle across all DRAM banks to restore lost charges.",
+        "The requested data is permanently lost and must be fetched again from non-volatile storage.",
+        "The DRAM controller converts the access into an unaligned burst transfer across the peripheral bus.",
+        "The memory channel bus must be tristated and recalibrated using an on-die termination (ODT) sequence.",
+        "The currently open row must be written back and precharged to close it before an activate command can open the newly requested row, incurring additional access latency."
       ],
       "correct": 4
+    },
+    {
+      "question": "In the late stages of the ASIC physical design flow, what is the primary purpose of an Engineering Change Order (ECO)?",
+      "options": [
+        "Formally submitting the finalized GDSII file to the semiconductor foundry for mask fabrication.",
+        "Implementing incremental logic, functional bug fixes, or timing corrections without re-running the entire synthesis and place-and-route flow from scratch.",
+        "Converting register-transfer level (RTL) Verilog descriptions into high-level C++ system models.",
+        "Calibrating the automatic test equipment (ATE) patterns used during post-silicon wafer sorting.",
+        "Optimizing the packaging pinout and ball grid array (BGA) assignments before board-level integration."
+      ],
+      "correct": 1
     }
   ]
 }

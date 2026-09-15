@@ -1,9 +1,4 @@
 [
-  "What is the primary output file format generated at the end of the physical design (layout) phase of an Application-Specific Integrated Circuit (ASIC), which is then sent to the fabrication plant for manufacturing?",
-  "Which fundamental characteristic differentiates a Harvard architecture from a Von Neumann architecture in computer architecture?",
-  "In the physical design flow of an Application-Specific Integrated Circuit (ASIC), what is the primary objective of the **floorplanning** stage?",
-  "When designing a digital integrated circuit with multiple clock domains, what is the primary challenge associated with transferring signals between these asynchronous clock domains?",
-  "In a modern pipelined processor, what is the primary function of a **Branch Target Buffer (BTB)**?",
   "Which of the following describes a combinational logic circuit?",
   "What is the main goal of **Design For Testability (DFT)** techniques in digital IC design?",
   "With the increasing prevalence of machine learning workloads, specialized hardware accelerators like GPUs and NPUs (Neural Processing Units) are becoming common. What is the fundamental architectural advantage these accelerators typically offer over general-purpose CPUs for such workloads?",
@@ -48,5 +43,10 @@
   "In synchronous digital systems, what is the fundamental difference between clock skew and clock jitter?",
   "In modern microprocessor microarchitectures, what is the primary role of a dedicated Return Address Stack (RAS)?",
   "Why have advanced semiconductor manufacturing nodes (such as 3nm and below) transitioned from FinFET to Gate-All-Around (GAA) nanosheet transistor architectures?",
-  "In high-performance processor design, why is a Virtually Indexed, Physically Tagged (VIPT) scheme commonly selected for L1 data and instruction caches?"
+  "In high-performance processor design, why is a Virtually Indexed, Physically Tagged (VIPT) scheme commonly selected for L1 data and instruction caches?",
+  "In digital arithmetic circuits, what is the primary architectural advantage of a Carry-Lookahead Adder (CLA) compared to a standard Ripple-Carry Adder (RCA)?",
+  "In microarchitecture, why is a 2-bit saturating counter (bimodal branch predictor) generally preferred over a 1-bit predictor for handling loops?",
+  "During digital logic synthesis and optimization, what does the technique known as retiming fundamentally accomplish?",
+  "In modern DRAM memory subsystem architectures, what is the primary operational consequence of a \"Row Buffer Conflict\" (or \"Row Buffer Miss\") during a memory read?",
+  "In the late stages of the ASIC physical design flow, what is the primary purpose of an Engineering Change Order (ECO)?"
 ]
