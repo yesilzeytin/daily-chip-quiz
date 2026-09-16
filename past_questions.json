@@ -1,9 +1,4 @@
 [
-  "Which of the following describes a combinational logic circuit?",
-  "What is the main goal of **Design For Testability (DFT)** techniques in digital IC design?",
-  "With the increasing prevalence of machine learning workloads, specialized hardware accelerators like GPUs and NPUs (Neural Processing Units) are becoming common. What is the fundamental architectural advantage these accelerators typically offer over general-purpose CPUs for such workloads?",
-  "In deep sub-micron IC designs, which phenomenon refers to the unintended coupling of electrical signals between adjacent interconnects (wires), potentially leading to functional failures or timing violations?",
-  "In a multi-processor system, what is a \"False Sharing\" issue in the context of cache coherence?",
   "What is the fundamental building block of a digital circuit, acting primarily as an electronic switch?",
   "In the context of a CPU's internal architecture, what is the primary purpose of a 'register file'?",
   "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what does **DRC (Design Rule Checking)** primarily verify?",
@@ -48,5 +43,10 @@
   "In microarchitecture, why is a 2-bit saturating counter (bimodal branch predictor) generally preferred over a 1-bit predictor for handling loops?",
   "During digital logic synthesis and optimization, what does the technique known as retiming fundamentally accomplish?",
   "In modern DRAM memory subsystem architectures, what is the primary operational consequence of a \"Row Buffer Conflict\" (or \"Row Buffer Miss\") during a memory read?",
-  "In the late stages of the ASIC physical design flow, what is the primary purpose of an Engineering Change Order (ECO)?"
+  "In the late stages of the ASIC physical design flow, what is the primary purpose of an Engineering Change Order (ECO)?",
+  "During logic synthesis and physical design optimization, how is Multi-Threshold CMOS (Multi-Vt) library cell swapping primarily utilized to balance power and performance?",
+  "According to Amdahl's Law, what fundamentally limits the theoretical maximum speedup achievable by parallelizing a computing workload across an arbitrarily large number of processor cores?",
+  "In digital circuits, when an asynchronous signal violates the setup or hold time requirements of a flip-flop, the internal storage node may enter an unstable state with an output voltage lingering between valid logic levels for an unpredictable duration. What is this phenomenon called?",
+  "In modern superscalar processor front-ends, what is the primary operational distinction between a Branch Target Buffer (BTB) and a conditional branch direction predictor?",
+  "In modern high-performance microprocessors, what is the primary role of Miss Status Holding Registers (MSHRs) within a non-blocking cache?"
 ]
