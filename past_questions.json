@@ -1,9 +1,4 @@
 [
-  "What is the fundamental building block of a digital circuit, acting primarily as an electronic switch?",
-  "In the context of a CPU's internal architecture, what is the primary purpose of a 'register file'?",
-  "In the physical design stage of an Application-Specific Integrated Circuit (ASIC), what does **DRC (Design Rule Checking)** primarily verify?",
-  "In the context of digital IC verification, what is **Formal Verification** primarily used for, as distinct from simulation?",
-  "What is the primary architectural concept behind a **SIMD (Single Instruction, Multiple Data)** processing unit?",
   "In synchronous digital circuits, which fundamental component is used to store a single bit of information?",
   "Which of the following statements accurately describes a key difference between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
   "In the digital IC design flow, what is the primary purpose of **Static Timing Analysis (STA)**?",
@@ -48,5 +43,10 @@
   "According to Amdahl's Law, what fundamentally limits the theoretical maximum speedup achievable by parallelizing a computing workload across an arbitrarily large number of processor cores?",
   "In digital circuits, when an asynchronous signal violates the setup or hold time requirements of a flip-flop, the internal storage node may enter an unstable state with an output voltage lingering between valid logic levels for an unpredictable duration. What is this phenomenon called?",
   "In modern superscalar processor front-ends, what is the primary operational distinction between a Branch Target Buffer (BTB) and a conditional branch direction predictor?",
-  "In modern high-performance microprocessors, what is the primary role of Miss Status Holding Registers (MSHRs) within a non-blocking cache?"
+  "In modern high-performance microprocessors, what is the primary role of Miss Status Holding Registers (MSHRs) within a non-blocking cache?",
+  "In shared-memory multiprocessor architectures with cache coherence protocols, what does the term 'false sharing' refer to?",
+  "In deep sub-micron ASIC physical design, how does cross-coupling capacitance between adjacent parallel interconnects primarily affect signal timing when both wires switch simultaneously in opposite directions?",
+  "In digital IC design, what is the primary purpose of inserting scan chains during the Design for Testability (DFT) process?",
+  "In Static Timing Analysis (STA), what is a 'false path' and why is it explicitly specified as a timing exception?",
+  "In computer microarchitecture, what is the primary role of the Common Data Bus (CDB) in Tomasulo's dynamic instruction scheduling algorithm?"
 ]

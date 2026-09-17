@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "During logic synthesis and physical design optimization, how is Multi-Threshold CMOS (Multi-Vt) library cell swapping primarily utilized to balance power and performance?",
+      "question": "In shared-memory multiprocessor architectures with cache coherence protocols, what does the term 'false sharing' refer to?",
       "options": [
-        "Low-Vt (LVT) cells are placed on timing-critical paths to reduce delay, while High-Vt (HVT) cells are used on non-critical paths to minimize subthreshold leakage.",
-        "High-Vt (HVT) cells are placed on timing-critical paths to boost drive strength, while Low-Vt (LVT) cells are used on non-critical paths to reduce dynamic switching power.",
-        "Low-Vt (LVT) cells are used exclusively in sequential elements (registers), while High-Vt (HVT) cells are strictly reserved for combinational logic.",
-        "High-Vt (HVT) cells are assigned to lower metal layers, while Low-Vt (LVT) cells are routed only to top-level global interconnects.",
-        "Ultra-Low-Vt (ULVT) cells are used during functional testing modes to increase noise margins, then swapped to High-Vt during normal operation."
+        "Multiple processors updating distinct, independent variables that reside within the same cache line, causing unnecessary coherence invalidations.",
+        "A hardware security flaw where speculative execution leaks cache tags across isolated memory enclaves.",
+        "Two processing cores simultaneously contending for the exact same spinlock variable in main memory.",
+        "The physical time-multiplexing of functional units between threads in a simultaneous multithreading (SMT) pipeline.",
+        "An erroneous protocol state where two independent caches simultaneously believe they hold exclusive modified ownership of a block."
       ],
       "correct": 0
     },
     {
-      "question": "According to Amdahl's Law, what fundamentally limits the theoretical maximum speedup achievable by parallelizing a computing workload across an arbitrarily large number of processor cores?",
+      "question": "In deep sub-micron ASIC physical design, how does cross-coupling capacitance between adjacent parallel interconnects primarily affect signal timing when both wires switch simultaneously in opposite directions?",
       "options": [
-        "The physical propagation delay of electrical signals through the interconnect network",
-        "The proportion of the program's execution time that is inherently sequential (non-parallelizable)",
-        "The memory bus bandwidth available to feed cache lines into individual cores",
-        "The power delivery network's ability to maintain nominal supply voltage under peak current loads",
-        "The overhead incurred by hardware-managed cache coherence protocols like MESI"
+        "It cancels out the net mutual capacitance entirely, reducing interconnect propagation delay to minimum values.",
+        "It increases the effective capacitance due to the Miller effect, resulting in increased propagation delay and degraded signal transition times.",
+        "It induces large DC currents directly into the bulk silicon substrate, leading to localized thermal runaway.",
+        "It permanently shifts the input switching thresholds of receiver standard cells toward ground.",
+        "It causes the clock distribution buffers on nearby nets to randomly flip logic polarities."
       ],
       "correct": 1
     },
     {
-      "question": "In digital circuits, when an asynchronous signal violates the setup or hold time requirements of a flip-flop, the internal storage node may enter an unstable state with an output voltage lingering between valid logic levels for an unpredictable duration. What is this phenomenon called?",
+      "question": "In digital IC design, what is the primary purpose of inserting scan chains during the Design for Testability (DFT) process?",
       "options": [
-        "Ground bounce",
-        "Subthreshold leakage",
-        "Metastability",
-        "Negative-bias temperature instability (NBTI)",
-        "Thermal runaway"
+        "To dynamically modulate internal supply voltages during runtime operation to reduce active power consumption.",
+        "To protect input/output pads from electrostatic discharge (ESD) events during post-packaging test sequences.",
+        "To convert internal flip-flops into shift registers during test mode, making internal sequential states controllable and observable from external pins.",
+        "To enable physical non-invasive micro-probing of deep sub-micron wires using focused ion beams.",
+        "To automatically detect and reroute spare silicon tracks around fabrication defects in standard cell rows."
       ],
       "correct": 2
     },
     {
-      "question": "In modern superscalar processor front-ends, what is the primary operational distinction between a Branch Target Buffer (BTB) and a conditional branch direction predictor?",
+      "question": "In Static Timing Analysis (STA), what is a 'false path' and why is it explicitly specified as a timing exception?",
       "options": [
-        "The BTB resolves data hazards in the pipeline, whereas the branch direction predictor handles control hazards.",
-        "The BTB predicts whether an indirect jump will succeed, whereas the branch predictor manages function call-return addresses.",
-        "The BTB operates exclusively during the instruction execution stage, whereas the branch predictor operates during instruction fetch.",
-        "The BTB predicts the target instruction address before instruction decoding, whereas the direction predictor determines whether a conditional branch will be taken or not taken.",
-        "The BTB translates virtual branch addresses into physical addresses, whereas the direction predictor counts dynamic branch frequency."
+        "A signal path that violates hold constraints due to excessive clock skew and must be lengthened with delay buffers.",
+        "A clock network branch exhibiting substantial duty-cycle distortion that must be ignored during setup timing runs.",
+        "A circuit path spanning two asynchronous clock domains that has already been verified via analog Spice simulations.",
+        "A topological path in the netlist that cannot be logically sensitized or activated under real functional operating conditions, preventing wasteful optimization.",
+        "A broken routing trace that results in an open circuit, flagged for manual Engineering Change Order (ECO) rerouting."
       ],
       "correct": 3
     },
     {
-      "question": "In modern high-performance microprocessors, what is the primary role of Miss Status Holding Registers (MSHRs) within a non-blocking cache?",
+      "question": "In computer microarchitecture, what is the primary role of the Common Data Bus (CDB) in Tomasulo's dynamic instruction scheduling algorithm?",
       "options": [
-        "To maintain least-recently-used (LRU) metadata for eviction candidate selection",
-        "To stage speculative dirty write-backs until instruction commit in the Reorder Buffer",
-        "To track cache line invalidation requests arriving from peer cores in a directory-based protocol",
-        "To buffer instructions fetched during a branch misprediction penalty cycle",
-        "To track outstanding cache misses so the cache can continue serving subsequent hits or independent misses"
+        "To serialize instruction decoding and dispatch to prevent out-of-order reorder buffer overflow.",
+        "To manage low-latency Direct Memory Access (DMA) transfers between cache levels and physical memory.",
+        "To broadcast branch prediction recovery metadata directly to instruction fetch units.",
+        "To dynamically assign physical register identifiers from an architectural free list.",
+        "To broadcast execution results along with source tags simultaneously to all waiting reservation stations and register files, bypassing register file write latency."
       ],
       "correct": 4
     }
