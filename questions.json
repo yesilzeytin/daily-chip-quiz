@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In shared-memory multiprocessor architectures with cache coherence protocols, what does the term 'false sharing' refer to?",
+      "question": "In low-power digital IC design, what is the primary operational mechanism and benefit of clock gating?",
       "options": [
-        "Multiple processors updating distinct, independent variables that reside within the same cache line, causing unnecessary coherence invalidations.",
-        "A hardware security flaw where speculative execution leaks cache tags across isolated memory enclaves.",
-        "Two processing cores simultaneously contending for the exact same spinlock variable in main memory.",
-        "The physical time-multiplexing of functional units between threads in a simultaneous multithreading (SMT) pipeline.",
-        "An erroneous protocol state where two independent caches simultaneously believe they hold exclusive modified ownership of a block."
+        "Disabling the clock signal to sequential elements and downstream logic when their values do not need to change, thereby reducing dynamic switching power",
+        "Selectively disconnecting the ground reference to reduce subthreshold leakage current during circuit idle states",
+        "Inserting delay buffers along clock distribution trees to eliminate race conditions and satisfy hold time constraints",
+        "Dynamically scaling down both the supply voltage and the clock frequency simultaneously to minimize active power during low workloads",
+        "Skewing clock arrivals to adjacent registers to prevent simultaneous peak current surges on the power grid"
       ],
       "correct": 0
     },
     {
-      "question": "In deep sub-micron ASIC physical design, how does cross-coupling capacitance between adjacent parallel interconnects primarily affect signal timing when both wires switch simultaneously in opposite directions?",
+      "question": "In advanced semiconductor manufacturing and physical design (such as sub-2nm nodes), what is the primary motivation for implementing a Backside Power Delivery Network (BSPDN)?",
       "options": [
-        "It cancels out the net mutual capacitance entirely, reducing interconnect propagation delay to minimum values.",
-        "It increases the effective capacitance due to the Miller effect, resulting in increased propagation delay and degraded signal transition times.",
-        "It induces large DC currents directly into the bulk silicon substrate, leading to localized thermal runaway.",
-        "It permanently shifts the input switching thresholds of receiver standard cells toward ground.",
-        "It causes the clock distribution buffers on nearby nets to randomly flip logic polarities."
+        "It eliminates the need for chemical-mechanical planarization (CMP) by removing all metal layers from the front of the wafer",
+        "It separates the power distribution network from frontside signal interconnects, mitigating routing congestion and significantly reducing resistive IR drop",
+        "It integrates microfluidic cooling channels directly onto the backside silicon to eliminate localized thermal hotspots",
+        "It replaces copper wires with direct-contact carbon nanotubes to achieve room-temperature superconductivity in power distribution",
+        "It allows PMOS and NMOS transistors to share the exact same physical lithography mask, halving standard cell footprint"
       ],
       "correct": 1
     },
     {
-      "question": "In digital IC design, what is the primary purpose of inserting scan chains during the Design for Testability (DFT) process?",
+      "question": "In computer architecture and memory hierarchy design, which statement best defines the principle of spatial locality?",
       "options": [
-        "To dynamically modulate internal supply voltages during runtime operation to reduce active power consumption.",
-        "To protect input/output pads from electrostatic discharge (ESD) events during post-packaging test sequences.",
-        "To convert internal flip-flops into shift registers during test mode, making internal sequential states controllable and observable from external pins.",
-        "To enable physical non-invasive micro-probing of deep sub-micron wires using focused ion beams.",
-        "To automatically detect and reroute spare silicon tracks around fabrication defects in standard cell rows."
+        "A memory location accessed at a specific point in time is very likely to be referenced repeatedly in the immediate future",
+        "Physical registers within an execution core must be co-located next to the arithmetic units to minimize parasitic propagation delay",
+        "Accessing a particular memory address makes it highly probable that memory locations physically adjacent or nearby will be accessed soon thereafter",
+        "Data stored in faster on-chip caches can be accessed with lower latency than data stored across off-chip interconnects",
+        "Translation Lookaside Buffers must map virtual pages to contiguous physical page frames to prevent external fragmentation"
       ],
       "correct": 2
     },
     {
-      "question": "In Static Timing Analysis (STA), what is a 'false path' and why is it explicitly specified as a timing exception?",
+      "question": "During the physical verification stage of an ASIC design flow, what is the primary objective of running a Layout Versus Schematic (LVS) check?",
       "options": [
-        "A signal path that violates hold constraints due to excessive clock skew and must be lengthened with delay buffers.",
-        "A clock network branch exhibiting substantial duty-cycle distortion that must be ignored during setup timing runs.",
-        "A circuit path spanning two asynchronous clock domains that has already been verified via analog Spice simulations.",
-        "A topological path in the netlist that cannot be logically sensitized or activated under real functional operating conditions, preventing wasteful optimization.",
-        "A broken routing trace that results in an open circuit, flagged for manual Engineering Change Order (ECO) rerouting."
+        "To verify that all polygon shapes, layer clearances, and trace widths adhere to the foundry's geometric design rules",
+        "To compute interconnect capacitances and resistances for back-annotating timing simulations using a SPEF file",
+        "To prove mathematically that the register-transfer level (RTL) code produces identical logic output to the gate-level netlist",
+        "To confirm that the electrical devices and interconnected net topology in the physical layout match the original schematic or synthesized netlist",
+        "To guarantee that static power dissipation does not exceed the target thermal design power (TDP) under worst-case corner conditions"
       ],
       "correct": 3
     },
     {
-      "question": "In computer microarchitecture, what is the primary role of the Common Data Bus (CDB) in Tomasulo's dynamic instruction scheduling algorithm?",
+      "question": "In multiprocessor cache coherence, how does the 'Owner' (O) state in the MOESI protocol function compared to the 'Modified' (M) and 'Shared' (S) states?",
       "options": [
-        "To serialize instruction decoding and dispatch to prevent out-of-order reorder buffer overflow.",
-        "To manage low-latency Direct Memory Access (DMA) transfers between cache levels and physical memory.",
-        "To broadcast branch prediction recovery metadata directly to instruction fetch units.",
-        "To dynamically assign physical register identifiers from an architectural free list.",
-        "To broadcast execution results along with source tags simultaneously to all waiting reservation stations and register files, bypassing register file write latency."
+        "The cache line is clean, matches main memory, and is locked exclusively to one core to prevent eviction during atomic memory transactions",
+        "The cache line is clean and present in multiple caches, but only the owner is authorized to write to it without broadcasting an invalidation request",
+        "The cache line is invalidated locally and is currently being updated in background by another core via an active write-through operation",
+        "The cache line is dirty and held exclusively by a single cache, meaning no other core's cache can hold a valid copy of the block",
+        "The cache line is dirty and shared with other caches (who hold it in the Shared state), with the owner cache responsible for supplying data to requesters and writing back to main memory upon eviction"
       ],
       "correct": 4
     }

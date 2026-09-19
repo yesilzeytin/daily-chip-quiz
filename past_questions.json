@@ -1,9 +1,4 @@
 [
-  "In synchronous digital circuits, which fundamental component is used to store a single bit of information?",
-  "Which of the following statements accurately describes a key difference between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
-  "In the digital IC design flow, what is the primary purpose of **Static Timing Analysis (STA)**?",
-  "In an out-of-order execution processor, what is the primary architectural technique used to eliminate \"write-after-write\" (WAW) and \"write-after-read\" (WAR) data hazards, thereby allowing more instructions to execute speculatively and in parallel?",
-  "In advanced semiconductor manufacturing, as feature sizes shrink to deep sub-micron and nanometer scales, the precise fabrication of desired circuit patterns becomes increasingly challenging due to wave-like properties of light during lithography. Which phenomenon specifically describes the degradation of printed feature fidelity (e.g., line width variations, corner rounding) compared to the ideal mask pattern, even with ideal focus and exposure?",
   "In the context of digital IC design, what is the primary advantage of a **full custom design methodology** over a standard cell-based ASIC design flow for specific critical blocks like high-performance processors or analog circuits?",
   "Which of the following best describes the primary role of an **Instruction Set Architecture (ISA)** in computer architecture?",
   "In the physical design phase of digital integrated circuits, what is the primary objective of **Clock Tree Synthesis (CTS)**?",
@@ -48,5 +43,10 @@
   "In deep sub-micron ASIC physical design, how does cross-coupling capacitance between adjacent parallel interconnects primarily affect signal timing when both wires switch simultaneously in opposite directions?",
   "In digital IC design, what is the primary purpose of inserting scan chains during the Design for Testability (DFT) process?",
   "In Static Timing Analysis (STA), what is a 'false path' and why is it explicitly specified as a timing exception?",
-  "In computer microarchitecture, what is the primary role of the Common Data Bus (CDB) in Tomasulo's dynamic instruction scheduling algorithm?"
+  "In computer microarchitecture, what is the primary role of the Common Data Bus (CDB) in Tomasulo's dynamic instruction scheduling algorithm?",
+  "In low-power digital IC design, what is the primary operational mechanism and benefit of clock gating?",
+  "In advanced semiconductor manufacturing and physical design (such as sub-2nm nodes), what is the primary motivation for implementing a Backside Power Delivery Network (BSPDN)?",
+  "In computer architecture and memory hierarchy design, which statement best defines the principle of spatial locality?",
+  "During the physical verification stage of an ASIC design flow, what is the primary objective of running a Layout Versus Schematic (LVS) check?",
+  "In multiprocessor cache coherence, how does the 'Owner' (O) state in the MOESI protocol function compared to the 'Modified' (M) and 'Shared' (S) states?"
 ]
