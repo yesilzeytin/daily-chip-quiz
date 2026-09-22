@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In finite state machine (FSM) design, what is the fundamental functional difference between a Moore machine and a Mealy machine?",
+      "question": "In processor memory consistency models, which of the following memory access reorderings is permissible under Total Store Order (TSO), as implemented in architectures like x86?",
       "options": [
-        "Moore machine outputs depend solely on the current state, whereas Mealy machine outputs depend on both the current state and current inputs.",
-        "Mealy machines cannot contain sequential feedback loops, whereas Moore machines require flip-flops in the feedback path.",
-        "Moore machines respond asynchronously to input transitions within the same clock cycle, whereas Mealy machines can only update outputs on active clock edges.",
-        "Mealy machines inherently require more flip-flops than Moore machines to implement any equivalent state transition graph.",
-        "Moore machine state transitions are independent of inputs, whereas Mealy machine state transitions are driven by inputs."
+        "A later Load can be reordered ahead of an earlier Store to a different memory address (Store-Load reordering).",
+        "A later Store can be reordered ahead of an earlier Store to a different memory address (Store-Store reordering).",
+        "A later Load can be reordered ahead of an earlier Load to a different memory address (Load-Load reordering).",
+        "A later Store can be reordered ahead of an earlier Load to a different memory address (Load-Store reordering).",
+        "A later Store can be reordered ahead of an earlier Store to the same memory address."
       ],
       "correct": 0
     },
     {
-      "question": "In static CMOS digital circuit design, why are PMOS pull-up transistors typically sized with wider channel widths than NMOS pull-down transistors within the same standard cell?",
+      "question": "In combinational digital logic design, what is the fundamental physical cause of a logic \"hazard\" (glitch) at the output of a gate network?",
       "options": [
-        "To increase the gate oxide breakdown voltage of the pull-up network during high-frequency switching.",
-        "To compensate for the lower mobility of holes compared to electrons, thereby balancing rise and fall propagation delays.",
-        "To minimize short-channel threshold voltage roll-off caused by drain-induced barrier lowering (DIBL).",
-        "To suppress direct band-to-band tunneling currents when the PMOS gate is connected to ground.",
-        "To eliminate substrate body effect variations across the n-well boundary."
+        "Clock jitter causing sequential storage elements to trigger prematurely.",
+        "Unequal propagation delays along converging signal paths that undergo opposite transitions.",
+        "Subthreshold leakage current charging the internal node capacitances above the logic threshold.",
+        "Excessive capacitive fan-out degrading the rise and fall transition times beyond standard tolerances.",
+        "Supply voltage droop causing temporary threshold shifts in the pull-up network."
       ],
       "correct": 1
     },
     {
-      "question": "In Multi-Voltage (Multi-VDD) digital IC designs, what is the primary role of inserting level shifter cells at domain boundaries?",
+      "question": "In computer architecture, what fundamentally distinguishes a Very Long Instruction Word (VLIW) processor from a dynamically scheduled superscalar processor?",
       "options": [
-        "To buffer clock signals and compensate for clock skew between asynchronous clock domains.",
-        "To convert single-ended logic signals into differential signaling to reduce interconnect crosstalk.",
-        "To reliably translate voltage levels and prevent excessive static leakage when signals cross between power domains operating at different supply voltages.",
-        "To retain register state values during power-down modes and restore them upon power restoration.",
-        "To equalize the parasitic RC propagation delay of signals traversing different routing metal layers."
+        "VLIW processors implement hardware register renaming and reorder buffers to dynamically resolve data hazards at runtime.",
+        "VLIW processors rely on speculative out-of-order execution units coupled with dynamic branch target buffers.",
+        "VLIW processors rely on the compiler to detect parallelism and statically bundle independent operations, eliminating dynamic dependency-checking hardware.",
+        "VLIW processors interleave threads cycle-by-cycle to hide long memory latency operations without compiler intervention.",
+        "VLIW processors exclusively employ variable-length CISC instructions to maximize code density in the instruction cache."
       ],
       "correct": 2
     },
     {
-      "question": "In dynamically scheduled out-of-order superscalar microarchitectures, what is the primary architectural purpose of register renaming?",
+      "question": "In the ASIC physical design implementation flow, what is the primary objective of Clock Tree Synthesis (CTS)?",
       "options": [
-        "To reduce the instruction binary footprint by encoding 64-bit addresses into 16-bit register specifiers.",
-        "To bypass the memory management unit by translating logical heap addresses directly into physical registers.",
-        "To compress floating-point execution states before storing them into the thread register file.",
-        "To eliminate false data dependencies, specifically anti-dependencies (WAR) and output dependencies (WAW), caused by having a finite set of architectural registers.",
-        "To dynamically reorder memory store operations before they are committed to the Level 1 data cache."
+        "To swap standard logic cells along critical paths with ultra-low threshold voltage (ULVT) variants.",
+        "To synthesize and optimize the RTL behavioral code into primitive logic gates and sequential flip-flops.",
+        "To define power rings, power stripes, and macro placement across the core chip boundary.",
+        "To construct a balanced clock distribution network that minimizes clock skew and insertion delay across all sequential elements.",
+        "To insert scan flip-flops and test compression logic for post-silicon manufacturing fault detection."
       ],
       "correct": 3
     },
     {
-      "question": "In computer memory hierarchies, what is the defining operational rule of a strictly exclusive cache policy between two adjacent levels (such as an L1 and an L2 cache)?",
+      "question": "In dynamic CMOS logic circuits (such as Domino logic), what is the primary role of a weak PMOS \"keeper\" transistor connected to the dynamic evaluation node?",
       "options": [
-        "All dirty blocks in the L1 cache must be written through to the L2 cache and main memory simultaneously on every write operation.",
-        "Data blocks can only be modified by a single CPU core, forbidding multi-core write operations to that cache set.",
-        "An eviction in the L2 cache mandates that all matching tags in the corresponding L1 cache lines must be immediately invalidated.",
-        "Only instructions are permitted to reside in the L1 cache, while all program data operands are stored exclusively in the L2 cache.",
-        "A memory block can reside in at most one level of the cache hierarchy at any given time, ensuring no duplicate data between the two caches."
+        "To drive high-current output loads during off-chip signaling transitions.",
+        "To clamp the dynamic node to ground during the precharge phase to prevent voltage overshoot.",
+        "To speed up the evaluation phase by providing an additional pull-down discharge path.",
+        "To eliminate the need for a static CMOS inverter before cascading into subsequent dynamic stages.",
+        "To prevent the dynamic node from floating and discharging unintentionally due to subthreshold leakage and charge sharing during evaluation."
       ],
       "correct": 4
     }
