@@ -1,9 +1,4 @@
 [
-  "In synchronous digital sequential logic, what does the term 'setup time' (t_setup) of a flip-flop specifically define?",
-  "In deep sub-micron integrated circuit reliability, what is the primary physical cause of electromigration in on-chip metal interconnects?",
-  "In a processor's memory management unit (MMU), what is the primary function of the Translation Lookaside Buffer (TLB)?",
-  "In dynamically scheduled out-of-order superscalar processors, what is the primary architectural purpose of the Reorder Buffer (ROB)?",
-  "When designing an asynchronous FIFO buffer spanning two unsynchronized clock domains, why are the read and write pointer values converted to Gray code before being passed across the clock domains?",
   "In modern out-of-order processor microarchitectures, what is the primary function of 'store-to-load forwarding' implemented within the Load-Store Queue (LSQ)?",
   "Unlike setup timing violations, why are hold timing violations in synchronous digital circuits considered particularly critical and fatal to an ASIC's post-silicon viability?",
   "In a cache memory implementing a write-back policy, what is the primary role of associating a 'dirty bit' with each cache block?",
@@ -48,5 +43,10 @@
   "In combinational digital logic design, what is the fundamental physical cause of a logic \"hazard\" (glitch) at the output of a gate network?",
   "In computer architecture, what fundamentally distinguishes a Very Long Instruction Word (VLIW) processor from a dynamically scheduled superscalar processor?",
   "In the ASIC physical design implementation flow, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "In dynamic CMOS logic circuits (such as Domino logic), what is the primary role of a weak PMOS \"keeper\" transistor connected to the dynamic evaluation node?"
+  "In dynamic CMOS logic circuits (such as Domino logic), what is the primary role of a weak PMOS \"keeper\" transistor connected to the dynamic evaluation node?",
+  "In computer architecture, what is the fundamental structural distinction between a Harvard architecture and a Von Neumann (Princeton) architecture?",
+  "In low-power digital IC design utilizing power gating (shutting down power domains), what is the primary operational role of inserting \"isolation cells\" at the interfaces of a powered-down domain?",
+  "In computer cache hierarchy design, what is the primary architectural purpose of a \"Victim Cache\"?",
+  "In pipelined and out-of-order processor architectures, which condition must strictly hold for an exception or interrupt to be classified as \"precise\"?",
+  "In advanced-node Static Timing Analysis (STA), why do modern methodologies adopt Advanced On-Chip Variation (AOCV) or Parametric On-Chip Variation (POCV) instead of traditional flat-derate On-Chip Variation (OCV)?"
 ]

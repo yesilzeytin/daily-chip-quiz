@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In processor memory consistency models, which of the following memory access reorderings is permissible under Total Store Order (TSO), as implemented in architectures like x86?",
+      "question": "In computer architecture, what is the fundamental structural distinction between a Harvard architecture and a Von Neumann (Princeton) architecture?",
       "options": [
-        "A later Load can be reordered ahead of an earlier Store to a different memory address (Store-Load reordering).",
-        "A later Store can be reordered ahead of an earlier Store to a different memory address (Store-Store reordering).",
-        "A later Load can be reordered ahead of an earlier Load to a different memory address (Load-Load reordering).",
-        "A later Store can be reordered ahead of an earlier Load to a different memory address (Load-Store reordering).",
-        "A later Store can be reordered ahead of an earlier Store to the same memory address."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In combinational digital logic design, what is the fundamental physical cause of a logic \"hazard\" (glitch) at the output of a gate network?",
-      "options": [
-        "Clock jitter causing sequential storage elements to trigger prematurely.",
-        "Unequal propagation delays along converging signal paths that undergo opposite transitions.",
-        "Subthreshold leakage current charging the internal node capacitances above the logic threshold.",
-        "Excessive capacitive fan-out degrading the rise and fall transition times beyond standard tolerances.",
-        "Supply voltage droop causing temporary threshold shifts in the pull-up network."
+        "Harvard architectures execute fixed-length RISC instructions, whereas Von Neumann architectures require variable-length CISC microcode.",
+        "Harvard architectures utilize physically separate memory spaces and signal paths for instructions and data, whereas Von Neumann architectures share a single memory space and bus.",
+        "Harvard architectures rely entirely on asynchronous pipeline stages, whereas Von Neumann architectures are strictly synchronous.",
+        "Harvard architectures mandate dedicated hardware floating-point units, whereas Von Neumann architectures emulate floating-point operations in software.",
+        "Harvard architectures eliminate the need for an instruction cache by streaming instructions directly from external main memory."
       ],
       "correct": 1
     },
     {
-      "question": "In computer architecture, what fundamentally distinguishes a Very Long Instruction Word (VLIW) processor from a dynamically scheduled superscalar processor?",
+      "question": "In low-power digital IC design utilizing power gating (shutting down power domains), what is the primary operational role of inserting \"isolation cells\" at the interfaces of a powered-down domain?",
       "options": [
-        "VLIW processors implement hardware register renaming and reorder buffers to dynamically resolve data hazards at runtime.",
-        "VLIW processors rely on speculative out-of-order execution units coupled with dynamic branch target buffers.",
-        "VLIW processors rely on the compiler to detect parallelism and statically bundle independent operations, eliminating dynamic dependency-checking hardware.",
-        "VLIW processors interleave threads cycle-by-cycle to hide long memory latency operations without compiler intervention.",
-        "VLIW processors exclusively employ variable-length CISC instructions to maximize code density in the instruction cache."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In the ASIC physical design implementation flow, what is the primary objective of Clock Tree Synthesis (CTS)?",
-      "options": [
-        "To swap standard logic cells along critical paths with ultra-low threshold voltage (ULVT) variants.",
-        "To synthesize and optimize the RTL behavioral code into primitive logic gates and sequential flip-flops.",
-        "To define power rings, power stripes, and macro placement across the core chip boundary.",
-        "To construct a balanced clock distribution network that minimizes clock skew and insertion delay across all sequential elements.",
-        "To insert scan flip-flops and test compression logic for post-silicon manufacturing fault detection."
+        "To shift logic voltage thresholds when transitioning between different non-zero supply voltages.",
+        "To dynamically save the full architectural register state before power-down and restore it upon wake-up.",
+        "To limit the peak inrush current drawn by the power distribution network during power switch turn-on.",
+        "To clamp floating output signals from the powered-off block to a deterministic logic level (0 or 1), preventing high crowbar leakage current in active receiver blocks.",
+        "To act as a local decoupling capacitor network that suppresses substrate ground bounce during rail collapse."
       ],
       "correct": 3
     },
     {
-      "question": "In dynamic CMOS logic circuits (such as Domino logic), what is the primary role of a weak PMOS \"keeper\" transistor connected to the dynamic evaluation node?",
+      "question": "In computer cache hierarchy design, what is the primary architectural purpose of a \"Victim Cache\"?",
       "options": [
-        "To drive high-current output loads during off-chip signaling transitions.",
-        "To clamp the dynamic node to ground during the precharge phase to prevent voltage overshoot.",
-        "To speed up the evaluation phase by providing an additional pull-down discharge path.",
-        "To eliminate the need for a static CMOS inverter before cascading into subsequent dynamic stages.",
-        "To prevent the dynamic node from floating and discharging unintentionally due to subthreshold leakage and charge sharing during evaluation."
+        "To hold speculative instruction prefetches before determining if the branch predictor was accurate.",
+        "To buffer uncommitted dirty cache blocks until a memory fence instruction serializes execution.",
+        "To store blocks evicted from a small, low-associativity cache to reduce conflict misses without requiring a fully associative primary cache.",
+        "To act as a hardware shadow buffer that detects soft errors caused by cosmic radiation and alpha particles.",
+        "To log invalidation snoops broadcast by other processor cores in a shared-bus multiprocessor system."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In pipelined and out-of-order processor architectures, which condition must strictly hold for an exception or interrupt to be classified as \"precise\"?",
+      "options": [
+        "The exception must be detected and fully serviced within a single processor clock cycle.",
+        "The architectural state must reflect that all instructions preceding the faulting instruction have completed, and no instruction at or following the faulting instruction has modified the architectural state.",
+        "The processor must complete execution of all instructions currently residing anywhere in the pipeline before branching to the interrupt handler.",
+        "The exception must be generated exclusively by synchronous software traps rather than asynchronous external hardware interrupts.",
+        "The program counter is saved to memory, but speculative register changes made by younger instructions remain visible to the operating system."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In advanced-node Static Timing Analysis (STA), why do modern methodologies adopt Advanced On-Chip Variation (AOCV) or Parametric On-Chip Variation (POCV) instead of traditional flat-derate On-Chip Variation (OCV)?",
+      "options": [
+        "Flat OCV cannot model inductive wire coupling (L dI/dt noise) in dense interconnect stacks.",
+        "AOCV and POCV replace static timing approximations with dynamic SPICE simulation on all critical paths.",
+        "Flat OCV ignores temperature inversion effects, whereas AOCV and POCV model thermal runaway in standard cells.",
+        "AOCV and POCV eliminate the need to analyze multiple process corners and operating modes.",
+        "Flat OCV applies a uniform worst-case derating that is excessively pessimistic, whereas AOCV and POCV account for the statistical canceling of random variations across deeper logic paths and physical distances."
       ],
       "correct": 4
     }
