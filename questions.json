@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In computer architecture, what is the fundamental structural distinction between a Harvard architecture and a Von Neumann (Princeton) architecture?",
+      "question": "In deep-submicron integrated circuit interconnect reliability, what is the primary physical mechanism of electromigration, and what structural failure does it typically cause?",
       "options": [
-        "Harvard architectures execute fixed-length RISC instructions, whereas Von Neumann architectures require variable-length CISC microcode.",
-        "Harvard architectures utilize physically separate memory spaces and signal paths for instructions and data, whereas Von Neumann architectures share a single memory space and bus.",
-        "Harvard architectures rely entirely on asynchronous pipeline stages, whereas Von Neumann architectures are strictly synchronous.",
-        "Harvard architectures mandate dedicated hardware floating-point units, whereas Von Neumann architectures emulate floating-point operations in software.",
-        "Harvard architectures eliminate the need for an instruction cache by streaming instructions directly from external main memory."
+        "Momentum transfer from high-density conduction electrons to metal lattice atoms, forming voids (opens) in the cathode direction and hillocks (shorts) in the anode direction.",
+        "Direct tunneling of electrons across thin gate oxides into the silicon substrate, inducing gate pinholes and permanent threshold voltage drift.",
+        "Mechanical stress caused by differing coefficients of thermal expansion between dielectric and metal layers, leading to interlayer delamination.",
+        "High electric fields exceeding the breakdown strength of inter-layer dielectrics, causing catastrophic resistive shorting between adjacent metal tracks.",
+        "Parasitic thyristor triggering within adjacent p-wells and n-wells, resulting in a low-impedance short-circuit path between power and ground rails."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In computer memory systems implementing paged virtual memory, what is the primary operational role of a Translation Lookaside Buffer (TLB)?",
+      "options": [
+        "To buffer dirty memory blocks before writing them to persistent secondary storage.",
+        "To cache recent virtual-to-physical address translations, minimizing high-latency page table lookups in main memory.",
+        "To translate variable-length CISC instructions into fixed-length micro-operations for execution units.",
+        "To resolve structural hazards in the processor pipeline caused by simultaneous instruction and data memory accesses.",
+        "To dynamically allocate contiguous physical page frames to processes to eliminate external memory fragmentation."
       ],
       "correct": 1
     },
     {
-      "question": "In low-power digital IC design utilizing power gating (shutting down power domains), what is the primary operational role of inserting \"isolation cells\" at the interfaces of a powered-down domain?",
+      "question": "In asynchronous FIFO design between two independent clock domains, why are the read and write pointers encoded in Gray code before being passed through multi-flop synchronizers?",
       "options": [
-        "To shift logic voltage thresholds when transitioning between different non-zero supply voltages.",
-        "To dynamically save the full architectural register state before power-down and restore it upon wake-up.",
-        "To limit the peak inrush current drawn by the power distribution network during power switch turn-on.",
-        "To clamp floating output signals from the powered-off block to a deterministic logic level (0 or 1), preventing high crowbar leakage current in active receiver blocks.",
-        "To act as a local decoupling capacitor network that suppresses substrate ground bounce during rail collapse."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In computer cache hierarchy design, what is the primary architectural purpose of a \"Victim Cache\"?",
-      "options": [
-        "To hold speculative instruction prefetches before determining if the branch predictor was accurate.",
-        "To buffer uncommitted dirty cache blocks until a memory fence instruction serializes execution.",
-        "To store blocks evicted from a small, low-associativity cache to reduce conflict misses without requiring a fully associative primary cache.",
-        "To act as a hardware shadow buffer that detects soft errors caused by cosmic radiation and alpha particles.",
-        "To log invalidation snoops broadcast by other processor cores in a shared-bus multiprocessor system."
+        "Gray code requires fewer flip-flops than binary code to represent identical address depths.",
+        "Gray code simplifies the combinational logic required for arithmetic pointer increments and subtractions.",
+        "Exactly one bit changes between consecutive Gray code values, preventing multi-bit transition skew from producing invalid intermediate values during clock synchronization.",
+        "Gray code inherently prevents clock jitter and duty-cycle distortion from propagating across the clock domains.",
+        "Gray code eliminates the need for reset logic by initializing to an all-zero state on power-up."
       ],
       "correct": 2
     },
     {
-      "question": "In pipelined and out-of-order processor architectures, which condition must strictly hold for an exception or interrupt to be classified as \"precise\"?",
+      "question": "In digital arithmetic design, what is the primary structural advantage of utilizing a Wallace tree structure compared to an array multiplier for multi-operand partial product accumulation?",
       "options": [
-        "The exception must be detected and fully serviced within a single processor clock cycle.",
-        "The architectural state must reflect that all instructions preceding the faulting instruction have completed, and no instruction at or following the faulting instruction has modified the architectural state.",
-        "The processor must complete execution of all instructions currently residing anywhere in the pipeline before branching to the interrupt handler.",
-        "The exception must be generated exclusively by synchronous software traps rather than asynchronous external hardware interrupts.",
-        "The program counter is saved to memory, but speculative register changes made by younger instructions remain visible to the operating system."
+        "It eliminates the requirement for a final vector-merge carry-propagate adder stage.",
+        "It provides a perfectly regular, planar routing layout that completely eliminates routing congestion in standard cell placement.",
+        "It reduces dynamic power dissipation to zero during inactive clock cycles without requiring clock gating.",
+        "It reduces partial product reduction latency from linear O(N) to logarithmic O(log N) by summing partial products in parallel using carry-save adders without propagating carries.",
+        "It allows the multiplier to dynamically truncate lower-order partial products to adaptively adjust computational precision."
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "question": "In advanced-node Static Timing Analysis (STA), why do modern methodologies adopt Advanced On-Chip Variation (AOCV) or Parametric On-Chip Variation (POCV) instead of traditional flat-derate On-Chip Variation (OCV)?",
+      "question": "In a high-performance processor core implementing Simultaneous Multithreading (SMT), which of the following hardware resources must be strictly replicated for each active logical thread context?",
       "options": [
-        "Flat OCV cannot model inductive wire coupling (L dI/dt noise) in dense interconnect stacks.",
-        "AOCV and POCV replace static timing approximations with dynamic SPICE simulation on all critical paths.",
-        "Flat OCV ignores temperature inversion effects, whereas AOCV and POCV model thermal runaway in standard cells.",
-        "AOCV and POCV eliminate the need to analyze multiple process corners and operating modes.",
-        "Flat OCV applies a uniform worst-case derating that is excessively pessimistic, whereas AOCV and POCV account for the statistical canceling of random variations across deeper logic paths and physical distances."
+        "Arithmetic Logic Units (ALUs) and Floating-Point Units (FPUs)",
+        "Level 1 Instruction and Data Caches (L1 I-cache and D-cache)",
+        "Issue Queues and Reservation Stations",
+        "Physical Register Files and Execution Pipelines",
+        "Architectural Register State (including Program Counter and general-purpose registers)"
       ],
       "correct": 4
     }
