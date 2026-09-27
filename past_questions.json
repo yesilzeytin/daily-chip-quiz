@@ -1,9 +1,4 @@
 [
-  "In digital integrated circuit design and Static Timing Analysis (STA), what does the term 'critical path' refer to?",
-  "In a classic in-order pipelined processor, what is the primary purpose of data forwarding (also called operand bypassing)?",
-  "In the physical design and power integrity analysis of an integrated circuit, what is 'IR drop' and why is it problematic?",
-  "Why are directory-based cache coherence protocols preferred over snooping-based protocols in systems with large numbers of processor cores?",
-  "In bulk CMOS integrated circuits, what is the underlying physical mechanism of 'latch-up'?",
   "In digital circuit design, what does the \"fan-out\" of a logic gate specifically refer to?",
   "In synchronous digital systems, what is the fundamental difference between clock skew and clock jitter?",
   "In modern microprocessor microarchitectures, what is the primary role of a dedicated Return Address Stack (RAS)?",
@@ -48,5 +43,10 @@
   "In computer memory systems implementing paged virtual memory, what is the primary operational role of a Translation Lookaside Buffer (TLB)?",
   "In asynchronous FIFO design between two independent clock domains, why are the read and write pointers encoded in Gray code before being passed through multi-flop synchronizers?",
   "In digital arithmetic design, what is the primary structural advantage of utilizing a Wallace tree structure compared to an array multiplier for multi-operand partial product accumulation?",
-  "In a high-performance processor core implementing Simultaneous Multithreading (SMT), which of the following hardware resources must be strictly replicated for each active logical thread context?"
+  "In a high-performance processor core implementing Simultaneous Multithreading (SMT), which of the following hardware resources must be strictly replicated for each active logical thread context?",
+  "In digital CMOS circuit design, what is the primary operational advantage of a complementary CMOS transmission gate (TG) compared to a single NMOS pass-transistor switch?",
+  "In deep-submicron IC layout and physical design, what is the 'antenna effect' (plasma-induced damage), and how is it primarily mitigated during routing?",
+  "In digital IC Design for Testability (DFT), what is the primary operational role of a Multiple-Input Signature Register (MISR) within a Logic Built-In Self-Test (LBIST) architecture?",
+  "In modern high-performance processor microarchitectures, what is the primary operational mechanism of store-to-load forwarding (store forwarding)?",
+  "In multi-core Network-on-Chip (NoC) interconnects utilizing wormhole routing, how do Virtual Channels (VCs) fundamentally prevent network deadlocks?"
 ]

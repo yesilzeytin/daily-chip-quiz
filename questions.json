@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In deep-submicron integrated circuit interconnect reliability, what is the primary physical mechanism of electromigration, and what structural failure does it typically cause?",
+      "question": "In digital CMOS circuit design, what is the primary operational advantage of a complementary CMOS transmission gate (TG) compared to a single NMOS pass-transistor switch?",
       "options": [
-        "Momentum transfer from high-density conduction electrons to metal lattice atoms, forming voids (opens) in the cathode direction and hillocks (shorts) in the anode direction.",
-        "Direct tunneling of electrons across thin gate oxides into the silicon substrate, inducing gate pinholes and permanent threshold voltage drift.",
-        "Mechanical stress caused by differing coefficients of thermal expansion between dielectric and metal layers, leading to interlayer delamination.",
-        "High electric fields exceeding the breakdown strength of inter-layer dielectrics, causing catastrophic resistive shorting between adjacent metal tracks.",
-        "Parasitic thyristor triggering within adjacent p-wells and n-wells, resulting in a low-impedance short-circuit path between power and ground rails."
+        "It transmits both strong logic '1' (full VDD) and strong logic '0' (ground) levels without suffering a threshold voltage drop.",
+        "It eliminates all static leakage current during the off state by automatically applying reverse body biasing to the substrate.",
+        "It operates using only a single uncomplemented control signal, eliminating the need for an inverted gate control line.",
+        "It presents substantially lower total input gate capacitance than an isolated NMOS transistor of equivalent drive strength.",
+        "It provides active voltage amplification to restore degraded signal edges without downstream inverter stages."
       ],
       "correct": 0
     },
     {
-      "question": "In computer memory systems implementing paged virtual memory, what is the primary operational role of a Translation Lookaside Buffer (TLB)?",
+      "question": "In deep-submicron IC layout and physical design, what is the 'antenna effect' (plasma-induced damage), and how is it primarily mitigated during routing?",
       "options": [
-        "To buffer dirty memory blocks before writing them to persistent secondary storage.",
-        "To cache recent virtual-to-physical address translations, minimizing high-latency page table lookups in main memory.",
-        "To translate variable-length CISC instructions into fixed-length micro-operations for execution units.",
-        "To resolve structural hazards in the processor pipeline caused by simultaneous instruction and data memory accesses.",
-        "To dynamically allocate contiguous physical page frames to processes to eliminate external memory fragmentation."
+        "High-frequency electromagnetic emissions from clock nets that induce crosstalk; mitigated by placing grounded shield wires parallel to sensitive signals.",
+        "Accumulation of electrostatic charge on long interconnects during plasma etching that can rupture thin gate oxides; mitigated by inserting reverse-biased diodes or routing jumpers to higher metal layers.",
+        "Parasitic package inductance causing ground bounce during simultaneous switching; mitigated by placing distributed on-chip decoupling capacitors near power pads.",
+        "Capacitive substrate injection from fast-switching digital I/O buffers into analog blocks; mitigated by surrounding sensitive cells with guard rings.",
+        "Electromigration voids formed near via interfaces due to directional electron flow; mitigated by widening lower-level metal tracks and adding redundant vias."
       ],
       "correct": 1
     },
     {
-      "question": "In asynchronous FIFO design between two independent clock domains, why are the read and write pointers encoded in Gray code before being passed through multi-flop synchronizers?",
+      "question": "In digital IC Design for Testability (DFT), what is the primary operational role of a Multiple-Input Signature Register (MISR) within a Logic Built-In Self-Test (LBIST) architecture?",
       "options": [
-        "Gray code requires fewer flip-flops than binary code to represent identical address depths.",
-        "Gray code simplifies the combinational logic required for arithmetic pointer increments and subtractions.",
-        "Exactly one bit changes between consecutive Gray code values, preventing multi-bit transition skew from producing invalid intermediate values during clock synchronization.",
-        "Gray code inherently prevents clock jitter and duty-cycle distortion from propagating across the clock domains.",
-        "Gray code eliminates the need for reset logic by initializing to an all-zero state on power-up."
+        "Generating pseudo-random test pattern vectors using linear feedback polynomials to stimulate the circuit under test.",
+        "Converting parallel scan chain inputs into high-speed serialized data streams for external ATE (Automated Test Equipment) capture.",
+        "Compressing the multi-cycle output response sequences from the circuit under test into a compact digital signature for pass/fail comparison.",
+        "Tracking instantaneous dynamic supply voltage drops across the core during structural at-speed transition delay testing.",
+        "Synchronizing asynchronous test clock domains between the internal test controller and external JTAG boundary-scan chains."
       ],
       "correct": 2
     },
     {
-      "question": "In digital arithmetic design, what is the primary structural advantage of utilizing a Wallace tree structure compared to an array multiplier for multi-operand partial product accumulation?",
+      "question": "In modern high-performance processor microarchitectures, what is the primary operational mechanism of store-to-load forwarding (store forwarding)?",
       "options": [
-        "It eliminates the requirement for a final vector-merge carry-propagate adder stage.",
-        "It provides a perfectly regular, planar routing layout that completely eliminates routing congestion in standard cell placement.",
-        "It reduces dynamic power dissipation to zero during inactive clock cycles without requiring clock gating.",
-        "It reduces partial product reduction latency from linear O(N) to logarithmic O(log N) by summing partial products in parallel using carry-save adders without propagating carries.",
-        "It allows the multiplier to dynamically truncate lower-order partial products to adaptively adjust computational precision."
+        "Coalescing multiple consecutive write instructions to the same cache line in the write buffer before issuing a single burst transaction to main memory.",
+        "Routing arithmetic computation results directly from an execution unit back to pipeline reservation stations to eliminate register file read stalls.",
+        "Speculatively prefetching data lines from the L2 cache directly into the L1 data cache ahead of confirmed load instruction addresses.",
+        "Allowing a load instruction to read its operand directly from an older, pending store entry in the store queue when their target addresses match, without waiting for the store to commit to cache.",
+        "Demoting modified data lines from L1 directly into an uncore victim buffer to free cache ways for incoming instruction streams."
       ],
       "correct": 3
     },
     {
-      "question": "In a high-performance processor core implementing Simultaneous Multithreading (SMT), which of the following hardware resources must be strictly replicated for each active logical thread context?",
+      "question": "In multi-core Network-on-Chip (NoC) interconnects utilizing wormhole routing, how do Virtual Channels (VCs) fundamentally prevent network deadlocks?",
       "options": [
-        "Arithmetic Logic Units (ALUs) and Floating-Point Units (FPUs)",
-        "Level 1 Instruction and Data Caches (L1 I-cache and D-cache)",
-        "Issue Queues and Reservation Stations",
-        "Physical Register Files and Execution Pipelines",
-        "Architectural Register State (including Program Counter and general-purpose registers)"
+        "By discarding blocked flits at intermediate routers and relying on end-to-end transport layer retransmissions upon a packet timeout.",
+        "By dynamically modulating the operating voltage and frequency of congested physical links to drain buffer queues faster.",
+        "By forcing all packets onto a single physical bus where arbitration strictly follows a non-blocking round-robin schedule.",
+        "By dynamically converting packet flits into parallel circuits through centralized crossbar reservation matrices.",
+        "By decoupling buffer resource allocation from physical link allocation, allowing non-blocked packets to logically bypass packets waiting on full downstream buffers."
       ],
       "correct": 4
     }
