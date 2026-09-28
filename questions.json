@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In digital CMOS circuit design, what is the primary operational advantage of a complementary CMOS transmission gate (TG) compared to a single NMOS pass-transistor switch?",
+      "question": "In standard-cell ASIC physical design, why are unused or tied-off logic gate inputs connected to VDD or VSS through dedicated 'Tie-High' or 'Tie-Low' cells rather than directly wired to the power and ground rails?",
       "options": [
-        "It transmits both strong logic '1' (full VDD) and strong logic '0' (ground) levels without suffering a threshold voltage drop.",
-        "It eliminates all static leakage current during the off state by automatically applying reverse body biasing to the substrate.",
-        "It operates using only a single uncomplemented control signal, eliminating the need for an inverted gate control line.",
-        "It presents substantially lower total input gate capacitance than an isolated NMOS transistor of equivalent drive strength.",
-        "It provides active voltage amplification to restore degraded signal edges without downstream inverter stages."
+        "To protect the delicate transistor gate oxide from voltage surges, antenna damage, and electrostatic discharge (ESD) spikes occurring on the power rails",
+        "To invert the input polarity dynamically during automated scan test modes and built-in self-tests",
+        "To reduce dynamic capacitive switching power caused by high-frequency rail bounce",
+        "To prevent thermal runaway by introducing active cooling diodes at standard-cell boundaries",
+        "To eliminate the need for multi-layer routing vias when connecting signals to the uppermost metal layers"
       ],
       "correct": 0
     },
     {
-      "question": "In deep-submicron IC layout and physical design, what is the 'antenna effect' (plasma-induced damage), and how is it primarily mitigated during routing?",
+      "question": "In shared-memory multi-core processors, why is a directory-based cache coherence protocol favored over a snooping-based coherence protocol as the core count scales to dozens or hundreds of cores?",
       "options": [
-        "High-frequency electromagnetic emissions from clock nets that induce crosstalk; mitigated by placing grounded shield wires parallel to sensitive signals.",
-        "Accumulation of electrostatic charge on long interconnects during plasma etching that can rupture thin gate oxides; mitigated by inserting reverse-biased diodes or routing jumpers to higher metal layers.",
-        "Parasitic package inductance causing ground bounce during simultaneous switching; mitigated by placing distributed on-chip decoupling capacitors near power pads.",
-        "Capacitive substrate injection from fast-switching digital I/O buffers into analog blocks; mitigated by surrounding sensitive cells with guard rings.",
-        "Electromigration voids formed near via interfaces due to directional electron flow; mitigated by widening lower-level metal tracks and adding redundant vias."
+        "Directory-based protocols avoid tracking dirty cache lines, completely eliminating the need for write-backs",
+        "Snooping requires broadcast communication across all nodes, which saturates interconnect bandwidth, whereas directories use targeted point-to-point messages",
+        "Directory-based protocols physically combine L1, L2, and L3 caches into a unified, single-cycle centralized SRAM structure",
+        "Snooping protocols cannot support the MESI or MOESI states, making them incompatible with multi-threaded operating systems",
+        "Directory-based protocols eliminate all read and write latency by predicting future memory accesses at compile time"
       ],
       "correct": 1
     },
     {
-      "question": "In digital IC Design for Testability (DFT), what is the primary operational role of a Multiple-Input Signature Register (MISR) within a Logic Built-In Self-Test (LBIST) architecture?",
+      "question": "In synchronous digital integrated circuit design, why is a hold-time violation generally considered far more critical and catastrophic than a setup-time violation during post-silicon testing?",
       "options": [
-        "Generating pseudo-random test pattern vectors using linear feedback polynomials to stimulate the circuit under test.",
-        "Converting parallel scan chain inputs into high-speed serialized data streams for external ATE (Automated Test Equipment) capture.",
-        "Compressing the multi-cycle output response sequences from the circuit under test into a compact digital signature for pass/fail comparison.",
-        "Tracking instantaneous dynamic supply voltage drops across the core during structural at-speed transition delay testing.",
-        "Synchronizing asynchronous test clock domains between the internal test controller and external JTAG boundary-scan chains."
+        "Hold-time violations permanently destroy the physical p-n junctions of flip-flops due to excessive thermal dissipation",
+        "Setup-time violations can be repaired via laser trimming, whereas hold-time violations require full wafer re-fabrication",
+        "Hold-time margins are independent of the clock period, meaning a hold violation cannot be resolved by reducing the operating clock frequency",
+        "Hold-time violations only occur in dynamic domino logic and can never be detected by Static Timing Analysis (STA)",
+        "Hold-time violations flip the logical polarity of routing interconnects, corrupting clock-tree buffers"
       ],
       "correct": 2
     },
     {
-      "question": "In modern high-performance processor microarchitectures, what is the primary operational mechanism of store-to-load forwarding (store forwarding)?",
+      "question": "In modern out-of-order superscalar microarchitectures, what is the primary role of the Reorder Buffer (ROB)?",
       "options": [
-        "Coalescing multiple consecutive write instructions to the same cache line in the write buffer before issuing a single burst transaction to main memory.",
-        "Routing arithmetic computation results directly from an execution unit back to pipeline reservation stations to eliminate register file read stalls.",
-        "Speculatively prefetching data lines from the L2 cache directly into the L1 data cache ahead of confirmed load instruction addresses.",
-        "Allowing a load instruction to read its operand directly from an older, pending store entry in the store queue when their target addresses match, without waiting for the store to commit to cache.",
-        "Demoting modified data lines from L1 directly into an uncore victim buffer to free cache ways for incoming instruction streams."
+        "To statically sort instruction opcodes prior to decoding to optimize execution-unit scheduling",
+        "To physically store branch prediction history tables and calculate indirect jump target addresses",
+        "To map architectural register specifiers directly to hardware arithmetic logic units (ALUs)",
+        "To track in-flight instructions in strict program order so that architectural state updates and exceptions commit in-order",
+        "To act as a secondary instruction cache that holds decoded micro-operations for loop streams"
       ],
       "correct": 3
     },
     {
-      "question": "In multi-core Network-on-Chip (NoC) interconnects utilizing wormhole routing, how do Virtual Channels (VCs) fundamentally prevent network deadlocks?",
+      "question": "In deep-submicron physical design and power integrity analysis, what is the fundamental distinction between static IR drop and dynamic IR drop across a chip's Power Delivery Network (PDN)?",
       "options": [
-        "By discarding blocked flits at intermediate routers and relying on end-to-end transport layer retransmissions upon a packet timeout.",
-        "By dynamically modulating the operating voltage and frequency of congested physical links to drain buffer queues faster.",
-        "By forcing all packets onto a single physical bus where arbitration strictly follows a non-blocking round-robin schedule.",
-        "By dynamically converting packet flits into parallel circuits through centralized crossbar reservation matrices.",
-        "By decoupling buffer resource allocation from physical link allocation, allowing non-blocked packets to logically bypass packets waiting on full downstream buffers."
+        "Static IR drop affects only signal interconnects, whereas dynamic IR drop affects only the clock distribution network",
+        "Static IR drop is caused entirely by wire inductance, whereas dynamic IR drop is caused solely by junction substrate leakage",
+        "Static IR drop occurs exclusively during chip power-up, whereas dynamic IR drop occurs only during thermal shutdown",
+        "Static IR drop is measured in analog I/O domains, whereas dynamic IR drop is confined strictly to embedded SRAM arrays",
+        "Static IR drop is driven by average DC current dissipation across parasitic wire resistance, whereas dynamic IR drop is caused by localized peak switching currents and L(di/dt) transient inductive effects"
       ],
       "correct": 4
     }
