@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In standard-cell ASIC physical design, why are unused or tied-off logic gate inputs connected to VDD or VSS through dedicated 'Tie-High' or 'Tie-Low' cells rather than directly wired to the power and ground rails?",
+      "question": "In computer architecture and instruction set design, what is the defining characteristic of a strictly Load-Store (Register-Register) architecture?",
       "options": [
-        "To protect the delicate transistor gate oxide from voltage surges, antenna damage, and electrostatic discharge (ESD) spikes occurring on the power rails",
-        "To invert the input polarity dynamically during automated scan test modes and built-in self-tests",
-        "To reduce dynamic capacitive switching power caused by high-frequency rail bounce",
-        "To prevent thermal runaway by introducing active cooling diodes at standard-cell boundaries",
-        "To eliminate the need for multi-layer routing vias when connecting signals to the uppermost metal layers"
+        "All arithmetic and logical instructions operate exclusively on registers, with memory access restricted to dedicated load and store instructions.",
+        "Operands for arithmetic operations are popped from and results pushed directly onto a hardware memory stack.",
+        "Every arithmetic instruction can encode both memory addresses and register operands interchangeably.",
+        "Memory can be accessed without address translation by entirely bypassing the memory management unit.",
+        "Instruction word lengths are variable and depend dynamically on the width of the system memory bus."
       ],
       "correct": 0
     },
     {
-      "question": "In shared-memory multi-core processors, why is a directory-based cache coherence protocol favored over a snooping-based coherence protocol as the core count scales to dozens or hundreds of cores?",
+      "question": "In synchronous digital IC design and static timing analysis (STA), what is the fundamental distinction between clock skew and clock jitter?",
       "options": [
-        "Directory-based protocols avoid tracking dirty cache lines, completely eliminating the need for write-backs",
-        "Snooping requires broadcast communication across all nodes, which saturates interconnect bandwidth, whereas directories use targeted point-to-point messages",
-        "Directory-based protocols physically combine L1, L2, and L3 caches into a unified, single-cycle centralized SRAM structure",
-        "Snooping protocols cannot support the MESI or MOESI states, making them incompatible with multi-threaded operating systems",
-        "Directory-based protocols eliminate all read and write latency by predicting future memory accesses at compile time"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In synchronous digital integrated circuit design, why is a hold-time violation generally considered far more critical and catastrophic than a setup-time violation during post-silicon testing?",
-      "options": [
-        "Hold-time violations permanently destroy the physical p-n junctions of flip-flops due to excessive thermal dissipation",
-        "Setup-time violations can be repaired via laser trimming, whereas hold-time violations require full wafer re-fabrication",
-        "Hold-time margins are independent of the clock period, meaning a hold violation cannot be resolved by reducing the operating clock frequency",
-        "Hold-time violations only occur in dynamic domino logic and can never be detected by Static Timing Analysis (STA)",
-        "Hold-time violations flip the logical polarity of routing interconnects, corrupting clock-tree buffers"
+        "Skew is caused entirely by thermal noise inside transistors, while jitter is caused by routing resistance.",
+        "Skew can only be measured after silicon fabrication, while jitter is modeled deterministically during synthesis.",
+        "Skew represents the spatial variation in arrival times between two clock destinations, while jitter represents the temporal variation of clock edges at a single point over time.",
+        "Skew impacts only dynamic power dissipation, while jitter impacts only static leakage current.",
+        "Skew can cause only hold-time violations, while jitter can cause only setup-time violations."
       ],
       "correct": 2
     },
     {
-      "question": "In modern out-of-order superscalar microarchitectures, what is the primary role of the Reorder Buffer (ROB)?",
+      "question": "In high-performance processor memory hierarchies, what is the primary latency advantage of a Virtually Indexed, Physically Tagged (VIPT) cache over a Physically Indexed, Physically Tagged (PIPT) cache?",
       "options": [
-        "To statically sort instruction opcodes prior to decoding to optimize execution-unit scheduling",
-        "To physically store branch prediction history tables and calculate indirect jump target addresses",
-        "To map architectural register specifiers directly to hardware arithmetic logic units (ALUs)",
-        "To track in-flight instructions in strict program order so that architectural state updates and exceptions commit in-order",
-        "To act as a secondary instruction cache that holds decoded micro-operations for loop streams"
+        "It completely eliminates the need to maintain cache tags in the cache array.",
+        "It inherently prevents any potential cache aliasing (homonyms and synonyms) across processes.",
+        "It eliminates the need to include a hardware Translation Lookaside Buffer (TLB) on chip.",
+        "It allows the cache index lookup to proceed in parallel with virtual-to-physical address translation in the TLB.",
+        "It compresses tag array storage by retaining only the upper unmapped virtual address bits."
       ],
       "correct": 3
     },
     {
-      "question": "In deep-submicron physical design and power integrity analysis, what is the fundamental distinction between static IR drop and dynamic IR drop across a chip's Power Delivery Network (PDN)?",
+      "question": "In advanced semiconductor manufacturing nodes (below 22nm), what is the primary physical motivation for transitioning from planar bulk CMOS transistors to multi-gate architectures such as FinFETs and Nanosheet/Gate-All-Around (GAA) FETs?",
       "options": [
-        "Static IR drop affects only signal interconnects, whereas dynamic IR drop affects only the clock distribution network",
-        "Static IR drop is caused entirely by wire inductance, whereas dynamic IR drop is caused solely by junction substrate leakage",
-        "Static IR drop occurs exclusively during chip power-up, whereas dynamic IR drop occurs only during thermal shutdown",
-        "Static IR drop is measured in analog I/O domains, whereas dynamic IR drop is confined strictly to embedded SRAM arrays",
-        "Static IR drop is driven by average DC current dissipation across parasitic wire resistance, whereas dynamic IR drop is caused by localized peak switching currents and L(di/dt) transient inductive effects"
+        "To replace silicon channels with high-mobility III-V semiconductor materials without changing layout topology.",
+        "To enhance electrostatic gate control over the channel from multiple sides, suppressing short-channel effects like drain-induced barrier lowering (DIBL).",
+        "To eliminate the requirement for high-k metal gate dielectric stacks like hafnium oxide.",
+        "To enable negative threshold voltage operation to completely eliminate static leakage power.",
+        "To reduce the number of extreme ultraviolet (EUV) photolithography masks required during front-end fabrication."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In vector processor architectures, what is the operational mechanism and primary performance advantage of vector register chaining?",
+      "options": [
+        "Combining multiple physical vector registers into a single logical register to double memory load throughput.",
+        "Broadcasting a single scalar value simultaneously across all SIMD lanes to bypass vector execution pipelines.",
+        "Dynamically rescheduling independent vector instructions into scalar instruction windows to avoid hazards.",
+        "Prefetching contiguous blocks of vector memory lines directly into L1 caches using hardware stride counters.",
+        "Forwarding intermediate elements from the output of one vector functional unit directly to the input of a dependent functional unit before the entire vector completes."
       ],
       "correct": 4
     }

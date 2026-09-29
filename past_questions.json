@@ -1,9 +1,4 @@
 [
-  "In digital arithmetic circuits, what is the primary architectural advantage of a Carry-Lookahead Adder (CLA) compared to a standard Ripple-Carry Adder (RCA)?",
-  "In microarchitecture, why is a 2-bit saturating counter (bimodal branch predictor) generally preferred over a 1-bit predictor for handling loops?",
-  "During digital logic synthesis and optimization, what does the technique known as retiming fundamentally accomplish?",
-  "In modern DRAM memory subsystem architectures, what is the primary operational consequence of a \"Row Buffer Conflict\" (or \"Row Buffer Miss\") during a memory read?",
-  "In the late stages of the ASIC physical design flow, what is the primary purpose of an Engineering Change Order (ECO)?",
   "During logic synthesis and physical design optimization, how is Multi-Threshold CMOS (Multi-Vt) library cell swapping primarily utilized to balance power and performance?",
   "According to Amdahl's Law, what fundamentally limits the theoretical maximum speedup achievable by parallelizing a computing workload across an arbitrarily large number of processor cores?",
   "In digital circuits, when an asynchronous signal violates the setup or hold time requirements of a flip-flop, the internal storage node may enter an unstable state with an output voltage lingering between valid logic levels for an unpredictable duration. What is this phenomenon called?",
@@ -48,5 +43,10 @@
   "In shared-memory multi-core processors, why is a directory-based cache coherence protocol favored over a snooping-based coherence protocol as the core count scales to dozens or hundreds of cores?",
   "In synchronous digital integrated circuit design, why is a hold-time violation generally considered far more critical and catastrophic than a setup-time violation during post-silicon testing?",
   "In modern out-of-order superscalar microarchitectures, what is the primary role of the Reorder Buffer (ROB)?",
-  "In deep-submicron physical design and power integrity analysis, what is the fundamental distinction between static IR drop and dynamic IR drop across a chip's Power Delivery Network (PDN)?"
+  "In deep-submicron physical design and power integrity analysis, what is the fundamental distinction between static IR drop and dynamic IR drop across a chip's Power Delivery Network (PDN)?",
+  "In computer architecture and instruction set design, what is the defining characteristic of a strictly Load-Store (Register-Register) architecture?",
+  "In synchronous digital IC design and static timing analysis (STA), what is the fundamental distinction between clock skew and clock jitter?",
+  "In high-performance processor memory hierarchies, what is the primary latency advantage of a Virtually Indexed, Physically Tagged (VIPT) cache over a Physically Indexed, Physically Tagged (PIPT) cache?",
+  "In advanced semiconductor manufacturing nodes (below 22nm), what is the primary physical motivation for transitioning from planar bulk CMOS transistors to multi-gate architectures such as FinFETs and Nanosheet/Gate-All-Around (GAA) FETs?",
+  "In vector processor architectures, what is the operational mechanism and primary performance advantage of vector register chaining?"
 ]
