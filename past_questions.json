@@ -1,9 +1,4 @@
 [
-  "During logic synthesis and physical design optimization, how is Multi-Threshold CMOS (Multi-Vt) library cell swapping primarily utilized to balance power and performance?",
-  "According to Amdahl's Law, what fundamentally limits the theoretical maximum speedup achievable by parallelizing a computing workload across an arbitrarily large number of processor cores?",
-  "In digital circuits, when an asynchronous signal violates the setup or hold time requirements of a flip-flop, the internal storage node may enter an unstable state with an output voltage lingering between valid logic levels for an unpredictable duration. What is this phenomenon called?",
-  "In modern superscalar processor front-ends, what is the primary operational distinction between a Branch Target Buffer (BTB) and a conditional branch direction predictor?",
-  "In modern high-performance microprocessors, what is the primary role of Miss Status Holding Registers (MSHRs) within a non-blocking cache?",
   "In shared-memory multiprocessor architectures with cache coherence protocols, what does the term 'false sharing' refer to?",
   "In deep sub-micron ASIC physical design, how does cross-coupling capacitance between adjacent parallel interconnects primarily affect signal timing when both wires switch simultaneously in opposite directions?",
   "In digital IC design, what is the primary purpose of inserting scan chains during the Design for Testability (DFT) process?",
@@ -48,5 +43,10 @@
   "In synchronous digital IC design and static timing analysis (STA), what is the fundamental distinction between clock skew and clock jitter?",
   "In high-performance processor memory hierarchies, what is the primary latency advantage of a Virtually Indexed, Physically Tagged (VIPT) cache over a Physically Indexed, Physically Tagged (PIPT) cache?",
   "In advanced semiconductor manufacturing nodes (below 22nm), what is the primary physical motivation for transitioning from planar bulk CMOS transistors to multi-gate architectures such as FinFETs and Nanosheet/Gate-All-Around (GAA) FETs?",
-  "In vector processor architectures, what is the operational mechanism and primary performance advantage of vector register chaining?"
+  "In vector processor architectures, what is the operational mechanism and primary performance advantage of vector register chaining?",
+  "In deep-submicron ASIC physical design, what is the primary operational role of inserting decoupling capacitor (decap) cells into empty sites of standard-cell rows?",
+  "During sequential logic optimization in digital IC synthesis, what is the fundamental operation performed by 'retiming'?",
+  "In modern computer memory subsystems, how does an 'Open-Page' row buffer management policy in a DRAM controller operate compared to a 'Closed-Page' policy?",
+  "In modern high-performance processor front-ends, what is the primary architectural purpose of a Return Address Stack (RAS)?",
+  "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the linear O(n) latency delay characteristic of a Ripple-Carry Adder (RCA)?"
 ]

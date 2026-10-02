@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In computer architecture and instruction set design, what is the defining characteristic of a strictly Load-Store (Register-Register) architecture?",
+      "question": "In deep-submicron ASIC physical design, what is the primary operational role of inserting decoupling capacitor (decap) cells into empty sites of standard-cell rows?",
       "options": [
-        "All arithmetic and logical instructions operate exclusively on registers, with memory access restricted to dedicated load and store instructions.",
-        "Operands for arithmetic operations are popped from and results pushed directly onto a hardware memory stack.",
-        "Every arithmetic instruction can encode both memory addresses and register operands interchangeably.",
-        "Memory can be accessed without address translation by entirely bypassing the memory management unit.",
-        "Instruction word lengths are variable and depend dynamically on the width of the system memory bus."
+        "To function as local charge reservoirs near switching logic gates, supplying transient current during simultaneous switching to mitigate dynamic voltage droop.",
+        "To isolate high-voltage power domains from low-voltage core domains, preventing catastrophic gate oxide breakdown.",
+        "To collect antenna-induced charges during plasma etching processes, preventing permanent damage to input transistor gate oxides.",
+        "To terminate unused inputs of logic cells to stable VDD or VSS potentials without direct connections to global power rails.",
+        "To balance capacitive loading between complementary clock tree branches, reducing clock skew across the die."
       ],
       "correct": 0
     },
     {
-      "question": "In synchronous digital IC design and static timing analysis (STA), what is the fundamental distinction between clock skew and clock jitter?",
+      "question": "During sequential logic optimization in digital IC synthesis, what is the fundamental operation performed by 'retiming'?",
       "options": [
-        "Skew is caused entirely by thermal noise inside transistors, while jitter is caused by routing resistance.",
-        "Skew can only be measured after silicon fabrication, while jitter is modeled deterministically during synthesis.",
-        "Skew represents the spatial variation in arrival times between two clock destinations, while jitter represents the temporal variation of clock edges at a single point over time.",
-        "Skew impacts only dynamic power dissipation, while jitter impacts only static leakage current.",
-        "Skew can cause only hold-time violations, while jitter can cause only setup-time violations."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In high-performance processor memory hierarchies, what is the primary latency advantage of a Virtually Indexed, Physically Tagged (VIPT) cache over a Physically Indexed, Physically Tagged (PIPT) cache?",
-      "options": [
-        "It completely eliminates the need to maintain cache tags in the cache array.",
-        "It inherently prevents any potential cache aliasing (homonyms and synonyms) across processes.",
-        "It eliminates the need to include a hardware Translation Lookaside Buffer (TLB) on chip.",
-        "It allows the cache index lookup to proceed in parallel with virtual-to-physical address translation in the TLB.",
-        "It compresses tag array storage by retaining only the upper unmapped virtual address bits."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In advanced semiconductor manufacturing nodes (below 22nm), what is the primary physical motivation for transitioning from planar bulk CMOS transistors to multi-gate architectures such as FinFETs and Nanosheet/Gate-All-Around (GAA) FETs?",
-      "options": [
-        "To replace silicon channels with high-mobility III-V semiconductor materials without changing layout topology.",
-        "To enhance electrostatic gate control over the channel from multiple sides, suppressing short-channel effects like drain-induced barrier lowering (DIBL).",
-        "To eliminate the requirement for high-k metal gate dielectric stacks like hafnium oxide.",
-        "To enable negative threshold voltage operation to completely eliminate static leakage power.",
-        "To reduce the number of extreme ultraviolet (EUV) photolithography masks required during front-end fabrication."
+        "Converting dual-edge triggered flip-flops into single-edge latches to reduce clock distribution network power dissipation.",
+        "Relocating flip-flops across combinational logic boundaries to balance path delays and minimize cycle time while preserving external latency and functionality.",
+        "Swapping standard logic cells between nominal-Vt and high-Vt threshold libraries to eliminate static subthreshold leakage currents.",
+        "Inserting non-inverting delay buffers into short data paths to prevent hold-time violations across process corners.",
+        "Grouping asynchronous control signals into synchronous clock domains using multi-stage synchronizing flip-flop chains."
       ],
       "correct": 1
     },
     {
-      "question": "In vector processor architectures, what is the operational mechanism and primary performance advantage of vector register chaining?",
+      "question": "In modern computer memory subsystems, how does an 'Open-Page' row buffer management policy in a DRAM controller operate compared to a 'Closed-Page' policy?",
       "options": [
-        "Combining multiple physical vector registers into a single logical register to double memory load throughput.",
-        "Broadcasting a single scalar value simultaneously across all SIMD lanes to bypass vector execution pipelines.",
-        "Dynamically rescheduling independent vector instructions into scalar instruction windows to avoid hazards.",
-        "Prefetching contiguous blocks of vector memory lines directly into L1 caches using hardware stride counters.",
-        "Forwarding intermediate elements from the output of one vector functional unit directly to the input of a dependent functional unit before the entire vector completes."
+        "It powers down unused memory ranks immediately following each access to minimize standby background power.",
+        "It splits consecutive memory words across alternating memory channels to maximize peak burst transfer bandwidth.",
+        "It keeps an activated DRAM row open in the bank sense amplifiers after an access, optimizing for low latency when subsequent accesses exhibit spatial locality.",
+        "It issues an automatic precharge command immediately after each read or write command, optimizing for random access patterns across distinct rows.",
+        "It reorders incoming memory requests to ensure that write transactions are always dispatched before read transactions to maximize bus utilization."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In modern high-performance processor front-ends, what is the primary architectural purpose of a Return Address Stack (RAS)?",
+      "options": [
+        "To maintain a history of speculative instruction addresses evicted from the L1 instruction cache to prevent frontend pipeline stalls.",
+        "To dynamically detect and break circular dependencies among nested function calls during out-of-order execution.",
+        "To store the micro-operation dispatch addresses generated by the instruction decoder for complex CISC instructions.",
+        "To accurately predict the target return addresses of subroutine and function calls by pushing the return PC on calls and popping it on returns.",
+        "To cache the physical memory translations of frequently executed branch targets to bypass the Translation Lookaside Buffer (TLB)."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the linear O(n) latency delay characteristic of a Ripple-Carry Adder (RCA)?",
+      "options": [
+        "By utilizing iterative shift-and-add hardware stages that compute carry bits over multiple synchronized clock cycles.",
+        "By precharging internal dynamic intermediate carry nodes during a setup phase and evaluating them in parallel using NMOS logic.",
+        "By duplicating adder logic across multiple redundant execution datapaths and selecting the valid sum via multiplexers.",
+        "By converting incoming binary operands into redundant signed-digit representations to eliminate carry propagation altogether.",
+        "By generating carry-generate and carry-propagate terms across bit positions, enabling the simultaneous calculation of all carry signals through hierarchical logic."
       ],
       "correct": 4
     }
