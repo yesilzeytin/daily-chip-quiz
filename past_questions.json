@@ -1,9 +1,4 @@
 [
-  "In shared-memory multiprocessor architectures with cache coherence protocols, what does the term 'false sharing' refer to?",
-  "In deep sub-micron ASIC physical design, how does cross-coupling capacitance between adjacent parallel interconnects primarily affect signal timing when both wires switch simultaneously in opposite directions?",
-  "In digital IC design, what is the primary purpose of inserting scan chains during the Design for Testability (DFT) process?",
-  "In Static Timing Analysis (STA), what is a 'false path' and why is it explicitly specified as a timing exception?",
-  "In computer microarchitecture, what is the primary role of the Common Data Bus (CDB) in Tomasulo's dynamic instruction scheduling algorithm?",
   "In low-power digital IC design, what is the primary operational mechanism and benefit of clock gating?",
   "In advanced semiconductor manufacturing and physical design (such as sub-2nm nodes), what is the primary motivation for implementing a Backside Power Delivery Network (BSPDN)?",
   "In computer architecture and memory hierarchy design, which statement best defines the principle of spatial locality?",
@@ -48,5 +43,10 @@
   "During sequential logic optimization in digital IC synthesis, what is the fundamental operation performed by 'retiming'?",
   "In modern computer memory subsystems, how does an 'Open-Page' row buffer management policy in a DRAM controller operate compared to a 'Closed-Page' policy?",
   "In modern high-performance processor front-ends, what is the primary architectural purpose of a Return Address Stack (RAS)?",
-  "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the linear O(n) latency delay characteristic of a Ripple-Carry Adder (RCA)?"
+  "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the linear O(n) latency delay characteristic of a Ripple-Carry Adder (RCA)?",
+  "In computer system architecture, what is the fundamental defining characteristic of Memory-Mapped I/O (MMIO) compared to Port-Mapped (Isolated) I/O?",
+  "In synchronous digital circuit design, what fundamental physical condition causes a bistable element (such as an edge-triggered D flip-flop) to enter a metastable state?",
+  "In modern high-performance microprocessors, what is the primary function of Miss Status Holding Registers (MSHRs) in a non-blocking (lockup-free) cache hierarchy?",
+  "In ASIC physical design and Static Timing Analysis (STA), what is the operational principle of 'useful skew' (clock skew scheduling)?",
+  "In out-of-order superscalar processor microarchitectures, what is the primary role of speculative memory disambiguation?"
 ]
