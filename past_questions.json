@@ -1,9 +1,4 @@
 [
-  "In low-power digital IC design, what is the primary operational mechanism and benefit of clock gating?",
-  "In advanced semiconductor manufacturing and physical design (such as sub-2nm nodes), what is the primary motivation for implementing a Backside Power Delivery Network (BSPDN)?",
-  "In computer architecture and memory hierarchy design, which statement best defines the principle of spatial locality?",
-  "During the physical verification stage of an ASIC design flow, what is the primary objective of running a Layout Versus Schematic (LVS) check?",
-  "In multiprocessor cache coherence, how does the 'Owner' (O) state in the MOESI protocol function compared to the 'Modified' (M) and 'Shared' (S) states?",
   "In finite state machine (FSM) design, what is the fundamental functional difference between a Moore machine and a Mealy machine?",
   "In static CMOS digital circuit design, why are PMOS pull-up transistors typically sized with wider channel widths than NMOS pull-down transistors within the same standard cell?",
   "In Multi-Voltage (Multi-VDD) digital IC designs, what is the primary role of inserting level shifter cells at domain boundaries?",
@@ -48,5 +43,10 @@
   "In synchronous digital circuit design, what fundamental physical condition causes a bistable element (such as an edge-triggered D flip-flop) to enter a metastable state?",
   "In modern high-performance microprocessors, what is the primary function of Miss Status Holding Registers (MSHRs) in a non-blocking (lockup-free) cache hierarchy?",
   "In ASIC physical design and Static Timing Analysis (STA), what is the operational principle of 'useful skew' (clock skew scheduling)?",
-  "In out-of-order superscalar processor microarchitectures, what is the primary role of speculative memory disambiguation?"
+  "In out-of-order superscalar processor microarchitectures, what is the primary role of speculative memory disambiguation?",
+  "In pipelined processor microarchitecture, which of the following scenarios describes a structural hazard?",
+  "In modern high-performance processor front-ends, what is the primary architectural role of a Branch Target Buffer (BTB)?",
+  "In Static Timing Analysis (STA) of digital IC designs, what constitutes a 'false path'?",
+  "In GPU architectures executing under the Single Instruction, Multiple Threads (SIMT) execution model, what fundamentally occurs when threads within a single warp encounter branch divergence?",
+  "In deep-submicron digital interconnect analysis, how does cross-coupling capacitance affect signal propagation delay when an aggressor net and a victim net switch simultaneously in opposite directions?"
 ]

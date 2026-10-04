@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In computer system architecture, what is the fundamental defining characteristic of Memory-Mapped I/O (MMIO) compared to Port-Mapped (Isolated) I/O?",
+      "question": "In pipelined processor microarchitecture, which of the following scenarios describes a structural hazard?",
       "options": [
-        "All I/O operations bypass the processor bus entirely and communicate directly with system DRAM via an isolated channel.",
-        "I/O devices are assigned dedicated address spaces accessible only through specialized CPU instructions like IN and OUT.",
-        "The CPU must switch to real mode to execute any read or write transactions destined for peripheral devices.",
-        "I/O device registers are mapped into the standard physical memory address space and accessed using standard load and store instructions.",
-        "I/O peripherals use optical interconnects rather than electrical traces to synchronize with the system memory controller."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In synchronous digital circuit design, what fundamental physical condition causes a bistable element (such as an edge-triggered D flip-flop) to enter a metastable state?",
-      "options": [
-        "The input data transitions exactly when the clock signal is gated off by low-power control logic.",
-        "The input data violates the flip-flop's setup or hold time window, leaving internal nodes at an indeterminate voltage between valid logic levels.",
-        "The supply voltage drops below the threshold voltage of the pull-up network during a write operation.",
-        "The clock tree buffer drives the clock input with a slew rate that is faster than the flip-flop's internal propagation delay.",
-        "Ground bounce causes the ground rail to fluctuate above the switching threshold of the master latch's transmission gate."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In modern high-performance microprocessors, what is the primary function of Miss Status Holding Registers (MSHRs) in a non-blocking (lockup-free) cache hierarchy?",
-      "options": [
-        "To store evicted dirty cache lines while waiting for a write-back acknowledgment from the main memory bus.",
-        "To dynamically record branch outcomes and predict whether future instruction cache misses will be taken or not taken.",
-        "To periodically scrub single-bit soft errors in the cache data array using error-correcting codes (ECC).",
-        "To enforce cache snooping serialization across multiple cores in a directory-based coherence network.",
-        "To track and merge multiple outstanding cache misses, allowing hit-under-miss and miss-under-miss operations without stalling the pipeline."
-      ],
-      "correct": 4
-    },
-    {
-      "question": "In ASIC physical design and Static Timing Analysis (STA), what is the operational principle of 'useful skew' (clock skew scheduling)?",
-      "options": [
-        "Deliberately adjusting clock arrival times at specific flip-flops to borrow cycle time from non-critical timing paths to fix setup or hold violations on critical paths.",
-        "Designing clock tree buffers with identical RC delays so that clock skew is globally reduced to zero across all corners and modes.",
-        "Modulating the master phase-locked loop (PLL) clock frequency dynamically based on on-chip temperature sensor feedback.",
-        "Aligning the launch and capture clock edges simultaneously to eliminate dynamic power dissipation in the clock distribution network.",
-        "Introducing intentional clock jitter to spread electromagnetic interference (EMI) across a wider frequency spectrum."
+        "Two or more concurrent instructions require the same physical hardware resource in the same clock cycle due to resource constraints.",
+        "A subsequent instruction depends on the result of a preceding instruction that has not yet completed its writeback phase.",
+        "The instruction fetch unit cannot determine the next instruction address because a conditional branch target has not resolved.",
+        "An asynchronous external interrupt arrives, requiring the pipeline to immediately flush instructions and save state.",
+        "An instruction produces an arithmetic overflow that modifies status flags before a dependent instruction reads them."
       ],
       "correct": 0
     },
     {
-      "question": "In out-of-order superscalar processor microarchitectures, what is the primary role of speculative memory disambiguation?",
+      "question": "In modern high-performance processor front-ends, what is the primary architectural role of a Branch Target Buffer (BTB)?",
       "options": [
-        "Translating physical addresses back to virtual addresses during cache line invalidation.",
-        "Deciding whether an instruction should be executed in the integer ALU or floating-point unit before instruction decode.",
-        "Allowing load instructions to execute speculatively before the addresses of older, uncommitted store instructions are fully resolved.",
-        "Preventing multiple threads from accessing the same physical register file in a Simultaneous Multithreading (SMT) core.",
-        "Dynamically compressing 64-bit memory addresses to 32 bits to reduce TLB tag comparison energy."
+        "To predict the directional outcome (taken vs. not-taken) of conditional branches using two-level adaptive history tables.",
+        "To provide the predicted target instruction address early in the fetch stage before the instruction is decoded.",
+        "To store and order completed branch instructions in program sequence until final retirement in the reorder buffer.",
+        "To track subroutine return addresses using a small, dedicated last-in-first-out (LIFO) circular hardware stack.",
+        "To perform translation of virtual instruction fetch addresses into physical addresses ahead of L1 cache access."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In Static Timing Analysis (STA) of digital IC designs, what constitutes a 'false path'?",
+      "options": [
+        "A timing path where the clock skew between source and destination registers exceeds the nominal clock cycle period.",
+        "A critical timing path that fails hold-time requirements exclusively under best-case fast-process voltage-temperature corners.",
+        "A topological path physically present in the gate netlist that cannot be functionally or logically sensitized during normal circuit operation.",
+        "A high-speed signal net that suffers severe propagation delay degradation due to capacitive crosstalk from adjacent aggressor wires.",
+        "An asynchronous reset distribution tree that inadvertently forms an open feedback loop during logic synthesis."
       ],
       "correct": 2
+    },
+    {
+      "question": "In GPU architectures executing under the Single Instruction, Multiple Threads (SIMT) execution model, what fundamentally occurs when threads within a single warp encounter branch divergence?",
+      "options": [
+        "The streaming multiprocessor automatically provisions extra compute cores to execute both branch paths concurrently at full hardware throughput.",
+        "The divergent warp is aborted and offloaded to the host CPU core to be resolved sequentially via speculative execution.",
+        "The thread occupying lane zero determines the execution path for the entire warp, permanently discarding the unselected path.",
+        "The divergent execution paths are executed serially, using thread active masks to disable inactive threads until the paths reconverge.",
+        "The warp transitions permanently from SIMT lock-step execution to independent out-of-order superscalar execution."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In deep-submicron digital interconnect analysis, how does cross-coupling capacitance affect signal propagation delay when an aggressor net and a victim net switch simultaneously in opposite directions?",
+      "options": [
+        "The effective coupling capacitance cancels to zero because the opposing voltage potentials neutralize the inter-wire electric field.",
+        "Inductive reactance overtakes capacitive coupling, accelerating signal slew and causing unexpected hold-time margins.",
+        "The effective coupling capacitance is halved, which shortens propagation delay and leads to potential signal undershoot.",
+        "Crosstalk between opposite-switching wires affects only dynamic power dissipation, leaving signal transition times unchanged.",
+        "The effective coupling capacitance increases due to the Miller effect, substantially increasing the victim net's propagation delay."
+      ],
+      "correct": 4
     }
   ]
 }
