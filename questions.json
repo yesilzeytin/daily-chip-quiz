@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In pipelined processor microarchitecture, which of the following scenarios describes a structural hazard?",
+      "question": "In a hardware cache coherence system implementing the classic 4-state MESI protocol, what action must a processor core take when it performs a write to a cache line currently held in the 'Shared' (S) state?",
       "options": [
-        "Two or more concurrent instructions require the same physical hardware resource in the same clock cycle due to resource constraints.",
-        "A subsequent instruction depends on the result of a preceding instruction that has not yet completed its writeback phase.",
-        "The instruction fetch unit cannot determine the next instruction address because a conditional branch target has not resolved.",
-        "An asynchronous external interrupt arrives, requiring the pipeline to immediately flush instructions and save state.",
-        "An instruction produces an arithmetic overflow that modifies status flags before a dependent instruction reads them."
+        "Broadcast an invalidation (or upgrade) transaction to all peer caches and transition the line to the Modified (M) state",
+        "Immediately write the data through to main memory and remain in the Shared (S) state without alerting peer caches",
+        "Demote the line locally to the Invalid (I) state and issue a full cache line fetch from external memory",
+        "Transition the line silently to the Exclusive (E) state while allowing peer caches to retain their copies",
+        "Force all other processor cores to flush their pipelines and stall until the write commits to L3"
       ],
       "correct": 0
     },
     {
-      "question": "In modern high-performance processor front-ends, what is the primary architectural role of a Branch Target Buffer (BTB)?",
+      "question": "In a set-associative cache design, what is the primary hardware efficiency advantage of adopting a Tree-based Pseudo-LRU (Tree-PLRU) replacement policy compared to true Least Recently Used (LRU)?",
       "options": [
-        "To predict the directional outcome (taken vs. not-taken) of conditional branches using two-level adaptive history tables.",
-        "To provide the predicted target instruction address early in the fetch stage before the instruction is decoded.",
-        "To store and order completed branch instructions in program sequence until final retirement in the reorder buffer.",
-        "To track subroutine return addresses using a small, dedicated last-in-first-out (LIFO) circular hardware stack.",
-        "To perform translation of virtual instruction fetch addresses into physical addresses ahead of L1 cache access."
+        "It eliminates cache tag matching overhead by predicting the hit way before tag comparison",
+        "It tracks access history using only N - 1 tracking bits per set for an N-way associative cache, substantially reducing storage and logic complexity",
+        "It completely guarantees the theoretical minimum miss rate equivalent to Belady's optimal algorithm",
+        "It prevents all cache pollution caused by sequential memory streaming without requiring hardware prefetchers",
+        "It dynamically converts set-associative sets into fully associative partitions on high-conflict workloads"
       ],
       "correct": 1
     },
     {
-      "question": "In Static Timing Analysis (STA) of digital IC designs, what constitutes a 'false path'?",
+      "question": "In digital IC Design for Testability (DFT), what structural modification is introduced to transform a standard D flip-flop into a basic scan cell for scan-based testing?",
       "options": [
-        "A timing path where the clock skew between source and destination registers exceeds the nominal clock cycle period.",
-        "A critical timing path that fails hold-time requirements exclusively under best-case fast-process voltage-temperature corners.",
-        "A topological path physically present in the gate netlist that cannot be functionally or logically sensitized during normal circuit operation.",
-        "A high-speed signal net that suffers severe propagation delay degradation due to capacitive crosstalk from adjacent aggressor wires.",
-        "An asynchronous reset distribution tree that inadvertently forms an open feedback loop during logic synthesis."
+        "A feedback XOR gate is attached to the output to generate transient signature registers",
+        "An internal charge pump is added to overdrive the clock input during test shift cycles",
+        "A 2-to-1 multiplexer is added at the data input, controlled by a scan-enable signal to choose between functional data and scan-in data",
+        "A master-slave shadow latch is placed in parallel to capture soft-error dumps during normal execution",
+        "The standard single-ended clock pin is replaced by a differential clock receiver to maximize shifting speed"
       ],
       "correct": 2
     },
     {
-      "question": "In GPU architectures executing under the Single Instruction, Multiple Threads (SIMT) execution model, what fundamentally occurs when threads within a single warp encounter branch divergence?",
+      "question": "In synchronous low-power digital design, why does an Integrated Clock Gating (ICG) cell incorporate a level-sensitive latch before the gating gate (such as an AND gate) rather than using a simple combinational AND gate alone?",
       "options": [
-        "The streaming multiprocessor automatically provisions extra compute cores to execute both branch paths concurrently at full hardware throughput.",
-        "The divergent warp is aborted and offloaded to the host CPU core to be resolved sequentially via speculative execution.",
-        "The thread occupying lane zero determines the execution path for the entire warp, permanently discarding the unselected path.",
-        "The divergent execution paths are executed serially, using thread active masks to disable inactive threads until the paths reconverge.",
-        "The warp transitions permanently from SIMT lock-step execution to independent out-of-order superscalar execution."
+        "To level-shift the clock domain voltage up to the I/O pad supply rail",
+        "To halve the incoming clock frequency whenever the controlled logic block enters a low-power mode",
+        "To intentionally introduce clock skew to eliminate downstream hold-time violations",
+        "To prevent glitches and timing hazards on the enable signal from propagating and producing clipped, spurious clock pulses",
+        "To balance the rise and fall transition times across unbalanced tree distribution branches"
       ],
       "correct": 3
     },
     {
-      "question": "In deep-submicron digital interconnect analysis, how does cross-coupling capacitance affect signal propagation delay when an aggressor net and a victim net switch simultaneously in opposite directions?",
+      "question": "In sub-2nm semiconductor technology nodes, what is the primary physical and architectural motivation for implementing a Backside Power Delivery Network (BSPDN)?",
       "options": [
-        "The effective coupling capacitance cancels to zero because the opposing voltage potentials neutralize the inter-wire electric field.",
-        "Inductive reactance overtakes capacitive coupling, accelerating signal slew and causing unexpected hold-time margins.",
-        "The effective coupling capacitance is halved, which shortens propagation delay and leads to potential signal undershoot.",
-        "Crosstalk between opposite-switching wires affects only dynamic power dissipation, leaving signal transition times unchanged.",
-        "The effective coupling capacitance increases due to the Miller effect, substantially increasing the victim net's propagation delay."
+        "To enable carbon nanotube field-effect transistors to replace silicon nanosheets on the wafer substrate",
+        "To eliminate the need for optical immersion lithography across all backend metal layers",
+        "To apply compressive mechanical stress to the substrate to double carrier mobility in planar transistors",
+        "To embed deep-trench DRAM capacitors directly underneath active logic to serve as zero-latency cache blocks",
+        "To decouple power distribution from signal routing, mitigating severe lower-layer interconnect congestion and reducing IR drop via thicker backside metal rails"
       ],
       "correct": 4
     }
