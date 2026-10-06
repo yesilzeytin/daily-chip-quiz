@@ -1,9 +1,4 @@
 [
-  "In processor memory consistency models, which of the following memory access reorderings is permissible under Total Store Order (TSO), as implemented in architectures like x86?",
-  "In combinational digital logic design, what is the fundamental physical cause of a logic \"hazard\" (glitch) at the output of a gate network?",
-  "In computer architecture, what fundamentally distinguishes a Very Long Instruction Word (VLIW) processor from a dynamically scheduled superscalar processor?",
-  "In the ASIC physical design implementation flow, what is the primary objective of Clock Tree Synthesis (CTS)?",
-  "In dynamic CMOS logic circuits (such as Domino logic), what is the primary role of a weak PMOS \"keeper\" transistor connected to the dynamic evaluation node?",
   "In computer architecture, what is the fundamental structural distinction between a Harvard architecture and a Von Neumann (Princeton) architecture?",
   "In low-power digital IC design utilizing power gating (shutting down power domains), what is the primary operational role of inserting \"isolation cells\" at the interfaces of a powered-down domain?",
   "In computer cache hierarchy design, what is the primary architectural purpose of a \"Victim Cache\"?",
@@ -48,5 +43,10 @@
   "In a set-associative cache design, what is the primary hardware efficiency advantage of adopting a Tree-based Pseudo-LRU (Tree-PLRU) replacement policy compared to true Least Recently Used (LRU)?",
   "In digital IC Design for Testability (DFT), what structural modification is introduced to transform a standard D flip-flop into a basic scan cell for scan-based testing?",
   "In synchronous low-power digital design, why does an Integrated Clock Gating (ICG) cell incorporate a level-sensitive latch before the gating gate (such as an AND gate) rather than using a simple combinational AND gate alone?",
-  "In sub-2nm semiconductor technology nodes, what is the primary physical and architectural motivation for implementing a Backside Power Delivery Network (BSPDN)?"
+  "In sub-2nm semiconductor technology nodes, what is the primary physical and architectural motivation for implementing a Backside Power Delivery Network (BSPDN)?",
+  "In out-of-order superscalar processor microarchitectures, why is register renaming fundamentally employed prior to instruction dispatch into reservation stations or issue queues?",
+  "In synchronous finite state machine (FSM) digital logic design, what is the fundamental structural distinction between a Moore machine and a Mealy machine?",
+  "In shared-memory multiprocessor architectures, what is the root cause of the performance degradation phenomenon known as 'false sharing'?",
+  "In deep-submicron CMOS reliability analysis, what is the primary physical cause and operational impact of Negative Bias Temperature Instability (NBTI)?",
+  "In standard-cell ASIC implementation and low-power digital design, what is the primary operational strategy of Multi-Threshold CMOS (Multi-Vt) optimization?"
 ]

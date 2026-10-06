@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In a hardware cache coherence system implementing the classic 4-state MESI protocol, what action must a processor core take when it performs a write to a cache line currently held in the 'Shared' (S) state?",
+      "question": "In out-of-order superscalar processor microarchitectures, why is register renaming fundamentally employed prior to instruction dispatch into reservation stations or issue queues?",
       "options": [
-        "Broadcast an invalidation (or upgrade) transaction to all peer caches and transition the line to the Modified (M) state",
-        "Immediately write the data through to main memory and remain in the Shared (S) state without alerting peer caches",
-        "Demote the line locally to the Invalid (I) state and issue a full cache line fetch from external memory",
-        "Transition the line silently to the Exclusive (E) state while allowing peer caches to retain their copies",
-        "Force all other processor cores to flush their pipelines and stall until the write commits to L3"
+        "To eliminate false data dependencies (Write-After-Read and Write-After-Write hazards) arising from a limited architectural register namespace.",
+        "To resolve true data dependencies (Read-After-Write hazards) by bypassing execution results directly around the physical register file.",
+        "To convert speculative branch instructions into unconditional jumps, minimizing branch misprediction penalties.",
+        "To compress 64-bit wide instructions into compact 32-bit representations inside the decoded instruction cache.",
+        "To ensure that load and store operations access the Level-1 data cache strictly in their original program order."
       ],
       "correct": 0
     },
     {
-      "question": "In a set-associative cache design, what is the primary hardware efficiency advantage of adopting a Tree-based Pseudo-LRU (Tree-PLRU) replacement policy compared to true Least Recently Used (LRU)?",
+      "question": "In synchronous finite state machine (FSM) digital logic design, what is the fundamental structural distinction between a Moore machine and a Mealy machine?",
       "options": [
-        "It eliminates cache tag matching overhead by predicting the hit way before tag comparison",
-        "It tracks access history using only N - 1 tracking bits per set for an N-way associative cache, substantially reducing storage and logic complexity",
-        "It completely guarantees the theoretical minimum miss rate equivalent to Belady's optimal algorithm",
-        "It prevents all cache pollution caused by sequential memory streaming without requiring hardware prefetchers",
-        "It dynamically converts set-associative sets into fully associative partitions on high-conflict workloads"
+        "A Moore machine updates its state on the active clock edge, whereas a Mealy machine updates state asynchronously without a clock.",
+        "A Moore machine's outputs depend solely on its current state, whereas a Mealy machine's outputs depend on both its current state and current primary inputs.",
+        "A Moore machine requires fewer flip-flops than an equivalent Mealy machine for any given regular language.",
+        "A Mealy machine contains purely combinational feedback loops without state registers, whereas a Moore machine strictly requires flip-flops.",
+        "A Mealy machine evaluates next-state logic using multiplexers, whereas a Moore machine strictly relies on ROM-based lookup tables."
       ],
       "correct": 1
     },
     {
-      "question": "In digital IC Design for Testability (DFT), what structural modification is introduced to transform a standard D flip-flop into a basic scan cell for scan-based testing?",
+      "question": "In shared-memory multiprocessor architectures, what is the root cause of the performance degradation phenomenon known as 'false sharing'?",
       "options": [
-        "A feedback XOR gate is attached to the output to generate transient signature registers",
-        "An internal charge pump is added to overdrive the clock input during test shift cycles",
-        "A 2-to-1 multiplexer is added at the data input, controlled by a scan-enable signal to choose between functional data and scan-in data",
-        "A master-slave shadow latch is placed in parallel to capture soft-error dumps during normal execution",
-        "The standard single-ended clock pin is replaced by a differential clock receiver to maximize shifting speed"
+        "Multiple threads access the same virtual address simultaneously, triggering redundant page faults in the memory management unit.",
+        "A processor core reads stale data from main memory because its local store buffer failed to flush before an external read request.",
+        "Independent threads on different cores update distinct, non-overlapping variables that reside within the same cache line, triggering continuous coherence invalidations.",
+        "Multiple cores issue concurrent write requests to identical memory locations, producing a protocol deadlock across the system crossbar.",
+        "An out-of-order execution engine speculates incorrectly on memory dependencies, causing repeated pipeline flushes across cores."
       ],
       "correct": 2
     },
     {
-      "question": "In synchronous low-power digital design, why does an Integrated Clock Gating (ICG) cell incorporate a level-sensitive latch before the gating gate (such as an AND gate) rather than using a simple combinational AND gate alone?",
+      "question": "In deep-submicron CMOS reliability analysis, what is the primary physical cause and operational impact of Negative Bias Temperature Instability (NBTI)?",
       "options": [
-        "To level-shift the clock domain voltage up to the I/O pad supply rail",
-        "To halve the incoming clock frequency whenever the controlled logic block enters a low-power mode",
-        "To intentionally introduce clock skew to eliminate downstream hold-time violations",
-        "To prevent glitches and timing hazards on the enable signal from propagating and producing clipped, spurious clock pulses",
-        "To balance the rise and fall transition times across unbalanced tree distribution branches"
+        "High current density in power rails displacing metal atoms into voids and hillocks over extended operating lifespans.",
+        "Hot electrons injecting into the thin gate oxide of NMOS devices during high-frequency switching, triggering punch-through breakdown.",
+        "Reverse-bias leakage current causing thermal runaway in the bulk substrate during deep standby sleep modes.",
+        "Generation of interface traps and oxide charges in PMOS transistors subjected to negative gate-to-source bias at elevated temperatures, increasing the absolute threshold voltage and degrading circuit path delays over time.",
+        "Spontaneous dielectric breakdown caused by plasma charge accumulation during reactive-ion etching of backend metallization layers."
       ],
       "correct": 3
     },
     {
-      "question": "In sub-2nm semiconductor technology nodes, what is the primary physical and architectural motivation for implementing a Backside Power Delivery Network (BSPDN)?",
+      "question": "In standard-cell ASIC implementation and low-power digital design, what is the primary operational strategy of Multi-Threshold CMOS (Multi-Vt) optimization?",
       "options": [
-        "To enable carbon nanotube field-effect transistors to replace silicon nanosheets on the wafer substrate",
-        "To eliminate the need for optical immersion lithography across all backend metal layers",
-        "To apply compressive mechanical stress to the substrate to double carrier mobility in planar transistors",
-        "To embed deep-trench DRAM capacitors directly underneath active logic to serve as zero-latency cache blocks",
-        "To decouple power distribution from signal routing, mitigating severe lower-layer interconnect congestion and reducing IR drop via thicker backside metal rails"
+        "Applying dynamic forward body biasing to all standard cells across active clock cycles to reduce dynamic switching capacitance.",
+        "Fabricating all sequential elements with Low-Vt transistors and all combinational logic with Ultra-High-Vt transistors regardless of timing slack.",
+        "Connecting every standard cell to dual external supply rails so that individual gates can switch their supply voltage cycle-by-cycle.",
+        "Inserting High-Vt (HVT) cells along setup-critical paths to maximize drive strength, while deploying Low-Vt (LVT) cells on non-critical paths to limit dynamic power.",
+        "Utilizing Low-Vt (LVT) cells along timing-critical paths to meet clock frequency targets while swapping non-critical path cells with High-Vt (HVT) cells to substantially reduce subthreshold leakage power."
       ],
       "correct": 4
     }
