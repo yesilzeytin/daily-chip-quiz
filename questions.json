@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In out-of-order superscalar processor microarchitectures, why is register renaming fundamentally employed prior to instruction dispatch into reservation stations or issue queues?",
+      "question": "In bulk CMOS digital integrated circuit design, what physical mechanism is responsible for 'latch-up', and what physical design layout technique is standardly used to prevent it?",
       "options": [
-        "To eliminate false data dependencies (Write-After-Read and Write-After-Write hazards) arising from a limited architectural register namespace.",
-        "To resolve true data dependencies (Read-After-Write hazards) by bypassing execution results directly around the physical register file.",
-        "To convert speculative branch instructions into unconditional jumps, minimizing branch misprediction penalties.",
-        "To compress 64-bit wide instructions into compact 32-bit representations inside the decoded instruction cache.",
-        "To ensure that load and store operations access the Level-1 data cache strictly in their original program order."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In synchronous finite state machine (FSM) digital logic design, what is the fundamental structural distinction between a Moore machine and a Mealy machine?",
-      "options": [
-        "A Moore machine updates its state on the active clock edge, whereas a Mealy machine updates state asynchronously without a clock.",
-        "A Moore machine's outputs depend solely on its current state, whereas a Mealy machine's outputs depend on both its current state and current primary inputs.",
-        "A Moore machine requires fewer flip-flops than an equivalent Mealy machine for any given regular language.",
-        "A Mealy machine contains purely combinational feedback loops without state registers, whereas a Moore machine strictly requires flip-flops.",
-        "A Mealy machine evaluates next-state logic using multiplexers, whereas a Moore machine strictly relies on ROM-based lookup tables."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In shared-memory multiprocessor architectures, what is the root cause of the performance degradation phenomenon known as 'false sharing'?",
-      "options": [
-        "Multiple threads access the same virtual address simultaneously, triggering redundant page faults in the memory management unit.",
-        "A processor core reads stale data from main memory because its local store buffer failed to flush before an external read request.",
-        "Independent threads on different cores update distinct, non-overlapping variables that reside within the same cache line, triggering continuous coherence invalidations.",
-        "Multiple cores issue concurrent write requests to identical memory locations, producing a protocol deadlock across the system crossbar.",
-        "An out-of-order execution engine speculates incorrectly on memory dependencies, causing repeated pipeline flushes across cores."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In deep-submicron CMOS reliability analysis, what is the primary physical cause and operational impact of Negative Bias Temperature Instability (NBTI)?",
-      "options": [
-        "High current density in power rails displacing metal atoms into voids and hillocks over extended operating lifespans.",
-        "Hot electrons injecting into the thin gate oxide of NMOS devices during high-frequency switching, triggering punch-through breakdown.",
-        "Reverse-bias leakage current causing thermal runaway in the bulk substrate during deep standby sleep modes.",
-        "Generation of interface traps and oxide charges in PMOS transistors subjected to negative gate-to-source bias at elevated temperatures, increasing the absolute threshold voltage and degrading circuit path delays over time.",
-        "Spontaneous dielectric breakdown caused by plasma charge accumulation during reactive-ion etching of backend metallization layers."
+        "High electric fields tunneling through thin gate oxide causing irreversible breakdown; prevented by inserting antenna diodes on long interconnect runs.",
+        "Trap-assisted charge generation at the silicon-oxide interface under strong negative gate bias; prevented by dynamically applying reverse body biasing.",
+        "Electromigration of metal atoms induced by high directional current densities; prevented by widening supply lines and inserting redundant vias.",
+        "Parasitic cross-coupled bipolar junction transistors (forming a p-n-p-n silicon-controlled rectifier structure) triggering a low-impedance short between VDD and GND; prevented by placing substrate/well tap cells and guard rings.",
+        "Channel hot-carrier injection degrading transconductance and shifting threshold voltages over operational lifespans; prevented by integrating lightly doped drain (LDD) structures."
       ],
       "correct": 3
     },
     {
-      "question": "In standard-cell ASIC implementation and low-power digital design, what is the primary operational strategy of Multi-Threshold CMOS (Multi-Vt) optimization?",
+      "question": "In synchronous digital IC design, why is an uncoordinated asynchronous reset release (de-assertion) dangerous, and how is it fundamentally resolved in robust sequential logic designs?",
       "options": [
-        "Applying dynamic forward body biasing to all standard cells across active clock cycles to reduce dynamic switching capacitance.",
-        "Fabricating all sequential elements with Low-Vt transistors and all combinational logic with Ultra-High-Vt transistors regardless of timing slack.",
-        "Connecting every standard cell to dual external supply rails so that individual gates can switch their supply voltage cycle-by-cycle.",
-        "Inserting High-Vt (HVT) cells along setup-critical paths to maximize drive strength, while deploying Low-Vt (LVT) cells on non-critical paths to limit dynamic power.",
-        "Utilizing Low-Vt (LVT) cells along timing-critical paths to meet clock frequency targets while swapping non-critical path cells with High-Vt (HVT) cells to substantially reduce subthreshold leakage power."
+        "It causes massive transient di/dt ground bounce on the power grid; resolved by inserting high-density decoupling capacitor cells adjacent to global reset drivers.",
+        "If reset de-assertion occurs within a flip-flop's recovery or removal timing window, the flip-flop can enter metastability; resolved by utilizing an asynchronously asserted, synchronously de-asserted reset synchronizer.",
+        "It introduces asymmetric clock tree skew across register banks; resolved by routing the global reset line strictly along a balanced H-tree distribution network.",
+        "It creates high subthreshold static leakage paths through floating internal nodes; resolved by placing pull-down keeper circuits on all reset distribution branches.",
+        "It creates structural race conditions between combinational feedback loops; resolved by replacing all edge-triggered flip-flops with two-phase non-overlapping level-sensitive latches."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In shared-memory multi-core computer architecture, what is the fundamental conceptual distinction between cache coherence and memory consistency?",
+      "options": [
+        "Cache coherence enforces write serialization via software compiler memory fences, while memory consistency is enforced strictly at runtime by hardware hardware-level snooping.",
+        "Cache coherence handles out-of-order execution constraints within a single execution core, while memory consistency dictates whether the cache hierarchy operates under write-through or write-back policies.",
+        "Cache coherence manages the translation of virtual addresses to physical frame numbers, while memory consistency dictates that evictions occur in strict Least Recently Used (LRU) order.",
+        "Cache coherence governs the point-to-point routing latency of interconnection packets across a Network-on-Chip (NoC), while memory consistency governs the bandwidth utilization of off-chip DRAM channels.",
+        "Cache coherence governs the access behavior and observed value of a single specific memory location across all caches, while memory consistency defines the architecturally permitted global ordering of loads and stores across multiple distinct memory locations."
       ],
       "correct": 4
+    },
+    {
+      "question": "In high-performance microprocessor physical design and Clock Tree Synthesis (CTS), what is the primary architectural trade-off of employing a Clock Mesh network instead of a traditional balanced Clock Tree?",
+      "options": [
+        "A Clock Mesh offers significantly lower clock skew and superior resilience against on-chip variation (OCV), at the cost of substantial routing resource consumption and higher dynamic power dissipation.",
+        "A Clock Mesh reduces dynamic power dissipation by automatically gating inactive local branches, but suffers from high vulnerability to high-frequency electromagnetic interference (EMI).",
+        "A Clock Mesh simplifies physical timing closure by eliminating setup time requirements entirely, but significantly inflates hold time violations across all short combinational data paths.",
+        "A Clock Mesh minimizes metal layer utilization by restricting routing exclusively to lower metal layers (M1-M3), but suffers from severe capacitive crosstalk and dynamic IR drop.",
+        "A Clock Mesh enables asynchronous handshaking between distant functional blocks, but requires multi-ported dual-clock synchronizer FIFOs at every destination register input."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In high-performance out-of-order processor front-ends, what is the key operating principle of the TAGE (TAgged GEometric history length) branch predictor?",
+      "options": [
+        "It speculatively executes instructions down both branch targets simultaneously in hardware using duplicate pipeline execution units until the branch condition resolves.",
+        "It trains a hardware artificial neural network per branch instruction where synaptic weights are incremented or decremented via perceptron learning to quantify branch likelihood.",
+        "It utilizes a bank of multiple tagged predictor tables indexed with geometrically increasing global branch history lengths, prioritizing predictions from the matching tagged table with the longest history.",
+        "It replaces dynamic runtime branch prediction tables with static compiler-generated branch hints embedded directly within the instruction opcode bits.",
+        "It tracks subroutine return targets exclusively across nested call stacks by utilizing an unbounded hardware circular queue to decouple control-flow prediction from the reorder buffer."
+      ],
+      "correct": 2
     }
   ]
 }

@@ -1,9 +1,4 @@
 [
-  "In computer architecture, what is the fundamental structural distinction between a Harvard architecture and a Von Neumann (Princeton) architecture?",
-  "In low-power digital IC design utilizing power gating (shutting down power domains), what is the primary operational role of inserting \"isolation cells\" at the interfaces of a powered-down domain?",
-  "In computer cache hierarchy design, what is the primary architectural purpose of a \"Victim Cache\"?",
-  "In pipelined and out-of-order processor architectures, which condition must strictly hold for an exception or interrupt to be classified as \"precise\"?",
-  "In advanced-node Static Timing Analysis (STA), why do modern methodologies adopt Advanced On-Chip Variation (AOCV) or Parametric On-Chip Variation (POCV) instead of traditional flat-derate On-Chip Variation (OCV)?",
   "In deep-submicron integrated circuit interconnect reliability, what is the primary physical mechanism of electromigration, and what structural failure does it typically cause?",
   "In computer memory systems implementing paged virtual memory, what is the primary operational role of a Translation Lookaside Buffer (TLB)?",
   "In asynchronous FIFO design between two independent clock domains, why are the read and write pointers encoded in Gray code before being passed through multi-flop synchronizers?",
@@ -48,5 +43,10 @@
   "In synchronous finite state machine (FSM) digital logic design, what is the fundamental structural distinction between a Moore machine and a Mealy machine?",
   "In shared-memory multiprocessor architectures, what is the root cause of the performance degradation phenomenon known as 'false sharing'?",
   "In deep-submicron CMOS reliability analysis, what is the primary physical cause and operational impact of Negative Bias Temperature Instability (NBTI)?",
-  "In standard-cell ASIC implementation and low-power digital design, what is the primary operational strategy of Multi-Threshold CMOS (Multi-Vt) optimization?"
+  "In standard-cell ASIC implementation and low-power digital design, what is the primary operational strategy of Multi-Threshold CMOS (Multi-Vt) optimization?",
+  "In bulk CMOS digital integrated circuit design, what physical mechanism is responsible for 'latch-up', and what physical design layout technique is standardly used to prevent it?",
+  "In synchronous digital IC design, why is an uncoordinated asynchronous reset release (de-assertion) dangerous, and how is it fundamentally resolved in robust sequential logic designs?",
+  "In shared-memory multi-core computer architecture, what is the fundamental conceptual distinction between cache coherence and memory consistency?",
+  "In high-performance microprocessor physical design and Clock Tree Synthesis (CTS), what is the primary architectural trade-off of employing a Clock Mesh network instead of a traditional balanced Clock Tree?",
+  "In high-performance out-of-order processor front-ends, what is the key operating principle of the TAGE (TAgged GEometric history length) branch predictor?"
 ]
