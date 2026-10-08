@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In bulk CMOS digital integrated circuit design, what physical mechanism is responsible for 'latch-up', and what physical design layout technique is standardly used to prevent it?",
+      "question": "In a classic five-stage RISC instruction pipeline (IF, ID, EX, MEM, WB), how does hardware data forwarding (operand bypassing) fundamentally mitigate performance degradation caused by Read-After-Write (RAW) data hazards?",
       "options": [
-        "High electric fields tunneling through thin gate oxide causing irreversible breakdown; prevented by inserting antenna diodes on long interconnect runs.",
-        "Trap-assisted charge generation at the silicon-oxide interface under strong negative gate bias; prevented by dynamically applying reverse body biasing.",
-        "Electromigration of metal atoms induced by high directional current densities; prevented by widening supply lines and inserting redundant vias.",
-        "Parasitic cross-coupled bipolar junction transistors (forming a p-n-p-n silicon-controlled rectifier structure) triggering a low-impedance short between VDD and GND; prevented by placing substrate/well tap cells and guard rings.",
-        "Channel hot-carrier injection degrading transconductance and shifting threshold voltages over operational lifespans; prevented by integrating lightly doped drain (LDD) structures."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In synchronous digital IC design, why is an uncoordinated asynchronous reset release (de-assertion) dangerous, and how is it fundamentally resolved in robust sequential logic designs?",
-      "options": [
-        "It causes massive transient di/dt ground bounce on the power grid; resolved by inserting high-density decoupling capacitor cells adjacent to global reset drivers.",
-        "If reset de-assertion occurs within a flip-flop's recovery or removal timing window, the flip-flop can enter metastability; resolved by utilizing an asynchronously asserted, synchronously de-asserted reset synchronizer.",
-        "It introduces asymmetric clock tree skew across register banks; resolved by routing the global reset line strictly along a balanced H-tree distribution network.",
-        "It creates high subthreshold static leakage paths through floating internal nodes; resolved by placing pull-down keeper circuits on all reset distribution branches.",
-        "It creates structural race conditions between combinational feedback loops; resolved by replacing all edge-triggered flip-flops with two-phase non-overlapping level-sensitive latches."
+        "By dynamically reordering non-dependent instructions at runtime using reservation stations to fill pipeline stall slots.",
+        "By routing computed execution results directly from pipeline register outputs (EX/MEM or MEM/WB) to ALU inputs before those results are written back to the register file.",
+        "By duplicating the ALU datapath so that dependent arithmetic operations can execute concurrently in the same clock cycle.",
+        "By speculatively predicting operand values and rolling back pipeline state if a value misprediction is detected.",
+        "By halting the instruction decode stage until the writeback stage completely updates the architectural register file."
       ],
       "correct": 1
     },
     {
-      "question": "In shared-memory multi-core computer architecture, what is the fundamental conceptual distinction between cache coherence and memory consistency?",
+      "question": "In digital CMOS circuit design and delay estimation, what does the concept of 'logical effort' (g) fundamentally characterize for a given logic gate?",
       "options": [
-        "Cache coherence enforces write serialization via software compiler memory fences, while memory consistency is enforced strictly at runtime by hardware hardware-level snooping.",
-        "Cache coherence handles out-of-order execution constraints within a single execution core, while memory consistency dictates whether the cache hierarchy operates under write-through or write-back policies.",
-        "Cache coherence manages the translation of virtual addresses to physical frame numbers, while memory consistency dictates that evictions occur in strict Least Recently Used (LRU) order.",
-        "Cache coherence governs the point-to-point routing latency of interconnection packets across a Network-on-Chip (NoC), while memory consistency governs the bandwidth utilization of off-chip DRAM channels.",
-        "Cache coherence governs the access behavior and observed value of a single specific memory location across all caches, while memory consistency defines the architecturally permitted global ordering of loads and stores across multiple distinct memory locations."
+        "The ratio of the gate's dynamic power dissipation to that of a minimum-sized inverter operating at maximum frequency.",
+        "The parasitic delay introduced by internal source/drain diffusion capacitance relative to the gate's load capacitance.",
+        "The number of series transistor stages required to decompose an arbitrary multi-input Boolean expression into standard cells.",
+        "The ratio of the gate's input capacitance to the input capacitance of an inverter designed to deliver the exact same output drive current.",
+        "The worst-case propagation delay of the gate normalized to the RC time constant of an unbuffered metal interconnect line."
       ],
-      "correct": 4
+      "correct": 3
     },
     {
-      "question": "In high-performance microprocessor physical design and Clock Tree Synthesis (CTS), what is the primary architectural trade-off of employing a Clock Mesh network instead of a traditional balanced Clock Tree?",
+      "question": "In low-power digital IC design implementing power gating (MTCMOS), what is the primary operational necessity of placing isolation cells at the boundaries between a power-gated domain and an always-on domain?",
       "options": [
-        "A Clock Mesh offers significantly lower clock skew and superior resilience against on-chip variation (OCV), at the cost of substantial routing resource consumption and higher dynamic power dissipation.",
-        "A Clock Mesh reduces dynamic power dissipation by automatically gating inactive local branches, but suffers from high vulnerability to high-frequency electromagnetic interference (EMI).",
-        "A Clock Mesh simplifies physical timing closure by eliminating setup time requirements entirely, but significantly inflates hold time violations across all short combinational data paths.",
-        "A Clock Mesh minimizes metal layer utilization by restricting routing exclusively to lower metal layers (M1-M3), but suffers from severe capacitive crosstalk and dynamic IR drop.",
-        "A Clock Mesh enables asynchronous handshaking between distant functional blocks, but requires multi-ported dual-clock synchronizer FIFOs at every destination register input."
+        "To clamp interface signals to a valid, deterministic logic level so that floating inputs do not cause short-circuit (crowbar) current or false switching in the active domain when the sleep domain is shut down.",
+        "To translate logic voltage levels between two actively powered voltage domains operating at different nominal supply voltages (VDD).",
+        "To synchronize control signals across unsynchronized clock domains using dual-stage flip-flop synchronizers to prevent metastability.",
+        "To store sequential register state across power-off cycles using low-leakage balloon latches powered by an auxiliary rail.",
+        "To throttle rush-in current across the power distribution network during power-up sequencing to suppress localized ground bounce."
       ],
       "correct": 0
     },
     {
-      "question": "In high-performance out-of-order processor front-ends, what is the key operating principle of the TAGE (TAgged GEometric history length) branch predictor?",
+      "question": "In shared-memory multi-core computer architecture, what memory operation reordering is permissible under the Total Store Order (TSO) memory consistency model (as implemented in x86 architectures)?",
       "options": [
-        "It speculatively executes instructions down both branch targets simultaneously in hardware using duplicate pipeline execution units until the branch condition resolves.",
-        "It trains a hardware artificial neural network per branch instruction where synaptic weights are incremented or decremented via perceptron learning to quantify branch likelihood.",
-        "It utilizes a bank of multiple tagged predictor tables indexed with geometrically increasing global branch history lengths, prioritizing predictions from the matching tagged table with the longest history.",
-        "It replaces dynamic runtime branch prediction tables with static compiler-generated branch hints embedded directly within the instruction opcode bits.",
-        "It tracks subroutine return targets exclusively across nested call stacks by utilizing an unbounded hardware circular queue to decouple control-flow prediction from the reorder buffer."
+        "An older load operation can be delayed past a younger load operation to a different memory address (Load-Load reordering).",
+        "An older store operation can be delayed past a younger store operation to a different memory address (Store-Store reordering).",
+        "An older load operation can be delayed past a younger store operation to a different memory address (Load-Store reordering).",
+        "An atomic read-modify-write operation can be executed non-speculatively ahead of preceding memory fence instructions.",
+        "A younger load operation can be executed before an older pending store operation to a different address has drained to the memory system (Store-Load reordering)."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "In dynamic Domino CMOS logic design, what is the primary operational role of a weak PMOS keeper (bleeder) transistor attached to the dynamic node, and what is its fundamental design trade-off?",
+      "options": [
+        "It speeds up the discharging of the dynamic node during the precharge phase, at the expense of increasing peak subthreshold leakage.",
+        "It eliminates substrate noise and ground bounce across the pull-down network, at the expense of requiring double the clock tree drive strength.",
+        "It preserves the high logic level of the dynamic node against charge sharing and subthreshold leakage during evaluation, at the expense of current contention that slows down high-to-low evaluation and increases power.",
+        "It removes the requirement for a static CMOS inverter between cascaded dynamic stages, at the expense of introducing critical race conditions.",
+        "It forces rail-to-rail voltage swings during evaluation, at the expense of degrading the low-level noise margin (NML) of the receiving gate."
       ],
       "correct": 2
     }

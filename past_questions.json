@@ -1,9 +1,4 @@
 [
-  "In deep-submicron integrated circuit interconnect reliability, what is the primary physical mechanism of electromigration, and what structural failure does it typically cause?",
-  "In computer memory systems implementing paged virtual memory, what is the primary operational role of a Translation Lookaside Buffer (TLB)?",
-  "In asynchronous FIFO design between two independent clock domains, why are the read and write pointers encoded in Gray code before being passed through multi-flop synchronizers?",
-  "In digital arithmetic design, what is the primary structural advantage of utilizing a Wallace tree structure compared to an array multiplier for multi-operand partial product accumulation?",
-  "In a high-performance processor core implementing Simultaneous Multithreading (SMT), which of the following hardware resources must be strictly replicated for each active logical thread context?",
   "In digital CMOS circuit design, what is the primary operational advantage of a complementary CMOS transmission gate (TG) compared to a single NMOS pass-transistor switch?",
   "In deep-submicron IC layout and physical design, what is the 'antenna effect' (plasma-induced damage), and how is it primarily mitigated during routing?",
   "In digital IC Design for Testability (DFT), what is the primary operational role of a Multiple-Input Signature Register (MISR) within a Logic Built-In Self-Test (LBIST) architecture?",
@@ -48,5 +43,10 @@
   "In synchronous digital IC design, why is an uncoordinated asynchronous reset release (de-assertion) dangerous, and how is it fundamentally resolved in robust sequential logic designs?",
   "In shared-memory multi-core computer architecture, what is the fundamental conceptual distinction between cache coherence and memory consistency?",
   "In high-performance microprocessor physical design and Clock Tree Synthesis (CTS), what is the primary architectural trade-off of employing a Clock Mesh network instead of a traditional balanced Clock Tree?",
-  "In high-performance out-of-order processor front-ends, what is the key operating principle of the TAGE (TAgged GEometric history length) branch predictor?"
+  "In high-performance out-of-order processor front-ends, what is the key operating principle of the TAGE (TAgged GEometric history length) branch predictor?",
+  "In a classic five-stage RISC instruction pipeline (IF, ID, EX, MEM, WB), how does hardware data forwarding (operand bypassing) fundamentally mitigate performance degradation caused by Read-After-Write (RAW) data hazards?",
+  "In digital CMOS circuit design and delay estimation, what does the concept of 'logical effort' (g) fundamentally characterize for a given logic gate?",
+  "In low-power digital IC design implementing power gating (MTCMOS), what is the primary operational necessity of placing isolation cells at the boundaries between a power-gated domain and an always-on domain?",
+  "In shared-memory multi-core computer architecture, what memory operation reordering is permissible under the Total Store Order (TSO) memory consistency model (as implemented in x86 architectures)?",
+  "In dynamic Domino CMOS logic design, what is the primary operational role of a weak PMOS keeper (bleeder) transistor attached to the dynamic node, and what is its fundamental design trade-off?"
 ]
