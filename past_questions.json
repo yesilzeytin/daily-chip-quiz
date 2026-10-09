@@ -1,9 +1,4 @@
 [
-  "In digital CMOS circuit design, what is the primary operational advantage of a complementary CMOS transmission gate (TG) compared to a single NMOS pass-transistor switch?",
-  "In deep-submicron IC layout and physical design, what is the 'antenna effect' (plasma-induced damage), and how is it primarily mitigated during routing?",
-  "In digital IC Design for Testability (DFT), what is the primary operational role of a Multiple-Input Signature Register (MISR) within a Logic Built-In Self-Test (LBIST) architecture?",
-  "In modern high-performance processor microarchitectures, what is the primary operational mechanism of store-to-load forwarding (store forwarding)?",
-  "In multi-core Network-on-Chip (NoC) interconnects utilizing wormhole routing, how do Virtual Channels (VCs) fundamentally prevent network deadlocks?",
   "In standard-cell ASIC physical design, why are unused or tied-off logic gate inputs connected to VDD or VSS through dedicated 'Tie-High' or 'Tie-Low' cells rather than directly wired to the power and ground rails?",
   "In shared-memory multi-core processors, why is a directory-based cache coherence protocol favored over a snooping-based coherence protocol as the core count scales to dozens or hundreds of cores?",
   "In synchronous digital integrated circuit design, why is a hold-time violation generally considered far more critical and catastrophic than a setup-time violation during post-silicon testing?",
@@ -48,5 +43,10 @@
   "In digital CMOS circuit design and delay estimation, what does the concept of 'logical effort' (g) fundamentally characterize for a given logic gate?",
   "In low-power digital IC design implementing power gating (MTCMOS), what is the primary operational necessity of placing isolation cells at the boundaries between a power-gated domain and an always-on domain?",
   "In shared-memory multi-core computer architecture, what memory operation reordering is permissible under the Total Store Order (TSO) memory consistency model (as implemented in x86 architectures)?",
-  "In dynamic Domino CMOS logic design, what is the primary operational role of a weak PMOS keeper (bleeder) transistor attached to the dynamic node, and what is its fundamental design trade-off?"
+  "In dynamic Domino CMOS logic design, what is the primary operational role of a weak PMOS keeper (bleeder) transistor attached to the dynamic node, and what is its fundamental design trade-off?",
+  "In memory hierarchy design, what is the primary operational distinction between a Write-Through cache and a Write-Back cache?",
+  "In digital IC design, why are Gray code counters universally preferred over standard binary counters for transmitting read and write pointers across asynchronous Clock Domain Crossing (CDC) FIFOs?",
+  "In pipelined and out-of-order processor microarchitectures, which of the following conditions is strictly required to guarantee that an interrupt or exception is handled as a 'precise exception'?",
+  "In integrated circuit physical design and reliability analysis, what physical mechanism causes electromigration (EM) in on-chip metallic interconnects, and what layout design rule is applied to mitigate it?",
+  "In modern high-performance microprocessor architecture, how does Simultaneous Multithreading (SMT) fundamentally improve pipeline utilization compared to coarse-grained (temporal) multithreading?"
 ]

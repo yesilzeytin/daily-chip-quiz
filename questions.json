@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In a classic five-stage RISC instruction pipeline (IF, ID, EX, MEM, WB), how does hardware data forwarding (operand bypassing) fundamentally mitigate performance degradation caused by Read-After-Write (RAW) data hazards?",
+      "question": "In memory hierarchy design, what is the primary operational distinction between a Write-Through cache and a Write-Back cache?",
       "options": [
-        "By dynamically reordering non-dependent instructions at runtime using reservation stations to fill pipeline stall slots.",
-        "By routing computed execution results directly from pipeline register outputs (EX/MEM or MEM/WB) to ALU inputs before those results are written back to the register file.",
-        "By duplicating the ALU datapath so that dependent arithmetic operations can execute concurrently in the same clock cycle.",
-        "By speculatively predicting operand values and rolling back pipeline state if a value misprediction is detected.",
-        "By halting the instruction decode stage until the writeback stage completely updates the architectural register file."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In digital CMOS circuit design and delay estimation, what does the concept of 'logical effort' (g) fundamentally characterize for a given logic gate?",
-      "options": [
-        "The ratio of the gate's dynamic power dissipation to that of a minimum-sized inverter operating at maximum frequency.",
-        "The parasitic delay introduced by internal source/drain diffusion capacitance relative to the gate's load capacitance.",
-        "The number of series transistor stages required to decompose an arbitrary multi-input Boolean expression into standard cells.",
-        "The ratio of the gate's input capacitance to the input capacitance of an inverter designed to deliver the exact same output drive current.",
-        "The worst-case propagation delay of the gate normalized to the RC time constant of an unbuffered metal interconnect line."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In low-power digital IC design implementing power gating (MTCMOS), what is the primary operational necessity of placing isolation cells at the boundaries between a power-gated domain and an always-on domain?",
-      "options": [
-        "To clamp interface signals to a valid, deterministic logic level so that floating inputs do not cause short-circuit (crowbar) current or false switching in the active domain when the sleep domain is shut down.",
-        "To translate logic voltage levels between two actively powered voltage domains operating at different nominal supply voltages (VDD).",
-        "To synchronize control signals across unsynchronized clock domains using dual-stage flip-flop synchronizers to prevent metastability.",
-        "To store sequential register state across power-off cycles using low-leakage balloon latches powered by an auxiliary rail.",
-        "To throttle rush-in current across the power distribution network during power-up sequencing to suppress localized ground bounce."
+        "Write-Through immediately forwards write data to lower memory levels on every cache write, whereas Write-Back delays lower-level updates until the modified cache block is evicted or flushed.",
+        "Write-Through allocates a cache line only on a write miss, whereas Write-Back allocates a cache line only on a read miss.",
+        "Write-Through requires a dirty bit per cache line to track modifications, whereas Write-Back eliminates the need for status bits entirely.",
+        "Write-Through caches can only be implemented as direct-mapped structures, whereas Write-Back caches must be fully associative.",
+        "Write-Through writes simultaneously to the L1 cache and main memory without utilizing intermediate write buffers, whereas Write-Back exclusively writes via DMA."
       ],
       "correct": 0
     },
     {
-      "question": "In shared-memory multi-core computer architecture, what memory operation reordering is permissible under the Total Store Order (TSO) memory consistency model (as implemented in x86 architectures)?",
+      "question": "In digital IC design, why are Gray code counters universally preferred over standard binary counters for transmitting read and write pointers across asynchronous Clock Domain Crossing (CDC) FIFOs?",
       "options": [
-        "An older load operation can be delayed past a younger load operation to a different memory address (Load-Load reordering).",
-        "An older store operation can be delayed past a younger store operation to a different memory address (Store-Store reordering).",
-        "An older load operation can be delayed past a younger store operation to a different memory address (Load-Store reordering).",
-        "An atomic read-modify-write operation can be executed non-speculatively ahead of preceding memory fence instructions.",
-        "A younger load operation can be executed before an older pending store operation to a different address has drained to the memory system (Store-Load reordering)."
+        "Gray code counters consume fewer flip-flops and logic gates than standard binary counters, minimizing dynamic switching power.",
+        "Gray code ensures that exactly one bit changes state between any two consecutive values, eliminating multi-bit skew hazards and intermediate invalid states during cross-domain sampling.",
+        "Gray code eliminates the need for multi-flop synchronizers at the receiving clock domain boundary.",
+        "Gray code allows the asynchronous FIFO to operate at an identical clock frequency on both read and write interfaces without clock division.",
+        "Gray code provides built-in parity checking that can automatically detect and correct multi-bit soft errors caused by cosmic radiation."
       ],
-      "correct": 4
+      "correct": 1
     },
     {
-      "question": "In dynamic Domino CMOS logic design, what is the primary operational role of a weak PMOS keeper (bleeder) transistor attached to the dynamic node, and what is its fundamental design trade-off?",
+      "question": "In pipelined and out-of-order processor microarchitectures, which of the following conditions is strictly required to guarantee that an interrupt or exception is handled as a 'precise exception'?",
       "options": [
-        "It speeds up the discharging of the dynamic node during the precharge phase, at the expense of increasing peak subthreshold leakage.",
-        "It eliminates substrate noise and ground bounce across the pull-down network, at the expense of requiring double the clock tree drive strength.",
-        "It preserves the high logic level of the dynamic node against charge sharing and subthreshold leakage during evaluation, at the expense of current contention that slows down high-to-low evaluation and increases power.",
-        "It removes the requirement for a static CMOS inverter between cascaded dynamic stages, at the expense of introducing critical race conditions.",
-        "It forces rail-to-rail voltage swings during evaluation, at the expense of degrading the low-level noise margin (NML) of the receiving gate."
+        "All instructions dispatched prior to the faulting instruction must be flushed and re-executed after the exception handler completes.",
+        "The processor pipeline must complete execution of all instructions currently residing anywhere in the pipeline before context switching to the interrupt service routine.",
+        "All instructions preceding the faulting instruction in program order have completely updated the architectural state, no subsequent instructions have modified architectural state, and the saved program counter precisely identifies the restart point.",
+        "The processor must immediately suppress all pending memory bus transactions and perform a hardware reset of the architectural register file.",
+        "Instructions following the faulting instruction are permitted to commit their results to the architectural register file provided they have not yet modified main memory."
       ],
       "correct": 2
+    },
+    {
+      "question": "In integrated circuit physical design and reliability analysis, what physical mechanism causes electromigration (EM) in on-chip metallic interconnects, and what layout design rule is applied to mitigate it?",
+      "options": [
+        "Dielectric breakdown across thin gate oxides caused by high electrostatic discharge (ESD); mitigated by inserting antenna diodes on input pins.",
+        "Thermal runaway in silicon junctions caused by elevated ambient temperatures; mitigated by inserting dummy fill cells to enhance thermal conductivity.",
+        "Capacitive crosstalk noise between adjacent metal layers; mitigated by increasing wire spacing and inserting grounded shield traces.",
+        "Gradual momentum transfer from conducting electrons to metal lattice atoms causing voids and hillocks; mitigated by enforcing maximum current density (Jmax) limits and widening critical wire segments.",
+        "Trapping of hot carriers at the Si-SiO2 interface causing threshold voltage shifts; mitigated by reducing the core operating voltage."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In modern high-performance microprocessor architecture, how does Simultaneous Multithreading (SMT) fundamentally improve pipeline utilization compared to coarse-grained (temporal) multithreading?",
+      "options": [
+        "SMT executes instructions from different threads on physically separate execution pipelines and dedicated private L1 caches without sharing functional units.",
+        "SMT statically compiles multiple instruction streams into single Very Long Instruction Word (VLIW) packets before execution to eliminate dynamic dependency checking.",
+        "SMT dynamically switches the entire pipeline execution context to a standby thread only when a long-latency event (such as an off-chip memory miss) occurs.",
+        "SMT duplicates all execution units, ALUs, and FPUs across the chip so that each thread has dedicated non-shared datapath hardware.",
+        "SMT allows instructions from multiple independent threads to be dispatched and issued to different execution units within the exact same clock cycle, reducing both horizontal and vertical pipeline waste."
+      ],
+      "correct": 4
     }
   ]
 }
