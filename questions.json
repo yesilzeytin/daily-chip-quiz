@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In memory hierarchy design, what is the primary operational distinction between a Write-Through cache and a Write-Back cache?",
+      "question": "In computer architecture and memory management, what is the primary role of a Translation Lookaside Buffer (TLB)?",
       "options": [
-        "Write-Through immediately forwards write data to lower memory levels on every cache write, whereas Write-Back delays lower-level updates until the modified cache block is evicted or flushed.",
-        "Write-Through allocates a cache line only on a write miss, whereas Write-Back allocates a cache line only on a read miss.",
-        "Write-Through requires a dirty bit per cache line to track modifications, whereas Write-Back eliminates the need for status bits entirely.",
-        "Write-Through caches can only be implemented as direct-mapped structures, whereas Write-Back caches must be fully associative.",
-        "Write-Through writes simultaneously to the L1 cache and main memory without utilizing intermediate write buffers, whereas Write-Back exclusively writes via DMA."
+        "It caches recently used virtual-to-physical address translations to accelerate memory accesses by avoiding multi-level page table walks in main memory.",
+        "It dynamically reorders memory loads and stores to optimize row buffer hit rates in the off-chip DRAM controller.",
+        "It monitors and resolves coherence conflicts between L1 data caches in a multi-core symmetric multiprocessing system.",
+        "It dynamically translates architectural register specifiers into physical register IDs during the instruction decode stage.",
+        "It buffers prefetched instructions to prevent instruction cache starvation during branch misprediction recovery."
       ],
       "correct": 0
     },
     {
-      "question": "In digital IC design, why are Gray code counters universally preferred over standard binary counters for transmitting read and write pointers across asynchronous Clock Domain Crossing (CDC) FIFOs?",
+      "question": "In deep-submicron ASIC physical design and fabrication, what is the 'antenna effect' (plasma-induced gate oxide damage), and how is it standardly mitigated during physical layout?",
       "options": [
-        "Gray code counters consume fewer flip-flops and logic gates than standard binary counters, minimizing dynamic switching power.",
-        "Gray code ensures that exactly one bit changes state between any two consecutive values, eliminating multi-bit skew hazards and intermediate invalid states during cross-domain sampling.",
-        "Gray code eliminates the need for multi-flop synchronizers at the receiving clock domain boundary.",
-        "Gray code allows the asynchronous FIFO to operate at an identical clock frequency on both read and write interfaces without clock division.",
-        "Gray code provides built-in parity checking that can automatically detect and correct multi-bit soft errors caused by cosmic radiation."
+        "High-frequency electromagnetic emissions radiating from global clock nets; mitigated by surrounding sensitive nets with grounded shield wires.",
+        "Electrostatic charge accumulation on long conductive interconnects during plasma etching that can tunnel through and rupture thin gate oxide; mitigated by inserting antenna diodes or routing jumpers to higher metal layers.",
+        "Parasitic LC resonance across power delivery stripes causing localized supply collapse; mitigated by spreading decoupling capacitor cells along standard-cell rows.",
+        "Capacitive crosstalk between high-speed adjacent signal wires leading to signal integrity glitches; mitigated by increasing wire spacing and driver sizing.",
+        "Thermal stress migration in copper interconnects under high operational current density; mitigated by widening metal traces and doubling contact vias."
       ],
       "correct": 1
     },
     {
-      "question": "In pipelined and out-of-order processor microarchitectures, which of the following conditions is strictly required to guarantee that an interrupt or exception is handled as a 'precise exception'?",
+      "question": "In hierarchical cache subsystem design, what is the primary architectural advantage of enforcing a strictly 'Inclusive' multi-level cache policy (e.g., L2 is strictly inclusive of L1)?",
       "options": [
-        "All instructions dispatched prior to the faulting instruction must be flushed and re-executed after the exception handler completes.",
-        "The processor pipeline must complete execution of all instructions currently residing anywhere in the pipeline before context switching to the interrupt service routine.",
-        "All instructions preceding the faulting instruction in program order have completely updated the architectural state, no subsequent instructions have modified architectural state, and the saved program counter precisely identifies the restart point.",
-        "The processor must immediately suppress all pending memory bus transactions and perform a hardware reset of the architectural register file.",
-        "Instructions following the faulting instruction are permitted to commit their results to the architectural register file provided they have not yet modified main memory."
+        "It maximizes the aggregate storage capacity across all cache levels by ensuring that no data block is ever replicated between L1 and L2.",
+        "It guarantees that an eviction of a modified cache block in L1 automatically purges the line from L2 without requiring a writeback.",
+        "External cache coherence snoops and invalidation requests only need to query the outer inclusive cache (L2); if a line is missing there, it is guaranteed not to reside in L1, eliminating unnecessary L1 lookups.",
+        "It allows write misses in L1 to completely bypass L2 and directly update system memory without allocating space in intermediate levels.",
+        "It eliminates all capacity and conflict misses in the cache hierarchy by dynamically resizing cache ways according to workload demand."
       ],
       "correct": 2
     },
     {
-      "question": "In integrated circuit physical design and reliability analysis, what physical mechanism causes electromigration (EM) in on-chip metallic interconnects, and what layout design rule is applied to mitigate it?",
+      "question": "In Static Timing Analysis (STA) under On-Chip Variation (OCV) derating, what is the fundamental purpose of Clock Reconvergence Pessimism Removal (CRPR), also known as Common Path Pessimism Removal (CPPR)?",
       "options": [
-        "Dielectric breakdown across thin gate oxides caused by high electrostatic discharge (ESD); mitigated by inserting antenna diodes on input pins.",
-        "Thermal runaway in silicon junctions caused by elevated ambient temperatures; mitigated by inserting dummy fill cells to enhance thermal conductivity.",
-        "Capacitive crosstalk noise between adjacent metal layers; mitigated by increasing wire spacing and inserting grounded shield traces.",
-        "Gradual momentum transfer from conducting electrons to metal lattice atoms causing voids and hillocks; mitigated by enforcing maximum current density (Jmax) limits and widening critical wire segments.",
-        "Trapping of hot carriers at the Si-SiO2 interface causing threshold voltage shifts; mitigated by reducing the core operating voltage."
+        "To compensate for setup-time degradation caused by dynamic supply voltage droop occurring along high-activity data paths.",
+        "To calculate and eliminate high-frequency phase jitter introduced by the on-chip Phase-Locked Loop (PLL).",
+        "To model the latency difference between rising and falling transitions along combinational logic trees.",
+        "To remove artificial timing pessimism introduced when differing min/max OCV derating factors are applied to the shared physical segments of the clock tree for the launch and capture paths.",
+        "To remove the propagation delay penalties associated with through-silicon vias (TSVs) in multi-die 2.5D/3D packaging."
       ],
       "correct": 3
     },
     {
-      "question": "In modern high-performance microprocessor architecture, how does Simultaneous Multithreading (SMT) fundamentally improve pipeline utilization compared to coarse-grained (temporal) multithreading?",
+      "question": "In asynchronous and combinational digital circuit design, what causes a static-1 hazard, and how is it fundamentally eliminated in two-level Sum-of-Products (SOP) logic?",
       "options": [
-        "SMT executes instructions from different threads on physically separate execution pipelines and dedicated private L1 caches without sharing functional units.",
-        "SMT statically compiles multiple instruction streams into single Very Long Instruction Word (VLIW) packets before execution to eliminate dynamic dependency checking.",
-        "SMT dynamically switches the entire pipeline execution context to a standby thread only when a long-latency event (such as an off-chip memory miss) occurs.",
-        "SMT duplicates all execution units, ALUs, and FPUs across the chip so that each thread has dedicated non-shared datapath hardware.",
-        "SMT allows instructions from multiple independent threads to be dispatched and issued to different execution units within the exact same clock cycle, reducing both horizontal and vertical pipeline waste."
+        "Excessive output capacitive loading that slows the output rise time below the clock period; eliminated by inserting balanced buffer trees.",
+        "Clock skew exceeding the flip-flop propagation delay in sequential loops; eliminated by inserting delay buffers on the clock capture path.",
+        "Charge sharing at intermediate floating nodes in dynamic CMOS gates; eliminated by adding a weak PMOS keeper transistor.",
+        "Capacitive cross-coupling between adjacent routing tracks causing transient voltage glitches; eliminated by inserting shielding wires tied to VDD.",
+        "Unequal propagation delays along converging paths causing the output to momentarily dip to 0 during an input transition between adjacent 1-cells in a Karnaugh map; eliminated by adding a redundant consensus product term that bridges the adjacent prime implicants."
       ],
       "correct": 4
     }

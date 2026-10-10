@@ -1,9 +1,4 @@
 [
-  "In standard-cell ASIC physical design, why are unused or tied-off logic gate inputs connected to VDD or VSS through dedicated 'Tie-High' or 'Tie-Low' cells rather than directly wired to the power and ground rails?",
-  "In shared-memory multi-core processors, why is a directory-based cache coherence protocol favored over a snooping-based coherence protocol as the core count scales to dozens or hundreds of cores?",
-  "In synchronous digital integrated circuit design, why is a hold-time violation generally considered far more critical and catastrophic than a setup-time violation during post-silicon testing?",
-  "In modern out-of-order superscalar microarchitectures, what is the primary role of the Reorder Buffer (ROB)?",
-  "In deep-submicron physical design and power integrity analysis, what is the fundamental distinction between static IR drop and dynamic IR drop across a chip's Power Delivery Network (PDN)?",
   "In computer architecture and instruction set design, what is the defining characteristic of a strictly Load-Store (Register-Register) architecture?",
   "In synchronous digital IC design and static timing analysis (STA), what is the fundamental distinction between clock skew and clock jitter?",
   "In high-performance processor memory hierarchies, what is the primary latency advantage of a Virtually Indexed, Physically Tagged (VIPT) cache over a Physically Indexed, Physically Tagged (PIPT) cache?",
@@ -48,5 +43,10 @@
   "In digital IC design, why are Gray code counters universally preferred over standard binary counters for transmitting read and write pointers across asynchronous Clock Domain Crossing (CDC) FIFOs?",
   "In pipelined and out-of-order processor microarchitectures, which of the following conditions is strictly required to guarantee that an interrupt or exception is handled as a 'precise exception'?",
   "In integrated circuit physical design and reliability analysis, what physical mechanism causes electromigration (EM) in on-chip metallic interconnects, and what layout design rule is applied to mitigate it?",
-  "In modern high-performance microprocessor architecture, how does Simultaneous Multithreading (SMT) fundamentally improve pipeline utilization compared to coarse-grained (temporal) multithreading?"
+  "In modern high-performance microprocessor architecture, how does Simultaneous Multithreading (SMT) fundamentally improve pipeline utilization compared to coarse-grained (temporal) multithreading?",
+  "In computer architecture and memory management, what is the primary role of a Translation Lookaside Buffer (TLB)?",
+  "In deep-submicron ASIC physical design and fabrication, what is the 'antenna effect' (plasma-induced gate oxide damage), and how is it standardly mitigated during physical layout?",
+  "In hierarchical cache subsystem design, what is the primary architectural advantage of enforcing a strictly 'Inclusive' multi-level cache policy (e.g., L2 is strictly inclusive of L1)?",
+  "In Static Timing Analysis (STA) under On-Chip Variation (OCV) derating, what is the fundamental purpose of Clock Reconvergence Pessimism Removal (CRPR), also known as Common Path Pessimism Removal (CPPR)?",
+  "In asynchronous and combinational digital circuit design, what causes a static-1 hazard, and how is it fundamentally eliminated in two-level Sum-of-Products (SOP) logic?"
 ]
