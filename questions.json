@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In computer architecture and memory management, what is the primary role of a Translation Lookaside Buffer (TLB)?",
+      "question": "In instruction-level parallelism (ILP) architecture design, what is the fundamental operational difference between a Very Long Instruction Word (VLIW) processor and a dynamically scheduled superscalar processor?",
       "options": [
-        "It caches recently used virtual-to-physical address translations to accelerate memory accesses by avoiding multi-level page table walks in main memory.",
-        "It dynamically reorders memory loads and stores to optimize row buffer hit rates in the off-chip DRAM controller.",
-        "It monitors and resolves coherence conflicts between L1 data caches in a multi-core symmetric multiprocessing system.",
-        "It dynamically translates architectural register specifiers into physical register IDs during the instruction decode stage.",
-        "It buffers prefetched instructions to prevent instruction cache starvation during branch misprediction recovery."
+        "VLIW processors rely on compile-time static scheduling and dependency analysis to issue multiple operations per cycle, eliminating dynamic instruction dispatch and hazard-detection hardware.",
+        "VLIW processors execute multiple independent threads simultaneously across execution units, whereas superscalar processors execute only one thread at a time.",
+        "Superscalar processors compile instructions into fixed multi-operation packets, whereas VLIW processors decode variable-length instructions dynamically at runtime.",
+        "VLIW processors require dynamic out-of-order execution buffers to reorder operations inside the long instruction word prior to execution.",
+        "Superscalar processors execute exclusively RISC instructions, whereas VLIW processors are fundamentally restricted to CISC instruction sets."
       ],
       "correct": 0
     },
     {
-      "question": "In deep-submicron ASIC physical design and fabrication, what is the 'antenna effect' (plasma-induced gate oxide damage), and how is it standardly mitigated during physical layout?",
+      "question": "In CMOS digital circuit design, why is a full transmission gate constructed by connecting an NMOS transistor and a PMOS transistor in parallel, rather than using a single NMOS pass transistor?",
       "options": [
-        "High-frequency electromagnetic emissions radiating from global clock nets; mitigated by surrounding sensitive nets with grounded shield wires.",
-        "Electrostatic charge accumulation on long conductive interconnects during plasma etching that can tunnel through and rupture thin gate oxide; mitigated by inserting antenna diodes or routing jumpers to higher metal layers.",
-        "Parasitic LC resonance across power delivery stripes causing localized supply collapse; mitigated by spreading decoupling capacitor cells along standard-cell rows.",
-        "Capacitive crosstalk between high-speed adjacent signal wires leading to signal integrity glitches; mitigated by increasing wire spacing and driver sizing.",
-        "Thermal stress migration in copper interconnects under high operational current density; mitigated by widening metal traces and doubling contact vias."
+        "A single NMOS transistor cannot be switched completely off, causing unacceptable subthreshold leakage current across the node.",
+        "An NMOS pass transistor passes a strong logic '0' but degrades a logic '1' by a threshold voltage drop (VDD - Vtn), while the PMOS transistor passes a strong logic '1'.",
+        "Paralleling NMOS and PMOS transistors is strictly required to suppress parasitic substrate latch-up during high-frequency switching.",
+        "An NMOS transistor exhibits significantly higher input gate capacitance, which slows down clock transitions when used without a complementary PMOS device.",
+        "A complementary PMOS transistor is necessary to actively sink current and ground the output node when the control signal is de-asserted."
       ],
       "correct": 1
     },
     {
-      "question": "In hierarchical cache subsystem design, what is the primary architectural advantage of enforcing a strictly 'Inclusive' multi-level cache policy (e.g., L2 is strictly inclusive of L1)?",
+      "question": "In digital arithmetic circuit design, what structural technique allows a Wallace tree multiplier to achieve an O(log n) critical path latency compared to the O(n) latency of a standard array multiplier?",
       "options": [
-        "It maximizes the aggregate storage capacity across all cache levels by ensuring that no data block is ever replicated between L1 and L2.",
-        "It guarantees that an eviction of a modified cache block in L1 automatically purges the line from L2 without requiring a writeback.",
-        "External cache coherence snoops and invalidation requests only need to query the outer inclusive cache (L2); if a line is missing there, it is guaranteed not to reside in L1, eliminating unnecessary L1 lookups.",
-        "It allows write misses in L1 to completely bypass L2 and directly update system memory without allocating space in intermediate levels.",
-        "It eliminates all capacity and conflict misses in the cache hierarchy by dynamically resizing cache ways according to workload demand."
+        "It serializes partial product accumulation using high-frequency dynamic shift registers.",
+        "It completely bypasses partial product generation by using precomputed radix-1024 lookup tables.",
+        "It employs trees of carry-save adders (CSAs) to reduce partial product rows concurrently without propagating carries until the final two-operand addition.",
+        "It replaces conventional full adders with synchronous accumulator registers clocked at twice the core system frequency.",
+        "It duplicates arithmetic units across multiple asynchronous clock domains to compute partial additions redundantly."
       ],
       "correct": 2
     },
     {
-      "question": "In Static Timing Analysis (STA) under On-Chip Variation (OCV) derating, what is the fundamental purpose of Clock Reconvergence Pessimism Removal (CRPR), also known as Common Path Pessimism Removal (CPPR)?",
+      "question": "In shared-memory multiprocessor system architecture, why do directory-based cache coherence protocols scale to significantly higher core counts than bus-based snooping protocols?",
       "options": [
-        "To compensate for setup-time degradation caused by dynamic supply voltage droop occurring along high-activity data paths.",
-        "To calculate and eliminate high-frequency phase jitter introduced by the on-chip Phase-Locked Loop (PLL).",
-        "To model the latency difference between rising and falling transitions along combinational logic trees.",
-        "To remove artificial timing pessimism introduced when differing min/max OCV derating factors are applied to the shared physical segments of the clock tree for the launch and capture paths.",
-        "To remove the propagation delay penalties associated with through-silicon vias (TSVs) in multi-die 2.5D/3D packaging."
+        "Directory-based protocols eliminate the necessity of cache invalidation and update messages when modifying shared cache blocks.",
+        "Snooping protocols require centralized serialization at the DRAM interface that causes severe contention at physically distributed memory banks.",
+        "Directory-based protocols convert write-back caches into write-through caches, thereby removing data races across the network.",
+        "Directory-based protocols avoid broadcast traffic by tracking the sharing state of cache lines and sending targeted point-to-point coherence messages only to relevant nodes.",
+        "Snooping protocols are architecturally incompatible with invalidation-based coherence states such as MESI and MOESI."
       ],
       "correct": 3
     },
     {
-      "question": "In asynchronous and combinational digital circuit design, what causes a static-1 hazard, and how is it fundamentally eliminated in two-level Sum-of-Products (SOP) logic?",
+      "question": "In instruction-level parallel processor microarchitecture, what is the primary operational distinction between a CDC 6600-style Scoreboard and Tomasulo's algorithm regarding the handling of data hazards?",
       "options": [
-        "Excessive output capacitive loading that slows the output rise time below the clock period; eliminated by inserting balanced buffer trees.",
-        "Clock skew exceeding the flip-flop propagation delay in sequential loops; eliminated by inserting delay buffers on the clock capture path.",
-        "Charge sharing at intermediate floating nodes in dynamic CMOS gates; eliminated by adding a weak PMOS keeper transistor.",
-        "Capacitive cross-coupling between adjacent routing tracks causing transient voltage glitches; eliminated by inserting shielding wires tied to VDD.",
-        "Unequal propagation delays along converging paths causing the output to momentarily dip to 0 during an input transition between adjacent 1-cells in a Karnaugh map; eliminated by adding a redundant consensus product term that bridges the adjacent prime implicants."
+        "Scoreboarding eliminates RAW hazards using hardware data forwarding, whereas Tomasulo's algorithm stalls the pipeline until operands are written to the register file.",
+        "Tomasulo's algorithm relies on static compiler scheduling to detect write hazards, whereas Scoreboarding relies strictly on dynamic hardware detection.",
+        "Scoreboarding operates out-of-order while issuing instructions, whereas Tomasulo's algorithm enforces in-order issue, execution, and retirement.",
+        "Tomasulo's algorithm handles only fixed-point integer pipelines, whereas Scoreboarding was developed specifically for out-of-order SIMD vector processing.",
+        "Scoreboarding stalls instruction progression on WAR and WAW hazards, whereas Tomasulo's algorithm dynamically eliminates WAR and WAW hazards through implicit register renaming via reservation stations and the Common Data Bus (CDB)."
       ],
       "correct": 4
     }
