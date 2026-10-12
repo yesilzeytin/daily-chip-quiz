@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In instruction-level parallelism (ILP) architecture design, what is the fundamental operational difference between a Very Long Instruction Word (VLIW) processor and a dynamically scheduled superscalar processor?",
+      "question": "In synchronous digital integrated circuit design, what does the setup time (t_su) of an edge-triggered flip-flop fundamentally specify?",
       "options": [
-        "VLIW processors rely on compile-time static scheduling and dependency analysis to issue multiple operations per cycle, eliminating dynamic instruction dispatch and hazard-detection hardware.",
-        "VLIW processors execute multiple independent threads simultaneously across execution units, whereas superscalar processors execute only one thread at a time.",
-        "Superscalar processors compile instructions into fixed multi-operation packets, whereas VLIW processors decode variable-length instructions dynamically at runtime.",
-        "VLIW processors require dynamic out-of-order execution buffers to reorder operations inside the long instruction word prior to execution.",
-        "Superscalar processors execute exclusively RISC instructions, whereas VLIW processors are fundamentally restricted to CISC instruction sets."
+        "The minimum continuous duration that the data input must remain stable prior to the active clock edge.",
+        "The minimum continuous duration that the data input must remain stable following the active clock edge.",
+        "The propagation delay from the triggering clock transition to the valid appearance of data at the Q output.",
+        "The maximum permissible difference in clock arrival times between the launching and capturing flip-flops.",
+        "The minimum pulse width required for the clock signal to reliably activate the internal master latch."
       ],
       "correct": 0
     },
     {
-      "question": "In CMOS digital circuit design, why is a full transmission gate constructed by connecting an NMOS transistor and a PMOS transistor in parallel, rather than using a single NMOS pass transistor?",
+      "question": "In multi-voltage domain digital IC design, why is an up-level shifter strictly required when routing a logic signal from a low-voltage supply domain (VDDL) to a high-voltage supply domain (VDDH)?",
       "options": [
-        "A single NMOS transistor cannot be switched completely off, causing unacceptable subthreshold leakage current across the node.",
-        "An NMOS pass transistor passes a strong logic '0' but degrades a logic '1' by a threshold voltage drop (VDD - Vtn), while the PMOS transistor passes a strong logic '1'.",
-        "Paralleling NMOS and PMOS transistors is strictly required to suppress parasitic substrate latch-up during high-frequency switching.",
-        "An NMOS transistor exhibits significantly higher input gate capacitance, which slows down clock transitions when used without a complementary PMOS device.",
-        "A complementary PMOS transistor is necessary to actively sink current and ground the output node when the control signal is de-asserted."
+        "To prevent hot-carrier injection (HCI) degradation caused by overdriving the low-voltage output driver.",
+        "To prevent static crowbar (short-circuit) current in the receiving gate caused by the VDDL high level failing to fully turn off the PMOS pull-up network.",
+        "To eliminate transmission line reflections caused by characteristic impedance mismatches between the two power islands.",
+        "To compensate for dynamic clock jitter and duty-cycle distortion generated across the dissimilar power distribution networks.",
+        "To prevent forward biasing of the electrostatic discharge (ESD) protection diodes located inside the low-voltage cell."
       ],
       "correct": 1
     },
     {
-      "question": "In digital arithmetic circuit design, what structural technique allows a Wallace tree multiplier to achieve an O(log n) critical path latency compared to the O(n) latency of a standard array multiplier?",
+      "question": "In Network-on-Chip (NoC) architectures, how does the introduction of virtual channels fundamentally resolve routing deadlocks caused by cyclic buffer dependencies?",
       "options": [
-        "It serializes partial product accumulation using high-frequency dynamic shift registers.",
-        "It completely bypasses partial product generation by using precomputed radix-1024 lookup tables.",
-        "It employs trees of carry-save adders (CSAs) to reduce partial product rows concurrently without propagating carries until the final two-operand addition.",
-        "It replaces conventional full adders with synchronous accumulator registers clocked at twice the core system frequency.",
-        "It duplicates arithmetic units across multiple asynchronous clock domains to compute partial additions redundantly."
+        "By dynamically adjusting flit packet lengths to ensure no packet spans multiple intermediate router hops.",
+        "By converting wormhole-switched flits into store-and-forward packets upon detecting heavy downstream network congestion.",
+        "By multiplexing multiple logically independent FIFO buffers over a shared physical link, allowing unblocked packets in one buffer to bypass stalled packets in another.",
+        "By discarding stalled packets and initiating an end-to-end negative acknowledgment (NACK) retransmission protocol.",
+        "By enforcing strict time-division multiplexed (TDM) link arbitration across all physical network links."
       ],
       "correct": 2
     },
     {
-      "question": "In shared-memory multiprocessor system architecture, why do directory-based cache coherence protocols scale to significantly higher core counts than bus-based snooping protocols?",
+      "question": "In computer memory hierarchy design, what is the primary architectural purpose and operational benefit of a Victim Cache?",
       "options": [
-        "Directory-based protocols eliminate the necessity of cache invalidation and update messages when modifying shared cache blocks.",
-        "Snooping protocols require centralized serialization at the DRAM interface that causes severe contention at physically distributed memory banks.",
-        "Directory-based protocols convert write-back caches into write-through caches, thereby removing data races across the network.",
-        "Directory-based protocols avoid broadcast traffic by tracking the sharing state of cache lines and sending targeted point-to-point coherence messages only to relevant nodes.",
-        "Snooping protocols are architecturally incompatible with invalidation-based coherence states such as MESI and MOESI."
+        "A direct-mapped prefetch buffer located ahead of the L1 instruction cache to stream non-branching instruction blocks.",
+        "A dedicated FIFO write buffer that holds modified blocks awaiting writeback to main memory to hide DRAM precharge latency.",
+        "A bus snooping filter placed at the interconnect boundary to drop unnecessary cache-invalidation requests.",
+        "A small, fully associative cache placed between the L1 cache and the next cache level to store recently evicted L1 blocks and reduce conflict misses.",
+        "A software-managed scratchpad memory designed to hold spilled register contents across processor context switches."
       ],
       "correct": 3
     },
     {
-      "question": "In instruction-level parallel processor microarchitecture, what is the primary operational distinction between a CDC 6600-style Scoreboard and Tomasulo's algorithm regarding the handling of data hazards?",
+      "question": "In standard 6T SRAM bitcell design, how is read stability ensured to prevent a 'read disturb' (destructive read) from accidentally flipping the stored state when the wordline is asserted?",
       "options": [
-        "Scoreboarding eliminates RAW hazards using hardware data forwarding, whereas Tomasulo's algorithm stalls the pipeline until operands are written to the register file.",
-        "Tomasulo's algorithm relies on static compiler scheduling to detect write hazards, whereas Scoreboarding relies strictly on dynamic hardware detection.",
-        "Scoreboarding operates out-of-order while issuing instructions, whereas Tomasulo's algorithm enforces in-order issue, execution, and retirement.",
-        "Tomasulo's algorithm handles only fixed-point integer pipelines, whereas Scoreboarding was developed specifically for out-of-order SIMD vector processing.",
-        "Scoreboarding stalls instruction progression on WAR and WAW hazards, whereas Tomasulo's algorithm dynamically eliminates WAR and WAW hazards through implicit register renaming via reservation stations and the Common Data Bus (CDB)."
+        "By precharging the bitlines to ground (VSS) so that discharge current cannot enter the internal storage nodes.",
+        "By sizing the access NMOS transistors to have a significantly higher transconductance than the pull-down NMOS driver transistors.",
+        "By driving the wordline to a voltage strictly lower than the bitline precharge voltage during read operations.",
+        "By sizing the pull-up PMOS transistors wider than the access NMOS transistors to continuously outdrive incoming bitline charge.",
+        "By sizing the pull-down NMOS driver transistors stronger than the access NMOS transistors (Cell Ratio > 1) to keep the internal low node below the opposing inverter's trip voltage."
       ],
       "correct": 4
     }

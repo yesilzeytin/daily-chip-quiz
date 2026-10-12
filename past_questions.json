@@ -1,9 +1,4 @@
 [
-  "In deep-submicron ASIC physical design, what is the primary operational role of inserting decoupling capacitor (decap) cells into empty sites of standard-cell rows?",
-  "During sequential logic optimization in digital IC synthesis, what is the fundamental operation performed by 'retiming'?",
-  "In modern computer memory subsystems, how does an 'Open-Page' row buffer management policy in a DRAM controller operate compared to a 'Closed-Page' policy?",
-  "In modern high-performance processor front-ends, what is the primary architectural purpose of a Return Address Stack (RAS)?",
-  "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the linear O(n) latency delay characteristic of a Ripple-Carry Adder (RCA)?",
   "In computer system architecture, what is the fundamental defining characteristic of Memory-Mapped I/O (MMIO) compared to Port-Mapped (Isolated) I/O?",
   "In synchronous digital circuit design, what fundamental physical condition causes a bistable element (such as an edge-triggered D flip-flop) to enter a metastable state?",
   "In modern high-performance microprocessors, what is the primary function of Miss Status Holding Registers (MSHRs) in a non-blocking (lockup-free) cache hierarchy?",
@@ -48,5 +43,10 @@
   "In CMOS digital circuit design, why is a full transmission gate constructed by connecting an NMOS transistor and a PMOS transistor in parallel, rather than using a single NMOS pass transistor?",
   "In digital arithmetic circuit design, what structural technique allows a Wallace tree multiplier to achieve an O(log n) critical path latency compared to the O(n) latency of a standard array multiplier?",
   "In shared-memory multiprocessor system architecture, why do directory-based cache coherence protocols scale to significantly higher core counts than bus-based snooping protocols?",
-  "In instruction-level parallel processor microarchitecture, what is the primary operational distinction between a CDC 6600-style Scoreboard and Tomasulo's algorithm regarding the handling of data hazards?"
+  "In instruction-level parallel processor microarchitecture, what is the primary operational distinction between a CDC 6600-style Scoreboard and Tomasulo's algorithm regarding the handling of data hazards?",
+  "In synchronous digital integrated circuit design, what does the setup time (t_su) of an edge-triggered flip-flop fundamentally specify?",
+  "In multi-voltage domain digital IC design, why is an up-level shifter strictly required when routing a logic signal from a low-voltage supply domain (VDDL) to a high-voltage supply domain (VDDH)?",
+  "In Network-on-Chip (NoC) architectures, how does the introduction of virtual channels fundamentally resolve routing deadlocks caused by cyclic buffer dependencies?",
+  "In computer memory hierarchy design, what is the primary architectural purpose and operational benefit of a Victim Cache?",
+  "In standard 6T SRAM bitcell design, how is read stability ensured to prevent a 'read disturb' (destructive read) from accidentally flipping the stored state when the wordline is asserted?"
 ]
