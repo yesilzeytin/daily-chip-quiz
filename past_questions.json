@@ -1,9 +1,4 @@
 [
-  "In computer system architecture, what is the fundamental defining characteristic of Memory-Mapped I/O (MMIO) compared to Port-Mapped (Isolated) I/O?",
-  "In synchronous digital circuit design, what fundamental physical condition causes a bistable element (such as an edge-triggered D flip-flop) to enter a metastable state?",
-  "In modern high-performance microprocessors, what is the primary function of Miss Status Holding Registers (MSHRs) in a non-blocking (lockup-free) cache hierarchy?",
-  "In ASIC physical design and Static Timing Analysis (STA), what is the operational principle of 'useful skew' (clock skew scheduling)?",
-  "In out-of-order superscalar processor microarchitectures, what is the primary role of speculative memory disambiguation?",
   "In pipelined processor microarchitecture, which of the following scenarios describes a structural hazard?",
   "In modern high-performance processor front-ends, what is the primary architectural role of a Branch Target Buffer (BTB)?",
   "In Static Timing Analysis (STA) of digital IC designs, what constitutes a 'false path'?",
@@ -48,5 +43,10 @@
   "In multi-voltage domain digital IC design, why is an up-level shifter strictly required when routing a logic signal from a low-voltage supply domain (VDDL) to a high-voltage supply domain (VDDH)?",
   "In Network-on-Chip (NoC) architectures, how does the introduction of virtual channels fundamentally resolve routing deadlocks caused by cyclic buffer dependencies?",
   "In computer memory hierarchy design, what is the primary architectural purpose and operational benefit of a Victim Cache?",
-  "In standard 6T SRAM bitcell design, how is read stability ensured to prevent a 'read disturb' (destructive read) from accidentally flipping the stored state when the wordline is asserted?"
+  "In standard 6T SRAM bitcell design, how is read stability ensured to prevent a 'read disturb' (destructive read) from accidentally flipping the stored state when the wordline is asserted?",
+  "In semiconductor memory architecture, why do Dynamic Random-Access Memory (DRAM) cells require periodic refresh cycles, whereas Static Random-Access Memory (SRAM) cells do not?",
+  "In digital logic synthesis and synchronous circuit optimization, what is the operational principle of 'retiming'?",
+  "In modern high-performance microprocessor front-ends, what is the primary architectural purpose of a dedicated Return Address Stack (RAS)?",
+  "In ASIC physical design and power integrity analysis, what is the fundamental physical distinction between static IR drop and dynamic IR drop?",
+  "In domain-specific hardware accelerator design (such as tensor processing units), what is the defining structural and computational characteristic of a 2D Systolic Array?"
 ]

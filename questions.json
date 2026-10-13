@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In synchronous digital integrated circuit design, what does the setup time (t_su) of an edge-triggered flip-flop fundamentally specify?",
+      "question": "In semiconductor memory architecture, why do Dynamic Random-Access Memory (DRAM) cells require periodic refresh cycles, whereas Static Random-Access Memory (SRAM) cells do not?",
       "options": [
-        "The minimum continuous duration that the data input must remain stable prior to the active clock edge.",
-        "The minimum continuous duration that the data input must remain stable following the active clock edge.",
-        "The propagation delay from the triggering clock transition to the valid appearance of data at the Q output.",
-        "The maximum permissible difference in clock arrival times between the launching and capturing flip-flops.",
-        "The minimum pulse width required for the clock signal to reliably activate the internal master latch."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In multi-voltage domain digital IC design, why is an up-level shifter strictly required when routing a logic signal from a low-voltage supply domain (VDDL) to a high-voltage supply domain (VDDH)?",
-      "options": [
-        "To prevent hot-carrier injection (HCI) degradation caused by overdriving the low-voltage output driver.",
-        "To prevent static crowbar (short-circuit) current in the receiving gate caused by the VDDL high level failing to fully turn off the PMOS pull-up network.",
-        "To eliminate transmission line reflections caused by characteristic impedance mismatches between the two power islands.",
-        "To compensate for dynamic clock jitter and duty-cycle distortion generated across the dissimilar power distribution networks.",
-        "To prevent forward biasing of the electrostatic discharge (ESD) protection diodes located inside the low-voltage cell."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In Network-on-Chip (NoC) architectures, how does the introduction of virtual channels fundamentally resolve routing deadlocks caused by cyclic buffer dependencies?",
-      "options": [
-        "By dynamically adjusting flit packet lengths to ensure no packet spans multiple intermediate router hops.",
-        "By converting wormhole-switched flits into store-and-forward packets upon detecting heavy downstream network congestion.",
-        "By multiplexing multiple logically independent FIFO buffers over a shared physical link, allowing unblocked packets in one buffer to bypass stalled packets in another.",
-        "By discarding stalled packets and initiating an end-to-end negative acknowledgment (NACK) retransmission protocol.",
-        "By enforcing strict time-division multiplexed (TDM) link arbitration across all physical network links."
+        "DRAM utilizes floating-gate transistors that gradually trap oxide charges during read operations, requiring periodic electrical erasure.",
+        "DRAM relies on dynamic CMOS domino logic gates that must be precharged during every second clock phase to avoid logic contention.",
+        "DRAM stores data as an electric charge on a tiny capacitor that naturally discharges over time due to leakage currents, whereas SRAM uses cross-coupled inverters that actively hold their state.",
+        "DRAM employs magnetic domain wall tracks that require periodic current pulses to keep magnetic bits aligned with pinning sites.",
+        "DRAM operates without sense amplifiers, meaning reading a bitcell drains the internal battery rails unless refreshed externally."
       ],
       "correct": 2
     },
     {
-      "question": "In computer memory hierarchy design, what is the primary architectural purpose and operational benefit of a Victim Cache?",
+      "question": "In digital logic synthesis and synchronous circuit optimization, what is the operational principle of 'retiming'?",
       "options": [
-        "A direct-mapped prefetch buffer located ahead of the L1 instruction cache to stream non-branching instruction blocks.",
-        "A dedicated FIFO write buffer that holds modified blocks awaiting writeback to main memory to hide DRAM precharge latency.",
-        "A bus snooping filter placed at the interconnect boundary to drop unnecessary cache-invalidation requests.",
-        "A small, fully associative cache placed between the L1 cache and the next cache level to store recently evicted L1 blocks and reduce conflict misses.",
-        "A software-managed scratchpad memory designed to hold spilled register contents across processor context switches."
+        "Relocating sequential storage elements (flip-flops/latches) across combinational logic gates to balance path delays without altering external input-output behavior.",
+        "Dynamically scaling the master clock frequency and supply voltage at runtime in response to varying computational workloads.",
+        "Inserting pipeline registers exclusively at module input/output boundaries to reduce routing congestion in the physical floorplan.",
+        "Replacing single-cycle multicycle paths with multi-threaded execution units in the processor microarchitecture.",
+        "Swapping high-leakage low-threshold voltage (LVT) standard cells with high-threshold voltage (HVT) cells to reduce static power dissipation."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In modern high-performance microprocessor front-ends, what is the primary architectural purpose of a dedicated Return Address Stack (RAS)?",
+      "options": [
+        "To buffer outstanding store addresses in program order so that loads can bypass data before committing to L1 cache.",
+        "To record target addresses for indirect jump instructions that depend on runtime register values computed in the ALU.",
+        "To track speculative instruction pointers during an exception recovery sequence to restore the architectural program counter.",
+        "To accurately predict subroutine return target addresses by pushing the return address on function calls and popping it on returns.",
+        "To store the historical execution trace of taken/not-taken outcomes for conditional branches in a circular shift register."
       ],
       "correct": 3
     },
     {
-      "question": "In standard 6T SRAM bitcell design, how is read stability ensured to prevent a 'read disturb' (destructive read) from accidentally flipping the stored state when the wordline is asserted?",
+      "question": "In ASIC physical design and power integrity analysis, what is the fundamental physical distinction between static IR drop and dynamic IR drop?",
       "options": [
-        "By precharging the bitlines to ground (VSS) so that discharge current cannot enter the internal storage nodes.",
-        "By sizing the access NMOS transistors to have a significantly higher transconductance than the pull-down NMOS driver transistors.",
-        "By driving the wordline to a voltage strictly lower than the bitline precharge voltage during read operations.",
-        "By sizing the pull-up PMOS transistors wider than the access NMOS transistors to continuously outdrive incoming bitline charge.",
-        "By sizing the pull-down NMOS driver transistors stronger than the access NMOS transistors (Cell Ratio > 1) to keep the internal low node below the opposing inverter's trip voltage."
+        "Static IR drop occurs strictly in flip-flop clock trees, whereas dynamic IR drop affects only combinational logic standard cell rows.",
+        "Static IR drop is caused by average steady-state DC current flowing through interconnect resistance, whereas dynamic IR drop is caused by peak transient currents during simultaneous cell switching.",
+        "Static IR drop arises from electromigration voids in metal wires, whereas dynamic IR drop is driven by electrostatic discharge (ESD) events during I/O switching.",
+        "Static IR drop is caused by capacitive coupling between adjacent signal lines, whereas dynamic IR drop is caused by inductive ground bounce across package bond wires.",
+        "Static IR drop only impacts designs operating in subthreshold regions, whereas dynamic IR drop occurs exclusively when transistors enter saturation."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In domain-specific hardware accelerator design (such as tensor processing units), what is the defining structural and computational characteristic of a 2D Systolic Array?",
+      "options": [
+        "Instructions are broadcast in lockstep to thousands of independent ALUs sharing a massive unified multi-bank register file.",
+        "Independent compute threads communicate exclusively via an asynchronous crossbar network using packet-switched routing protocols.",
+        "Each processing core dynamically fetches instructions from a private instruction cache and commits results out-of-order via a reorder buffer.",
+        "Operands are prefetched from off-chip DRAM into dedicated scratchpad SRAM memories before being evaluated sequentially by a single SIMD vector unit.",
+        "Data flows rhythmically through a regular grid of interconnected processing elements, allowing data to be reused locally among neighbors without repeated memory or register file accesses."
       ],
       "correct": 4
     }
