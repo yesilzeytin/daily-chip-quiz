@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In semiconductor memory architecture, why do Dynamic Random-Access Memory (DRAM) cells require periodic refresh cycles, whereas Static Random-Access Memory (SRAM) cells do not?",
+      "question": "In out-of-order superscalar microarchitectures, what is the primary operational role of the Load-Store Queue (LSQ)?",
       "options": [
-        "DRAM utilizes floating-gate transistors that gradually trap oxide charges during read operations, requiring periodic electrical erasure.",
-        "DRAM relies on dynamic CMOS domino logic gates that must be precharged during every second clock phase to avoid logic contention.",
-        "DRAM stores data as an electric charge on a tiny capacitor that naturally discharges over time due to leakage currents, whereas SRAM uses cross-coupled inverters that actively hold their state.",
-        "DRAM employs magnetic domain wall tracks that require periodic current pulses to keep magnetic bits aligned with pinning sites.",
-        "DRAM operates without sense amplifiers, meaning reading a bitcell drains the internal battery rails unless refreshed externally."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In digital logic synthesis and synchronous circuit optimization, what is the operational principle of 'retiming'?",
-      "options": [
-        "Relocating sequential storage elements (flip-flops/latches) across combinational logic gates to balance path delays without altering external input-output behavior.",
-        "Dynamically scaling the master clock frequency and supply voltage at runtime in response to varying computational workloads.",
-        "Inserting pipeline registers exclusively at module input/output boundaries to reduce routing congestion in the physical floorplan.",
-        "Replacing single-cycle multicycle paths with multi-threaded execution units in the processor microarchitecture.",
-        "Swapping high-leakage low-threshold voltage (LVT) standard cells with high-threshold voltage (HVT) cells to reduce static power dissipation."
+        "To enable speculative execution of load instructions ahead of older stores while detecting address conflicts and forwarding data from in-flight stores to dependent loads.",
+        "To translate virtual page numbers to physical frame numbers before dispatching memory requests to the L1 data cache.",
+        "To store retired instructions in strict program order until all architectural registers are updated simultaneously.",
+        "To arbitrate bandwidth allocation among concurrent threads sharing a multi-banked L2 cache.",
+        "To enforce strict Total Store Order (TSO) by serializing all memory reads and writes through an in-order execution queue."
       ],
       "correct": 0
     },
     {
-      "question": "In modern high-performance microprocessor front-ends, what is the primary architectural purpose of a dedicated Return Address Stack (RAS)?",
+      "question": "In modern out-of-order processor memory hierarchies, what is the primary architectural purpose of Miss Status Holding Registers (MSHRs) within a cache controller?",
       "options": [
-        "To buffer outstanding store addresses in program order so that loads can bypass data before committing to L1 cache.",
-        "To record target addresses for indirect jump instructions that depend on runtime register values computed in the ALU.",
-        "To track speculative instruction pointers during an exception recovery sequence to restore the architectural program counter.",
-        "To accurately predict subroutine return target addresses by pushing the return address on function calls and popping it on returns.",
-        "To store the historical execution trace of taken/not-taken outcomes for conditional branches in a circular shift register."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In ASIC physical design and power integrity analysis, what is the fundamental physical distinction between static IR drop and dynamic IR drop?",
-      "options": [
-        "Static IR drop occurs strictly in flip-flop clock trees, whereas dynamic IR drop affects only combinational logic standard cell rows.",
-        "Static IR drop is caused by average steady-state DC current flowing through interconnect resistance, whereas dynamic IR drop is caused by peak transient currents during simultaneous cell switching.",
-        "Static IR drop arises from electromigration voids in metal wires, whereas dynamic IR drop is driven by electrostatic discharge (ESD) events during I/O switching.",
-        "Static IR drop is caused by capacitive coupling between adjacent signal lines, whereas dynamic IR drop is caused by inductive ground bounce across package bond wires.",
-        "Static IR drop only impacts designs operating in subthreshold regions, whereas dynamic IR drop occurs exclusively when transistors enter saturation."
+        "To maintain a historical table of dirty cache lines scheduled for writeback to DRAM under high bus utilization.",
+        "To track outstanding memory requests and their target registers/buffers, allowing the cache to continue serving subsequent hits and misses concurrently.",
+        "To predict spatial cache line strides and issue speculative memory prefetches into the L2 cache.",
+        "To re-map faulty SRAM cells dynamically using redundant rows and columns during post-fabrication BIST.",
+        "To store snooped coherency invalidation requests from neighboring cores until the local pipeline reaches retirement."
       ],
       "correct": 1
     },
     {
-      "question": "In domain-specific hardware accelerator design (such as tensor processing units), what is the defining structural and computational characteristic of a 2D Systolic Array?",
+      "question": "In Static Timing Analysis (STA) of synchronous digital circuits, why is the hold time timing check fundamentally independent of the operating clock period (T_clk)?",
       "options": [
-        "Instructions are broadcast in lockstep to thousands of independent ALUs sharing a massive unified multi-bank register file.",
-        "Independent compute threads communicate exclusively via an asynchronous crossbar network using packet-switched routing protocols.",
-        "Each processing core dynamically fetches instructions from a private instruction cache and commits results out-of-order via a reorder buffer.",
-        "Operands are prefetched from off-chip DRAM into dedicated scratchpad SRAM memories before being evaluated sequentially by a single SIMD vector unit.",
-        "Data flows rhythmically through a regular grid of interconnected processing elements, allowing data to be reused locally among neighbors without repeated memory or register file accesses."
+        "Because hold timing violations are masked by clock gating logic prior to the arrival of the active clock edge.",
+        "Because hold constraints are calculated exclusively using maximum propagation delays, which cancel out cycle-to-cycle clock jitter.",
+        "Because hold timing evaluates whether new data launched by a clock edge prematurely overwrites data captured by that same clock edge, depending only on minimum-delay paths and clock skew.",
+        "Because hold time requirements are only enforced during circuit reset and do not apply during active operational cycles.",
+        "Because modern EDA tools automatically convert hold time margins into dynamic voltage adjustments during signoff."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In semiconductor technology and computer architecture, what physical limitation fundamentally caused the breakdown of classical Dennard scaling in the mid-2000s, triggering the shift toward multi-core microprocessors?",
+      "options": [
+        "Interconnect RC delays exceeding transistor gate delays, preventing further pipeline deepening.",
+        "Reaching the quantum tunneling limit of silicon dioxide, which halted further gate width lithography.",
+        "Electromigration in copper interconnects reaching critical current density thresholds at sub-micron pitches.",
+        "The inability to scale supply voltage (VDD) proportionally with transistor dimensions due to threshold voltage limits and exponentially rising subthreshold leakage power.",
+        "The failure of dynamic branch prediction algorithms to scale beyond 4-wide superscalar dispatch widths."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In nanoscale CMOS transistor physics and short-channel effect analysis, which statement accurately describes Drain-Induced Barrier Lowering (DIBL)?",
+      "options": [
+        "Excessive gate voltage causes electrons to tunnel directly through the thin gate dielectric into the substrate.",
+        "High drain-to-source current creates localized thermal hotspots that degrade electron mobility in the inversion channel.",
+        "Impact ionization near the drain junction generates electron-hole pairs, triggering parasitic bipolar latch-up.",
+        "Quantum confinement of inversion carriers in ultra-thin nanosheets shifts the conduction band edge away from the Fermi level.",
+        "Application of a high drain voltage causes the drain depletion region to penetrate toward the source, lowering the source-channel potential barrier and decreasing the threshold voltage."
       ],
       "correct": 4
     }
