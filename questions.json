@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In out-of-order superscalar microarchitectures, what is the primary operational role of the Load-Store Queue (LSQ)?",
+      "question": "In computer memory systems, a Virtually Indexed, Physically Tagged (VIPT) L1 cache can potentially suffer from cache aliasing (where multiple virtual addresses map to different cache sets but refer to the same physical address). What hardware design relationship completely guarantees that aliasing cannot occur without requiring software page coloring?",
       "options": [
-        "To enable speculative execution of load instructions ahead of older stores while detecting address conflicts and forwarding data from in-flight stores to dependent loads.",
-        "To translate virtual page numbers to physical frame numbers before dispatching memory requests to the L1 data cache.",
-        "To store retired instructions in strict program order until all architectural registers are updated simultaneously.",
-        "To arbitrate bandwidth allocation among concurrent threads sharing a multi-banked L2 cache.",
-        "To enforce strict Total Store Order (TSO) by serializing all memory reads and writes through an in-order execution queue."
+        "The total cache capacity divided by its associativity must be less than or equal to the virtual memory page size.",
+        "The cache must be fully associative so that set index bits are eliminated entirely from the cache lookup.",
+        "The physical address tag width must be strictly greater than the sum of the cache index bits and line offset bits.",
+        "The cache associativity must be an integer multiple of the number of page table levels implemented by the MMU.",
+        "The cache must implement a write-through policy rather than a write-back allocation policy."
       ],
       "correct": 0
     },
     {
-      "question": "In modern out-of-order processor memory hierarchies, what is the primary architectural purpose of Miss Status Holding Registers (MSHRs) within a cache controller?",
+      "question": "In modern out-of-order superscalar microarchitecture design, why do high-performance processors overwhelmingly favor an explicit Unified Physical Register File (PRF) organization over the classic scheme where the Reorder Buffer (ROB) itself stores speculative result values?",
       "options": [
-        "To maintain a historical table of dirty cache lines scheduled for writeback to DRAM under high bus utilization.",
-        "To track outstanding memory requests and their target registers/buffers, allowing the cache to continue serving subsequent hits and misses concurrently.",
-        "To predict spatial cache line strides and issue speculative memory prefetches into the L2 cache.",
-        "To re-map faulty SRAM cells dynamically using redundant rows and columns during post-fabrication BIST.",
-        "To store snooped coherency invalidation requests from neighboring cores until the local pipeline reaches retirement."
+        "The PRF scheme completely eliminates the need for branch misprediction checkpointing and recovery logic.",
+        "The PRF scheme allows data values to be written once into a single dedicated register array, eliminating redundant data copying and wide data buses across the Reorder Buffer and issue queues.",
+        "The PRF scheme allows speculative load instructions to execute out-of-order without requiring address checks against uncommitted stores.",
+        "The PRF scheme completely eliminates the need for speculative Register Alias Tables (RAT) in the instruction decode stage.",
+        "The PRF scheme enforces in-order execution of arithmetic operations while allowing out-of-order execution only for memory accesses."
       ],
       "correct": 1
     },
     {
-      "question": "In Static Timing Analysis (STA) of synchronous digital circuits, why is the hold time timing check fundamentally independent of the operating clock period (T_clk)?",
+      "question": "When designing a multi-stage flip-flop synchronizer to transfer a single-bit asynchronous signal across Clock Domain Crossing (CDC) boundaries, which relationship accurately captures the Mean Time Between Failures (MTBF) caused by flip-flop metastability?",
       "options": [
-        "Because hold timing violations are masked by clock gating logic prior to the arrival of the active clock edge.",
-        "Because hold constraints are calculated exclusively using maximum propagation delays, which cancel out cycle-to-cycle clock jitter.",
-        "Because hold timing evaluates whether new data launched by a clock edge prematurely overwrites data captured by that same clock edge, depending only on minimum-delay paths and clock skew.",
-        "Because hold time requirements are only enforced during circuit reset and do not apply during active operational cycles.",
-        "Because modern EDA tools automatically convert hold time margins into dynamic voltage adjustments during signoff."
+        "MTBF is inversely proportional to the resolution time available to the synchronizing latch, scaling as exp(-T_resolve / tau).",
+        "MTBF increases linearly with the source data transition frequency and the receiving clock frequency: MTBF proportional to f_clk * f_data.",
+        "MTBF is proportional to exp(T_resolve / tau) / (f_clk * f_data), where T_resolve is available settling time and tau is the flip-flop regenerative time constant.",
+        "MTBF is independent of clock frequency and determined solely by the supply voltage and flip-flop setup time.",
+        "MTBF scales as (tau / T_resolve) * log(f_clk * f_data), describing logarithmic improvement with increasing settling time."
       ],
       "correct": 2
     },
     {
-      "question": "In semiconductor technology and computer architecture, what physical limitation fundamentally caused the breakdown of classical Dennard scaling in the mid-2000s, triggering the shift toward multi-core microprocessors?",
+      "question": "In synchronous digital integrated circuit design and clock distribution network analysis, what is the fundamental distinction between 'clock skew' and 'clock jitter'?",
       "options": [
-        "Interconnect RC delays exceeding transistor gate delays, preventing further pipeline deepening.",
-        "Reaching the quantum tunneling limit of silicon dioxide, which halted further gate width lithography.",
-        "Electromigration in copper interconnects reaching critical current density thresholds at sub-micron pitches.",
-        "The inability to scale supply voltage (VDD) proportionally with transistor dimensions due to threshold voltage limits and exponentially rising subthreshold leakage power.",
-        "The failure of dynamic branch prediction algorithms to scale beyond 4-wide superscalar dispatch widths."
+        "Clock skew is a dynamic cycle-to-cycle phase noise at a single pin, whereas clock jitter is a static routing mismatch across different clock domains.",
+        "Clock skew affects only setup time constraints, whereas clock jitter affects only hold time constraints.",
+        "Clock skew can be entirely eliminated using on-chip Phase-Locked Loops (PLLs), whereas clock jitter cannot be filtered by phase locked circuitry.",
+        "Clock skew is the spatial variation in arrival times of a clock edge at two different sequential elements during the same cycle, whereas clock jitter is the temporal variation in arrival time at a given clock sink across successive cycles.",
+        "Clock skew is caused solely by dynamic power supply noise (di/dt), whereas clock jitter is caused exclusively by static RC interconnect delay mismatch."
       ],
       "correct": 3
     },
     {
-      "question": "In nanoscale CMOS transistor physics and short-channel effect analysis, which statement accurately describes Drain-Induced Barrier Lowering (DIBL)?",
+      "question": "In nanoscale CMOS device physics and low-power IC design, what fundamental physical mechanism dictates the 'Boltzmann tyranny', setting a lower limit of approximately 60 mV/decade on the subthreshold swing (SS) of conventional MOSFETs at room temperature (300 K)?",
       "options": [
-        "Excessive gate voltage causes electrons to tunnel directly through the thin gate dielectric into the substrate.",
-        "High drain-to-source current creates localized thermal hotspots that degrade electron mobility in the inversion channel.",
-        "Impact ionization near the drain junction generates electron-hole pairs, triggering parasitic bipolar latch-up.",
-        "Quantum confinement of inversion carriers in ultra-thin nanosheets shifts the conduction band edge away from the Fermi level.",
-        "Application of a high drain voltage causes the drain depletion region to penetrate toward the source, lowering the source-channel potential barrier and decreasing the threshold voltage."
+        "Direct quantum-mechanical tunneling of carriers from the source to the drain through the thin channel barrier.",
+        "The saturation of drift velocity caused by optical phonon scattering under high lateral electric fields.",
+        "Gate dielectric leakage current arising from Fowler-Nordheim field emission across the high-k oxide.",
+        "Band-to-band tunneling (BTBT) occurring across the reverse-biased drain-to-body junction under high supply voltages.",
+        "The thermal Maxwell-Boltzmann energy distribution tail of carriers crossing the channel electrostatic potential barrier via thermionic emission."
       ],
       "correct": 4
     }
