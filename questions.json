@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In computer memory systems, a Virtually Indexed, Physically Tagged (VIPT) L1 cache can potentially suffer from cache aliasing (where multiple virtual addresses map to different cache sets but refer to the same physical address). What hardware design relationship completely guarantees that aliasing cannot occur without requiring software page coloring?",
+      "question": "In digital integrated circuit design and Design for Testability (DFT), what is the primary operational objective of inserting scan chains by replacing conventional flip-flops with scan flip-flops?",
       "options": [
-        "The total cache capacity divided by its associativity must be less than or equal to the virtual memory page size.",
-        "The cache must be fully associative so that set index bits are eliminated entirely from the cache lookup.",
-        "The physical address tag width must be strictly greater than the sum of the cache index bits and line offset bits.",
-        "The cache associativity must be an integer multiple of the number of page table levels implemented by the MMU.",
-        "The cache must implement a write-through policy rather than a write-back allocation policy."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In modern out-of-order superscalar microarchitecture design, why do high-performance processors overwhelmingly favor an explicit Unified Physical Register File (PRF) organization over the classic scheme where the Reorder Buffer (ROB) itself stores speculative result values?",
-      "options": [
-        "The PRF scheme completely eliminates the need for branch misprediction checkpointing and recovery logic.",
-        "The PRF scheme allows data values to be written once into a single dedicated register array, eliminating redundant data copying and wide data buses across the Reorder Buffer and issue queues.",
-        "The PRF scheme allows speculative load instructions to execute out-of-order without requiring address checks against uncommitted stores.",
-        "The PRF scheme completely eliminates the need for speculative Register Alias Tables (RAT) in the instruction decode stage.",
-        "The PRF scheme enforces in-order execution of arithmetic operations while allowing out-of-order execution only for memory accesses."
+        "To improve combinational logic delay and maximize the functional operating frequency (f_max) of the design.",
+        "To transform sequential circuit testing into combinational circuit testing by providing direct controllability and observability of internal state elements.",
+        "To automatically correct soft errors caused by cosmic rays and alpha particles during runtime execution.",
+        "To eliminate clock skew across long-distance distribution networks without requiring balanced clock trees.",
+        "To dynamically compress automated test pattern generation (ATPG) vectors directly inside the logic gates."
       ],
       "correct": 1
     },
     {
-      "question": "When designing a multi-stage flip-flop synchronizer to transfer a single-bit asynchronous signal across Clock Domain Crossing (CDC) boundaries, which relationship accurately captures the Mean Time Between Failures (MTBF) caused by flip-flop metastability?",
+      "question": "In modern pipelined microprocessor front-ends, what is the fundamental functional distinction between a Branch Target Buffer (BTB) and a directional branch predictor (such as a 2-bit saturating counter array)?",
       "options": [
-        "MTBF is inversely proportional to the resolution time available to the synchronizing latch, scaling as exp(-T_resolve / tau).",
-        "MTBF increases linearly with the source data transition frequency and the receiving clock frequency: MTBF proportional to f_clk * f_data.",
-        "MTBF is proportional to exp(T_resolve / tau) / (f_clk * f_data), where T_resolve is available settling time and tau is the flip-flop regenerative time constant.",
-        "MTBF is independent of clock frequency and determined solely by the supply voltage and flip-flop setup time.",
-        "MTBF scales as (tau / T_resolve) * log(f_clk * f_data), describing logarithmic improvement with increasing settling time."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In synchronous digital integrated circuit design and clock distribution network analysis, what is the fundamental distinction between 'clock skew' and 'clock jitter'?",
-      "options": [
-        "Clock skew is a dynamic cycle-to-cycle phase noise at a single pin, whereas clock jitter is a static routing mismatch across different clock domains.",
-        "Clock skew affects only setup time constraints, whereas clock jitter affects only hold time constraints.",
-        "Clock skew can be entirely eliminated using on-chip Phase-Locked Loops (PLLs), whereas clock jitter cannot be filtered by phase locked circuitry.",
-        "Clock skew is the spatial variation in arrival times of a clock edge at two different sequential elements during the same cycle, whereas clock jitter is the temporal variation in arrival time at a given clock sink across successive cycles.",
-        "Clock skew is caused solely by dynamic power supply noise (di/dt), whereas clock jitter is caused exclusively by static RC interconnect delay mismatch."
+        "A BTB tracks loop iteration trip counts, whereas a directional predictor tracks return addresses for nested subroutine calls.",
+        "A BTB predicts whether an indirect branch will trigger an architectural exception, whereas a directional predictor checks memory permissions.",
+        "A BTB is implemented in software within the operating system kernel, whereas a directional predictor is purely a microarchitectural hardware structure.",
+        "A BTB provides the predicted target memory address of an instruction during the fetch stage before instruction decoding, whereas a directional predictor determines whether a conditional branch is taken or not taken.",
+        "A BTB resolves data hazards caused by branch conditions, whereas a directional predictor resolves structural hazards in the arithmetic logic units."
       ],
       "correct": 3
     },
     {
-      "question": "In nanoscale CMOS device physics and low-power IC design, what fundamental physical mechanism dictates the 'Boltzmann tyranny', setting a lower limit of approximately 60 mV/decade on the subthreshold swing (SS) of conventional MOSFETs at room temperature (300 K)?",
+      "question": "In low-power synchronous digital design, why is an Integrated Clock Gating (ICG) cell structured with an active-low level-sensitive latch before the gating AND gate, rather than simply using a standalone two-input AND gate to gate the clock signal?",
       "options": [
-        "Direct quantum-mechanical tunneling of carriers from the source to the drain through the thin channel barrier.",
-        "The saturation of drift velocity caused by optical phonon scattering under high lateral electric fields.",
-        "Gate dielectric leakage current arising from Fowler-Nordheim field emission across the high-k oxide.",
-        "Band-to-band tunneling (BTBT) occurring across the reverse-biased drain-to-body junction under high supply voltages.",
-        "The thermal Maxwell-Boltzmann energy distribution tail of carriers crossing the channel electrostatic potential barrier via thermionic emission."
+        "It prevents hazards and runt pulses (glitches) on the gated clock output by ensuring the enable signal can only change state while the master clock is low.",
+        "It shifts the phase of the gated clock by 180 degrees to eliminate setup time violations in the downstream flip-flops.",
+        "It doubles the output drive strength of the clock net to avoid the necessity of inserting intermediate clock buffer trees.",
+        "It reduces the static leakage current of the downstream register bank to zero when the clock is held high.",
+        "It allows the clock gate to function as a dynamic level shifter between disparate supply voltage domains."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In deep-submicron Static Timing Analysis (STA) and signal integrity analysis, how does capacitive crosstalk coupling affect net delay when an 'aggressor' net and a parallel 'victim' net switch simultaneously in opposite directions?",
+      "options": [
+        "The effective coupling capacitance is virtually eliminated due to electrostatic shielding, minimizing wire delay.",
+        "The mutual inductance dominates, inducing an opposite polarity ringing pulse that speeds up victim signal propagation.",
+        "The effective coupling capacitance between the nets is amplified due to the Miller effect, significantly increasing the victim net's transition time and propagation delay.",
+        "The victim net's signal transition is accelerated toward the opposite supply rail, potentially resulting in a hold time violation.",
+        "The ground bounce on the common substrate neutralizes the crosstalk voltage spike, leaving timing completely unaffected."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In modern multi-core computer memory controllers, what is the primary scheduling principle of the First-Ready First-Come-First-Served (FR-FCFS) DRAM arbitration policy?",
+      "options": [
+        "It strictly prioritizes memory requests originating from high-priority CPU cores over background DMA write bursts regardless of row status.",
+        "It always alternates between read and write requests on every clock cycle to prevent the command bus from floating.",
+        "It services requests in strict chronological arrival order, only breaking ties using DRAM bank availability.",
+        "It schedules write operations only when the controller queues are completely full, executing a forced write-drain epoch.",
+        "It prioritizes requests that access already activated (open) DRAM row buffers before older requests targeting closed or conflicted rows, thereby maximizing row-buffer locality and bus throughput."
       ],
       "correct": 4
     }

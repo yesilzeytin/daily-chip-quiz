@@ -1,9 +1,4 @@
 [
-  "In out-of-order superscalar processor microarchitectures, why is register renaming fundamentally employed prior to instruction dispatch into reservation stations or issue queues?",
-  "In synchronous finite state machine (FSM) digital logic design, what is the fundamental structural distinction between a Moore machine and a Mealy machine?",
-  "In shared-memory multiprocessor architectures, what is the root cause of the performance degradation phenomenon known as 'false sharing'?",
-  "In deep-submicron CMOS reliability analysis, what is the primary physical cause and operational impact of Negative Bias Temperature Instability (NBTI)?",
-  "In standard-cell ASIC implementation and low-power digital design, what is the primary operational strategy of Multi-Threshold CMOS (Multi-Vt) optimization?",
   "In bulk CMOS digital integrated circuit design, what physical mechanism is responsible for 'latch-up', and what physical design layout technique is standardly used to prevent it?",
   "In synchronous digital IC design, why is an uncoordinated asynchronous reset release (de-assertion) dangerous, and how is it fundamentally resolved in robust sequential logic designs?",
   "In shared-memory multi-core computer architecture, what is the fundamental conceptual distinction between cache coherence and memory consistency?",
@@ -48,5 +43,10 @@
   "In modern out-of-order superscalar microarchitecture design, why do high-performance processors overwhelmingly favor an explicit Unified Physical Register File (PRF) organization over the classic scheme where the Reorder Buffer (ROB) itself stores speculative result values?",
   "When designing a multi-stage flip-flop synchronizer to transfer a single-bit asynchronous signal across Clock Domain Crossing (CDC) boundaries, which relationship accurately captures the Mean Time Between Failures (MTBF) caused by flip-flop metastability?",
   "In synchronous digital integrated circuit design and clock distribution network analysis, what is the fundamental distinction between 'clock skew' and 'clock jitter'?",
-  "In nanoscale CMOS device physics and low-power IC design, what fundamental physical mechanism dictates the 'Boltzmann tyranny', setting a lower limit of approximately 60 mV/decade on the subthreshold swing (SS) of conventional MOSFETs at room temperature (300 K)?"
+  "In nanoscale CMOS device physics and low-power IC design, what fundamental physical mechanism dictates the 'Boltzmann tyranny', setting a lower limit of approximately 60 mV/decade on the subthreshold swing (SS) of conventional MOSFETs at room temperature (300 K)?",
+  "In digital integrated circuit design and Design for Testability (DFT), what is the primary operational objective of inserting scan chains by replacing conventional flip-flops with scan flip-flops?",
+  "In modern pipelined microprocessor front-ends, what is the fundamental functional distinction between a Branch Target Buffer (BTB) and a directional branch predictor (such as a 2-bit saturating counter array)?",
+  "In low-power synchronous digital design, why is an Integrated Clock Gating (ICG) cell structured with an active-low level-sensitive latch before the gating AND gate, rather than simply using a standalone two-input AND gate to gate the clock signal?",
+  "In deep-submicron Static Timing Analysis (STA) and signal integrity analysis, how does capacitive crosstalk coupling affect net delay when an 'aggressor' net and a parallel 'victim' net switch simultaneously in opposite directions?",
+  "In modern multi-core computer memory controllers, what is the primary scheduling principle of the First-Ready First-Come-First-Served (FR-FCFS) DRAM arbitration policy?"
 ]
