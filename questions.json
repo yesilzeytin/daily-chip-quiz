@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital integrated circuit design and Design for Testability (DFT), what is the primary operational objective of inserting scan chains by replacing conventional flip-flops with scan flip-flops?",
+      "question": "In digital logic synthesis, what is the primary architectural trade-off of employing 'One-Hot' state encoding compared to minimal-bit binary encoding for a Finite State Machine (FSM)?",
       "options": [
-        "To improve combinational logic delay and maximize the functional operating frequency (f_max) of the design.",
-        "To transform sequential circuit testing into combinational circuit testing by providing direct controllability and observability of internal state elements.",
-        "To automatically correct soft errors caused by cosmic rays and alpha particles during runtime execution.",
-        "To eliminate clock skew across long-distance distribution networks without requiring balanced clock trees.",
-        "To dynamically compress automated test pattern generation (ATPG) vectors directly inside the logic gates."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In modern pipelined microprocessor front-ends, what is the fundamental functional distinction between a Branch Target Buffer (BTB) and a directional branch predictor (such as a 2-bit saturating counter array)?",
-      "options": [
-        "A BTB tracks loop iteration trip counts, whereas a directional predictor tracks return addresses for nested subroutine calls.",
-        "A BTB predicts whether an indirect branch will trigger an architectural exception, whereas a directional predictor checks memory permissions.",
-        "A BTB is implemented in software within the operating system kernel, whereas a directional predictor is purely a microarchitectural hardware structure.",
-        "A BTB provides the predicted target memory address of an instruction during the fetch stage before instruction decoding, whereas a directional predictor determines whether a conditional branch is taken or not taken.",
-        "A BTB resolves data hazards caused by branch conditions, whereas a directional predictor resolves structural hazards in the arithmetic logic units."
+        "It minimizes the number of state flip-flops required to ceil(log2 N), reducing total die area at the cost of slower transitions.",
+        "It eliminates all dynamic switching power because only one state bit switches per transition, unlike Gray encoding.",
+        "It completely prevents combinational glitches and race conditions without requiring synchronizers across asynchronous clock domains.",
+        "It uses exactly one flip-flop per state, which simplifies next-state combinational decoding logic and often enables higher operating frequencies, at the expense of using more flip-flops.",
+        "It allows the FSM to transition directly between arbitrary states without going through any clock cycle delays."
       ],
       "correct": 3
     },
     {
-      "question": "In low-power synchronous digital design, why is an Integrated Clock Gating (ICG) cell structured with an active-low level-sensitive latch before the gating AND gate, rather than simply using a standalone two-input AND gate to gate the clock signal?",
+      "question": "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the critical path delay limitation of a Ripple Carry Adder (RCA)?",
       "options": [
-        "It prevents hazards and runt pulses (glitches) on the gated clock output by ensuring the enable signal can only change state while the master clock is low.",
-        "It shifts the phase of the gated clock by 180 degrees to eliminate setup time violations in the downstream flip-flops.",
-        "It doubles the output drive strength of the clock net to avoid the necessity of inserting intermediate clock buffer trees.",
-        "It reduces the static leakage current of the downstream register bank to zero when the clock is held high.",
-        "It allows the clock gate to function as a dynamic level shifter between disparate supply voltage domains."
+        "By pre-computing carry generate and carry propagate signals for all bit positions in parallel, allowing all carry bits to be derived through wide multi-level logic without waiting for ripples from preceding stages.",
+        "By evaluating the sum bits sequentially while buffering intermediate carries using high-drive clock-gated registers.",
+        "By utilizing transmission gates rather than static CMOS logic to propagate the carry signal without incurring transistor gate delays.",
+        "By computing two addition results simultaneously (one assuming a carry-in of 0 and one assuming 1) and selecting the correct result with a multiplexer.",
+        "By converting standard binary inputs into redundant signed-digit representations to eliminate carry generation entirely."
       ],
       "correct": 0
     },
     {
-      "question": "In deep-submicron Static Timing Analysis (STA) and signal integrity analysis, how does capacitive crosstalk coupling affect net delay when an 'aggressor' net and a parallel 'victim' net switch simultaneously in opposite directions?",
+      "question": "In CMOS digital IC low-power design, why does Dynamic Voltage and Frequency Scaling (DVFS) yield an approximately cubic reduction in dynamic power dissipation when supply voltage and clock frequency are scaled down concurrently?",
       "options": [
-        "The effective coupling capacitance is virtually eliminated due to electrostatic shielding, minimizing wire delay.",
-        "The mutual inductance dominates, inducing an opposite polarity ringing pulse that speeds up victim signal propagation.",
-        "The effective coupling capacitance between the nets is amplified due to the Miller effect, significantly increasing the victim net's transition time and propagation delay.",
-        "The victim net's signal transition is accelerated toward the opposite supply rail, potentially resulting in a hold time violation.",
-        "The ground bounce on the common substrate neutralizes the crosstalk voltage spike, leaving timing completely unaffected."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In modern multi-core computer memory controllers, what is the primary scheduling principle of the First-Ready First-Come-First-Served (FR-FCFS) DRAM arbitration policy?",
-      "options": [
-        "It strictly prioritizes memory requests originating from high-priority CPU cores over background DMA write bursts regardless of row status.",
-        "It always alternates between read and write requests on every clock cycle to prevent the command bus from floating.",
-        "It services requests in strict chronological arrival order, only breaking ties using DRAM bank availability.",
-        "It schedules write operations only when the controller queues are completely full, executing a forced write-drain epoch.",
-        "It prioritizes requests that access already activated (open) DRAM row buffers before older requests targeting closed or conflicted rows, thereby maximizing row-buffer locality and bus throughput."
+        "Because clock distribution networks consume power proportional to Vdd^4, which averages out to Vdd^3 across the chip.",
+        "Because gate oxide leakage current scales exponentially with voltage while subthreshold leakage scales quadratically with frequency.",
+        "Because the switching activity factor decreases quadratically with clock frequency while load capacitance shrinks linearly with voltage.",
+        "Because lowering the supply voltage reduces junction temperature, which in turn causes an independent linear drop in dynamic capacitance.",
+        "Because dynamic power depends quadratically on supply voltage (P = a * C * Vdd^2 * f) and maximum operating frequency scales approximately linearly with supply voltage in super-threshold operation."
       ],
       "correct": 4
+    },
+    {
+      "question": "At sub-22nm technology nodes, why did the semiconductor industry transition from conventional planar bulk MOSFETs to 3D FinFET (and subsequently Gate-All-Around) transistor architectures?",
+      "options": [
+        "To replace silicon channels with high-mobility III-V materials that require vertical gate geometries to prevent mechanical strain failure.",
+        "To improve electrostatic gate control by wrapping the gate around multiple sides of a thin vertical channel, thereby suppressing short-channel effects and subthreshold leakage.",
+        "To eliminate gate dielectric tunneling leakage entirely by utilizing the vertical fin sidewalls as physical insulators.",
+        "To avoid using chemical mechanical planarization (CMP) in the manufacturing process by building transistors purely vertically above the substrate.",
+        "To double the clock frequency by utilizing both electron and hole conduction simultaneously within a single physical fin."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In shared-memory multiprocessor cache hierarchies, what is the specific operational purpose of the 'Owner' (O) state in the MOESI cache coherence protocol compared to the standard four-state MESI protocol?",
+      "options": [
+        "It marks a cache line as clean and unshared, allowing a core to modify it silently without issuing a bus invalidation transaction.",
+        "It designates the cache line that holds the single authoritative lock for synchronization primitives like compare-and-swap (CAS).",
+        "It allows a modified (dirty) cache line to be shared across multiple caches simultaneously without writing it back to main memory first, designating one cache to service read requests and perform eventual writeback.",
+        "It tracks which processor core currently possesses the hardware directory pointer for speculative out-of-order instruction replay.",
+        "It allows an evicted line to bypass lower-level caches and write directly into non-volatile storage to preserve persistent memory guarantees."
+      ],
+      "correct": 2
     }
   ]
 }

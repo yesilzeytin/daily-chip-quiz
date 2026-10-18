@@ -1,9 +1,4 @@
 [
-  "In bulk CMOS digital integrated circuit design, what physical mechanism is responsible for 'latch-up', and what physical design layout technique is standardly used to prevent it?",
-  "In synchronous digital IC design, why is an uncoordinated asynchronous reset release (de-assertion) dangerous, and how is it fundamentally resolved in robust sequential logic designs?",
-  "In shared-memory multi-core computer architecture, what is the fundamental conceptual distinction between cache coherence and memory consistency?",
-  "In high-performance microprocessor physical design and Clock Tree Synthesis (CTS), what is the primary architectural trade-off of employing a Clock Mesh network instead of a traditional balanced Clock Tree?",
-  "In high-performance out-of-order processor front-ends, what is the key operating principle of the TAGE (TAgged GEometric history length) branch predictor?",
   "In a classic five-stage RISC instruction pipeline (IF, ID, EX, MEM, WB), how does hardware data forwarding (operand bypassing) fundamentally mitigate performance degradation caused by Read-After-Write (RAW) data hazards?",
   "In digital CMOS circuit design and delay estimation, what does the concept of 'logical effort' (g) fundamentally characterize for a given logic gate?",
   "In low-power digital IC design implementing power gating (MTCMOS), what is the primary operational necessity of placing isolation cells at the boundaries between a power-gated domain and an always-on domain?",
@@ -48,5 +43,10 @@
   "In modern pipelined microprocessor front-ends, what is the fundamental functional distinction between a Branch Target Buffer (BTB) and a directional branch predictor (such as a 2-bit saturating counter array)?",
   "In low-power synchronous digital design, why is an Integrated Clock Gating (ICG) cell structured with an active-low level-sensitive latch before the gating AND gate, rather than simply using a standalone two-input AND gate to gate the clock signal?",
   "In deep-submicron Static Timing Analysis (STA) and signal integrity analysis, how does capacitive crosstalk coupling affect net delay when an 'aggressor' net and a parallel 'victim' net switch simultaneously in opposite directions?",
-  "In modern multi-core computer memory controllers, what is the primary scheduling principle of the First-Ready First-Come-First-Served (FR-FCFS) DRAM arbitration policy?"
+  "In modern multi-core computer memory controllers, what is the primary scheduling principle of the First-Ready First-Come-First-Served (FR-FCFS) DRAM arbitration policy?",
+  "In digital logic synthesis, what is the primary architectural trade-off of employing 'One-Hot' state encoding compared to minimal-bit binary encoding for a Finite State Machine (FSM)?",
+  "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the critical path delay limitation of a Ripple Carry Adder (RCA)?",
+  "In CMOS digital IC low-power design, why does Dynamic Voltage and Frequency Scaling (DVFS) yield an approximately cubic reduction in dynamic power dissipation when supply voltage and clock frequency are scaled down concurrently?",
+  "At sub-22nm technology nodes, why did the semiconductor industry transition from conventional planar bulk MOSFETs to 3D FinFET (and subsequently Gate-All-Around) transistor architectures?",
+  "In shared-memory multiprocessor cache hierarchies, what is the specific operational purpose of the 'Owner' (O) state in the MOESI cache coherence protocol compared to the standard four-state MESI protocol?"
 ]
