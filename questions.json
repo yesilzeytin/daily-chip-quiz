@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In digital logic synthesis, what is the primary architectural trade-off of employing 'One-Hot' state encoding compared to minimal-bit binary encoding for a Finite State Machine (FSM)?",
+      "question": "In high-performance ASIC and microprocessor physical design, what is the primary operational trade-off of implementing a Clock Mesh distribution network compared to a traditional balanced tree (such as an H-tree or CTS clock tree)?",
       "options": [
-        "It minimizes the number of state flip-flops required to ceil(log2 N), reducing total die area at the cost of slower transitions.",
-        "It eliminates all dynamic switching power because only one state bit switches per transition, unlike Gray encoding.",
-        "It completely prevents combinational glitches and race conditions without requiring synchronizers across asynchronous clock domains.",
-        "It uses exactly one flip-flop per state, which simplifies next-state combinational decoding logic and often enables higher operating frequencies, at the expense of using more flip-flops.",
-        "It allows the FSM to transition directly between arbitrary states without going through any clock cycle delays."
-      ],
-      "correct": 3
-    },
-    {
-      "question": "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the critical path delay limitation of a Ripple Carry Adder (RCA)?",
-      "options": [
-        "By pre-computing carry generate and carry propagate signals for all bit positions in parallel, allowing all carry bits to be derived through wide multi-level logic without waiting for ripples from preceding stages.",
-        "By evaluating the sum bits sequentially while buffering intermediate carries using high-drive clock-gated registers.",
-        "By utilizing transmission gates rather than static CMOS logic to propagate the carry signal without incurring transistor gate delays.",
-        "By computing two addition results simultaneously (one assuming a carry-in of 0 and one assuming 1) and selecting the correct result with a multiplexer.",
-        "By converting standard binary inputs into redundant signed-digit representations to eliminate carry generation entirely."
+        "It delivers significantly lower local clock skew and superior resilience to On-Chip Variation (OCV), at the expense of substantially higher dynamic power consumption and routing area.",
+        "It eliminates clock jitter entirely across the die, at the expense of requiring specialized analog PLLs at every sequential sink.",
+        "It reduces dynamic power dissipation by automatically gating clock sinks without integrated clock gating (ICG) cells, at the expense of increased propagation delay.",
+        "It completely prevents electromigration along clock spines, at the expense of requiring multi-voltage supply domains.",
+        "It guarantees zero insertion delay from the clock source to flip-flops, at the expense of high susceptibility to crosstalk noise."
       ],
       "correct": 0
     },
     {
-      "question": "In CMOS digital IC low-power design, why does Dynamic Voltage and Frequency Scaling (DVFS) yield an approximately cubic reduction in dynamic power dissipation when supply voltage and clock frequency are scaled down concurrently?",
+      "question": "In nanoscale CMOS digital IC reliability analysis, what physical degradation mechanism causes Negative Bias Temperature Instability (NBTI) in pMOS transistors, and what is its primary circuit-level consequence over operational lifetime?",
       "options": [
-        "Because clock distribution networks consume power proportional to Vdd^4, which averages out to Vdd^3 across the chip.",
-        "Because gate oxide leakage current scales exponentially with voltage while subthreshold leakage scales quadratically with frequency.",
-        "Because the switching activity factor decreases quadratically with clock frequency while load capacitance shrinks linearly with voltage.",
-        "Because lowering the supply voltage reduces junction temperature, which in turn causes an independent linear drop in dynamic capacitance.",
-        "Because dynamic power depends quadratically on supply voltage (P = a * C * Vdd^2 * f) and maximum operating frequency scales approximately linearly with supply voltage in super-threshold operation."
-      ],
-      "correct": 4
-    },
-    {
-      "question": "At sub-22nm technology nodes, why did the semiconductor industry transition from conventional planar bulk MOSFETs to 3D FinFET (and subsequently Gate-All-Around) transistor architectures?",
-      "options": [
-        "To replace silicon channels with high-mobility III-V materials that require vertical gate geometries to prevent mechanical strain failure.",
-        "To improve electrostatic gate control by wrapping the gate around multiple sides of a thin vertical channel, thereby suppressing short-channel effects and subthreshold leakage.",
-        "To eliminate gate dielectric tunneling leakage entirely by utilizing the vertical fin sidewalls as physical insulators.",
-        "To avoid using chemical mechanical planarization (CMP) in the manufacturing process by building transistors purely vertically above the substrate.",
-        "To double the clock frequency by utilizing both electron and hole conduction simultaneously within a single physical fin."
+        "High-energy carrier collisions generate electron-hole pairs near the drain region, reducing gate dielectric leakage and decreasing propagation delay.",
+        "Prolonged negative gate-to-source bias at elevated temperatures breaks silicon-hydrogen bonds at the gate dielectric interface, creating interface traps that increase the absolute threshold voltage (|V_th|) and degrade circuit speed.",
+        "Dielectric breakdown occurs along the source-drain channel due to quantum tunneling, resulting in an unrecoverable short circuit between power and ground rails.",
+        "Atomic migration along high-current interconnect vias causes void formation, increasing contact resistance and causing excessive static IR drop.",
+        "Hot electrons become trapped in the sidewall spacers during switching transitions, lowering the subthreshold slope and accelerating subthreshold leakage."
       ],
       "correct": 1
     },
     {
-      "question": "In shared-memory multiprocessor cache hierarchies, what is the specific operational purpose of the 'Owner' (O) state in the MOESI cache coherence protocol compared to the standard four-state MESI protocol?",
+      "question": "In early pipelined RISC architectures (such as classic MIPS and SPARC), what was the fundamental architectural rationale for introducing a 'branch delay slot'?",
       "options": [
-        "It marks a cache line as clean and unshared, allowing a core to modify it silently without issuing a bus invalidation transaction.",
-        "It designates the cache line that holds the single authoritative lock for synchronization primitives like compare-and-swap (CAS).",
-        "It allows a modified (dirty) cache line to be shared across multiple caches simultaneously without writing it back to main memory first, designating one cache to service read requests and perform eventual writeback.",
-        "It tracks which processor core currently possesses the hardware directory pointer for speculative out-of-order instruction replay.",
-        "It allows an evicted line to bypass lower-level caches and write directly into non-volatile storage to preserve persistent memory guarantees."
+        "To ensure that interrupts occurring immediately after a branch instruction could be handled with precise exception semantics.",
+        "To allow the processor to fetch and execute instructions speculatively from both the fall-through path and the target path simultaneously.",
+        "To utilize the execution cycle required to compute the branch target and evaluate the condition, thereby avoiding a pipeline stall bubble without requiring branch prediction hardware.",
+        "To allow the compiler to reorder multi-cycle floating-point load operations across function call boundaries.",
+        "To dynamically update the branch history table before the next conditional instruction enters the decode stage."
       ],
       "correct": 2
+    },
+    {
+      "question": "In modern relaxed memory consistency models (such as those found in ARMv8, RISC-V, and C++11), how do 'Acquire' and 'Release' memory synchronization operations constrain the ordering of memory accesses?",
+      "options": [
+        "An Acquire operation orders all subsequent stores before earlier loads, while a Release operation stalls the pipeline until all L1 cache lines are invalidated.",
+        "An Acquire operation guarantees that all preceding memory accesses complete globally before it executes, while a Release operation prevents any subsequent reads from being fetched.",
+        "An Acquire operation flushes the local processor store buffer to DRAM, while a Release operation locks the target cache line across all shared cores.",
+        "An Acquire operation prevents subsequent memory reads and writes from being reordered before it, while a Release operation prevents preceding memory reads and writes from being reordered after it.",
+        "An Acquire operation forces atomic Read-Modify-Write execution, while a Release operation converts all speculative stores into non-speculative write-through operations."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In digital arithmetic, when performing addition on two signed n-bit two's complement integers using a standard binary adder, which logic condition strictly and reliably indicates that an arithmetic overflow has occurred?",
+      "options": [
+        "The carry-out of the least significant bit (C_1) is high.",
+        "The carry-out from the most significant bit (C_n) is 1, regardless of the operand signs.",
+        "The sign bit of the sum matches the sign bits of both operands.",
+        "The two operands have opposite signs and the computed sum is zero.",
+        "The carry-in into the most significant bit position (C_{n-1}) does not equal the carry-out from the most significant bit position (C_n)."
+      ],
+      "correct": 4
     }
   ]
 }

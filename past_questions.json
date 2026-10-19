@@ -1,9 +1,4 @@
 [
-  "In a classic five-stage RISC instruction pipeline (IF, ID, EX, MEM, WB), how does hardware data forwarding (operand bypassing) fundamentally mitigate performance degradation caused by Read-After-Write (RAW) data hazards?",
-  "In digital CMOS circuit design and delay estimation, what does the concept of 'logical effort' (g) fundamentally characterize for a given logic gate?",
-  "In low-power digital IC design implementing power gating (MTCMOS), what is the primary operational necessity of placing isolation cells at the boundaries between a power-gated domain and an always-on domain?",
-  "In shared-memory multi-core computer architecture, what memory operation reordering is permissible under the Total Store Order (TSO) memory consistency model (as implemented in x86 architectures)?",
-  "In dynamic Domino CMOS logic design, what is the primary operational role of a weak PMOS keeper (bleeder) transistor attached to the dynamic node, and what is its fundamental design trade-off?",
   "In memory hierarchy design, what is the primary operational distinction between a Write-Through cache and a Write-Back cache?",
   "In digital IC design, why are Gray code counters universally preferred over standard binary counters for transmitting read and write pointers across asynchronous Clock Domain Crossing (CDC) FIFOs?",
   "In pipelined and out-of-order processor microarchitectures, which of the following conditions is strictly required to guarantee that an interrupt or exception is handled as a 'precise exception'?",
@@ -48,5 +43,10 @@
   "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the critical path delay limitation of a Ripple Carry Adder (RCA)?",
   "In CMOS digital IC low-power design, why does Dynamic Voltage and Frequency Scaling (DVFS) yield an approximately cubic reduction in dynamic power dissipation when supply voltage and clock frequency are scaled down concurrently?",
   "At sub-22nm technology nodes, why did the semiconductor industry transition from conventional planar bulk MOSFETs to 3D FinFET (and subsequently Gate-All-Around) transistor architectures?",
-  "In shared-memory multiprocessor cache hierarchies, what is the specific operational purpose of the 'Owner' (O) state in the MOESI cache coherence protocol compared to the standard four-state MESI protocol?"
+  "In shared-memory multiprocessor cache hierarchies, what is the specific operational purpose of the 'Owner' (O) state in the MOESI cache coherence protocol compared to the standard four-state MESI protocol?",
+  "In high-performance ASIC and microprocessor physical design, what is the primary operational trade-off of implementing a Clock Mesh distribution network compared to a traditional balanced tree (such as an H-tree or CTS clock tree)?",
+  "In nanoscale CMOS digital IC reliability analysis, what physical degradation mechanism causes Negative Bias Temperature Instability (NBTI) in pMOS transistors, and what is its primary circuit-level consequence over operational lifetime?",
+  "In early pipelined RISC architectures (such as classic MIPS and SPARC), what was the fundamental architectural rationale for introducing a 'branch delay slot'?",
+  "In modern relaxed memory consistency models (such as those found in ARMv8, RISC-V, and C++11), how do 'Acquire' and 'Release' memory synchronization operations constrain the ordering of memory accesses?",
+  "In digital arithmetic, when performing addition on two signed n-bit two's complement integers using a standard binary adder, which logic condition strictly and reliably indicates that an arithmetic overflow has occurred?"
 ]
