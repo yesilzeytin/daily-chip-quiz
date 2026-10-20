@@ -1,9 +1,4 @@
 [
-  "In memory hierarchy design, what is the primary operational distinction between a Write-Through cache and a Write-Back cache?",
-  "In digital IC design, why are Gray code counters universally preferred over standard binary counters for transmitting read and write pointers across asynchronous Clock Domain Crossing (CDC) FIFOs?",
-  "In pipelined and out-of-order processor microarchitectures, which of the following conditions is strictly required to guarantee that an interrupt or exception is handled as a 'precise exception'?",
-  "In integrated circuit physical design and reliability analysis, what physical mechanism causes electromigration (EM) in on-chip metallic interconnects, and what layout design rule is applied to mitigate it?",
-  "In modern high-performance microprocessor architecture, how does Simultaneous Multithreading (SMT) fundamentally improve pipeline utilization compared to coarse-grained (temporal) multithreading?",
   "In computer architecture and memory management, what is the primary role of a Translation Lookaside Buffer (TLB)?",
   "In deep-submicron ASIC physical design and fabrication, what is the 'antenna effect' (plasma-induced gate oxide damage), and how is it standardly mitigated during physical layout?",
   "In hierarchical cache subsystem design, what is the primary architectural advantage of enforcing a strictly 'Inclusive' multi-level cache policy (e.g., L2 is strictly inclusive of L1)?",
@@ -48,5 +43,10 @@
   "In nanoscale CMOS digital IC reliability analysis, what physical degradation mechanism causes Negative Bias Temperature Instability (NBTI) in pMOS transistors, and what is its primary circuit-level consequence over operational lifetime?",
   "In early pipelined RISC architectures (such as classic MIPS and SPARC), what was the fundamental architectural rationale for introducing a 'branch delay slot'?",
   "In modern relaxed memory consistency models (such as those found in ARMv8, RISC-V, and C++11), how do 'Acquire' and 'Release' memory synchronization operations constrain the ordering of memory accesses?",
-  "In digital arithmetic, when performing addition on two signed n-bit two's complement integers using a standard binary adder, which logic condition strictly and reliably indicates that an arithmetic overflow has occurred?"
+  "In digital arithmetic, when performing addition on two signed n-bit two's complement integers using a standard binary adder, which logic condition strictly and reliably indicates that an arithmetic overflow has occurred?",
+  "In modern out-of-order superscalar microarchitectures, what is 'store-to-load forwarding', and under what condition is it typically performed?",
+  "In low-power digital IC design utilizing power gating (such as MTCMOS), what is the primary operational role of an 'isolation cell'?",
+  "In high-performance digital IC design, what is the timing phenomenon known as 'time borrowing' (or 'cycle stealing'), and why is it unique to transparent latch-based pipelines compared to edge-triggered flip-flop pipelines?",
+  "In digital Finite State Machine (FSM) design, what is the fundamental functional distinction between a Moore machine and a Mealy machine?",
+  "In symmetric multiprocessing (SMP) and multi-core shared memory architectures, what is 'false sharing', and what is its primary microarchitectural consequence?"
 ]

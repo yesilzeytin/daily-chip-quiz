@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In high-performance ASIC and microprocessor physical design, what is the primary operational trade-off of implementing a Clock Mesh distribution network compared to a traditional balanced tree (such as an H-tree or CTS clock tree)?",
+      "question": "In modern out-of-order superscalar microarchitectures, what is 'store-to-load forwarding', and under what condition is it typically performed?",
       "options": [
-        "It delivers significantly lower local clock skew and superior resilience to On-Chip Variation (OCV), at the expense of substantially higher dynamic power consumption and routing area.",
-        "It eliminates clock jitter entirely across the die, at the expense of requiring specialized analog PLLs at every sequential sink.",
-        "It reduces dynamic power dissipation by automatically gating clock sinks without integrated clock gating (ICG) cells, at the expense of increased propagation delay.",
-        "It completely prevents electromigration along clock spines, at the expense of requiring multi-voltage supply domains.",
-        "It guarantees zero insertion delay from the clock source to flip-flops, at the expense of high susceptibility to crosstalk noise."
+        "A speculative load instruction bypasses the L1 data cache access by receiving its data directly from an older, uncommitted store residing in the store queue that targets the same memory address.",
+        "An uncommitted store writes its speculative result directly into the instruction cache to pre-decode self-modifying code sequences.",
+        "A retired load instruction forwards its cached result back to the branch prediction unit to update pattern history tables before commit.",
+        "Multiple consecutive memory write operations targeting contiguous physical addresses are concatenated into a single atomic burst write to DRAM.",
+        "The reorder buffer directly supplies operand data to the floating-point register file during thread synchronization barriers."
       ],
       "correct": 0
     },
     {
-      "question": "In nanoscale CMOS digital IC reliability analysis, what physical degradation mechanism causes Negative Bias Temperature Instability (NBTI) in pMOS transistors, and what is its primary circuit-level consequence over operational lifetime?",
+      "question": "In low-power digital IC design utilizing power gating (such as MTCMOS), what is the primary operational role of an 'isolation cell'?",
       "options": [
-        "High-energy carrier collisions generate electron-hole pairs near the drain region, reducing gate dielectric leakage and decreasing propagation delay.",
-        "Prolonged negative gate-to-source bias at elevated temperatures breaks silicon-hydrogen bonds at the gate dielectric interface, creating interface traps that increase the absolute threshold voltage (|V_th|) and degrade circuit speed.",
-        "Dielectric breakdown occurs along the source-drain channel due to quantum tunneling, resulting in an unrecoverable short circuit between power and ground rails.",
-        "Atomic migration along high-current interconnect vias causes void formation, increasing contact resistance and causing excessive static IR drop.",
-        "Hot electrons become trapped in the sidewall spacers during switching transitions, lowering the subthreshold slope and accelerating subthreshold leakage."
+        "To dynamically boost the driving current of clock nets entering a sleeping power domain to minimize transition slew.",
+        "To clamp the boundary signals of a powered-down domain to a known, stable logic state (logic-0 or logic-1), preventing floating inputs and crowbar currents in active downstream blocks.",
+        "To eliminate high-energy alpha particle single-event upsets (SEUs) in non-retention configuration flip-flops.",
+        "To isolate the analog ground substrate from digital switching noise during high-speed transceiver bursts.",
+        "To decouple the power distribution network using high-density metal-insulator-metal (MIM) capacitors during dynamic supply voltage transitions."
       ],
       "correct": 1
     },
     {
-      "question": "In early pipelined RISC architectures (such as classic MIPS and SPARC), what was the fundamental architectural rationale for introducing a 'branch delay slot'?",
+      "question": "In high-performance digital IC design, what is the timing phenomenon known as 'time borrowing' (or 'cycle stealing'), and why is it unique to transparent latch-based pipelines compared to edge-triggered flip-flop pipelines?",
       "options": [
-        "To ensure that interrupts occurring immediately after a branch instruction could be handled with precise exception semantics.",
-        "To allow the processor to fetch and execute instructions speculatively from both the fall-through path and the target path simultaneously.",
-        "To utilize the execution cycle required to compute the branch target and evaluate the condition, thereby avoiding a pipeline stall bubble without requiring branch prediction hardware.",
-        "To allow the compiler to reorder multi-cycle floating-point load operations across function call boundaries.",
-        "To dynamically update the branch history table before the next conditional instruction enters the decode stage."
+        "It dynamically shifts the clock duty cycle from 50% to 75% via hardware PLLs whenever setup slack on critical paths becomes negative.",
+        "It allows hold time violations to be converted into setup time margins by automatically adding programmable delay buffers to the clock distribution network.",
+        "Because a latch remains transparent throughout an entire clock phase, combinational logic delay exceeding a nominal half-cycle can extend into the subsequent clock phase without timing failure, provided setup time is met before the latch closes.",
+        "It enables an edge-triggered flip-flop to sample incoming data alternately on rising and falling clock edges to double data throughput at the same clock frequency.",
+        "It reclaims power dissipation by borrowing charge from unasserted bitlines in adjacent SRAM banks during read precharge cycles."
       ],
       "correct": 2
     },
     {
-      "question": "In modern relaxed memory consistency models (such as those found in ARMv8, RISC-V, and C++11), how do 'Acquire' and 'Release' memory synchronization operations constrain the ordering of memory accesses?",
+      "question": "In digital Finite State Machine (FSM) design, what is the fundamental functional distinction between a Moore machine and a Mealy machine?",
       "options": [
-        "An Acquire operation orders all subsequent stores before earlier loads, while a Release operation stalls the pipeline until all L1 cache lines are invalidated.",
-        "An Acquire operation guarantees that all preceding memory accesses complete globally before it executes, while a Release operation prevents any subsequent reads from being fetched.",
-        "An Acquire operation flushes the local processor store buffer to DRAM, while a Release operation locks the target cache line across all shared cores.",
-        "An Acquire operation prevents subsequent memory reads and writes from being reordered before it, while a Release operation prevents preceding memory reads and writes from being reordered after it.",
-        "An Acquire operation forces atomic Read-Modify-Write execution, while a Release operation converts all speculative stores into non-speculative write-through operations."
+        "A Mealy machine can only be implemented using asynchronous latches, whereas a Moore machine strictly requires synchronous edge-triggered flip-flops.",
+        "A Moore machine's next-state logic is purely combinational, whereas a Mealy machine computes its next state using sequential shift registers.",
+        "A Mealy machine is immune to combinational logic glitches on its outputs, whereas a Moore machine typically propagates input glitches directly to its outputs.",
+        "A Moore machine's outputs depend exclusively on its current state, whereas a Mealy machine's outputs depend on both its current state and its current inputs.",
+        "A Moore machine always requires strictly fewer states than an equivalent Mealy machine to implement identical sequence detection logic."
       ],
       "correct": 3
     },
     {
-      "question": "In digital arithmetic, when performing addition on two signed n-bit two's complement integers using a standard binary adder, which logic condition strictly and reliably indicates that an arithmetic overflow has occurred?",
+      "question": "In symmetric multiprocessing (SMP) and multi-core shared memory architectures, what is 'false sharing', and what is its primary microarchitectural consequence?",
       "options": [
-        "The carry-out of the least significant bit (C_1) is high.",
-        "The carry-out from the most significant bit (C_n) is 1, regardless of the operand signs.",
-        "The sign bit of the sum matches the sign bits of both operands.",
-        "The two operands have opposite signs and the computed sum is zero.",
-        "The carry-in into the most significant bit position (C_{n-1}) does not equal the carry-out from the most significant bit position (C_n)."
+        "Multiple processor threads attempt to acquire the same mutual exclusion lock simultaneously, resulting in excessive OS context switching.",
+        "Multiple virtual addresses belonging to independent processes map to the exact same physical cache index, resulting in systematic capacity misses.",
+        "Two cores concurrently execute atomic Compare-And-Swap (CAS) instructions on the same memory location, causing heavy arbitration stall cycles on the interconnect.",
+        "A core reads stale, uncommitted data directly from another core's store buffer due to an unresolved memory ordering violation.",
+        "Independent variables accessed concurrently by different processor cores reside on the same cache line, triggering ping-pong invalidations and severe coherence traffic despite no real data sharing."
       ],
       "correct": 4
     }
