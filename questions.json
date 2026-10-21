@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In modern out-of-order superscalar microarchitectures, what is 'store-to-load forwarding', and under what condition is it typically performed?",
+      "question": "In an out-of-order superscalar processor featuring speculative execution, how does the microarchitecture fundamentally maintain 'precise exceptions'?",
       "options": [
-        "A speculative load instruction bypasses the L1 data cache access by receiving its data directly from an older, uncommitted store residing in the store queue that targets the same memory address.",
-        "An uncommitted store writes its speculative result directly into the instruction cache to pre-decode self-modifying code sequences.",
-        "A retired load instruction forwards its cached result back to the branch prediction unit to update pattern history tables before commit.",
-        "Multiple consecutive memory write operations targeting contiguous physical addresses are concatenated into a single atomic burst write to DRAM.",
-        "The reorder buffer directly supplies operand data to the floating-point register file during thread synchronization barriers."
+        "By deferring exception handling until the faulting instruction reaches the retirement stage at the head of the Reorder Buffer, ensuring prior instructions commit and speculative subsequent instructions can be cleanly discarded.",
+        "By halting instruction fetch and decode immediately whenever an instruction with potential fault behavior (such as a load, store, or division) enters the execution pipelines.",
+        "By checkpointing the entire physical register file and memory hierarchy to dedicated on-chip shadow registers on every single clock cycle.",
+        "By enforcing strictly in-order execution for all arithmetic instructions while permitting only non-faulting memory load operations to execute out of order.",
+        "By discarding speculative results and rolling back architectural state immediately when an execution unit signals an exception, without waiting for older in-flight instructions."
       ],
       "correct": 0
     },
     {
-      "question": "In low-power digital IC design utilizing power gating (such as MTCMOS), what is the primary operational role of an 'isolation cell'?",
+      "question": "In a classical pipelined microprocessor (such as the standard 5-stage RISC pipeline), what is the primary operational objective of hardware operand forwarding (data bypassing)?",
       "options": [
-        "To dynamically boost the driving current of clock nets entering a sleeping power domain to minimize transition slew.",
-        "To clamp the boundary signals of a powered-down domain to a known, stable logic state (logic-0 or logic-1), preventing floating inputs and crowbar currents in active downstream blocks.",
-        "To eliminate high-energy alpha particle single-event upsets (SEUs) in non-retention configuration flip-flops.",
-        "To isolate the analog ground substrate from digital switching noise during high-speed transceiver bursts.",
-        "To decouple the power distribution network using high-density metal-insulator-metal (MIM) capacitors during dynamic supply voltage transitions."
+        "To allow instructions to be fetched and executed speculatively past unresolved conditional branch instructions.",
+        "To route an uncommitted result directly from an execution or memory stage to a dependent instruction's ALU input, eliminating pipeline stall cycles caused by read-after-write (RAW) hazards.",
+        "To arbitrate structural hazards when instruction fetch and data memory access simultaneously target a single unified cache.",
+        "To allow the register file to complete write operations on the falling clock edge while reads occur on the rising clock edge.",
+        "To dynamically reorder independent instructions in the pipeline to maximize arithmetic execution unit utilization."
       ],
       "correct": 1
     },
     {
-      "question": "In high-performance digital IC design, what is the timing phenomenon known as 'time borrowing' (or 'cycle stealing'), and why is it unique to transparent latch-based pipelines compared to edge-triggered flip-flop pipelines?",
+      "question": "In dynamic CMOS logic design, why must a static CMOS inverter be placed at the output of a dynamic gate to create a valid, cascadable 'Domino logic' stage?",
       "options": [
-        "It dynamically shifts the clock duty cycle from 50% to 75% via hardware PLLs whenever setup slack on critical paths becomes negative.",
-        "It allows hold time violations to be converted into setup time margins by automatically adding programmable delay buffers to the clock distribution network.",
-        "Because a latch remains transparent throughout an entire clock phase, combinational logic delay exceeding a nominal half-cycle can extend into the subsequent clock phase without timing failure, provided setup time is met before the latch closes.",
-        "It enables an edge-triggered flip-flop to sample incoming data alternately on rising and falling clock edges to double data throughput at the same clock frequency.",
-        "It reclaims power dissipation by borrowing charge from unasserted bitlines in adjacent SRAM banks during read precharge cycles."
+        "To restore full rail-to-rail voltage swings because dynamic logic nodes can only charge up to VDD - Vth during the precharge phase.",
+        "To invert the boolean polarity because dynamic pull-down networks are physically incapable of synthesizing inverting logic functions.",
+        "To satisfy the monotonicity requirement by ensuring that all inputs to subsequent dynamic stages remain low during precharge and only make 0-to-1 transitions during the evaluation phase.",
+        "To act as a feedback keeper circuit that prevents subthreshold leakage current from draining the precharged dynamic node over long clock periods.",
+        "To decouple the dynamic evaluate network from the precharge clock line, thereby eliminating clock feedthrough and charge injection noise."
       ],
       "correct": 2
     },
     {
-      "question": "In digital Finite State Machine (FSM) design, what is the fundamental functional distinction between a Moore machine and a Mealy machine?",
+      "question": "In multi-clock-domain SoC design, why are the read and write pointers of an asynchronous dual-clock FIFO encoded in Gray code prior to crossing the clock domain boundary?",
       "options": [
-        "A Mealy machine can only be implemented using asynchronous latches, whereas a Moore machine strictly requires synchronous edge-triggered flip-flops.",
-        "A Moore machine's next-state logic is purely combinational, whereas a Mealy machine computes its next state using sequential shift registers.",
-        "A Mealy machine is immune to combinational logic glitches on its outputs, whereas a Moore machine typically propagates input glitches directly to its outputs.",
-        "A Moore machine's outputs depend exclusively on its current state, whereas a Mealy machine's outputs depend on both its current state and its current inputs.",
-        "A Moore machine always requires strictly fewer states than an equivalent Mealy machine to implement identical sequence detection logic."
+        "To reduce routing congestion across the floorplan by halving the total number of physical interconnect wires required for pointer transmission.",
+        "To eliminate the need for multi-stage flip-flop synchronizers by utilizing the inherent metastability immunity of Gray-coded signals.",
+        "To simplify the pointer arithmetic logic because Gray-code incrementers require substantially fewer combinational gates than binary adders.",
+        "To guarantee that only one bit changes per counter increment, preventing multi-bit transition skew from producing corrupt intermediate pointer values when sampled by the destination clock.",
+        "To allow cyclic redundancy checks (CRC) and parity schemes to perform single-cycle error correction across asynchronous boundaries."
       ],
       "correct": 3
     },
     {
-      "question": "In symmetric multiprocessing (SMP) and multi-core shared memory architectures, what is 'false sharing', and what is its primary microarchitectural consequence?",
+      "question": "In deep-submicron integrated circuit reliability analysis, what physical mechanism fundamentally drives electromigration in on-chip metallic interconnects, and what is its primary macroscopic circuit failure mode?",
       "options": [
-        "Multiple processor threads attempt to acquire the same mutual exclusion lock simultaneously, resulting in excessive OS context switching.",
-        "Multiple virtual addresses belonging to independent processes map to the exact same physical cache index, resulting in systematic capacity misses.",
-        "Two cores concurrently execute atomic Compare-And-Swap (CAS) instructions on the same memory location, causing heavy arbitration stall cycles on the interconnect.",
-        "A core reads stale, uncommitted data directly from another core's store buffer due to an unresolved memory ordering violation.",
-        "Independent variables accessed concurrently by different processor cores reside on the same cache line, triggering ping-pong invalidations and severe coherence traffic despite no real data sharing."
+        "High transverse electric fields causing catastrophic dielectric breakdown between adjacent metal layers, resulting in interlayer short circuits.",
+        "Cyclic thermal expansion mismatch between copper lines and the surrounding low-k dielectric, producing mechanical fatigue fractures and trace peeling.",
+        "Hot carrier injection into the inter-metal dielectric, leading to gradual parasitic capacitive coupling shifts across neighboring interconnects.",
+        "Spontaneous chemical oxidation of copper lines when exposed to sub-surface moisture, creating progressive resistance increases across the chip.",
+        "Momentum transfer from high-density conduction electron flux to metal lattice ions ('electron wind'), causing directional mass transport that creates voids (open circuits) and hillocks (short circuits)."
       ],
       "correct": 4
     }

@@ -1,9 +1,4 @@
 [
-  "In computer architecture and memory management, what is the primary role of a Translation Lookaside Buffer (TLB)?",
-  "In deep-submicron ASIC physical design and fabrication, what is the 'antenna effect' (plasma-induced gate oxide damage), and how is it standardly mitigated during physical layout?",
-  "In hierarchical cache subsystem design, what is the primary architectural advantage of enforcing a strictly 'Inclusive' multi-level cache policy (e.g., L2 is strictly inclusive of L1)?",
-  "In Static Timing Analysis (STA) under On-Chip Variation (OCV) derating, what is the fundamental purpose of Clock Reconvergence Pessimism Removal (CRPR), also known as Common Path Pessimism Removal (CPPR)?",
-  "In asynchronous and combinational digital circuit design, what causes a static-1 hazard, and how is it fundamentally eliminated in two-level Sum-of-Products (SOP) logic?",
   "In instruction-level parallelism (ILP) architecture design, what is the fundamental operational difference between a Very Long Instruction Word (VLIW) processor and a dynamically scheduled superscalar processor?",
   "In CMOS digital circuit design, why is a full transmission gate constructed by connecting an NMOS transistor and a PMOS transistor in parallel, rather than using a single NMOS pass transistor?",
   "In digital arithmetic circuit design, what structural technique allows a Wallace tree multiplier to achieve an O(log n) critical path latency compared to the O(n) latency of a standard array multiplier?",
@@ -48,5 +43,10 @@
   "In low-power digital IC design utilizing power gating (such as MTCMOS), what is the primary operational role of an 'isolation cell'?",
   "In high-performance digital IC design, what is the timing phenomenon known as 'time borrowing' (or 'cycle stealing'), and why is it unique to transparent latch-based pipelines compared to edge-triggered flip-flop pipelines?",
   "In digital Finite State Machine (FSM) design, what is the fundamental functional distinction between a Moore machine and a Mealy machine?",
-  "In symmetric multiprocessing (SMP) and multi-core shared memory architectures, what is 'false sharing', and what is its primary microarchitectural consequence?"
+  "In symmetric multiprocessing (SMP) and multi-core shared memory architectures, what is 'false sharing', and what is its primary microarchitectural consequence?",
+  "In an out-of-order superscalar processor featuring speculative execution, how does the microarchitecture fundamentally maintain 'precise exceptions'?",
+  "In a classical pipelined microprocessor (such as the standard 5-stage RISC pipeline), what is the primary operational objective of hardware operand forwarding (data bypassing)?",
+  "In dynamic CMOS logic design, why must a static CMOS inverter be placed at the output of a dynamic gate to create a valid, cascadable 'Domino logic' stage?",
+  "In multi-clock-domain SoC design, why are the read and write pointers of an asynchronous dual-clock FIFO encoded in Gray code prior to crossing the clock domain boundary?",
+  "In deep-submicron integrated circuit reliability analysis, what physical mechanism fundamentally drives electromigration in on-chip metallic interconnects, and what is its primary macroscopic circuit failure mode?"
 ]
