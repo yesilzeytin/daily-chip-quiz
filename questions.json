@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In an out-of-order superscalar processor featuring speculative execution, how does the microarchitecture fundamentally maintain 'precise exceptions'?",
+      "question": "In pipelined processor microarchitecture, what fundamentally characterizes a structural hazard?",
       "options": [
-        "By deferring exception handling until the faulting instruction reaches the retirement stage at the head of the Reorder Buffer, ensuring prior instructions commit and speculative subsequent instructions can be cleanly discarded.",
-        "By halting instruction fetch and decode immediately whenever an instruction with potential fault behavior (such as a load, store, or division) enters the execution pipelines.",
-        "By checkpointing the entire physical register file and memory hierarchy to dedicated on-chip shadow registers on every single clock cycle.",
-        "By enforcing strictly in-order execution for all arithmetic instructions while permitting only non-faulting memory load operations to execute out of order.",
-        "By discarding speculative results and rolling back architectural state immediately when an execution unit signals an exception, without waiting for older in-flight instructions."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In a classical pipelined microprocessor (such as the standard 5-stage RISC pipeline), what is the primary operational objective of hardware operand forwarding (data bypassing)?",
-      "options": [
-        "To allow instructions to be fetched and executed speculatively past unresolved conditional branch instructions.",
-        "To route an uncommitted result directly from an execution or memory stage to a dependent instruction's ALU input, eliminating pipeline stall cycles caused by read-after-write (RAW) hazards.",
-        "To arbitrate structural hazards when instruction fetch and data memory access simultaneously target a single unified cache.",
-        "To allow the register file to complete write operations on the falling clock edge while reads occur on the rising clock edge.",
-        "To dynamically reorder independent instructions in the pipeline to maximize arithmetic execution unit utilization."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In dynamic CMOS logic design, why must a static CMOS inverter be placed at the output of a dynamic gate to create a valid, cascadable 'Domino logic' stage?",
-      "options": [
-        "To restore full rail-to-rail voltage swings because dynamic logic nodes can only charge up to VDD - Vth during the precharge phase.",
-        "To invert the boolean polarity because dynamic pull-down networks are physically incapable of synthesizing inverting logic functions.",
-        "To satisfy the monotonicity requirement by ensuring that all inputs to subsequent dynamic stages remain low during precharge and only make 0-to-1 transitions during the evaluation phase.",
-        "To act as a feedback keeper circuit that prevents subthreshold leakage current from draining the precharged dynamic node over long clock periods.",
-        "To decouple the dynamic evaluate network from the precharge clock line, thereby eliminating clock feedthrough and charge injection noise."
+        "A dependent instruction attempts to read a register before an earlier instruction in the pipeline has written its result back to the register file.",
+        "The processor encounters a conditional branch or jump instruction whose target address or outcome is not yet resolved.",
+        "Two or more concurrent instructions in different pipeline stages require access to the exact same physical hardware resource in the same clock cycle.",
+        "Successive instructions attempt to write to the same architectural destination register in an order that violates program semantics.",
+        "An instruction raises a hardware exception during execution, requiring subsequent instructions in the pipeline to be flushed."
       ],
       "correct": 2
     },
     {
-      "question": "In multi-clock-domain SoC design, why are the read and write pointers of an asynchronous dual-clock FIFO encoded in Gray code prior to crossing the clock domain boundary?",
+      "question": "In deep-submicron CMOS physical design and fabrication, what is the 'antenna effect' (plasma-induced damage), and how is it standardly mitigated during routing?",
       "options": [
-        "To reduce routing congestion across the floorplan by halving the total number of physical interconnect wires required for pointer transmission.",
-        "To eliminate the need for multi-stage flip-flop synchronizers by utilizing the inherent metastability immunity of Gray-coded signals.",
-        "To simplify the pointer arithmetic logic because Gray-code incrementers require substantially fewer combinational gates than binary adders.",
-        "To guarantee that only one bit changes per counter increment, preventing multi-bit transition skew from producing corrupt intermediate pointer values when sampled by the destination clock.",
-        "To allow cyclic redundancy checks (CRC) and parity schemes to perform single-cycle error correction across asynchronous boundaries."
+        "Electromagnetic radiation emitted by high-frequency clock routes induces capacitive crosstalk; it is resolved by routing continuous VDD or VSS shielding traces alongside victim nets.",
+        "Charge accumulation on long unconnected metal routes during plasma etching can rupture thin gate dielectric; it is resolved by routing metal jumpers to higher layers or inserting reverse-biased protection diodes.",
+        "Inductive reflections occurring on long inter-block wires cause signal ringing and overshoot; it is resolved by inserting series source termination resistors at the driver output.",
+        "Substrate noise generated by fast-switching digital logic couples into sensitive analog circuitry; it is resolved by placing deep N-well guard rings around sensitive regions.",
+        "Voltage drop along power delivery grids fluctuates due to excessive trace resistance; it is resolved by inserting localized decoupling capacitors beneath dense routing channels."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In Static Timing Analysis (STA) of synchronous digital circuits, under what operational condition is a designer justified in defining a Multi-Cycle Path (MCP) constraint, and what is its effect on timing checks?",
+      "options": [
+        "When signals transfer between completely asynchronous clock domains; it disables both setup and hold timing checks across the boundary.",
+        "When a combinational data path is logically impossible to activate under any valid state; it excludes the path entirely from timing analysis reports.",
+        "When clock tree synthesis (CTS) yields excessive insertion delay on the launch flop; it forces the timing tool to balance the clock network over multiple cycles.",
+        "When control logic ensures that the destination register samples the transmitted data only after N > 1 clock cycles; it relaxes the setup timing requirement to N clock cycles while appropriately shifting the hold check.",
+        "When dynamic IR drop causes transient propagation delays along critical paths; it dynamically stretches the operational clock period for those specific paths during static verification."
       ],
       "correct": 3
     },
     {
-      "question": "In deep-submicron integrated circuit reliability analysis, what physical mechanism fundamentally drives electromigration in on-chip metallic interconnects, and what is its primary macroscopic circuit failure mode?",
+      "question": "In high-performance microprocessor microarchitecture, how does Simultaneous Multithreading (SMT) fundamentally differ from fine-grained temporal multithreading (interleaved multithreading)?",
       "options": [
-        "High transverse electric fields causing catastrophic dielectric breakdown between adjacent metal layers, resulting in interlayer short circuits.",
-        "Cyclic thermal expansion mismatch between copper lines and the surrounding low-k dielectric, producing mechanical fatigue fractures and trace peeling.",
-        "Hot carrier injection into the inter-metal dielectric, leading to gradual parasitic capacitive coupling shifts across neighboring interconnects.",
-        "Spontaneous chemical oxidation of copper lines when exposed to sub-surface moisture, creating progressive resistance increases across the chip.",
-        "Momentum transfer from high-density conduction electron flux to metal lattice ions ('electron wind'), causing directional mass transport that creates voids (open circuits) and hillocks (short circuits)."
+        "SMT issues instructions from multiple active threads concurrently to different execution units within the exact same clock cycle, whereas fine-grained multithreading interleaves instructions from different threads on alternate clock cycles.",
+        "SMT requires dedicated, non-shared execution units and ALUs for each architectural thread, whereas fine-grained multithreading uses time-multiplexed sharing of a single execution pipeline.",
+        "SMT switches execution to another thread only when the running thread stalls on a long-latency event such as an LLC miss, whereas fine-grained multithreading switches threads every single cycle.",
+        "SMT relies exclusively on static compiler analysis to pack instructions from independent threads into wide instruction packets, whereas fine-grained multithreading handles thread dispatch dynamically.",
+        "SMT replicates the shared L2 and L3 caches for each hardware thread context, whereas fine-grained multithreading shares a single unified cache hierarchy across all threads."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In bulk CMOS integrated circuit technology, what physical phenomenon causes the parasitic 'latchup' condition, and what layout methodology is primarily used to prevent it?",
+      "options": [
+        "Trap-assisted tunneling through the ultra-thin gate dielectric; prevented by replacing standard SiO2 gate oxides with high-k metal gate dielectric stacks.",
+        "Hot-carrier degradation occurring at the drain pinch-off region; prevented by incorporating lightly doped drain (LDD) implant extensions.",
+        "Thermal runaway triggered by excessive localized power density; prevented by distributing dummy metal fills and thermal conduction vias throughout the floorplan.",
+        "Dielectric breakdown induced by electrostatic discharge (ESD) events at I/O pads; prevented by attaching series current-limiting ballasting resistors to pad drivers.",
+        "Regenerative forward-biasing of a parasitic p-n-p-n thyristor structure formed by cross-coupled bipolar transistors; prevented by placing frequent well and substrate taps to keep substrate resistance low."
       ],
       "correct": 4
     }

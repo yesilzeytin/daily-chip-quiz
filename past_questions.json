@@ -1,9 +1,4 @@
 [
-  "In instruction-level parallelism (ILP) architecture design, what is the fundamental operational difference between a Very Long Instruction Word (VLIW) processor and a dynamically scheduled superscalar processor?",
-  "In CMOS digital circuit design, why is a full transmission gate constructed by connecting an NMOS transistor and a PMOS transistor in parallel, rather than using a single NMOS pass transistor?",
-  "In digital arithmetic circuit design, what structural technique allows a Wallace tree multiplier to achieve an O(log n) critical path latency compared to the O(n) latency of a standard array multiplier?",
-  "In shared-memory multiprocessor system architecture, why do directory-based cache coherence protocols scale to significantly higher core counts than bus-based snooping protocols?",
-  "In instruction-level parallel processor microarchitecture, what is the primary operational distinction between a CDC 6600-style Scoreboard and Tomasulo's algorithm regarding the handling of data hazards?",
   "In synchronous digital integrated circuit design, what does the setup time (t_su) of an edge-triggered flip-flop fundamentally specify?",
   "In multi-voltage domain digital IC design, why is an up-level shifter strictly required when routing a logic signal from a low-voltage supply domain (VDDL) to a high-voltage supply domain (VDDH)?",
   "In Network-on-Chip (NoC) architectures, how does the introduction of virtual channels fundamentally resolve routing deadlocks caused by cyclic buffer dependencies?",
@@ -48,5 +43,10 @@
   "In a classical pipelined microprocessor (such as the standard 5-stage RISC pipeline), what is the primary operational objective of hardware operand forwarding (data bypassing)?",
   "In dynamic CMOS logic design, why must a static CMOS inverter be placed at the output of a dynamic gate to create a valid, cascadable 'Domino logic' stage?",
   "In multi-clock-domain SoC design, why are the read and write pointers of an asynchronous dual-clock FIFO encoded in Gray code prior to crossing the clock domain boundary?",
-  "In deep-submicron integrated circuit reliability analysis, what physical mechanism fundamentally drives electromigration in on-chip metallic interconnects, and what is its primary macroscopic circuit failure mode?"
+  "In deep-submicron integrated circuit reliability analysis, what physical mechanism fundamentally drives electromigration in on-chip metallic interconnects, and what is its primary macroscopic circuit failure mode?",
+  "In pipelined processor microarchitecture, what fundamentally characterizes a structural hazard?",
+  "In deep-submicron CMOS physical design and fabrication, what is the 'antenna effect' (plasma-induced damage), and how is it standardly mitigated during routing?",
+  "In Static Timing Analysis (STA) of synchronous digital circuits, under what operational condition is a designer justified in defining a Multi-Cycle Path (MCP) constraint, and what is its effect on timing checks?",
+  "In high-performance microprocessor microarchitecture, how does Simultaneous Multithreading (SMT) fundamentally differ from fine-grained temporal multithreading (interleaved multithreading)?",
+  "In bulk CMOS integrated circuit technology, what physical phenomenon causes the parasitic 'latchup' condition, and what layout methodology is primarily used to prevent it?"
 ]
