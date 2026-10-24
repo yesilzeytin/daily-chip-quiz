@@ -1,9 +1,4 @@
 [
-  "In synchronous digital integrated circuit design, what does the setup time (t_su) of an edge-triggered flip-flop fundamentally specify?",
-  "In multi-voltage domain digital IC design, why is an up-level shifter strictly required when routing a logic signal from a low-voltage supply domain (VDDL) to a high-voltage supply domain (VDDH)?",
-  "In Network-on-Chip (NoC) architectures, how does the introduction of virtual channels fundamentally resolve routing deadlocks caused by cyclic buffer dependencies?",
-  "In computer memory hierarchy design, what is the primary architectural purpose and operational benefit of a Victim Cache?",
-  "In standard 6T SRAM bitcell design, how is read stability ensured to prevent a 'read disturb' (destructive read) from accidentally flipping the stored state when the wordline is asserted?",
   "In semiconductor memory architecture, why do Dynamic Random-Access Memory (DRAM) cells require periodic refresh cycles, whereas Static Random-Access Memory (SRAM) cells do not?",
   "In digital logic synthesis and synchronous circuit optimization, what is the operational principle of 'retiming'?",
   "In modern high-performance microprocessor front-ends, what is the primary architectural purpose of a dedicated Return Address Stack (RAS)?",
@@ -48,5 +43,10 @@
   "In deep-submicron CMOS physical design and fabrication, what is the 'antenna effect' (plasma-induced damage), and how is it standardly mitigated during routing?",
   "In Static Timing Analysis (STA) of synchronous digital circuits, under what operational condition is a designer justified in defining a Multi-Cycle Path (MCP) constraint, and what is its effect on timing checks?",
   "In high-performance microprocessor microarchitecture, how does Simultaneous Multithreading (SMT) fundamentally differ from fine-grained temporal multithreading (interleaved multithreading)?",
-  "In bulk CMOS integrated circuit technology, what physical phenomenon causes the parasitic 'latchup' condition, and what layout methodology is primarily used to prevent it?"
+  "In bulk CMOS integrated circuit technology, what physical phenomenon causes the parasitic 'latchup' condition, and what layout methodology is primarily used to prevent it?",
+  "In modern high-performance microprocessor microarchitectures, what foundational design principle allows the TAGE (TAgged GEometric history length) branch predictor to achieve state-of-the-art prediction accuracy?",
+  "In high-speed digital arithmetic and multiplier design, what is the primary architectural advantage of employing Radix-4 Modified Booth Encoding (MBE) over a standard unsigned array multiplier?",
+  "In combinational digital logic design, what fundamental behavior distinguishes a dynamic hazard from a static hazard?",
+  "In virtual memory management within modern processor architectures, what is the primary operational purpose of associating an Address Space Identifier (ASID) or Process Context Identifier (PCID) with entries in the Translation Lookaside Buffer (TLB)?",
+  "In Static Timing Analysis (STA) for deep-submicron ASICs, how does Advanced On-Chip Variation (AOCV) analysis reduce over-pessimism compared to traditional flat On-Chip Variation (OCV) derating?"
 ]
