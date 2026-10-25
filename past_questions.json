@@ -1,9 +1,4 @@
 [
-  "In semiconductor memory architecture, why do Dynamic Random-Access Memory (DRAM) cells require periodic refresh cycles, whereas Static Random-Access Memory (SRAM) cells do not?",
-  "In digital logic synthesis and synchronous circuit optimization, what is the operational principle of 'retiming'?",
-  "In modern high-performance microprocessor front-ends, what is the primary architectural purpose of a dedicated Return Address Stack (RAS)?",
-  "In ASIC physical design and power integrity analysis, what is the fundamental physical distinction between static IR drop and dynamic IR drop?",
-  "In domain-specific hardware accelerator design (such as tensor processing units), what is the defining structural and computational characteristic of a 2D Systolic Array?",
   "In out-of-order superscalar microarchitectures, what is the primary operational role of the Load-Store Queue (LSQ)?",
   "In modern out-of-order processor memory hierarchies, what is the primary architectural purpose of Miss Status Holding Registers (MSHRs) within a cache controller?",
   "In Static Timing Analysis (STA) of synchronous digital circuits, why is the hold time timing check fundamentally independent of the operating clock period (T_clk)?",
@@ -48,5 +43,10 @@
   "In high-speed digital arithmetic and multiplier design, what is the primary architectural advantage of employing Radix-4 Modified Booth Encoding (MBE) over a standard unsigned array multiplier?",
   "In combinational digital logic design, what fundamental behavior distinguishes a dynamic hazard from a static hazard?",
   "In virtual memory management within modern processor architectures, what is the primary operational purpose of associating an Address Space Identifier (ASID) or Process Context Identifier (PCID) with entries in the Translation Lookaside Buffer (TLB)?",
-  "In Static Timing Analysis (STA) for deep-submicron ASICs, how does Advanced On-Chip Variation (AOCV) analysis reduce over-pessimism compared to traditional flat On-Chip Variation (OCV) derating?"
+  "In Static Timing Analysis (STA) for deep-submicron ASICs, how does Advanced On-Chip Variation (AOCV) analysis reduce over-pessimism compared to traditional flat On-Chip Variation (OCV) derating?",
+  "In CMOS digital circuit design, why is a transmission gate (pass gate) constructed using a complementary pair of parallel nMOS and pMOS transistors rather than a single nMOS transistor?",
+  "In Network-on-Chip (NoC) architectures employing wormhole routing for multi-core processors, what is the primary architectural purpose of implementing Virtual Channels (VCs)?",
+  "In superscalar processor microarchitecture, which type of data dependency represents a 'true dependency' that cannot be eliminated through register renaming, inherently dictating the flow of computation?",
+  "In multi-supply voltage (Multi-VDD) digital IC design, why is an up-level shifter strictly required when a signal travels from a lower-voltage domain (VDDL) to a higher-voltage domain (VDDH)?",
+  "In scan-based Design for Testability (DFT) for digital ASICs, what is the principal implementation challenge of Launch-on-Shift (LOS) at-speed delay testing compared to Launch-on-Capture (LOC) testing?"
 ]
