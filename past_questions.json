@@ -1,9 +1,4 @@
 [
-  "In out-of-order superscalar microarchitectures, what is the primary operational role of the Load-Store Queue (LSQ)?",
-  "In modern out-of-order processor memory hierarchies, what is the primary architectural purpose of Miss Status Holding Registers (MSHRs) within a cache controller?",
-  "In Static Timing Analysis (STA) of synchronous digital circuits, why is the hold time timing check fundamentally independent of the operating clock period (T_clk)?",
-  "In semiconductor technology and computer architecture, what physical limitation fundamentally caused the breakdown of classical Dennard scaling in the mid-2000s, triggering the shift toward multi-core microprocessors?",
-  "In nanoscale CMOS transistor physics and short-channel effect analysis, which statement accurately describes Drain-Induced Barrier Lowering (DIBL)?",
   "In computer memory systems, a Virtually Indexed, Physically Tagged (VIPT) L1 cache can potentially suffer from cache aliasing (where multiple virtual addresses map to different cache sets but refer to the same physical address). What hardware design relationship completely guarantees that aliasing cannot occur without requiring software page coloring?",
   "In modern out-of-order superscalar microarchitecture design, why do high-performance processors overwhelmingly favor an explicit Unified Physical Register File (PRF) organization over the classic scheme where the Reorder Buffer (ROB) itself stores speculative result values?",
   "When designing a multi-stage flip-flop synchronizer to transfer a single-bit asynchronous signal across Clock Domain Crossing (CDC) boundaries, which relationship accurately captures the Mean Time Between Failures (MTBF) caused by flip-flop metastability?",
@@ -48,5 +43,10 @@
   "In Network-on-Chip (NoC) architectures employing wormhole routing for multi-core processors, what is the primary architectural purpose of implementing Virtual Channels (VCs)?",
   "In superscalar processor microarchitecture, which type of data dependency represents a 'true dependency' that cannot be eliminated through register renaming, inherently dictating the flow of computation?",
   "In multi-supply voltage (Multi-VDD) digital IC design, why is an up-level shifter strictly required when a signal travels from a lower-voltage domain (VDDL) to a higher-voltage domain (VDDH)?",
-  "In scan-based Design for Testability (DFT) for digital ASICs, what is the principal implementation challenge of Launch-on-Shift (LOS) at-speed delay testing compared to Launch-on-Capture (LOC) testing?"
+  "In scan-based Design for Testability (DFT) for digital ASICs, what is the principal implementation challenge of Launch-on-Shift (LOS) at-speed delay testing compared to Launch-on-Capture (LOC) testing?",
+  "In digital IC design, why is an asynchronous reset signal standardly asserted asynchronously but de-asserted synchronously (known as 'asynchronous assert, synchronous de-assert') using a two-flip-flop reset synchronizer?",
+  "According to the Method of Logical Effort used for sizing transistors in digital CMOS logic networks, what condition achieves the absolute minimum total propagation delay through an N-stage combinational path driving a fixed output load?",
+  "In microprocessor memory hierarchies, what is the fundamental functional distinction between a 'write-through' cache and a 'write-back' cache?",
+  "Under the Total Store Order (TSO) memory consistency model (implemented by x86 processors), which specific memory access reordering is explicitly allowed by the hardware, potentially leading to outcomes that violate strict Sequential Consistency (SC)?",
+  "In a multi-level microprocessor cache hierarchy, what is the primary operational consequence of enforcing a strictly inclusive policy in the shared Last-Level Cache (LLC) relative to the private upper-level caches (L1 and L2)?"
 ]

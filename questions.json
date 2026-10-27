@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In CMOS digital circuit design, why is a transmission gate (pass gate) constructed using a complementary pair of parallel nMOS and pMOS transistors rather than a single nMOS transistor?",
+      "question": "In digital IC design, why is an asynchronous reset signal standardly asserted asynchronously but de-asserted synchronously (known as 'asynchronous assert, synchronous de-assert') using a two-flip-flop reset synchronizer?",
       "options": [
-        "An nMOS transistor cannot pass a logic '1' without a threshold voltage drop (VDD - Vth), so the parallel pMOS is required to pull the output rail-to-rail to full VDD.",
-        "A single nMOS transistor exhibits excessive reverse-bias body effect that permanently latches the output node into a high-impedance state.",
-        "The pMOS transistor is necessary solely to reduce the gate input capacitance, thereby doubling the maximum switching frequency of the transmission gate.",
-        "An nMOS pass transistor suffers from punch-through breakdown whenever transmitting a logic '0', requiring the pMOS to shunt the ground current.",
-        "The complementary pair is required to create a positive-feedback bistable latch that actively drives capacitive loads without static power dissipation."
+        "To prevent metastability and functional glitches caused by the reset release violating flip-flop recovery and removal timing checks",
+        "To eliminate the need for a dedicated low-skew reset distribution network across the chip",
+        "To ensure that all combinational logic outputs settle to a high-impedance (tri-state) condition during system power-up",
+        "To allow the reset signal to propagate faster than the system clock across long interconnect lines",
+        "To reduce dynamic switching power by clock-gating sequential registers prior to system reset"
       ],
       "correct": 0
     },
     {
-      "question": "In Network-on-Chip (NoC) architectures employing wormhole routing for multi-core processors, what is the primary architectural purpose of implementing Virtual Channels (VCs)?",
+      "question": "According to the Method of Logical Effort used for sizing transistors in digital CMOS logic networks, what condition achieves the absolute minimum total propagation delay through an N-stage combinational path driving a fixed output load?",
       "options": [
-        "To encrypt packet payloads at the router crossbar to ensure secure inter-core memory isolation.",
-        "To prevent routing deadlocks and mitigate head-of-line blocking by multiplexing multiple independent packet queues over a single physical link.",
-        "To dynamically alter the clock frequency of the network router based on instantaneous network packet traffic density.",
-        "To eliminate the need for physical buffer memory within the input and output ports of the on-chip routers.",
-        "To allow packets to travel concurrently in opposite physical directions over the exact same metal wires using time-division multiplexing."
+        "The electrical effort (effective fanout) must be progressively doubled at each successive stage along the path",
+        "Each stage along the path must be sized to bear an identical stage effort (fi = gi * hi)",
+        "The logical effort of the initial input gate must equal the parasitic delay of the final output driver",
+        "The transistor width ratio (P/N ratio) of every stage along the path must approach exactly 1.0",
+        "The parasitic delay of all stages combined must sum to zero by eliminating interconnect capacitance"
       ],
       "correct": 1
     },
     {
-      "question": "In superscalar processor microarchitecture, which type of data dependency represents a 'true dependency' that cannot be eliminated through register renaming, inherently dictating the flow of computation?",
+      "question": "In microprocessor memory hierarchies, what is the fundamental functional distinction between a 'write-through' cache and a 'write-back' cache?",
       "options": [
-        "Write-After-Write (WAW) / Output dependency",
-        "Write-After-Read (WAR) / Anti-dependency",
-        "Read-After-Write (RAW) / Flow dependency",
-        "Read-After-Read (RAR) / Input dependency",
-        "Control-After-Write (CAW) / Speculative dependency"
+        "A write-through cache allocates a cache line only on a write miss, whereas a write-back cache allocates only on a read miss",
+        "A write-through cache requires tracking dirty bits per cache line, whereas a write-back cache tracks only valid bits",
+        "A write-through cache immediately updates lower-level memory on every store operation, whereas a write-back cache defers updates until a dirty line is evicted",
+        "A write-through cache cannot be used in multi-core systems, whereas a write-back cache operates exclusively with snooping protocols",
+        "A write-through cache performs stores asynchronously via a write buffer, whereas a write-back cache stalls the pipeline on every store"
       ],
       "correct": 2
     },
     {
-      "question": "In multi-supply voltage (Multi-VDD) digital IC design, why is an up-level shifter strictly required when a signal travels from a lower-voltage domain (VDDL) to a higher-voltage domain (VDDH)?",
+      "question": "Under the Total Store Order (TSO) memory consistency model (implemented by x86 processors), which specific memory access reordering is explicitly allowed by the hardware, potentially leading to outcomes that violate strict Sequential Consistency (SC)?",
       "options": [
-        "The lower-voltage signal lacks sufficient charge to overcome the electromigration threshold of the receiving domain's interconnects.",
-        "The difference in operating voltages causes the receiving gate to undergo spontaneous dielectric gate-oxide breakdown under normal bias.",
-        "The logic thresholds of standard CMOS gates scale with clock frequency, causing total clock phase inversion between different voltage islands.",
-        "If VDDL directly drives a VDDH-powered gate, the input voltage cannot completely turn off the receiving pMOS transistor, resulting in excessive static crowbar current.",
-        "Signals driven at VDDL travel faster than signals at VDDH, inevitably causing widespread hold-time violations at the domain interface."
+        "A Load operation being reordered before an earlier Load to a different memory address (Load-Load reordering)",
+        "A Store operation being reordered before an earlier Store to a different memory address (Store-Store reordering)",
+        "A Store operation being reordered after a later Store to the same memory address (Store-Store collapsing)",
+        "A Load operation being reordered before an earlier Store to a different memory address (Store-Load reordering)",
+        "Atomic read-modify-write operations being speculatively reordered ahead of prior uncommitted memory Loads"
       ],
       "correct": 3
     },
     {
-      "question": "In scan-based Design for Testability (DFT) for digital ASICs, what is the principal implementation challenge of Launch-on-Shift (LOS) at-speed delay testing compared to Launch-on-Capture (LOC) testing?",
+      "question": "In a multi-level microprocessor cache hierarchy, what is the primary operational consequence of enforcing a strictly inclusive policy in the shared Last-Level Cache (LLC) relative to the private upper-level caches (L1 and L2)?",
       "options": [
-        "LOS requires replacing all edge-triggered flip-flops with dual-edge-triggered master-slave registers, doubling silicon area.",
-        "LOS cannot detect transition delay faults on combinational paths with high logical depth, limiting fault coverage to under 50%.",
-        "LOS mandates that all on-chip clock domains operate asynchronously during test mode, causing unavoidable metastability across scan chains.",
-        "LOS requires generating test patterns using sequential Automatic Test Pattern Generation (ATPG), which has intractable exponential runtime complexity.",
-        "LOS requires the scan enable (SE) control signal to transition from shift to capture mode at full functional clock speed, demanding high-speed clock-like routing."
+        "The total usable storage capacity of the multi-level hierarchy is strictly maximized because data is never duplicated across levels",
+        "Private L1 and L2 caches are strictly prohibited from implementing write-back policies and must operate as write-through",
+        "Read hits occurring in private L1 caches must simultaneously broadcast an access update to the LLC directory",
+        "Coherence requests from other cores can bypass the LLC and interrogate private L1/L2 tags directly without filter lookup",
+        "Evicting or invalidating a line in the LLC requires the hardware to issue back-invalidation probes to purge that line from any L1/L2 cache holding it"
       ],
       "correct": 4
     }
