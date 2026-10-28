@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In digital IC design, why is an asynchronous reset signal standardly asserted asynchronously but de-asserted synchronously (known as 'asynchronous assert, synchronous de-assert') using a two-flip-flop reset synchronizer?",
+      "question": "In standard dynamic random-access memory (DRAM) architectures, why does reading data from a 1T-1C (one-transistor, one-capacitor) storage cell inherently require a write-back (restoration) operation?",
       "options": [
-        "To prevent metastability and functional glitches caused by the reset release violating flip-flop recovery and removal timing checks",
-        "To eliminate the need for a dedicated low-skew reset distribution network across the chip",
-        "To ensure that all combinational logic outputs settle to a high-impedance (tri-state) condition during system power-up",
-        "To allow the reset signal to propagate faster than the system clock across long interconnect lines",
-        "To reduce dynamic switching power by clock-gating sequential registers prior to system reset"
+        "The read operation transfers the capacitor's stored charge onto the bitline via charge sharing, disturbing the original stored voltage level.",
+        "The sense amplifier must invert the stored charge in order to register a logical '1', requiring a restore pulse to flip it back.",
+        "DRAM wordlines are driven by negative gate voltages that permanently drain the storage node during access.",
+        "The row decoder disables active precharge logic during read operations, forcing the memory cell into an unpowered high-impedance state.",
+        "The storage cell's access transistor undergoes channel hot-carrier degradation during every read cycle, requiring an electrical recharge cycle."
       ],
       "correct": 0
     },
     {
-      "question": "According to the Method of Logical Effort used for sizing transistors in digital CMOS logic networks, what condition achieves the absolute minimum total propagation delay through an N-stage combinational path driving a fixed output load?",
+      "question": "In synchronous digital circuits, why can a setup timing violation be eliminated by lowering the clock frequency, whereas a hold timing violation cannot?",
       "options": [
-        "The electrical effort (effective fanout) must be progressively doubled at each successive stage along the path",
-        "Each stage along the path must be sized to bear an identical stage effort (fi = gi * hi)",
-        "The logical effort of the initial input gate must equal the parasitic delay of the final output driver",
-        "The transistor width ratio (P/N ratio) of every stage along the path must approach exactly 1.0",
-        "The parasitic delay of all stages combined must sum to zero by eliminating interconnect capacitance"
+        "Hold timing checks are evaluated only during the power-up initialization phase, whereas setup checks run continuously during normal operation.",
+        "Hold constraints depend strictly on the difference between data path delay and clock skew, independent of the clock period, whereas the setup constraint explicitly includes the clock period.",
+        "Hold violations only occur when dynamic power dissipation exceeds thermal design limits, which is unaffected by clock frequency.",
+        "Setup time is determined by sequential standard cells, while hold time is determined purely by combinational routing delays that adaptively track clock rate.",
+        "Hold checks verify data arrival relative to the next subsequent clock edge, whereas setup checks verify arrival relative to the identical clock cycle edge."
       ],
       "correct": 1
     },
     {
-      "question": "In microprocessor memory hierarchies, what is the fundamental functional distinction between a 'write-through' cache and a 'write-back' cache?",
+      "question": "In high-performance microprocessor memory hierarchies, what is the primary microarchitectural purpose of Miss Status Holding Registers (MSHRs) in a non-blocking cache?",
       "options": [
-        "A write-through cache allocates a cache line only on a write miss, whereas a write-back cache allocates only on a read miss",
-        "A write-through cache requires tracking dirty bits per cache line, whereas a write-back cache tracks only valid bits",
-        "A write-through cache immediately updates lower-level memory on every store operation, whereas a write-back cache defers updates until a dirty line is evicted",
-        "A write-through cache cannot be used in multi-core systems, whereas a write-back cache operates exclusively with snooping protocols",
-        "A write-through cache performs stores asynchronously via a write buffer, whereas a write-back cache stalls the pipeline on every store"
+        "To store dirty cache lines evicted during a write-back before they are written to main memory, preventing pipeline stalls on evictions.",
+        "To perform speculative prefetching by calculating stride patterns across sequential misses.",
+        "To track in-flight outstanding cache misses and collate subsequent requests to the same cache block, enabling hit-under-miss and miss-under-miss execution.",
+        "To dynamically remap set-associative cache ways into direct-mapped banks when conflict misses exceed a runtime threshold.",
+        "To buffer tag comparisons during snooping operations to prevent coherency probes from stalling the L1 instruction cache."
       ],
       "correct": 2
     },
     {
-      "question": "Under the Total Store Order (TSO) memory consistency model (implemented by x86 processors), which specific memory access reordering is explicitly allowed by the hardware, potentially leading to outcomes that violate strict Sequential Consistency (SC)?",
+      "question": "In high-performance digital VLSI arithmetic, what represents the primary architectural trade-off between a Kogge-Stone adder and a Brent-Kung adder of equal bit width?",
       "options": [
-        "A Load operation being reordered before an earlier Load to a different memory address (Load-Load reordering)",
-        "A Store operation being reordered before an earlier Store to a different memory address (Store-Store reordering)",
-        "A Store operation being reordered after a later Store to the same memory address (Store-Store collapsing)",
-        "A Load operation being reordered before an earlier Store to a different memory address (Store-Load reordering)",
-        "Atomic read-modify-write operations being speculatively reordered ahead of prior uncommitted memory Loads"
+        "Kogge-Stone operates strictly on two's complement numbers, while Brent-Kung is restricted to unsigned binary arithmetic due to tree symmetry.",
+        "Brent-Kung eliminates all lateral fan-out routing at the cost of requiring tri-state bus repeaters on all intermediate sum outputs.",
+        "Brent-Kung achieves lower power dissipation solely by using dynamic domino logic stages, whereas Kogge-Stone requires static CMOS transmission gates.",
+        "Kogge-Stone achieves minimal logic depth (O(log2 N)) with higher wiring density and cell area, whereas Brent-Kung minimizes area and routing density at the cost of higher logic depth (O(2 log2 N - 1)).",
+        "Kogge-Stone requires zero carry-generation cells at odd indices, whereas Brent-Kung requires lookahead generator cells at every bit position."
       ],
       "correct": 3
     },
     {
-      "question": "In a multi-level microprocessor cache hierarchy, what is the primary operational consequence of enforcing a strictly inclusive policy in the shared Last-Level Cache (LLC) relative to the private upper-level caches (L1 and L2)?",
+      "question": "In directory-based cache coherence protocols for scalable shared-memory multi-core architectures, what is the primary operational trade-off of implementing a 'limited pointer' directory scheme instead of a 'full bit-vector' directory scheme?",
       "options": [
-        "The total usable storage capacity of the multi-level hierarchy is strictly maximized because data is never duplicated across levels",
-        "Private L1 and L2 caches are strictly prohibited from implementing write-back policies and must operate as write-through",
-        "Read hits occurring in private L1 caches must simultaneously broadcast an access update to the LLC directory",
-        "Coherence requests from other cores can bypass the LLC and interrogate private L1/L2 tags directly without filter lookup",
-        "Evicting or invalidating a line in the LLC requires the hardware to issue back-invalidation probes to purge that line from any L1/L2 cache holding it"
+        "It eliminates the need for invalidation traffic by enforcing write-through caching at all private cache levels.",
+        "It simplifies router microarchitecture by guaranteeing single-flit point-to-point coherence message transmission across the on-chip network.",
+        "It converts cache coherence from an invalidation-based model to an update-based model whenever a pointer limit is reached.",
+        "It prevents protocol deadlocks by eliminating the need for request, response, and forward virtual networks in the on-chip fabric.",
+        "It substantially reduces directory memory overhead as core count scales, but incurs performance degradation or broadcast invalidations when the number of concurrent sharers exceeds the fixed pointer capacity."
       ],
       "correct": 4
     }

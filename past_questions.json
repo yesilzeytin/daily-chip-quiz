@@ -1,9 +1,4 @@
 [
-  "In computer memory systems, a Virtually Indexed, Physically Tagged (VIPT) L1 cache can potentially suffer from cache aliasing (where multiple virtual addresses map to different cache sets but refer to the same physical address). What hardware design relationship completely guarantees that aliasing cannot occur without requiring software page coloring?",
-  "In modern out-of-order superscalar microarchitecture design, why do high-performance processors overwhelmingly favor an explicit Unified Physical Register File (PRF) organization over the classic scheme where the Reorder Buffer (ROB) itself stores speculative result values?",
-  "When designing a multi-stage flip-flop synchronizer to transfer a single-bit asynchronous signal across Clock Domain Crossing (CDC) boundaries, which relationship accurately captures the Mean Time Between Failures (MTBF) caused by flip-flop metastability?",
-  "In synchronous digital integrated circuit design and clock distribution network analysis, what is the fundamental distinction between 'clock skew' and 'clock jitter'?",
-  "In nanoscale CMOS device physics and low-power IC design, what fundamental physical mechanism dictates the 'Boltzmann tyranny', setting a lower limit of approximately 60 mV/decade on the subthreshold swing (SS) of conventional MOSFETs at room temperature (300 K)?",
   "In digital integrated circuit design and Design for Testability (DFT), what is the primary operational objective of inserting scan chains by replacing conventional flip-flops with scan flip-flops?",
   "In modern pipelined microprocessor front-ends, what is the fundamental functional distinction between a Branch Target Buffer (BTB) and a directional branch predictor (such as a 2-bit saturating counter array)?",
   "In low-power synchronous digital design, why is an Integrated Clock Gating (ICG) cell structured with an active-low level-sensitive latch before the gating AND gate, rather than simply using a standalone two-input AND gate to gate the clock signal?",
@@ -48,5 +43,10 @@
   "According to the Method of Logical Effort used for sizing transistors in digital CMOS logic networks, what condition achieves the absolute minimum total propagation delay through an N-stage combinational path driving a fixed output load?",
   "In microprocessor memory hierarchies, what is the fundamental functional distinction between a 'write-through' cache and a 'write-back' cache?",
   "Under the Total Store Order (TSO) memory consistency model (implemented by x86 processors), which specific memory access reordering is explicitly allowed by the hardware, potentially leading to outcomes that violate strict Sequential Consistency (SC)?",
-  "In a multi-level microprocessor cache hierarchy, what is the primary operational consequence of enforcing a strictly inclusive policy in the shared Last-Level Cache (LLC) relative to the private upper-level caches (L1 and L2)?"
+  "In a multi-level microprocessor cache hierarchy, what is the primary operational consequence of enforcing a strictly inclusive policy in the shared Last-Level Cache (LLC) relative to the private upper-level caches (L1 and L2)?",
+  "In standard dynamic random-access memory (DRAM) architectures, why does reading data from a 1T-1C (one-transistor, one-capacitor) storage cell inherently require a write-back (restoration) operation?",
+  "In synchronous digital circuits, why can a setup timing violation be eliminated by lowering the clock frequency, whereas a hold timing violation cannot?",
+  "In high-performance microprocessor memory hierarchies, what is the primary microarchitectural purpose of Miss Status Holding Registers (MSHRs) in a non-blocking cache?",
+  "In high-performance digital VLSI arithmetic, what represents the primary architectural trade-off between a Kogge-Stone adder and a Brent-Kung adder of equal bit width?",
+  "In directory-based cache coherence protocols for scalable shared-memory multi-core architectures, what is the primary operational trade-off of implementing a 'limited pointer' directory scheme instead of a 'full bit-vector' directory scheme?"
 ]
