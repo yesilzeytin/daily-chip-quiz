@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In standard dynamic random-access memory (DRAM) architectures, why does reading data from a 1T-1C (one-transistor, one-capacitor) storage cell inherently require a write-back (restoration) operation?",
+      "question": "In multi-clock domain digital IC design, why does a standard two-flip-flop synchronizer effectively mitigate metastability when passing a slow, single-bit control signal across asynchronous clock domains?",
       "options": [
-        "The read operation transfers the capacitor's stored charge onto the bitline via charge sharing, disturbing the original stored voltage level.",
-        "The sense amplifier must invert the stored charge in order to register a logical '1', requiring a restore pulse to flip it back.",
-        "DRAM wordlines are driven by negative gate voltages that permanently drain the storage node during access.",
-        "The row decoder disables active precharge logic during read operations, forcing the memory cell into an unpowered high-impedance state.",
-        "The storage cell's access transistor undergoes channel hot-carrier degradation during every read cycle, requiring an electrical recharge cycle."
+        "It provides an entire destination clock cycle for any metastable state induced in the first flip-flop to settle to a valid logic level before being sampled by the second flip-flop.",
+        "It converts multi-bit asynchronous bus data into Gray code to eliminate combinatorial glitches at the clock boundary.",
+        "It phase-aligns the transmitting and receiving clocks using an embedded delay-locked loop (DLL).",
+        "It dynamically stretches the destination clock pulse width whenever setup violations are detected.",
+        "It filters out high-frequency electromagnetic interference (EMI) using active capacitive decoupling."
       ],
       "correct": 0
     },
     {
-      "question": "In synchronous digital circuits, why can a setup timing violation be eliminated by lowering the clock frequency, whereas a hold timing violation cannot?",
+      "question": "In synchronous digital integrated circuit design and Static Timing Analysis (STA), what is the fundamental conceptual distinction between 'clock skew' and 'clock jitter'?",
       "options": [
-        "Hold timing checks are evaluated only during the power-up initialization phase, whereas setup checks run continuously during normal operation.",
-        "Hold constraints depend strictly on the difference between data path delay and clock skew, independent of the clock period, whereas the setup constraint explicitly includes the clock period.",
-        "Hold violations only occur when dynamic power dissipation exceeds thermal design limits, which is unaffected by clock frequency.",
-        "Setup time is determined by sequential standard cells, while hold time is determined purely by combinational routing delays that adaptively track clock rate.",
-        "Hold checks verify data arrival relative to the next subsequent clock edge, whereas setup checks verify arrival relative to the identical clock cycle edge."
+        "Clock skew describes changes in clock frequency across supply voltage drops, while clock jitter describes static routing mismatches.",
+        "Clock skew is the spatial variation in arrival times of a clock edge across different physical locations, whereas clock jitter is the temporal variation in arrival times of clock edges at a single physical point over time.",
+        "Clock skew is an issue exclusive to dynamic logic, whereas clock jitter affects only static CMOS logic networks.",
+        "Clock skew can be eliminated by lowering operating frequency, whereas clock jitter is independent of clock frequency and cannot cause hold violations.",
+        "Clock skew is caused solely by thermal noise in transistor channels, whereas clock jitter is caused exclusively by lithographic process variations."
       ],
       "correct": 1
     },
     {
-      "question": "In high-performance microprocessor memory hierarchies, what is the primary microarchitectural purpose of Miss Status Holding Registers (MSHRs) in a non-blocking cache?",
+      "question": "In a byte-addressable set-associative cache memory, how is a memory address partitioned, and what is the specific operational purpose of the 'Index' field?",
       "options": [
-        "To store dirty cache lines evicted during a write-back before they are written to main memory, preventing pipeline stalls on evictions.",
-        "To perform speculative prefetching by calculating stride patterns across sequential misses.",
-        "To track in-flight outstanding cache misses and collate subsequent requests to the same cache block, enabling hit-under-miss and miss-under-miss execution.",
-        "To dynamically remap set-associative cache ways into direct-mapped banks when conflict misses exceed a runtime threshold.",
-        "To buffer tag comparisons during snooping operations to prevent coherency probes from stalling the L1 instruction cache."
+        "It determines whether the memory access is decoded as a read operation or a write operation.",
+        "It identifies the exact byte or word offset within a stored cache line.",
+        "It selects the specific set (row of cache ways) in which the target block may be stored.",
+        "It is compared in parallel with stored tags to identify which specific way resulted in a hit.",
+        "It specifies the replacement priority among ways using pseudo-LRU algorithms."
       ],
       "correct": 2
     },
     {
-      "question": "In high-performance digital VLSI arithmetic, what represents the primary architectural trade-off between a Kogge-Stone adder and a Brent-Kung adder of equal bit width?",
+      "question": "In Logic Built-In Self-Test (LBIST) architectures for digital ASICs, what is the primary operational role of a Multiple-Input Signature Register (MISR)?",
       "options": [
-        "Kogge-Stone operates strictly on two's complement numbers, while Brent-Kung is restricted to unsigned binary arithmetic due to tree symmetry.",
-        "Brent-Kung eliminates all lateral fan-out routing at the cost of requiring tri-state bus repeaters on all intermediate sum outputs.",
-        "Brent-Kung achieves lower power dissipation solely by using dynamic domino logic stages, whereas Kogge-Stone requires static CMOS transmission gates.",
-        "Kogge-Stone achieves minimal logic depth (O(log2 N)) with higher wiring density and cell area, whereas Brent-Kung minimizes area and routing density at the cost of higher logic depth (O(2 log2 N - 1)).",
-        "Kogge-Stone requires zero carry-generation cells at odd indices, whereas Brent-Kung requires lookahead generator cells at every bit position."
+        "To synthesize and apply pseudo-random digital stimulus patterns directly to the combinational logic.",
+        "To dynamically detect and correct single-bit soft errors in on-chip SRAM arrays using parity checking.",
+        "To measure quiescent power supply leakage current (IDDQ) across scan flip-flops during test pauses.",
+        "To compress the multi-bit output response streams from scan chains across test cycles into a compact signature for go/no-go comparison.",
+        "To bypass defective scan flip-flops and stitch alternative scan paths via laser-programmable fuses."
       ],
       "correct": 3
     },
     {
-      "question": "In directory-based cache coherence protocols for scalable shared-memory multi-core architectures, what is the primary operational trade-off of implementing a 'limited pointer' directory scheme instead of a 'full bit-vector' directory scheme?",
+      "question": "In modern microprocessor memory hierarchies, Virtually Indexed, Physically Tagged (VIPT) L1 caches allow cache lookup to proceed in parallel with TLB address translation. Under what condition can a VIPT cache suffer from the 'cache synonym' (aliasing) problem?",
       "options": [
-        "It eliminates the need for invalidation traffic by enforcing write-through caching at all private cache levels.",
-        "It simplifies router microarchitecture by guaranteeing single-flit point-to-point coherence message transmission across the on-chip network.",
-        "It converts cache coherence from an invalidation-based model to an update-based model whenever a pointer limit is reached.",
-        "It prevents protocol deadlocks by eliminating the need for request, response, and forward virtual networks in the on-chip fabric.",
-        "It substantially reduces directory memory overhead as core count scales, but incurs performance degradation or broadcast invalidations when the number of concurrent sharers exceeds the fixed pointer capacity."
+        "When the virtual address space is strictly smaller than the physical address space.",
+        "When the cache line size is smaller than the width of the microprocessor's internal data bus.",
+        "When translation lookaside buffer (TLB) misses are serviced purely in software rather than via a hardware page table walker.",
+        "When a write-back cache architecture is selected over a write-through cache architecture.",
+        "When the size of an individual cache way (total cache capacity divided by associativity) exceeds the virtual memory page size."
       ],
       "correct": 4
     }

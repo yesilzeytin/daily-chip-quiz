@@ -1,9 +1,4 @@
 [
-  "In digital integrated circuit design and Design for Testability (DFT), what is the primary operational objective of inserting scan chains by replacing conventional flip-flops with scan flip-flops?",
-  "In modern pipelined microprocessor front-ends, what is the fundamental functional distinction between a Branch Target Buffer (BTB) and a directional branch predictor (such as a 2-bit saturating counter array)?",
-  "In low-power synchronous digital design, why is an Integrated Clock Gating (ICG) cell structured with an active-low level-sensitive latch before the gating AND gate, rather than simply using a standalone two-input AND gate to gate the clock signal?",
-  "In deep-submicron Static Timing Analysis (STA) and signal integrity analysis, how does capacitive crosstalk coupling affect net delay when an 'aggressor' net and a parallel 'victim' net switch simultaneously in opposite directions?",
-  "In modern multi-core computer memory controllers, what is the primary scheduling principle of the First-Ready First-Come-First-Served (FR-FCFS) DRAM arbitration policy?",
   "In digital logic synthesis, what is the primary architectural trade-off of employing 'One-Hot' state encoding compared to minimal-bit binary encoding for a Finite State Machine (FSM)?",
   "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the critical path delay limitation of a Ripple Carry Adder (RCA)?",
   "In CMOS digital IC low-power design, why does Dynamic Voltage and Frequency Scaling (DVFS) yield an approximately cubic reduction in dynamic power dissipation when supply voltage and clock frequency are scaled down concurrently?",
@@ -48,5 +43,10 @@
   "In synchronous digital circuits, why can a setup timing violation be eliminated by lowering the clock frequency, whereas a hold timing violation cannot?",
   "In high-performance microprocessor memory hierarchies, what is the primary microarchitectural purpose of Miss Status Holding Registers (MSHRs) in a non-blocking cache?",
   "In high-performance digital VLSI arithmetic, what represents the primary architectural trade-off between a Kogge-Stone adder and a Brent-Kung adder of equal bit width?",
-  "In directory-based cache coherence protocols for scalable shared-memory multi-core architectures, what is the primary operational trade-off of implementing a 'limited pointer' directory scheme instead of a 'full bit-vector' directory scheme?"
+  "In directory-based cache coherence protocols for scalable shared-memory multi-core architectures, what is the primary operational trade-off of implementing a 'limited pointer' directory scheme instead of a 'full bit-vector' directory scheme?",
+  "In multi-clock domain digital IC design, why does a standard two-flip-flop synchronizer effectively mitigate metastability when passing a slow, single-bit control signal across asynchronous clock domains?",
+  "In synchronous digital integrated circuit design and Static Timing Analysis (STA), what is the fundamental conceptual distinction between 'clock skew' and 'clock jitter'?",
+  "In a byte-addressable set-associative cache memory, how is a memory address partitioned, and what is the specific operational purpose of the 'Index' field?",
+  "In Logic Built-In Self-Test (LBIST) architectures for digital ASICs, what is the primary operational role of a Multiple-Input Signature Register (MISR)?",
+  "In modern microprocessor memory hierarchies, Virtually Indexed, Physically Tagged (VIPT) L1 caches allow cache lookup to proceed in parallel with TLB address translation. Under what condition can a VIPT cache suffer from the 'cache synonym' (aliasing) problem?"
 ]
