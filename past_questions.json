@@ -1,9 +1,4 @@
 [
-  "In digital logic synthesis, what is the primary architectural trade-off of employing 'One-Hot' state encoding compared to minimal-bit binary encoding for a Finite State Machine (FSM)?",
-  "In digital arithmetic circuit design, how does a Carry-Lookahead Adder (CLA) fundamentally overcome the critical path delay limitation of a Ripple Carry Adder (RCA)?",
-  "In CMOS digital IC low-power design, why does Dynamic Voltage and Frequency Scaling (DVFS) yield an approximately cubic reduction in dynamic power dissipation when supply voltage and clock frequency are scaled down concurrently?",
-  "At sub-22nm technology nodes, why did the semiconductor industry transition from conventional planar bulk MOSFETs to 3D FinFET (and subsequently Gate-All-Around) transistor architectures?",
-  "In shared-memory multiprocessor cache hierarchies, what is the specific operational purpose of the 'Owner' (O) state in the MOESI cache coherence protocol compared to the standard four-state MESI protocol?",
   "In high-performance ASIC and microprocessor physical design, what is the primary operational trade-off of implementing a Clock Mesh distribution network compared to a traditional balanced tree (such as an H-tree or CTS clock tree)?",
   "In nanoscale CMOS digital IC reliability analysis, what physical degradation mechanism causes Negative Bias Temperature Instability (NBTI) in pMOS transistors, and what is its primary circuit-level consequence over operational lifetime?",
   "In early pipelined RISC architectures (such as classic MIPS and SPARC), what was the fundamental architectural rationale for introducing a 'branch delay slot'?",
@@ -48,5 +43,10 @@
   "In synchronous digital integrated circuit design and Static Timing Analysis (STA), what is the fundamental conceptual distinction between 'clock skew' and 'clock jitter'?",
   "In a byte-addressable set-associative cache memory, how is a memory address partitioned, and what is the specific operational purpose of the 'Index' field?",
   "In Logic Built-In Self-Test (LBIST) architectures for digital ASICs, what is the primary operational role of a Multiple-Input Signature Register (MISR)?",
-  "In modern microprocessor memory hierarchies, Virtually Indexed, Physically Tagged (VIPT) L1 caches allow cache lookup to proceed in parallel with TLB address translation. Under what condition can a VIPT cache suffer from the 'cache synonym' (aliasing) problem?"
+  "In modern microprocessor memory hierarchies, Virtually Indexed, Physically Tagged (VIPT) L1 caches allow cache lookup to proceed in parallel with TLB address translation. Under what condition can a VIPT cache suffer from the 'cache synonym' (aliasing) problem?",
+  "In processor instruction set architecture (ISA) design, what is the defining characteristic of a 'load-store architecture' (such as classic RISC ISAs like MIPS, ARM, and RISC-V)?",
+  "In low-power digital IC design, why is an Integrated Clock Gating (ICG) cell standardly implemented using an active-low latch paired with an AND gate, rather than a simple 2-input AND gate driven directly by the clock and enable signals?",
+  "In Tomasulo's algorithm for dynamic out-of-order instruction scheduling, what is the primary operational role of the Common Data Bus (CDB)?",
+  "In scan-based Design for Testability (DFT), why are 'lockup latches' standardly inserted between adjacent flip-flops in a scan chain that cross different clock domains or branches of a clock tree with substantial clock skew?",
+  "In GPU Single Instruction, Multiple Threads (SIMT) architectures, what is 'branch divergence', and how does the microarchitecture typically handle it when threads within a single warp or wavefront take different paths at a conditional branch?"
 ]
