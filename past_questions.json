@@ -1,9 +1,4 @@
 [
-  "In high-performance ASIC and microprocessor physical design, what is the primary operational trade-off of implementing a Clock Mesh distribution network compared to a traditional balanced tree (such as an H-tree or CTS clock tree)?",
-  "In nanoscale CMOS digital IC reliability analysis, what physical degradation mechanism causes Negative Bias Temperature Instability (NBTI) in pMOS transistors, and what is its primary circuit-level consequence over operational lifetime?",
-  "In early pipelined RISC architectures (such as classic MIPS and SPARC), what was the fundamental architectural rationale for introducing a 'branch delay slot'?",
-  "In modern relaxed memory consistency models (such as those found in ARMv8, RISC-V, and C++11), how do 'Acquire' and 'Release' memory synchronization operations constrain the ordering of memory accesses?",
-  "In digital arithmetic, when performing addition on two signed n-bit two's complement integers using a standard binary adder, which logic condition strictly and reliably indicates that an arithmetic overflow has occurred?",
   "In modern out-of-order superscalar microarchitectures, what is 'store-to-load forwarding', and under what condition is it typically performed?",
   "In low-power digital IC design utilizing power gating (such as MTCMOS), what is the primary operational role of an 'isolation cell'?",
   "In high-performance digital IC design, what is the timing phenomenon known as 'time borrowing' (or 'cycle stealing'), and why is it unique to transparent latch-based pipelines compared to edge-triggered flip-flop pipelines?",
@@ -48,5 +43,10 @@
   "In low-power digital IC design, why is an Integrated Clock Gating (ICG) cell standardly implemented using an active-low latch paired with an AND gate, rather than a simple 2-input AND gate driven directly by the clock and enable signals?",
   "In Tomasulo's algorithm for dynamic out-of-order instruction scheduling, what is the primary operational role of the Common Data Bus (CDB)?",
   "In scan-based Design for Testability (DFT), why are 'lockup latches' standardly inserted between adjacent flip-flops in a scan chain that cross different clock domains or branches of a clock tree with substantial clock skew?",
-  "In GPU Single Instruction, Multiple Threads (SIMT) architectures, what is 'branch divergence', and how does the microarchitecture typically handle it when threads within a single warp or wavefront take different paths at a conditional branch?"
+  "In GPU Single Instruction, Multiple Threads (SIMT) architectures, what is 'branch divergence', and how does the microarchitecture typically handle it when threads within a single warp or wavefront take different paths at a conditional branch?",
+  "In high-performance out-of-order superscalar processors, what is the fundamental microarchitectural challenge known as 'memory disambiguation'?",
+  "In invalidation-based snooping cache coherence protocols such as MESI, what is the primary operational advantage of providing an 'Exclusive' (E) state in addition to the 'Shared' (S) state?",
+  "In CMOS digital logic circuits, why is dynamic switching power dissipation fundamentally proportional to the square of the supply voltage (P_dynamic ∝ V_DD²)?",
+  "In ASIC physical design and Static Timing Analysis (STA), what is the core methodology of 'useful skew' (clock skew scheduling)?",
+  "In the design of a standard six-transistor (6T) SRAM cell, what transistor sizing requirement (the 'Cell Ratio') is critical to ensure read stability and prevent an accidental read upset?"
 ]

@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In processor instruction set architecture (ISA) design, what is the defining characteristic of a 'load-store architecture' (such as classic RISC ISAs like MIPS, ARM, and RISC-V)?",
+      "question": "In high-performance out-of-order superscalar processors, what is the fundamental microarchitectural challenge known as 'memory disambiguation'?",
       "options": [
-        "Memory operands are directly referenced and modified by all arithmetic and logical operations to reduce register pressure.",
-        "Arithmetic and logical instructions operate exclusively on registers, with dedicated instructions specifically required to transfer data between memory and registers.",
-        "The processor eliminates hardware data caches entirely by streaming loads and stores directly to main memory.",
-        "Instructions must access memory in strict program order without allowing out-of-order execution or branch prediction.",
-        "Every arithmetic instruction is paired with two memory addresses to load inputs and store outputs in a single clock cycle."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In low-power digital IC design, why is an Integrated Clock Gating (ICG) cell standardly implemented using an active-low latch paired with an AND gate, rather than a simple 2-input AND gate driven directly by the clock and enable signals?",
-      "options": [
-        "To prevent glitches or runt pulses on the gated clock output if the enable signal transitions while the clock is high.",
-        "To double the clock frequency delivered to downstream sequential logic during active computation cycles.",
-        "To completely cut off static leakage current in downstream standard cells when disabled.",
-        "To perform automatic voltage level-shifting when crossing between heterogeneous power domains.",
-        "To generate a 90-degree phase shift required by dual-edge triggered flip-flops."
+        "Determining whether a younger load instruction accesses the same physical memory address as an older, pending store instruction whose target address is not yet resolved.",
+        "Resolving conflicts between instruction cache misses and data cache misses competing for the same interconnect port to main memory.",
+        "Distinguishing whether a virtual address references private thread-local storage or shared global memory within the operating system page tables.",
+        "Identifying whether a translation lookaside buffer (TLB) miss was caused by a page privilege fault or a physical page absence.",
+        "Arbitrating read and write priorities among simultaneously issued vector instructions accessing multi-bank register files."
       ],
       "correct": 0
     },
     {
-      "question": "In Tomasulo's algorithm for dynamic out-of-order instruction scheduling, what is the primary operational role of the Common Data Bus (CDB)?",
+      "question": "In invalidation-based snooping cache coherence protocols such as MESI, what is the primary operational advantage of providing an 'Exclusive' (E) state in addition to the 'Shared' (S) state?",
       "options": [
-        "It provides a dedicated point-to-point interconnect between the L1 data cache and integer execution units to bypass memory latency.",
-        "It enforces strictly in-order instruction retirement into the architectural register file to guarantee precise exceptions.",
-        "It translates virtual memory addresses to physical addresses directly inside reservation stations.",
-        "It serializes speculative branch condition checks to prevent pipeline flushes.",
-        "It broadcasts execution results tagged with reservation station IDs to all waiting reservation stations and register files simultaneously."
+        "It allows modified data to be written back to main memory asynchronously without locking the memory interconnect.",
+        "It enables a core to silently transition the cache line to Modified (M) on a subsequent write without broadcasting an invalidation request to the interconnect.",
+        "It bypasses the need for cache tags by keeping exclusive cache lines directly inside processor execution registers.",
+        "It permits multiple processor cores to simultaneously retain identical, read-only copies of a cache line without causing cache pollution.",
+        "It automatically flushes the cache line to the level-three (L3) shared cache whenever an interrupt service routine is invoked."
       ],
-      "correct": 4
+      "correct": 1
     },
     {
-      "question": "In scan-based Design for Testability (DFT), why are 'lockup latches' standardly inserted between adjacent flip-flops in a scan chain that cross different clock domains or branches of a clock tree with substantial clock skew?",
+      "question": "In CMOS digital logic circuits, why is dynamic switching power dissipation fundamentally proportional to the square of the supply voltage (P_dynamic ∝ V_DD²)?",
       "options": [
-        "To compress test responses into compact multi-bit signatures for built-in self-test (BIST) analysis.",
-        "To convert serial test vector patterns into parallel vectors at the boundary of core logic blocks.",
-        "To eliminate combinational feedback loops during normal mission (functional) execution mode.",
-        "To protect the shift path against hold-time violations caused by clock skew during scan shift mode.",
-        "To restore degraded signal voltage levels on long scan enable routing lines across the die."
+        "Because subthreshold leakage current exhibits an exponential dependence on V_DD, which simplifies to a quadratic relationship under typical operating temperatures.",
+        "Because the carrier drift velocity in short-channel MOSFETs saturates linearly with the electric field across the source and drain terminals.",
+        "Because charging a load capacitance C_L to V_DD requires the power supply to deliver an energy of E = C_L · V_DD² per switching transition, independent of channel resistance.",
+        "Because gate oxide capacitance increases proportionally with V_DD due to quantum-mechanical depletion effects in the polysilicon gate.",
+        "Because threshold voltage V_th decreases quadratically with increasing V_DD due to severe drain-induced barrier lowering (DIBL)."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In ASIC physical design and Static Timing Analysis (STA), what is the core methodology of 'useful skew' (clock skew scheduling)?",
+      "options": [
+        "Adding dummy flip-flops along high-fanout nets to artificially equalize clock tree branch depths and eliminate all clock skew across the die.",
+        "Dynamically modulating the system clock frequency during runtime to avoid setup timing violations caused by transient IR drops.",
+        "Modifying static data path logic cells into dynamic Domino gates to match clock propagation delays across different pipeline stages.",
+        "Intentionally delaying or advancing the clock arrival time at specific register clock pins to trade timing slack between adjacent pipeline stages.",
+        "Enforcing strictly identical wire lengths across all clock routing paths to ensure zero clock skew under worst-case process variation."
       ],
       "correct": 3
     },
     {
-      "question": "In GPU Single Instruction, Multiple Threads (SIMT) architectures, what is 'branch divergence', and how does the microarchitecture typically handle it when threads within a single warp or wavefront take different paths at a conditional branch?",
+      "question": "In the design of a standard six-transistor (6T) SRAM cell, what transistor sizing requirement (the 'Cell Ratio') is critical to ensure read stability and prevent an accidental read upset?",
       "options": [
-        "Divergent thread paths are distributed concurrently across distinct GPU compute cores via hardware-managed thread migration.",
-        "The hardware halts the entire warp and raises an architectural exception for the host CPU to resolve the branch sequentially.",
-        "The divergent paths are serialized and executed sequentially, while inactive threads for each path are disabled using an execution (predicate) mask.",
-        "Speculative execution is aborted across the entire warp, rolling all threads back to the nearest synchronization barrier.",
-        "The compiler forks the divergent threads into two independent unsynchronized warps that permanently divide the available shared memory allocation."
+        "The pull-up pMOS transistors must be significantly wider than the pull-down nMOS transistors to maintain high noise margins in standby mode.",
+        "The access nMOS transistors must be stronger than both the pull-up and pull-down transistors to rapidly discharge the high-capacitance bitline.",
+        "The pull-up pMOS transistors must be stronger than the access nMOS transistors so that the internal '0' storage node is clamped securely near ground.",
+        "The access nMOS transistors and pull-down nMOS transistors must be sized identically to ensure symmetrical read and write noise margins.",
+        "The pull-down nMOS transistors must be stronger than the access nMOS transistors to prevent the voltage at the internal '0' node from exceeding the trip point of the opposing inverter."
       ],
-      "correct": 2
+      "correct": 4
     }
   ]
 }
