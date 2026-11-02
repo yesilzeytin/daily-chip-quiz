@@ -1,9 +1,4 @@
 [
-  "In modern out-of-order superscalar microarchitectures, what is 'store-to-load forwarding', and under what condition is it typically performed?",
-  "In low-power digital IC design utilizing power gating (such as MTCMOS), what is the primary operational role of an 'isolation cell'?",
-  "In high-performance digital IC design, what is the timing phenomenon known as 'time borrowing' (or 'cycle stealing'), and why is it unique to transparent latch-based pipelines compared to edge-triggered flip-flop pipelines?",
-  "In digital Finite State Machine (FSM) design, what is the fundamental functional distinction between a Moore machine and a Mealy machine?",
-  "In symmetric multiprocessing (SMP) and multi-core shared memory architectures, what is 'false sharing', and what is its primary microarchitectural consequence?",
   "In an out-of-order superscalar processor featuring speculative execution, how does the microarchitecture fundamentally maintain 'precise exceptions'?",
   "In a classical pipelined microprocessor (such as the standard 5-stage RISC pipeline), what is the primary operational objective of hardware operand forwarding (data bypassing)?",
   "In dynamic CMOS logic design, why must a static CMOS inverter be placed at the output of a dynamic gate to create a valid, cascadable 'Domino logic' stage?",
@@ -48,5 +43,10 @@
   "In invalidation-based snooping cache coherence protocols such as MESI, what is the primary operational advantage of providing an 'Exclusive' (E) state in addition to the 'Shared' (S) state?",
   "In CMOS digital logic circuits, why is dynamic switching power dissipation fundamentally proportional to the square of the supply voltage (P_dynamic ∝ V_DD²)?",
   "In ASIC physical design and Static Timing Analysis (STA), what is the core methodology of 'useful skew' (clock skew scheduling)?",
-  "In the design of a standard six-transistor (6T) SRAM cell, what transistor sizing requirement (the 'Cell Ratio') is critical to ensure read stability and prevent an accidental read upset?"
+  "In the design of a standard six-transistor (6T) SRAM cell, what transistor sizing requirement (the 'Cell Ratio') is critical to ensure read stability and prevent an accidental read upset?",
+  "In branch prediction architectures, what is the primary operational advantage of a 2-bit saturating counter (bimodal predictor) over a simple 1-bit predictor?",
+  "In deep-submicron digital IC design, how does cross-coupling capacitance (Cc) between two adjacent parallel signal interconnects affect propagation delay when both nets switch simultaneously in opposite directions (one transitioning low-to-high, the other high-to-low)?",
+  "In weakly ordered memory consistency models (such as those adopted in ARM, RISC-V, and modern standard multithreading specifications), what fundamental memory ordering guarantee is provided by a load operation with 'Acquire' semantics?",
+  "In advanced sub-7nm FinFET and Gate-All-Around (GAA) nanosheet technologies, why has the Self-Heating Effect (SHE) emerged as a critical reliability and performance concern compared to legacy planar bulk CMOS?",
+  "In modern DDR DRAM memory controllers, what is the core operational principle of the First-Ready First-Come-First-Served (FR-FCFS) request scheduling policy?"
 ]

@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In high-performance out-of-order superscalar processors, what is the fundamental microarchitectural challenge known as 'memory disambiguation'?",
+      "question": "In branch prediction architectures, what is the primary operational advantage of a 2-bit saturating counter (bimodal predictor) over a simple 1-bit predictor?",
       "options": [
-        "Determining whether a younger load instruction accesses the same physical memory address as an older, pending store instruction whose target address is not yet resolved.",
-        "Resolving conflicts between instruction cache misses and data cache misses competing for the same interconnect port to main memory.",
-        "Distinguishing whether a virtual address references private thread-local storage or shared global memory within the operating system page tables.",
-        "Identifying whether a translation lookaside buffer (TLB) miss was caused by a page privilege fault or a physical page absence.",
-        "Arbitrating read and write priorities among simultaneously issued vector instructions accessing multi-bank register files."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In invalidation-based snooping cache coherence protocols such as MESI, what is the primary operational advantage of providing an 'Exclusive' (E) state in addition to the 'Shared' (S) state?",
-      "options": [
-        "It allows modified data to be written back to main memory asynchronously without locking the memory interconnect.",
-        "It enables a core to silently transition the cache line to Modified (M) on a subsequent write without broadcasting an invalidation request to the interconnect.",
-        "It bypasses the need for cache tags by keeping exclusive cache lines directly inside processor execution registers.",
-        "It permits multiple processor cores to simultaneously retain identical, read-only copies of a cache line without causing cache pollution.",
-        "It automatically flushes the cache line to the level-three (L3) shared cache whenever an interrupt service routine is invoked."
+        "It allows tracking global branch correlations across distinct branch instruction addresses.",
+        "It prevents a single anomalous branch outcome (such as the final exit of an inner loop) from immediately altering the next prediction.",
+        "It eliminates the need for a Branch Target Buffer (BTB) by directly encoding branch target addresses.",
+        "It avoids all pipeline stalls by computing both paths speculatively in parallel.",
+        "It halves the storage requirement of the pattern history table."
       ],
       "correct": 1
     },
     {
-      "question": "In CMOS digital logic circuits, why is dynamic switching power dissipation fundamentally proportional to the square of the supply voltage (P_dynamic ∝ V_DD²)?",
+      "question": "In deep-submicron digital IC design, how does cross-coupling capacitance (Cc) between two adjacent parallel signal interconnects affect propagation delay when both nets switch simultaneously in opposite directions (one transitioning low-to-high, the other high-to-low)?",
       "options": [
-        "Because subthreshold leakage current exhibits an exponential dependence on V_DD, which simplifies to a quadratic relationship under typical operating temperatures.",
-        "Because the carrier drift velocity in short-channel MOSFETs saturates linearly with the electric field across the source and drain terminals.",
-        "Because charging a load capacitance C_L to V_DD requires the power supply to deliver an energy of E = C_L · V_DD² per switching transition, independent of channel resistance.",
-        "Because gate oxide capacitance increases proportionally with V_DD due to quantum-mechanical depletion effects in the polysilicon gate.",
-        "Because threshold voltage V_th decreases quadratically with increasing V_DD due to severe drain-induced barrier lowering (DIBL)."
+        "The coupling capacitance has negligible effect because the complementary voltage swings cancel each other out.",
+        "The effective coupling capacitance is eliminated, resulting in a substantially faster signal transition on both nets.",
+        "The effective coupling capacitance is approximately doubled due to the Miller effect, significantly increasing propagation delay on both nets.",
+        "Only the net with the stronger driver experiences an increased delay, while the weaker net accelerates.",
+        "The dynamic voltage rail collapses momentarily, causing static subthreshold leakage to dominate the delay profile."
       ],
       "correct": 2
     },
     {
-      "question": "In ASIC physical design and Static Timing Analysis (STA), what is the core methodology of 'useful skew' (clock skew scheduling)?",
+      "question": "In weakly ordered memory consistency models (such as those adopted in ARM, RISC-V, and modern standard multithreading specifications), what fundamental memory ordering guarantee is provided by a load operation with 'Acquire' semantics?",
       "options": [
-        "Adding dummy flip-flops along high-fanout nets to artificially equalize clock tree branch depths and eliminate all clock skew across the die.",
-        "Dynamically modulating the system clock frequency during runtime to avoid setup timing violations caused by transient IR drops.",
-        "Modifying static data path logic cells into dynamic Domino gates to match clock propagation delays across different pipeline stages.",
-        "Intentionally delaying or advancing the clock arrival time at specific register clock pins to trade timing slack between adjacent pipeline stages.",
-        "Enforcing strictly identical wire lengths across all clock routing paths to ensure zero clock skew under worst-case process variation."
+        "No subsequent read or write operations in program order can be reordered before the Acquire load.",
+        "All prior write operations in program order must be globally visible before the Acquire load can be executed.",
+        "The Acquire load executes atomically with an immediate subsequent store to the same memory address.",
+        "No prior read or write operations in program order can be reordered after the Acquire load.",
+        "The Acquire load forces an immediate cache flush and broadcast invalidation to all other coherent cores."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In advanced sub-7nm FinFET and Gate-All-Around (GAA) nanosheet technologies, why has the Self-Heating Effect (SHE) emerged as a critical reliability and performance concern compared to legacy planar bulk CMOS?",
+      "options": [
+        "Metal gate stacks exhibit dramatically higher electrical resistivity than polysilicon, generating intense localized resistive heating.",
+        "FinFET gate oxide layers are made substantially thicker, preventing heat from transferring into the gate electrode.",
+        "Operating supply voltages (VDD) have risen above 1.5 V to maintain switching speeds, quadratically increasing active power density.",
+        "Confined three-dimensional silicon channel geometries enclosed by low-thermal-conductivity dielectric materials severely impede heat dissipation.",
+        "Sub-threshold swing degrades below ideal physical limits, causing runaway static leakage currents during switching."
       ],
       "correct": 3
     },
     {
-      "question": "In the design of a standard six-transistor (6T) SRAM cell, what transistor sizing requirement (the 'Cell Ratio') is critical to ensure read stability and prevent an accidental read upset?",
+      "question": "In modern DDR DRAM memory controllers, what is the core operational principle of the First-Ready First-Come-First-Served (FR-FCFS) request scheduling policy?",
       "options": [
-        "The pull-up pMOS transistors must be significantly wider than the pull-down nMOS transistors to maintain high noise margins in standby mode.",
-        "The access nMOS transistors must be stronger than both the pull-up and pull-down transistors to rapidly discharge the high-capacitance bitline.",
-        "The pull-up pMOS transistors must be stronger than the access nMOS transistors so that the internal '0' storage node is clamped securely near ground.",
-        "The access nMOS transistors and pull-down nMOS transistors must be sized identically to ensure symmetrical read and write noise margins.",
-        "The pull-down nMOS transistors must be stronger than the access nMOS transistors to prevent the voltage at the internal '0' node from exceeding the trip point of the opposing inverter."
+        "It strictly services memory requests in chronological arrival order, prioritizing write bursts over read bursts to maximize write buffer draining.",
+        "It rotates priority equally across all available DRAM banks in a strict round-robin manner to eliminate thread starvation.",
+        "It prioritizes requests originating from the core with the highest instruction throughput to maximize system IPC.",
+        "It batches all write requests into a dedicated queue that flushes exclusively when the memory bus enters a low-power state.",
+        "It prioritizes requests targeting an already opened DRAM row buffer (page hit) over older pending requests requiring row activation or precharging, breaking ties using arrival time."
       ],
       "correct": 4
     }
