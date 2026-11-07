@@ -1,57 +1,57 @@
 {
   "questions": [
     {
-      "question": "In branch prediction architectures, what is the primary operational advantage of a 2-bit saturating counter (bimodal predictor) over a simple 1-bit predictor?",
+      "question": "In modern microprocessor branch prediction architectures, why is a specialized Return Address Stack (RAS) implemented specifically for subroutine returns rather than relying on standard two-level adaptive branch history predictors?",
       "options": [
-        "It allows tracking global branch correlations across distinct branch instruction addresses.",
-        "It prevents a single anomalous branch outcome (such as the final exit of an inner loop) from immediately altering the next prediction.",
-        "It eliminates the need for a Branch Target Buffer (BTB) by directly encoding branch target addresses.",
-        "It avoids all pipeline stalls by computing both paths speculatively in parallel.",
-        "It halves the storage requirement of the pattern history table."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In deep-submicron digital IC design, how does cross-coupling capacitance (Cc) between two adjacent parallel signal interconnects affect propagation delay when both nets switch simultaneously in opposite directions (one transitioning low-to-high, the other high-to-low)?",
-      "options": [
-        "The coupling capacitance has negligible effect because the complementary voltage swings cancel each other out.",
-        "The effective coupling capacitance is eliminated, resulting in a substantially faster signal transition on both nets.",
-        "The effective coupling capacitance is approximately doubled due to the Miller effect, significantly increasing propagation delay on both nets.",
-        "Only the net with the stronger driver experiences an increased delay, while the weaker net accelerates.",
-        "The dynamic voltage rail collapses momentarily, causing static subthreshold leakage to dominate the delay profile."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In weakly ordered memory consistency models (such as those adopted in ARM, RISC-V, and modern standard multithreading specifications), what fundamental memory ordering guarantee is provided by a load operation with 'Acquire' semantics?",
-      "options": [
-        "No subsequent read or write operations in program order can be reordered before the Acquire load.",
-        "All prior write operations in program order must be globally visible before the Acquire load can be executed.",
-        "The Acquire load executes atomically with an immediate subsequent store to the same memory address.",
-        "No prior read or write operations in program order can be reordered after the Acquire load.",
-        "The Acquire load forces an immediate cache flush and broadcast invalidation to all other coherent cores."
+        "Because a subroutine can be invoked from many distinct call sites across a program, making the return target address dependent on dynamic call nesting rather than local or global branch history patterns.",
+        "Because subroutine return instructions are unconditional branches that never evaluate to taken, rendering history tables redundant.",
+        "Because standard branch history tables cannot store 64-bit target addresses and are restricted to predicting single-bit branch directions.",
+        "Because the RAS eliminates the need for an instruction cache by pre-decoding the entire body of the target function into execution registers.",
+        "Because return instructions bypass the decode and rename pipeline stages, requiring target addresses to be supplied directly by the memory controller."
       ],
       "correct": 0
     },
     {
-      "question": "In advanced sub-7nm FinFET and Gate-All-Around (GAA) nanosheet technologies, why has the Self-Heating Effect (SHE) emerged as a critical reliability and performance concern compared to legacy planar bulk CMOS?",
+      "question": "In computer architecture, what is the primary operational distinction between Very Long Instruction Word (VLIW) architectures and superscalar architectures?",
       "options": [
-        "Metal gate stacks exhibit dramatically higher electrical resistivity than polysilicon, generating intense localized resistive heating.",
-        "FinFET gate oxide layers are made substantially thicker, preventing heat from transferring into the gate electrode.",
-        "Operating supply voltages (VDD) have risen above 1.5 V to maintain switching speeds, quadratically increasing active power density.",
-        "Confined three-dimensional silicon channel geometries enclosed by low-thermal-conductivity dielectric materials severely impede heat dissipation.",
-        "Sub-threshold swing degrades below ideal physical limits, causing runaway static leakage currents during switching."
+        "VLIW architectures rely entirely on dynamic runtime out-of-order execution hardware, whereas superscalar architectures strictly execute instructions in program order.",
+        "VLIW architectures rely on the compiler to statically identify instruction-level parallelism and bundle independent operations into a single wide instruction word, avoiding complex dynamic dependency-checking hardware.",
+        "VLIW architectures eliminate cache hierarchies by streaming wide instruction packets directly from off-chip main memory.",
+        "VLIW processors use a single unified execution unit that sequentially processes packed SIMD vectors, whereas superscalar processors duplicate ALUs.",
+        "VLIW architectures require extensive hardware register renaming and reorder buffers to dynamically resolve data hazards across multiple execution pipelines."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In shared-memory multi-core computer architectures, what constitutes the performance pathology known as 'false sharing'?",
+      "options": [
+        "Two threads simultaneously writing to the exact same memory word without synchronization, causing a non-deterministic race condition and data corruption.",
+        "A hardware thread mistakenly reading uncommitted speculative data from another thread's reorder buffer due to an alias in the store queue.",
+        "Multiple processor cores concurrently modifying completely independent variables that happen to reside within the same physical cache line, triggering frequent and unnecessary cache coherence invalidations.",
+        "Two distinct virtual memory pages mapping to the same set in a physically indexed cache, repeatedly evicting each other's data lines.",
+        "A failure in the directory-based coherence controller that erroneously marks a dirty cache line as clean in main memory."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In low-power digital IC design employing power gating, what is the primary purpose of inserting isolation cells at the boundary between a power-gated domain and an always-on domain?",
+      "options": [
+        "To step down the supply voltage level between higher-voltage core logic and lower-voltage I/O pads.",
+        "To store the complete architectural register state of the power-gated domain across the duration of the sleep cycle.",
+        "To prevent high-frequency clock jitter from coupling into sensitive analog and PLL power rails.",
+        "To clamp boundary signals to a known, valid logic level (0 or 1) when the domain is powered off, preventing floating inputs and excessive crowbar current in downstream always-on logic.",
+        "To filter out high-voltage ESD transients before they can degrade the gate oxide of input buffer transistors."
       ],
       "correct": 3
     },
     {
-      "question": "In modern DDR DRAM memory controllers, what is the core operational principle of the First-Ready First-Come-First-Served (FR-FCFS) request scheduling policy?",
+      "question": "In hardware networking devices and specialized memory design, what fundamental architectural capability distinguishes a Ternary Content-Addressable Memory (TCAM) from a conventional Binary CAM?",
       "options": [
-        "It strictly services memory requests in chronological arrival order, prioritizing write bursts over read bursts to maximize write buffer draining.",
-        "It rotates priority equally across all available DRAM banks in a strict round-robin manner to eliminate thread starvation.",
-        "It prioritizes requests originating from the core with the highest instruction throughput to maximize system IPC.",
-        "It batches all write requests into a dedicated queue that flushes exclusively when the memory bus enters a low-power state.",
-        "It prioritizes requests targeting an already opened DRAM row buffer (page hit) over older pending requests requiring row activation or precharging, breaking ties using arrival time."
+        "A TCAM uses three separate read/write ports to allow simultaneous lookup by three independent network processing cores.",
+        "A TCAM incorporates an internal three-state charge-pump mechanism to perform search operations at one-third the dynamic power of a binary CAM.",
+        "A TCAM stores data using three distinct voltage levels (ternary logic) within a single capacitive cell, tripling storage density relative to binary SRAM cells.",
+        "A TCAM outputs the exact physical memory address of every matching entry sequentially over three consecutive clock cycles.",
+        "Each storage bit in a TCAM supports a third 'don't care' (mask) state in addition to 0 and 1, enabling parallel wildcard searching and longest-prefix matching in a single clock cycle."
       ],
       "correct": 4
     }

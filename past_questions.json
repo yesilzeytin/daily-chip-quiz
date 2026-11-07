@@ -1,9 +1,4 @@
 [
-  "In an out-of-order superscalar processor featuring speculative execution, how does the microarchitecture fundamentally maintain 'precise exceptions'?",
-  "In a classical pipelined microprocessor (such as the standard 5-stage RISC pipeline), what is the primary operational objective of hardware operand forwarding (data bypassing)?",
-  "In dynamic CMOS logic design, why must a static CMOS inverter be placed at the output of a dynamic gate to create a valid, cascadable 'Domino logic' stage?",
-  "In multi-clock-domain SoC design, why are the read and write pointers of an asynchronous dual-clock FIFO encoded in Gray code prior to crossing the clock domain boundary?",
-  "In deep-submicron integrated circuit reliability analysis, what physical mechanism fundamentally drives electromigration in on-chip metallic interconnects, and what is its primary macroscopic circuit failure mode?",
   "In pipelined processor microarchitecture, what fundamentally characterizes a structural hazard?",
   "In deep-submicron CMOS physical design and fabrication, what is the 'antenna effect' (plasma-induced damage), and how is it standardly mitigated during routing?",
   "In Static Timing Analysis (STA) of synchronous digital circuits, under what operational condition is a designer justified in defining a Multi-Cycle Path (MCP) constraint, and what is its effect on timing checks?",
@@ -48,5 +43,10 @@
   "In deep-submicron digital IC design, how does cross-coupling capacitance (Cc) between two adjacent parallel signal interconnects affect propagation delay when both nets switch simultaneously in opposite directions (one transitioning low-to-high, the other high-to-low)?",
   "In weakly ordered memory consistency models (such as those adopted in ARM, RISC-V, and modern standard multithreading specifications), what fundamental memory ordering guarantee is provided by a load operation with 'Acquire' semantics?",
   "In advanced sub-7nm FinFET and Gate-All-Around (GAA) nanosheet technologies, why has the Self-Heating Effect (SHE) emerged as a critical reliability and performance concern compared to legacy planar bulk CMOS?",
-  "In modern DDR DRAM memory controllers, what is the core operational principle of the First-Ready First-Come-First-Served (FR-FCFS) request scheduling policy?"
+  "In modern DDR DRAM memory controllers, what is the core operational principle of the First-Ready First-Come-First-Served (FR-FCFS) request scheduling policy?",
+  "In modern microprocessor branch prediction architectures, why is a specialized Return Address Stack (RAS) implemented specifically for subroutine returns rather than relying on standard two-level adaptive branch history predictors?",
+  "In computer architecture, what is the primary operational distinction between Very Long Instruction Word (VLIW) architectures and superscalar architectures?",
+  "In shared-memory multi-core computer architectures, what constitutes the performance pathology known as 'false sharing'?",
+  "In low-power digital IC design employing power gating, what is the primary purpose of inserting isolation cells at the boundary between a power-gated domain and an always-on domain?",
+  "In hardware networking devices and specialized memory design, what fundamental architectural capability distinguishes a Ternary Content-Addressable Memory (TCAM) from a conventional Binary CAM?"
 ]
