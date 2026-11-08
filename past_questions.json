@@ -1,9 +1,4 @@
 [
-  "In pipelined processor microarchitecture, what fundamentally characterizes a structural hazard?",
-  "In deep-submicron CMOS physical design and fabrication, what is the 'antenna effect' (plasma-induced damage), and how is it standardly mitigated during routing?",
-  "In Static Timing Analysis (STA) of synchronous digital circuits, under what operational condition is a designer justified in defining a Multi-Cycle Path (MCP) constraint, and what is its effect on timing checks?",
-  "In high-performance microprocessor microarchitecture, how does Simultaneous Multithreading (SMT) fundamentally differ from fine-grained temporal multithreading (interleaved multithreading)?",
-  "In bulk CMOS integrated circuit technology, what physical phenomenon causes the parasitic 'latchup' condition, and what layout methodology is primarily used to prevent it?",
   "In modern high-performance microprocessor microarchitectures, what foundational design principle allows the TAGE (TAgged GEometric history length) branch predictor to achieve state-of-the-art prediction accuracy?",
   "In high-speed digital arithmetic and multiplier design, what is the primary architectural advantage of employing Radix-4 Modified Booth Encoding (MBE) over a standard unsigned array multiplier?",
   "In combinational digital logic design, what fundamental behavior distinguishes a dynamic hazard from a static hazard?",
@@ -48,5 +43,10 @@
   "In computer architecture, what is the primary operational distinction between Very Long Instruction Word (VLIW) architectures and superscalar architectures?",
   "In shared-memory multi-core computer architectures, what constitutes the performance pathology known as 'false sharing'?",
   "In low-power digital IC design employing power gating, what is the primary purpose of inserting isolation cells at the boundary between a power-gated domain and an always-on domain?",
-  "In hardware networking devices and specialized memory design, what fundamental architectural capability distinguishes a Ternary Content-Addressable Memory (TCAM) from a conventional Binary CAM?"
+  "In hardware networking devices and specialized memory design, what fundamental architectural capability distinguishes a Ternary Content-Addressable Memory (TCAM) from a conventional Binary CAM?",
+  "In computer architecture, what is the fundamental structural distinction between the classic Von Neumann architecture and the Harvard architecture?",
+  "In multi-clock domain digital design, why are the read and write pointers of an asynchronous FIFO converted to Gray code before being passed through multi-flip-flop synchronizers across clock domains?",
+  "In modern out-of-order superscalar processors, how does the Reorder Buffer (ROB) ensure that the processor maintains precise architectural exceptions despite speculative and out-of-order execution?",
+  "In deep-submicron VLSI physical design and reliability engineering, what physical mechanism causes electromigration in on-chip metal interconnects, as governed by Black's equation?",
+  "In high-performance computer architecture, what is the primary architectural advantage of a vector architecture that utilizes a dynamically configurable Vector Length Register (such as the RISC-V Vector extension or classic Cray vector processors) compared to a fixed-width packed SIMD architecture (such as x86 AVX-512)?"
 ]

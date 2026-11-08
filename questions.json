@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In modern microprocessor branch prediction architectures, why is a specialized Return Address Stack (RAS) implemented specifically for subroutine returns rather than relying on standard two-level adaptive branch history predictors?",
+      "question": "In computer architecture, what is the fundamental structural distinction between the classic Von Neumann architecture and the Harvard architecture?",
       "options": [
-        "Because a subroutine can be invoked from many distinct call sites across a program, making the return target address dependent on dynamic call nesting rather than local or global branch history patterns.",
-        "Because subroutine return instructions are unconditional branches that never evaluate to taken, rendering history tables redundant.",
-        "Because standard branch history tables cannot store 64-bit target addresses and are restricted to predicting single-bit branch directions.",
-        "Because the RAS eliminates the need for an instruction cache by pre-decoding the entire body of the target function into execution registers.",
-        "Because return instructions bypass the decode and rename pipeline stages, requiring target addresses to be supplied directly by the memory controller."
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In computer architecture, what is the primary operational distinction between Very Long Instruction Word (VLIW) architectures and superscalar architectures?",
-      "options": [
-        "VLIW architectures rely entirely on dynamic runtime out-of-order execution hardware, whereas superscalar architectures strictly execute instructions in program order.",
-        "VLIW architectures rely on the compiler to statically identify instruction-level parallelism and bundle independent operations into a single wide instruction word, avoiding complex dynamic dependency-checking hardware.",
-        "VLIW architectures eliminate cache hierarchies by streaming wide instruction packets directly from off-chip main memory.",
-        "VLIW processors use a single unified execution unit that sequentially processes packed SIMD vectors, whereas superscalar processors duplicate ALUs.",
-        "VLIW architectures require extensive hardware register renaming and reorder buffers to dynamically resolve data hazards across multiple execution pipelines."
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In shared-memory multi-core computer architectures, what constitutes the performance pathology known as 'false sharing'?",
-      "options": [
-        "Two threads simultaneously writing to the exact same memory word without synchronization, causing a non-deterministic race condition and data corruption.",
-        "A hardware thread mistakenly reading uncommitted speculative data from another thread's reorder buffer due to an alias in the store queue.",
-        "Multiple processor cores concurrently modifying completely independent variables that happen to reside within the same physical cache line, triggering frequent and unnecessary cache coherence invalidations.",
-        "Two distinct virtual memory pages mapping to the same set in a physically indexed cache, repeatedly evicting each other's data lines.",
-        "A failure in the directory-based coherence controller that erroneously marks a dirty cache line as clean in main memory."
+        "Von Neumann architectures employ fixed-length instructions, whereas Harvard architectures rely exclusively on variable-length CISC instructions.",
+        "Von Neumann architectures execute instructions out-of-order, whereas Harvard architectures require strict in-order execution.",
+        "Von Neumann architectures utilize a single shared physical memory and bus system for both instructions and data, whereas Harvard architectures physically separate instruction and data memories and pathways.",
+        "Von Neumann architectures store operands exclusively in high-speed hardware registers, whereas Harvard architectures stream operands directly from main storage.",
+        "Von Neumann architectures implement hardware-managed floating-point coprocessors, whereas Harvard architectures handle floating-point calculations via software emulation."
       ],
       "correct": 2
     },
     {
-      "question": "In low-power digital IC design employing power gating, what is the primary purpose of inserting isolation cells at the boundary between a power-gated domain and an always-on domain?",
+      "question": "In multi-clock domain digital design, why are the read and write pointers of an asynchronous FIFO converted to Gray code before being passed through multi-flip-flop synchronizers across clock domains?",
       "options": [
-        "To step down the supply voltage level between higher-voltage core logic and lower-voltage I/O pads.",
-        "To store the complete architectural register state of the power-gated domain across the duration of the sleep cycle.",
-        "To prevent high-frequency clock jitter from coupling into sensitive analog and PLL power rails.",
-        "To clamp boundary signals to a known, valid logic level (0 or 1) when the domain is powered off, preventing floating inputs and excessive crowbar current in downstream always-on logic.",
-        "To filter out high-voltage ESD transients before they can degrade the gate oxide of input buffer transistors."
+        "To guarantee that only a single bit changes between consecutive pointer increments, preventing multi-bit transition skews from causing the synchronizer to capture invalid intermediate pointer states.",
+        "To compress the pointer bit-width by half, thereby minimizing the silicon area required for the synchronization flip-flops and bus routing.",
+        "To eliminate setup and hold time requirements on the receiving synchronizer flip-flops through self-timed asynchronous handshaking.",
+        "To convert the cyclic binary counter values into linear arithmetic values, simplifying the generation of the FIFO 'full' and 'empty' comparison flags.",
+        "To reduce the switching frequency of the most significant bit (MSB), thereby lowering total dynamic power dissipation on the clock tree."
       ],
-      "correct": 3
+      "correct": 0
     },
     {
-      "question": "In hardware networking devices and specialized memory design, what fundamental architectural capability distinguishes a Ternary Content-Addressable Memory (TCAM) from a conventional Binary CAM?",
+      "question": "In modern out-of-order superscalar processors, how does the Reorder Buffer (ROB) ensure that the processor maintains precise architectural exceptions despite speculative and out-of-order execution?",
       "options": [
-        "A TCAM uses three separate read/write ports to allow simultaneous lookup by three independent network processing cores.",
-        "A TCAM incorporates an internal three-state charge-pump mechanism to perform search operations at one-third the dynamic power of a binary CAM.",
-        "A TCAM stores data using three distinct voltage levels (ternary logic) within a single capacitive cell, tripling storage density relative to binary SRAM cells.",
-        "A TCAM outputs the exact physical memory address of every matching entry sequentially over three consecutive clock cycles.",
-        "Each storage bit in a TCAM supports a third 'don't care' (mask) state in addition to 0 and 1, enabling parallel wildcard searching and longest-prefix matching in a single clock cycle."
+        "By stalling the instruction fetch and decode units immediately whenever any arithmetic instruction raises an internal execution fault in the execution stage.",
+        "By dynamically squashing instructions inside the reservation stations as soon as an execution pipeline reports an exception flag.",
+        "By checkpointing the complete physical register file into non-volatile shadow registers on every speculative branch instruction.",
+        "By executing faulting instructions twice sequentially to verify whether an exception is persistent or merely caused by transient soft errors.",
+        "By tracking speculative instruction state and strictly committing architectural results in original program order from the head of the buffer, deferring exception handling until the faulting instruction reaches the retirement head."
       ],
       "correct": 4
+    },
+    {
+      "question": "In deep-submicron VLSI physical design and reliability engineering, what physical mechanism causes electromigration in on-chip metal interconnects, as governed by Black's equation?",
+      "options": [
+        "Dielectric breakdown of the inter-metal dielectric (IMD) layer caused by high electric fields exceeding the critical oxide breakdown voltage.",
+        "Directional mass transport of metal conductor atoms caused by momentum transfer from conducting electrons ('electron wind'), leading to voids upstream and hillocks downstream.",
+        "Diffusion of substrate dopant impurities into lower metal layers driven by high thermal gradients between active devices and heat sinks.",
+        "Mechanical fracture of copper wires resulting from mismatched thermal expansion coefficients (CTE) between the silicon substrate and the packaging substrate.",
+        "Trapping of hot holes in the gate oxide interface during high-frequency switching, leading to a permanent shift in transistor threshold voltage."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In high-performance computer architecture, what is the primary architectural advantage of a vector architecture that utilizes a dynamically configurable Vector Length Register (such as the RISC-V Vector extension or classic Cray vector processors) compared to a fixed-width packed SIMD architecture (such as x86 AVX-512)?",
+      "options": [
+        "It guarantees deterministic single-cycle execution latency for all transcendental and matrix multiply instructions across all implementations.",
+        "It eliminates the requirement for data alignment or memory bank interleaving in the underlying cache and memory hierarchy.",
+        "It allows vector execution units to run at double the clock frequency of the scalar pipeline by pipeline-folding the arithmetic logic units.",
+        "It achieves Vector-Length Agnostic (VLA) binary compatibility, allowing the same compiled binary to scale efficiently across microarchitectures with different hardware vector register widths without code recompilation or complex loop-tail peeling.",
+        "It replaces all explicit vector register allocations with dynamic stack-based execution, eliminating register pressure entirely."
+      ],
+      "correct": 3
     }
   ]
 }
