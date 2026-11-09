@@ -1,9 +1,4 @@
 [
-  "In modern high-performance microprocessor microarchitectures, what foundational design principle allows the TAGE (TAgged GEometric history length) branch predictor to achieve state-of-the-art prediction accuracy?",
-  "In high-speed digital arithmetic and multiplier design, what is the primary architectural advantage of employing Radix-4 Modified Booth Encoding (MBE) over a standard unsigned array multiplier?",
-  "In combinational digital logic design, what fundamental behavior distinguishes a dynamic hazard from a static hazard?",
-  "In virtual memory management within modern processor architectures, what is the primary operational purpose of associating an Address Space Identifier (ASID) or Process Context Identifier (PCID) with entries in the Translation Lookaside Buffer (TLB)?",
-  "In Static Timing Analysis (STA) for deep-submicron ASICs, how does Advanced On-Chip Variation (AOCV) analysis reduce over-pessimism compared to traditional flat On-Chip Variation (OCV) derating?",
   "In CMOS digital circuit design, why is a transmission gate (pass gate) constructed using a complementary pair of parallel nMOS and pMOS transistors rather than a single nMOS transistor?",
   "In Network-on-Chip (NoC) architectures employing wormhole routing for multi-core processors, what is the primary architectural purpose of implementing Virtual Channels (VCs)?",
   "In superscalar processor microarchitecture, which type of data dependency represents a 'true dependency' that cannot be eliminated through register renaming, inherently dictating the flow of computation?",
@@ -48,5 +43,10 @@
   "In multi-clock domain digital design, why are the read and write pointers of an asynchronous FIFO converted to Gray code before being passed through multi-flip-flop synchronizers across clock domains?",
   "In modern out-of-order superscalar processors, how does the Reorder Buffer (ROB) ensure that the processor maintains precise architectural exceptions despite speculative and out-of-order execution?",
   "In deep-submicron VLSI physical design and reliability engineering, what physical mechanism causes electromigration in on-chip metal interconnects, as governed by Black's equation?",
-  "In high-performance computer architecture, what is the primary architectural advantage of a vector architecture that utilizes a dynamically configurable Vector Length Register (such as the RISC-V Vector extension or classic Cray vector processors) compared to a fixed-width packed SIMD architecture (such as x86 AVX-512)?"
+  "In high-performance computer architecture, what is the primary architectural advantage of a vector architecture that utilizes a dynamically configurable Vector Length Register (such as the RISC-V Vector extension or classic Cray vector processors) compared to a fixed-width packed SIMD architecture (such as x86 AVX-512)?",
+  "In a high-performance pipelined microprocessor, what is the primary operational role of a Branch Target Buffer (BTB)?",
+  "In processor computer architecture, what fundamental capability distinguishes Simultaneous Multithreading (SMT) from coarse-grained and fine-grained (temporal) multithreading?",
+  "In synchronous digital circuit design, what does the \"hold time\" (t_hold) parameter of an edge-triggered flip-flop specify?",
+  "In dynamic CMOS logic design (such as Domino logic), what is the primary function of adding a weak pMOS \"keeper\" transistor to the precharged dynamic node?",
+  "In deep-submicron ASIC physical design and manufacturing, what causes the \"antenna effect\" (plasma-induced gate oxide damage), and how is it typically mitigated during routing?"
 ]

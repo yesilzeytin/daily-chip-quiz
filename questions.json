@@ -1,59 +1,59 @@
 {
   "questions": [
     {
-      "question": "In computer architecture, what is the fundamental structural distinction between the classic Von Neumann architecture and the Harvard architecture?",
+      "question": "In a high-performance pipelined microprocessor, what is the primary operational role of a Branch Target Buffer (BTB)?",
       "options": [
-        "Von Neumann architectures employ fixed-length instructions, whereas Harvard architectures rely exclusively on variable-length CISC instructions.",
-        "Von Neumann architectures execute instructions out-of-order, whereas Harvard architectures require strict in-order execution.",
-        "Von Neumann architectures utilize a single shared physical memory and bus system for both instructions and data, whereas Harvard architectures physically separate instruction and data memories and pathways.",
-        "Von Neumann architectures store operands exclusively in high-speed hardware registers, whereas Harvard architectures stream operands directly from main storage.",
-        "Von Neumann architectures implement hardware-managed floating-point coprocessors, whereas Harvard architectures handle floating-point calculations via software emulation."
-      ],
-      "correct": 2
-    },
-    {
-      "question": "In multi-clock domain digital design, why are the read and write pointers of an asynchronous FIFO converted to Gray code before being passed through multi-flip-flop synchronizers across clock domains?",
-      "options": [
-        "To guarantee that only a single bit changes between consecutive pointer increments, preventing multi-bit transition skews from causing the synchronizer to capture invalid intermediate pointer states.",
-        "To compress the pointer bit-width by half, thereby minimizing the silicon area required for the synchronization flip-flops and bus routing.",
-        "To eliminate setup and hold time requirements on the receiving synchronizer flip-flops through self-timed asynchronous handshaking.",
-        "To convert the cyclic binary counter values into linear arithmetic values, simplifying the generation of the FIFO 'full' and 'empty' comparison flags.",
-        "To reduce the switching frequency of the most significant bit (MSB), thereby lowering total dynamic power dissipation on the clock tree."
+        "To provide the predicted target address of a branch instruction during the instruction fetch stage before the instruction is decoded or its target calculated.",
+        "To track the taken/not-taken direction of conditional branches using a pattern history table of saturating counters.",
+        "To buffer instructions fetched ahead of the program counter to smooth out main memory access latency.",
+        "To save and restore caller-saved registers automatically during function call and return instructions.",
+        "To detect and resolve RAW (Read-After-Write) dependencies between branch instructions and preceding arithmetic operations."
       ],
       "correct": 0
     },
     {
-      "question": "In modern out-of-order superscalar processors, how does the Reorder Buffer (ROB) ensure that the processor maintains precise architectural exceptions despite speculative and out-of-order execution?",
+      "question": "In processor computer architecture, what fundamental capability distinguishes Simultaneous Multithreading (SMT) from coarse-grained and fine-grained (temporal) multithreading?",
       "options": [
-        "By stalling the instruction fetch and decode units immediately whenever any arithmetic instruction raises an internal execution fault in the execution stage.",
-        "By dynamically squashing instructions inside the reservation stations as soon as an execution pipeline reports an exception flag.",
-        "By checkpointing the complete physical register file into non-volatile shadow registers on every speculative branch instruction.",
-        "By executing faulting instructions twice sequentially to verify whether an exception is persistent or merely caused by transient soft errors.",
-        "By tracking speculative instruction state and strictly committing architectural results in original program order from the head of the buffer, deferring exception handling until the faulting instruction reaches the retirement head."
-      ],
-      "correct": 4
-    },
-    {
-      "question": "In deep-submicron VLSI physical design and reliability engineering, what physical mechanism causes electromigration in on-chip metal interconnects, as governed by Black's equation?",
-      "options": [
-        "Dielectric breakdown of the inter-metal dielectric (IMD) layer caused by high electric fields exceeding the critical oxide breakdown voltage.",
-        "Directional mass transport of metal conductor atoms caused by momentum transfer from conducting electrons ('electron wind'), leading to voids upstream and hillocks downstream.",
-        "Diffusion of substrate dopant impurities into lower metal layers driven by high thermal gradients between active devices and heat sinks.",
-        "Mechanical fracture of copper wires resulting from mismatched thermal expansion coefficients (CTE) between the silicon substrate and the packaging substrate.",
-        "Trapping of hot holes in the gate oxide interface during high-frequency switching, leading to a permanent shift in transistor threshold voltage."
+        "SMT dynamically assigns each logical thread its own physically dedicated, unshared L1 data and instruction caches.",
+        "SMT allows instructions from multiple independent threads to be dispatched and executed across different functional units within the exact same clock cycle.",
+        "SMT eliminates the need for maintaining separate architectural register states (such as program counters and register files) for each thread.",
+        "SMT relies entirely on static compile-time scheduling to interleave instructions across threads without requiring hardware issue logic.",
+        "SMT switches execution context between threads strictly when the active thread encounters a high-latency event such as a Last-Level Cache (LLC) miss."
       ],
       "correct": 1
     },
     {
-      "question": "In high-performance computer architecture, what is the primary architectural advantage of a vector architecture that utilizes a dynamically configurable Vector Length Register (such as the RISC-V Vector extension or classic Cray vector processors) compared to a fixed-width packed SIMD architecture (such as x86 AVX-512)?",
+      "question": "In synchronous digital circuit design, what does the \"hold time\" (t_hold) parameter of an edge-triggered flip-flop specify?",
       "options": [
-        "It guarantees deterministic single-cycle execution latency for all transcendental and matrix multiply instructions across all implementations.",
-        "It eliminates the requirement for data alignment or memory bank interleaving in the underlying cache and memory hierarchy.",
-        "It allows vector execution units to run at double the clock frequency of the scalar pipeline by pipeline-folding the arithmetic logic units.",
-        "It achieves Vector-Length Agnostic (VLA) binary compatibility, allowing the same compiled binary to scale efficiently across microarchitectures with different hardware vector register widths without code recompilation or complex loop-tail peeling.",
-        "It replaces all explicit vector register allocations with dynamic stack-based execution, eliminating register pressure entirely."
+        "The maximum time required for the flip-flop output (Q) to transition to a stable logic state after the active clock edge.",
+        "The minimum time the input data signal must remain stable and unchanged prior to the arrival of the active clock edge.",
+        "The minimum time the input data signal must remain stable and unchanged after the arrival of the active clock edge.",
+        "The minimum duration that the clock signal must remain continuously at a high or low voltage level.",
+        "The maximum clock skew that can be tolerated between two adjacent flip-flops before entering metastability."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In dynamic CMOS logic design (such as Domino logic), what is the primary function of adding a weak pMOS \"keeper\" transistor to the precharged dynamic node?",
+      "options": [
+        "To significantly increase pull-down current capability, thereby reducing propagation delay during evaluation.",
+        "To convert the dynamic logic stage into fully static complementary logic and eliminate the precharge clock phase.",
+        "To discharge the internal output node to ground rapidly whenever an erroneous voltage glitch appears at the inputs.",
+        "To prevent the dynamic node from floating during the evaluation phase, compensating for subthreshold leakage and noise without overpowering the pull-down network.",
+        "To ensure that consecutive dynamic logic stages can be cascaded directly without needing an intermediate static CMOS inverter."
       ],
       "correct": 3
+    },
+    {
+      "question": "In deep-submicron ASIC physical design and manufacturing, what causes the \"antenna effect\" (plasma-induced gate oxide damage), and how is it typically mitigated during routing?",
+      "options": [
+        "High-frequency RF noise emitted by fast clock nets induces parasitic currents in adjacent signal routes; mitigated by inserting grounded shield wires.",
+        "Unequal thermal expansion coefficients between copper metal interconnects and the silicon substrate delaminate the dielectric; mitigated by inserting thermal relief structures.",
+        "High capacitive cross-talk between dense parallel long wires causes permanent dielectric breakdown; mitigated by increasing wire spacing and inserting buffer repeaters.",
+        "High current density accelerates momentum transfer and causes metal voiding; mitigated by widening metal interconnects according to Black's equation.",
+        "Long exposed metal interconnects collect electrostatic charge during plasma etching that discharges through thin gate oxide; mitigated by inserting antenna diodes or routing jumpers to higher metal layers."
+      ],
+      "correct": 4
     }
   ]
 }
